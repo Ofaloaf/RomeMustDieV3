@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:CNT = {
+		create_character = {
+			template = CNT_eudaf_vosenianus
+		}
+	}
+}

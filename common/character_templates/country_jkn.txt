@@ -1,0 +1,50 @@
+﻿jkn_industrialists = {
+	first_name = Yasumasa
+	last_name = Matsura
+	historical = yes
+	culture = cu:nikkei_tobujin
+	female = no
+	ig_leader = yes
+	age = 60
+	interest_group = ig_industrialists
+	religion = rel:mahayana
+	traits = {
+		bigoted
+		charismatic
+		experienced_diplomat
+	}
+}
+
+jkn_armed_forces = {
+	first_name = Okihira
+	last_name = Murakami
+	historical = yes
+	culture = cu:nikkei_tobujin
+	female = no
+	ig_leader = yes
+	age = 52
+	interest_group = ig_armed_forces
+	religion = rel:mahayana
+	traits = {
+		direct
+		arrogant
+		popular_commander
+	}
+}
+
+jkn_rural_folk = {
+	first_name = Ichiro
+	last_name = Koteda
+	historical = yes
+	culture = cu:nikkei_tobujin
+	female = no
+	ig_leader = yes
+	age = 31
+	interest_group = ig_rural_folk
+	religion = rel:mahayana
+	traits = {
+		imperious
+		ambitious
+		basic_colonial_administrator
+	}
+}

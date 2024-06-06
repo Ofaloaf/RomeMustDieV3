@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:GTL = {
+		create_character = {
+			template = GTL_rodle_wonreding
+		}
+	}
+}

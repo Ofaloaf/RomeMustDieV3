@@ -1,0 +1,255 @@
+﻿wre_ruler = {
+    first_name = Victor
+    last_name = Tatulus
+    historical = yes
+    ruler = yes
+    age = 58
+    interest_group = ig_landowners
+    traits = {
+        arrogant
+    }
+}
+
+wre_heir = {
+    first_name = "Victorianus"
+    last_name = Tatulus
+    historical = yes
+    heir = yes
+    age = 24
+    interest_group = ig_petty_bourgeoisie
+    traits = {
+        reckless
+    }
+}
+
+wre_odoacer_expy = {
+    first_name = Onulphus
+    last_name = Otacheringi
+    historical = yes
+    age = 37
+    ig_leader = yes
+    culture = cu:thuringian
+    religion = rel:arian
+    interest_group = ig_armed_forces
+    ideology = ideology_moderate
+    is_general = yes
+    hq = region_italy
+    commander_rank = commander_rank_4
+    traits = {
+        ambitious
+        reckless
+        pillager
+    }
+}
+
+wre_rural_folk_leader = {
+    first_name = Costantino
+    last_name = Atrianense
+    historical = yes
+    age = 62
+    ig_leader = yes
+    interest_group = ig_rural_folk
+    ideology = ideology_moderate
+    traits = {
+        alcoholic
+        reserved
+    }
+}
+
+wre_landowners_leader = {
+    first_name = Chrysogonus
+    last_name = Petrus_Leonis
+    historical = yes
+    age = 38
+    ig_leader = yes
+    interest_group = ig_landowners
+    ideology = ideology_moderate
+    traits = {
+        honorable
+        direct
+        literary
+    }
+}
+
+### COMMANDERS - GENERALS ###
+
+wre_general_01 = {
+    first_name = Gercorio
+    last_name = Segontiense
+    historical = yes
+    age = 53
+    culture = cu:hispanian
+    religion = rel:nicene
+    interest_group = ig_rural_folk
+    ideology = ideology_traditionalist
+    is_general = yes
+    hq = region_occitania
+    commander_rank = commander_rank_1
+    traits = {
+        cautious
+        imposing
+        alcoholic
+    }
+}
+
+wre_general_02 = {
+    first_name = Bonifacio
+    last_name = Ruffo
+    historical = yes
+    age = 59
+    culture = cu:roman
+    religion = rel:nicene
+    interest_group = ig_petty_bourgeoisie
+    ideology = ideology_royalist
+    is_general = yes
+    hq = region_north_africa
+    commander_rank = commander_rank_2
+    traits = {
+        bigoted
+        pious
+        meticulous
+    }
+}
+
+wre_general_03 = {
+    first_name = Glaucias
+    last_name = Scirtar
+    historical = yes
+    age = 43
+    culture = cu:illyrian
+    religion = rel:arian
+    interest_group = ig_landowners
+    ideology = ideology_moderate
+    is_general = yes
+    hq = region_occitania
+    commander_rank = commander_rank_1
+    traits = {
+        imperious
+        meticulous
+        resupply_commander
+    }
+}
+
+wre_general_04 = {
+    first_name = Eneas
+    last_name = Cincio
+    historical = yes
+    age = 51
+    culture = cu:roman
+    religion = rel:nicene
+    interest_group = ig_landowners
+    ideology = ideology_moderate
+    is_general = yes
+    hq = region_italy
+    commander_rank = commander_rank_1
+    traits = {
+        tactful
+        pious
+        traditionalist_commander
+    }
+}
+
+### AGITATORS ###
+
+wre_agitator_diana_nemorensis = {
+	first_name = Diana
+	last_name = Nemorensis
+	historical = yes
+	culture = cu:roman
+	religion = rel:nicene
+	female = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_feminist
+	birth_date = 1731.2.15
+	dna = dna_susan_b_anthony
+	traits = {
+		persistent
+		demagogue
+		pious
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			c:WRE ?= this
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            OR = {
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_petty_bourgeoisie
+            } 
+        }   
+		earliest_usage_date = 1761.1.1
+		latest_usage_date = 1791.1.1
+		chance = 50
+	}
+}
+
+wre_agitator_spartaculus = {
+    first_name = Spartaculus
+    last_name = Porcario
+    historical = yes
+    culture = cu:roman
+    religion = rel:nicene
+    interest_group = ig_rural_folk
+    ideology = ideology_abolitionist
+    birth_date = 1729.5.21
+    traits = {
+        firebrand
+        charismatic
+        pious
+    }
+    agitator_usage = {
+        country_trigger = {
+            c:WRE ?= this
+            c:WRE ?= {
+                NOT = { has_law = law_type:law_slavery_banned }
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            OR = {
+                is_interest_group_type = ig_devout
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_rural_folk
+            } 
+        }   
+        earliest_usage_date = 1749.1.1
+        latest_usage_date = 1789.1.1
+        chance = 100
+    }
+}
+
+wre_agitator_octavianus = {
+    first_name = Lupus
+    last_name = Octavianus
+    historical = yes
+    culture = cu:roman
+    religion = rel:nicene
+    interest_group = ig_armed_forces
+    ideology = ideology_fascist
+    birth_date = 1780.2.4
+    traits = {
+        demagogue
+        cruel
+        persistent
+    }
+    agitator_usage = {
+        country_trigger = {
+            c:WRE ?= this
+            c:WRE ?= {
+                has_technology_researched = mass_propaganda
+            }
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            OR = {
+                is_interest_group_type = ig_armed_forces
+                is_interest_group_type = ig_landowners
+            } 
+        }   
+        earliest_usage_date = 1810.1.1
+        latest_usage_date = 1847.1.1
+        chance = 50
+    }
+}

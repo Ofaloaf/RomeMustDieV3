@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:AIL = {
+		create_character = {
+			first_name = Fergus
+			last_name = UI__NE_ill
+			historical = yes
+			ruler = yes
+			age = 51
+			interest_group = ig_armed_forces
+			traits = {
+				imposing
+				pious
+			}
+		}
+	}
+}

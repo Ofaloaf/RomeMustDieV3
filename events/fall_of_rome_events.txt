@@ -1,0 +1,506 @@
+﻿namespace = fall_of_rome_events
+
+fall_of_rome_events.100 = { #Split china up into warlord states
+	type = country_event
+	placement = root
+	duration = 3
+
+	title = fall_of_rome_events.100.t
+	desc = fall_of_rome_events.100.d
+	flavor = fall_of_rome_events.100.f
+
+	event_image = {
+		texture = "fall_of_rome"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+
+	trigger = {
+		exists = c:WRE
+		this = c:WRE
+		NOT = { has_global_variable = wre_shatters }
+	}
+
+	immediate = {
+		set_global_variable = wre_shatters
+		
+		set_variable = roman_central_government
+		
+		### Italian Warlords ###
+		
+		if = {
+			limit = { 
+				NOT = { exists = c:SIC }
+				exists = s:STATE_SICILY.region_state:WRE 
+			}
+			create_country = { # Sicily
+				tag = SIC
+				origin = this
+				state = s:STATE_SICILY.region_state:WRE
+				on_created = {
+					warlord_setup_effect = yes
+					set_variable = warlord_state
+				}
+			}
+			c:SIC = { save_scope_as = scope_SIC }
+		}
+		
+		if = {
+			limit = { 
+				NOT = { exists = c:MDL }
+				exists = s:STATE_LOMBARDY.region_state:WRE 
+			}
+			create_country = { # MDL
+				tag = MDL
+				origin = this
+				state = s:STATE_LOMBARDY.region_state:WRE
+				on_created = {
+					warlord_setup_effect = yes
+					set_variable = warlord_state
+				}
+			}
+			c:MDL = { save_scope_as = scope_MDL }
+		}
+		
+		if = {
+			limit = { 
+				NOT = { exists = c:SAR }
+				exists = s:STATE_SARDINIA.region_state:WRE 
+			}
+			create_country = { # Sardinia
+				tag = SAR
+				origin = this
+				state = s:STATE_SARDINIA.region_state:WRE
+				on_created = {
+					warlord_setup_effect = yes
+					set_variable = warlord_state
+				}
+			}
+			c:SAR = { save_scope_as = scope_SAR }
+		}
+		
+		###
+		
+		### Illyrian Warlords ###
+		
+		if = {
+			limit = { 
+				NOT = { exists = c:DLM }
+				exists = s:STATE_DALMATIA.region_state:WRE 
+			}
+			create_country = { # Dalmatia
+				tag = DLM
+				origin = this
+				state = s:STATE_DALMATIA.region_state:WRE
+				on_created = {
+					warlord_setup_effect = yes
+					set_variable = warlord_state
+				}
+			}
+			c:DLM = { save_scope_as = scope_DLM }
+		}
+		
+		###
+		
+		### Gallic Warlords ###
+		
+		if = {
+			limit = { 
+				NOT = { exists = c:ARV }
+				exists = s:STATE_AUVERGNE_LIMOUSIN.region_state:WRE 
+			}
+			create_country = { # Arvernia
+				tag = ARV
+				origin = this
+				state = s:STATE_AUVERGNE_LIMOUSIN.region_state:WRE
+				on_created = {
+					warlord_setup_effect = yes
+					set_variable = warlord_state
+				}
+			}
+			c:ARV = { save_scope_as = scope_ARV }
+		}
+		if = {
+			limit = { 
+				NOT = { exists = c:GTH }
+				exists = s:STATE_LANGUEDOC.region_state:WRE 
+			}
+			create_country = { # Gothia
+				tag = GTH
+				origin = this
+				state = s:STATE_LANGUEDOC.region_state:WRE
+				on_created = {
+					warlord_setup_effect = yes
+					set_variable = warlord_state
+				}
+			}
+			c:GTH = { save_scope_as = scope_GTH }
+		}
+		
+		###
+		
+		### Hispanian Warlords ###
+
+		if = {
+			limit = { 
+				NOT = { exists = c:BTC }
+				exists = s:STATE_ANDALUSIA.region_state:WRE 
+			}
+			create_country = { # Baetica
+				tag = BTC
+				origin = this
+				state = s:STATE_ANDALUSIA.region_state:WRE
+
+				on_created = {
+					warlord_setup_effect = yes
+					set_variable = warlord_state
+				}
+			}
+			c:BTC = { save_scope_as = scope_BTC }
+		}
+
+		if = {
+			limit = { 
+				NOT = { exists = c:TRR }
+				exists = s:STATE_CATALONIA.region_state:WRE 
+			}
+			create_country = { # Tarraconensis
+				tag = TRR
+				origin = this
+				state = s:STATE_CATALONIA.region_state:WRE
+				on_created = {
+					warlord_setup_effect = yes
+					set_variable = warlord_state
+				}
+			}
+			c:TRR = { save_scope_as = scope_TRR }
+		}
+
+		if = {
+			limit = { 
+				NOT = { exists = c:LST }
+				exists = s:STATE_BADAJOZ.region_state:WRE 
+			}
+			create_country = { # Lusitania
+				tag = LST
+				origin = this
+				state = s:STATE_BADAJOZ.region_state:WRE
+				on_created = {
+					warlord_setup_effect = yes
+					set_variable = warlord_state
+				}
+			}
+			c:LST = { save_scope_as = scope_LST }
+		}
+		
+		if = {
+			limit = { 
+				NOT = { exists = c:NAV }
+				exists = s:STATE_NAVARRA.region_state:WRE 
+			}
+			create_country = {  # Vasconia
+				tag = NAV
+				origin = this
+				state = s:STATE_NAVARRA.region_state:WRE
+
+				on_created = {
+					warlord_setup_effect = yes
+					set_variable = warlord_state
+				}
+			}
+			c:NAV = { save_scope_as = scope_NAV }
+		}
+
+		if = {
+			limit = { 
+				NOT = { exists = c:BDL }
+				exists = s:STATE_CASTILE.region_state:WRE 
+			}
+			create_country = {  # Bardulia
+				tag = BDL
+				origin = this
+				state = s:STATE_CASTILE.region_state:WRE
+
+				on_created = {
+					warlord_setup_effect = yes
+					set_variable = warlord_state
+				}
+			}
+			c:BDL = { save_scope_as = scope_BDL }
+		}
+		
+		if = {
+			limit = { 
+				NOT = { exists = c:GLI }
+				exists = s:STATE_GALICIA.region_state:WRE 
+			}
+			create_country = {  # Gallaecia
+				tag = GLI
+				origin = this
+				state = s:STATE_GALICIA.region_state:WRE
+
+				on_created = {
+					warlord_setup_effect = yes
+					set_variable = warlord_state
+				}
+			}
+			c:GLI = { save_scope_as = scope_GLI }
+		}
+		
+		###
+		
+		every_subject_or_below = {
+			make_independent = yes
+		}
+
+		random_country = {
+			limit = {
+				has_variable = warlord_state
+				NOR = {
+					has_variable = var_warlord_two
+					has_variable = var_warlord_three
+					has_variable = var_warlord_four 
+				}
+			}
+			save_scope_as = scope_random_warlord_one
+			set_variable = var_warlord_one
+		}
+
+		random_country = {
+			limit = {
+				has_variable = warlord_state
+				NOR = {
+					has_variable = var_warlord_one
+					has_variable = var_warlord_three
+					has_variable = var_warlord_four
+				}
+			}
+			save_scope_as = scope_random_warlord_two
+			set_variable = var_warlord_two
+		}
+
+		random_country = {
+			limit = {
+				has_variable = warlord_state
+				NOR = {
+					has_variable = var_warlord_one
+					has_variable = var_warlord_two
+					has_variable = var_warlord_four
+				}
+			}
+			save_scope_as = scope_random_warlord_three
+			set_variable = var_warlord_three
+		}
+
+		random_country = {
+			limit = {
+				has_variable = warlord_state
+				NOR = {
+					has_variable = var_warlord_one
+					has_variable = var_warlord_two
+					has_variable = var_warlord_three
+				}
+			}
+			save_scope_as = scope_random_warlord_four
+			set_variable = var_warlord_four
+		}
+	}
+
+	option = {
+		name = fall_of_rome_events.100.ab
+		trigger = {
+			exists = scope:scope_random_warlord_one
+			is_player = yes
+		}
+		custom_tooltip = warlord_china_implosion_tt
+		while = {
+			limit = {
+				any_scope_state = {
+					is_capital = no
+					any_neighbouring_state = {
+						owner = { has_variable = warlord_state }
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					has_variable = warlord_state
+					any_neighbouring_state = {
+						is_capital = no
+						owner = ROOT
+					}
+				}
+				save_scope_as = test_scope
+			}
+			random_scope_state = {
+				limit = {
+					is_capital = no
+					any_neighbouring_state = {
+						owner = scope:test_scope
+					}
+				}
+				set_state_owner = scope:test_scope
+			}
+			clear_saved_scope = test_scope
+		}
+		play_as = scope:scope_random_warlord_one
+	}
+
+	option = {
+		name = fall_of_rome_events.100.b
+		trigger = {
+			exists = scope:scope_random_warlord_two
+			is_player = yes
+		}
+		custom_tooltip = warlord_china_implosion_tt
+		while = {
+			limit = {
+				any_scope_state = {
+					is_capital = no
+					any_neighbouring_state = {
+						owner = { has_variable = warlord_state }
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					has_variable = warlord_state
+					any_neighbouring_state = {
+						is_capital = no
+						owner = ROOT
+					}
+				}
+				save_scope_as = test_scope
+			}
+			random_scope_state = {
+				limit = {
+					is_capital = no
+					any_neighbouring_state = {
+						owner = scope:test_scope
+					}
+				}
+				set_state_owner = scope:test_scope
+			}
+			clear_saved_scope = test_scope
+		}
+		play_as = scope:scope_random_warlord_two
+	}
+
+	option = {
+		name = fall_of_rome_events.100.c
+		trigger = {
+			exists = scope:scope_random_warlord_three
+			is_player = yes
+		}
+		custom_tooltip = warlord_china_implosion_tt
+		while = {
+			limit = {
+				any_scope_state = {
+					is_capital = no
+					any_neighbouring_state = {
+						owner = { has_variable = warlord_state }
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					has_variable = warlord_state
+					any_neighbouring_state = {
+						is_capital = no
+						owner = ROOT
+					}
+				}
+				save_scope_as = test_scope
+			}
+			random_scope_state = {
+				limit = {
+					is_capital = no
+					any_neighbouring_state = {
+						owner = scope:test_scope
+					}
+				}
+				set_state_owner = scope:test_scope
+			}
+			clear_saved_scope = test_scope
+		}
+		play_as = scope:scope_random_warlord_three
+	}
+
+	option = {
+		name = fall_of_rome_events.100.aa
+		trigger = {
+			exists = scope:scope_random_warlord_four
+			is_player = yes
+		}
+		custom_tooltip = warlord_china_implosion_tt
+		while = {
+			limit = {
+				any_scope_state = {
+					is_capital = no
+					any_neighbouring_state = {
+						owner = { has_variable = warlord_state }
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					has_variable = warlord_state
+					any_neighbouring_state = {
+						is_capital = no
+						owner = ROOT
+					}
+				}
+				save_scope_as = test_scope
+			}
+			random_scope_state = {
+				limit = {
+					is_capital = no
+					any_neighbouring_state = {
+						owner = scope:test_scope
+					}
+				}
+				set_state_owner = scope:test_scope
+			}
+			clear_saved_scope = test_scope
+		}
+		play_as = scope:scope_random_warlord_four
+	}
+
+	option = {
+		default_option = yes
+		name = fall_of_rome_events.100.a
+		custom_tooltip = warlord_china_implosion_tt
+		while = {
+			limit = {
+				any_scope_state = {
+					is_capital = no
+					any_neighbouring_state = {
+						owner = { has_variable = warlord_state }
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					has_variable = warlord_state
+					any_neighbouring_state = {
+						is_capital = no
+						owner = ROOT
+					}
+				}
+				save_scope_as = test_scope
+			}
+			random_scope_state = {
+				limit = {
+					is_capital = no
+					any_neighbouring_state = {
+						owner = scope:test_scope
+					}
+				}
+				set_state_owner = scope:test_scope
+			}
+			clear_saved_scope = test_scope
+		}
+	}
+}

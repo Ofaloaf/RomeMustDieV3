@@ -1,0 +1,7 @@
+﻿NGame = {
+	START_DATE = "1747.1.1" 
+	END_DATE = "1847.1.1" 
+}
+NPolitics = {
+	DEFAULT_LAW_ACTIVATION_DATE = "1747.1.1"
+}

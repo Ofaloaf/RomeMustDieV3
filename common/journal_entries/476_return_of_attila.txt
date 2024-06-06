@@ -1,0 +1,274 @@
+﻿je_attila_returns = {
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	group = je_group_historical_content
+
+	immediate = {
+		set_variable = { name = attila_progress value = 0 }
+
+		set_variable = { name = attila_progress_from_characters value = 0 } #Progress-from-character component. This updates with the combined popularities of every Bonapartist character later on, and is used to calculate bonapartist_progress_next.
+		set_variable = { name = attila_progress_from_igs value = 0 } #Progress-from-IG component. This updates with the combined clout of every Bonapartist IG later on, and is used to calculate bonapartist_progress_next.
+		set_variable = { name = attila_progress_from_military value = 0 } #Progress-from-military-building component. This updates with the sum of military building levels in France later on, and is used to calculate bonapartist_progress_next.
+		set_variable = { name = attila_progress_from_legitimacy value = 0 } #Progress-from-legitimacy component. This updates with the current government legitimacy, and is also used to calculate bonapartist_progress_next.
+		set_variable = { name = attila_progress_from_effects value = 0 } #Final element in bonapartist_progress_next. This is defined by various effects, and is based solely on scripted effects. This is how designers can manually grant ticking bonuses or maluses to this mechanic.
+		set_variable = { name = attila_progress_next value = 0 }
+		
+		set_variable = { name = ig_weight value = 0 }
+
+		random_law = {
+			limit = { type = law_type:law_monarchy }
+			save_scope_as = monarchy_scope
+		}
+	}
+
+	complete = {
+		has_law = law_type:law_monarchy
+		custom_tooltip = {
+			text = je_divided_monarchists_02_tt
+			has_variable = one_true_french_dynasty #Can only ever complete upon finishing the Cement the Rightful Dynasty journal entry.
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = attila_evts.2 }
+		custom_tooltip = {
+			text = je_divided_monarchists_03_tt
+			remove_variable = attila_progress 
+			remove_variable = attila_progress_from_characters 
+			remove_variable = attila_progress_from_igs 
+			remove_variable = attila_progress_from_military 
+			remove_variable = attila_progress_from_legitimacy 
+			remove_variable = attila_progress_from_effects 
+			remove_variable = attila_progress_next 
+			remove_variable = attila_progress 
+			remove_variable = ig_weight
+		}
+	}
+
+	#scripted_button = french_monarchy_bonapartist_button
+	#scripted_button = french_monarchy_orleanist_button
+	#scripted_button = french_monarchy_legitimist_button
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = { 
+				desc = status_attila_emperor
+				trigger = {
+					var:attila_progress > 240
+				}
+			}
+			triggered_desc = {
+				desc = status_attila_tyrant
+				trigger = {
+					var:attila_progress > 120
+				}
+			}
+			triggered_desc = {
+				desc = status_attila_anthropophagus
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}
+
+	modifiers_while_active = {
+		hunnic_unrest
+	}
+	
+	on_weekly_pulse = {
+		#events = {
+		#	french_pretenders.5
+		#}
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_variable = fra_divided_monarchists_freeze #This variable stops iteration, and is granted by reaching 360 with one dynasty. It's reset when this JE is completed, or when je_cement_the_rightful_dynasty fails.
+					}
+				}
+				
+				set_variable = { name = attila_progress_from_characters value = 0 }
+				set_variable = { name = attila_progress_from_igs value = 0 }
+				set_variable = { name = attila_progress_from_military value = 0 }
+				set_variable = { name = attila_progress_from_legitimacy value = root.government_legitimacy }
+				set_variable = { name = attila_progress_next value = 0 }
+				#From Characters
+				every_scope_character = {
+					limit = {
+						has_ideology = ideology:ideology_attila_partisan
+					}
+					ROOT = {
+						change_variable = { name = attila_progress_from_characters add = prev.popularity }
+					}
+				}
+				change_variable = { name = attila_progress_from_characters divide = 100 }
+				# From Interest Groups
+				every_interest_group = {
+					limit = {
+						leader = {
+							has_ideology = ideology:ideology_attila_partisan
+						}
+					}
+					ROOT = {
+						set_variable = { name = ig_weight value = prev.ig_clout }
+					}
+					if = {
+						limit = {
+							is_in_government = yes
+						}
+						ROOT = {
+							change_variable = { name = ig_weight multiply = 3 }
+						}
+					}
+					ROOT = {
+						change_variable = { name = attila_progress_from_igs add = var:ig_weight }
+					}
+				}
+				# From Buildings
+				every_scope_building = {
+					limit = {
+						is_building_group = bg_military # Derives from barracks and naval bases.
+						occupancy >= 0.5
+					}
+					ROOT = {
+						change_variable = { name = attila_progress_from_military add = prev.level }
+					}
+				}
+				change_variable = { name = attila_progress_from_military divide = 100 }
+				# From Legitimacy
+				change_variable = { name = attila_progress_from_legitimacy divide = 100 }
+				change_variable = { name = attila_progress_from_legitimacy subtract = 0.5 }
+				if = {
+					limit = {
+						NOT = {
+							ruler = {
+								has_ideology = ideology:ideology_attila_partisan
+							}
+						}
+					}
+					change_variable = { name = attila_progress_from_legitimacy multiply = -0.5 }
+				}
+
+				#Final Compilation
+				change_variable = { name = attila_progress_next add = var:attila_progress_from_characters }
+				change_variable = { name = attila_progress_next add = var:attila_progress_from_igs }
+				change_variable = { name = attila_progress_next add = var:attila_progress_from_military }
+				change_variable = { name = attila_progress_next add = var:attila_progress_from_legitimacy }
+				change_variable = { name = attila_progress_next add = var:attila_progress_from_effects }
+			}
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_variable = fra_divided_monarchists_freeze
+					}
+				}
+				change_variable = { name = attila_progress add = var:attila_progress_next }
+			}
+			if = {
+				limit = {
+					has_law = law_type:law_monarchy
+					scope:journal_entry = {
+						is_goal_complete = yes
+					}
+					NOT = {
+						has_variable = fra_divided_monarchists_freeze
+					}
+				}
+				fra_freeze_divided_monarchist_progress = yes #Freezes the bars so that they no longer accumulate progress on the monthly tick, and stay as they are. In the case that Cement the Rightful Dynasty fails, the bars will be set back.
+			}
+		}
+		random_events = {
+			400 = 0
+		}
+	}
+	on_yearly_pulse = {
+		random_events = {
+			
+		}
+	}
+
+	fail = {
+		any_interest_group = {
+			is_marginal = no
+			law_stance = {
+				law = law_type:law_presidential_republic
+				value > neutral
+			}
+		}
+		capital = {
+			turmoil >= 0.25
+		}
+		OR = {
+			has_journal_entry = je_springtime_of_the_peoples
+			radical_fraction = {
+				value >= 0.25
+			}
+			any_civil_war = {
+				civil_war_progress > 0.75
+			}
+		}
+	}
+
+	on_fail = {
+		#trigger_event = { id = french_pretenders.6 popup = yes }
+		if = {
+			limit = {
+				has_variable = fra_divided_monarchists_freeze
+			}
+			remove_variable = fra_divided_monarchists_freeze #Clears the freeze variable so that progress can be made if this JE is somehow activated again.
+		}
+		remove_variable = attila_progress 
+		remove_variable = attila_progress_from_characters 
+		remove_variable = attila_progress_from_igs 
+		remove_variable = attila_progress_from_military 
+		remove_variable = attila_progress_from_legitimacy 
+		remove_variable = attila_progress_from_effects 
+		remove_variable = attila_progress_next 
+		remove_variable = attila_progress 
+		remove_variable = ig_weight
+	}
+
+	invalid = { 
+		NOT = { #Previous "Stamp Out Monarchism" requirement is deprecated - this can now come back from the dead properly upon restoring the monarchy.
+			has_law = law_type:law_monarchy
+		}
+	}
+
+	on_invalid = {
+		if = {
+			limit = {
+				has_variable = fra_divided_monarchists_freeze
+			}
+			remove_variable = fra_divided_monarchists_freeze #Clears the freeze variable so that progress can be made if this JE is somehow activated again.
+		}
+		remove_variable = attila_progress 
+		remove_variable = attila_progress_from_characters 
+		remove_variable = attila_progress_from_igs 
+		remove_variable = attila_progress_from_military 
+		remove_variable = attila_progress_from_legitimacy 
+		remove_variable = attila_progress_from_effects 
+		remove_variable = attila_progress_next 
+		remove_variable = attila_progress 
+		remove_variable = ig_weight
+	}
+
+	weight = 100
+	
+	current_value = {
+		value = root.var:attila_progress #Set to always be equal to the leading dynasty's progress by the fra_define_leading_dynasty effect.
+	}
+
+	goal_add_value = {
+		value = 12
+	}
+
+	progressbar = yes
+
+	should_be_pinned_by_default = yes
+}

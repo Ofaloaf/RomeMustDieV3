@@ -1,0 +1,281 @@
+﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+male_clothes_secular_roman_senate_01 = {
+	set_tags = "shrink_belly,shrink_legs"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_roman_senate_01_entity" }	
+}
+
+male_clothes_secular_byzantine_nobility_02_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_byzantine_nobility_02_common_entity" }	
+}
+
+male_clothes_secular_byzantine_nobility_02_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_byzantine_nobility_02_low_entity" }	
+}
+
+male_clothes_secular_byzantine_nobility_02_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_byzantine_nobility_02_high_entity" }	
+}
+
+
+male_clothes_secular_roman_soldier_yellow_and_red = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_roman_soldier_yellow_and_red_entity" }	
+}
+
+male_clothes_secular_roman_soldier_white_and_red = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_roman_soldier_white_and_red_entity" }	
+}
+
+male_clothes_secular_roman_soldier_white_and_purple = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_roman_soldier_white_and_purple_entity" }	
+}
+
+male_clothes_secular_roman_soldier_white_and_green = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_roman_soldier_white_and_green_entity" }	
+}
+
+male_clothes_secular_roman_soldier_white_and_blue = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_roman_soldier_white_and_blue_entity" }	
+}
+
+male_clothes_secular_byzantine_nobility_01_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_byzantine_nobility_01_common_entity" }	
+}
+
+male_clothes_secular_byzantine_nobility_01_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_byzantine_nobility_01_low_entity" }	
+}
+
+male_clothes_secular_byzantine_nobility_01_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_byzantine_nobility_01_high_entity" }	
+}
+
+male_clothes_secular_western_nobility_03_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_western_nobility_03_common_entity" }	
+}
+
+male_clothes_secular_western_nobility_03_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_western_nobility_03_low_entity" }	
+}
+
+male_clothes_secular_western_nobility_03_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_western_nobility_03_high_entity" }	
+}
+
+male_clothes_secular_western_nobility_03_blue = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_western_nobility_03_blue_entity" }	
+}
+
+male_clothes_secular_northern_nobility_01_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_northern_nobility_01_common_entity" }	
+}
+
+male_clothes_secular_northern_nobility_01_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_northern_nobility_01_low_entity" }	
+}
+
+male_clothes_secular_northern_nobility_01_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_northern_nobility_01_high_entity" }	
+}
+
+male_clothes_secular_northern_nobility_02_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_northern_nobility_02_common_entity" }	
+}
+
+male_clothes_secular_northern_nobility_02_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_northern_nobility_02_low_entity" }	
+}
+
+male_clothes_secular_northern_nobility_02_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_northern_nobility_02_high_entity" }	
+}
+
+male_clothes_secular_roman_war = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_roman_war_entity" }	
+}
+
+# FEE-MALES ###
+
+
+female_clothes_secular_byzantine_nobility_02_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_secular_byzantine_nobility_02_common_entity" }	
+}
+
+female_clothes_secular_byzantine_nobility_02_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_secular_byzantine_nobility_02_low_entity" }	
+}
+
+female_clothes_secular_byzantine_nobility_02_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_secular_byzantine_nobility_02_high_entity" }	
+}
+
+female_clothes_secular_western_nobility_03_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_secular_western_nobility_03_common_entity" }	
+}
+
+female_clothes_secular_western_nobility_03_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_secular_western_nobility_03_low_entity" }	
+}
+
+female_clothes_secular_western_nobility_03_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_secular_western_nobility_03_high_entity" }	
+}
+
+female_clothes_secular_northern_nobility_01_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_secular_northern_nobility_01_common_entity" }	
+}
+
+female_clothes_secular_northern_nobility_01_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_secular_northern_nobility_01_low_entity" }	
+}
+
+female_clothes_secular_northern_nobility_01_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_secular_northern_nobility_01_high_entity" }	
+}
+
+female_clothes_secular_northern_nobility_02_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_secular_northern_nobility_02_common_entity" }	
+}
+
+female_clothes_secular_northern_nobility_02_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_secular_northern_nobility_02_low_entity" }	
+}
+
+female_clothes_secular_northern_nobility_02_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_secular_northern_nobility_02_high_entity" }	
+}
+
+### LEGWEAR ###
+
+male_legwear_secular_fp1_common_01 = {
+	set_tags = "shrink_legs"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_legwear_secular_fp1_common_01_entity" }	
+}
+
+female_legwear_secular_fp1_common_01 = {
+	set_tags = "shrink_legs"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_legwear_secular_fp1_common_01_entity" }	
+}
+
+### hattes
+
+male_headgear_roman_galea_helmet = {
+	set_tags ="no_hair"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "galea_helmet_entity" }	
+}
+
+male_headgear_roman_centurion_helmet = {
+	set_tags ="no_hair"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "centurion_helmet_entity" }	
+}
+
+male_headgear_secular_byzantine_pannonian_common_01 = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_secular_byzantine_pannonian_common_01_entity" }	
+}
+
+male_headgear_secular_latin_cfp_phrygian_common_01 = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_secular_latin_cfp_phrygian_common_01_entity" }	
+}
+
+male_headgear_secular_western_pillbox_common_01 = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_secular_western_pillbox_common_01_entity" }	
+}
+
+male_headgear_secular_western_pillbox_low_01 = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_secular_western_pillbox_low_01_entity" }	
+}
+
+male_headgear_secular_byzantine_pannonian_high_01 = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_secular_byzantine_pannonian_high_01_entity" }	
+}
+
+male_headgear_felt_hat_black = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_prop_felt_hat_black_entity" }	
+}
+
+male_headgear_felt_hat_brown = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_prop_felt_hat_brown_entity" }	
+}
+
+### TOP LAYERS
+
+male_cloaks_secular_western_royalty_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_cloaks_secular_western_royalty_01_entity" }	
+}
+
+male_cloaks_secular_fp1_nobility_03 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_cloaks_secular_fp1_nobility_03_entity" }	
+}
+
+m_cloaks_sec_ep2_western_era1_nob_01_lo = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "m_cloaks_sec_ep2_western_era1_nob_01_lo_entity" }	
+}
+
+m_cloaks_sec_ep2_western_era1_nob_01_hi = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "m_cloaks_sec_ep2_western_era1_nob_01_hi_entity" }	
+}
+
+m_cloaks_sec_fp4_western_era3_nob_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "m_cloaks_sec_fp4_western_era3_nob_01_entity" }	
+}
+
+m_cloaks_sec_fp4_western_era3_nob_02 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "m_cloaks_sec_fp4_western_era3_nob_02_entity" }	
+}
+
+female_cloaks_secular_western_royalty_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_cloaks_secular_western_royalty_01_entity" }	
+}
+
+female_cloaks_secular_fp1_nobility_03 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_cloaks_secular_fp1_nobility_03_entity" }	
+}
+
+f_cloaks_sec_fp4_western_era3_nob_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "f_cloaks_sec_fp4_western_era3_nob_01_entity" }	
+}
+
+f_cloaks_sec_fp4_western_era3_nob_02 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "f_cloaks_sec_fp4_western_era3_nob_02_entity" }	
+}

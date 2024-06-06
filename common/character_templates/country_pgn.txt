@@ -1,0 +1,18 @@
+﻿# Ill Paes/Pagensis/Powys
+
+PGN_ricatus_gwerthion = {
+	first_name = Ricatus
+	last_name = Gwerthion
+	historical = yes
+	culture = cu:brithenig
+	religion = pelagian
+	female = no
+	age = 68
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	traits = {
+		hedonist
+		charismatic
+		cautious
+	}
+}

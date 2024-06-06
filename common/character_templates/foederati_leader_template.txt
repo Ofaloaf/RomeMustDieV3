@@ -1,0 +1,11 @@
+﻿foederati_leader_template = {
+	first_name = culture
+	last_name = culture
+	culture = cu:thuringian
+	female = no
+	ig_leader = yes
+	interest_group = ig_armed_forces
+	religion = rel:arian
+	traits = {
+	}
+}

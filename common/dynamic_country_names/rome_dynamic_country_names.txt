@@ -1,0 +1,427 @@
+﻿### Try to keep tags in alphabetical order if it's not too far gone, please.
+
+WRE = { # rome
+	dynamic_country_name = { # Roman Empire
+		name = dyn_c_roman_empire
+		adjective = dyn_c_roman_empire_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { has_law = law_type:law_monarchy }
+			OR = {
+				NOT = { exists = c:ERE }
+				AND = {
+					exists = c:ERE
+					c:ERE = {
+						NOT = {
+							has_law = law_type:law_monarchy
+						}
+					}
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { # Western Roman Empire
+		name = dyn_c_western_roman_empire
+		adjective = dyn_c_western_roman_empire_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { has_law = law_type:law_monarchy }
+			c:ERE ?= {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+}
+
+GLL = { # Gallia
+	dynamic_country_name = { # Gallic Empire
+		name = dyn_c_gallic_empire
+		adjective = dyn_c_gallic_empire_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { has_law = law_type:law_monarchy }
+		}
+	}
+}
+
+ERE = { # Eastern Roman Empire
+	dynamic_country_name = { # Roman Empire
+		name = dyn_c_roman_empire
+		adjective = dyn_c_roman_empire_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { has_law = law_type:law_monarchy }
+			OR = {
+				NOT = { exists = c:WRE }
+				c:WRE ?= {
+					NOT = {
+						has_law = law_type:law_monarchy
+					}
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { # Eastern Roman Empire
+		name = dyn_c_eastern_roman_empire
+		adjective = dyn_c_eastern_roman_empire_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { has_law = law_type:law_monarchy }
+			c:WRE ?= {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+}
+
+IRO = { # Haudenosaunee
+	dynamic_country_name = { # Haudenosaunee Confederacy
+		name = dyn_c_haudenosaunee_confederacy
+		adjective = dyn_c_haudenosaunee_confederacy_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic 
+					has_law = law_type:law_parliamentary_republic 
+					has_law = law_type:law_council_republic 
+				}
+			}
+		}
+	}
+}
+
+GWY = { # Guynet/Gwynedd
+	dynamic_country_name = {
+		name = dyn_c_venedotia
+		adjective = dyn_c_venedotia_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			OR = {
+				AND = {
+					exists = c:WRE
+					scope:actor = {
+						is_subject_of = c:WRE
+					}
+				}
+				AND = {
+					exists = c:GLL
+					scope:actor = {
+						is_subject_of = c:GLL
+					}
+				}
+				AND = {
+					exists = c:ERE
+					scope:actor = {
+						is_subject_of = c:ERE
+					}
+				}
+			}
+		}
+	}
+}
+
+MMU = { # Mhumhain/Munster
+	dynamic_country_name = {
+		name = dyn_c_momonia
+		adjective = dyn_c_momonia_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			OR = {
+				AND = {
+					exists = c:WRE
+					scope:actor = {
+						is_subject_of = c:WRE
+					}
+				}
+				AND = {
+					exists = c:GLL
+					scope:actor = {
+						is_subject_of = c:GLL
+					}
+				}
+				AND = {
+					exists = c:ERE
+					scope:actor = {
+						is_subject_of = c:ERE
+					}
+				}
+			}
+		}
+	}
+}
+
+ECH = { # Echen/Icenia
+	dynamic_country_name = {
+		name = dyn_c_icenia
+		adjective = dyn_c_icenia_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			OR = {
+				AND = {
+					exists = c:WRE
+					scope:actor = {
+						is_subject_of = c:WRE
+					}
+				}
+				AND = {
+					exists = c:GLL
+					scope:actor = {
+						is_subject_of = c:GLL
+					}
+				}
+				AND = {
+					exists = c:ERE
+					scope:actor = {
+						is_subject_of = c:ERE
+					}
+				}
+			}
+		}
+	}
+}
+
+EBR = { # Ebrauc/Eboracum/York
+	dynamic_country_name = {
+		name = dyn_c_eboracum
+		adjective = dyn_c_eboracum_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			OR = {
+				AND = {
+					exists = c:WRE
+					scope:actor = {
+						is_subject_of = c:WRE
+					}
+				}
+				AND = {
+					exists = c:GLL
+					scope:actor = {
+						is_subject_of = c:GLL
+					}
+				}
+				AND = {
+					exists = c:ERE
+					scope:actor = {
+						is_subject_of = c:ERE
+					}
+				}
+			}
+		}
+	}
+}
+
+CHO = { # Chola Empire
+	dynamic_country_name = { # Carnatic Republic
+		name = dyn_c_carnatic_republic
+		adjective = dyn_c_carnatic_republic_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic 
+					has_law = law_type:law_parliamentary_republic 
+					has_law = law_type:law_council_republic 
+				}
+			}
+		}
+	}
+}
+
+EGY = { # Egypt
+	dynamic_country_name = { # Aigyptos
+		name = dyn_c_aigyptos
+		adjective = dyn_c_aigyptos_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				any_scope_character = {
+					is_ruler = yes
+					has_culture = cu:greek
+				}
+			}
+		}
+	}
+	dynamic_country_name = { # Kemet
+		name = dyn_c_kemet
+		adjective = dyn_c_kemet_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			coa_def_independent_trigger = yes
+			exists = scope:actor
+			scope:actor = {
+				ruler ?= {
+					has_culture = cu:copt
+				}
+			}
+		}
+	}
+	dynamic_country_name = { # Khemia
+		name = dyn_c_khemia
+		adjective = dyn_c_khemia_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = c:ERE
+			exists = scope:actor
+			scope:actor = {
+				is_subject_of = c:ERE
+				any_scope_character = {
+					is_ruler = yes
+					has_culture = cu:copt
+				}
+			}
+		}
+	}
+	dynamic_country_name = { # Aegyptus
+		name = dyn_c_aegyptus
+		adjective = dyn_c_aegyptus_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			OR = {
+				AND = {
+					exists = c:WRE
+					scope:actor ?= {
+						is_subject_of = c:WRE
+					}
+				}
+				AND = {
+					exists = c:GLL
+					scope:actor ?= {
+						is_subject_of = c:GLL
+					}
+				}
+			}
+		}
+	}
+}
+
+HNN = { # huns
+	dynamic_country_name = {
+		name = dyn_c_kingdom_of_the_huns
+		adjective = dyn_c_kingdom_of_the_huns_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { has_law = law_type:law_monarchy }
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_pannonian_council_republic
+		adjective = dyn_c_pannonian_council_republic_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { has_law = law_type:law_council_republic }
+		}
+	}
+}
+
+CUB = {
+	dynamic_country_name = {
+		name = dyn_c_collegium_orientalium
+		adjective = dyn_c_collegium_orientalium_adj
+		use_overlord_prefix = yes
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_subject_trigger = yes
+		}
+	}
+}
+
+YUN = {
+	dynamic_country_name = { # Mashynzy
+		name = dyn_c_mashynzy
+		adjective = dyn_c_mashynzy_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { has_law = law_type:law_monarchy }
+		}
+	}
+}
+
+CHI = {
+	dynamic_country_name = { # Da Shu, Great Sichuan
+		name = dyn_c_da_shu
+		adjective = dyn_c_da_shu_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { has_law = law_type:law_monarchy }
+		}
+	}
+}

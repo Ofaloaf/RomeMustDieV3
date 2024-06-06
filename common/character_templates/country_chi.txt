@@ -1,0 +1,17 @@
+﻿chi_canli_template = {
+    # The Canli Emperor
+    first_name = "Canli" # 燦力, Càn Lì, "Brilliant Strength" 
+    last_name = "Meng" # Not used by the emperor himself but there's got to be something here
+    historical = yes
+    ruler = yes
+    age = 49
+    dna = dna_daoguang_emperor
+    culture = cu:han
+    interest_group = ig_rural_folk
+    ideology = ideology_moderate
+    traits = {
+        bandit
+		imposing
+		cruel
+    }
+}

@@ -1,0 +1,28 @@
+﻿### Persia character template file ###
+
+per_persian_ruler = {
+    # Islamicized House of Karen
+    first_name = "Shahram"
+    last_name = "Qarinvand" # House of Karen
+    historical = yes
+    ruler = yes
+    age = 38
+    interest_group = ig_landowners
+    ideology = ideology_traditionalist
+    traits = {
+        imperious
+    }
+}
+
+per_persian_heir = {
+    first_name = "Tiruyih"
+    last_name = "Qarinvand"
+    historical = yes
+    heir = yes
+    age = 6
+    interest_group = ig_landowners
+    ideology = ideology_traditionalist
+    traits = {
+        trait_child
+    }
+}

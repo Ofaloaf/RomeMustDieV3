@@ -1,0 +1,345 @@
+﻿headgear = {
+	usage = game
+	selection_behavior = weighted_random
+	fallback = no_headgear
+
+    no_headgear = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+        }
+    }
+
+    european_peasants_headgear = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = european_strawhat
+                range = { 0 1 } # For the randomness to work correctly
+           
+            } 
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                AND = {
+                    peasants_clothes_pop_trigger = yes
+                    european_clothes_pop_trigger = yes
+                }
+				scope:pop ?= {
+					culture = {
+						NOT = { has_discrimination_trait = romance_speaker }
+					}
+				}
+            }
+        }
+    }
+	
+    european_agitator_headgear = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = roman_phrygian_hat
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                european_clothes_trigger = yes
+                slavic_clothes_trigger = no
+                agitator_character_trigger = yes
+            }
+        }
+    }
+	
+    roman_peasants_headgear = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = brimmed_hat_variants
+                range = { 0 1 } # For the randomness to work correctly
+           
+            } 
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+
+                peasants_clothes_pop_trigger = yes
+                european_clothes_pop_trigger = yes
+				scope:pop ?= {
+					culture = {
+						has_discrimination_trait = romance_speaker
+					}
+				}
+            }
+        }
+    }
+	
+    roman_soldier_helmet = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = roman_galea_helmet
+                range = { 0 1 } # For the randomness to work correctly
+           
+            } 
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                
+                scope:pop ?= {
+					OR = {
+						is_pop_type = soldiers
+						is_pop_type = officers
+					}
+					culture = {
+						has_discrimination_trait = romance_speaker
+					}
+					exists = c:WRE
+					owner = {
+						c:WRE = this
+					}
+				}
+            }
+        }
+    }
+	
+    roman_pannonian_cap = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = roman_pannonian_hat
+                range = { 0 0.25 }
+           
+            } 
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+				OR = {
+					AND = {
+						scope:pop ?= {
+							OR = {
+								is_pop_type = engineers
+								is_pop_type = bureaucrats
+								is_pop_type = machinists
+							}
+							culture = {
+								has_discrimination_trait = romance_speaker
+							}
+						}
+					}
+					scope:pop ?= {
+						is_pop_type = soldiers
+						OR = {
+							culture = {
+								has_discrimination_trait = romance_speaker
+							}
+							AND = {
+								exists = c:WRE
+								owner = {
+									c:WRE = this
+								}
+							}
+						}
+					}
+					AND = {
+						politician_clothes_trigger = yes
+						scope:character ?= {
+							is_interest_group_type = ig_petty_bourgeoisie
+							culture = {
+								has_discrimination_trait = romance_speaker
+							}
+						}
+					}
+				}
+            }
+        }
+    }
+	
+    roman_intelligentsia_pannonian_hat = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = roman_pannonian_hat
+                range = { 0.25 0.5 }
+           
+            } 
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+				
+				scope:character ?= {
+					has_role = politician
+					is_ruler = no
+					is_interest_group_type = ig_intelligentsia
+					culture = {
+						has_discrimination_trait = romance_speaker
+					}
+				}
+            }
+        }
+    }
+	
+    roman_general_pannonian_hat = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = roman_pannonian_hat
+                range = { 0.75 1 } # For the randomness to work correctly
+           
+            } 
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+				
+				scope:character ?= {
+					has_role = general
+					culture = {
+						OR = {
+							cu:roman = this
+							cu:gallic = this
+							cu:hispanian = this
+							cu:illyrian = this
+							cu:greek = this
+						}
+					}
+				}
+            }
+        }
+    }
+	
+    roman_admiral_pannonian_hat = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = roman_pannonian_hat
+                range = { 0.5 0.75 } # For the randomness to work correctly
+           
+            } 
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+				OR = {
+					AND = {
+						politician_clothes_trigger = yes
+						scope:character ?= {
+							is_interest_group_type = ig_armed_forces
+							culture = {
+								has_discrimination_trait = romance_speaker
+							}
+						}
+					}
+					scope:character ?= {
+						has_role = admiral
+						culture = {
+							OR = {
+								cu:roman = this
+								cu:gallic = this
+								cu:hispanian = this
+								cu:illyrian = this
+							}
+						}
+					}
+				}
+            }
+        }
+    }
+	
+    french_military_headgear = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = french_military_headgear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+
+				OR = {
+					AND = {
+						politician_clothes_trigger = yes
+						scope:character ?= {
+							is_interest_group_type = ig_armed_forces
+							owner = {
+								c:FRK ?= this
+							}
+						}
+					}
+					AND = {
+						scope:character ?= {
+							has_role = general
+							owner = {
+								c:FRK ?= this
+							}
+						}
+					}
+					scope:pop ?={
+						is_pop_type = officers
+						owner = {
+							c:FRK ?= this
+						}
+					}
+				}
+            }
+        }
+    }
+	
+	andean_character_headgear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = native_american_common_headgear
+				range = { 0 1 }
+			}
+		} 
+
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				
+				scope:character ?= {
+					culture = {
+						has_discrimination_trait = indigenous_american_heritage
+						has_discrimination_trait = south_american_group
+					}
+				}
+			}
+		}
+	}
+}

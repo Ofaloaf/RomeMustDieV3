@@ -1,0 +1,14 @@
+﻿CHARACTERS = {
+	c:POL = {
+		create_character = {
+			first_name = Zbylut
+			last_name = L_e_czycki
+			historical = yes
+			ruler = yes
+			age = 41
+			interest_group = ig_rural_folk
+			traits = {
+			}
+		}
+	}
+}

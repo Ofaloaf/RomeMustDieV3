@@ -1,0 +1,79 @@
+﻿accessories = {
+	usage = game
+	selection_behavior = weighted_random
+	#fallback = no_headgear
+
+    #no_acessories = {
+    #    dna_modifiers = {
+    #        accessory = {
+    #            mode = add
+    #            gene = 
+    #            template = no_headgear
+    #            range = { 0 1 } # For the randomness to work correctly
+    #        }
+    #    }   
+    #    weight = {
+    #        base = 0
+    #    }
+    #}
+
+	african_expedition_necklace = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = necklaces
+				template = african_necklaces
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100000
+                AND = {
+                    exists = scope:character
+                    scope:character = {
+                      has_variable = expedition_trading_gifts
+                    }  
+                }     
+			}
+		}
+	}
+	
+    frankish_general_accessories = {
+		dna_modifiers = {
+            accessory = {
+                 mode = add
+                 gene = epaulettes
+                 template = all_epaulettes
+                 range = { 0.73 0.74 } # For the randomness to work correctly
+            }
+		}
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+
+				OR = {
+					AND = {
+						politician_clothes_trigger = yes
+						scope:character ?= {
+							is_interest_group_type = ig_armed_forces
+							owner = {
+								c:FRK ?= this
+							}
+						}
+					}
+					AND = {
+						scope:character ?= {
+							has_role = general
+							owner = {
+								c:FRK ?= this
+							}
+						}
+					}
+				}
+            }
+        }
+	}
+}

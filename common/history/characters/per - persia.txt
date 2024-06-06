@@ -1,0 +1,11 @@
+﻿CHARACTERS = {
+	c:PER ?= {
+		create_character = {
+			template = per_persian_ruler # Shahram Qarinvand
+		}
+
+		create_character = {
+			template = per_persian_heir # Tiruyih Qarinvand
+		}
+	}
+}

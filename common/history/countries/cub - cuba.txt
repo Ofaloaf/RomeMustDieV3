@@ -1,0 +1,32 @@
+﻿COUNTRIES = {
+	c:CUB ?= {
+		# set_next_election_date = ???
+		
+		effect_starting_technology_tier_3_tech = yes
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_homesteading
+
+		ig:ig_petty_bourgeoisie = {
+			add_ruling_interest_group = yes
+		}
+
+		ig:ig_armed_forces = {
+			set_interest_group_name = ig_milites
+		}
+
+		ig:ig_landowners = {
+			set_interest_group_name = ig_senatores
+		}
+		ig:ig_devout = {
+			set_interest_group_name = ig_devotos
+		}
+	}
+}

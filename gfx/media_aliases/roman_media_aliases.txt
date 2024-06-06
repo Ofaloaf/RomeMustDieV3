@@ -1,0 +1,15 @@
+﻿# A media alias is a way to refer to a media asset along with a fallback,
+# so that if the original asset is unavailable, the game uses the fallback asset.
+#
+# key = {
+#	texture = "texture path"
+#	video = "video path"
+#	audio = "audio event"
+#
+#	fallback = another_media_alias_key
+#}
+
+fall_of_rome = {
+	texture = "gfx/event_pictures/The_Fire_of_Rome.png"
+	audio = "event:/SFX/Events/africa/soldiers_breaking_protest"
+}

@@ -1,0 +1,74 @@
+﻿agitator_maclavellus = {
+	first_name = Maclavellus
+	last_name = Florentiensis
+	historical = yes
+	culture = cu:roman
+	religion = rel:nicene
+	female = no
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_market_liberal
+	birth_date = 1740.5.3
+	# no dna
+	traits = {
+		erudite 
+		tactful
+		expert_political_operator
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:WRE ?= this
+				c:ERE ?= this
+				c:HNN ?= this
+			}
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            OR = {
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_petty_bourgeoisie
+            } 
+        }   
+		earliest_usage_date = 1775.1.1
+		latest_usage_date = 1800.5.3
+		chance = 50
+	}
+}
+
+agitator_edward_gibbon = {
+	first_name = Eadweard
+	last_name = Gebawin
+	historical = yes
+	culture = cu:saxon
+	religion = rel:atheist
+	female = no
+	interest_group = ig_intelligentsia
+	ideology = ideology_atheist
+	birth_date = 1737.5.8
+	# no dna 
+	traits = {
+		charismatic 
+		ambitious
+		literary
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			has_primary_culture = cu:saxon
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            OR = {
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_petty_bourgeoisie
+            } 
+        }   
+		earliest_usage_date = 1764.10.15
+		latest_usage_date = 1787.6.27
+		chance = 50
+	}
+}
+
+# Peter Heather
+# Petrus Hetha

@@ -1,0 +1,31 @@
+﻿CHARACTERS = {
+	c:JAB ?= {
+		create_character = {
+			# Abdullah bin Ali Al Rashid
+			first_name = "Abdullah"
+			last_name = "al_Ta_i"
+			historical = yes
+			ruler = yes
+			age = 45
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				ambitious
+			}
+		}	
+
+		create_character = {
+			# Talal bin Abdullah Al Rashid
+			first_name = "Talal"
+			last_name = "al_Ta_i"
+			historical = yes
+			heir = yes
+			age = 13
+			interest_group = ig_devout
+			ideology = ideology_traditionalist
+			traits = {
+				trait_child
+			}
+		}
+	}
+}

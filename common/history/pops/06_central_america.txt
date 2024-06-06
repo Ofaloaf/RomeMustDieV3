@@ -1,0 +1,274 @@
+﻿POPS = {
+	s:STATE_SAN_SALVADOR = {
+		region_state:MEX = {
+			create_pop = {
+				culture = muisca
+				size = 28204
+			}
+			create_pop = {
+				culture = mayan
+				size = 9792
+			}
+			create_pop = {
+				culture = nahua
+				size = 5311
+			}
+		}
+	}
+	s:STATE_GUATEMALA = {
+		region_state:MEX = {
+			create_pop = {
+				culture = nahua
+				size = 14404
+			}
+			create_pop = {
+				culture = mayan
+				size = 193440
+			}
+		}
+		region_state:PTN = {
+			create_pop = {
+				culture = mayan
+				size = 118560
+			}
+		}
+		region_state:CUB = {
+			create_pop = {
+				culture = mayan
+				size = 7104
+			}
+			create_pop = {
+				culture = new_anatolic
+				size = 1104
+			}
+		}
+	}
+	s:STATE_HONDURAS = {
+		region_state:MEX = {
+			create_pop = {
+				culture = nahua
+				size = 15204
+			}
+			create_pop = {
+				culture = muisca
+				size = 33009
+			}
+			create_pop = {
+				culture = miskito # Cape of Gracias a Dios Miskito
+				size = 3000
+			}
+		}
+	}
+	s:STATE_NICARAGUA = {
+		region_state:UCA = {
+			create_pop = {
+				culture = central_american
+				size = 284000
+			}
+			create_pop = {
+				culture = miskito # Miskito pop. across the 'borders'
+				size = 4000
+			}
+		}
+		region_state:MKT = {
+			create_pop = {
+				culture = miskito # Tawira Miskito
+				size = 30000
+			}
+			create_pop = {
+				culture = miskito
+				religion = protestant
+				size = 10000
+			}
+			create_pop = {
+				culture = afro_caribbean # Miskito Sambu
+				size = 20000
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 500
+			}
+			create_pop = {
+				culture = british
+				size = 500
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 1000
+			}
+		}
+	}
+	s:STATE_COSTA_RICA = {
+		region_state:UCA = {
+			create_pop = {
+				culture = central_american
+				size = 83992
+			}
+		}
+	}
+	s:STATE_PANAMA = {
+		region_state:TTN = {
+			create_pop = {
+				culture = scottish
+				size = 91792
+			}
+			create_pop = {
+				culture = muisca
+				size = 28300
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = muisca
+				size = 4100
+			}
+			create_pop = {
+				culture = cariban
+				size = 4000
+			}
+		}
+	}
+	#
+	s:STATE_HAITI = {
+		region_state:HAI = {
+			create_pop = { #
+				culture = afro_novomundan
+				size = 830824
+			}
+			create_pop = { #
+				culture = antillian
+				size = 8272
+			}
+			create_pop = { # 
+				culture = taino
+				size = 13543
+			}
+			create_pop = { # Spanish speaking population mainly inhabiting the area surrounding Hincha. Mulatto.
+				culture = new_anatolic
+				size = 5631
+			}
+		}
+	}
+	s:STATE_SANTO_DOMINGO = {
+		region_state:HAI = {
+			create_pop = { 
+				culture = taino
+				size = 24916
+			}
+			create_pop = { 
+				culture = afro_novomundan
+				size = 100626
+			}
+			create_pop = {
+				culture = antillian
+				size = 5988
+			}
+		}
+	}
+	s:STATE_PUERTO_RICO = {
+		region_state:BRK = {
+			create_pop = {
+				culture = antillian
+				size = 183404
+			}
+			create_pop = {
+				culture = taino
+				size = 280400
+			}	
+			create_pop = {
+				culture = afro_novomundan
+				size = 21050
+			}
+		}
+	}
+	s:STATE_BAHAMAS = {
+		region_state:ELT = {
+			create_pop = {
+				culture = antillian
+				size = 100600
+			}
+			create_pop = {
+				culture = afro_novomundan
+				size = 43096
+			}
+		}
+	}
+	s:STATE_WEST_INDIES = {
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 22200
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 216104
+			}
+		}
+		region_state:DEN = {
+			create_pop = {
+				culture = danish
+				size = 3992
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 39996
+			}
+		}
+		region_state:GBR = {
+			create_pop = {
+				culture = british
+				size = 34704
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 234768
+			}
+			create_pop = {
+				culture = dutch
+				size = 396
+			}
+		}
+	}
+	s:STATE_JAMAICA = {
+		region_state:CUB = {
+			create_pop = {
+				culture = taino
+				size = 358596
+			}
+			create_pop = {
+				culture = new_anatolic
+				size = 23040
+			}
+		}
+	}
+	s:STATE_CUBA = {
+		region_state:CUB = {
+			create_pop = {
+				culture = new_anatolic
+				size = 461304 
+			}
+			create_pop = {
+				culture = taino
+				size = 52011
+			}
+			create_pop = {
+				culture = afro_novomundan
+				size = 103080
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = taino
+				size = 88786
+			}		
+			create_pop = {
+				pop_type = slaves
+				culture = afro_novomundan
+				size = 301882
+			}		
+			create_pop = {
+				culture = antillian
+				size = 22004
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+﻿CHARACTERS = {
+	c:BRI = {
+		create_character = {
+			first_name = Riatav
+			last_name = Coriosolitanus
+			historical = yes
+			ruler = yes
+			age = 59
+			interest_group = ig_rural_folk
+			traits = {
+				honorable
+				imposing
+				popular_commander
+			}
+		}
+	}
+}

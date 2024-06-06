@@ -1,0 +1,20 @@
+﻿CHARACTERS = {
+	c:EGY = {
+		create_character = { # riffing on (Coptic) Pope Benjamin I
+			first_name = Binyamin
+			last_name = of_Kanopos
+			historical = yes
+			ruler = yes
+			noble = yes
+			age = 58
+			culture = cu:copt
+			interest_group = ig_devout
+			ideology = ideology_royalist
+			traits = {
+				pious
+				ambitious
+				arrogant
+			}
+		}	
+	}
+}

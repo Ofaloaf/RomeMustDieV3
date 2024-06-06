@@ -1,0 +1,17 @@
+﻿CHARACTERS = {
+	c:SIN = {
+		create_character = {
+			first_name = Ali
+			last_name = al_Habbari
+			historical = yes
+			ruler = yes
+			age = 44
+			interest_group = ig_landowners
+			traits = {
+				pious
+				innovative
+				tactful
+			}
+		}
+	}
+}

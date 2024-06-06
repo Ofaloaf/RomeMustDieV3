@@ -1,0 +1,19 @@
+﻿# Gotarike/Gotaland
+
+GTL_rodle_wonreding = {
+	first_name = Rodle # Modern Swedish construction of "Hrethel"
+	last_name = Wonreding
+	historical = yes
+	culture = cu:swedish
+	religion = germanic_pagan
+	is_general = yes
+	female = no
+	age = 40
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	traits = {
+		imposing
+		tactful
+		basic_diplomat
+	}
+}

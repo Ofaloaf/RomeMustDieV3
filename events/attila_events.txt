@@ -1,0 +1,85 @@
+﻿namespace = attila_evts
+
+# start event
+attila_evts.1 = {
+	type = country_event
+	placement = root
+	title = attila_evts.1.t
+	desc = attila_evts.1.d
+	flavor = attila_evts.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "middleeast_police_breaking_door"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		add_journal_entry = {
+			type = je_attila_returns
+		}
+	}
+
+	option = {
+		name = attila_evts.1.a
+		
+		show_as_tooltip = {
+			add_journal_entry = {
+				type = je_attila_returns
+			}	
+			add_modifier = {
+				name = hunnic_unrest
+				months = -1
+			}		
+		}
+	}
+}
+
+attila_evts.2 = {
+	type = country_event
+	placement = root
+	title = attila_evts.2.t
+	desc = attila_evts.2.d
+	flavor = attila_evts.2.f
+
+	duration = 3
+
+	gui_window = event_window_1char_tabloid
+	left_icon = scope:attila_scope
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		create_character = {
+			template = HNN_attila_the_hun_char
+			on_created = {
+				set_variable = attila_var
+			}
+		}
+		random_scope_character = {
+			limit = {
+				has_variable = attila_var
+			}
+			save_scope_as = attila_scope
+		}
+	}
+
+	option = {
+		name = attila_evts.2.a
+		
+		scope:attila_scope = { set_character_as_ruler = yes }
+	}
+}

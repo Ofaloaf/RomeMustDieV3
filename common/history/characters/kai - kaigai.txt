@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:KAI = {
+		create_character = {
+			template = kai_landowners
+		}
+	}
+}

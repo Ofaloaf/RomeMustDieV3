@@ -1,0 +1,16 @@
+﻿objective_barbarians_at_the_gates = {
+	background = "gfx/interface/icons/objectives/barbarians_at_the_gates_illu.dds"
+	icon = "gfx/interface/icons/objectives/barbarians_at_the_gates_icon.dds"
+	
+	recommended_tags = { HNN FRK LIT }	
+
+	objective_subgoals = {
+		sg_expand_basic_building
+	}
+	
+	final_subgoal = sg_improve_rank
+	
+	on_start = {
+		#
+	}
+}

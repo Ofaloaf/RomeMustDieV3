@@ -1,0 +1,83 @@
+﻿l_english:
+  ig_senatores: "Senatores"
+  ig_milites: "Milites"
+  ig_rustici: "Rustici"
+  ig_intellegentiae: "Intellegentiae"
+  ig_burgenses: "Burgenses"
+  ig_devotos: "Devotos"
+  #
+  ideology_foederati: "Foederati"
+  ideology_foederati_desc: "Through a combination of politics, convenience, and manpower issues, the Western Roman Empire has come to rely so much on foreign auxiliaries that they form a formidable power bloc in their own right."
+  ideology_praetorian: "Praetorian"
+  ideology_praetorian_desc: "Enjoying the fruits of empire, the military hates any attempt to undercut their own consolidated powerbase."
+  ideology_yakoyaner: "Yakoyaner"
+  ideology_yakoyaner_desc: "Women play a key, direct role in government, and oversee the political, economic, and social stability of the nation."
+  ideology_attila_partisan: "Attilanist"
+  ideology_attila_partisan_desc: "This leader would see a new Attila lead the Huns into a new era of unquestioned might."
+  #
+  gov_roman_empire: "Imperium"
+  gov_roman_empire_desc: "Imperial rule has lasted for more than a millenium and a half, and has thus developed a complex system of powers, rights, and obligations that many find impenetrable."
+  RULER_TITLE_IMPERATOR: "Emperor"
+  RULER_TITLE_IMPERATRIX: "Imperatrix"
+  RULER_TITLE_CAESAR: "Caesar"
+  RULER_TITLE_CAESARINA: "Caesarina"
+  #
+  gov_roman_presidential_republic: "Res Publica"
+  gov_roman_presidential_republic_desc: "Harkening back to the republican traditions of antiquity, the Res Publica attempts to breathe new life into ancient democratic insistutions."
+  RULER_TITLE_CONSUL: "Consul"
+  RULER_TITLE_CONSULA: "Consula"
+  #
+  gov_roman_dictatorship: "Dictatorship"
+  gov_roman_dictatorship_desc: "All the complexities of government all eliminated with the simple concept of 'One Man, One Vote'—here is the man, and this is his vote."
+  RULER_TITLE_DICTATOR: "Dictator"
+  RULER_TITLE_DICTATRIX: "Dictatrix"
+  #
+  gov_roman_kingdom: "Regnum"
+  gov_roman_kingdom_desc: "This monarchy's laws and customs owe much to Roman traditions, although indigenous and foreign influences can likely be found."
+  RULER_TITLE_REX: "Rex"
+  RULER_TITLE_REGINA: "Regina"
+  #
+  gov_civitas: "Civitas"
+  gov_civitas_desc: "Originating as a fragment of Roman provincial administration, rural or urban, this government is notionally democratic. The founding territory of this country is generally given primacy in political issues, however."
+  RULER_TITLE_MAGISTRATE: "Magistrate"
+  #
+  gov_praetorian_prefecture: "Praetorian Prefecture"
+  gov_praetorian_prefecture_desc: "The largest and highest-ranking division of the Roman Empire, the #italic Praefectura Praetorio#! could enjoy significant amounts of autonomy during periods of weak central rule or if special priviliges were granted by Rome."
+  RULER_TITLE_PREFECT: "Prefect"
+  #
+  gov_daijo-kan: "Daijo-kan"
+  gov_daijo-kan_desc: "The Council of State is run by an assembly of ministers, entrusted with all facets of administration and governance of the realm."
+  RULER_TITLE_DAIJO-DAIJIN: "Daijo-Daijin"
+  #
+  gov_sichuanese_court: "Sichuanese Court"
+  gov_sichuanese_court_desc: "The Da Shu dynasty is run by a clique of Sichuanese ministers and bureaucrats who serve the Supreme Emperor."
+  #
+  gallic_crisis: "Gallic Crisis"
+  #
+  je_fall_of_rome: "Teetering Empire"
+  je_fall_of_rome_reason: "Various local civil and military powers within [SCOPE.GetRootScope.GetCountry.GetName] may tear the country apart, if given the opportunity."
+  je_fall_of_rome_goal: "A number of factors risk imploding [SCOPE.GetRootScope.GetCountry.GetName]"
+  fall_of_rome_criteria: "Each of the following will contribute #red 20%#! to the collapse of [SCOPE.GetRootScope.GetCountry.GetName]:\n- Losing control of the #BOLD Prefecture of the West#!\n- Letting government legitimacy fall to #BOLD Illegitimate #!\n- Warring against the #BOLD Eastern Roman Empire#!\n- Going into debt and taking any [concept_loans]\n- Having a [concept_civil_war]\n- Allowing an interest group led by a #BOLD [concept_barbarian]#! into government\n\nEach of the following will detract #green -20%#! from the fracturing of [SCOPE.GetRootScope.GetCountry.GetName]:\n- Removing the #BOLD Foederati#! from the Armed Forces\n- Recovering #BOLD North Africa#!\n- Annexing the #BOLD Gallic Empire#!\n- Regaining #BOLD any#! territory in #BOLD Britannia#!"
+  concept_barbarian: "Barbarian"
+  concept_barbarian_desc: "A #BOLD Barbarian#! is any character with a culture that neither has the #BOLD Latin#! trait nor is Greek, such as the Thuringian culture."
+  #
+  je_attila_returns: "Attila's Return"
+  je_attila_returns_reason: "Attila, the descendant of the Great Nimrod, nutured in Engaddi, the Dread of the World himself, has fled his prison and is clearly intending to return to [ROOT.GetCountry.GetName] and resume his rule. The earth quakes!"
+  status_attila_emperor: "The Emperor approaches the capital."
+  status_attila_tyrant: "The Tyrant has advanced up the Danube."
+  status_attila_anthropophagus: "The Anthropophagus has quitted his den."
+  #
+  clan_mother: "Clan Mother"
+  clan_mother_desc: "TODO CD"
+  #
+  party_amici_populi: "Amici Populi"
+
+  napoleonic_warfare: "Neo-Attilan Warfare"
+  napoleonic_warfare_desc: "Attila revolutionized warfare, emphasizing the importance of properly utilizing artillery."
+
+  hunnic_unrest: "Hunnic Unrest"
+
+  Legio_II: "Legio II"
+  Legio_III: "Legio III"
+  Legio_VI: "Legio VI"
+  

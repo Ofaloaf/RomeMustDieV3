@@ -1,0 +1,18 @@
+﻿### ERA 1
+
+clan_mother = {
+	# Unlocks Mulberry Groves PM on Rice Farms
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/clan_mother.dds"
+	category = society
+	can_research = no
+	
+	modifier = {
+		state_working_adult_ratio_add = 0.05
+		state_dependent_political_participation_add = 0.15
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}

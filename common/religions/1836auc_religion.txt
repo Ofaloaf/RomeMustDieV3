@@ -1,0 +1,67 @@
+﻿# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+
+# Uses all 'modifiers' possible thats exported as a Modifier.
+
+arian = {
+	texture = "gfx/interface/icons/religion_icons/arian.dds"
+	traits = {
+		christian
+	}
+	color = { 0.55 0.53 0.40 }
+}
+
+nicene = {
+	texture = "gfx/interface/icons/religion_icons/nicene.dds"
+	traits = {
+		christian
+	}
+	color = { 0.7 0.25 0.25 }
+}
+
+pelagian = {
+	texture = "gfx/interface/icons/religion_icons/pelagian.dds"
+	traits = {
+		christian
+	}
+	color = { 0.55 0.25 0.55 }
+}
+
+nestorian = {
+	texture = "gfx/interface/icons/religion_icons/nestorian.dds"
+	traits = {
+		christian
+	}
+	color = { 0.7 0.7 0.66 }
+}
+
+germanic_pagan = {
+	texture = "gfx/interface/icons/religion_icons/germanic.dds"
+	traits = {
+		european_pagan
+	}
+	color = { 0.4 0.4 0.4 }
+}
+
+baltic_pagan = {
+	texture = "gfx/interface/icons/religion_icons/baltic.dds"
+	traits = {
+		european_pagan
+	}
+	color = { 0.6 0.4 0.3 }
+}
+
+slavic_pagan = {
+	texture = "gfx/interface/icons/religion_icons/slavic.dds"
+	traits = {
+		european_pagan
+	}
+	color = { 0.7 0.6 0.3 }
+}
+
+tengri_pagan = {
+	texture = "gfx/interface/icons/religion_icons/tengri.dds"
+	traits = {
+		european_pagan
+	}
+	color = { 0.4 0.4 0.4 }
+}

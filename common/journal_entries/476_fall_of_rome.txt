@@ -1,0 +1,128 @@
+﻿je_fall_of_rome = {
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+
+	immediate = {
+		random_law = {
+			limit = { type = law_type:law_monarchy }
+			save_scope_as = monarchy_scope
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+		custom_tooltip = {
+			text = fall_of_rome_criteria
+		}
+	}
+
+	fail = {
+		#custom_tooltip = {
+		#	text = won_boxer_tt
+		#	has_variable = won_boxer_rebellion
+		#}
+	}
+
+	on_complete = {
+		trigger_event = { id = fall_of_rome_events.100 }
+	}
+
+	current_value = {
+		value = var:fall_of_rome
+	}
+
+	goal_add_value = {
+		add = 5
+	}
+	
+	progressbar = yes
+
+	on_weekly_pulse = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						NOT = { exists = c:POW }
+						c:POW ?= { NOT = { is_subject_of = root } }
+					}
+				}
+				post_notification = warlord_china_explosion_point_add
+				change_variable = {
+					name = fall_of_rome
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_variable = fall_of_rome_loans }
+					taking_loans = yes
+				}
+				post_notification = warlord_china_explosion_point_add
+				change_variable = {
+					name = fall_of_rome
+					add = 1
+				}
+				set_variable = fall_of_rome_loans
+			}
+			if = {
+				limit = {
+					any_civil_war = {
+						is_civil_war_type = revolution
+					}
+				}
+				post_notification = warlord_china_explosion_point_add
+				change_variable = {
+					name = fall_of_rome
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					exists = c:GLL
+					c:GLL = { NOT = { has_war_with = root } }
+				}
+				post_notification = warlord_china_explosion_point_add
+				change_variable = {
+					name = fall_of_rome
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					exists = c:ERE
+					c:ERE = { has_war_with = root }
+				}
+				post_notification = warlord_china_explosion_point_add
+				change_variable = {
+					name = fall_of_rome
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					any_interest_group = {
+						is_in_government = yes
+						leader = {
+							culture = {
+								NOR = {
+									has_discrimination_trait = latin_culture_group
+									cu:greek = this
+								}
+							}
+						}
+					}
+				}
+				set_variable = china_abolished_monarchy
+				post_notification = warlord_china_explosion_point_add
+				change_variable = {
+					name = fall_of_rome
+					add = 1
+				}
+			}
+		}
+	}
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+}

@@ -1,0 +1,120 @@
+### ROMANS ###
+#
+- Roman society continued to evolve a bit, but I'm taking a lot from Turtledove's depiction of a surviving Rome in "Gunpowder Empire"—this Roman Empire is not innovative, it's overburdened, it's formidable only because it's already large.
+- 18th century Latin is not the same as Classical Latin, and has continued to totter towards being a Romance language. It has a lot of characteristics of Italian but isn't quite the same—I tried to uniformly apply some phonological shifts found in Proto Romance but probably fucked that up.
+- Latin has also split regionally: 
+	- "Gallic" is derived from Old French
+	- "Septimanian" is a mix of Old Occitan and Old Catalan
+	- "Hispanian" is Old Castilian, and classical names written in modern Spanish
+	- "Brithenig" is a conlang that speculates what a Welsh Romance language would be like.
+		- It has its own wiki at https://ib.frath.net/w/Main_Page. 
+		- There might be more rigorous Romano-British conlangs out there but this one has the most stuff fleshed out that's pertinent to a Paradox game (i.e., someone already wrote up a bunch of personal names)
+	- "Africanu" is an African Romance language that's essentially Sardinian
+	- "Illyrian" is Dalmatian mixed in with the Latin forms of some ancient Illyrian and Pannonian names
+- Some people still use Classical Latin to show off how cultured they are, continuing a long tradition of an elite/vulgar split in the language.
+
+### YUROP ###
+#
+- There was never an Attila in the 5th century. Bleda killed his brother and merrily played the role of sometimes-foederatus sometimes-raider. Effective, but not nearly so ambitious nor as damaging as Attila.
+	- The Huns settle and remain in Pannonia. Neither Gepids nor Avars nor Magyars make it their home.
+	- This scenario's Attila is meant to be Napoleon. He's Attila-as-Napoleon, a modern-day upstart who clawed up the ranks to become Emperor and create a new order centered around himself.
+	- "Pannonia" remains the name of the region according to classicists and intelligentsia types, in the same way the French Revolution kept clumsily trying to resuscitate toponyms from antiquity. The realm is more often the Kingdom of the Huns, Land of the Huns, or Hunnia, the latter of which I've avoided using just because it sits weird with me.
+- Continued Roman policies regarding the frontier mean that efforts at unification and centralization among bordering peoples (Germans, Slavs, Berbers, etc.) have been shot down throughout the years by whatever means were available.
+	- "Germania" as a region exists as an idea, but the Thuringians, Franks, Lombards, etc. don't think of themselves as Germans.
+- Franks are like Mega-Dutch
+	- I tried using Old Dutch nameforms for them
+- Slavic migrations happened
+	- Slavic migration along the lower Danube led to the unification of the Seven Slavic Tribes that formed the basis of Slavic Bulgaria, but Bulgars didn't rock up so they were just the Seven Tribes without a Bulgar namesake.
+	- Serbia is eternal
+	- Poland doesn't unify
+	- Rurikid Rus' persists, resulting in a bunch of East Slavic principalities mucking around
+- Britain is Romano-British and absolutely fucked
+	- Anglo-Saxons never established dominance. Hengist and Horsa got drunk and fell over in a puddle or something.
+		- Romano-British urban centers survived, and became political centers in the sub-Roman and Medieval periods, leading to the continued preeminence of Latin and then a vulgar Romano-British Romance language.
+	- Britain had a brief sub-Roman golden age ruled by the Arthurian set- Uther, Arthur, Ambrosius Aurelianus. This was all based on personal charisma and military power.
+		- 6th century?
+	- The moment a weak ruler appeared, the golden age ended and Britannia imploded into petty kingdoms. It's never fully reunified since then, although various rulers over the centuries may have come close.
+	- Being so fragmented, Britain's industry is underdeveloped, and its weak economy means it was never seriously involved in New World colonization.
+
+### ASIA ###
+#
+- Islam still developed, but since the point of this scenario is surviving Romans, they did not significantly conquer westward into Roman territories
+	- Sassanians fare less well in the Roman/Byzantine-Sassanian Wars, and so their collapse is more complete when the Caliphate begins to expand. Victories in the east direct Arab attention away from Roman lands and draw their focus more eastward.
+	- Caliphate conquests went further east, reaching the Ganges before losing steam
+	- Both the Indus /and/ Ganges rivers are heavily Islamized, so the heart of Hinduism in this India is down in the Deccan
+	- Persia proper has more Arabization, but India in turn has more Persianate influences
+- No Ghengis Khan makes for more fun opportunities in Central and East Asia
+	- Cumania survives
+	- China is a smaller Han state with no Uyghuristan, Tibet, or Manchuria
+		- old dynastic naming conventions continue. gonna pick out a Sichuanese dynasty because why not, so let's call this China "Da Shu"/"Great Sichuan".
+
+### THE AMERICAS ###
+#
+- Norse contact with North America continues unabated
+	- Vinland is the oldest European colonial project in the Americas.
+	- Although Vinland is the oldest colony, it's not the largest or most prosperous. Medieval Norsemen did not have an imperial project in mind with Vinland, and it remained a small mercantile venture with limited settlement for /centuries/.
+- Romans nonetheless celebrate the voyages of Christophorus Genuanus as the true "discovery" of the Americas. When did Genuanus do his voyages, you may ask? Let's not dwell on trivialities.
+- The Roman Empire attempted to colonize in several regions in several different ways. Some succeeded, some failed:
+	- The Prefecture of the West (WRE subject)
+		- on the North American East Coast
+		- a project of the WRE
+		- Primarily attempted to promote Romanization amoung indigenous peoples with extra emphasis on Romanization of local elites, the same way Gaul, Hispania, et al were Romanized in Antiquity. 
+		- Some Roman settlement mixed in, of course.
+		- This sort of worked, but coddling local elites means preserving some local privileges and has created a patchwork of autonomous indigenous realms within the administration of the prefecture.
+		- Little bit of a British East India Company vibe, in terms of having a state that's riddled with autonomous territories and a restless population
+	- Collegium Orientalium (ERE subject)
+		- in the Caribbean
+		- a project of the ERE
+		- "Company of the Easterners"
+		- Highly commercial venture, primarily run by a mix of Eastern Roman mercantile figures.
+		- Greeks, Syriacs, Arabs, Copts. Hellenized names just to keep things consistent-looking.
+		- Culture is "New Anatolic." Desperately tried to come up with a name for generic eastern Roman mix of peoples that didn't use "Oriental" to describe a culture and ended up using Greek.
+		- Established in the Caribbean. Very profitable. Very bloody.
+		- Labor comes from everywhere. Some indigenous peoples are enslaved, some slaves are imported from abroad, some free and indentured labor is also used.
+	- Ulpiana (Independent)
+		- Northeast Brazil
+		- a project of Roman Hispania specifically
+		- named after Trajan's gens
+		- attempted to be run as an additional normal province of the Diocese of Hispania, i.e. Ulpiana was administered alongside and in the same way as Baetica, Tarraconensis, etc.
+		- the Atlantic rendered this idea stupid and eventually the local elites of the colony rose up, USA-style, and fought Hispanian governance
+		- WRE sided with Hispania over Ulpiana but did not and possibly could not render sufficient aid to suppress the revolt, and eventually ate shit
+		- Ulpiana operates like early independent USA. Slaveowning elite.
+	- Imperium Mexihcanum (Independent)
+		- Mexico
+		- a project of the WRE
+		- "What if Cortes conquered the Aztecs and just refused to bow down to Spain afterward?"
+		- Small semi-Nahuatized Roman elite rules over an indigenous population
+		- Constant revolts
+		- It's amazing it lasted this long
+	- Venetiola (Collegium Orientalium subject)
+		- Venezuela
+		- a project of the Collegium Orientalium
+		- autonomous settlement
+		- why is this named after somewhere in Italy if it's founded by people from the Eastern Med? Venezuela and Venetiola both mean "Little Venice" in Spanish and Latin respectively, that's it. Fuck you.
+	- Guiana (WRE subject)
+		- Guyana
+		- a project of the WRE
+		- Loyalist fragment near Ulpiana
+		- More culturally and economically tied to Caribbean than Brazil & Ulpiana
+	- Limacania (Independent)
+		- Peru
+		- "Limac" preserved as a name for the Rímac River in central Peru. Our Lima is their "Limacum", and the region based around the Rímac becomes "Limac(um)"+"-anus"+"-ia", like the Rhineland's Latinized name being "Rhenania" from "Rhenus (Rhine)"+"-anus"+"-ia"
+		- Only recently gained independence in the wake of Attila's wars in Europe
+- Ludowijcslant is Frankish Louisiana
+	- bants innit
+- Acacian Domain is Frankish Boer State going batshit insane in Texas
+	- Dutchmen in any semi-arid development will develop an intense devotion to God and the Bible. It is known.
+- Mali colonized the Orinocco River (in the form of Kutoo Manden- "New Mali")
+	- The Kutoo Manden-Mali relationship is like a reduced form of the Triangular Trade. Labor and commercial exports go from Mali to Kutoo Manden, and raw goods- sugar, mostly- get shipped from Kutoo Manden to Mali.
+- Japanese colonization of the Pacific Coast is split into two major realms:
+	- Kaigai (literally "Overseas")
+		- Loyal subject of Japan, Kaigai is a mix of settler colony and feudal confederation. The establishment of Kaigai allowed the mother country to give some clans new domains blessedly far away from the capital.
+	- Jiyukuni ("Free State")
+		- Wokou pirate state. Freebooters, rebels, troublesome sorts. Not loyal to anyone, but also an expensive pain in the ass to conquer. Who wants to spend gold to conquer /Baja California/?
+- There's a lot more surviving and independent indigenous states
+	- The Romans /had/ an imperial project, but it approached empire-building in conservative ways that limited expansionism and encouraged some local state-building.
+		- Events like pseudo-Cortes going his own way and Ulpiana declaring independence put further brakes on expansionist ambitions, even as technological and economic conditions might have otherwise favored Roman conquests.
+	- The presence of colonizers nonetheless creates some strong influences on different indigenous cultures. 
+		- The Norse were around for the longest time, but their emphasis on trade and general disinterest in heavy settlement or conquest meant that their influences, while widespread, are not deep or significant.
+		- Native peoples east of the Mississippi tend to be Christianized, and take some influences from Roman culture and aesthetics. 
+		- Indigenous peoples within Kaigai urban centers have been subjected to some degree of Japanization

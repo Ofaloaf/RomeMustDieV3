@@ -1,0 +1,76 @@
+﻿CHARACTERS = {
+	c:ERE = {
+		create_character = {
+			first_name = Theophylaktos
+			last_name = of_Bithynia
+			historical = yes
+			ruler = yes
+			noble = yes
+			age = 71
+			dna = dna_king_william_04
+			culture = cu:greek
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_royalist
+			traits = {
+				romantic
+			}
+			on_created = {
+				set_variable = {
+					name = is_billy
+				}				
+			}
+		}	
+	
+		create_character = {
+			first_name = Alexandra
+			last_name = of_Bithynia
+			historical = yes
+			heir = yes
+			female = yes
+			noble = yes
+			age = 25
+			dna = dna_queen_victoria
+			culture = cu:greek
+			interest_group = ig_industrialists
+			ideology = ideology_moderate
+			traits = {
+				direct
+			}
+			on_created = {
+				set_variable = {
+					name = is_victoria
+				}				
+			}
+		}
+		
+		create_character = {
+			first_name = Basileios
+			last_name = Kouboukleisios
+			historical = yes
+			age = 48
+			ig_leader = yes
+			interest_group = ig_rural_folk
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+				tactful
+				honorable
+			}
+		}
+		
+		create_character = {
+			first_name = Theophylaktos
+			last_name = Sikoundenos
+			historical = yes
+			age = 55
+			ig_leader = yes
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_moderate
+			traits = {
+				reckless
+				hedonist
+				charismatic
+			}
+		}
+	}
+}

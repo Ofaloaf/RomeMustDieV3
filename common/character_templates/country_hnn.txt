@@ -1,0 +1,20 @@
+﻿### Huns. Attila, mostly
+
+HNN_attila_the_hun_char = {
+	first_name = Attila
+	last_name = Mundzucus
+	historical = yes
+	culture = cu:hunnic
+	religion = arian
+	is_general = yes
+	female = no
+	birth_date = 1691.8.16 # this should give the age Napoleon would've been in 1836, less 10 years
+	dna = HNN_attila_the_hun
+	interest_group = ig_armed_forces
+	ideology = ideology_attila_partisan
+	traits = {
+		imposing
+		cruel
+		celebrity_commander
+	}
+}

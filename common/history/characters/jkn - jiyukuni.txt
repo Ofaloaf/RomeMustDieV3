@@ -1,0 +1,13 @@
+﻿CHARACTERS = {
+	c:JKN = {
+		create_character = {
+			template = jkn_industrialists
+		}
+		create_character = {
+			template = jkn_armed_forces
+		}
+		create_character = {
+			template = jkn_rural_folk
+		}
+	}
+}

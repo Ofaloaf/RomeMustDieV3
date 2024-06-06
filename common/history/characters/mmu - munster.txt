@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:MMU = {
+		create_character = {
+			first_name = TU_athal
+			last_name = O__SU_illeabhA_in
+			historical = yes
+			ruler = yes
+			age = 38
+			interest_group = ig_rural_folk
+			traits = {
+				charismatic
+			}
+		}
+	}
+}

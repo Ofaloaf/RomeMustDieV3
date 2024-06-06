@@ -1,0 +1,52 @@
+﻿CHARACTERS = {
+	c:WRE = {
+
+		### RULER & HEIR ###
+		create_character = {
+			template = wre_ruler # Victor Tatulus
+		}
+
+		create_character = {
+			template = wre_heir # Victorianus Tatulus
+		}
+		
+
+		### INTEREST GROUP LEADERS ###
+
+		# Armed Forces
+		# Onulphus Otacheringi
+		create_character = {
+			template = wre_odoacer_expy
+		}
+		
+		# Rural Folks
+		# Costantino Atrianense
+		create_character = {
+			template = wre_rural_folk_leader
+		}
+
+		# Landowners
+		# Chrysogonus Petrus Leonis
+		create_character = {
+			template = wre_landowners_leader 
+		}
+		
+		### GENERALS
+		
+		create_character = {
+			template = wre_general_01	# Gercorio Segontiense
+		}
+		
+		create_character = {
+			template = wre_general_02	# Bonifacio Ruffo
+		}
+
+		create_character = {
+			template = wre_general_03	# Glaucias Scirtar
+		}
+
+		create_character = {
+			template = wre_general_04	# Eneas Cincio
+		}
+	}
+}

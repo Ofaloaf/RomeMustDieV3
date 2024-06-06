@@ -1,0 +1,59 @@
+﻿DIPLOMACY = {
+	c:WRE = {
+		create_diplomatic_pact = {
+			# Prefecture of the West
+			country = c:POW
+			type = dominion
+		}
+	}
+	c:ERE = {
+		create_diplomatic_pact = {
+			country = c:BLC
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:DRG
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:CUB # Collegium Orientalium
+			type = protectorate
+		}
+	}
+	c:POW = {
+		create_diplomatic_pact = {
+			country = c:LNP
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:PWT
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:TCR
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:YSG
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:CTW
+			type = puppet
+		}
+	}
+	
+	c:TGR = { # Axum
+		create_diplomatic_pact = {
+			country = c:BGM # Simien
+			type = tributary
+		}
+	}
+	
+	c:MEX = {
+		create_diplomatic_pact = {
+			country = c:TLX
+			type = puppet
+		}
+	}
+}

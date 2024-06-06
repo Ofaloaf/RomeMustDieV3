@@ -1,0 +1,19 @@
+﻿# Ceint/Cantia/Kent
+
+CNT_eudaf_vosenianus = {
+	first_name = Eudaf
+	last_name = Vosenianus
+	historical = yes
+	culture = cu:brithenig
+	religion = pelagian
+	is_general = yes
+	female = no
+	age = 33
+	interest_group = ig_armed_forces
+	ideology = ideology_moderate
+	traits = {
+		arrogant
+		reserved
+		popular_commander
+	}
+}

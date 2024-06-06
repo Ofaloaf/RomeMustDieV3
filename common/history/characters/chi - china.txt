@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:CHI ?= {
+		create_character = {
+			template = chi_canli_template
+		}
+	}
+}

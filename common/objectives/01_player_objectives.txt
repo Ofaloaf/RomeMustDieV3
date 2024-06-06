@@ -1,0 +1,48 @@
+﻿objective_orbis_romanus = {
+	background = "gfx/interface/icons/objectives/orbis_romanus_illu.dds"
+	icon = "gfx/interface/icons/objectives/orbis_romanus_icon.dds"
+	
+	recommended_tags = { WRE ERE GLL PGN }
+	
+	objective_subgoals = {
+		#sg_expand_goods_production #rework
+		#sg_strong_market #Keep
+	}
+	
+	#final_subgoal = sg_strong_market
+	
+	on_start = {
+	}
+}
+
+objective_struggle_for_the_new_world = {
+	background = "gfx/interface/icons/objectives/struggle_for_the_new_world_illu.dds"
+	icon = "gfx/interface/icons/objectives/struggle_for_the_new_world_icon.dds"
+	
+	recommended_tags = { IRO POW MEX KAI }	
+	
+	objective_subgoals = {
+		#sg_colonization_laws
+	}
+	
+	#final_subgoal = sg_the_hegemon
+	
+	on_start = {
+	}
+}
+	
+objective_oriens = {
+	background = "gfx/interface/icons/objectives/oriens_illu.dds"
+	icon = "gfx/interface/icons/objectives/oriens_icon.dds"
+	
+	recommended_tags = { EGY PER CHO }	
+	
+	objective_subgoals = {
+		#sg_encourage_liberal_ideas
+	}
+	
+	#final_subgoal = sg_egalitarian_society
+	
+	on_start = {
+	}
+}

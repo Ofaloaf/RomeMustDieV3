@@ -1,0 +1,14 @@
+﻿CHARACTERS = {
+	c:GLL = {
+		create_character = {
+			first_name = Siagres
+			last_name = Egides
+			historical = yes
+			ruler = yes
+			age = 51
+			interest_group = ig_armed_forces
+			traits = {
+			}
+		}
+	}
+}

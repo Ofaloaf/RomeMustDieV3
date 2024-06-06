@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:PGN = {
+		create_character = {
+			template = PGN_ricatus_gwerthion
+		}
+	}
+}

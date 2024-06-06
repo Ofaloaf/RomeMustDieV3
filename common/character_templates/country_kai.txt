@@ -1,0 +1,16 @@
+﻿kai_landowners = {
+	first_name = Tsunanori
+	last_name = Matsudaira
+	historical = yes
+	culture = cu:nikkei_tobujin
+	female = no
+	ig_leader = yes
+	age = 36
+	interest_group = ig_landowners
+	religion = rel:mahayana
+	traits = {
+		innovative
+		pious
+		master_bureaucrat
+	}
+}

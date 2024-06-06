@@ -1,0 +1,41 @@
+pdxmesh = {
+	name = "female_cloaks_secular_fp1_nobility_03_mesh"
+	file = "female_cloaks_secular_fp1_nobility_03.mesh"
+
+	blend_shape = { id = "female_cloaks_secular_fp1_nobility_03_bs_infant"		type = "female_cloaks_secular_fp1_nobility_03_bs_infant.mesh" }
+	blend_shape = { id = "female_cloaks_secular_fp1_nobility_03_bs_fat"			type = "female_cloaks_secular_fp1_nobility_03_bs_fat.mesh" }
+	#blend_shape = { id = "female_cloaks_secular_fp1_nobility_03_bs_gaunt"		type = "female_cloaks_secular_fp1_nobility_03_bs_gaunt.mesh" }
+	#blend_shape = { id = "female_cloaks_secular_fp1_nobility_03_bs_muscular"	type = "female_cloaks_secular_fp1_nobility_03_bs_muscular.mesh" }	
+	#blend_shape = { id = "female_cloaks_secular_fp1_nobility_03_bs_old"		type = "female_cloaks_secular_fp1_nobility_03_bs_old.mesh" }
+	blend_shape = { id = "female_cloaks_secular_fp1_nobility_03_bs_dwarf"		type = "female_cloaks_secular_fp1_nobility_03_bs_dwarf.mesh" }
+	#blend_shape = { id = "female_cloaks_secular_fp1_nobility_03_bs_breast_size_max"		type = "female_cloaks_secular_fp1_nobility_03_bs_breast_size_max.mesh" }
+	
+	meshsettings = {
+		name = "|female_cloaks_secular_fp1_nobility_03|female_cloaks_secular_fp"
+		index = 0
+		texture_diffuse = "female_cloaks_secular_fp1_nobility_03_diffuse.dds"
+		texture_normal = "female_cloaks_secular_fp1_nobility_03_normal.dds"
+		texture_specular = "female_cloaks_secular_fp1_nobility_03_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_cloaks_secular_fp1_nobility_03_entity"
+	pdxmesh = "female_cloaks_secular_fp1_nobility_03_mesh"
+
+	attribute = { name = "body_bs_infant"				blend_shape = "female_cloaks_secular_fp1_nobility_03_bs_infant" }
+	attribute = { name = "body_bs_fat"					blend_shape = "female_cloaks_secular_fp1_nobility_03_bs_fat" }
+	attribute = { name = "body_bs_thick"					blend_shape = "female_cloaks_secular_fp1_nobility_03_bs_fat" }
+
+	
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/female_top_layers/nobility_03/female_cloaks_secular_fp1_nobility_03_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "northern_low_01"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
