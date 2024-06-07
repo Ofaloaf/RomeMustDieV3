@@ -1,7 +1,22 @@
 ﻿l_english:
  STATE_ALBANIA: "Epirus"
- STATE_EAST_SWITZERLAND: "Rhaetia"
+ HUB_NAME_STATE_ALBANIA_city: "Tirkan" # Tirana
+ HUB_NAME_STATE_ALBANIA_port: "Dyrrhachion" # Durres
+ HUB_NAME_STATE_ALBANIA_mine: "Skodra" # Shkoder
+ HUB_NAME_STATE_ALBANIA_farm:0 "Fier"
+ HUB_NAME_STATE_ALBANIA_wood: "Pulcheriopolis" # Berat
+ #
  STATE_WEST_SWITZERLAND: "Helvetia"
+ HUB_NAME_STATE_WEST_SWITZERLAND_city: "Berna" # Bern
+ HUB_NAME_STATE_WEST_SWITZERLAND_mine: "Basilia" # Basel
+ HUB_NAME_STATE_WEST_SWITZERLAND_farm: "Lousanna" # Lausanne
+ HUB_NAME_STATE_WEST_SWITZERLAND_wood: "Genava" # Geneva
+ #
+ STATE_EAST_SWITZERLAND: "Rhaetia"
+ HUB_NAME_STATE_EAST_SWITZERLAND_city: "Turicum" # Zurich
+ HUB_NAME_STATE_EAST_SWITZERLAND_mine: "Curia" # Chur
+ HUB_NAME_STATE_EAST_SWITZERLAND_farm: "Arbor Felix" # Arbon, near St. Gallen
+ HUB_NAME_STATE_EAST_SWITZERLAND_wood: "Luciaria" # Lucerne
 
   # Italy
  HUB_NAME_STATE_SARDINIA_city: "Turris Libisonis"
@@ -237,7 +252,7 @@
  HUB_NAME_STATE_BAVARIA_wood: "Augusburuc"
  #
  STATE_AUSTRIA: "Vindobona"
- HUB_NAME_STATE_AUSTRIA_city: "Vindobona"
+ HUB_NAME_STATE_AUSTRIA_city: "Vindobona" # Vienna
  HUB_NAME_STATE_AUSTRIA_mine: "Frienstat"
  HUB_NAME_STATE_AUSTRIA_farm: "Lentia"
  HUB_NAME_STATE_AUSTRIA_wood: "Aelium Cetium"
@@ -492,13 +507,13 @@
  #
  ### NORTH AMERICA ###
  #
- STATE_MICHIGAN: "Ojibwewaki"
- HUB_NAME_STATE_MICHIGAN_city: "Mishimikinaak"
+ STATE_MICHIGAN: "Ojibwewaki" # Ojibwe Homeland
+ HUB_NAME_STATE_MICHIGAN_city: "Mishimikinaak" # Mackinac Island
  HUB_NAME_STATE_MICHIGAN_mine: "Waawiiyaataanong"
  HUB_NAME_STATE_MICHIGAN_farm: "Sacenong"
  HUB_NAME_STATE_MICHIGAN_wood: "Kitchiwikwedongsing"
  #
- STATE_OHIO: "Shawandasse Tula"
+ STATE_OHIO: "Shawandasse Tula" # Shawnee Land
  HUB_NAME_STATE_OHIO_city: "Chillicothe"
  HUB_NAME_STATE_OHIO_mine: "Hokhokken" # Hocking River
  HUB_NAME_STATE_OHIO_farm: "Yažaʼyeh" # Cuyahoga River
@@ -509,12 +524,12 @@
  HUB_NAME_STATE_RHODE_ISLAND_farm: "Escanaba"
  HUB_NAME_STATE_RHODE_ISLAND_wood: "Baawitigong"
  #
- STATE_NEW_JERSEY: "Lënapehòkink"
+ STATE_NEW_JERSEY: "Lënapehòkink" # Lenape Land
  HUB_NAME_STATE_NEW_JERSEY_city: "Shakamaxon"
  HUB_NAME_STATE_NEW_JERSEY_port: "Hupokàn"
  HUB_NAME_STATE_NEW_JERSEY_mine: "Ramapough"
  #
- STATE_NEW_YORK: "Haudenosauneega"
+ STATE_NEW_YORK: "Haudenosauneega" # Iroquois/Haudenosaunee Land
  HUB_NAME_STATE_NEW_YORK_city: "Onondaga"
  HUB_NAME_STATE_NEW_YORK_mine: "Kanatsiohareke"
  HUB_NAME_STATE_NEW_YORK_farm: "Kanadaseaga"
@@ -533,7 +548,7 @@
  #
  STATE_VERMONT: "Muhhekunneuw"
  #
- STATE_NEW_HAMPSHIRE: "Merruasquamack"
+ STATE_NEW_HAMPSHIRE: "Merruasquamack" # possible etymology of the Merrimack
  HUB_NAME_STATE_NEW_HAMPSHIRE_city: "Pannukog"
  HUB_NAME_STATE_NEW_HAMPSHIRE_port: "Pskehtekwis" # Piscataqua River
  HUB_NAME_STATE_NEW_HAMPSHIRE_mine:1 "Fairfield"
@@ -670,7 +685,7 @@
  HUB_NAME_STATE_ARKANSAS_wood: "Warmwaterbronnen" # Hot Springs
  #
  STATE_LOUISIANA: "Neder-Lodewijcslant" # Neder for Middle Dutch, Nithar for Old Dutch
- HUB_NAME_STATE_LOUISIANA_city: "Rot Baston" # Red Stick
+ HUB_NAME_STATE_LOUISIANA_city: "Rot Baston" # Red Stick, akak Baton Rouge
  HUB_NAME_STATE_LOUISIANA_port: "Niuwe Oosteinde" # Niuwe for Middle Dutch, Niuwi for Old Dutch
  HUB_NAME_STATE_LOUISIANA_mine: "Heliopolis" # name of the ship that helped found Shreveport
  HUB_NAME_STATE_LOUISIANA_farm: "Kadawdáachuh"
@@ -763,7 +778,7 @@
  #
  STATE_ALBERTA: "Unjegah"
  #
- STATE_BRITISH_COLUMBIA: "Staurogawa" # Fraser (Staulo) River
+ STATE_BRITISH_COLUMBIA: "Stauruogawa" # Fraser (Staulo) River
  #
  STATE_MANITOBA: "Manitoba"
  HUB_NAME_STATE_MANITOBA_city: "Wīnipēk" # Winnipeg
@@ -799,6 +814,25 @@
  HUB_NAME_STATE_SANTO_DOMINGO_mine: "Cibao" # La Vega
  HUB_NAME_STATE_SANTO_DOMINGO_farm:1 "Higüey"
  HUB_NAME_STATE_SANTO_DOMINGO_wood:0 "Nagua"
+ #
+ STATE_JAMAICA: "Jamaica"
+ HUB_NAME_STATE_JAMAICA_city:0 "Kingston"
+ HUB_NAME_STATE_JAMAICA_port:1 "Port Royal"
+ HUB_NAME_STATE_JAMAICA_mine:0 "NAME"
+ HUB_NAME_STATE_JAMAICA_farm:0 "Montego Bay"
+ HUB_NAME_STATE_JAMAICA_wood:0 "NAME"
+ #
+ STATE_CUBA: "Cuba"
+ HUB_NAME_STATE_CUBA_city: "Habana"
+ HUB_NAME_STATE_CUBA_port: "Caersaroportus" # Santiago de Cuba
+ HUB_NAME_STATE_CUBA_mine:0 "Guantanamo"
+ HUB_NAME_STATE_CUBA_farm:1 "Puerto Príncipe"
+ HUB_NAME_STATE_CUBA_wood:0 "Santa Clara"
+ HUB_NAME_STATE_BAHAMAS_city:0 "Congo Town"
+ HUB_NAME_STATE_BAHAMAS_port:0 "Nassau"
+ HUB_NAME_STATE_BAHAMAS_mine:0 "NAME"
+ HUB_NAME_STATE_BAHAMAS_farm:0 "Nicholls Town"
+ HUB_NAME_STATE_BAHAMAS_wood:0 "Andros Town"
  #
  ### SOUTH AMERICA ###
  #
@@ -896,7 +930,7 @@
  HUB_NAME_STATE_ALGIERS_farm: "Ad Medix" # Medea
  HUB_NAME_STATE_ALGIERS_wood: "Cartennae" # Ténès
  #
- HUB_NAME_STATE_TRIPOLI_city:0 "Sabha"
+ HUB_NAME_STATE_TRIPOLI_city: "Garama"
  HUB_NAME_STATE_TRIPOLI_port:0 "Tripoli"
  HUB_NAME_STATE_TRIPOLI_mine:0 "Gadamis"
  HUB_NAME_STATE_TRIPOLI_farm:0 "Tmassah"

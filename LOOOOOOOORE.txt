@@ -6,7 +6,7 @@
 	- "Gallic" is derived from Old French
 	- "Septimanian" is a mix of Old Occitan and Old Catalan
 	- "Hispanian" is Old Castilian, and classical names written in modern Spanish
-	- "Brithenig" is a conlang that speculates what a Welsh Romance language would be like.
+	- "Brtiannic"/"Brithenig" is a conlang that speculates what a Welsh Romance language would be like.
 		- It has its own wiki at https://ib.frath.net/w/Main_Page. 
 		- There might be more rigorous Romano-British conlangs out there but this one has the most stuff fleshed out that's pertinent to a Paradox game (i.e., someone already wrote up a bunch of personal names)
 	- "Africanu" is an African Romance language that's essentially Sardinian
