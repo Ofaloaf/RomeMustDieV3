@@ -142,10 +142,10 @@
 		}
 	}
 	s:STATE_SAMARA={
-		region_state:RUS={
+		region_state:BGR={
 			create_building={
 				building="building_arms_industry"
-				level=5
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_muskets" "pm_automation_disabled" "pm_merchant_guilds_building_arms_industry" }
 			}
@@ -163,7 +163,7 @@
 			}
 			create_building={
 				building="building_iron_mine"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_iron_mine" }
 			}
@@ -172,16 +172,16 @@
 		}
 	}
 	s:STATE_KAZAN={
-		region_state:RUS={
+		region_state:BGR={
 			create_building={
 				building="building_government_administration"
-				level=5
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_arms_industry"
-				level=3
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_muskets" "pm_automation_disabled" "pm_merchant_guilds_building_arms_industry" }
 			}
@@ -193,19 +193,19 @@
 			}
 			create_building={
 				building="building_food_industry"
-				level=3
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" "pm_merchant_guilds_building_food_industry" }
 			}
 			create_building={
 				building="building_rye_farm"
-				level=2
+				level=6
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_logging_camp"
-				level=5
+				level=6
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}

@@ -18,9 +18,10 @@
 - There was never an Attila in the 5th century. Bleda killed his brother and merrily played the role of sometimes-foederatus sometimes-raider. Effective, but not nearly so ambitious nor as damaging as Attila.
 	- The Huns settle and remain in Pannonia. Neither Gepids nor Avars nor Magyars make it their home.
 	- This scenario's Attila is meant to be Napoleon. He's Attila-as-Napoleon, a modern-day upstart who clawed up the ranks to become Emperor and create a new order centered around himself.
+	- The Huns and Attila do the equivalent of the French Revolution and the Napoleonic Wars. These are in the recent past, living memory. The Romans led a coalition which eventually defeated them, but the war effort wrecked their shit and exposed a lot of weaknesses. Compare it to the defeat of Napoleon and how even in France's defeat, the allied coalition in 1815 wasn't able to turn the clock back to 1789.
 	- "Pannonia" remains the name of the region according to classicists and intelligentsia types, in the same way the French Revolution kept clumsily trying to resuscitate toponyms from antiquity. The realm is more often the Kingdom of the Huns, Land of the Huns, or Hunnia, the latter of which I've avoided using just because it sits weird with me.
 - Continued Roman policies regarding the frontier mean that efforts at unification and centralization among bordering peoples (Germans, Slavs, Berbers, etc.) have been shot down throughout the years by whatever means were available.
-	- "Germania" as a region exists as an idea, but the Thuringians, Franks, Lombards, etc. don't think of themselves as Germans.
+	- "Germania" as a region exists as an idea, but the Thuringians, Franks, Lombards, etc. don't think of themselves as a single German people.
 - Franks are like Mega-Dutch
 	- I tried using Old Dutch nameforms for them
 - Slavic migrations happened

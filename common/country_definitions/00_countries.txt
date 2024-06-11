@@ -945,7 +945,7 @@ BOS = {
 }
 
 BUL = {
-	color = { 116  107  140 }
+	color = { 28 81 36 }
 	
 	country_type = recognized
 
@@ -2832,8 +2832,8 @@ SIB = { # Siberia
 	country_type = unrecognized
 
 	tier = kingdom
-	cultures = { yakut siberian inuit }
-	capital = STATE_TOMSK
+	cultures = { tatar siberian }
+	capital = STATE_TOBOLSK
 }
 
 YAK = { # Yakutia

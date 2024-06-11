@@ -5400,6 +5400,7 @@ ugrian={
 	}
 	ethnicities = {
 		1 = circumpolar
+		1 = slavic
 	}
 	graphics = decentralised_americas
 }

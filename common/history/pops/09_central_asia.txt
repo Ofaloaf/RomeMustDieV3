@@ -129,18 +129,19 @@
 		}
 	}
 	s:STATE_SAMARA = {
-		region_state:RUS = {
+		region_state:BGR = {
 			create_pop = {
-				culture = russian
+				culture = tatar
 				size = 1977196
 			}
 			create_pop = {
 				culture = tatar
-				religion = orthodox
+				religion = nicene
 				size = 50000
 			}
 			create_pop = {
 				culture = tatar
+				religion = jewish
 				size = 372000
 			}
 		}
@@ -160,23 +161,23 @@
 		}
 	}
 	s:STATE_KAZAN = {
-		region_state:RUS = {
+		region_state:BGR = {
 			create_pop = {
-				culture = russian
-				size = 2455124
+				culture = tatar
+				size = 1955124
 			}
 			create_pop = {
 				culture = ugrian
-				religion = orthodox
 				size = 100004
 			}
 			create_pop = {
 				culture = tatar
+				religion = jewish
 				size = 642996
 			}
 			create_pop = {
 				culture = tatar
-				religion = orthodox
+				religion = nicene
 				size = 220000
 			}
 		}

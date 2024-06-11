@@ -1418,3 +1418,48 @@ TLX = { # Tlaxcala
 	cultures = { nahua }
 	capital = STATE_MEXICO
 }
+
+NVG = { # Novgorod
+	color = { 97 126 37 }
+	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { russian }
+	
+	capital = STATE_NOVGOROD
+}
+
+BGR = { # Bolghar / Volgar Bulgaria
+	color = { 116 107 140 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { tatar }	
+	capital = STATE_KAZAN
+}
+
+PLM = { # Pelym
+	color = { 164 102 103 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { ugrian }	
+	capital = STATE_URAL
+}
+
+EVK = { # Evenks
+	color = { 81 84 85 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { siberian }	
+	capital = STATE_UPPER_YENISEYSK
+}
