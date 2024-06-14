@@ -544,6 +544,14 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
+		region_state:CHO={
+			create_building={
+				building="building_port"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
+		}
 	}
 	s:STATE_TANGANYIKA={
 		region_state:NYM={
@@ -984,31 +992,7 @@
 		}
 	}
 	s:STATE_MOCAMBIQUE={
-		region_state:POR={
-			create_building={
-				building="building_millet_farm"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_coffee_plantation"
-				level=5
-				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=5
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_barracks"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+		region_state:CHO={
 			create_building={
 				building="building_port"
 				level=1
@@ -1110,7 +1094,7 @@
 		}
 	}
 	s:STATE_NORTH_ANGOLA={
-		region_state:POR={
+		region_state:KON={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -1142,22 +1126,16 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-	}
-	s:STATE_SOUTH_ANGOLA={
-		region_state:POR={
+		region_state:CHO={
 			create_building={
-				building="building_coffee_plantation"
-				level=1
+				building="building_port"
+				level=2
 				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_millet_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+				activate_production_methods={ "pm_anchorage" }
 			}
 		}
+	}
+	s:STATE_SOUTH_ANGOLA={
 		region_state:OVM={
 		}
 	}
@@ -1302,6 +1280,14 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
+		region_state:CHO={
+			create_building={
+				building="building_port"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
 	}
 	s:STATE_NORTHERN_CAPE={
 		region_state:RLG={
@@ -1316,24 +1302,12 @@
 		}
 	}
 	s:STATE_LOURENCO_MARQUES={
-		region_state:POR={
+		region_state:CHO={
 			create_building={
-				building="building_millet_farm"
+				building="building_port"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_coffee_plantation"
-				level=3
-				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
+				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 		region_state:GZA={

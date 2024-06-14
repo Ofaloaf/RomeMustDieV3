@@ -835,22 +835,14 @@
 				size = 6000
 			}
 		}
-		region_state:GBR = {
+		region_state:CHO = {
 			create_pop = {
-				culture = french
-				size = 2088
+				culture = tamil
+				size = 2888
 			}
 			create_pop = {
-				culture = afro_antillean
-				size = 94612
-			}
-			create_pop = {
-				culture = british
-				size = 800
-			}
-			create_pop = {
-				culture = afro_caribbean
-				size = 5900
+				culture = malagasy
+				size = 100612
 			}
 		}
 	}
