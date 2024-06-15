@@ -1584,6 +1584,7 @@ STATES = {
 		create_state = {
 			country = c:PER
 			owned_provinces = { x37058f }
+			state_type = unincorporated
 		}
 		add_homeland = cu:bedouin
 		add_homeland = cu:yemenite
@@ -4586,10 +4587,12 @@ STATES = {
 		create_state = {
 			country = c:CHO
 			owned_provinces = { xE020B0 }
+			state_type = unincorporated
 		}
 		create_state = {
 			country = c:PER
 			owned_provinces = { x414325 }
+			state_type = unincorporated
 		}
 		add_homeland = cu:lacustrine_bantu
 		add_homeland = cu:swahili
