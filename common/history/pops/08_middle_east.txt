@@ -151,13 +151,29 @@
 		region_state:MAH = {
 			create_pop = {
 				culture = bedouin
-				size = 33000
+				size = 30000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = sudanese
 				religion = animist
-				size = 3200
+				size = 3000
+			}
+		}
+		region_state:PER = {
+			create_pop = {
+				culture = bedouin
+				size = 1000
+			}
+			create_pop = {
+				culture = persian
+				size = 1200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sudanese
+				religion = animist
+				size = 1000
 			}
 		}
 		region_state:KAT = {
