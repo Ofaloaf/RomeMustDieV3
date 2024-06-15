@@ -633,6 +633,14 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
+		region_state:AIL={
+		create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
 	}
 	s:STATE_JUJUY={
 		region_state:BOL={
@@ -958,7 +966,7 @@
 		}
 	}
 	s:STATE_SOUTH_ATLANTIC_ISLANDS={
-		region_state:GBR={
+		region_state:AIL={
 			create_building={
 				building="building_port"
 				level=1
@@ -1085,6 +1093,14 @@
 	}
 	s:STATE_RIO_DE_JANEIRO={
 		region_state:PRI={
+		}
+		region_state:AIL={
+		create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_BAHIA={

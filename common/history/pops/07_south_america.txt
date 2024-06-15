@@ -387,6 +387,16 @@ POPS = {
 				size = 8678
 			}
 		}
+		region_state:AIL = {
+			create_pop = {
+				culture = irish
+				size = 6825
+			}
+			create_pop = {
+				culture = platinean
+				size = 15826
+			}
+		}
 	}
 	s:STATE_JUJUY = {
 		region_state:BOL = {
@@ -693,9 +703,9 @@ POPS = {
 		}
 	}
 	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
-		region_state:GBR = {
+		region_state:AIL = {
 			create_pop = {
-				culture = british
+				culture = irish
 				size = 14540
 			}
 		}
@@ -841,6 +851,16 @@ POPS = {
 			create_pop = {
 				culture = amazonian
 				size = 65653
+			}
+		}
+		region_state:AIL = {
+			create_pop = {
+				culture = irish
+				size = 8451
+			}
+			create_pop = {
+				culture = amazonian
+				size = 18130
 			}
 		}
 	}

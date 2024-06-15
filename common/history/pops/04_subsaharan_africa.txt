@@ -2663,11 +2663,11 @@
 		region_state:SAF = {
 			create_pop = {
 				culture = khoisan
-				size = 155992
+				size = 147992
 			}
 			create_pop = {
 				culture = sotho
-				size = 38004
+				size = 30004
 			}
 			create_pop = {
 				culture = khoisan
@@ -2676,7 +2676,7 @@
 			}
 			create_pop = {
 				culture = british
-				size = 42100
+				size = 39100
 			}
 			create_pop = {
 				culture = boer
@@ -2695,6 +2695,20 @@
 			create_pop = {
 				culture = tamil
 				size = 4410
+			}
+		}
+		region_state:AIL = {
+			create_pop = {
+				culture = khoisan
+				size = 8201
+			}
+			create_pop = {
+				culture = sotho
+				size = 8362
+			}
+			create_pop = {
+				culture = irish
+				size = 3618
 			}
 		}
 	}

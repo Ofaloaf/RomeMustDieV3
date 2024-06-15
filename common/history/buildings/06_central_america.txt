@@ -290,7 +290,7 @@
 		}
 	}
 	s:STATE_WEST_INDIES={
-		region_state:FRA={
+		region_state:AIL={
 			create_building={
 				building="building_sugar_plantation"
 				level=3
