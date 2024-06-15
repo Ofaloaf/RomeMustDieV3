@@ -1500,7 +1500,7 @@
 		}
 	}
 	s:STATE_CAPE_VERDE={
-		region_state:POR={
+		region_state:MAL={
 			create_building={
 				building="building_coffee_plantation"
 				level=1
@@ -1550,7 +1550,7 @@
 		}
 	}
 	s:STATE_AZORES={
-		region_state:POR={
+		region_state:WRE={
 			create_building={
 				building="building_sugar_plantation"
 				level=1
@@ -1578,7 +1578,7 @@
 		}
 	}
 	s:STATE_MADEIRA={
-		region_state:POR={
+		region_state:WRE={
 			create_building={
 				building="building_sugar_plantation"
 				level=2

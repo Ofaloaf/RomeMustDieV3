@@ -1,13 +1,5 @@
 ﻿BUILDINGS={
 	s:STATE_IVORY_COAST={
-		region_state:FRA={
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
 		region_state:BLE={
 		}
 		region_state:KNG={
@@ -24,7 +16,7 @@
 		}
 	}
 	s:STATE_SENEGAL={
-		region_state:FRA={
+		region_state:MAL={
 			create_building={
 				building="building_sugar_plantation"
 				level=2
@@ -37,12 +29,6 @@
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
-		}
-		region_state:JLF={
-		}
-		region_state:CAY={
-		}
-		region_state:FTR={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -58,10 +44,10 @@
 		}
 	}
 	s:STATE_GAMBIA={
-		region_state:POR={
+		region_state:MAL={
 			create_building={
 				building="building_millet_farm"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -72,23 +58,9 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:GBR={
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
-		region_state:SRR={
-		}
-		region_state:BND={
-		}
-		region_state:KBU={
-		}
 	}
 	s:STATE_SIERRA_LEONE={
-		region_state:SIL={
+		region_state:MAL={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -378,11 +350,7 @@
 		}
 	}
 	s:STATE_GUINEA={
-		region_state:MDK={
-		}
-		region_state:SSU={
-		}
-		region_state:FTJ={
+		region_state:MAL={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -391,29 +359,13 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=10
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 	}
 	s:STATE_GHANA={
-		region_state:GBR={
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
-		region_state:NET={
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
 		region_state:ASH={
 			create_building={
 				building="building_livestock_ranch"
@@ -426,24 +378,16 @@
 				level=20
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
-			}		
-		}
-	}
-	s:STATE_TOGO={
-		region_state:DEN={
-			create_building={
-				building="building_dye_plantation"
-				level=1
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
+			}	
 			create_building={
 				building="building_port"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
-			}
+			}	
 		}
+	}
+	s:STATE_TOGO={
 		region_state:ASH={
 			create_building={
 				building="building_barracks"
@@ -548,6 +492,14 @@
 			create_building={
 				building="building_port"
 				level=2
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
+		}
+		region_state:PER={
+			create_building={
+				building="building_port"
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
