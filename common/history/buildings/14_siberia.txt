@@ -70,29 +70,35 @@
 		}
 	}
 	s:STATE_CHUKOTKA={
-		region_state:RUS={
+		region_state:MTS={
 		}
 	}
 	s:STATE_KAMCHATKA={
-		region_state:RUS={
+		region_state:MTS={
 		}
 	}
 	s:STATE_OKHOTSK={
-		region_state:RUS={
+		region_state:MTS={
 			create_building={
 				building="building_port"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
+			create_building={
+				building="building_fishing_wharf"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+			}
 		}
 	}
 	s:STATE_YAKUTSK={
-		region_state:RUS={
+		region_state:YAK={
 		}
 	}
 	s:STATE_TRANS_BAIKAL={
-		region_state:RUS={
+		region_state:HMN={
 		}
 	}
 	s:STATE_IRKUTSK={

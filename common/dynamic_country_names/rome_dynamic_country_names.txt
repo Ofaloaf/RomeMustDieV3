@@ -425,3 +425,68 @@ CHI = {
 		}
 	}
 }
+
+RUS = { # Russia
+	dynamic_country_name = {
+		name = dyn_c_soviet_union
+		adjective = dyn_c_soviet_union_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+	
+	dynamic_country_name = {
+		name = dyn_c_russian_republic
+		adjective = dyn_c_russian_republic_adj
+		trigger = {
+			scope:actor ?= { 
+				was_formed_from = NVG
+				OR = {
+					has_law = law_type:law_presidential_republic 
+					has_law = law_type:law_parliamentary_republic 
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_ruthenia
+		adjective = dyn_c_ruthenia_adj
+		trigger = {
+			scope:actor ?= { 
+				OR = {
+					was_formed_from = UKR # Kyiv
+					was_formed_from = GAL # Halych
+				}
+				NOT = { has_law = law_type:law_monarchy } # the state should still be called Rus' in a Ukrainian-dominant monarchy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_rosiya
+		adjective = dyn_c_rasiya_adj
+		trigger = {
+			scope:actor ?= { 
+				was_formed_from = SML
+			}
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_union_of_new_people
+		adjective = dyn_c_union_of_new_people_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = c:RUS
+			coa_def_nihilist_flag_trigger = yes
+		}
+	}	
+}

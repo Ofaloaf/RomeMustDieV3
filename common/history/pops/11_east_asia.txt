@@ -5,16 +5,21 @@
 			# Northern Xinjiang excluding Turfan and the Khumul Khanate
 			create_pop = {
 				culture = han # includes administrators and military personel
-				size = 60000
+				size = 30000
 			}
 			create_pop = {
 				culture = han # hui
 				religion = sunni
-				size = 60000
+				size = 30000
 			}
 			create_pop = {
 				culture = uighur
-				size = 44000
+				religion = nestorian
+				size = 56000
+			}
+			create_pop = {
+				culture = uighur
+				size = 70000
 			}
 			create_pop = {
 				culture = kazak
@@ -45,11 +50,6 @@
 			create_pop = {
 				culture = mongol
 				size = 1000
-			}
-			# Turfan
-			create_pop = {
-				culture = uighur
-				size = 10000
 			}
 		}
 	}
@@ -1308,14 +1308,14 @@
 				size = 49500
 			}
 		}
-		region_state:JAP = {
+		region_state:MTS = {
 			create_pop = {
 				culture = ainu
 				size = 9020
 			}
 			create_pop = {
 				culture = japanese
-				size = 9862
+				size = 10862
 			}
 		}
 	}

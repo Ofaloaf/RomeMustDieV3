@@ -109,7 +109,7 @@
 	}
 
 	s:STATE_CHUKOTKA = {
-		region_state:RUS = {
+		region_state:MTS = {
 			create_pop = {
 				culture = inuit
 				size = 3580
@@ -119,33 +119,33 @@
 				size = 6044
 			}
 			create_pop = {
-				culture = russian
+				culture = japanese
 				size = 96
 			}
 		}
 	}
 	s:STATE_KAMCHATKA = {
-		region_state:RUS = {
+		region_state:MTS = {
 			create_pop = {
 				culture = siberian
 				size = 5600
 			}
 			create_pop = {
-				culture = russian
+				culture = japanese
 				size = 3400
 			}
 		}
 	}
 	
 	s:STATE_OKHOTSK = {
-		region_state:RUS = {
+		region_state:MTS = {
 			create_pop = {
 				culture = yakut
 				size = 43008
 			}
 			create_pop = {
 				culture = yakut
-				religion = orthodox
+				religion = mahayana
 				size = 20196
 			}
 			create_pop = {
@@ -153,39 +153,30 @@
 				size = 9400
 			}
 			create_pop = {
-				culture = russian
+				culture = japanese
 				size = 12400
 			}
 		}
 	}
 
 	s:STATE_YAKUTSK = {
-		region_state:RUS = {
+		region_state:YAK = {
 			create_pop = {
 				culture = yakut
-				size = 41100
-			}
-			create_pop = {
-				culture = yakut
-				religion = orthodox
-				size = 9000
-			}
-			create_pop = {
-				culture = russian
-				size = 16096
+				size = 66300
 			}
 			create_pop = {
 				culture = siberian
-				size = 800
+				size = 12000
 			}
 		}
 	}
 
 
 	s:STATE_TRANS_BAIKAL = {
-		region_state:RUS = {
+		region_state:HMN = {
 			create_pop = {
-				culture = russian
+				culture = siberian
 				size = 122000
 			}
 			create_pop = {

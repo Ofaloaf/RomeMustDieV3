@@ -1472,7 +1472,13 @@
 	s:STATE_HOKKAIDO={
 		region_state:AIN={
 		}
-		region_state:JAP={
+		region_state:MTS={
+			create_building={
+				building="building_rice_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+			}
 			create_building={
 				building="building_barracks"
 				level=2
