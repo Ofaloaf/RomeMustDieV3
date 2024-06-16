@@ -82,25 +82,9 @@
 		}
 	}
 	s:STATE_LIBERIA={
-		region_state:LIB={
-			create_building={
-				building="building_millet_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_coffee_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
+		region_state:KRU={
+		}
+		region_state:BSS={
 		}
 	}
 	s:STATE_HAUSALAND={
@@ -450,7 +434,7 @@
 		}
 	}
 	s:STATE_ZANZIBAR={
-		region_state:OMA={
+		region_state:ZAN={
 			create_building={
 				building="building_coffee_plantation"
 				level=1

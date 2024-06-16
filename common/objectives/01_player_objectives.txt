@@ -46,3 +46,19 @@ objective_oriens = {
 	on_start = {
 	}
 }
+
+#objective_heart_of_africa = {
+	#background = "gfx/interface/icons/objectives/oriens_illu.dds"
+	#icon = "gfx/interface/icons/objectives/oriens_icon.dds"
+	
+#	recommended_tags = { MAL KNM HAR TGR }	
+	
+#	objective_subgoals = {
+		#sg_encourage_liberal_ideas
+#	}
+	
+	#final_subgoal = sg_egalitarian_society
+	
+#	on_start = {
+#	}
+#}
