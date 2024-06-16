@@ -1463,3 +1463,47 @@ EVK = { # Evenks
 	cultures = { siberian }	
 	capital = STATE_UPPER_YENISEYSK
 }
+
+MTS = { # Matsumae
+	color = { 81 84 85 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { japanese }	
+	capital = STATE_HOKKAIDO
+}
+
+SZD = { # Suzdal
+	color = { 112 99 22 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { russian }	
+	capital = STATE_MOSCOW
+}
+
+HMN = { # Hamnigan
+	color = { 188 213 211 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { siberian }	
+	capital = STATE_TRANS_BAIKAL
+}
+
+MSV = { # Muscovy
+	color = { 206 181 97 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { russian }	
+	capital = STATE_MOSCOW
+}

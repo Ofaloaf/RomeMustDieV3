@@ -464,6 +464,13 @@
  STATE_WALLACHIA: "Muntenia"
  HUB_NAME_STATE_WALLACHIA_city: "Argedava"
  #
+ STATE_ROSTOV: "Tanais"
+ HUB_NAME_STATE_ROSTOV_city: "Temernik" # Rostov-on-Don
+ HUB_NAME_STATE_ROSTOV_port: "Tanais" # Azov
+ HUB_NAME_STATE_ROSTOV_mine: "Tuz" # Turkish namesake of the Tuzlov River, which the Grushevka River flows into, which is where Alexandro-Grushevskaya is from
+ HUB_NAME_STATE_ROSTOV_farm: "Biryuchiy Kut" # Novocherkassk
+ HUB_NAME_STATE_ROSTOV_wood: "Tsimla"
+ #
  ### SHIT WHERE DO I PUT ANATOLIA AND THE CAUCASUS ###
  STATE_ERZURUM: "Karin"
  HUB_NAME_STATE_ERZURUM_city: "Karin"

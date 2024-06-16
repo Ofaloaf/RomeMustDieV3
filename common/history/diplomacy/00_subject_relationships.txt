@@ -56,4 +56,18 @@
 			type = puppet
 		}
 	}
+	
+	c:JAP = {
+		create_diplomatic_pact = {
+			country = c:MTS # Matsumae Dominion
+			type = vassal
+		}
+	}
+	
+	c:CHI = {
+		create_diplomatic_pact = {
+			country = c:YUN
+			type = tributary
+		}
+	}
 }

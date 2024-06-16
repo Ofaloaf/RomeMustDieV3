@@ -234,3 +234,19 @@ RCT = { # Recet / Rheged
 		priority = 1
 	}
 }
+
+MTS = { # Matsumae Domain
+	flag_definition = {
+		coa = MTS
+		subject_canton = MTS
+		priority = 1
+	}
+}
+
+MSV = { # Muscovy
+	flag_definition = {
+		coa = MSV
+		subject_canton = MSV
+		priority = 1
+	}
+}
