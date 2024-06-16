@@ -24,14 +24,16 @@
 		}
 	}
 	s:STATE_MOSCOW = {
-		region_state:RUS = {
+		region_state:MSV = {
 			create_pop = {
 				culture = russian
-				size = 3653196
+				size = 2518854
 			}
+		}
+		region_state:SZD = {
 			create_pop = {
-				culture = ashkenazi
-				size = 2200
+				culture = russian
+				size = 1134342
 			}
 		}
 	}
@@ -92,7 +94,7 @@
 		}
 	}
 	s:STATE_BRYANSK = {
-		region_state:RUS = {
+		region_state:MSV = {
 			create_pop = {
 				culture = russian
 				size = 1770000
@@ -174,14 +176,14 @@
 		}
 	}
 	s:STATE_TVER = {
-		region_state:RUS = {
+		region_state:NVG = {
 			create_pop = {
 				culture = russian
 				size = 2339596
 			}
 			create_pop = {
 				culture = ugrian
-				religion = orthodox
+				religion = nicene
 				size = 59996
 			}
 		}
@@ -289,14 +291,14 @@
 		}
 	}
 	s:STATE_GALICH = {
-		region_state:RUS = {
+		region_state:SZD = {
 			create_pop = {
 				culture = russian
 				size = 1071996
 			}
 			create_pop = {
 				culture = ugrian
-				religion = orthodox
+				religion = nicene
 				size = 23996
 			}
 		}

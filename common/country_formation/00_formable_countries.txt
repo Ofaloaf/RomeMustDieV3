@@ -23,6 +23,14 @@ CHI = { # China
 	ai_will_do = { always = yes }
 }
 
+RUS = { # Rus/Russia
+	use_culture_states = yes
+
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+}
+
 ETH = { # Ethiopia
 	use_culture_states = yes
 
