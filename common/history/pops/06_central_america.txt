@@ -194,9 +194,9 @@
 		}
 	}
 	s:STATE_WEST_INDIES = {
-		region_state:FRA = {
+		region_state:AIL = {
 			create_pop = {
-				culture = french
+				culture = irish
 				size = 22200
 			}
 			create_pop = {

@@ -225,41 +225,28 @@
 		}
 	}
 	s:STATE_LIBERIA = {
-		region_state:LIB = {
+		region_state:KRU = {
 			create_pop = {
 				culture = kru
-				size = 414200
-			}
-			create_pop = {
-				culture = bassa
-				size = 120000
-			}
-			create_pop = {
-				culture = kissi
-				size = 79200
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = bassa
-				size = 13300
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = kissi
-				size = 8800
+				size = 423600
 			}
 			create_pop = {
 				culture = mande
-				size = 170000
+				size = 85000
+			}
+		}
+		region_state:BSS = {
+			create_pop = {
+				culture = bassa
+				size = 193300
 			}
 			create_pop = {
-				culture = afro_american
-				size = 58996
+				culture = kissi
+				size = 88000
 			}
 			create_pop = {
-				culture = kru
-				religion = protestant
-				size = 16400
+				culture = mande
+				size = 85000
 			}
 		}
 	}
@@ -826,10 +813,10 @@
 		}
 	}
 	s:STATE_ZANZIBAR = {
-		region_state:OMA = {
+		region_state:ZAN = {
 			create_pop = {
 				culture = swahili
-				size = 382800
+				size = 390800
 			}
 			create_pop = {
 				culture = sukuma
@@ -844,15 +831,6 @@
 				culture = lacustrine_bantu
 				religion = sunni
 				size = 84000
-			}
-			create_pop = {
-				culture = bedouin
-				size = 4004
-			}
-			create_pop = {
-				culture = bedouin
-				religion = sunni
-				size = 4000
 			}
 			create_pop = {
 				culture = sukuma
@@ -2663,11 +2641,11 @@
 		region_state:SAF = {
 			create_pop = {
 				culture = khoisan
-				size = 155992
+				size = 147992
 			}
 			create_pop = {
 				culture = sotho
-				size = 38004
+				size = 30004
 			}
 			create_pop = {
 				culture = khoisan
@@ -2676,7 +2654,7 @@
 			}
 			create_pop = {
 				culture = british
-				size = 42100
+				size = 39100
 			}
 			create_pop = {
 				culture = boer
@@ -2695,6 +2673,20 @@
 			create_pop = {
 				culture = tamil
 				size = 4410
+			}
+		}
+		region_state:AIL = {
+			create_pop = {
+				culture = khoisan
+				size = 8201
+			}
+			create_pop = {
+				culture = sotho
+				size = 8362
+			}
+			create_pop = {
+				culture = irish
+				size = 3618
 			}
 		}
 	}

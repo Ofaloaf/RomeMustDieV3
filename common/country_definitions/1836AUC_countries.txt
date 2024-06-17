@@ -1508,6 +1508,17 @@ MSV = { # Muscovy
 	capital = STATE_MOSCOW
 }
 
+BIM = { # BIMA Sultanate
+	color = { 75 179 27 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { moluccan }	
+	capital = STATE_SUNDA_ISLANDS
+}
+
 JMT = { # Jamtland
 	color = { 44 64 37 }
 	country_type = recognized

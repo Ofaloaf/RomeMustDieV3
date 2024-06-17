@@ -1793,11 +1793,10 @@ JAV = {
 	
 	country_type = unrecognized
 	
-	tier = principality
+	tier = kingdom
 	
 	cultures = { javan }
 	capital = STATE_WEST_JAVA
-	is_named_from_capital = yes
 }
 
 KOR = {
