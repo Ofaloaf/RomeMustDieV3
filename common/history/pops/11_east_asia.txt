@@ -501,7 +501,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = yue
-				size = 9748000
+				size = 10090000
 			}
 			create_pop = {
 				culture = manchu
@@ -531,21 +531,6 @@
 			create_pop = {
 				culture = hakka
 				size = 148000
-			}
-		}
-		region_state:POR = {
-			create_pop = {
-				culture = yue
-				size = 336000
-			}
-			create_pop = {
-				culture = portuguese
-				size = 996
-			}
-			create_pop = {
-				culture = yue
-				religion = catholic
-				size = 5000
 			}
 		}
 	}
