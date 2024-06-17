@@ -1430,141 +1430,64 @@ danish={
 	religion = germanic_pagan
 	traits = { scandinavian_culture_group european_heritage }
 	male_common_first_names={
-		Aasmund
-		Aage
-		Adam
-		Alber
-		Anders
-		Axel
-		Carl
-		Christian
-		Edvard
-		Edvin
-		Erik
-		Folke
-		Frederik
-		Georg
-		Hannibal
-		Hans
-		Henrik
-		Herman
-		Hugo
-		Ivar
-		Jacob
-		Johan
-		Julius
+		Angantyr Ale Alfred AsbjO_rn
+		Bj_Orn
+		Erik Egin
+		Godfred Gurd Guldharald
+		Horik Holger Harald Hemming Halfdan Helge
 		Knud
-		Ludvig
-		Magnus
-		Michael
-		Niels
-		Olav
-		Otto
-		Peter
-		Poul
-		Sigurd
-		Sven
-		Tage
-		Thomas
-		Thorvald
-		Ukrik
-		Valdemar
-		Vilhelm
+		Oluf Osfrid
+		Randver Reginfred Reginbrand Rikvald
+		Sigfred Sigurd Sigtryg Svend
+		Thorvald Toke Thorgils Thrugot
+		Ulrik Ulf
+		Valdemar Vilhelm
+		Wigbert Waltbert
 	}
 	female_common_first_names = {
-		Amalie
-		Anna
-		Annestine
-		Caroline
-		Catharine
-		Charlotte
+		Aud Asfrid
+		Bodil
 		Dagmar
-		Dorothea
-		Eleonore
-		Elisabeth
-		Frederikke
-		Irene
-		Louise
-		Regine
-		Thyra
+		Estrid
+		Gunhild Gyrid Gytha
+		Helvig
+		Ingrid Ingeborg Ingegerd
+		Ragnhild
+		Sigrid Signe
+		Thyra Tove
 		Ulrikke
-		Vilhelmine
 	}	
 	noble_last_names = {
 		af_Danneskiold-Samsoe
-		Barnekow
-		Bernstorff
-		de_Neergaard
-		Gyldenstierne 
+		Barnekow Brock Bernstorff
+		Gyldenstierne Gormsen 
 		Kaas
-		Reventlow
-		Rosenkrantz
-		Trampe
-		Treschow
-		Trolle
-		Valkendorf
-		von_Baudissin
-		von_Falkenskiold 
-		von_Holstein
-		von_Krogh
-		von_Oldenburg
-		von_Sievers
+		Reventlow Rosenkrantz
+		Steenstrup Skjalmsen
+		Trampe Treschow Trolle
+		Ulfsen
+		Valkendorf Vogelius
 		Wichfeld
-		Vogelius
-		Steenstrup
-		Brock
-
 	}
 	common_last_names={
-		Ahlefeldt
-		Asp-Persson
-		Bang
-		Berger
-		Bonde
-		Carlsen
-		Dannemand
-		Danneskjold-Samso
+		Ahlefeldt Arnkiel
+		Bang Berger Bonde Boye Blinkenberg Blom BrO_ndsted BlA_tand
+		Dannemand Danneskjold-Samso Drachmann
 		Eberlin
-		Falsen
-		Folsach
-		Gyldenfeldt
-		Guntelberg
-		Haack
-		Hambro
-		Haxthausen
+		Falsen Folsach
+		Gyldenfeldt Guntelberg Gormsen Gade
+		Haack Hambro Haxthausen Hage
 		Juul
-		Klauman
-		Krogh
-		Laessoe
-		Leuenbach
-		Lovenbalk
-		Michaelsen
-		Mylius
-		Neergaard
-		Obelitz
-		Oxholm
-		Schack-Schackenborg
-		Stemman
-		Suenson
-		Thygeson
-		Trampe
-		Urne
-		Wadenstierna
-		Wedel-Heinen
+		Klauman Krogh Kinch
+		Laessoe Leuenbach Lovenbalk
+		Neergaard NO_rlund
+		Obelitz Oxholm OehlenschlA_ger
+		Rindom
+		Stemman Suenson Skjalmsen
+		Thygeson Trampe
+		Urne Ulfsen
+		Wadenstierna Wedel-Heinen
 		Zytphen-Adeler
-		de_Meza
-	}
-	male_regal_first_names = {
-		Christian
-		Frederik
-	}
-	female_regal_first_names = {
-		Alexandrine
-		Amalie
-		Charlotte_Frederica
-		Ingrid
-		Louise
-		Margrethe
 	}
 	graphics = european
 	ethnicities = {
@@ -1599,26 +1522,20 @@ norwegian={
 		Zacharias
 	}
 	female_common_first_names = {
-		Alette Alvide Anna Anne Ane Augusta
-		Barbara Bertha Birgitte Berthe
-		Camilla Catharina Christine Christiane Conradine
-		Dorothea
+		Alette Alvide
+		Bertha Berthe
 		Elisabeth Elise Eldrid Ermegaard Elen
 		Gustava
-		Hanna Halldis Helga Hendrikke Hermana Hilchen
-		Inga Inger Ingeborg Irene Ingebor
-		Jacobine Jensine Josephine Jensenette Johanne
-		Kari Karen Karoline Kristine
-		Lucia
-		Maren Martha Marthe Margrethe Marie Marit Maria
+		Halldis Helga Hermana Hilchen
+		Inga Inger Ingeborg Ingebor
 		Oline
-		Nicoline
-		Petra Petrine
 		Ragnhild
-		Sara Sophie Susanne Sanna Sigrid Siri
-		Thea Tora
+		Sanna Sigrid Siri
+		Tora
 	}	
 	noble_last_names = {
+		BlA_tand
+		#
 		Anker
 		Bagge Benkestok Bjelke Brodtkorb
 		Cappelen Cloumann Collett
@@ -1636,21 +1553,20 @@ norwegian={
 		Zeiner-Gundersen Zwilgmeyer
 	}
 	common_last_names={
-		Andersen Andreassen Adeler
+		Adeler
 		Balchen Berg Berge Bloch Borresen Bratzland Brentzon
-		Carlsen Carstensen Christiansen
+		Carstensen
 		Dahl
 		Egge
 		Falsen Fleicher Frisvold
 		Gjeranger Gundersen Gulbranson
-		Hansen Henriksen Hjermann Hund Huvestad
-		Jaatun Jacobsen Jensen Johansen Johannessen J_Orgensen
-		Kaldager Karlsen
+		Hjermann Hund Huvestad
+		Jaatun J_Orgensen
+		Kaldager
 		Lambrechts Larsen Loftesnaes Lie Lund Lundegaard
 		Moen Munthe M_Oller M_Orch
 		Nielsen Nilsen
 		Olsen
-		Pedersen Pettersen
 		Rein Rolfsen Rye
 		Schmidt Sissener S_Orensen
 		Thorsen
