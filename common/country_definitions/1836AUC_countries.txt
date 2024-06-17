@@ -1518,3 +1518,33 @@ BIM = { # BIMA Sultanate
 	cultures = { moluccan }	
 	capital = STATE_SUNDA_ISLANDS
 }
+
+JMT = { # Jamtland
+	color = { 44 64 37 }
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { swedish }
+	capital = STATE_NORRLAND
+}
+
+HLS = { # Halsingland
+	color = {  138 24 53 }
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { swedish }
+	capital = STATE_NORRLAND
+}
+
+KVN = { # Kvenland
+	color = { 245 239 207 }
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { sami finnish }
+	capital = STATE_NORRLAND
+}

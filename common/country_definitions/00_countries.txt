@@ -3808,7 +3808,7 @@ SCH = {
 
 	tier = principality
 	
-	cultures = { north_german danish }
+	cultures = { saxon danish }
 	capital = STATE_SCHLESWIG_HOLSTEIN
 	is_named_from_capital = yes
 }

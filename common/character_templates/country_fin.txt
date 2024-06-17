@@ -1,0 +1,17 @@
+﻿# FINLAND, FINLAND, FINLAND
+# THAT'S THE COUNTRY FOR ME
+
+FIN_king_of_finland = {
+	first_name = Lemmikki
+	last_name = Aikianpoika
+	historical = yes
+	culture = cu:finnish
+	religion = germanic_pagan # TODO: Finnish paganism?
+	ruler = yes
+	female = no
+	age = 76
+	interest_group = ig_devout
+	ideology = ideology_moderate
+	traits = {
+	}
+}

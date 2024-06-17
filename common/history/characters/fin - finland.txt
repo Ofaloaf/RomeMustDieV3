@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:FIN = {
+		create_character = {
+			template = FIN_king_of_finland
+		}
+	}
+}

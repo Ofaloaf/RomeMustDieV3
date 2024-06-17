@@ -6,6 +6,7 @@ CNT_eudaf_vosenianus = {
 	historical = yes
 	culture = cu:brithenig
 	religion = pelagian
+	ruler = yes
 	is_general = yes
 	female = no
 	age = 33
