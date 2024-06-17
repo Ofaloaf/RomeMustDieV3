@@ -6,6 +6,7 @@ GTL_rodle_wonreding = {
 	historical = yes
 	culture = cu:swedish
 	religion = germanic_pagan
+	ruler = yes
 	is_general = yes
 	female = no
 	age = 40

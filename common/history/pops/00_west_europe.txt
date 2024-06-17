@@ -36,18 +36,52 @@
 		}
 	}
 	s:STATE_NORRLAND = {
-		region_state:SWE = {
+		region_state:KVN = {
 			create_pop = {
-				culture = swedish
-				size = 289400
+				culture = sami
+				size = 100000
 			}
 			create_pop = {
 				culture = finnish
-				size = 20000
+				size = 25000
+			}
+			create_pop = {
+				culture = swedish
+				size = 8000
+			}
+		}
+		region_state:JMT = {
+			create_pop = {
+				culture = swedish
+				size = 50300
+			}
+			create_pop = {
+				culture = finnish
+				size = 2000
 			}
 			create_pop = {
 				culture = sami
-				size = 18000
+				size = 4000
+			}
+		}
+		region_state:HLS = {
+			create_pop = {
+				culture = swedish
+				size = 60333
+			}
+			create_pop = {
+				culture = finnish
+				size = 3000
+			}
+			create_pop = {
+				culture = sami
+				size = 6000
+			}
+		}
+		region_state:SWE = {
+			create_pop = {
+				culture = swedish
+				size = 60767
 			}
 		}
 	}
@@ -199,18 +233,14 @@
 		}
 	}
 	s:STATE_OSTROBOTHNIA = {
-		region_state:FIN = {
+		region_state:KVN = {
 			create_pop = {
 				culture = finnish
 				size = 360000
 			}
 			create_pop = {
-				culture = swedish
-				size = 47000
-			}
-			create_pop = {
 				culture = sami
-				size = 18000
+				size = 65000
 			}
 		}
 	}
