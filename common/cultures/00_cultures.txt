@@ -1739,17 +1739,20 @@ finnish={
 	religion = germanic_pagan
 	traits = { finnic scandinavian_culture_group european_heritage }
 	male_common_first_names={
-		Aikia Ahti
-		Into Ihanti
-		Kultamies
-		Lempi Lemmikki
-		Mielentoive Mielitty
+		Aikia Ahti Aljuj
+		Gjulopa Gamizila
+		Into Ihanti Igala
+		Kultamies Kulba Kabkagala Kuorila
+		Lempi Lemmikki Laduga
+		Mielentoive Mielitty Mostok Munomel
+		Nustui
+		Ojavelga
 		Pekko
 		Quiwe
-		Sotijalo Satajalka Satatieto Seppo
+		Sotijalo Satajalka Satatieto Seppo Semenka
 		Tuire
-		Untamo
-		Voitto
+		Untamo Uda
+		Voitto Vigala Vigui Vozemut
 	}
 	female_common_first_names = {
 		Aino
@@ -1763,17 +1766,18 @@ finnish={
 	}	
 	common_last_names={
 		Airo Aspara
+		Gymujinpoika
 		Heiskanen Holsti
 		JauhopA_A_
 		Koistinen Kuusi Kaukapeiue
-		Lieroinen
+		Lieroinen Lopin
 		Multamaki Mordula
 		Nenonen Nurmivaara
 		Paasikivi Punasuomalainen
 		Raappana
 		Sihvo Siilasvuo Stadius
-		Talvela Tujulin Tuompo
-		Valapuro VehnA_pA_A_
+		Talvela Tujulin Tuompo Tartaj
+		Valapuro VehnA_pA_A_ Varmin
 	}
 	graphics = european
 	ethnicities = {
