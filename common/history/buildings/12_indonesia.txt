@@ -116,8 +116,6 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:DEI={
-		}
 		region_state:SMB={
 			create_building={
 				building="building_barracks"
@@ -168,7 +166,13 @@
 		}
 	}
 	s:STATE_EAST_BORNEO={
-		region_state:DEI={
+		region_state:BLG={
+			create_building={
+				building="building_barracks"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -180,14 +184,6 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
-			}
-		}
-		region_state:BLG={
-			create_building={
-				building="building_barracks"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 		region_state:BNJ={

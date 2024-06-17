@@ -160,31 +160,6 @@
 				size = 26000
 			}
 		}
-		region_state:DEI = {
-			create_pop = {
-				culture = bornean
-				size = 39660
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = bornean
-				size = 4000
-			}
-			create_pop = {
-				culture = dayak
-				size = 8000
-			}
-			create_pop = {
-				culture = dayak
-				religion = sunni
-				size = 1000
-			}
-			create_pop = {
-				culture = dayak
-				religion = protestant
-				size = 2000
-			}
-		}
 		region_state:SMB = {
 			create_pop = {
 				culture = bornean
@@ -212,21 +187,21 @@
 		region_state:PON = {
 			create_pop = {
 				culture = bornean
-				size = 78000
+				size = 117660
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = bornean
-				size = 6100
+				size = 10100
 			}
 			create_pop = {
 				culture = dayak
-				size = 25000
+				size = 35000
 			}
 			create_pop = {
 				culture = dayak
 				religion = sunni
-				size = 4900
+				size = 5900
 			}
 			create_pop = {
 				culture = hakka
@@ -287,16 +262,16 @@
 		region_state:BLG = {
 			create_pop = {
 				culture = dayak
-				size = 42000
+				size = 47500
 			}
 			create_pop = {
 				culture = bornean
-				size = 34000
+				size = 46200
 			}
 			create_pop = {
 				culture = dayak
 				religion = sunni
-				size = 16000
+				size = 19000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -324,32 +299,7 @@
 				size = 70000
 			}
 		}
-		region_state:DEI = {
-			create_pop = {
-				culture = bornean
-				size = 10200
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = bornean
-				size = 2000
-			}
-			create_pop = {
-				culture = dayak
-				size = 5000
-			}
-			create_pop = {
-				culture = dayak
-				religion = sunni
-				size = 3000
-			}
-			create_pop = {
-				culture = dayak
-				religion = protestant
-				size = 500
-			}
-		}
-	}
+}
 	s:STATE_WEST_JAVA = {
 		region_state:JAV = {
 			create_pop = {
