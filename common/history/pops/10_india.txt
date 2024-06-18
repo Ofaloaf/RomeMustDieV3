@@ -1019,25 +1019,10 @@
 		}
 	}
 	s:STATE_BOMBAY = {
-		region_state:POR = {
-			create_pop = {
-				culture = marathi
-				religion = catholic
-				size = 364858
-			}
-			create_pop = {
-				culture = marathi
-				size = 75852
-			}
-			create_pop = {
-				culture = portuguese
-				size = 5681
-			}
-		}
 		region_state:BIC = {
 			create_pop = {
 				culture = marathi
-				size = 10312854
+				size = 10753564
 			}
 			create_pop = {
 				culture = sindi
@@ -1051,7 +1036,7 @@
 			}
 			create_pop = {
 				culture = british
-				size = 37911
+				size = 43592
 			}
 			create_pop = {
 				culture = sindi

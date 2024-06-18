@@ -1068,20 +1068,6 @@
 		}
 	}
 	s:STATE_BOMBAY={
-		region_state:POR={
-			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
 		region_state:BIC={
 			create_building={
 				building="building_government_administration"
@@ -1133,9 +1119,15 @@
 			}
 			create_building={
 				building="building_port"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
+			}
+			create_building={
+				building="building_dye_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			# Re-add monument here
 
