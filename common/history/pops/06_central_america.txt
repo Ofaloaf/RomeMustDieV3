@@ -200,32 +200,52 @@
 				size = 22200
 			}
 			create_pop = {
-				culture = afro_antillean
+				culture = afro_novomundan
 				size = 216104
 			}
 		}
-		region_state:DEN = {
+		region_state:BRK = {
 			create_pop = {
-				culture = danish
+				culture = taino
 				size = 3992
 			}
 			create_pop = {
-				culture = afro_caribbean
+				culture = antillian
 				size = 39996
 			}
 		}
-		region_state:GBR = {
+		region_state:CUB= {
 			create_pop = {
-				culture = british
-				size = 34704
+				culture = new_anatolic
+				size = 3992
 			}
 			create_pop = {
-				culture = afro_caribbean
-				size = 234768
+				culture = antillian
+				size = 18635
 			}
 			create_pop = {
-				culture = dutch
-				size = 396
+				culture = afro_novomundan
+				size = 20641
+			}
+		}
+		region_state:MAL = {
+			create_pop = {
+				culture = mande
+				size = 14704
+			}
+			create_pop = {
+				culture = afro_novomundan
+				size = 105837
+			}
+		}
+		region_state:KTM = {
+			create_pop = {
+				culture = mande
+				size = 20174
+			}
+			create_pop = {
+				culture = afro_novomundan
+				size = 134768
 			}
 		}
 	}

@@ -3030,7 +3030,7 @@ STATES = {
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY = {
 		create_state = {
-			country = c:FRA
+			country = c:MAD
 			owned_provinces = { xD690E0 }
 			state_type = unincorporated
 
@@ -3661,17 +3661,26 @@ STATES = {
 	s:STATE_WEST_INDIES = {	
 		create_state = {
 			country = c:AIL
-			owned_provinces = { x33895B x9C52CA }
+			owned_provinces = { x33895B x9C52CA xECC061 x70F001 }
 			state_type = unincorporated
 		}
 		create_state = {
-			country = c:DEN
-			owned_provinces = { x30F080 }
+			country = c:BRK
+			owned_provinces = { x30F080 x606060 }
+		}
+		create_state = {
+			country = c:CUB
+			owned_provinces = { x89337A x89334D x335389 }
 			state_type = unincorporated
 		}
 		create_state = {
-			country = c:GBR
-			owned_provinces = { x335389 x89337A x445B6C x5299CA x70F001 xF0F001 x707080 xD496B1 x446C63 x606060 x89334D xECC061 }
+			country = c:KTM
+			owned_provinces = { x707080 xD496B1 xF0F001 }
+			state_type = unincorporated
+		}
+		create_state = {
+			country = c:MAL
+			owned_provinces = { x445B6C x446C63 x5299CA }
 			state_type = unincorporated
 		}
 		
