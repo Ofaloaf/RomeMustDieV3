@@ -1117,54 +1117,27 @@
 		}
 	}
 	s:STATE_TENASSERIM = {
-		region_state:BIC = {
-			create_pop = {
-				culture = karen
-				size = 180800
-			}
-			create_pop = {
-				culture = british
-				size = 96
-			}
-			create_pop = {
-				culture = burmese
-				size = 112000
-			}
-			create_pop = {
-				culture = mon
-				size = 8796
-			}
-			create_pop = {
-				culture = thai
-				size = 36004
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = karen
-				size = 20000
-			}
-		}
 		region_state:SIA = {
 			create_pop = {
 				culture = burmese
-				size = 36000
+				size = 148000
 			}
 			create_pop = {
 				culture = mon
-				size = 3480
+				size = 12276
 			}
 			create_pop = {
 				culture = karen
-				size = 60800
+				size = 241600
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = karen
-				size = 20000
+				size = 40000
 			}
 			create_pop = {
 				culture = thai
-				size = 44020
+				size = 80110
 			}
 		}
 	}
