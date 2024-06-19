@@ -818,21 +818,12 @@
 	s:STATE_INDIAN_OCEAN_TERRITORY = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
-				size = 29992
-			}
-			create_pop = {
-				culture = afro_antillean
-				size = 68000
+				culture = malagasy
+				size = 103992
 			}
 			create_pop = {
 				culture = swahili
 				size = 2000
-			}
-			create_pop = {
-				culture = afro_antillean
-				religion = animist
-				size = 6000
 			}
 		}
 		region_state:CHO = {
@@ -1019,25 +1010,10 @@
 		}
 	}
 	s:STATE_BOMBAY = {
-		region_state:POR = {
-			create_pop = {
-				culture = marathi
-				religion = catholic
-				size = 364858
-			}
-			create_pop = {
-				culture = marathi
-				size = 75852
-			}
-			create_pop = {
-				culture = portuguese
-				size = 5681
-			}
-		}
 		region_state:BIC = {
 			create_pop = {
 				culture = marathi
-				size = 10312854
+				size = 10753564
 			}
 			create_pop = {
 				culture = sindi
@@ -1051,7 +1027,7 @@
 			}
 			create_pop = {
 				culture = british
-				size = 37911
+				size = 43592
 			}
 			create_pop = {
 				culture = sindi
