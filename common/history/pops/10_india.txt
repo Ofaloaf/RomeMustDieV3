@@ -3,12 +3,12 @@
 		region_state:IGS = {
 			create_pop = {
 				culture = bihari
-				size = 9124184
+				size = 9724184
 			}
 			create_pop = {
 				culture = bihari
-				religion = sunni
-				size = 1210301
+				religion = hindu
+				size = 610301
 			}
 			create_pop = {
 				pop_type = slaves
@@ -18,7 +18,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = bihari
-				religion = sunni
+				religion = hindu
 				size = 50091
 			}
 		}
@@ -28,11 +28,11 @@
 			create_pop = {
 				culture = bengali
 				religion = hindu
-				size = 14062032
+				size = 2062032
 			}
 			create_pop = {
 				culture = bengali
-				size = 8644162
+				size = 20644162
 			}
 			create_pop = {
 				pop_type = slaves
@@ -51,7 +51,6 @@
 		region_state:ASM = {
 			create_pop = {
 				culture = assamese
-				religion = hindu
 				size = 622500
 			}
 			create_pop = {
@@ -97,7 +96,6 @@
 		region_state:MNP = {
 			create_pop = {
 				culture = assamese
-				religion = hindu
 				size = 322500
 			}
 			create_pop = {
@@ -146,11 +144,16 @@
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 8100624
+				size = 1100624
 			}
 			create_pop = {
 				culture = kanauji
 				size = 5900848
+			}
+			create_pop = {
+				culture = kanauji
+				size = 1000000
+				religion = hindu
 			}
 			create_pop = {
 				culture = panjabi
@@ -159,7 +162,7 @@
 			}
 			create_pop = {
 				culture = avadhi
-				size = 440136
+				size = 6440136
 			}
 			create_pop = {
 				culture = kanauji
@@ -208,7 +211,6 @@
 		region_state:IGS = {
 			create_pop = {
 				culture = avadhi
-				religion = hindu
 				size = 6018800
 			}
 			create_pop = {
@@ -218,6 +220,7 @@
 			}
 			create_pop = {
 				culture = avadhi
+				religion = hindu
 				size = 1082800
 			}
 			create_pop = {
@@ -270,12 +273,17 @@
 		region_state:BER = {
 			create_pop = {
 				culture = gujarati
-				size = 6634444
+				size = 4634444
 			}
 			create_pop = {
 				culture = gujarati
 				religion = animist
 				size = 81200
+			}
+			create_pop = {
+				culture = gujarati
+				religion = hindu
+				size = 2000000
 			}
 			create_pop = {
 				culture = sindi
@@ -301,7 +309,12 @@
 		region_state:KUT = {
 			create_pop = {
 				culture = gujarati
-				size = 200208
+				size = 180208
+			}
+			create_pop = {
+				culture = gujarati
+				religion = hindu
+				size = 20020
 			}
 			create_pop = {
 				culture = sindi
@@ -323,7 +336,12 @@
 		region_state:IND = {
 			create_pop = {
 				culture = marathi
-				size = 1761757
+				size = 1000000
+			}
+			create_pop = {
+				culture = marathi
+				religion = hindu
+				size = 761757
 			}
 			create_pop = {
 				culture = avadhi
@@ -352,7 +370,12 @@
 			create_pop = {
 				culture = kanauji
 				religion = animist
-				size = 466800
+				size = 400000
+			}
+			create_pop = {
+				culture = kanauji
+				religion = hindu
+				size = 66800
 			}
 			create_pop = {
 				pop_type = slaves
@@ -374,7 +397,12 @@
 		region_state:GWA = {
 			create_pop = {
 				culture = marathi
-				size = 1861000
+				size = 1561000
+			}
+			create_pop = {
+				culture = marathi
+				size = 300000
+				religion = hindu
 			}
 			create_pop = {
 				culture = avadhi
@@ -394,7 +422,12 @@
 		region_state:BHO = {
 			create_pop = {
 				culture = marathi
-				size = 2389596
+				size = 1429596
+			}
+			create_pop = {
+				culture = marathi
+				religion = hindu
+				size = 969596
 			}
 			create_pop = {
 				culture = avadhi
@@ -443,12 +476,16 @@
 			create_pop = {
 				culture = panjabi
 				religion = sunni
-				size = 9036705
+				size = 10036705
+			}
+			create_pop = {
+				culture = avadhi
+				size = 346485
 			}
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 386485
+				size = 40000
 			}
 			create_pop = {
 				culture = panjabi
@@ -457,22 +494,26 @@
 			create_pop = {
 				culture = panjabi
 				religion = hindu
-				size = 2656912
+				size = 1656912
 			}
 		}
 		region_state:KAS = {
 			create_pop = {
 				culture = nepali
-				size = 405027
+				size = 125027
+			}
+			create_pop = {
+				culture = nepali
+				religion = sunni
+				size = 250000
 			}
 			create_pop = {
 				culture = panjabi
 				religion = sunni
-				size = 33867
+				size = 233867
 			}
 			create_pop = {
 				culture = avadhi
-				religion = hindu
 				size = 326183
 			}
 			create_pop = {
@@ -487,13 +528,12 @@
 			create_pop = {
 				pop_type = slaves
 				culture = panjabi
-				religion = sunni
+				religion = hindu
 				size = 3000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = panjabi
-				religion = hindu
 				size = 30200
 			}
 		}
@@ -502,7 +542,12 @@
 		region_state:BUN = {
 			create_pop = {
 				culture = kanauji
-				size = 480220
+				size = 400000
+			}
+			create_pop = {
+				culture = kanauji
+				religion = hindu
+				size = 80220
 			}
 			create_pop = {
 				culture = kanauji
@@ -524,7 +569,12 @@
 		region_state:HYD = {
 			create_pop = {
 				culture = marathi
-				size = 1351630
+				size = 651630
+			}
+			create_pop = {
+				culture = marathi
+				religion = hindu
+				size = 700000
 			}
 			create_pop = {
 				culture = avadhi
@@ -544,11 +594,21 @@
 		region_state:NAG = {
 			create_pop = {
 				culture = marathi
-				size = 2404314
+				size = 1204314
+			}
+			create_pop = {
+				culture = marathi
+				religion = hindu
+				size = 1204314
 			}
 			create_pop = {
 				culture = avadhi
-				size = 135037
+				size = 75037
+			}
+			create_pop = {
+				culture = avadhi
+				religion = hindu
+				size = 65037
 			}
 			create_pop = {
 				culture = kanauji
@@ -575,12 +635,12 @@
 		region_state:BAS = {
 			create_pop = {
 				culture = telegu
-				size = 310070
+				size = 210070
 			}
 			create_pop = {
 				culture = telegu
 				religion = sunni
-				size = 26552
+				size = 126552
 			}
 			create_pop = {
 				culture = telegu
@@ -611,7 +671,7 @@
 			create_pop = {
 				culture = bengali
 				religion = hindu
-				size = 9398621
+				size = 1398621
 			}
 			create_pop = {
 				culture = bengali
@@ -620,7 +680,7 @@
 			}
 			create_pop = {
 				culture = bengali
-				size = 6602700
+				size = 14602700
 			}
 			create_pop = {
 				pop_type = slaves
@@ -673,7 +733,12 @@
 		region_state:BIK = {
 			create_pop = {
 				culture = rajput
-				size = 1001004
+				size = 701004
+			}
+			create_pop = {
+				culture = rajput
+				religion = hindu
+				size = 301004
 			}
 			create_pop = {
 				culture = avadhi
@@ -693,7 +758,12 @@
 		region_state:JAS = {
 			create_pop = {
 				culture = rajput
-				size = 387096
+				size = 347096
+			}
+			create_pop = {
+				culture = rajput
+				religion = hindu
+				size = 38709
 			}
 			create_pop = {
 				culture = avadhi
@@ -713,7 +783,12 @@
 		region_state:MEW = {
 			create_pop = {
 				culture = rajput
-				size = 1903300
+				size = 1523300
+			}
+			create_pop = {
+				culture = rajput
+				religion = hindu
+				size = 383300
 			}
 			create_pop = {
 				culture = avadhi
@@ -733,7 +808,12 @@
 		region_state:JOD = {
 			create_pop = {
 				culture = rajput
-				size = 1667504
+				size = 1367504
+			}
+			create_pop = {
+				culture = rajput
+				religion = hindu
+				size = 327504
 			}
 			create_pop = {
 				culture = avadhi
@@ -753,7 +833,12 @@
 		region_state:JAI = {
 			create_pop = {
 				culture = rajput
-				size = 2300265
+				size = 1960265
+			}
+			create_pop = {
+				culture = rajput
+				religion = hindu
+				size = 460265
 			}
 			create_pop = {
 				culture = avadhi
@@ -827,7 +912,12 @@
 		region_state:ORI = {
 			create_pop = {
 				culture = oriya
-				size = 1305304
+				size = 1105304
+			}
+			create_pop = {
+				culture = oriya
+				religion = hindu
+				size = 2000000
 			}
 			create_pop = {
 				culture = bengali
@@ -934,7 +1024,12 @@
 		region_state:HYD = {
 			create_pop = {
 				culture = telegu
-				size = 4724685
+				size = 3724685
+			}
+			create_pop = {
+				culture = telegu
+				religion = hindu
+				size = 1000000
 			}
 			create_pop = {
 				culture = avadhi
@@ -980,7 +1075,12 @@
 		region_state:MAR = {
 			create_pop = {
 				culture = marathi
-				size = 10895764
+				size = 6895764
+			}
+			create_pop = {
+				culture = marathi
+				size = 4895764
+				religion = hindu
 			}
 			create_pop = {
 				culture = sindi
