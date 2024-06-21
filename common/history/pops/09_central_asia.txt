@@ -493,7 +493,7 @@
 		}
 	}
 	s:STATE_PASHTUNISTAN = {
-		region_state:PAN = {
+		region_state:AFG = {
 			create_pop = {
 				culture = pashtun
 				size = 655212
@@ -586,12 +586,12 @@
 		region_state:MAK = {
 			create_pop = {
 				culture = baluchi
-				size = 440296
+				size = 444556
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = lacustrine_bantu
-				size = 14800
+				size = 15100
 			}
 			create_pop = {
 				pop_type = slaves
@@ -617,21 +617,6 @@
 				pop_type = slaves
 				culture = baluchi
 				size = 10000
-			}
-		}
-		region_state:OMA = {
-			create_pop = {
-				culture = baluchi
-				size = 4100
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacustrine_bantu
-				size = 300
-			}
-			create_pop = {
-				culture = bedouin
-				size = 160
 			}
 		}
 	}

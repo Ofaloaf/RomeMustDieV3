@@ -7738,7 +7738,7 @@ tibetan={
 
 assamese={
 	color= hsv{ 0.58 0.28 0.61 }
-	religion = hindu
+	religion = sunni
 	traits = { south_asian_heritage northeast_indian }
 	male_common_first_names={
 		Chandraka
@@ -7779,7 +7779,7 @@ assamese={
 
 bengali={
 	color= hsv{ 0.79 0.37 0.36 }
-	religion = hindu
+	religion = sunni
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
 		Ahmad
@@ -7839,7 +7839,7 @@ bengali={
 
 bihari={
 	color= hsv{ 0.91 0.28 0.70 }
-	religion = hindu
+	religion = sunni
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
 		Ashoka
@@ -7985,7 +7985,7 @@ nepali={
 
 oriya={
 	color= hsv{ 0.96 0.36 0.74 }
-	religion = hindu
+	religion = sunni
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
 		Birakishoredeva
@@ -8104,7 +8104,7 @@ avadhi={
 
 kanauji={
 	color= hsv{ 0.27 0.48 0.74 }
-	religion = hindu
+	religion = sunni
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
 		Ishvari
@@ -8240,7 +8240,7 @@ kashmiri={
 
 gujarati={
 	color= hsv{ 0.85 0.28 0.35 }
-	religion = hindu
+	religion = sunni
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
 		Anand
@@ -8285,7 +8285,7 @@ gujarati={
 
 marathi={
 	color= hsv{ 0.19 0.55 0.86 }
-	religion = hindu
+	religion = sunni
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
 		Bajirao
@@ -8398,7 +8398,7 @@ sindi={
 
 rajput={
 	color= hsv{ 0.24 0.16 0.90 }
-	religion = hindu
+	religion = sunni
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
 		Bhagwant

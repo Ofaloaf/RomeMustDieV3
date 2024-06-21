@@ -335,6 +335,10 @@
   KVN_ADJ: "Kven"
   SCH: "Anglia"
   SCH_ADJ: "Anglian"
+  MAR: "Maratha"
+  MAR_ADJ: "Marathan"
+  IGS: "Indo Ganges"
+  IGS_ADJ: "Indo Gangetic"
   #
   dyn_c_western_roman_empire: "Western Roman Empire"
   dyn_c_western_roman_empire_adj: "Roman"
