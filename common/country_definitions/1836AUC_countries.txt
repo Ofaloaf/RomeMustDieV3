@@ -1548,3 +1548,27 @@ KVN = { # Kvenland
 	cultures = { sami finnish }
 	capital = STATE_NORRLAND
 }
+
+IGS = { # Indo Gangetic Sultanate
+	color = { 191 43 80 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { panjabi avadhi}	
+	capital = STATE_PUNJAB
+}
+
+MAR = {
+	color = { 175 75 15 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { marathi }
+	capital = STATE_BOMBAY
+}
+
+

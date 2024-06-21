@@ -406,7 +406,7 @@
 		}
 	}
 	s:STATE_PASHTUNISTAN={
-		region_state:PAN={
+		region_state:AFG={
 			create_building={
 				building="building_wheat_farm"
 				level=4
@@ -533,8 +533,6 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-		}
-		region_state:OMA={
 			create_building={
 				building="building_port"
 				level=1

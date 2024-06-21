@@ -1314,7 +1314,7 @@
 		}
 	}
 	s:STATE_TENASSERIM={
-		region_state:BIC={
+		region_state:SIA={
 			create_building={
 				building="building_dye_plantation"
 				level=2
@@ -1327,8 +1327,6 @@
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
-		}
-		region_state:SIA={
 		}
 	}
 	s:STATE_KACHIN={
