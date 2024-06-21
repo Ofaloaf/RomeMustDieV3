@@ -848,6 +848,14 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
+		region_state:IGS={
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
+		}
 	}
 	s:STATE_NORTH_MADAGASCAR={
 		region_state:MAD={
@@ -1186,6 +1194,22 @@
 				level=5
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
+			}
+		}
+		region_state:IGS={
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
+		}
+		region_state:PER={
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 	}

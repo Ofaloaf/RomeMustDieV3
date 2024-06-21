@@ -800,7 +800,7 @@
 		}
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY={
-		region_state:MAD={
+		region_state:IGS={
 			create_building={
 				building="building_banana_plantation"
 				level=2
