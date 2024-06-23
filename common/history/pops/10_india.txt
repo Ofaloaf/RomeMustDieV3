@@ -887,13 +887,13 @@
 		}
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY = {
-		region_state:IGS = {
+		region_state:JAV = {
 			create_pop = {
 				culture = malagasy
 				size = 100992
 			}
 			create_pop = {
-				culture = avadhi
+				culture = javan
 				size = 3000
 			}
 			create_pop = {
