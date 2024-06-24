@@ -1483,22 +1483,12 @@
 		region_state:MAD = {
 			create_pop = {
 				culture = malagasy
-				size = 900304
-			}
-			create_pop = {
-				culture = malagasy
-				religion = catholic
-				size = 5000
+				size = 917304
 			}
 			create_pop = {
 				culture = malagasy
 				religion = sunni
 				size = 97800
-			}
-			create_pop = {
-				culture = malagasy
-				religion = protestant
-				size = 12000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -2061,12 +2051,7 @@
 		region_state:KON = {
 			create_pop = {
 				culture = bakongo
-				size = 252000
-			}
-			create_pop = {
-				culture = bakongo
-				religion = catholic
-				size = 42000
+				size = 294000
 			}
 			create_pop = {
 				culture = fluvian_bantu
@@ -2132,21 +2117,11 @@
 		region_state:KON = {
 			create_pop = {
 				culture = bakongo
-				size = 180404
+				size = 340404
 			}
 			create_pop = {
 				culture = kavango_bantu
-				religion = catholic
-				size = 17396
-			}
-			create_pop = {
-				culture = kavango_bantu
-				size = 116004
-			}
-			create_pop = {
-				culture = bakongo
-				religion = catholic
-				size = 160000
+				size = 133400
 			}
 		}
 		region_state:CHO = {
