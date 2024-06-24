@@ -2144,7 +2144,6 @@
 			}
 			create_pop = {
 				culture = bakongo
-				religion = 
 				size = 100000
 			}
 		}
