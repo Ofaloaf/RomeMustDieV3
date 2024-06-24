@@ -19,7 +19,7 @@
 		Naufedd Neithon Nowy Nynniaw 
 		Oswallt Owain Oucydd 
 		Padern Padrig Pandoff Pasgen Padarn Pawl Pedr Peredyr Publig Pyr
-		Rheinallt Rhicert Rhigeneu Rhirid Rhiwal Rhiwallon Rhobert Rhodri Rhufon Rhun Rhydderch Rhydog Rhys Riaged Richwin 
+		Rhigeneu Rhirid Rhiwal Rhiwallon Rhodri Rhufon Rhun Rhydderch Rhydog Rhys Riaged Richwin Rhifedel Rhuddlad
 		Sandde Sawyl Seferus Seisyll Selyf Senyllt Serigi Sieffre Sion Sior Siwauna Steffen Stinian Sulien 
 		Taliesin Tegonwy Tegwyd Teilo Teithfalch Teudebur Tewdos Tewdrig Tewdwr Tomos Trahaearn Tudur Tudwal Tudwallon Tydy Tyfoedd Tysilio 
 		Urien Uthyr 
@@ -30,7 +30,7 @@
 		Blodwen Bronwen 
 		Catrin Ceindrych Ceridwen Cerie Cerys Cicely Clarisant Creirwy Cristin 
 		Danhadlwen Delyth Denis Dwynwen Dwywai Dyddgu 
-		Efa Effros Efrddyl Efyrddyl Eiliwedd Elaine Elen Eleri Elinion Elinor Ellyn Enid Essyllt Euronwy 
+		Efa Effros Efrddyl Efyrddyl Eiliwedd Elaine Elen Eleri Elinion Elinor Ellyn Enid Essyllt Euronwy Eurbrawst
 		Ffelis Ffion Fflur Ffraid 
 		Glynys Gwen Gwenasedd Gwenfrewi Gwenhwyfach Gwenhwyfar Gwenllian Gwenwyn Gwerfyl Gwladys 
 		Haer Hawys Heledd Hellawes Heulwen Hunydd Hywela 
@@ -40,26 +40,32 @@
 		Nest Nesta Newlyna Non
 		Olwen Onbrawst Owena 
 		Prawst 
-		Ragnell Rhiaindrech Rhiainfelt Rhiannon Rhonwen 
+		Ragnell Rhiaindrech Rhiainfelt Rhiannon Rhonwen Rhagaw 
 		Sannant Sara Senena Sibyl Sioned Siwan Susanna 
 		Tangwystl Tegla 
 		Ysbail Ystradwel
 	}
 	common_last_names={
-		Brogintun Bach Bychan
-		Coch Crihc Crutheur Chwith ap_Cadgogan
-		Du ap_Dafydd
-		ab_Edneweyn ab_Ednyuet ab_Eynavn
-		Glaswen ap_Gruffudd Gof Gwreang
+		ab_Araudr ab_Awst ap_Arthgal
+		Brogintun Bach Bychan Beiswyrdd ap_Brychan Befr
+		Coch Crihc Crutheur Chwith ap_Cadgogan ap_Cunedda ap_Caper ap_Cadwgon ap_Cenelaph ap_Cawrdaf ap_Cathen
+		Du ap_Dafydd ap_Difwng Dremrudd ap_Dingad
+		ab_Edneweyn ab_Ednyuet ab_Eynavn ab_Erb ap_Einion ap_Enedwy ab_Euddigan ab_Einudd
+		Frych Farfog
+		Glaswen ap_Gruffudd Gof Gwreang ap_Gwyddno ap_Gollwyn ap_Gorbonion
 		Hir ap_Hywel
-		ab_Ieuan ap_Ithell
+		ab_Ieuan ap_Ithell ab_Idwallon ab_Idwal ap_Idgwyn ap_Iestyn
 		ab_Kadugavn ab_Kenvelin
-		Moel ap_Meredydd ap_Moel_Gloff
-		ab_Nenav
-		Prydderch Porthmon
-		ap_Rhys
-		Seithmarchog
-		Tollasius Terfyst
+		Ledewig ap_Llywarch
+		Moel ap_Meredydd ap_Moel_Gloff Menestyr ap_Maelgwn Moelwynog ap_Morgynhor ap_Marchan
+		ab_Nenav ap_NoE_ ap_Neithon
+		ab_Owain
+		Prydderch Porthmon Penweddig
+		Rhin_Barfog ap_Rhys ap_Rhydeyrn ap_Rhuol ap_Rhodri Rhudd_Baladr
+		Seithmarchog ap_Senyllt
+		Tollasius Terfyst Teirnoe ap_Tangwn ap_Tudur
+		ab_Urien
+		Wallt_Banhadlen
 	}
 
 	noble_last_names = {

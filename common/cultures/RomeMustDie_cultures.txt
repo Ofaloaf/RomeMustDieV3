@@ -624,7 +624,7 @@ brithenig = {
 		Beliatus Bellicus Bodeni Butu Budic Barrivent Brohcmail Briamail Bodvoc Brivitas
 		Cynedd Clotual Cingualan Costenhin Carol Cassius Conetoc Cataman Cingen Cingal Carathag Cristian Cwrig
 		Dumnovall Donal Dewidd Dubric Drystin Dunat Dunvallo Dionotus
-		Enestin Erbin Eirlan Emreis Enabarr Elcu Erchyl Elfoddew Eudaf
+		Enestin Erbin Eirlan Emreis Enabarr Elcu Erchyl Elfoddew Eudaf Egreas
 		Gleussicg Gion Guoillauc Guriat Gelhig Garfan Geory Girallt Garmon Glywys Gereint Gregor Gwethiern 
 		Gwydion Gioffri
 		Hewel Horatius
@@ -635,9 +635,9 @@ brithenig = {
 		Merddin Migangel Manuel Morgan Magimos
 		Nigol Nennius
 		Owain
-		Pedr Pawl Padrig Philip Pascen Pelagius
+		Pedr Pawl Padrig Philip Pascen Pelagius 
 		Quenataug Quenuendan
-		Rhyssin Rhoberth Riuallaun Riderch Res Rialobran Rhigardd Ricatus
+		Rhyssin Rhoberth Riuallaun Riderch Res Rialobran Rhigardd Ricatus Rigual Rumon
 		Senicianus Senorig Solinus Suagrius Stinian Serigi Sandde
 		Tomos Tigern Totaval Trallon Turpill Tutbulc Tegid Timothew Teilo Tewdos
 		Urien
@@ -658,32 +658,35 @@ brithenig = {
 		Mair Mallt Maryared
 		Nest Nyfain Narina
 		Ourdolat
-		Seniciana Sarra Siwan Susanna Satiada Sibyl Satiguola
+		Peteova
+		Rigantona
+		Seniciana Sarra Siwan Susanna Satiada Sibyl Satiguola Sitofolla
 		Tancogeistla Tegida Tegan
 		Vrocata Verica Verctissa Viola
 		Yuilia
 	}
 	common_last_names = {
-		Addedmarol Artran Androgus Aldus Anianus Abbas di_Anderida
-		Berdicguent Boibont Bendith di_Briga Bailbiret Bletherus di_Brithon di_Baddan
-		Comro Cybidd Clig Casiguellan Cellerarius Conuersus Corw Casiguellan Custenhinan Capoir di_Celemion di_Ceint di_Colun di_Custoeint di_Cairurnac di_Correi di_Ceri di_Cair-Conan di_Cairteim di_Cairuisc
-		Dysbellur di_Derguent di_Dincamol Dunantu di_Deva di_Daun di_Ddraitou di_Durnac
-		Espus di_Ebrauc di_Eityn
+		Addedmarol Artran Androgus Aldus Anianus Abbas di_Anderida Alleccus
+		Berdicguent Boibont Bendith di_Briga Bailbiret Bletherus di_Brithon di_Baddan di_Bothmena
+		Comro Cybidd Clig Casiguellan Cellerarius Conuersus Corw Casiguellan Custenhinan Capoir di_Celemion di_Ceint di_Colun di_Custoeint di_Cairurnac di_Correi di_Ceri di_Cair-Conan di_Cairteim di_Cairuisc Calpurnius Cetomerinus Candidus Cantusus Cunedagius
+		Dysbellur di_Derguent di_Dincamol Dunantu di_Deva di_Daun di_Ddraitou di_Durnac Devius
+		Espus di_Ebrauc di_Eityn Elidurus Eochodius Edelig
 		Ffeirth Fferreir Ffuneir di_Fawydd di_Fyrddin
-		Glasobrin Griffydd Glythun Glas Gwefer Gabrantovig di_Guenta Gurguiricius di_Goinet Gwefer di_Grauth di_Guent di_Guinntguic di_Guiragon di_Guorthigirn di_Guricon di_Gloui
-		Hescerrin
-		Iuguret Imanguentan Iewen
+		Glasobrin Griffydd Glythun Glas Gwefer Gabrantovig di_Guenta Gurguiricius di_Goinet Gwefer di_Grauth di_Guent di_Guinntguic di_Guiragon di_Guorthigirn di_Guricon di_Gloui Guillomaurius Gorbodugus Guethelinus
+		Hescerrin Huldibras
+		Iuguret Imanguentan Iewen Iserninus
 		Jaygo
 		Kaduganus di_Keueiliauc
 		Llefan Llewein Llyddwig di_Lerion di_Loidis di_Lundein di_Lunguvall Llefelys di_Ligualid di_Luitcoyt di_Lundein di_Lindcolun
-		Magr di_Magi Meddig Molineir Muin Mandubragan Mostyn Moelmut Magmeil di_Mancastrel di_Maunguid di_Mincip
-		Nepus Noguant
-		Ordofig
-		Pengras Penrhys Prefder Pereirin Paddedo Possernin di_Pensauelcoyt di_Paladur di_Portus
-		Quidgerey
-		Rhedun Rhoch Rhiu Rieredus Resus Ruwatlanus Ruffus
-		Silwri di_Sarum Serw Silwri Seisyll Sacerdos Senascallus di_Strattywi Seis di_Sallog
-		Trinoguant Trammelpila Tegdouerd di_Tuesis di_Tamia Tragaearn Tennancius Tollasius
+		Magr di_Magi Meddig Molineir Muin Mandubragan Mostyn Moelmut Magmeil di_Mancastrel di_Maunguid di_Mincip Murinazou
+		Nepus Noguant Notolius
+		Ordofig Oronius Odissus
+		Pengras Penrhys Prefder Pereirin Paddedo Possernin di_Pensauelcoyt di_Paladur di_Portus Potitus Perphirius Potolius Pennichen Pedrauc Plebeius Plenydius Piro
+		Quidgerey Quonomorius
+		Rhedun Rhoch Rhiu Rieredus Resus Ruwatlanus Ruffus Rederchius
+		Silwri di_Sarum Serw Silwri Seisyll Sacerdos Senascallus di_Strattywi Seis di_Sallog Sisillius
+		Trinoguant Trammelpila Tegdouerd di_Tuesis di_Tamia Tragaearn Tennancius Tollasius di_Telmedovia Tigernomalus
+		di_Villabannhedos
 		Worganus di_Weir
 		Yniwr
 	}

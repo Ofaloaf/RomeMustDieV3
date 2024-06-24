@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:DMN = {
+		create_character = {
+			template = dmn_dumnonian_ruler
+		}	
+	}
+}

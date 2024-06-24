@@ -341,7 +341,7 @@ DMN = { # Dumnonia
 	
 	tier = grand_principality
 	
-	cultures = { welsh }
+	cultures = { welsh brithenig }
 	
 	capital = STATE_WEST_COUNTRY
 }

@@ -1,0 +1,16 @@
+﻿### Dumnonia character template file ###
+
+dmn_dumnonian_ruler = {
+    first_name = "Marthin"
+    last_name = "Vuronus"
+    culture = cu:brithenig
+    historical = yes
+    ruler = yes
+    age = 45
+    interest_group = ig_armed_forces
+    ideology = ideology_moderate
+    traits = {
+        arrogant
+        expensive_tastes
+    }
+}

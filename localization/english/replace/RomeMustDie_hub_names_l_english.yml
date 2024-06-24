@@ -319,16 +319,16 @@
  HUB_NAME_STATE_HOME_COUNTIES_wood: "Cairbuwch" # Oxford, name made up
  #
  STATE_MIDLANDS: "Pengwern"
- HUB_NAME_STATE_MIDLANDS_city: "Pengwern"
+ HUB_NAME_STATE_MIDLANDS_city: "Penguern" # Pengwern. Placing this at modern Shrewsbury, although the historical Pengwern's location is still hotly debated.
  HUB_NAME_STATE_MIDLANDS_port: "Castra"
  HUB_NAME_STATE_MIDLANDS_mine: "Crococalana"
  HUB_NAME_STATE_MIDLANDS_farm: "Cair Lerion"
  HUB_NAME_STATE_MIDLANDS_wood: "Durobrivae"
  #
  STATE_WEST_COUNTRY: "Dumnonia"
- HUB_NAME_STATE_WEST_COUNTRY_city: "Cair Odor"
+ HUB_NAME_STATE_WEST_COUNTRY_city: "Cair Odor" # Bristol
  HUB_NAME_STATE_WEST_COUNTRY_port: "Penlyndon"
- HUB_NAME_STATE_WEST_COUNTRY_mine: "Cair Gloui"
+ HUB_NAME_STATE_WEST_COUNTRY_mine: "Cair Gloui" # Gloucester
  HUB_NAME_STATE_WEST_COUNTRY_farm: "Iscalis"
  HUB_NAME_STATE_WEST_COUNTRY_wood: "Nemetostatio"
  #
