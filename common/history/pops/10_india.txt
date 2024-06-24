@@ -887,10 +887,14 @@
 		}
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY = {
-		region_state:FRA = {
+		region_state:JAV = {
 			create_pop = {
 				culture = malagasy
-				size = 103992
+				size = 100992
+			}
+			create_pop = {
+				culture = javan
+				size = 3000
 			}
 			create_pop = {
 				culture = swahili

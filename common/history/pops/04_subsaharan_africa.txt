@@ -1449,12 +1449,12 @@
 		region_state:MAD = {
 			create_pop = {
 				culture = malagasy
-				size = 805196
+				size = 765196
 			}
 			create_pop = {
 				culture = malagasy
 				religion = sunni
-				size = 72604
+				size = 68604
 			}
 			create_pop = {
 				pop_type = slaves
@@ -1466,6 +1466,16 @@
 				culture = malagasy
 				religion = sunni
 				size = 5000
+			}
+		}
+		region_state:JAV = {
+			create_pop = {
+				culture = malagasy
+				size = 40000
+			}
+			create_pop = {
+				culture = javan
+				size = 4000
 			}
 		}
 	}
@@ -2618,83 +2628,112 @@
 		}
 	}
 	s:STATE_EASTERN_CAPE = {
-		region_state:SAF = {
+		region_state:XHO = {
 			create_pop = {
 				culture = xhosa
-				size = 184400
+				size = 168400
 			}
 			create_pop = {
 				culture = british
-				size = 48000
+				size = 40000
 			}
 			create_pop = {
 				culture = nguni
-				size = 8000
+				size = 6000
 			}
 			create_pop = {
 				culture = khoisan
-				size = 27996
+				size = 23996
+			}
+		}
+		region_state:JAV = {
+			create_pop = {
+				culture = xhosa
+				size = 16000
+			}
+			create_pop = {
+				culture = javan
+				size = 8000
+			}
+			create_pop = {
+				culture = nguni
+				size = 2000
+			}
+			create_pop = {
+				culture = khoisan
+				size = 4000
 			}
 		}
 	}
 	s:STATE_CAPE_COLONY = {
-		region_state:SAF = {
+		region_state:NAM = {
 			create_pop = {
 				culture = khoisan
 				size = 147992
 			}
 			create_pop = {
 				culture = sotho
-				size = 30004
+				size = 12004
 			}
+		}
+		region_state:WBL = {
 			create_pop = {
 				culture = khoisan
-				religion = protestant
-				size = 103000
+				size = 117100
 			}
 			create_pop = {
-				culture = british
-				size = 39100
-			}
-			create_pop = {
-				culture = boer
-				size = 90508
+				culture = sotho
+				size = 18004
 			}
 		}
 		region_state:CHO = {
 			create_pop = {
 				culture = khoisan
-				size = 13399
+				size = 53399
 			}
 			create_pop = {
 				culture = sotho
-				size = 6500
+				size = 16500
 			}
 			create_pop = {
 				culture = tamil
-				size = 4410
+				size = 14410
 			}
 		}
 		region_state:AIL = {
 			create_pop = {
 				culture = khoisan
-				size = 8201
+				size = 18201
+			}
+			create_pop = {
+				culture = sotho
+				size = 18362
+			}
+			create_pop = {
+				culture = irish
+				size = 8618
+			}
+		}
+		region_state:PER = {
+			create_pop = {
+				culture = khoisan
+				size = 28701
 			}
 			create_pop = {
 				culture = sotho
 				size = 8362
 			}
 			create_pop = {
-				culture = irish
-				size = 3618
+				culture = persian
+				size = 13618
 			}
 		}
 	}
 	s:STATE_NORTHERN_CAPE = {
-		region_state:SAF = {
+		region_state:WBL = {
 			create_pop = {
 				culture = tswana
-				size = 38000
+				size = 158004
 			}
 			create_pop = {
 				culture = sotho
@@ -2708,12 +2747,6 @@
 				pop_type = slaves
 				culture = sotho
 				size = 6000
-			}
-		}
-		region_state:RLG = {
-			create_pop = {
-				culture = tswana
-				size = 120004
 			}
 			create_pop = {
 				pop_type = slaves
