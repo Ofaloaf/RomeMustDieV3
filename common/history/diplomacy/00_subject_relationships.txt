@@ -70,4 +70,33 @@
 			type = tributary
 		}
 	}
+	c:MAL = {
+		create_diplomatic_pact = {
+			# Kutoo Manden
+			country = c:KTM
+			type = dominion
+		}
+	}
+	c:KNM = {
+		create_diplomatic_pact = {
+			country = c:BEN # Benin
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ZZZ # Zazzu
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SOK # Sokoto
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:HAU # Gobir
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ILR # Ilorin
+			type = protectorate
+		}
+	}
 }
