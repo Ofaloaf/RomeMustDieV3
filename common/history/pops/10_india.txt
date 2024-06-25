@@ -263,11 +263,6 @@
 				size = 34000
 			}
 		}
-		region_state:BIC = {
-			
-			
-			
-		}
 	}
 	s:STATE_GUJARAT = {
 		region_state:BER = {

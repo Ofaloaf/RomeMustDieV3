@@ -512,8 +512,6 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:BIC={
-		}
 	}
 	s:STATE_NAGPUR={
 		region_state:BUN={

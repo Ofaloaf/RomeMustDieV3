@@ -8,7 +8,7 @@
 		}
 	}
 	s:STATE_WINDWARD_COAST={
-		region_state:KBD={
+		region_state:MAL={
 		}
 		region_state:BLE={
 		}
