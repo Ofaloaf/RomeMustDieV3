@@ -648,7 +648,7 @@
 				size = 211604
 			}
 			create_pop = {
-				culture = coptic
+				culture = copt
 				size = 60000
 			}
 			create_pop = {
