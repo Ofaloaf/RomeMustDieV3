@@ -1571,14 +1571,13 @@
 	# working total of 1190162
 	# 1.5858
 	s:STATE_JALISCO = {
-		region_state:MEX = {
+		region_state:TZZ = {
 			create_pop = {
-				culture = neoanahuacan
+				culture = tarascan
 				size = 900710
 			}
 			create_pop = {
-				culture = oodham
-				religion = nicene
+				culture = nahua
 				size = 263078
 			}
 			create_pop = {

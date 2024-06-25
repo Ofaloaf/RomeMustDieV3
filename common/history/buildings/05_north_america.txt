@@ -2168,16 +2168,16 @@
 		}
 	}
 	s:STATE_JALISCO={
-		region_state:MEX={
+		region_state:TZZ={
 			create_building={
 				building="building_government_administration"
-				level=4
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
 			}
 			create_building={
 				building="building_university"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_scholastic_education" }
 			}
@@ -2189,7 +2189,7 @@
 			}
 			create_building={
 				building="building_banana_plantation"
-				level=1
+				level=3
 				reserves=1
 				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts" }
 			}
@@ -2198,6 +2198,12 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_barracks"
+				level=1
+				reserves=5
+				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 	}
