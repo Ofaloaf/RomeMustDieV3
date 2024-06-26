@@ -65,3 +65,19 @@ tengri_pagan = {
 	}
 	color = { 0.4 0.4 0.4 }
 }
+
+mesoamerican_pagan = {
+	texture = "gfx/interface/icons/religion_icons/animist.dds"
+	traits = {
+		new_world
+	}
+	color = { 0.2 0.3 0.6 }
+}
+
+great_spirit = { # Gitchi-Manitou, Orenda
+	texture = "gfx/interface/icons/religion_icons/animist.dds"
+	traits = {
+		new_world
+	}
+	color = { 0.5 0.1 0.9 }
+}

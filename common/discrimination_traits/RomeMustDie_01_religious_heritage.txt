@@ -1,0 +1,3 @@
+﻿new_world = {
+	heritage = yes
+}

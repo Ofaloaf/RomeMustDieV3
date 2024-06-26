@@ -2085,13 +2085,13 @@ HAI = {
 MEX = {
 	color = { 56 143 53 }
 	
-	country_type = colonial
+	country_type = unrecognized
 	
 	#173  242  175
 
 	tier = kingdom
 	
-	cultures = { neoanahuacan }
+	cultures = { nahua }
 	capital = STATE_MEXICO
 	is_named_from_capital = yes
 }

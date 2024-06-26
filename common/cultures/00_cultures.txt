@@ -10733,7 +10733,7 @@ aborigine={ # Aboriginal
 
 zapotec={
 	color= hsv{ 0.32 0.29 0.78 }
-	religion = nicene
+	religion = mesoamerican_pagan
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
 		Agustin
@@ -10819,7 +10819,7 @@ zapotec={
 
 mayan={
 	color= hsv{ 0.69 0.08 0.55 }
-	religion = nicene
+	religion = mesoamerican_pagan
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
 		Agustin
@@ -10915,93 +10915,107 @@ mayan={
 
 nahua={
 	color= hsv{ 0.47 0.29 0.38 }
-	religion = nicene
+	religion = mesoamerican_pagan
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Antonio
-		Carlos
-		Diego
-		Emiliano
-		Emilio
-		Felipe
-		Fernando
-		Francisco
-		Gaspar
-		Hernando
-		Hilario
-		Ignacio
-		Isaac
-		Jacinto
-		Jesus
-		Jose
-		Juan
-		Julio
-		Lorenzo
-		Manuel
-		Marcial
-		Mario
-		Martin_2
-		Natalio
-		Oliverio
-		Pedro
-		Roberto
-		Rodolfo
-		Santiago
-		Victor_2
+		Ahuitzotl Axayacatl Acolnahuacatl Achitometl Acolmiztli Achitomecatl Acol Acotlehuac Acuixoc Acxotecatl Amiztlato Atlixeliuhqui
+		Cacama Chimalpopoca Chimalpilli CuauhtE_moc CuitlA_huac Chimalpopoca Coazanac Cehuanocatl Chicomacatl Cihuatlatoatl Cipac Citlalpopoca Coatzin Conma Cotolcatl Coauh Cuata Cuauhcoatl Cuauhtlatoa Cuauhyaotl Cuecuex
+		Huitzilihuitl Huetl Huitec Huitzilihuitl Huitztecpancatl Huecamecatl
+		Ixlilxochitl Icxicuauhtli Itzcuincuani Ixecatl
+		Matlaccohuatl Macuilmalinalli Matlalaca
+		Nezahualcoyotl Namuna
+		Nochhuetl # it means "Ideal Bean"
+		Ocelocoatl Ozoma Olopatzicatl
+		Quetzalpetlatl
+		Tlotzin Techotlala Tangaxuan Tezozomoc Tizocic Totoquilhuaztli Tlotzin_Pochotl Tlacaelel Tlatonal Tzontecomatl Tecaahuia Tecocol Tecuacilotl Tehuetzquiti Tezozomoctli Tezcatlepoca Tlacochin Tlalohuacuauh
+		Xolotl Xiuhtlatonac Xiuhquetzal Xiuhcozcatl Xiuhtemo
+		Yancuitl Yaoteuh Yaotlaloc Yaotlhuehue
+	}
+	male_noble_first_names = { # -tzin honorific and a few others
+		Ahuitzotl Acolnahuacatzin Acamapichtli
+		Cuauhtemotzin Cuitlahuatzin Coanchochtzin Cacamatzin Chicomacatzin Cuacuapitzahuac Cuauhtlatoa Cuauhtlequetzqui
+		Huitzilihuitzin Huetzin
+		Ipantlaqualloctzin Itzcoatzin
+		Motecuhzoma Memexoltzin Mozocomatzin Macuilmalinalli Macuilxochitl
+		Nopaltzin
+		Quecholtecpantzin Quinatzin
+		Tlaltecatzin Tlacateozin Tecocoltzin Tecuhtlecozauhqui
+		Yaocuixtzin
 	}
 	female_common_first_names = {
-		Antonia
-		Celsa
-		Cleofas
-		Eva
-		Jovita
-		Laureana
-		Margarita
-		Maria
-		Marta
-		Matilde
-		Modesta
-		Ramona
+		Atototzin Acaxoch Acxocuetzin 
+		Azcaxochitl # Azcalxochitzin, honorific form
+		Cuauhcihuatzin Coxxochitzin Cuatetzin Chalchiuhnenetl
+		Huacaltzintli
+		Izelcoatzin Ilancueitl
+		Maquiztzin Malinalxochitl
+		Nenetzin
+		Ollacatl
+		Pachxochitzin Pantla Papanton
+		Quinatzin
+		Teotlalco Tlapalizquixochtzin Tlacuilolxochtzin Tizocicatzin Techotlalazin Tozquetzin Tomiyauh Tepexochillama Tlapalizquixotl
+		Xochicueyetl Xiuhcuetzin 
+		Yacotzin
 	}	
 	noble_last_names = {
-		Altamirano
-		Cortes
-		Gonzalez
-		Moyotlan
-		Neri
-		Palafox
-		Salazar
-		Zapata
+		Huanitzin
+		Panitzin
+		Tetzcocatl # Person (singular) of Tetzcoco 
+		Tenochtitecatl # of Tenochtitlan
+		Tlacopanecatl # of Tacuba/Tlacopan
+		Quauhtlehuanitzin
 	}
 	common_last_names={
-		Ahuactzin
-		Atlanteco
-		Badiano
-		Bernardino
-		Coaguila
-		Coyotl
-		Cuautlaxahue
-		Gutierrez
-		Hernandez
-		Huanitzin
-		Itzel
-		Ixtlilxochitl
-		Jimenez
-		Matlacuahuac
-		Mayahuel
-		Moxo
-		Munoz
-		Nahui
-		Ocelotl
-		Panecatl
-		Tlaxca
-		Tletla
-		Tzehe
-		Valeriano
-		Xaxalpa
-		Xochitl
-		Zapotitla
-		Zicotencatl
+		Altepetlacatl # of a pueblo/altepetl (generic)
+		Atlixcatl # from Atlixco
+		Amantecatl # Artisan
+		Cuicatlamatini # a composer of song
+		Atotoztli Azcapotzalcatl # Person of Azcapotzalco
+		Atocamecatl # of Atocan
+		Atotonilcatl # Person of Atotonilco
+		Aculhuacatl # of Aculhuaque
+		Acapulcatl # of Acapulco
+		Acolmecatl # of Acolman
+		Ahuatl # Oak Tree
+		Chalcatl # Person of Chalco
+		Cuauhtochcatl # Person of Cuauhtochco/Huatusco
+		Chimalpanecatl # of Chimalpan
+		Chololtecatl # of Cholula
+		Coatecatl # of Coatlan
+		Cuetlaxtecatl # of Cuetlaxtlan
+		Cohuacatl # of Culhuacan
+		Colitcatl # personal name, associated with farming
+		Culhuacan Cuitlahuac
+		Ecatepec 
+		Huexotlacatl # of Huejutla
+		Huexotzincatl # of Huejotzingo
+		Ilhuicamina
+		Iztatlacatl # salinator
+		Itztapalapanecatl # Person of Iztapalapan
+		Mazahuatl
+		Michuacatl # of Michoacan
+		Milpanecatl # Field hand or villager
+		Nonohualcatl # of Nonohualco
+		Oxtlipanecatl # Person of Oxtlipa
+		Oztomecatl
+		Pantecatl # someone from Pantitlan
+		Tenepal TlA_huac 
+		Teotihuacatl # of Teotihuacan
+		Tochpanecatl # of Tochpan
+		Tepecoacuilcatl # Person of Tepecoacuilco
+		Tlachquiauhcatl # Person of Tlachquiauhco/Tlaxiaco
+		Tepotzotecatl # of Tepotzotlan
+		Tepanecatl # of Tepaneca, I think
+		Tollantzincatl # of Tulancingo
+		Tizayocatl # of Tizayocan
+		Tenancatl # of Tenanco
+		Tepotzotecatl # of Tepotzotlan
+		Tlacopanecatl # of Tacuba/Tlacopan
+		Tecamachalcatl # of Tecamachalco
+		Xochimilcatl # Person of Xochimilco
+		Xaltocamecatl # of Xaltocan
+		Xocoyotl # Younger Son
+		Yaoceuhqui Yaonemitl Yaotlachinol
 	}
 	ethnicities = {
 		1 = native_american
@@ -11011,88 +11025,58 @@ nahua={
 
 tarascan={
 	color= hsv{ 0.50 0.24 0.75 }
-	religion = nicene
+	religion = mesoamerican_pagan
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Agustin
-		Alberto
-		Alfredo
-		Antonio
-		Armando
-		Arturo
-		Carlos
-		Cenobio
-		Daniel
-		Diego
-		Everardo
-		Gerardo
-		Gumersindo
-		Hector
-		Jesus
-		Juan
-		Leobardo
-		Luis
-		Manuel
-		Marcial
-		Marco_Antonio
-		Melchor
-		Pedro
-		Ricardo
-		Salvador
-		Samuel
-		Sergio
-		Silvano
-		Silvestre
-		Victor_2
+		# trawling through the Relacion de Michoacan
+		#
+		Aconsti Acuta Anahurichenzi Anbaua Aramen Atapezi Azinche
+		Barincha
+		Cando Chague Cuini Chuicico Caracomoco Cacapu Camejan Capacapecho Caricaten Carocomaco Catuquema
+		Erandi Equandira
+		Hiquingaje Hiripan Hireticatame Horohta Hutaco Hozi Hapunduri
+		JiuatsI_ # this just means Coyote
+		Pavacume Paguingata Patamu
+		Quama Quatamaripe
+		Sicuirancha Sirangua
+		TariA_curi TangA_xuan TzitzipandA_quare Ticatame Tucuruan Trimaransco Tigame Tagani Tarando Tuinchumbra Tarequesinguata
+		Uresqua
+		Vanzan
+		Xoropiti
+		Yzniquanto
+		Zuangua Zinaquambi Zincicha Zapivatame
 	}
 	female_common_first_names = {
-		Amalia
-		Antonia
-		Celsa
-		Erendira
-		Eva
-		Jovita
-		Laureana
-		Margarita
-		Maria
-		Marta
-		Matilde
-		Modesta
-		Ramona
+		ErE_ndira
+		Mavina
+		Quenomen
+		Xaratanga
 	}	
 	noble_last_names = {
-		Calderon
-		Cristobal_2
-		Ochoa
-		Paniagua
-		Ocampo
+		Ihuatzio Inaguitzin
+		Patzcuaro
+		Tzintzuntzan 
+		UacU_secha
 	}
-	common_last_names={
-		Almonte
-		Arredondo
-		Arriaga
-		Aureoles
-		Bernal
-		Brito
-		Cano
-		Carrillo
-		Cuevas
-		Dimas
-		Esquivel
-		Estrada
-		Galeana
-		Gallardo
-		Garcia
-		Gomez
-		Lopez
-		Maciel
-		Magana
-		Medrano
-		Mena
-		Tinoco
-		Toryo
-		Vargas
-		Zendejas
+	common_last_names={ 
+		# mostly towns in Michoacán, sometimes copied directly, sometimes taking purported Purepecha etymologies from Wikipedia
+		#
+		Angamuco Arocutin Acuitzio Anga ApatzingA_n
+		Cocupao Cucuchuchu Cuitzeo Capacho Chucandiro Copandaro
+		ErongarI_cuaro
+		Huitzimengari Huandacareo Huango Huacao 
+		Indaparapeo Irimbo
+		JanitsI_o Janamuato
+		NumarA_n
+		Opongio
+		Pucuato
+		QuerE_ndaro
+		TO_cuaro TarhI_mu TsitA_kuarhu
+		Uricho UruE_taro
+		Xiquipilco Xuaracuaro
+		ZinapE_cuaro
+		#
+		Cuyniarangari
 	}
 	ethnicities = {
 		1 = native_american
@@ -11721,7 +11705,7 @@ metis={
 
 dakota={
 	color= hsv{ 0.63 0.30 0.52 }
-	religion = animist
+	religion = great_spirit
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
 		Hehaka
@@ -12231,7 +12215,7 @@ nez_perce={ # Nez Perce
 }
 siouan={
 	color= hsv{ 0.14 0.35 0.99 }
-	religion = animist
+	religion = great_spirit
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
 		Hehaka
@@ -12328,7 +12312,7 @@ comanche={
 }
 algonquian={
 	color= hsv{ 0.22 0.15 0.86 }
-	religion = animist
+	religion = great_spirit
 	traits = { indigenous_american_heritage eastern_woodlands }
 	male_common_first_names={
 		Catecahassa Cottawamago Cheeseekau
@@ -12367,7 +12351,7 @@ algonquian={
 }
 iroquoian={
 	color= rgb{ 233 116 10 }
-	religion = nicene
+	religion = great_spirit
 	traits = { indigenous_american_heritage eastern_woodlands }
 	male_common_first_names={
 		Akwiraron Akwirente
@@ -12634,7 +12618,7 @@ oodham={
 }
 mixtec={
 	color={ 150 80 70 }
-	religion = animist
+	religion = mesoamerican_pagan
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
 		Agustin
