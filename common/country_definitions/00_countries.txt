@@ -3025,10 +3025,10 @@ OAX = { # Oaxaca
 	capital = STATE_OAXACA
 }
 
-MCO = { # Michoacan
+TZZ = { # Tzintzuntzan, Purepecha Empire
 	color = { 158 18 20 }
 	
-	country_type = decentralized
+	country_type = unrecognized
 	
 	tier = principality
 	
@@ -3253,7 +3253,7 @@ BLF = { # Niitsitapi / Blackfoot Confederacy
 	capital = STATE_ALBERTA
 }
 
-CCM = { # O'odham Country
+TPH = { # Tepehuan
 	color = hsv{ 0.19 0.61 0.67 }
 	
 	country_type = decentralized
@@ -3262,7 +3262,7 @@ CCM = { # O'odham Country
 	
 	cultures = { oodham }
 	
-	capital = STATE_CHIHUAHUA
+	capital = STATE_DURANGO
 }
 
 ORN = { # Orinoco
