@@ -1431,18 +1431,18 @@
 		}
 	}
 	s:STATE_DURANGO = { # est. total of 156999. 153810 in 1830, 160187 in 1840
-		region_state:MEX = {
-			create_pop = {
-				culture = neoanahuacan
-				size = 86199
-			}
+		region_state:TPH = {
 			create_pop = {
 				culture = oodham
-				size = 60000
+				size = 70000
 			}
 			create_pop = {
 				culture = nahua
 				size = 10800
+			}
+			create_pop = {
+				culture = tarascan
+				size = 6900
 			}
 		}
 	}

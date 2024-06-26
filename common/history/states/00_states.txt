@@ -1963,7 +1963,7 @@ STATES = {
 	}
 	s:STATE_DURANGO = {
 		create_state = {
-			country = c:MEX
+			country = c:TPH
 			owned_provinces = { 
 				"x00B080" "x10BBF0" "x1C03D7" "x1DD207" "x27C1A1" "x2F69FF" "x403080" "x476D93" "x4F60EB" "x5B96E6" "x6AAD8E" "x6F6565" "x74AF76" "x83F6C7" "x929ECC" "x95CA42" "xB57A54" "xB7EC5C" "xC46F80" "xD374E4" "xD87641" "xE40A9D" "xE755F0" "xEA20F2" "xEC0A4D" "xF88218"
 			}

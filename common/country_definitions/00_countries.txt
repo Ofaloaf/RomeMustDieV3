@@ -3253,17 +3253,17 @@ BLF = { # Niitsitapi / Blackfoot Confederacy
 	capital = STATE_ALBERTA
 }
 
-#CCM = { # O'odham Country
-#	color = hsv{ 0.19 0.61 0.67 }
-#	
-#	country_type = decentralized
-#	
-#	tier = principality
-#	
-#	cultures = { oodham }
-#	
-#	capital = STATE_CHIHUAHUA
-#}
+TPH = { # Tepehuan
+	color = hsv{ 0.19 0.61 0.67 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { oodham }
+	
+	capital = STATE_DURANGO
+}
 
 ORN = { # Orinoco
 	color = hsv{ 0.28 0.79 0.47 }
