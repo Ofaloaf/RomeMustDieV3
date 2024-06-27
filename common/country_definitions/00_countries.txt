@@ -1912,7 +1912,7 @@ MGL = {
 }
 
 XIN = {
-	color = { 255  234  174 }
+	color = { 205 184 124 }
 	
 	country_type = unrecognized
 	
