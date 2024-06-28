@@ -10822,90 +10822,48 @@ mayan={
 	religion = mesoamerican_pagan
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Agustin
-		Akbal
-		Alejandro
-		Andres
-		Antonio
-		Anibal
-		Armando
-		Bernardo
-		Carlos
-		Crescencio
-		Cristobal_2
-		Cuautehmoc
-		Diego
-		Felipe
-		Gaspar
-		Hernando
-		Hilario
-		Humberto
-		Ignacio
-		Jacinto
-		Jesus
-		Luis
-		Marcial
-		Martin_2
-		Miguel
-		Ramiro
-		Rodolfo
-		Rolando
-		Santiago
-		Yumil
+		Ahkal Ah_Ahaual Ah_Ulil Apoxpalon Apoch_Waal
+		Bolon_K_awiil
+		Catan Chaahk Ch_iyel Chan_Yopaat
+		Itzamnaaj_B_alam
+		K_an
+		Mo_
+		Nahb Napuc
+		Tziquin Tuun_K_ab__Hix Tecun_Uman
+		Yunuen Yat_Balam Yaxun_B_alam Yopaat_B_alam Yax_Yopaat Yuknoom_Ti__Chan
 	}
 	female_common_first_names = {
-		Ana
-		Catarina
-		Concepcion
-		Cristina
-		Elvia
-		Felipa
-		Maria
-		Paula
-		Ramona
-		Rigoberta
-		Rosalina
-		Thelma
+		Baalam
+		Catan Chaahk
+		Ek_
+		Kamali K_abel K_awiil
+		NictE_
+		Sak_k_uk
+		Tz_akbu Tziquin
+		Yohl_Ik_nal Yunuen
 	}	
 	noble_last_names = {
 		Ay
-		Ceel
-		Chan
-		Chi
-		Pat
-		Pec
-		Poot
+		Ceel Chan Chi CobA_
+		Kaanu_l
+		Pat Pec Poot
+		#
+		Chel Capul Cocom
+		Xiu
 	}
 	common_last_names={
 		Ak_ab_al
-		Cal
-		Canek
-		Canul
-		Carrillo
-		Ceh
-		Chee
-		Choc
-		Coc
-		Curruchic
+		Balam
+		Cal Canek Canul Ceh Chee Choc Coc Curruchic Chi Can Ceh_Moo
+		Dzul
 		Ixquiac
 		Kan
-		Lopez
-		Manzanero
-		Mas
-		Menchu
-		Mes
-		Merida
-		Osorio
-		Pek
-		Pop
-		Puk
-		Shal
-		Sho
-		Tecu
-		Teul
-		Tuyuc
-		Xicara
-		Xiloj
+		Mas Menchu Mes
+		Pek Pop Puk Poot
+		Shal Sho
+		Tecu Teul Tuyuc
+		Uicab
+		Xicara Xiloj
 	}
 	ethnicities = {
 		1 = native_american
@@ -10919,8 +10877,8 @@ nahua={
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
 		Ahuitzotl Axayacatl Acolnahuacatl Achitometl Acolmiztli Achitomecatl Acol Acotlehuac Acuixoc Acxotecatl Amiztlato Atlixeliuhqui
-		Cacama Chimalpopoca Chimalpilli CuauhtE_moc CuitlA_huac Chimalpopoca Coazanac Cehuanocatl Chicomacatl Cihuatlatoatl Cipac Citlalpopoca Coatzin Conma Cotolcatl Coauh Cuata Cuauhcoatl Cuauhtlatoa Cuauhyaotl Cuecuex
-		Huitzilihuitl Huetl Huitec Huitzilihuitl Huitztecpancatl Huecamecatl
+		Cacama Chimalpopoca Chimalpilli CuauhtE_moc CuitlA_huac Coazanac Cehuanocatl Chicomacatl Cihuatlatoatl Cipac Citlalpopoca Coatzin Conma Cotolcatl Coauh Cuata Cuauhcoatl Cuauhtlatoa Cuauhyaotl Cuecuex
+		Huitzilihuitl Huetl Huitec Huitztecpancatl Huecamecatl
 		Ixlilxochitl Icxicuauhtli Itzcuincuani Ixecatl
 		Matlaccohuatl Macuilmalinalli Matlalaca
 		Nezahualcoyotl Namuna
@@ -11009,7 +10967,6 @@ nahua={
 		Tollantzincatl # of Tulancingo
 		Tizayocatl # of Tizayocan
 		Tenancatl # of Tenanco
-		Tepotzotecatl # of Tepotzotlan
 		Tlacopanecatl # of Tacuba/Tlacopan
 		Tecamachalcatl # of Tecamachalco
 		Xochimilcatl # Person of Xochimilco

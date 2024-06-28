@@ -67,7 +67,7 @@ tengri_pagan = {
 }
 
 mesoamerican_pagan = {
-	texture = "gfx/interface/icons/religion_icons/animist.dds"
+	texture = "gfx/interface/icons/religion_icons/mesoamerican.dds"
 	traits = {
 		new_world
 	}
@@ -75,7 +75,7 @@ mesoamerican_pagan = {
 }
 
 great_spirit = { # Gitchi-Manitou, Orenda
-	texture = "gfx/interface/icons/religion_icons/animist.dds"
+	texture = "gfx/interface/icons/religion_icons/great_spirit.dds"
 	traits = {
 		new_world
 	}

@@ -1945,7 +1945,7 @@
 		}
 	}
 	s:STATE_YUCATAN={
-		region_state:MEX={	
+		region_state:MAY={	
 			create_building={
 				building="building_banana_plantation"
 				level=1
