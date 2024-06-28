@@ -49,6 +49,21 @@
   gov_daijo-kan_desc: "The Council of State is run by an assembly of ministers, entrusted with all facets of administration and governance of the realm."
   RULER_TITLE_DAIJO-DAIJIN: "Daijo-Daijin"
   #
+  gov_reformed_mayapan: "Reformed League"
+  gov_reformed_mayapann_desc: "The Reformed League of Mayapan attempts to improve on the old confederal system of the original League of Mayapan, with allowances for democratic demands and limitations on the government's powers."
+  RULER_TITLE_HALACH_UINIK: "Halach Uinik"
+  RULER_TITLE_IX: "Ix"
+  #
+  gov_reformed_mayapan_dictatorship: "Reformed League"
+  gov_reformed_mayapan_dictatorship_desc: "The Reformed League of Mayapan attempts to improve on the old confederal system of the original League of Mayapan, formally abolishing pretensions of monarchism while still granting immense power to the government."
+  #
+  gov_restored_mayapan: "Restored League"
+  gov_restored_mayapan_desc: "The Restored League of Mayapan is a confederal government, led by the hereditary rulers of Tutul-Xiu."
+  #
+  gov_restored_mayapan_absolutist: "Restored League"
+  gov_restored_mayapan_desc: "The Restored League of Mayapan is a centralized government, led by the hereditary rulers of Tutul-Xiu."
+  RULER_TITLE: "Ajaw"
+  #
   gov_sichuanese_court: "Sichuanese Court"
   gov_sichuanese_court_desc: "The Da Shu dynasty is run by a clique of Sichuanese ministers and bureaucrats who serve the Supreme Emperor."
   #

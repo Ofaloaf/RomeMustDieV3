@@ -1,18 +1,18 @@
 ﻿CHARACTERS = {
 	c:MEX ?= {
-		create_character = {
-			first_name = Didacus
-			last_name = Cortesius
-			historical = yes
-			age = 47
-			ig_leader = yes # Both general and IG leader
-			ruler = yes
-			culture = cu:neoanahuacan
-			interest_group = ig_landowners
-			ideology = ideology_jingoist_leader
-			traits = {
-				ambitious
-			}		
-		}
+#		create_character = {
+#			first_name = Didacus
+#			last_name = Cortesius
+#			historical = yes
+#			age = 47
+#			ig_leader = yes #
+#			#ruler = yes
+#			culture = cu:neoanahuacan
+#			interest_group = ig_landowners
+#			ideology = ideology_jingoist_leader
+#			traits = {
+#				ambitious
+#			}		
+#		}
 	}
 }

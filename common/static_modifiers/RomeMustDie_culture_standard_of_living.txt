@@ -367,3 +367,84 @@ afro_novomundan_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_afro_novomundan_standard_of_living_add = 1
 }
+
+arian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_arian_standard_of_living_add = 1
+}
+arian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_arian_standard_of_living_add = 1
+}
+nicene_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_nicene_standard_of_living_add = 1
+}
+nicene_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_nicene_standard_of_living_add = 1
+}
+pelagian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_pelagian_standard_of_living_add = 1
+}
+pelagian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_pelagian_standard_of_living_add = 1
+}
+nestorian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_nestorian_standard_of_living_add = 1
+}
+nestorian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_nestorian_standard_of_living_add = 1
+}
+germanic_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_germanic_pagan_standard_of_living_add = 1
+}
+germanic_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_germanic_pagan_standard_of_living_add = 1
+}
+baltic_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_baltic_pagan_standard_of_living_add = 1
+}
+baltic_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_baltic_pagan_standard_of_living_add = 1
+}
+slavic_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_slavic_pagan_standard_of_living_add = 1
+}
+slavic_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_slavic_pagan_standard_of_living_add = 1
+}
+tengri_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_tengri_pagan_standard_of_living_add = 1
+}
+tengri_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_tengri_pagan_standard_of_living_add = 1
+}
+mesoamerican_pagan_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_mesoamerican_pagan_standard_of_living_add = 1
+}
+mesoamerican_pagan_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_mesoamerican_pagan_standard_of_living_add = 1
+}
+great_spirit_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_great_spirit_standard_of_living_add = 1
+}
+great_spirit_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_great_spirit_standard_of_living_add = 1
+}

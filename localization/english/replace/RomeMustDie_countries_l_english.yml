@@ -167,8 +167,8 @@
   BGN_ADJ: "Burgundian"
   JKN: "Jiyukuni"
   JKN_ADJ: "Jiyukuni"
-  MEX: "Imperium Mexihcanum"
-  MEX_ADJ: "Mexican"
+  MEX: "Triple Alliance"
+  MEX_ADJ: "Aztec"
   NSG: "Newe Segobia"
   NSG_ADJ: "Eastern Shoshone"
   ATW: "Attawandaron"
@@ -179,7 +179,7 @@
   SOI_ADJ: "Suessiones"
   BRI: "Armorica"
   BRI_ADJ: "Armorican"
-  KTM: "Kutoo Manden" # New Mandrika Land
+  KTM: "Kutoo Manden" # New Mandika Land
   KTM_ADJ: "Kutoo Mandenian"
   NEJ: "Al-Yamamah"
   NEJ_ADJ: "Yamamah"
@@ -343,6 +343,8 @@
   TZZ_ADJ: "Purépecha"
   TPH: "Tepehuán"
   TPH_ADJ: "Tepehuán"
+  MAY: "Mayapan"
+  MAY_ADJ: "Mayan"
   #
   dyn_c_western_roman_empire: "Western Roman Empire"
   dyn_c_western_roman_empire_adj: "Roman"
@@ -390,3 +392,5 @@
   dyn_c_ruthenia_adj: "Ruthenian"
   dyn_c_rasiya: "Rasiya"
   dyn_c_rasiya_adj: "Rasiyan"
+  dyn_c_alliance_of_altepemeh: "Alliance of Altepemeh"
+  dyn_c_alliance_of_altepemeh_adj: "Altepetl"

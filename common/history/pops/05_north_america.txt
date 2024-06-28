@@ -1476,18 +1476,14 @@
 	# Tabasco:			58518 in 1830, 63919 in 1840, so averaging out to 61219
 	# working total number of 548936
 	s:STATE_YUCATAN = { 
-		region_state:MEX = {
-			create_pop = {
-				culture = neoanahuacan
-				size = 226764
-			}
+		region_state:MAY = {
 			create_pop = {
 				culture = mayan
-				size = 388804
+				size = 518804
 			}
 			create_pop = {
 				culture = nahua
-				size = 1400
+				size = 51400
 			}
 		}
 	}

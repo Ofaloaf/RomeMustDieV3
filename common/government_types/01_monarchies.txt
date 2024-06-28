@@ -108,6 +108,46 @@ gov_shogunate = {
 	}
 }
 
+gov_restored_mayapan = {
+	transfer_of_power = hereditary
+	
+	male_ruler = "RULER_TITLE_HALACH_UINIK"
+	female_ruler = "RULER_TITLE_IX" 
+
+	male_heir = "RULER_TITLE_PRINCE"
+	female_heir = "RULER_TITLE_PRINCESS"
+	
+	possible = {
+		c:MAY ?= this
+		has_law = law_type:law_monarchy
+		country_has_voting_franchise = yes
+	}
+
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+}
+
+gov_restored_mayapan_absolutist = {
+	transfer_of_power = hereditary
+
+	male_ruler = "RULER_TITLE_AJAW"
+	female_ruler = "RULER_TITLE_IX" 
+
+	male_heir = "RULER_TITLE_PRINCE"
+	female_heir = "RULER_TITLE_PRINCESS"
+	
+	possible = {
+		c:MAY ?= this
+		has_law = law_type:law_monarchy
+		country_has_voting_franchise = no
+	}
+
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+}
+
 gov_sichuanese_court = {
 	transfer_of_power = hereditary
 	

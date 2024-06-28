@@ -490,3 +490,17 @@ RUS = { # Russia
 		}
 	}	
 }
+
+MEX = { # Triple Alliance / Aztec Empire
+	dynamic_country_name = {
+		name = dyn_c_alliance_of_altepemeh
+		adjective = dyn_c_alliance_of_altepemeh_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+}

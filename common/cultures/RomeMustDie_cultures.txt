@@ -1171,7 +1171,7 @@ africanu = { # African Romance, with some Vandals
 
 ojibwe={
     color= hsv{ 0.66 0.15 0.86 }
-    religion = animist
+    religion = great_spirit
     traits = { indigenous_american_heritage eastern_woodlands }
     male_common_first_names = {
         Aandegwiiyaas Asanagoo Ahmoo 
