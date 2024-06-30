@@ -133,6 +133,12 @@
                         }
                     }
                 }  
+			}
+            modifier = {
+                add = 5000
+                
+				christian_clothes_pop_trigger = yes
+                clergy_clothes_pop_trigger = yes              
             }
         }
     }
