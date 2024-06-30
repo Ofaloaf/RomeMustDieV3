@@ -1703,7 +1703,47 @@
 				boy = male
 				girl = female
 			}	 
-		
+
+			late_military_epaulettes = {
+				index = 3
+				male = {
+					1 = male_epaulettes_military_01
+					1 = male_epaulettes_late_british_military_01
+					1 = male_epaulettes_late_american_military_01
+					1 = male_epaulettes_late_french_military_01
+				}
+
+				female = {
+				}
+				boy = male
+				girl = female
+			}		
+	 
+	 		reza_shah_pahlavi_epaulettes = {
+				index = 4
+				male = {
+					1 = reza_shah_pahlavi_epaulettes
+				}
+
+				female = {
+				}
+				boy = male
+				girl = female
+			}	
+
+			cossack_epaulettes = {
+				index = 5
+				male = {
+					1 = empty
+					4 = male_epaulettes_cossack_01
+					4 = male_epaulettes_01
+				}
+
+				female = {
+				}
+				boy = male
+				girl = female
+			}
 		}
 
 	#####################################
