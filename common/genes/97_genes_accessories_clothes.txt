@@ -1703,7 +1703,47 @@
 				boy = male
 				girl = female
 			}	 
-		
+
+			late_military_epaulettes = {
+				index = 3
+				male = {
+					1 = male_epaulettes_military_01
+					1 = male_epaulettes_late_british_military_01
+					1 = male_epaulettes_late_american_military_01
+					1 = male_epaulettes_late_french_military_01
+				}
+
+				female = {
+				}
+				boy = male
+				girl = female
+			}		
+	 
+	 		reza_shah_pahlavi_epaulettes = {
+				index = 4
+				male = {
+					1 = reza_shah_pahlavi_epaulettes
+				}
+
+				female = {
+				}
+				boy = male
+				girl = female
+			}	
+
+			cossack_epaulettes = {
+				index = 5
+				male = {
+					1 = empty
+					4 = male_epaulettes_cossack_01
+					4 = male_epaulettes_01
+				}
+
+				female = {
+				}
+				boy = male
+				girl = female
+			}
 		}
 
 	#####################################
@@ -1821,8 +1861,211 @@
 				girl = female
 			}
 			
-			roman_sashes = {
+			european_sashes_colours = {
 				index = 8
+				male = {
+					1 = male_sash_european_01_white
+					1 = male_sash_european_01_red
+					1 = male_sash_european_01_orange
+					1 = male_sash_european_01_yellow
+					1 = male_sash_european_01_gold
+					1 = male_sash_european_01_green
+					1 = male_sash_european_01_lightblue
+					1 = male_sash_european_01_blue
+					1 = male_sash_european_01_darkblue
+					1 = male_sash_european_01_purple
+					1 = male_sash_european_01_black
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}	 
+
+			cuirass_sashes = {
+				index = 9
+				male = {
+					1 = male_sashes_cuirass_01
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			single_pb_sashes = {
+				index = 10
+				male = {
+					1 = male_sash_european_01_sovereign
+					1 = male_sash_european_01_ideological
+					1 = male_sash_european_01_military
+					1 = male_sash_european_01_trade
+					1 = male_sash_european_01_religious
+				}
+				female = {
+					1 = female_sash_european_01_sovereign
+					1 = female_sash_european_01_ideological
+					1 = female_sash_european_01_military
+					1 = female_sash_european_01_trade
+					1 = female_sash_european_01_religious
+				}
+				boy = male
+				girl = female
+			}
+
+			double_pb_sashes = {
+				index = 11
+				male = {
+					1 = male_sash_european_02_sovereign
+					1 = male_sash_european_02_ideological
+					1 = male_sash_european_02_military
+					1 = male_sash_european_02_trade
+					1 = male_sash_european_02_religious
+					#
+
+					1 = male_belts_sash_power_bloc_01_sovereign
+					1 = male_belts_sash_power_bloc_02_sovereign
+					1 = male_belts_sash_power_bloc_03_sovereign
+					1 = male_belts_sash_power_bloc_04_sovereign
+				}
+				
+				female = {
+					1 = female_sash_european_02_sovereign
+					1 = female_sash_european_02_ideological
+					1 = female_sash_european_02_military
+					1 = female_sash_european_02_trade
+					1 = female_sash_european_02_religious
+				}
+				boy = male
+				girl = female
+			}
+
+			civilian_coat_pb_sashes = {
+				index = 12
+				male = {
+					1 = male_sash_european_civilian_03_sovereign
+					1 = male_sash_european_civilian_03_ideological
+					1 = male_sash_european_civilian_03_military
+					1 = male_sash_european_civilian_03_trade
+					1 = male_sash_european_civilian_03_religious
+				}
+				female = {
+					1 = female_sash_european_02_sovereign
+					1 = female_sash_european_02_ideological
+					1 = female_sash_european_02_military
+					1 = female_sash_european_02_trade
+					1 = female_sash_european_02_religious
+				}
+				boy = male
+				girl = female
+			}				
+
+			double_pb_sashes_and_sash_belts_sovereign = {
+				index = 13
+				male = {
+					1 = male_sash_european_02_sovereign					
+					1 = male_belts_sash_power_bloc_01_sovereign
+					1 = male_sash_european_02_sovereign	
+					1 = male_belts_sash_power_bloc_02_sovereign
+					1 = male_sash_european_02_sovereign	
+					1 = male_belts_sash_power_bloc_03_sovereign
+					#1 = male_sash_european_02_sovereign	
+					#1 = male_belts_sash_power_bloc_04_sovereign
+				}
+				
+				female = {
+					1 = female_sash_european_02_sovereign
+				}
+				boy = male
+				girl = female
+			}
+
+			double_pb_sashes_and_sash_belts_ideological = {
+				index = 14
+				male = {
+					1 = male_sash_european_02_ideological				
+					1 = male_belts_sash_power_bloc_01_ideological
+					1 = male_sash_european_02_ideological
+					1 = male_belts_sash_power_bloc_02_ideological
+					1 = male_sash_european_02_ideological
+					1 = male_belts_sash_power_bloc_03_ideological
+					#1 = male_sash_european_02_ideological
+					#1 = male_belts_sash_power_bloc_04_ideological
+				}
+				
+				female = {
+					1 = female_sash_european_02_ideological
+				}
+				boy = male
+				girl = female
+			}
+
+			double_pb_sashes_and_sash_belts_military = {
+				index = 15
+				male = {
+					1 = male_sash_european_02_military			
+					1 = male_belts_sash_power_bloc_01_military
+					1 = male_sash_european_02_military
+					1 = male_belts_sash_power_bloc_02_military
+					1 = male_sash_european_02_military
+					1 = male_belts_sash_power_bloc_03_military
+					#1 = male_sash_european_02_military
+					#1 = male_belts_sash_power_bloc_04_military
+				}
+				
+				female = {
+					1 = female_sash_european_02_military
+				}
+				boy = male
+				girl = female
+			}
+
+			double_pb_sashes_and_sash_belts_trade = {
+				index = 16
+				male = {
+					1 = male_sash_european_02_trade		
+					1 = male_belts_sash_power_bloc_01_trade
+					1 = male_sash_european_02_trade
+					1 = male_belts_sash_power_bloc_02_trade
+					1 = male_sash_european_02_trade
+					1 = male_belts_sash_power_bloc_03_trade
+					#1 = male_sash_european_02_trade
+					#1 = male_belts_sash_power_bloc_04_trade
+				}
+				
+				female = {
+					1 = female_sash_european_02_trade
+				}
+				boy = male
+				girl = female
+			}
+
+			double_pb_sashes_and_sash_belts_religious = {
+				index = 17
+				male = {
+					1 = male_sash_european_02_religious	
+					1 = male_belts_sash_power_bloc_01_religious
+					1 = male_sash_european_02_religious
+					1 = male_belts_sash_power_bloc_02_religious
+					1 = male_sash_european_02_religious
+					1 = male_belts_sash_power_bloc_03_religious
+					#1 = male_sash_european_02_religious
+					#1 = male_belts_sash_power_bloc_04_religious
+				}
+				
+				female = {
+					1 = female_sash_european_02_religious
+				}
+				boy = male
+				girl = female
+			}
+			
+			roman_sashes = {
+				index = 18
 				male = {
 					1 = male_sash_slavic_agitator_01
 				}
@@ -1972,6 +2215,178 @@
 				girl = female
 			}	
 
+			gaucho_belts = {
+				index = 4
+				male = {
+					1 = male_belt_gaucho_01
+					
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}	
+
+			late_military_belts = {
+				index = 5
+				male = {
+					1 = male_belt_military_01
+					
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}	
+
+			persian_royal_belt = {
+				index = 6
+				male = {
+					1 = male_belt_arabic_royal_01
+					
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}	
+
+			
+
+			cuirass_belt = {
+				index = 7
+				male = {
+					1 = male_belts_cuirass_01
+					
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			cossack_belt = {
+				index = 8
+				male = {
+					1 = male_belts_cossack_01
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+		male_belt_saber = {
+				index = 9
+				male = {
+					1 = male_belt_generic_03
+					
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			sash_belt_power_bloc_sovereign = {
+				index = 10
+				male = {
+					1 = male_belts_sash_power_bloc_01_sovereign
+					1 = male_belts_sash_power_bloc_02_sovereign
+					1 = male_belts_sash_power_bloc_03_sovereign
+					1 = male_belts_sash_power_bloc_04_sovereign
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			sash_belt_power_bloc_ideological = {
+				index = 11
+				male = {
+					1 = male_belts_sash_power_bloc_01_military
+					1 = male_belts_sash_power_bloc_02_military
+					1 = male_belts_sash_power_bloc_03_military
+					1 = male_belts_sash_power_bloc_04_military
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			sash_belt_power_bloc_military = {
+				index = 12
+				male = {
+					1 = male_belts_sash_power_bloc_01_military
+					1 = male_belts_sash_power_bloc_02_military
+					1 = male_belts_sash_power_bloc_03_military
+					1 = male_belts_sash_power_bloc_04_military
+				}
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			sash_belt_power_bloc_trade = {
+				index = 13
+				male = {
+					1 = male_belts_sash_power_bloc_01_trade
+					1 = male_belts_sash_power_bloc_02_trade
+					1 = male_belts_sash_power_bloc_03_trade
+					1 = male_belts_sash_power_bloc_04_trade
+					
+				}
+				female = {
+					1 = female_belt_shashes_01_trade
+					1 = female_belt_shashes_02_trade
+					1 = female_belt_shashes_03_trade
+					1 = female_belt_shashes_04_trade
+				}
+				boy = male
+				girl = female
+			}
+
+			sash_belt_power_bloc_religious = {
+				index = 14
+				male = {
+					1 = male_belts_sash_power_bloc_01_religious
+					1 = male_belts_sash_power_bloc_02_religious
+					1 = male_belts_sash_power_bloc_03_religious
+					1 = male_belts_sash_power_bloc_04_religious
+					
+				}
+				female = {
+					1 = female_belt_shashes_01_religious
+					1 = female_belt_shashes_02_religious
+					1 = female_belt_shashes_03_religious
+					1 = female_belt_shashes_04_religious
+				}
+				boy = male
+				girl = female
+			}
+
+			belt_gb_admiral = {
+				index = 15
+				male = {
+					1 = male_belt_gb_admiral	
+				}
+				female = {
+				}
+				boy = male
+				girl = female
+			}
 		}
 
 
@@ -2099,7 +2514,49 @@
 				girl = {
 				
 				}
-			}				
+			}	
+
+			black_waistcoat = {
+				index = 8
+				male = {
+					1 = male_waistcoat_european_black_01
+				}		   
+				female = {
+
+				}
+				boy = male
+				girl = {
+				
+				}
+			}
+
+				grey_waistcoat = {
+				index = 9
+				male = {
+					1 = male_waistcoat_european_grey_01
+				}		   
+				female = {
+
+				}
+				boy = male
+				girl = {
+				
+				}
+			}
+
+				greybrown_waistcoat = {
+				index = 10
+				male = {
+					1 = male_waistcoat_european_greybrown_01
+				}		   
+				female = {
+
+				}
+				boy = male
+				girl = {
+				
+				}
+			}			
 		}			
 		
 	#####################################
@@ -2569,7 +3026,99 @@
 				girl = female
 			}
 
-		
+			necklace_reza_shah_pahlavi = {
+				index = 8
+				
+				male = {
+					1 = male_necklace_reza_shah_pahlavi
+					
+				}
+
+				female = {
+					
+
+				}
+				
+				boy = male
+				girl = female
+			}
+
+			persian_royal_jewelry = {
+				index = 9
+				
+				male = {
+					1 = male_necklace_persian_royal_jewelry
+					
+				}
+
+				female = {
+					
+
+				}
+				
+				boy = male
+				girl = female
+			}
+
+
+
+			african_neacklace = {
+				index = 10
+				
+				male = {
+					1 = male_necklace_african_zulu_dingane_01
+				}
+
+				female = {
+					
+
+				}
+				
+				boy = male
+				girl = female
+			}
+
+			necklace_cape_power_bloc = {
+				index = 11
+				
+				male = {
+					1 = male_necklace_power_bloc_cape_01_sovereign
+					1 = male_necklace_power_bloc_cape_01_ideological
+					1 = male_necklace_power_bloc_cape_01_military
+					1 = male_necklace_power_bloc_cape_01_trade
+					1 = male_necklace_power_bloc_cape_01_religious
+				}
+				female = {
+					1 = female_necklace_power_bloc_cape_01_sovereign
+					1 = female_necklace_power_bloc_cape_01_ideological
+					1 = female_necklace_power_bloc_cape_01_military
+					1 = female_necklace_power_bloc_cape_01_trade
+					1 = female_necklace_power_bloc_cape_01_religious
+				}
+				
+				boy = male
+				girl = female
+			}
+			necklace_power_bloc = {
+				index = 12
+				
+				male = {
+					1 = male_necklace_power_bloc_sovereign_01
+					1 = male_necklace_power_bloc_ideological_01
+					1 = male_necklace_power_bloc_military_01
+					1 = male_necklace_power_bloc_trade_01
+					1 = male_necklace_power_bloc_religious_01
+				}
+				female = {
+					1 = female_necklace_power_bloc_sovereign_01
+					1 = female_necklace_power_bloc_ideological_01
+					1 = female_necklace_power_bloc_military_01
+					1 = female_necklace_power_bloc_trade_01
+					1 = female_necklace_power_bloc_religious_01
+				}
+				boy = male
+				girl = female
+			}
 		}
 
 
@@ -2826,8 +3375,152 @@
 				girl = female
 			}
 			
+		south_american_bandit_lampiao = {
+			index = 13
+			male = {		
+
+				1 = male_legwear_south_american_bandit_lampiao_01
+
+			}
+			female = {
+				#
+			}
+			boy = male
+			girl = female
+		}
+
+		brazilian_white_legwear = {
+			index = 14
+			male = {
+				1 = male_legwear_european_01_white
+				1 = male_legwear_south_american_01_brazilian
+			}
+			female = {
+			}
+			boy = male
+			girl = female
+		}
+
+		european_late_military_legwear = {
+			index = 15
+			male = {
+				1 = male_legwear_european_military_01
+				1 = male_legwear_british_late_military_01
+				1 = male_legwear_american_military_01
+			}
+			female = {
+				#
+			}
+			boy = male
+			girl = female
+		}  
+
+		reza_shah_pahlavi_legwear = {
+			index = 16
+			male = {
+				1 = reza_shah_pahlavi_legwear
+
+			}
+			female = {
+				1 = reza_shah_pahlavi_legwear
+			}
+			boy = male
+			girl = female
+		}			
+
+		african_zulu_dingane_legwear = {
+			index = 17
+			male = {
+				1 = male_leagwear_african_zulu_dingane_01
+
+			}
+			female = {
+				1 = reza_shah_pahlavi_legwear
+			}
+			boy = male
+			girl = female
+		}
+		
+		zulu_impi_legwear = {
+			index = 18
+			male = {
+				1 = male_legwear_zulu_impi_01
+
+			}
+			female = {
+			}
+			boy = male
+			girl = female
+			
+		}
+
+		vivandiere_legwear = {
+			index = 19
+			male = {
+				1 = male_legwear_european_01
+			}
+			female = {
+				1 = female_legwear_vivandiere_01
+			}
+			boy = male
+			girl = female
+		}  
+
+		european_late_military_female_legwear = {
+			index = 20
+
+			male = {
+				#
+			}
+			female = {
+				1 = female_legwear_european_military_01
+				1 = female_legwear_european_military_02
+			}
+			boy = male
+			girl = female
+		}
+
+		male_legwear_russian_military_01 = {
+			index = 21
+			male = {
+				1 = male_legwear_russian_military_01
+			}
+			female = {
+				1 = female_legwear_vivandiere_01
+			}
+			boy = male
+			girl = female
+		}
+
+		male_legwear_colored_military_01 = {
+			index = 22
+			male = {
+				1 = male_legwear_european_military_white_01
+				1 = male_legwear_european_military_red_01
+				1 = male_legwear_european_military_blue_01
+				1 = male_legwear_european_military_light_blue_01
+			}
+			female = {
+				#
+			}
+			boy = male
+			girl = female
+		}
+
+		male_legwear_greybrown = {
+			index = 23
+			male = {
+				1 = male_legwear_european_01_greybrown
+			}
+			female = {
+				#
+			}
+			boy = male
+			girl = female
+		}
+			
 			fp1_common_legwear = {
-				index = 13
+				index = 24
 				
 				male = {
 					1 = male_legwear_secular_fp1_common_01
@@ -2907,9 +3600,40 @@
 				girl = female
 			}
 		}
+		
+	#####################################
+	#									#
+	# 			  POWER BLOCKS		    #
+	#									#
+	#####################################
 
-	
+	power_blocks = {
+		inheritable = no
 
+		
+		all_shirts = {
+			index = 0
+			male = {
+			}
+			female = {
+			}
+			boy = male
+			girl = female
+		}		
 
+		earings = {
+			index = 1
+			male = {
+				1 = empty
+			}	
+
+			female = {
+			
+				1 = female_headgear_power_blocks_earings_01
+			}
+			boy = male
+			girl = female
+		}
+	}
 }
 

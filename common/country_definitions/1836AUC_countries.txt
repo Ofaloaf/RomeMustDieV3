@@ -1,6 +1,8 @@
 ﻿WRE = { # Western Roman Empire/Rome
 	color = { 196 15 24 }
 	
+	valid_as_home_country_for_separatists = { always = no } # root = country to separate from
+	
 	country_type = recognized
 	
 	tier = empire

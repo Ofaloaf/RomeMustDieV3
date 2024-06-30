@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:XHO ?= {
 		effect_starting_technology_tier_6_tech = yes
 		effect_native_conscription_4 = yes
