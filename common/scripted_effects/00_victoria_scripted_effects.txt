@@ -4095,3 +4095,428 @@ handle_revolutionary_sps = {
 		}
 	}
 }
+
+great_game_britain_progress_10 = {
+	custom_tooltip = {
+		text = great_game_points_britain_increases_10_tt
+	}
+}
+
+great_game_britain_progress_15 = {
+	custom_tooltip = {
+		text = great_game_points_britain_increases_15_tt
+	}
+}
+
+great_game_britain_progress_25 = {
+	custom_tooltip = {
+		text = great_game_points_britain_increases_25_tt
+	}
+}
+
+great_game_britain_progress_50 = {
+	custom_tooltip = {
+		text = great_game_points_britain_increases_50_tt
+	}
+}
+
+great_game_russia_progress_10 = {
+	custom_tooltip = {
+		text = great_game_points_russia_increases_10_tt
+	}
+}
+
+great_game_russia_progress_15 = {
+	custom_tooltip = {
+		text = great_game_points_russia_increases_15_tt
+	}
+}
+
+great_game_russia_progress_25 = {
+	custom_tooltip = {
+		text = great_game_points_russia_increases_25_tt
+	}
+}
+
+complete_great_game_effect = {
+	set_global_variable = persia_conflict_started
+	set_global_variable = afghanistan_conflict_started
+	set_global_variable = korean_protectorate_started
+	set_global_variable = central_asia_consolidation_happened
+	set_global_variable = kazakhstan_revolt_happened
+	set_global_variable = caucasian_war_happened
+	random_list = {
+		50 = {
+			set_global_variable = caucasus_consolidated_var
+		}
+		50 = {
+			set_global_variable = caucasus_failure_var
+		}
+	}
+	random_list = {
+		50 = {
+			set_global_variable = kazakhstan_victory_var
+		}
+		50 = {
+			set_global_variable = kazakhstan_defeat_var
+		}
+	}
+	set_global_variable = khanates_russia_victory_var
+	random_list = {
+		50 = {
+			set_global_variable = korean_protectorate_success
+		}
+		50 = {
+			set_global_variable = korean_protectorate_failure
+		}
+	}
+	random_list = {
+		50 = {
+			set_global_variable = afghanistan_russia_victory_var
+		}
+		50 = {
+			set_global_variable = afghanistan_britain_victory_var
+		}
+		50 = {
+			set_global_variable = afghanistan_afghan_victory_var
+		}
+	}
+	random_list = {
+		50 = {
+			set_global_variable = persia_russia_victory_var
+		}
+		50 = {
+			set_global_variable = persia_britain_victory_var
+		}
+		50 = {
+			set_global_variable = persia_persian_victory_var
+		}
+	}
+	set_global_variable = china_border_codified_variable
+	set_global_variable = manchurian_railway_variable
+	set_global_variable = trans_siberian_done
+	set_global_variable = consolidated_british_india_variable
+	set_global_variable = contained_russian_pacific_variable
+}
+
+generate_pro_lobby_diplomatic_pact_opportunity = {
+	random_list = {
+		20 = {
+			trigger = {
+				can_create_diplomatic_pact = { target = scope:relevant_country type = trade_agreement }
+				NOT = {
+					has_diplomatic_pact = {
+						who = scope:relevant_country
+						type = trade_agreement
+					}
+				}
+			}
+			set_variable = pro_lobby_proposal_trade_agreement
+		}
+		20 = {
+			trigger = {
+				can_create_diplomatic_pact = { target = scope:relevant_country type = defensive_pact }
+				NOT = {
+					has_diplomatic_pact = {
+						who = scope:relevant_country
+						type = defensive_pact
+					}
+				}
+			}
+			set_variable = pro_lobby_proposal_defensive_pact
+		}
+		20 = {
+			trigger = {
+				can_create_diplomatic_pact = { target = scope:relevant_country type = alliance }
+				NOT = {
+					has_diplomatic_pact = {
+						who = scope:relevant_country
+						type = alliance
+					}
+				}
+			}
+			set_variable = pro_lobby_proposal_alliance
+		}
+		20 = {
+			trigger = {
+				OR = {
+					can_create_diplomatic_pact = { target = scope:relevant_country type = foreign_investment_agreement }
+					can_create_diplomatic_pact = { target = scope:relevant_country type = foreign_investment_rights }
+				}
+				NOR = {
+					has_diplomatic_pact = {
+						who = scope:relevant_country
+						type = foreign_investment_rights
+					}
+					has_diplomatic_pact = {
+						who = scope:relevant_country
+						type = foreign_investment_agreement
+					}
+				}
+			}
+			set_variable = pro_lobby_proposal_investment_agreement
+		}
+		20 = {
+			trigger = {
+				scope:relevant_country = {
+					is_power_bloc_leader = yes
+				}
+				can_create_diplomatic_pact = { target = scope:relevant_country type = join_power_bloc }
+				NOT = {
+					is_in_same_power_bloc = scope:relevant_country
+				}
+			}
+			set_variable = pro_lobby_proposal_power_bloc
+		}
+		20 = {
+			trigger = {
+				is_power_bloc_leader = yes
+				can_create_diplomatic_pact = { target = scope:relevant_country type = invite_to_power_bloc }
+				NOT = {
+					is_in_same_power_bloc = scope:relevant_country
+				}
+			}
+			set_variable = pro_lobby_proposal_power_bloc_invite
+		}
+	}
+}
+
+generate_pro_lobby_diplomatic_pact_proposal = {
+	random_list = {
+		20 = { # Break an alliance
+			trigger = {
+				can_break_diplomatic_pact = { target = scope:third_party_country type = alliance }
+			}
+			set_variable = pro_lobby_proposal_break_alliance
+		}
+		20 = { # Break a trade agreement
+			trigger = {
+				can_break_diplomatic_pact = { target = scope:third_party_country type = trade_agreement }
+			}
+			set_variable = pro_lobby_proposal_break_trade_agreement
+		}
+		20 = { # Break a defensive pact
+			trigger = {
+				can_break_diplomatic_pact = { target = scope:third_party_country type = defensive_pact }
+			}
+			set_variable = pro_lobby_proposal_break_defensive_pact
+		}
+		20 = { # Do a rivalry
+			trigger = {
+				can_create_diplomatic_pact = { target = scope:third_party_country type = rivalry }
+			}
+			set_variable = pro_lobby_proposal_rivalry
+		}
+		20 = { # Do an embargo
+			trigger = {
+				can_create_diplomatic_pact = { target = scope:third_party_country type = embargo }
+			}
+			set_variable = pro_lobby_proposal_embargo
+		}
+		20 = { # Do a war
+			trigger = {
+				pro_lobby_war_valid_check = yes
+			}
+			set_variable = pro_lobby_proposal_war
+		}
+		20 = { # Leave Power Bloc
+			trigger = {
+				pro_lobby_leave_power_bloc_valid_check = yes
+			}
+			set_variable = pro_lobby_proposal_leave_power_bloc
+		}
+	}
+}
+
+generate_anti_lobby_diplomatic_pact_opportunity = {
+	random_list = {
+		20 = {
+			trigger = {
+				can_create_diplomatic_pact = { target = scope:third_party_country type = trade_agreement }
+				NOT = {
+					has_diplomatic_pact = {
+						who = scope:third_party_country
+						type = trade_agreement
+					}
+				}
+			}
+			set_variable = anti_lobby_proposal_trade_agreement
+		}
+		20 = {
+			trigger = {
+				can_create_diplomatic_pact = { target = scope:third_party_country type = defensive_pact }
+				NOT = {
+					has_diplomatic_pact = {
+						who = scope:third_party_country
+						type = defensive_pact
+					}
+				}
+			}
+			set_variable = anti_lobby_proposal_defensive_pact
+		}
+		20 = {
+			trigger = {
+				can_create_diplomatic_pact = { target = scope:third_party_country type = alliance }
+				NOT = {
+					has_diplomatic_pact = {
+						who = scope:third_party_country
+						type = alliance
+					}
+				}
+			}
+			set_variable = anti_lobby_proposal_alliance
+		}
+		20 = {
+			trigger = {
+				OR = {
+					can_create_diplomatic_pact = { target = scope:relevant_country type = foreign_investment_agreement }
+					can_create_diplomatic_pact = { target = scope:relevant_country type = foreign_investment_rights }
+				}
+				NOR = {
+					has_diplomatic_pact = {
+						who = scope:third_party_country
+						type = foreign_investment_rights
+					}
+					has_diplomatic_pact = {
+						who = scope:third_party_country
+						type = foreign_investment_agreement
+					}
+				}
+			}
+			set_variable = anti_lobby_proposal_investment_agreement
+		}
+		20 = {
+			trigger = {
+				scope:third_party_country = {
+					is_power_bloc_leader = yes
+				}
+				can_create_diplomatic_pact = { target = scope:third_party_country type = join_power_bloc }
+				NOT = {
+					is_in_same_power_bloc = scope:third_party_country
+				}
+			}
+			set_variable = anti_lobby_proposal_power_bloc
+		}
+		20 = {
+			trigger = {
+				is_power_bloc_leader = yes
+				can_create_diplomatic_pact = { target = scope:third_party_country type = invite_to_power_bloc }
+				NOT = {
+					is_in_same_power_bloc = scope:third_party_country
+				}
+			}
+			set_variable = anti_lobby_proposal_power_bloc_invite
+		}
+	}
+}
+
+generate_anti_lobby_diplomatic_pact_proposal = {
+	random_list = {
+		20 = { # Break an alliance
+			trigger = {
+				can_break_diplomatic_pact = { target = scope:relevant_country type = alliance }
+			}
+			set_variable = anti_lobby_proposal_break_alliance
+		}
+		20 = { # Break a trade agreement
+			trigger = {
+				can_break_diplomatic_pact = { target = scope:relevant_country type = trade_agreement }
+			}
+			set_variable = anti_lobby_proposal_break_trade_agreement
+		}
+		20 = { # Break a defensive pact
+			trigger = {
+				can_break_diplomatic_pact = { target = scope:relevant_country type = defensive_pact }
+			}
+			set_variable = anti_lobby_proposal_break_defensive_pact
+		}
+		20 = { # Do a rivalry
+			trigger = {
+				can_create_diplomatic_pact = { target = scope:relevant_country type = rivalry }
+			}
+			set_variable = anti_lobby_proposal_rivalry
+		}
+		20 = { # Do an embargo
+			trigger = {
+				can_create_diplomatic_pact = { target = scope:relevant_country type = embargo }
+			}
+			set_variable = anti_lobby_proposal_embargo
+		}
+		20 = { # Do a war
+			trigger = {
+				anti_lobby_war_valid_check = yes
+			}
+			set_variable = anti_lobby_proposal_war
+		}
+		20 = { # Leave Power Bloc
+			trigger = {
+				anti_lobby_leave_power_bloc_valid_check = yes
+			}
+			set_variable = anti_lobby_proposal_leave_power_bloc
+		}
+	}
+}
+
+clear_anti_lobby_vars = {
+	remove_variable = anti_lobby_proposal_break_alliance
+	remove_variable = anti_lobby_proposal_break_trade_agreement
+	remove_variable = anti_lobby_proposal_break_defensive_pact
+	remove_variable = anti_lobby_proposal_rivalry
+	remove_variable = anti_lobby_proposal_embargo
+	remove_variable = anti_lobby_proposal_war
+	remove_variable = anti_lobby_proposal_leave_power_bloc
+	remove_variable = anti_lobby_proposal_defensive_pact
+	remove_variable = anti_lobby_proposal_alliance
+	remove_variable = anti_lobby_proposal_trade_agreement
+	remove_variable = anti_lobby_proposal_power_bloc
+	remove_variable = anti_lobby_proposal_power_bloc_invite
+	remove_variable = anti_lobby_proposal_investment_agreement
+	remove_variable = anti_lobby_opportunity_target
+	remove_variable = anti_lobby_demand_target
+}
+
+clear_pro_lobby_vars = {
+	remove_variable = pro_lobby_proposal_defensive_pact
+	remove_variable = pro_lobby_proposal_alliance
+	remove_variable = pro_lobby_proposal_trade_agreement
+	remove_variable = pro_lobby_proposal_power_bloc
+	remove_variable = pro_lobby_proposal_power_bloc_invite
+	remove_variable = pro_lobby_proposal_investment_agreement
+	remove_variable = pro_lobby_proposal_break_alliance
+	remove_variable = pro_lobby_proposal_break_trade_agreement
+	remove_variable = pro_lobby_proposal_break_defensive_pact
+	remove_variable = pro_lobby_proposal_rivalry
+	remove_variable = pro_lobby_proposal_embargo
+	remove_variable = pro_lobby_proposal_war
+	remove_variable = pro_lobby_proposal_leave_power_bloc
+	remove_variable = pro_lobby_demand_target
+	remove_variable = pro_lobby_opportunity_target
+}
+
+update_gg_progressbar_tooltips = {
+	je:je_great_game_control = {
+		if = {
+			limit = {
+				"scripted_bar_progress(great_game_core_progress_bar)" < 0
+			}
+			set_bar_progress = { value = 0 name = great_game_core_progress_bar }
+		}
+		if = {
+			limit = {
+				"scripted_bar_progress(great_game_core_progress_bar)" > 200
+			}
+			set_bar_progress = { value = 200 name = great_game_core_progress_bar }
+		}
+		set_global_variable = { name = great_game_gbr_progress value = "scripted_bar_progress(great_game_core_progress_bar)" }
+		set_global_variable = { name = great_game_rus_progress value = 200 }
+		change_global_variable = { name = great_game_rus_progress subtract = global_var:great_game_gbr_progress }
+	}
+}
+
+clear_great_game_variables = {
+	remove_global_variable = great_game_gbr_progress
+	remove_global_variable = great_game_rus_progress
+	remove_global_variable = great_game_russian_economy_var
+	remove_global_variable = great_game_british_economy_var
+	remove_global_variable = great_game_economy_balance_var
+}
