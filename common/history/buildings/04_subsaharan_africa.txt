@@ -1189,7 +1189,7 @@
 				building="building_wheat_farm"
 				level=1
 				reserves=1
-				activate_production_methods={  "pm_simple_farming" "pm_tools_disabled" "pm_vineyards" }
+				activate_production_methods={  "pm_simple_farming" "pm_tools_disabled" "pm_no_secondary" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -1211,7 +1211,7 @@
 				building="building_wheat_farm"
 				level=1
 				reserves=1
-				activate_production_methods={  "pm_vineyards" "pm_tools_disabled" "pm_simple_farming" }
+				activate_production_methods={  "pm_no_secondary" "pm_tools_disabled" "pm_simple_farming" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -1239,7 +1239,7 @@
 				building="building_wheat_farm"
 				level=1
 				reserves=1
-				activate_production_methods={  "pm_vineyards" "pm_tools_disabled" "pm_simple_farming" }
+				activate_production_methods={  "pm_no_secondary" "pm_tools_disabled" "pm_simple_farming" }
 			}
 		}
 		region_state:WBL={

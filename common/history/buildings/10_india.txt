@@ -169,7 +169,7 @@
 				building="building_arms_industry"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_cannons" }
+				activate_production_methods={ "pm_muskets" }
 			}
 			create_building={
 				building="building_paper_mills"
@@ -397,7 +397,7 @@
 				building="building_arms_industry"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_no_artillery_production" }
+				activate_production_methods={ "pm_muskets" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -467,7 +467,7 @@
 				building="building_wheat_farm"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_vineyards" }
+				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_no_secondary" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -619,13 +619,13 @@
 				building="building_shipyards"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding" "pm_no_military_shipbuilding"  }
+				activate_production_methods={ "pm_basic_shipbuilding" }
 			}
 			create_building={
 				building="building_arms_industry"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_cannons" }
+				activate_production_methods={ "pm_muskets" }
 			}
 			create_building={
 				building="building_silk_plantation"
@@ -1029,7 +1029,7 @@
 				building="building_arms_industry"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_cannons" }
+				activate_production_methods={ "pm_muskets" }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -1157,7 +1157,7 @@
 				building="building_arms_industry"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_cannons" }
+				activate_production_methods={ "pm_muskets" }
 			}
 			create_building={
 				building="building_tea_plantation"
