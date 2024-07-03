@@ -2704,10 +2704,16 @@
 		}
 	}
 	s:STATE_NORTHERN_CAPE = {
+		region_state:RLG = {
+			create_pop = {
+				culture = tswana
+				size = 112000
+			}
+		}
 		region_state:WBL = {
 			create_pop = {
 				culture = tswana
-				size = 158004
+				size = 46004
 			}
 			create_pop = {
 				culture = sotho

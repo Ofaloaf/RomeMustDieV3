@@ -5065,87 +5065,70 @@ byelorussian={
 	religion = nicene
 	traits = { east_slavic european_heritage }
 	male_common_first_names={
-		Alaksandr
-		Alexei
-		Andrei
-		Anton
-		Boris
-		Cyril
-		Danya
+		Anton Apanas Alaksandar ArkadZ_ Andrej
+		C_esL_aU 
 		Dz_mitry
-		Giorgi
+		Fiodar Fabijan Francysk Frantsishak 
 		Ivan
-		Janka
-		Jury
-		Lavr
-		Leonid
-		Leu
-		Mikalai
-		Paval
-		Piotr
-		Roman
-		Ryhor
-		Sergey
-		Stanislaw
-		Uladzimir
-		Valery
-		Vasily
-		Viktar
-		Vladislav
+		Jazip Janka
+		Kanstantsin 
+		Leanard LeU_
+		MikaL_aj Mikola MojS_a MichaS_ Maksim
+		Piotra
+		Raman RadasL_aU_
+		Samuil S_ciapan
+		TamaS_
+		Usievalad UL_adzimier
+		Vaclau Vienijamin Vasil Vintsent VitaU_t
+		Yauheni Yefim Yakub 
+		Zmitser
 	}
 	female_common_first_names = {
-		Alaiza
+		Alaiza Alena
 		Galina
 		Kanstantsia
+		Iryna
 		Jadviga
 		Larysa
-		Nasta
-		Natallia
-		Petranella
+		Nasta Natallia
+		Petranella Paluta
 		Sofia
 		Tselina
 		Vera
 		Yelena
 	}	
 	noble_last_names = {
-		Bodganovich
-		Bonch-Bruyevich
-		Byulak-Balahovich
-		Domeyko
-		Dovnar-Zapolsky
+		Bodganovich Bonch-Bruyevich Balahovich Byalynitsky-Birulya
+		Domeyko Dunin-Martsynkevich Dovnar-Zapolsky
 		Hurynowicz
-		Kalinowski
+		KalinoU_ski Khrutski Kalavur
+		Lastouski Luckievich Lutsevich 
 		Pashkevich
-		Skirmunt
-		Sukhozanet
+		Skirmunt Sukhozanet
+		VankoviC_ Vyazmitsinau
 	}
 	common_last_names={
-		Alexseyev
-		Bulak-Balachowicz
-		Chibisov
-		Denikin
-		Dragomirov
-		Golovin
-		Gurko
-		Ivanov
-		Kalinowski
-		Kolchak
-		Kornilov
-		Kuropatkin
-		Lukashenka
-		Menshikov
-		Nakhimov
-		Nebogatov
-		Nikolaevich
-		Pavlov
-		Putyatin
-		Rozhestvensky
-		Skobelev
-		Sukhoi
-		Tukhachevsky
-		Vorontsov
-		Yegorov
-		Zhauryd
+		Abramchyk Ausianik Abrantovich AliaksandraU_
+		Burbis Budaryn Bachyla
+		Cvikievic C_arot
+		Dubouka Dudar
+		FiodaraU_ FilistoviC_
+		Hryb HaroS_ka Horetsky
+		IhnatoU_ski IvanoU_ski
+		JafimaviC_ JezavitaU_
+		Kourlov Karsky KreC_eU_ski 
+		Lozik Lastouski
+		MomoN_ka Mitskievich Martsinovich Michaluk MikuL_C_yk
+		NiekraS_eviC_ NaU_moviC_ Navara
+		Orsa
+		PulichaU_ PL_aU_nik Pushcha 
+		Ravienski
+		Sierada S_antyr SmoliC_ SipoviC_ Siemianiaka
+		Tarashkyevich TurankoU_ TeraU_ski
+		UL_aS_C_yk
+		Vosipavich Varonka VaciakoU_ 
+		Yaskin
+		Zhauryd Zhylunovich Zacharka Zajac
 	}
 	ethnicities = {
 		1 = slavic
@@ -5158,104 +5141,80 @@ ukrainian={
 	religion = nicene
 	traits = { east_slavic european_heritage }
 	male_common_first_names={
-		Alexei
-		Andrei
-		Anton
-		Arkadiy
-		Borys
-		Dmitro
-		Fyodor
+		Andriy Anton Arkadiy Adam Amvrosii 
+		Borys Bohdan
+		Dmitro Danylo
+		Evgeniy
+		Fyodor Fedir
 		Hryhoriy
-		Ivan
-		Lavr
-		Leonid
-		Lev
-		Mikhail
-		Mykola
-		Nikita
-		Oleksandr
-		Panteleimon 
-		Pavel
-		Petro
+		Ivan Ilarion Ippolit Isaak Ihnat
+		Kiril Kostiantyn 
+		Lavr Leonid Lev
+		Mikhail Mykola Markian
+		Nikita Nykyfor 
+		Oleksandr Oleksiy Oleh Omelian 
+		Panteleimon Pavel Petro Pylyp
 		Roman
-		Semyon
-		Sergiy
-		Valeriy
-		Viktor
-		Vladislav
-		Volodimir
-		Yevhen
-		Yuriy
+		Semyon Sergiy Sylvester
+		Teodosiy Tymofiy 
+		Valeriy Viktor Vladislav Volodimir Vasil Vsevolod
+		Yevhen Yuriy Yulian Yakiv Viktor
 	}
 	female_common_first_names = {
-		Darya
-		Dniprova
-		Hrytsko
+		Darya Dniprova
+		Glafira
+		Hanna 
 		Kolomba
-		Lyubov
-		Lyudmila
+		Lyubov Lyudmila
 		Maria
-		Nadazhda
-		Nataliya
-		Olena
-		Olha
+		Nadazhda Nataliya Nina
+		Olena Olha
 		Polina
 		Ruslana
-		Slava
+		Slava Solomya
+		Teklya
 		Ulyana
-		Valeriya
+		Valeriya Varvara 
 		Xenia
 		Yevheniya
 	}	
 	noble_last_names = {
-		Chubynsky
-		Czajkowski
-		Drahomanov
+		Bezborodko
+		Chubynsky Czajkowski
+		Drahomanov Doroshenko Drahomanov Domontovych Drevchenko
 		Gogol-Yanovsky
-		Hnizdovsky
-		Hrekov
-		Hrushevsky
-		Karaszewicz-Tokarzewski
-		Kobyliansky
-		Konysky
-		Kropyvnytsky
-		Kulish
-		Levytsky
-		Lototsky
-		Ohonovsky
-		Omelianovych-Pavlenko
-		Ortynsky
+		Hnizdovsky Hrekov Hrushevsky Hertsyk Holovatsky
+		Karaszewicz-Tokarzewski Kobyliansky Konysky Kropyvnytsky Kulish Kuilovskiy Kochubey Khanenko
+		Levytsky Lototsky Lyzohub Lysenko Lypynsky
+		Mazepa
+		Ohonovsky Omelianovych-Pavlenko Ortynsky
 		Petrushevych
 		Rodzianko
-		Sas-Kuilovsky
-		Shakhovskoy
-		Sheptytsky
-		Skoropadskyi
-		Vakhnianyn
-		Vitovsky
+		Sas-Kuilovsky Shakhovskoy Sheptytsky Skoropadskyi
+		Tereshchenko Tishkevich
+		Vakhnianyn Vitovsky
 		Zubrytsky
 	}
 	common_last_names={
-		Bezruchko
-		Chernyakhovsky
-		Dyachenko
-		Gamula
-		Grigoriev
-		Hrekov
-		Ivanenko
-		Ivanov
-		Kapustiansky
-		Kondratenko
-		Leshchenko
-		Leshchinskiy
-		Paskevich
-		Petliura
-		Radchenko
-		Shevchenko
-		Skoropadskyi
-		Stefaniv
-		Tymoshenko
-		Vitovsky
+		Andriychyk Andrusenko
+		Bezruchko Bulyno Bohoslov Bolbochan Boretz
+		Chernyakhovsky Chmola Chernihivetz Chumak
+		Dyachenko Doroshenko 
+		Fedorenko
+		Gamula Grigoriev
+		Hrekov Hladyshevsky Herasymenko Holovatskyi Holubovych Hlavatskyi Hrushevsky Hlushko
+		Ivanenko Ivanov Ivanovskiy
+		Kapustiansky Kondratenko Kovalchuk Kozytskiy Krushelnytskyi Kabachok Khotkevych Kopan Kornievsky Kucherenko
+		Leshchenko Leshchinskiy Lukashevych Levchenko Lysenko
+		Markevych Marchenko Morachevskyi Melnyk Melenevskyi Mykhailov
+		Nesvit Nimchenko
+		Ostapenko Opryshko Ovchinnikov
+		Paskevich Petliura Pelesh Puchko Plyushch Potapenko Paplynsky
+		Radchenko Rodionovych Rzhepetsky Rogulsky
+		Shevchenko Skoropadskyi Stefaniv Sembratovych Shashkevych Stulginskiy Shelukhin Singalevych Syniavsky
+		Tymoshenko Teliha
+		Vitovsky Velykanovych Yatsenko Vahylevych Voskresenskiy Volodaretz
+		Zorin Zhuk Zharko Zheplynsky
 	}
 	ethnicities = {
 		1 = slavic
