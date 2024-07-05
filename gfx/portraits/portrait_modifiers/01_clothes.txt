@@ -1458,4 +1458,461 @@
             }
         }
     }
+	
+	### African ###
+	
+    african_agitator_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = african_outfits
+                range = { 0.67 1.0 }
+            }
+
+            accessory = {
+                mode = add
+                gene = sashes
+                template = african_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                african_clothes_trigger = yes
+                agitator_character_trigger = yes 
+            }
+        }
+    }
+	
+    african_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = african_outfits_politician
+                range = { 0.34 1 } # For the work to randomly correctness
+            }
+            accessory = {
+                mode = add
+                gene = necklaces
+                template = african_necklaces
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                african_clothes_trigger = yes
+                NOT = {
+                    scope:character ?= {
+                        culture = {
+                            OR = {
+                                has_discrimination_trait = ethiopian
+                                has_discrimination_trait = southern_african_culture_group
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    african_south_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = african_outfits_politician
+                range = { 0.1 0.5 } # For the work to randomly correctness
+            }
+            accessory = {
+                mode = add
+                gene = necklaces
+                template = african_necklaces
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                african_clothes_trigger = yes
+                scope:character ?= {
+                    culture = {
+                        has_discrimination_trait = southern_african_culture_group
+                    }
+                }
+            }
+        }
+    }
+	
+    african_poor_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = african_outfits
+                range = { 0 0.5 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                AND = {
+                    african_clothes_pop_trigger = yes
+                    #poor_clothes_pop_trigger = yes
+                }  
+            }
+        }
+    }
+    african_middle_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = african_outfits
+                range = { 0.5 0.7 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 600
+                AND = {
+                    OR = {
+                        african_clothes_pop_trigger = yes
+                        AND = {
+                            exists = scope:pop
+                            scope:pop = {
+                                culture = cu:berber
+                            }
+                        }
+                        AND = {
+                            exists = scope:pop
+                            scope:pop = {
+                                culture = cu:tuareg
+                            }
+                        }
+                    }
+                    middle_clothes_pop_trigger = yes
+                }
+            }
+        }
+    }
+    african_upper_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = african_outfits
+                range = { 0.75 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 600
+                OR = {
+                    AND = {
+                        OR = {
+                            african_clothes_pop_trigger = yes
+                            AND = {
+                                exists = scope:pop
+                                scope:pop = {
+                                    culture = cu:berber
+                                }
+                            }
+                            AND = {
+                                exists = scope:pop
+                                scope:pop = {
+                                    culture = cu:tuareg
+                                }
+                            }
+                        }
+                        upper_clothes_pop_trigger = yes
+                    }
+                    AND = {
+                        african_clothes_pop_trigger = yes
+                        clergy_clothes_pop_trigger = yes
+                        scope:pop = {
+                            religion = {
+                                has_discrimination_trait = animist
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    zulu_ruler_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = legwear
+                template = african_zulu_dingane_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = african_zulu_dingane
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+
+                has_dlc_feature = ep1_cosmetics
+
+                scope:character ?= {
+                    is_ruler = yes
+                    is_female = no
+                    OR = {
+                        has_culture = cu:zulu
+                        has_culture = cu:nguni
+                        has_culture = cu:xhosa
+                    }
+                }
+            }
+        }
+    }
+
+    zulu_prince_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = legwear
+                template = african_zulu_dingane_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+
+                has_dlc_feature = ep1_cosmetics
+
+                scope:character ?= {
+                    is_heir = yes
+                    is_female = no
+                    OR = {
+                        has_culture = cu:zulu
+                        has_culture = cu:nguni
+                        has_culture = cu:xhosa
+                    }
+                }
+            }
+        }
+    }
+
+    zulu_impi_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = african_outfits
+                range = { 0 0.1 }
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = zulu_impi_legwear
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+
+                has_dlc_feature = ep1_cosmetics
+
+                OR = {
+                    scope:pop ?= {
+                        OR = {
+                            culture = cu:zulu
+                            culture = cu:nguni
+                            culture = cu:xhosa
+                        }
+                        OR = {
+                            is_pop_type = aristocrats
+                            is_pop_type = soldiers
+                            is_pop_type = officers
+                        }
+                    }
+                    scope:character ?={
+                        has_role = general
+                        is_ruler = no
+                        OR = {
+                            has_culture = cu:zulu
+                            has_culture = cu:nguni
+                            has_culture = cu:xhosa
+                        }                    
+                    }
+                }
+            }
+        }
+    }
+	
+     ethiopian_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = ethiopian_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                ethiopian_clothes_trigger = yes
+                scope:character = {
+                    is_female = no
+                    monarchy_clothes_trigger = no
+                }                
+           }
+        }
+    }
+
+    ethiopian_royal_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = ethiopian_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+             accessory = {
+                mode = add
+                gene = top_layer
+                template = ethiopian_top_layer
+                range = { 0 1 } # For the randomness to work correctly
+            }
+                        accessory = {
+                mode = add
+                gene = legwear
+                template = european_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                ethiopian_clothes_trigger = yes
+                scope:character = {
+                    is_female = no
+                    monarchy_clothes_trigger = yes
+                }                
+           }
+        }
+    }
+	
+	### Arabic ###
+	
+    arabic_agitator_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = arabic_outfits
+                range = { 0 0.33 } # Only out_common_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                agitator_character_trigger = yes
+                OR = {
+                    arabic_clothes_trigger = yes
+                    scope:character ?= {
+                        culture = {
+                            has_discrimination_trait = ethiopian
+                        }
+                    }
+                }
+            }
+        }
+    }
+	
+    arabic_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = arabic_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                agitator_character_trigger = no
+                OR = {
+                    arabic_clothes_trigger = yes
+                    scope:character ?= {
+                        culture = {
+                            has_discrimination_trait = ethiopian
+                        }
+                    }
+                }
+                armed_forces_clothes_trigger = no
+            }
+        }
+    }
+    arabic_coats = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = coats
+                template = arabic_coats
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                AND = {
+                    OR = {
+                        arabic_clothes_trigger = yes
+                        arabic_clothes_pop_trigger = yes
+                        scope:pop ?= {
+                            culture = {
+                                has_discrimination_trait = ethiopian
+                            }
+                        }
+                    }
+                    OR = {
+                        military_clothes_trigger = yes
+                        officers_clothes_pop_trigger = yes
+                        AND = {
+                            armed_forces_clothes_trigger = yes
+                            OR = { 
+                                politician_clothes_trigger = yes
+                                ruler_clothes_trigger = yes
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
