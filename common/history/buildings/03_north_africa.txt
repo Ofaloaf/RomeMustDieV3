@@ -35,7 +35,7 @@
 				building="building_shipyards"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  "pm_military_shipbuilding_wooden" }
+				activate_production_methods={ "pm_basic_shipbuilding" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -494,7 +494,7 @@
 				building="building_wheat_farm"
 				level=3
 				reserves=1
-				activate_production_methods={  "pm_vineyards" "pm_tools_disabled" "pm_simple_farming" }
+				activate_production_methods={ "pm_no_secondary" "pm_tools_disabled" "pm_simple_farming" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -528,7 +528,7 @@
 				building="building_wheat_farm"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_vineyards" "pm_tools_disabled"  }
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 			}			
 			create_building={
 				building="building_livestock_ranch"
@@ -554,7 +554,7 @@
 				building="building_wheat_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_vineyards" "pm_tools_disabled"  }
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 			}			
 			create_building={
 				building="building_livestock_ranch"
@@ -598,7 +598,7 @@
 				building="building_wheat_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_vineyards" "pm_tools_disabled"  }
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 			}
 			create_building={
 				building="building_barracks"
@@ -614,7 +614,7 @@
 				building="building_wheat_farm"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_vineyards" "pm_tools_disabled"  }
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 			}
 			create_building={
 				building="building_livestock_ranch"

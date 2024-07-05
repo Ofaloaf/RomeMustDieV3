@@ -1,1 +1,12 @@
 ﻿#
+TRADE_ROUTES = {
+	# Chola Empire
+	c:CHO ?= {	
+		create_trade_route = {
+			goods = silk
+			level = 15
+			direction = import
+			target = c:CHI.market
+		}
+    }
+}

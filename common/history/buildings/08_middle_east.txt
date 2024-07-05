@@ -27,7 +27,7 @@
 				building="building_shipyards"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  "pm_military_shipbuilding_wooden" }
+				activate_production_methods={ "pm_basic_shipbuilding" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -181,7 +181,7 @@
 				building="building_wheat_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_vineyards" "pm_tools_disabled"  }
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondaryyards" "pm_tools_disabled"  }
 			}
 			create_building={
 				building="building_port"
@@ -424,7 +424,7 @@
 				building="building_wheat_farm"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_vineyards" }
+				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_no_secondaryyards" }
 			}
 			create_building={
 				building="building_opium_plantation"
@@ -607,7 +607,7 @@
 				building="building_rice_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm"  "pm_tools_disabled" "pm_fig_orchards" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm"  "pm_tools_disabled" "pm_no_secondary" }
 			}
 			create_building={
 				building="building_opium_plantation"
