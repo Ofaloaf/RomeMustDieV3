@@ -2328,11 +2328,11 @@ PEU = {
 PRG = {
 	color = { 177  44  29 }
 	
-	country_type = colonial
+	country_type = unrecognized
 	
 	tier = principality
 	
-	cultures = { platinean }
+	cultures = { guarani }
 	capital = STATE_BAJO_PARAGUAY
 }
 

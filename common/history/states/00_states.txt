@@ -2309,16 +2309,10 @@ STATES = {
 	}
 	s:STATE_RIO_GRANDE_DO_SUL = {
 		create_state = {
-			country = c:PNI
+			country = c:TPE
 			owned_provinces = { x5F9728 xE69F64 x0445FE xD9D235 xF0F96F x118F07 xE933B3 xED55D2 xCC2135 x8A15FA x8E3579 xBEAF68 x19E79D x52B247 x067BE3 xD3A197 xCD9ECD x4EF206 x1956D3 xE5C3BD xA41E15 x8953B5 xA787A2 x9D8150 x38328C x6E0564 x783434 x38A72A xF1B2D9 x8F1635 xFF2920 x48F668 x7678F5 xB88B11 x45B9DF x5F39AB xCD5D1E x26F3A4 x161E6F x628161 x529B8E x16C462 x9FE393 xD8696A xA950E8 x782568 x9BDDA2 x22956B x4BBCCC x7F701B x00E2C3 x7600E6 xE17D15 x7DEC91 xE761EB x9A598B x583BA0 x633FB2 xC7E5A1 x036508 }
 		}
-		set_variable = {
-			name = brazil_sucession_state
-		}
-		add_homeland = cu:brazilian
-		add_homeland = cu:afro_brazilian
-		add_homeland = cu:guarani		
-		add_claim = c:BRZ
+		add_homeland = cu:guarani
 	}
 	s:STATE_PARANA = {
 		create_state = {
@@ -2332,13 +2326,12 @@ STATES = {
 	}
 	s:STATE_SANTA_CATARINA = {
 		create_state = {
-			country = c:BRZ
+			country = c:KNG
 			owned_provinces = {
 				xC550DC x8A5C63 x8D6AA3 xDF5E13 x09803F x9937ED x9DE26B x3066EF xA88387 xEB0D5F xF6A625 x02483B x06999F x2DA91C x4538A5 xF3F10A xC7B370 x600573 xEDCD15 xA57238
 			}
 		}
-		
-		add_homeland = cu:brazilian
+		add_homeland = cu:amazonian
 		add_homeland = cu:guarani	
 	}
 	s:STATE_SAO_PAULO = {
@@ -2444,7 +2437,6 @@ STATES = {
 			owned_provinces = { x7F122F x8E584E xF6D2AB xFA7666 x5E4391 x00B4D8 x0F3CD6 x94589F x454794 xBBF9A0 x3A504C xC7CB16 x7EA30A xDA6F61 xC61ADF x60C0F0 x1FB9E5 xDC3EF4 xC8DC41 xDA1836 xD5F9CD xD88F59 xAFCC81 x466E2C xCE33D1 xB10505 xB7D892 x42596B xABB36B xF0B1F6 xD90F3A xA67B3F x841D25 x31CD31 xF81AEB xF9F050 xACC25D x1B710F x8CCFFD x10DCC5 xF56551 x0021B0 x03A9D5 x4DC9E5 x24FD6F x8706BD x89DBD1 x257980 xA6FC81 xDE11F9 x4D49C2 xA04170 x4D1F19 x8A3F78 x907EFD x4A6B07 x067D66 xF610F7 xAD31E7 xEF7E14 x1148FC xF30D3D xBD3AF3 x4D929D x2C6C50 x727FD6 x03443A }
 		}
 		
-		add_homeland = cu:platinean
 		add_homeland = cu:guarani
 	}
 	s:STATE_BAJO_PARAGUAY = {
@@ -2453,7 +2445,6 @@ STATES = {
 			owned_provinces = { xB74540 xB63BAD x9CDC33 xCD9F44 xF72535 x8D0A9E xC4AB87 x361EE6 xFBD28B x0B832C x0E946E x651796 x0FC5DF x5A795B x3674BC x2594A3 x088648 x369F44 x4F8725 xCB6C17 x73B395 x4DC624 x334783 xBF51C8 xCD1FE6 xCCC385 x1DCC94 xFCD325 x0F5F2B xF4DD1F xCD1E44 }
 		}
 		
-		add_homeland = cu:platinean
 		add_homeland = cu:guarani		
 	}
 	s:STATE_BUENOS_AIRES = {
@@ -2541,12 +2532,10 @@ STATES = {
 	}
 	s:STATE_CORRIENTES = {
 		create_state = {
-			country = c:ARG
+			country = c:PRG
 			owned_provinces = { xE6CEFA x0EF9D4 xAAE517 xB196C3 xD099E7 x4AC29E xF3F73C x988988 xAAAE72 x7D7684 xBCA186 x55BC51 xDDA329 xA5787E x759354 x092C5E x9A6092 x910C5C x238A1A x9C2131 x92BEE9 x64BE0D x7EB6F0 x06F100 xFB9D5C xF07AA3 xCD9FE6 x778AFC x84FBF5 }
 		}
 		
-		add_homeland = cu:platinean
-		add_homeland = cu:brazilian
 		add_homeland = cu:guarani
 	}
 	s:STATE_TUCUMAN = {
@@ -2572,7 +2561,6 @@ STATES = {
 			state_type = unincorporated
 		}
 		
-		add_homeland = cu:platinean
 		add_homeland = cu:guarani		
 	}
 	s:STATE_JUJUY = {

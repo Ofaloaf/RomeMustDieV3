@@ -408,26 +408,8 @@ POPS = {
 	s:STATE_BAJO_PARAGUAY = {
 		region_state:PRG = {
 			create_pop = {
-				culture = platinean
-				size = 308396
-			}
-			create_pop = {
 				culture = guarani
-				size = 24000
-			}
-			create_pop = {
-				culture = guarani
-				religion = catholic
-				size = 282240
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 14560
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 17996
+				size = 424000
 			}
 		}
 	}
@@ -552,27 +534,10 @@ POPS = {
 		}
 	}
 	s:STATE_CORRIENTES = {
-		region_state:ARG = {
-			create_pop = {
-				culture = platinean
-				size = 101462
-			}
-			create_pop = {
-				culture = brazilian
-				size = 16004
-			}
+		region_state:PRG = {
 			create_pop = {
 				culture = guarani
-				size = 35996
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 2100
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 630
+				size = 135996
 			}
 		}
 	}
@@ -698,10 +663,6 @@ POPS = {
 				culture = guarani
 				size = 38000
 			}
-			create_pop = {
-				culture = platinean
-				size = 4000
-			}
 		}
 		region_state:BOE = {
 			create_pop = {
@@ -715,23 +676,10 @@ POPS = {
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_SUL = {
-		region_state:PNI = {
-			create_pop = {
-				culture = brazilian
-				size = 116681
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_brazilian
-				size = 42176
-			}
-			create_pop = {
-				culture = afro_brazilian
-				size = 4086
-			}
+		region_state:TPE = {
 			create_pop = {
 				culture = guarani
-				size = 40000
+				size = 156681
 			}
 		}
 	}
@@ -753,19 +701,14 @@ POPS = {
 		}
 	}
 	s:STATE_SANTA_CATARINA = { # 1836 estimate. 61753 total.
-		region_state:BRZ = {
+		region_state:KNG = {
 			create_pop = {
-				culture = brazilian
+				culture = amazonian
 				size = 35582
 			}
 			create_pop = {
-				pop_type = slaves
-				culture = afro_brazilian
-				size = 13012
-			}
-			create_pop = {
-				culture = afro_brazilian
-				size = 13159
+				culture = guarani
+				size = 26171
 			}
 		}
 	}

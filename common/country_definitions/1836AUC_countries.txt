@@ -1595,6 +1595,28 @@ GYR = { # Guayra
 	capital = STATE_PARANA
 }
 
+TPE = { # Tapé
+	color = { 10 40 120 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { guarani }
+	capital = STATE_RIO_GRANDE_DO_SUL
+}
+
+KNG = { # Kaingang
+	color = { 173 152 3 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_SANTA_CATARINA
+}
+
 CLH = { # Calehaqui
 	color = { 25 55 150 }
 	
