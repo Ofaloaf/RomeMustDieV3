@@ -9,4 +9,14 @@ TRADE_ROUTES = {
 			target = c:CHI.market
 		}
     }
+
+	# Indo Ganges Sultanate
+	c:IGS ?= {	
+		create_trade_route = {
+			goods = opium
+			level = 26
+			direction = export
+			target = c:CHI.market
+		}
+    }
 }

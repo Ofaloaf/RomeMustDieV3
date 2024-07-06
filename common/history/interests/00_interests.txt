@@ -1,3 +1,6 @@
 ﻿INTERESTS = {
-#
+    # Indo Ganges Sultanate
+    c:IGS ?= {
+		add_declared_interest = region_south_china
+	}
 }
