@@ -1,18 +1,11 @@
 ﻿BUILDINGS={
 	s:STATE_BIHAR={
-		region_state:IGS={
-			create_building={
-				building="building_arms_industry"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_muskets" }
-			}
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
 						country="c:IGS"
-						levels=11
+						levels=6
 					}
 				}
 				reserves=1
@@ -57,7 +50,7 @@
 				add_ownership={
 					country={
 						country="c:IGS"
-						levels=14
+						levels=7
 					}
 				}
 				reserves=1
@@ -162,7 +155,7 @@
 				add_ownership={
 					country={
 						country="c:IGS"
-						levels=13
+						levels=7
 					}
 				}
 				reserves=1
@@ -170,21 +163,33 @@
 			}
 			create_building={
 				building="building_construction_sector"
-				level=1
+				add_ownership={
+					country={
+						country="c:IGS"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_tooling_workshops"
+						country="c:IGS"
+						levels=
+						region="STATE_DELHI"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" }
 			}				
 			create_building={
 				building="building_textile_mills"
 				level=5
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes"  "pm_traditional_looms" "pm_craftsman_sewing" }
-			}
-			create_building={
-				building="building_arms_industry"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_muskets" }
 			}
 			create_building={
 				building="building_paper_mills"
@@ -231,7 +236,7 @@
 				add_ownership={
 					country={
 						country="c:IGS"
-						levels=8
+						levels=4
 					}
 				}
 				reserves=1
@@ -452,7 +457,7 @@
 				add_ownership={
 					country={
 						country="c:IGS"
-						levels=15
+						levels=8
 					}
 				}
 				reserves=1
@@ -667,7 +672,7 @@
 				add_ownership={
 					country={
 						country="c:IGS"
-						levels=15
+						levels=8
 					}
 				}
 				reserves=1
@@ -693,15 +698,9 @@
 			}
 			create_building={
 				building="building_shipyards"
-				level=3
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_basic_shipbuilding" }
-			}
-			create_building={
-				building="building_arms_industry"
-				level=4
-				reserves=1
-				activate_production_methods={ "pm_muskets" }
 			}
 			create_building={
 				building="building_silk_plantation"
@@ -735,7 +734,12 @@
 			}
 			create_building={
 				building="building_port"
-				level=3
+				add_ownership={
+					country={
+						country="c:IGS"
+						levels=5
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
@@ -748,7 +752,7 @@
 				add_ownership={
 					country={
 						country="c:IGS"
-						levels=9
+						levels=5
 					}
 				}
 				reserves=1
