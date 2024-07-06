@@ -1573,4 +1573,46 @@ MAR = {
 	capital = STATE_BOMBAY
 }
 
+CHR = { # Charrua
+	color = { 205 25 50 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { charrua }
+	capital = STATE_URUGUAY
+}
 
+GYR = { # Guayra
+	color = { 25 205 50 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { guarani }
+	capital = STATE_PARANA
+}
+
+CLH = { # Calehaqui
+	color = { 25 55 150 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { quechua }
+	capital = STATE_JUJUY
+}
+
+DIG = { # Diaguita
+	color = { 67 66 66 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { quechua }
+	capital = STATE_TUCUMAN
+}
