@@ -613,25 +613,7 @@
 		}
 	}
 	s:STATE_URUGUAY={
-		region_state:URU={
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_barracks"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
+		region_state:CHR={
 		}
 		region_state:AIL={
 		create_building={
@@ -643,15 +625,7 @@
 		}
 	}
 	s:STATE_JUJUY={
-		region_state:BOL={
-		}
-		region_state:ARG={
-			create_building={
-				building="building_gold_mine"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
-			}			
+		region_state:CLH={
 		}
 	}
 	s:STATE_ALTO_PARAGUAY={
@@ -838,7 +812,7 @@
 		}
 	}
 	s:STATE_CORRIENTES={
-		region_state:ARG={
+		region_state:PRG={
 			create_building={
 				building="building_maize_farm"
 				level=1
@@ -860,13 +834,7 @@
 		}
 	}
 	s:STATE_TUCUMAN={
-		region_state:ARG={
-			create_building={
-				building="building_gold_mine"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
-			}	
+		region_state:DIG={
 		}
 	}
 	s:STATE_CHACO={
@@ -1000,7 +968,7 @@
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_SUL={
-		region_state:PNI={
+		region_state:TPE={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -1008,14 +976,8 @@
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 			create_building={
-				building="building_coffee_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" }
-			}
-			create_building={
 				building="building_barracks"
-				level=10
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
@@ -1028,7 +990,7 @@
 		}
 	}
 	s:STATE_PARANA={
-		region_state:BRZ={
+		region_state:GYR={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -1041,10 +1003,16 @@
 				reserves=1
 				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts" }
 			}
+			create_building={
+				building="building_barracks"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
 		}
 	}
 	s:STATE_SANTA_CATARINA={
-		region_state:BRZ={
+		region_state:KNG={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -1056,6 +1024,12 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_barracks"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 	}

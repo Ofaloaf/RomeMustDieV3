@@ -2629,3 +2629,42 @@ afro_novomundan={
 	}
 	graphics = decentralised_americas
 }
+
+charrua={ # Not many attested Charruan names tbh. Added in some Guarani and Mapuche names.
+	color= rgb{ 104 199 46 }
+	religion = animist
+	traits = { indigenous_american_heritage south_american_group }
+	male_common_first_names={
+		# Some Irish & colonizer influences
+		Artorius
+		Oengus
+		Patricius Pelagius
+		#
+		Junchar
+		Kallfulikan
+		Lampere
+		Senacua
+		TacuavE_
+		Vaimaca-PirU_
+	}
+	female_common_first_names = {
+		Guyunusa
+		Maria
+		Pelagia
+	}	
+	noble_last_names = {
+	}
+	common_last_names={
+		Anzoategui AracuyU_
+		Bohanes
+		Chanaes Cunhagatu
+		Minuanes
+		Sira SE_naquE_
+		Tiaraju Tumpa
+		Yrahi Yaro
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
