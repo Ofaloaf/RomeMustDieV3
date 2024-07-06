@@ -186,6 +186,11 @@ male_legwear_secular_fp1_common_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_legwear_secular_fp1_common_01_entity" }	
 }
 
+male_legwear_secular_mena_war_nobility_01 = {
+	set_tags = "shrink_legs"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_legwear_secular_mena_war_nobility_01_entity" }	
+}
+
 female_legwear_secular_fp1_common_01 = {
 	set_tags = "shrink_legs"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_legwear_secular_fp1_common_01_entity" }	

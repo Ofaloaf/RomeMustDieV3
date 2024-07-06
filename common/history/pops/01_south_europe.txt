@@ -3,17 +3,17 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1849137
+				size = 1449137
 			}
 			create_pop = {
 				culture = roman
 				religion = arian
-				size = 427859
+				size = 377859
 			}
 			create_pop = {
 				culture = roman
 				religion = jewish
-				size = 396
+				size = 3960
 			}
 		}
 	}
@@ -21,7 +21,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 2167188
+				size = 1430344
 			}
 			create_pop = {
 				culture = roman
@@ -84,7 +84,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 2557396
+				size = 1687881
 			}
 		}
 	}
@@ -100,7 +100,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1284392
+				size = 963294
 			}
 		}
 	}
@@ -133,7 +133,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1120404
+				size = 840303
 			}
 			create_pop = {
 				culture = roman
@@ -146,7 +146,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1425400
+				size = 1069050
 			}
 			create_pop = {
 				culture = roman
@@ -159,7 +159,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 752300
+				size = 564225
 			}
 			create_pop = {
 				culture = roman
@@ -172,7 +172,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1170867
+				size = 1070867
 			}
 			create_pop = {
 				culture = roman
@@ -190,12 +190,12 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1669176
+				size = 1101656
 			}
 			create_pop = {
 				culture = roman
 				religion = arian
-				size = 186020
+				size = 122773
 			}
 			create_pop = {
 				culture = roman
@@ -208,7 +208,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1647596
+				size = 1087413
 			}
 		}
 	}

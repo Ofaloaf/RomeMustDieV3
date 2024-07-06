@@ -374,3 +374,11 @@ state_great_spirit_standard_of_living_add={
 		ai_value=0
 	}
 }
+
+state_charrua_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
