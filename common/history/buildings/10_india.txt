@@ -1,5 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_BIHAR={
+		region_state:IGS={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
@@ -178,7 +179,7 @@
 					building={
 						type="building_tooling_workshops"
 						country="c:IGS"
-						levels=
+						levels=1
 						region="STATE_DELHI"
 					}
 				}
