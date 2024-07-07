@@ -1,0 +1,25 @@
+﻿COUNTRIES = {
+	c:BWH ?= {
+		
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_traditional = yes
+
+		set_tax_level = medium
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_land_based_taxation	
+		activate_law = law_type:law_no_schools
+		
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes 
+		}
+
+		ig:ig_rural_folk = {
+			add_ruling_interest_group = yes
+		}
+	}
+}

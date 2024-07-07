@@ -84,9 +84,23 @@
 				activate_production_methods={ "pm_no_organization" }
 			}			
 		}
+		region_state:BWH={
+			create_building={
+				building="building_maize_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+			create_building={
+				building="building_barracks"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}	
+		}
 	}
 	s:STATE_NICARAGUA={
-		region_state:UCA={
+		region_state:NIC={
 			create_building={
 				building="building_tobacco_plantation"
 				level=1
@@ -101,18 +115,24 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=1
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}			
 		}
-		region_state:MKT={
+		region_state:BWH={
 			create_building={
 				building="building_barracks"
-				level=2
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}			
+			create_building={
+				building="building_maize_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
 			create_building={
 				building="building_port"
 				level=1
@@ -122,12 +142,12 @@
 		}
 	}
 	s:STATE_COSTA_RICA={
-		region_state:UCA={
+		region_state:NCC={
 			create_building={
-				building="building_coffee_plantation"
+				building="building_maize_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" }
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 			}
 			create_building={
 				building="building_barracks"
@@ -135,6 +155,14 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}			
+		}
+		region_state:TTN={
+			create_building={
+				building="building_coffee_plantation"
+				level=1
+				reserves=1
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" }
+			}
 		}
 	}
 	s:STATE_PANAMA={

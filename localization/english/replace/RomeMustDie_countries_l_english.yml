@@ -371,6 +371,12 @@
   QRD_ADJ: "Querandian"
   GEN: "Güenoa"
   GEN_ADJ: "Güenoan"
+  NCC: "Necoc Īāuh"
+  NCC_ADJ: "Nicoyan"
+  NIC: "Nicānāhuac"
+  NIC_ADJ: "Nicanahuacan"
+  BWH: "Bawihka"
+  BWH_ADJ: "Bawihka"
   #
   dyn_c_western_roman_empire: "Western Roman Empire"
   dyn_c_western_roman_empire_adj: "Roman"

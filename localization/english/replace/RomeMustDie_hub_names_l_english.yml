@@ -786,6 +786,10 @@
  #
  STATE_DURANGO: "Korian"
  #
+ STATE_NICARAGUA: "Nicatlnahuac"
+ #
+ STATE_COSTA_RICA: "Ora Dives"
+ #
  ### CANADA
  #
  STATE_NEWFOUNDLAND: "Vinland"

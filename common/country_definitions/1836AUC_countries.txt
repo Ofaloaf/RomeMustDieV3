@@ -1682,3 +1682,25 @@ GEN = { # Guenoa
 	cultures = { charrua }
 	capital = STATE_SANTA_FE
 }
+
+NCC = { # Nicoya
+	color = { 253 104 40 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { nahua }
+	capital = STATE_COSTA_RICA
+}
+
+BWH = { # Bawihka
+	color = { 91 71 1 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { muisca }
+	capital = STATE_NICARAGUA
+}

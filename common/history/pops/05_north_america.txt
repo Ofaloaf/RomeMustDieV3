@@ -277,12 +277,6 @@
 				size = 1300
 			}
 		}
-		region_state:ABS = {
-			create_pop = {
-				culture = siouan
-				size = 6500
-			}
-		}
 	}
 	s:STATE_MONTANA = {
 		region_state:ABS = {

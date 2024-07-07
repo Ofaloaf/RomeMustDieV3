@@ -2145,11 +2145,11 @@ NEW = {
 NIC = {
 	color = { 34 88 186 }
 	
-	country_type = colonial
+	country_type = unrecognized
 	
 	tier = principality
 	
-	cultures = { central_american }
+	cultures = { nahua }
 	capital = STATE_NICARAGUA
 	is_named_from_capital = yes
 }
