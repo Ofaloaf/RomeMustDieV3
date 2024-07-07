@@ -24,6 +24,16 @@
 				size = 16818
 			}
 		}
+		region_state:POW = {	
+			create_pop = {
+				culture = algonquian
+				size = 18003
+			}
+			create_pop = {
+				culture = chesepian
+				size = 21445
+			}
+		}
 	}
 	s:STATE_LOUISIANA = {
 		region_state:LOU = {
@@ -265,12 +275,6 @@
 			create_pop = {
 				culture = salish
 				size = 1300
-			}
-		}
-		region_state:ABS = {
-			create_pop = {
-				culture = siouan
-				size = 6500
 			}
 		}
 	}
@@ -681,7 +685,7 @@
 		region_state:POW = {
 			create_pop = {
 				culture = chesepian
-				size = 591997
+				size = 521997
 			}
 			create_pop = {
 				culture = lenape
@@ -690,7 +694,12 @@
 			create_pop = {
 				pop_type = slaves
 				culture = lenape
-				size = 58467
+				size = 18134
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_novomundan
+				size = 110333
 			}
 		}
 	}
@@ -699,18 +708,23 @@
 		region_state:POW = {
 			create_pop = {
 				culture = chesepian
-				size = 97000
+				size = 26919
 			}
 	
 			create_pop = {
 				culture = lenape
-				size = 26919
+				size = 89370
 			}
 	
 			create_pop = {
 				pop_type = slaves
 				culture = algonquian
 				size = 2605
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_novomundan
+				size = 10630
 			}
 		}
 	}
@@ -841,16 +855,21 @@
 		region_state:POW = {
 			create_pop = {
 				culture = chesepian
-				size = 402500
+				size = 228734
 			}
 			create_pop = {
 				culture = catawba
-				size = 21138
+				size = 121138
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = catawba
 				size = 12062
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_novomundan
+				size = 73766
 			}
 		}
 		region_state:CTW = {
@@ -894,7 +913,11 @@
 		region_state:POW = {
 			create_pop = {
 				culture = chesepian
-				size = 153836
+				size = 61534
+			}
+			create_pop = {
+				culture = catawba
+				size = 92302
 			}
 			create_pop = {
 				culture = cherokee

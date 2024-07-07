@@ -1,5 +1,5 @@
 ﻿objective_barbarians_at_the_gates = {
-	background = "gfx/interface/icons/objectives/barbarians_at_the_gates_illu.dds"
+	enabled_background = "gfx/interface/icons/objectives/barbarians_at_the_gates_illu.dds"
 	icon = "gfx/interface/icons/objectives/barbarians_at_the_gates_icon.dds"
 	
 	recommended_tags = { HNN FRK LIT }	

@@ -51,59 +51,68 @@
 			}
 			create_pop = {
 				culture = muisca
-				size = 33009
+				size = 13009
 			}
+		}
+		region_state:BWH = {
 			create_pop = {
-				culture = miskito # Cape of Gracias a Dios Miskito
-				size = 3000
+				culture = muisca
+				size = 23000
 			}
 		}
 	}
 	s:STATE_NICARAGUA = {
-		region_state:UCA = {
+		region_state:NIC = {
 			create_pop = {
-				culture = central_american
-				size = 284000
+				culture = nahua
+				size = 142000
 			}
 			create_pop = {
-				culture = miskito # Miskito pop. across the 'borders'
+				culture = muisca # Miskito pop. across the 'borders'
 				size = 4000
 			}
 		}
-		region_state:MKT = {
+		region_state:BWH = {
 			create_pop = {
-				culture = miskito # Tawira Miskito
-				size = 30000
+				culture = muisca
+				size = 45000
 			}
 			create_pop = {
-				culture = miskito
-				religion = protestant
+				culture = muisca
+				religion = nicene
 				size = 10000
 			}
 			create_pop = {
-				culture = afro_caribbean # Miskito Sambu
-				size = 20000
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 500
-			}
-			create_pop = {
-				culture = british
-				size = 500
+				culture = nahua
+				size = 21000
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = afro_caribeno
-				size = 1000
+				culture = afro_novomundan
+				size = 4900
 			}
 		}
 	}
 	s:STATE_COSTA_RICA = {
-		region_state:UCA = {
+		region_state:NCC = {
 			create_pop = {
-				culture = central_american
-				size = 83992
+				culture = nahua
+				size = 93992
+			}
+		}
+		region_state:TTN = {
+			create_pop = {
+				culture = scottish
+				size = 15046
+			}
+			create_pop = {
+				culture = muisca
+				size = 22020
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = muisca
+				size = 4100
 			}
 		}
 	}
@@ -120,7 +129,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = muisca
-				size = 4100
+				size = 9800
 			}
 			create_pop = {
 				culture = cariban

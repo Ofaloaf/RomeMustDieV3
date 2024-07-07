@@ -304,8 +304,6 @@
 		}
 	}
 	s:STATE_IDAHO={
-		region_state:ORG={
-		}
 		region_state:NZP={
 		}
 	}

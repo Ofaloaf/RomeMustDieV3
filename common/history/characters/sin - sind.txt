@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:SIN = {
+	c:SIN ?= {
 		create_character = {
 			first_name = Ali
 			last_name = al_Habbari
