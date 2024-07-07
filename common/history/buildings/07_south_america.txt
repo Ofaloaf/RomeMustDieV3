@@ -321,8 +321,6 @@
 		}
 	}
 	s:STATE_PASTAZA={
-		region_state:PEU={
-		}
 		region_state:SMT={
 		}
 	}

@@ -98,4 +98,6 @@
   
   WRE_BLOC: "Imperium Orientiale"
   ERE_BLOC: "Imperium Occidentale"
-  
+  #
+  state_trait_malaria: "Mosquito-Borne Fever"
+  state_trait_severe_malaria: "Severe Mosquito-Borne Fever"
