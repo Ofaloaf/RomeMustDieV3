@@ -470,7 +470,6 @@
 		region_state:IGS = {
 			create_pop = {
 				culture = panjabi
-				religion = sunni
 				size = 10036705
 			}
 			create_pop = {
@@ -484,6 +483,7 @@
 			}
 			create_pop = {
 				culture = panjabi
+				religion = sikh
 				size = 1366552
 			}
 			create_pop = {
@@ -564,7 +564,7 @@
 		region_state:HYD = {
 			create_pop = {
 				culture = marathi
-				size = 651630
+				size = 701630
 			}
 			create_pop = {
 				culture = marathi
@@ -573,17 +573,7 @@
 			}
 			create_pop = {
 				culture = avadhi
-				size = 88386
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = marathi
-				size = 50000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = avadhi
-				size = 6000
+				size = 94386
 			}
 		}
 		region_state:NAG = {
@@ -630,34 +620,17 @@
 		region_state:BAS = {
 			create_pop = {
 				culture = telegu
-				size = 210070
+				size = 235140
 			}
 			create_pop = {
 				culture = telegu
 				religion = sunni
-				size = 126552
+				size = 128552
 			}
 			create_pop = {
 				culture = telegu
 				religion = animist
-				size = 150301
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = telegu
-				religion = animist
-				size = 20070
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = telegu
-				religion = sunni
-				size = 2000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = telegu
-				size = 25070
+				size = 170371
 			}
 		}
 	}
@@ -1023,7 +996,7 @@
 		region_state:HYD = {
 			create_pop = {
 				culture = telegu
-				size = 3724685
+				size = 3764685
 			}
 			create_pop = {
 				culture = telegu
@@ -1037,11 +1010,11 @@
 			}
 			create_pop = {
 				culture = avadhi
-				size = 951351
+				size = 984351
 			}
 			create_pop = {
 				culture = marathi
-				size = 3156330
+				size = 3186330
 			}
 			create_pop = {
 				culture = kannada
@@ -1049,22 +1022,6 @@
 				size = 1164904
 			}
 			create_pop = {
-				pop_type = slaves
-				culture = telegu
-				size = 40000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = avadhi
-				size = 33000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = marathi
-				size = 30000
-			}
-			create_pop = {
-				pop_type = slaves
 				culture = kannada
 				size = 60000
 			}
@@ -1078,7 +1035,7 @@
 			}
 			create_pop = {
 				culture = marathi
-				size = 4895764
+				size = 4936764
 				religion = hindu
 			}
 			create_pop = {
@@ -1108,11 +1065,6 @@
 				culture = sindi
 				religion = shiite
 				size = 45504
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = marathi
-				size = 41000
 			}
 		}
 	}

@@ -1,1 +1,27 @@
 ﻿#
+DIPLOMACY = {
+	c:KNM ?= {
+		set_relations = { country = c:BEN value = 47 }
+		set_relations = { country = c:ZZZ value = 51 }
+        set_relations = { country = c:SOK value = 45 }
+		set_relations = { country = c:HAU value = 49 }
+        set_relations = { country = c:ILR value = 52 }
+		set_relations = { country = c:MAL value = -30 }
+	}
+    c:BEN ?= {
+        set_relations = { country = c:KNM value = 50 }
+    }
+    c:ZZZ ?= {
+        set_relations = { country = c:KNM value = 50 }
+    }
+    c:SOK ?= {
+        set_relations = { country = c:KNM value = 50 }
+    }
+    c:HAU ?= {
+        set_relations = { country = c:KNM value = 50 }
+    }
+    c:ILR ?= {
+        set_relations = { country = c:KNM value = 50 }
+    }
+
+}

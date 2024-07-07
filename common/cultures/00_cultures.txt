@@ -8098,7 +8098,7 @@ kanauji={
 
 panjabi={
 	color= hsv{ 0.08 0.10 0.74 }
-	religion = sikh
+	religion = sunni
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
 		Baba
