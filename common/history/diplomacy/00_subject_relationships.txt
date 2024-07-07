@@ -99,4 +99,26 @@
 			type = protectorate
 		}
 	}
+	c:IGS = {
+		create_diplomatic_pact = {
+			country = c:JAS # Jaisalmer
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:BIK # Bikaner
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:JAI # Jaipur
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:GWA # Gwalior
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:BUN # Bundelkhand
+			type = protectorate
+		}
+	}
 }
