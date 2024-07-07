@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:GUI = {
+	c:GIA = {
 		set_tax_level = low
 		
 		effect_starting_technology_tier_3_tech = yes

@@ -13070,6 +13070,18 @@ MAK_theocracy = {
 }
 
 MAL = {	# Mali
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_kanaga.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}	
+}
+
+MAL_republic = {	# Mali
 	# 1959
 	# The Kanaga man symbol was removed in 1961 (to be more in line w/ islamic precepts)
 	pattern = "pattern_solid.tga"
@@ -23224,4 +23236,21 @@ PRC = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "red"
+}
+
+PAU = {	# Paulistania
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "blue"
+		instance = { scale = { 0.25 1.0 } position = { 0.375 0.5 } }
+	}	
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "red"
+		instance = { scale = { 0.25 1.0 } position = { 0.625 0.5 } }
+	}
 }

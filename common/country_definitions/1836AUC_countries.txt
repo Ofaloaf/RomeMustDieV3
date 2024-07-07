@@ -1149,7 +1149,7 @@ MTB = { # Marinatambal/Marajo
 	capital = STATE_PARA
 }
 
-GUI = { # Guiana
+GIA = { # Guiana
 	color = { 174 28 137 }
 	
 	country_type = recognized
@@ -1637,4 +1637,48 @@ DIG = { # Diaguita
 	
 	cultures = { quechua }
 	capital = STATE_TUCUMAN
+}
+
+HNK = { # Henia-Kamiare
+	color = { 138 92 96 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { quechua }
+	capital = STATE_LA_PAMPA
+}
+
+TNK = { # Tonokoté
+	color = { 247 240 213 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { quechua }
+	capital = STATE_CHACO
+}
+
+QRD = { # Querandi
+	color = { 101 102 163 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_BUENOS_AIRES
+}
+
+GEN = { # Guenoa
+	color = { 147 140 113 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { charrua }
+	capital = STATE_SANTA_FE
 }

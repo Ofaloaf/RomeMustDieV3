@@ -11002,7 +11002,7 @@ tarascan={
 
 quechua={
 	color= hsv{ 0.10 0.22 0.69 }
-	religion = nicene
+	religion = animist # TODO create Incan faith
 	traits = { indigenous_american_heritage south_american_group }
 	male_common_first_names={
 		Atoc Atahualpa

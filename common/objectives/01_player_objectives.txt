@@ -1,5 +1,5 @@
 ﻿objective_orbis_romanus = {
-	background = "gfx/interface/icons/objectives/orbis_romanus_illu.dds"
+	enabled_background = "gfx/interface/icons/objectives/orbis_romanus_illu.dds"
 	icon = "gfx/interface/icons/objectives/orbis_romanus_icon.dds"
 	
 	recommended_tags = { WRE ERE GLL PGN }
@@ -16,7 +16,7 @@
 }
 
 objective_struggle_for_the_new_world = {
-	background = "gfx/interface/icons/objectives/struggle_for_the_new_world_illu.dds"
+	enabled_background = "gfx/interface/icons/objectives/struggle_for_the_new_world_illu.dds"
 	icon = "gfx/interface/icons/objectives/struggle_for_the_new_world_icon.dds"
 	
 	recommended_tags = { IRO POW MEX KAI }	
@@ -32,7 +32,7 @@ objective_struggle_for_the_new_world = {
 }
 	
 objective_oriens = {
-	background = "gfx/interface/icons/objectives/oriens_illu.dds"
+	enabled_background = "gfx/interface/icons/objectives/oriens_illu.dds"
 	icon = "gfx/interface/icons/objectives/oriens_icon.dds"
 	
 	recommended_tags = { EGY PER IGS CHO }	
@@ -48,7 +48,7 @@ objective_oriens = {
 }
 
 objective_heart_of_africa = {
-	background = "gfx/interface/icons/objectives/heart_of_africa_illu.dds"
+	enabled_background = "gfx/interface/icons/objectives/heart_of_africa_illu.dds"
 	icon = "gfx/interface/icons/objectives/heart_of_africa_icon.dds"
 	
 	recommended_tags = { MAL KNM HAR TGR }	

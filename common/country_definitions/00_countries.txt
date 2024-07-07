@@ -3901,7 +3901,7 @@ PAU = {
 	
 	tier = principality
 	
-	cultures = { paulista }
+	cultures = { ulpianic }
 	capital = STATE_SAO_PAULO
 }
 

@@ -250,3 +250,27 @@ MSV = { # Muscovy
 		priority = 1
 	}
 }
+
+PAU = { # Paulopolitania
+	flag_definition = {
+		coa = PAU
+		subject_canton = PAU
+		priority = 1
+	}
+}
+
+MAL = { # Mali
+	flag_definition = {
+		coa = MAL
+		subject_canton = MAL
+		priority = 1
+	}
+	flag_definition = {
+		coa = MAL_republic
+		subject_canton = MAL_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+}
