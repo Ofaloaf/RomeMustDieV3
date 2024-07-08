@@ -1210,7 +1210,7 @@ KNM = { # Kanem
 	tier = principality
 	
 	cultures = { kanuri teda }
-	capital = STATE_CHAD
+	capital = STATE_BORNU
 }
 
 ILR = { # Ilorin

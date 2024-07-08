@@ -99,10 +99,20 @@ TRADE_ROUTES = {
 	# Ailech
 	c:AIL ?= {	
 		create_trade_route = {
-			goods = liqour
+			goods = liquor
 			level = 7
 			direction = export
 			target = c:MAL.market
+		}
+    }
+
+	# Zanzibar
+	c:ZAN ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:CHO.market
 		}
     }
 }
