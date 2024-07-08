@@ -1,6 +1,10 @@
 ﻿INTERESTS = {
     # Indo Ganges Sultanate
-    c:IGS ?= {
+  c:IGS ?= {
 		add_declared_interest = region_south_china
+	}
+  # Chola Empire
+  c:CHO ?= {
+		add_declared_interest = region_senegal
 	}
 }
