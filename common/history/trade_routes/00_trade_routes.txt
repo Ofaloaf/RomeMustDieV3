@@ -8,6 +8,72 @@ TRADE_ROUTES = {
 			direction = import
 			target = c:CHI.market
 		}
+		create_trade_route = {
+			goods = sugar
+			level = 7
+			direction = import
+			target = c:MAL.market
+		}
+		create_trade_route = {
+			goods = clothes
+			level = 9
+			direction = export
+			target = c:MAL.market
+		}
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 5
+			direction = export
+			target = c:MAL.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 10
+			direction = export
+			target = c:MAL.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 21
+			direction = import
+			target = c:CHI.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 10
+			direction = import
+			target = c:JAV.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 2
+			direction = export
+			target = c:MAL.market
+		}
+		create_trade_route = {
+			goods = porcelain
+			level = 2
+			direction = export
+			target = c:MAL.market
+		}
+		create_trade_route = {
+			goods = porcelain
+			level = 3
+			direction = import
+			target = c:CHI.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 5
+			direction = import
+			target = c:CHI.market
+		}
+		create_trade_route = {
+			goods = clothes
+			level = 2
+			direction = import
+			target = c:NAG.market
+		}
     }
 
 	# Indo Ganges Sultanate
@@ -17,6 +83,26 @@ TRADE_ROUTES = {
 			level = 26
 			direction = export
 			target = c:CHI.market
+		}
+    }
+
+	# Mali Empire
+	c:MAL ?= {	
+		create_trade_route = {
+			goods = wood
+			level = 2
+			direction = export
+			target = c:CHO.market
+		}
+    }
+
+	# Ailech
+	c:AIL ?= {	
+		create_trade_route = {
+			goods = liqour
+			level = 7
+			direction = export
+			target = c:MAL.market
 		}
     }
 }

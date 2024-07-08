@@ -2219,7 +2219,7 @@
 				building="building_shipyards"
 				add_ownership={
 					building={
-						type="building_shipyards"
+						type="building_financial_district"
 						country="c:CHO"
 						levels=2
 						region="STATE_MADRAS"
