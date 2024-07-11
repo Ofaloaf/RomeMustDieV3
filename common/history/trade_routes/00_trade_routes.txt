@@ -124,5 +124,89 @@ TRADE_ROUTES = {
 			direction = import
 			target = c:QSU.market
 		}
+		create_trade_route = {
+			goods = fabric
+			level = 1
+			direction = export
+			target = c:LMC.market
+		}
     }
+
+	# Charcas
+	c:CRC ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:TWK.market
+		}
+    }
+
+	# Qusqo
+	c:QSU ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = export
+			target = c:TTN.market
+		}
+    }
+
+	# Limacania
+	c:LMC ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:QSU.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 1
+			direction = import
+			target = c:QSU.market
+		}
+    }
+
+	# TIRTANEL
+	c:TTN ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:ERE.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = export
+			target = c:LMC.market
+		}
+    }
+
+	# Muisca
+	c:MUI ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:TTN.market
+		}
+    }
+
+	# Venetiolan
+	c:VTL ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:TTN.market
+		}
+    }
+
+
+
+
+
+
 }

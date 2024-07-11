@@ -373,6 +373,18 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
+				building="building_arms_industry"
+				add_ownership={
+					country={
+						country="c:TTN"
+						levels=1
+					}
+				}
+				reserves=1
+				subsidized = yes
+				activate_production_methods={ "pm_muskets" }
 			}		
 			create_building={
 				building="building_fishing_wharf"	
@@ -412,6 +424,32 @@
 				}
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:TTN"
+						levels=1
+						region="STATE_ANTIOQUIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						type="building_iron_mine"
+						country="c:TTN"
+						levels=1
+						region="STATE_ANTIOQUIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_barracks"
@@ -987,6 +1025,20 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					country={
+						type="building_tooling_workshops"
+						country="c:LMC"
+						levels=1
+						region="STATE_LIMA"
+					}
+				}
+				reserves=1
+				subsidized = yes
+				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled" }
 			}		
 			create_building={
 				building="building_construction_sector"
@@ -1009,8 +1061,22 @@
 						region="STATE_LIMA"
 					}
 				}
+				
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						type="building_iron_mine"
+						country="c:LMC"
+						levels=1
+						region="STATE_LIMA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}				
 			create_building={
 				building="building_maize_farm"
@@ -1050,6 +1116,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						type="building_logging_camp"
+						country="c:LMC"
+						levels=1
+						region="STATE_LIMA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1151,7 +1230,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1465,7 +1544,21 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
-			}	
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					country={
+						type="building_tooling_workshops"
+						country="c:QSU"
+						levels=1
+						region="STATE_SANTIAGO"
+					}
+				}
+				reserves=1
+				subsidized = yes
+				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled" }
+			}		
 			create_building={
 				building="building_gold_mine"
 				add_ownership={
@@ -1496,7 +1589,7 @@
 				building="building_wheat_farm"
 				add_ownership={
 					country={
-						type="building_wheat_farm""
+						type="building_wheat_farm"
 						country="c:QSU"
 						levels=3
 						region="STATE_SANTIAGO"
@@ -1517,6 +1610,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						type="building_logging_camp"
+						country="c:QSU"
+						levels=1
+						region="STATE_ICA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_port"
