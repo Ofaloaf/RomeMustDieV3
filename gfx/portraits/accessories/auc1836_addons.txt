@@ -284,3 +284,12 @@ f_cloaks_sec_fp4_western_era3_nob_01 = {
 f_cloaks_sec_fp4_western_era3_nob_02 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "f_cloaks_sec_fp4_western_era3_nob_02_entity" }	
 }
+
+
+###########
+## PROPS ##
+###########
+
+prop_ep2_crossbow_01 = {
+	entity = { required_tags = ""					node = "bn_r_prop"		entity = "ep2_crossbow_01_entity" }	
+}

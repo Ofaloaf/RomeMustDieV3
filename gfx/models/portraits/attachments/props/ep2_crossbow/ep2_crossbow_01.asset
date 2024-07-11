@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "ep2_crossbow_01_mesh"
+	file = "ep2_crossbow_01.mesh"
+
+	meshsettings = {
+		name = "ep2_crossbow_01Shape"
+		index = 0
+		texture_diffuse = "ep2_crossbow_01_a_diffuse.dds"
+		texture_normal = "ep2_crossbow_01_a_normal.dds"
+		texture_specular = "ep2_crossbow_01_a_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "ep2_crossbow_01_entity"
+	pdxmesh = "ep2_crossbow_01_mesh"
+}

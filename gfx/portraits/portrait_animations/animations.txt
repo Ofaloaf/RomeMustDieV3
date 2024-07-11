@@ -161,7 +161,7 @@ idle = {
 					struggling_pop_trigger = no
 				}
 			}
-			portrait_modifier = { animations_props = rifle_attachment }
+			portrait_modifier = { animations_props = crossbow_attachment }
 		}
 
 		pitchfork_pop_idle = {
@@ -469,7 +469,7 @@ idle = {
 					struggling_pop_trigger = yes
 				}
 			}
-			portrait_modifier = { animations_props = rifle_attachment }
+			portrait_modifier = { animations_props = crossbow_attachment }
 		}
 
 		pitchfork_pop_idle_struggle = {
