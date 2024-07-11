@@ -17,9 +17,10 @@
   attila_evts.2.f: "He looked out over the throngs pouring into Aquincum's central square. They were here for #italic him#!. They would always be there for him.\n\nThey were #N his#!, now and forevermore."
   attila_evts.2.a: "Long live Attila, by the grace of God, Lord of the Huns!"
 
-# "Language Reform?"
-# "Radical intellectuals, recognizing that the language of Ovid and Cicero is not actually the language Romans actually speak anymore, have proposed a reformed Standard Latin which would be nearly incomprehensible to Caesar."
-# ""'Venni, vidi, vinsi'?" The elderly senator slapped the writing sample with the back of his hand. "Durans, what is this nonsense?"\n\nDurante sighed. "It's 'Veni, Vidi, Vici.' Caesar's famous line. You just said it out loud the same way you'd say it if it was written the classical way."\n\nThe old man's frown deepened. "Well, then why not keep writing it that way?"\n\n"Because it doesn't make sense! Half the letters don't match the sounds anyone uses anymore. If Latin is to remain the world's language, then it has to actually work!""
-# "The foundations of Romanitas are dignity and tradition, and this has neither!"
-# "The strength of Rome rests on our ability to change with the times."
-# "Are our standards falling so low? Tell teachers to focus on the classics!"
+  fall_of_rome_events.1.t: "Language Reform?"
+  fall_of_rome_events.1.d: "Radical intellectuals, recognizing that the language of Ovid and Cicero is not actually the language Romans actually speak anymore, have proposed a reformed Standard Latin which would be nearly incomprehensible to Caesar."
+  fall_of_rome_events.1.f: ""'Venni, vidi, vinsi'?" The elderly senator slapped the writing sample with the back of his hand. "Publius, what is this nonsense?"\n\nPublio sighed. "It's 'Veni, Vidi, Vici.' Caesar's famous line. You just said it out loud the same way you'd say it if it was written the classical way."\n\nThe old man's frown deepened. "Well, then why not keep writing it that way?"\n\n"Because it doesn't make sense! Half the letters don't match the sounds anyone uses anymore. If Latin is to remain the world's language, then it has to actually work!""
+  fall_of_rome_events.1.a: "The foundations of Romanitas are dignity and tradition, and this has neither!"
+  fall_of_rome_events.1.b: "The strength of Rome rests on our ability to change with the times."
+  fall_of_rome_events.1.c: "Are our standards falling so low? Tell teachers to focus on the classics!"
+  

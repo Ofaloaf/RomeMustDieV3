@@ -125,6 +125,13 @@
 		}
 	}
 
+	on_yearly_pulse = {
+		random_events = {
+			70 = 0
+			30 = fall_of_rome_events.1 # Language Reform?
+		}
+	}
+
 	weight = 10000
 	should_be_pinned_by_default = yes
 }
