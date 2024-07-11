@@ -14,6 +14,8 @@
 
 ERE = { # Eastern Roman Empire/Rhomania
 	color = { 147  82  173 }
+
+	valid_as_home_country_for_separatists = { always = no } # root = country to separate from
 	
 	country_type = recognized
 
@@ -83,6 +85,18 @@ GTH = { # Gothia
 	capital = STATE_LANGUEDOC
 }
 
+BGN = { # Burgundia
+	color = { 148 30 70 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { burgundian }
+
+	capital = STATE_WEST_SWITZERLAND
+}
+
 BTC = { # Baetica
 	color = { 248 206 192 }
 	
@@ -127,6 +141,9 @@ BDL = { # Bardulia
 	capital = STATE_CASTILE
 }
 
+### BRITANNIA ###
+#################
+
 GBI = { # Britannia
 	color = hsv{ 0.99  0.7  0.9 }
 
@@ -137,48 +154,6 @@ GBI = { # Britannia
 	cultures = { brithenig }
 	capital = STATE_HOME_COUNTIES
 }
-
-##################
-
-BGN = { # Burgundia
-	color = { 148 30 70 }
-
-	country_type = recognized
-
-	tier = principality
-
-	cultures = { burgundian }
-
-	capital = STATE_WEST_SWITZERLAND
-}
-
-
-RGL = {
-	color = { 151 141 111 }
-	
-	country_type = recognized
-	
-	tier = kingdom
-	
-	cultures = { suebian }
-	
-	capital = STATE_AUSTRIA
-}
-
-ALM = {
-	color = { 222 197 14 }
-	
-	country_type = recognized
-	
-	tier = kingdom
-	
-	cultures = { alemannic }
-	
-	capital = STATE_BADEN
-}
-
-### BRITANNIA ###
-#################
 
 PGN = { # Ill Paes / Pagensis / Powys
 	color = { 211 220 240 }
@@ -312,7 +287,7 @@ CNT = { # Ceint
 	capital = STATE_HOME_COUNTIES
 }
 
-MCP = { # MCP
+MCP = { # Mincip
 	color = { 191 43 80 }
 	
 	country_type = recognized
@@ -324,7 +299,7 @@ MCP = { # MCP
 	capital = STATE_HOME_COUNTIES
 }
 
-ECH = { # Echen
+ECH = { # Echen/Icenia
 	color = { 134 148 133 }
 	
 	country_type = recognized
@@ -360,9 +335,34 @@ CGL = { # Cair Gloui
 	capital = STATE_WEST_COUNTRY
 }
 
-###
+#### GERMANIA ####
+##################
 
-FRK = {
+RGL = { # Langobardia
+	color = { 151 141 111 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { suebian }
+	
+	capital = STATE_AUSTRIA
+}
+
+ALM = { # Alemannia
+	color = { 222 197 14 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { alemannic }
+	
+	capital = STATE_BADEN
+}
+
+FRK = { # Frankia
 	color = { 78 101 143 } #{ 95 125 160 }
 	
 	country_type = recognized
@@ -374,7 +374,7 @@ FRK = {
 	capital = STATE_NORTH_RHINE
 }
 
-SXN = {
+SXN = { # Saxonia
 	color = { 155  147  180 }
 	
 	country_type = recognized
@@ -385,6 +385,10 @@ SXN = {
 	
 	capital = STATE_HANNOVER
 }
+
+##################
+
+
 
 POW = { # Prefecture of the West
 	color = { 141 82 100 }
