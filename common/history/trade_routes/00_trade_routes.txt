@@ -115,4 +115,14 @@ TRADE_ROUTES = {
 			target = c:CHO.market
 		}
     }
+
+	# Kitu
+	c:QTO ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:QSU.market
+		}
+    }
 }
