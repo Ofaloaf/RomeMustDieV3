@@ -504,3 +504,182 @@ fall_of_rome_events.100 = { #Split china up into warlord states
 		}
 	}
 }
+
+fall_of_rome_events.1 = { # Language Reform?
+	type = country_event
+	placement = root
+	duration = 3
+
+	title = fall_of_rome_events.1.t
+	desc = fall_of_rome_events.1.d
+	flavor = fall_of_rome_events.1.f
+
+	event_image = {
+		video = "southamerica_aristocrats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+
+	trigger = {
+		NOT = { has_variable = roman_language_debate }
+		is_at_war = no
+		ig:ig_intelligentsia = { 
+			ig_clout >= 0.15 # The Intelligentsia does not need to be in government, there just have to be enough loud nerds around
+			leader = { NOT = { has_ideology = ideology:ideology_traditionalist } }
+		}
+	}
+
+	immediate = {
+		set_variable = roman_language_debate
+	}
+
+	option = {
+		default_option = yes
+		name = fall_of_rome_events.1.a
+
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_intelligentsia
+
+					AND = {	# Book-smart leaders who aren't reactionary also have an opinion on language reform
+						NOT = { is_interest_group_type = ig_landowners }
+						leader = {
+							AND = {
+								NOT = { has_ideology = ideology:ideology_traditionalist }
+								OR = {
+									has_trait = erudite
+									has_ideology = ideology:ideology_reformer
+								}
+							}
+						}
+					}
+				}
+			}
+			add_modifier = {
+				name = rejecting_the_new
+				months = long_modifier_time
+			}
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_landowners
+
+					AND = {	# Reactionaries have an opinion on language reform
+						NOT = { is_interest_group_type = ig_intelligentsia }
+						leader = {
+							has_ideology = ideology:ideology_traditionalist
+						}
+					}
+				}
+			}
+			add_modifier = {
+				name = embracing_the_old
+				months = long_modifier_time
+			}		
+		}
+		add_modifier = {
+			name = promoting_classical_latin
+			months = very_long_modifier_time
+		}
+	}
+
+	option = {
+		name = fall_of_rome_events.1.b
+
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_intelligentsia
+
+					AND = {	# Book-smart leaders who aren't reactionary also have an opinion on language reform
+						NOT = { is_interest_group_type = ig_landowners }
+						leader = {
+							AND = {
+								NOT = { has_ideology = ideology:ideology_traditionalist }
+								OR = {
+									has_trait = erudite
+									has_ideology = ideology:ideology_reformer
+								}
+							}
+						}
+					}
+				}
+			}
+			add_modifier = {
+				name = embracing_the_new
+				months = long_modifier_time
+			}
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_landowners
+
+					AND = {	# Reactionaries have an opinion on language reform
+						NOT = { is_interest_group_type = ig_intelligentsia }
+						leader = {
+							has_ideology = ideology:ideology_traditionalist
+						}
+					}
+				}
+			}
+			add_modifier = {
+				name = rejecting_the_old
+				months = long_modifier_time
+			}		
+		}
+		add_modifier = {
+			name = promoting_the_vulgar_tongue
+			months = very_long_modifier_time
+		}
+	}
+
+	option = {
+		name = fall_of_rome_events.1.c
+		highlighted_option = yes
+
+		trigger = {
+			institution_investment_level = {
+				institution = institution_schools
+				value > 1
+			}
+		}
+
+		every_interest_group = {
+			limit = {
+				leader = {
+					NOT = { has_ideology = ideology:ideology_positivist }
+					OR = {
+						has_ideology = ideology:ideology_traditionalist
+						has_trait = erudite
+					}
+				}
+			}
+			add_modifier = {
+				name = classicist_enthusiasm
+				months = long_modifier_time
+			}
+		}
+
+		every_interest_group = {	# STEMlords angry about liberal arts funding
+			limit = {
+				leader = {
+					has_ideology = ideology:ideology_positivist
+				}
+			}
+			add_modifier = {
+				name = overemphasis_on_liberal_arts
+				months = long_modifier_time
+			}
+		}
+
+		add_modifier = {
+			name = classical_coursework
+			months = very_long_modifier_time
+		}
+	}
+}

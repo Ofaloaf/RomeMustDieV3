@@ -1,0 +1,54 @@
+﻿hunnic_unrest = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	country_radicals_from_legitimacy_mult = 1
+	country_loyalists_from_legitimacy_mult = -0.50
+	country_legitimacy_ideological_incoherence_mult = 0.25
+	political_movement_radicalism_mult = 0.25
+}
+
+rejecting_the_new = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	interest_group_approval_add = -2
+}
+
+embracing_the_old = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	interest_group_approval_add = 2
+}
+
+embracing_the_new = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	interest_group_approval_add = 2
+}
+
+rejecting_the_old = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	interest_group_approval_add = -2
+}
+
+promoting_classical_latin = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_prestige_mult = 0.1
+}
+
+promoting_the_vulgar_tongue = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_education_access_add = 0.1
+}
+
+classicist_enthusiasm = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	interest_group_approval_add = 2
+}
+
+overemphasis_on_liberal_arts = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	interest_group_approval_add = -2
+}
+
+classical_coursework = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_education_access_add = 0.05
+	country_society_tech_research_speed_mult = -0.025
+	country_prestige_mult = 0.05
+}
