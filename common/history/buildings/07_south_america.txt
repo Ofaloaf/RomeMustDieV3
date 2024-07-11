@@ -11,11 +11,11 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
-			}		
+			}
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					country={
+					building={
 						type="building_fishing_wharf"
 						country="c:QTO"
 						levels=1
@@ -28,7 +28,7 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_maize_farm"
 						country="c:QTO"
 						levels=2
@@ -389,7 +389,7 @@
 			create_building={
 				building="building_fishing_wharf"	
 				add_ownership={
-					country={
+					building={
 						type="building_fishing_wharf"
 						country="c:TTN"
 						levels=1
@@ -441,7 +441,7 @@
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
-					country={
+					building={
 						type="building_iron_mine"
 						country="c:TTN"
 						levels=1
@@ -556,7 +556,7 @@
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					country={
+					building={
 						type="building_textile_mills"
 						country="c:MUI"
 						levels=1
@@ -595,7 +595,7 @@
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_rice_farm"
 						country="c:MUI"
 						levels=2
@@ -619,7 +619,7 @@
 			create_building={
 				building="building_furniture_manufacturies"
 				add_ownership={
-					country={
+					building={
 						type="building_furniture_manufacturies"
 						country="c:MUI"
 						levels=2
@@ -632,7 +632,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:MUI"
 						levels=1
@@ -676,7 +676,7 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_maize_farm"
 						country="c:QTO"
 						levels=2
@@ -708,7 +708,7 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					country={
+					building={
 						type="building_livestock_ranch"
 						country="c:QSU"
 						levels=1
@@ -725,7 +725,7 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					country={
+					building={
 						type="building_fishing_wharf"
 						country="c:QSU"
 						levels=1
@@ -768,7 +768,7 @@
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					country={
+					building={
 						type="building_tooling_workshops"
 						country="c:TWK"
 						levels=1
@@ -782,7 +782,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:TWK"
 						levels=1
@@ -795,7 +795,7 @@
 			create_building={
 				building="building_gold_mine"
 				add_ownership={
-					country={
+					building={
 						type="building_gold_mine"
 						country="c:TWK"
 						levels=3
@@ -808,7 +808,7 @@
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_rice_farm"
 						country="c:TWK"
 						levels=1
@@ -821,7 +821,7 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					country={
+					building={
 						type="building_livestock_ranch"
 						country="c:TWK"
 						levels=2
@@ -886,7 +886,7 @@
 			create_building={
 				building="building_gold_mine"
 				add_ownership={
-					country={
+					building={
 						type="building_gold_mine"
 						country="c:QTO"
 						levels=3
@@ -899,7 +899,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:QTO"
 						levels=1
@@ -912,7 +912,7 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					country={
+					building={
 						type="building_livestock_ranch"
 						country="c:QTO"
 						levels=1
@@ -951,7 +951,7 @@
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					country={
+					building={
 						type="building_textile_mills"
 						country="c:QTO"
 						levels=1
@@ -964,7 +964,7 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					country={
+					building={
 						type="building_livestock_ranch"
 						country="c:QTO"
 						levels=1
@@ -1016,7 +1016,7 @@
 			create_building={
 				building="building_furniture_manufacturies"
 				add_ownership={
-					country={
+					building={
 						type="building_furniture_manufacturies"
 						country="c:LMC"
 						levels=1
@@ -1029,7 +1029,7 @@
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					country={
+					building={
 						type="building_tooling_workshops"
 						country="c:LMC"
 						levels=1
@@ -1054,7 +1054,7 @@
 			create_building={
 				building="building_gold_mine"
 				add_ownership={
-					country={
+					building={
 						type="building_gold_mine"
 						country="c:LMC"
 						levels=4
@@ -1068,7 +1068,7 @@
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
-					country={
+					building={
 						type="building_iron_mine"
 						country="c:LMC"
 						levels=1
@@ -1081,7 +1081,7 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_maize_farm"
 						country="c:LMC"
 						levels=3
@@ -1094,7 +1094,7 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					country={
+					building={
 						type="building_fishing_wharf"
 						country="c:LMC"
 						levels=1
@@ -1120,7 +1120,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:LMC"
 						levels=1
@@ -1183,7 +1183,7 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					country={
+					building={
 						type="building_livestock_ranch"
 						country="c:QSU"
 						levels=2
@@ -1196,7 +1196,7 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_maize_farm"
 						country="c:QSU"
 						levels=2
@@ -1222,7 +1222,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:QSU"
 						levels=1
@@ -1245,6 +1245,12 @@
 			}
 			create_building={
 				building= "building_machu_picchu"
+				add_ownership={
+					country={
+						country="c:QSU"
+						levels=1
+					}
+				}
 			}
 		}
 	}
@@ -1253,7 +1259,7 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					country={
+					building={
 						type="building_livestock_ranch"
 						country="c:QSU"
 						levels=1
@@ -1344,7 +1350,7 @@
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					country={
+					building={
 						type="building_tooling_workshops"
 						country="c:PRG"
 						levels=2
@@ -1358,7 +1364,7 @@
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
-					country={
+					building={
 						type="building_iron_mine"
 						country="c:PRG"
 						levels=2
@@ -1371,7 +1377,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:PRG"
 						levels=2
@@ -1384,7 +1390,7 @@
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_rice_farm"
 						country="c:PRG"
 						levels=1
@@ -1397,7 +1403,7 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					country={
+					building={
 						type="building_livestock_ranch"
 						country="c:PRG"
 						levels=1
@@ -1486,7 +1492,7 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_maize_farm"
 						country="c:PRG"
 						levels=1
@@ -1499,7 +1505,7 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					country={
+					building={
 						type="building_livestock_ranch"
 						country="c:PRG"
 						levels=2
@@ -1548,7 +1554,7 @@
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
-					country={
+					building={
 						type="building_tooling_workshops"
 						country="c:QSU"
 						levels=1
@@ -1562,7 +1568,7 @@
 			create_building={
 				building="building_gold_mine"
 				add_ownership={
-					country={
+					building={
 						type="building_gold_mine"
 						country="c:QSU"
 						levels=2
@@ -1575,7 +1581,7 @@
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
-					country={
+					building={
 						type="building_iron_mine"
 						country="c:QSU"
 						levels=1
@@ -1588,7 +1594,7 @@
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_wheat_farm"
 						country="c:QSU"
 						levels=3
@@ -1601,7 +1607,7 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					country={
+					building={
 						type="building_livestock_ranch"
 						country="c:QSU"
 						levels=2
@@ -1614,7 +1620,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:QSU"
 						levels=1
@@ -1689,7 +1695,7 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_maize_farm"
 						country="c:CYI"
 						levels=1
@@ -1708,7 +1714,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:PRG"
 						levels=1
@@ -1727,7 +1733,7 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					country={
+					building={
 						type="building_livestock_ranch"
 						country="c:TPE"
 						levels=2
@@ -1766,9 +1772,9 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
-						country="c:TPE"
+						country="c:GYR"
 						levels=1
 						region="STATE_PARANA"
 					}
@@ -1779,9 +1785,9 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_maize_farm"
-						country="c:TPE"
+						country="c:GYR"
 						levels=1
 						region="STATE_PARANA"
 					}
@@ -1822,11 +1828,11 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:KNG"
 						levels=1
-						region="SANTA_CATARINA
+						region="STATE_SANTA_CATARINA"
 					}
 				}
 				reserves=1
@@ -1835,11 +1841,11 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					country={
+					building={
 						type="building_livestock_ranch"
 						country="c:KNG"
 						levels=1
-						region="SANTA_CATARINA
+						region="STATE_SANTA_CATARINA"
 					}
 				}
 				reserves=1
@@ -1889,7 +1895,7 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
-					country={
+					building={
 						type="building_livestock_ranch"
 						country="c:PAU"
 						levels=2
@@ -1902,7 +1908,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:PAU"
 						levels=3
@@ -1949,9 +1955,48 @@
 				activate_production_methods={ "pm_horizontal_drawer_cabinets"  }
 			}
 			create_building={
-				building="building_shipyards"
+				building="building_paper_mills"
+				add_ownership={
+					building={
+						type="building_paper_mills"
+						country="c:ULP"
+						levels=1
+						region="STATE_BAHIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing"  }
+			}
+			create_building={
+				building="building_arms_industry"
 				add_ownership={
 					country={
+						country="c:ULP"
+						levels=1
+					}
+				}
+				reserves=1
+				subsidized = yes
+				activate_production_methods={ "pm_muskets" }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_tooling_workshops"
+						country="c:ULP"
+						levels=1
+						region="STATE_BAHIA"
+					}
+				}
+				reserves=1
+				subsidized = yes
+				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled" }
+			}
+			create_building={
+				building="building_shipyards"
+				add_ownership={
+					building={
 						type="building_shipyards"
 						country="c:ULP"
 						levels=1
@@ -1977,7 +2022,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:ULP
+						country="c:ULP"
 						levels=6
 						region="STATE_BAHIA"
 					}
@@ -1990,7 +2035,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:ULP
+						country="c:ULP"
 						levels=1
 						region="STATE_BAHIA"
 					}
@@ -2001,7 +2046,7 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_maize_farm"
 						country="c:ULP"
 						levels=1
@@ -2014,10 +2059,10 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:ULP"
-						levels=4
+						levels=1
 						region="STATE_BAHIA"
 					}
 				}
@@ -2025,9 +2070,22 @@
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_iron_mine"
+						country="c:ULP"
+						levels=1
+						region="STATE_BAHIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					country={
+					building={
 						type="building_fishing_wharf"
 						country="c:ULP"
 						levels=2
@@ -2055,7 +2113,7 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_maize_farm"
 						country="c:ULP"
 						levels=1
@@ -2068,7 +2126,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:ULP"
 						levels=1
@@ -2076,12 +2134,12 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					country={
+					building={
 						type="building_fishing_wharf"
 						country="c:ULP"
 						levels=1
@@ -2111,7 +2169,7 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_maize_farm"
 						country="c:ULP"
 						levels=1
@@ -2124,7 +2182,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:ULP"
 						levels=2
@@ -2137,7 +2195,7 @@
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
-					country={
+					building={
 						type="building_fishing_wharf"
 						country="c:ULP"
 						levels=1
@@ -2154,11 +2212,11 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_maize_farm"
 						country="c:ULP"
 						levels=1
-						region="STATE_PIAUI
+						region="STATE_PIAUI"
 					}
 				}
 				reserves=1
@@ -2167,7 +2225,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:ULP"
 						levels=1
@@ -2184,7 +2242,7 @@
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					country={
+					building={
 						type="building_textile_mills"
 						country="c:ULP"
 						levels=1
@@ -2210,7 +2268,7 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_maize_farm"
 						country="c:ULP"
 						levels=2
@@ -2249,7 +2307,7 @@
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
-					country={
+					building={
 						type="building_textile_mills"
 						country="c:ULP"
 						levels=3
@@ -2288,7 +2346,7 @@
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
-					country={
+					building={
 						type="building_maize_farm"
 						country="c:ULP"
 						levels=3
@@ -2327,7 +2385,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:ULP"
 						levels=1
@@ -2376,7 +2434,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
-					country={
+					building={
 						type="building_logging_camp"
 						country="c:MTB"
 						levels=1

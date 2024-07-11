@@ -204,6 +204,48 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Ulpiana
+	c:ULP ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = export
+			target = c:GIA.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = export
+			target = c:TPE.market
+		}
+    }
+
+	# Guayra
+	c:GYR ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:PRG.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:PRG.market
+		}
+    }
+
+	# Paulopolitania
+	c:PAU ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:ULP.market
+		}
+    }
+
 
 
 
