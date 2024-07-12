@@ -236,15 +236,26 @@ TRADE_ROUTES = {
 		}
     }
 
-	# Paulopolitania
-	c:PAU ?= {	
+	# Kaingang Confederacy
+	c:KGG ?= {	
 		create_trade_route = {
-			goods = tools
+			goods = small_arms
 			level = 1
 			direction = import
-			target = c:ULP.market
+			target = c:PRG.market
 		}
     }
+
+	# Tape
+	c:TPE ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:PRG.market
+		}
+    }
+
 
 
 
