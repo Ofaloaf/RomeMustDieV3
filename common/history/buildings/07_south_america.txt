@@ -1824,7 +1824,7 @@
 		}
 	}
 	s:STATE_SANTA_CATARINA={
-		region_state:KNG={
+		region_state:KGG={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
