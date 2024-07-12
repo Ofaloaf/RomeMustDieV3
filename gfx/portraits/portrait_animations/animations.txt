@@ -150,7 +150,7 @@ idle = {
 		}
 
 		rifle_pop_idle = {
-			animation = { head = "idle_head_pop_holyscripture" torso = "idle_body_rifle" }
+			animation = { head = "idle_head_struggle_pop_pitchfork" torso = "idle_body_crossbow" }
 
 			weight = {
 				base = 0
@@ -458,7 +458,7 @@ idle = {
 		}
 
 		rifle_pop_idle_struggle = {
-			animation = { head = "idle_head_struggle_pop_pitchfork" torso = "idle_body_struggle_rifle" }
+			animation = { head = "idle_head_struggle_pop_umbrella" torso = "idle_body_struggle_crossbow" }
 
 			weight = {
 				base = 0

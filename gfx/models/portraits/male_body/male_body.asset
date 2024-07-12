@@ -61,7 +61,9 @@ pdxmesh = {
 	
 	animation = { id = "body_umbrella"						type = "male_body_umbrella_idle.anim" }
 	
-	animation = { id = "body_rifle"							type = "male_body_crossbow_aim_loop.anim" }
+	animation = { id = "body_rifle"							type = "male_body_rifle_idle.anim" }
+	
+	animation = { id = "body_crossbow"						type = "male_body_crossbow_aim_loop.anim" }
 	
 	animation = { id = "body_parasol"						type = "male_body_parasol_idle.anim" }	
 	
@@ -111,7 +113,9 @@ pdxmesh = {
 	
 	animation = { id = "body_struggle_umbrella"						type = "male_body_struggle_umbrella_idle.anim" }
 	
-	animation = { id = "body_struggle_rifle"							type = "male_body_crossbow_aim_down_loop.anim" }
+	animation = { id = "body_struggle_rifle"						type = "male_body_struggle_rifle_idle.anim" }
+
+	animation = { id = "body_struggle_crossbow"						type = "male_body_crossbow_aim_down_loop.anim" }
 	
 	animation = { id = "body_struggle_parasol"						type = "male_body_struggle_parasol_idle.anim" }	
 	
@@ -297,6 +301,8 @@ entity = {
 	state = {	name = "idle_body_umbrella"					animation = "body_umbrella" chance = 10 looping = yes  }
 	
 	state = {	name = "idle_body_rifle"					animation = "body_rifle" chance = 10 looping = yes  }		
+	
+	state = {	name = "idle_body_crossbow"					animation = "body_crossbow" chance = 10 looping = yes  }		
 
 	state = {	name = "idle_body_parasol"					animation = "body_parasol" chance = 10 looping = yes  }	
 	
@@ -348,6 +354,8 @@ entity = {
 	state = {	name = "idle_body_struggle_umbrella"				animation = "body_struggle_umbrella" chance = 10 looping = yes  }
 	
 	state = {	name = "idle_body_struggle_rifle"					animation = "body_struggle_rifle" chance = 10 looping = yes  }		
+	
+	state = {	name = "idle_body_struggle_crossbow"				animation = "body_struggle_crossbow" chance = 10 looping = yes  }		
 
 	state = {	name = "idle_body_struggle_parasol"					animation = "body_struggle_parasol" chance = 10 looping = yes  }	
 	
