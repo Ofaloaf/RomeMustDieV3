@@ -3,8 +3,14 @@
   c:IGS ?= {
 		add_declared_interest = region_south_china
 	}
+
   # Chola Empire
   c:CHO ?= {
 		add_declared_interest = region_senegal
+	}
+
+  # tirtanel
+  c:TTN ?= {
+		add_declared_interest = region_andes
 	}
 }
