@@ -377,6 +377,10 @@
   NIC_ADJ: "Nicanahuacan"
   BWH: "Bawihka"
   BWH_ADJ: "Bawihka"
+  SLT: "Tanah Selatan"
+  SLT_ADJ: "Selatan"
+  KNY: "Persekutuan Kunanyi"
+  KNY_ADJ: "Kunanyi"
   #
   dyn_c_western_roman_empire: "Western Roman Empire"
   dyn_c_western_roman_empire_adj: "Roman"
@@ -426,3 +430,5 @@
   dyn_c_rasiya_adj: "Rasiyan"
   dyn_c_alliance_of_altepemeh: "Alliance of Altepemeh"
   dyn_c_alliance_of_altepemeh_adj: "Altepetl"
+  dyn_c_negeri_negeri_selatan: "Negeri-Negeri Selatan"
+  dyn_c_negeri_negeri_selatan_adj: "Selatan"

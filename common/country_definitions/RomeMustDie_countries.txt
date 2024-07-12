@@ -1708,3 +1708,25 @@ BWH = { # Bawihka
 	cultures = { muisca }
 	capital = STATE_NICARAGUA
 }
+
+SLT = { # Selatan
+	color = { 77  139  106 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	capital = STATE_NEW_SOUTH_WALES
+	cultures = { selatanic }
+}
+
+KNY = { # Kunanyi
+	color = { 224 194 152 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	capital = STATE_TASMANIA
+	cultures = { selatanic }
+}
