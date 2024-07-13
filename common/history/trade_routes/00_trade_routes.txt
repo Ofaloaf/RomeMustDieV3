@@ -286,6 +286,22 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Haiti
+	c:HAI ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:MEX.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = export
+			target = c:MEX.market
+		}
+    }
+
 
 
 
