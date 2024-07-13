@@ -256,7 +256,35 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Necoc Iauh
+	c:NCC ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:TTN.market
+		}
+    }
 
+	# Bawihka
+	c:BWH ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:TTN.market
+		}
+    }
+
+	# Nicanahuac
+	c:NIC ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:MEX.market
+		}
+    }
 
 
 
