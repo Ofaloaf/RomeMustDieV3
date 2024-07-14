@@ -50,13 +50,6 @@
 		}
 	}
 	
-	c:MEX = {
-		create_diplomatic_pact = {
-			country = c:TLX
-			type = puppet
-		}
-	}
-	
 	c:JAP = {
 		create_diplomatic_pact = {
 			country = c:MTS # Matsumae Dominion
