@@ -570,7 +570,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c: BRK"
+						country="c:BRK"
 						levels=1
 					}
 				}
