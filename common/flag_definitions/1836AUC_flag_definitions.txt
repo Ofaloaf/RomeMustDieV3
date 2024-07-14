@@ -274,3 +274,19 @@ MAL = { # Mali
 		}
 	}	
 }
+
+SLT = { # Selatan
+	flag_definition = {
+		coa = SLT
+		subject_canton = SLT
+		priority = 1
+	}
+}
+
+YLN = { # Yolngu
+	flag_definition = {
+		coa = YLN
+		subject_canton = YLN
+		priority = 1
+	}
+}

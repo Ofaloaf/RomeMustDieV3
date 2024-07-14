@@ -3,11 +3,53 @@
 		region_state:SLT = {
 			create_pop = {
 				culture = aborigine
-				size = 79280
+				size = 17900
 			}
 			create_pop = {
 				culture = selatanic
-				size = 101384
+				size = 152179
+			}
+		}
+		region_state:I05 = {
+			create_pop = {
+				culture = aborigine
+				size = 41921
+			}
+		}
+		region_state:I06 = {
+			create_pop = {
+				culture = aborigine
+				size = 3200
+			}
+		}
+		region_state:I07 = {
+			create_pop = {
+				culture = aborigine
+				size = 4095
+			}
+		}
+		region_state:I08 = {
+			create_pop = {
+				culture = aborigine
+				size = 1090
+			}
+		}
+		region_state:I09 = {
+			create_pop = {
+				culture = aborigine
+				size = 1431
+			}
+		}
+		region_state:I10 = {
+			create_pop = {
+				culture = aborigine
+				size = 1080
+			}
+		}
+		region_state:I11 = {
+			create_pop = {
+				culture = aborigine
+				size = 2041
 			}
 		}
 	}
@@ -15,11 +57,17 @@
 		region_state:SLT = {
 			create_pop = {
 				culture = aborigine
-				size = 31118
+				size = 49261
 			}
 			create_pop = {
 				culture = selatanic
-				size = 24676
+				size = 55824
+			}
+		}
+		region_state:I07 = {
+			create_pop = {
+				culture = aborigine
+				size = 2657
 			}
 		}
 	}
@@ -32,7 +80,7 @@
 			}
 			create_pop = {
 				culture = selatanic
-				size = 11319
+				size = 28319
 			}
 		}
 	}
@@ -40,10 +88,76 @@
 		region_state:SLT = {
 			create_pop = {
 				culture = aborigine
-				size = 59200
+				size = 3746
 			}
 			create_pop = {
 				culture = selatanic
+				size = 19052
+			}
+		}
+		region_state:I12 = {
+			create_pop = {
+				culture = aborigine
+				size = 11250
+			}
+		}
+		region_state:I13 = {
+			create_pop = {
+				culture = aborigine
+				size = 2700
+			}
+		}
+		region_state:I14 = {
+			create_pop = {
+				culture = aborigine
+				size = 11400
+			}
+		}
+		region_state:I15 = {
+			create_pop = {
+				culture = aborigine
+				size = 3900
+			}
+		}
+		region_state:I09 = {
+			create_pop = {
+				culture = aborigine
+				size = 5004
+			}
+		}
+		region_state:I05 = {
+			create_pop = {
+				culture = aborigine
+				size = 3400
+			}
+		}
+		region_state:I16 = {
+			create_pop = {
+				culture = aborigine
+				size = 3200
+			}
+		}
+		region_state:I17 = {
+			create_pop = {
+				culture = aborigine
+				size = 2100
+			}
+		}
+		region_state:MRR = {
+			create_pop = {
+				culture = aborigine
+				size = 15400
+			}
+		}
+		region_state:I29 = {
+			create_pop = {
+				culture = aborigine
+				size = 2100
+			}
+		}
+		region_state:PPU = {
+			create_pop = {
+				culture = melanesian
 				size = 4000
 			}
 		}
@@ -51,22 +165,54 @@
 	s:STATE_SOUTH_AUSTRALIA = {
 		region_state:SLT = {
 			create_pop = {
-				culture = selatanic
-				size = 10500
-			}		
+				culture = british
+				size = 11703
+			}
 			create_pop = {
 				culture = aborigine
-				size = 22000
+				size = 32000
 			}
 		}
-		region_state:KAU = {
-			create_pop = {
-				culture = australian
-				size = 300
-			}		
+		region_state:I07 = {
 			create_pop = {
 				culture = aborigine
-				size = 51000
+				size = 8609
+			}
+		}
+		region_state:I08 = {
+			create_pop = {
+				culture = aborigine
+				size = 1372
+			}
+		}
+		region_state:I06 = {
+			create_pop = {
+				culture = aborigine
+				size = 5420
+			}
+		}
+		region_state:I09 = {
+			create_pop = {
+				culture = aborigine
+				size = 1512
+			}
+		}
+		region_state:I19 = {
+			create_pop = {
+				culture = aborigine
+				size = 10425
+			}
+		}
+		region_state:MRN = {
+			create_pop = {
+				culture = aborigine
+				size = 1518
+			}
+		}
+		region_state:WTI = {
+			create_pop = {
+				culture = aborigine
+				size = 1505
 			}
 		}
 	}
@@ -74,19 +220,161 @@
 		region_state:SLT = {
 			create_pop = {
 				culture = aborigine
-				size = 68600 # Pops previously allocated to Noongar: 21100.
+				size = 4014
 			}
 			create_pop = {
-				culture = selatanic
-				size = 3004
+				culture = british
+				size = 18485
+			}
+		}
+		region_state:NNG = {
+			create_pop = {
+				culture = aborigine
+				size = 21100
+			}
+		}
+		region_state:MRN = {
+			create_pop = {
+				culture = aborigine
+				size = 4112
+			}
+		}
+		region_state:WTI = {
+			create_pop = {
+				culture = aborigine
+				size = 4044
+			}
+		}
+		region_state:I22 = {
+			create_pop = {
+				culture = aborigine
+				size = 3885
+			}
+		}
+		region_state:I23 = {
+			create_pop = {
+				culture = aborigine
+				size = 3917
+			}
+		}
+		region_state:I24 = {
+			create_pop = {
+				culture = aborigine
+				size = 3981
+			}
+		}
+		region_state:I25 = {
+			create_pop = {
+				culture = aborigine
+				size = 4012
+			}
+		}
+		region_state:I26 = {
+			create_pop = {
+				culture = aborigine
+				size = 3893
+			}
+		}
+		region_state:I39 = {
+			create_pop = {
+				culture = aborigine
+				size = 3892
+			}
+		}
+		region_state:I40 = {
+			create_pop = {
+				culture = aborigine
+				size = 3896
+			}
+		}
+		region_state:I41 = {
+			create_pop = {
+				culture = aborigine
+				size = 4000
+			}
+		}
+		region_state:I42 = {
+			create_pop = {
+				culture = aborigine
+				size = 3854
 			}
 		}
 	}
 	s:STATE_NORTHERN_TERRITORY = {
+		region_state:I09 = {
+			create_pop = {
+				culture = aborigine
+				size = 2192
+			}
+		}
+		region_state:I16 = {
+			create_pop = {
+				culture = aborigine
+				size = 2100
+			}
+		}
+		region_state:I21 = {
+			create_pop = {
+				culture = aborigine
+				size = 2032
+			}
+		}
+		region_state:I26 = {
+			create_pop = {
+				culture = aborigine
+				size = 7051
+			}
+		}
+		region_state:I27 = {
+			create_pop = {
+				culture = aborigine
+				size = 1991
+			}
+		}
+		region_state:I28 = {
+			create_pop = {
+				culture = aborigine
+				size = 2116
+			}
+		}
+		region_state:I29 = {
+			create_pop = {
+				culture = aborigine
+				size = 2289
+			}
+		}
+		region_state:I30 = {
+			create_pop = {
+				culture = aborigine
+				size = 2220
+			}
+		}
+		region_state:YLN = {
+			create_pop = {
+				culture = aborigine
+				size = 6451
+			}
+		}
+		region_state:I33 = {
+			create_pop = {
+				culture = aborigine
+				size = 2225
+			}
+		}
+		region_state:I34 = {
+			create_pop = {
+				culture = aborigine
+				size = 2116
+			}
+		}
 		region_state:SLT = {
 			create_pop = {
 				culture = aborigine
-				size = 31804
+				size = 6121
+			}
+			create_pop = {
+				culture = selatanic
+				size = 6000
 			}
 		}
 	}
