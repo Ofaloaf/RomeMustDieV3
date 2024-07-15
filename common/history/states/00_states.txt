@@ -1428,7 +1428,7 @@ STATES = {
 		add_homeland = cu:aborigine
 		add_claim = c:SLT
 	}
-	s:STATE_VICTORIA = {
+	s:STATE_VICTORIA = { # Tenggara, Malay word for 'Southeast'
 		create_state = {
 			country = c:SLT
 			owned_provinces = {
@@ -1447,7 +1447,7 @@ STATES = {
 		add_homeland = cu:aborigine
 		add_claim = c:SLT
 	}
-	s:STATE_TASMANIA = {
+	s:STATE_TASMANIA = { # Lutruwita
 		create_state = {
 			country = c:KNY
 			owned_provinces = {
@@ -2905,7 +2905,7 @@ STATES = {
 		add_homeland = cu:guarani
 		add_homeland = cu:quechua
 	}
-	s:STATE_LA_PAZ = {
+	s:STATE_LA_PAZ = { # Umasuyu
 		create_state = {
 			country = c:TWK
 			owned_provinces = {

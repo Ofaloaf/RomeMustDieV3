@@ -871,13 +871,15 @@
  HUB_NAME_STATE_CUBA_city: "Habana"
  HUB_NAME_STATE_CUBA_port: "Caersaroportus" # Santiago de Cuba
  HUB_NAME_STATE_CUBA_mine:0 "Guantanamo"
- HUB_NAME_STATE_CUBA_farm:1 "Puerto Príncipe"
- HUB_NAME_STATE_CUBA_wood:0 "Santa Clara"
- HUB_NAME_STATE_BAHAMAS_city:0 "Congo Town"
- HUB_NAME_STATE_BAHAMAS_port:0 "Nassau"
- HUB_NAME_STATE_BAHAMAS_mine:0 "NAME"
- HUB_NAME_STATE_BAHAMAS_farm:0 "Nicholls Town"
- HUB_NAME_STATE_BAHAMAS_wood:0 "Andros Town"
+ HUB_NAME_STATE_CUBA_farm: "Camagüebacum" # Camagüey/Puerto Príncipe
+ HUB_NAME_STATE_CUBA_wood: "Sancta Clara" # Santa Clara
+ #
+ STATE_BAHAMAS: "Bahamanae"
+ HUB_NAME_STATE_BAHAMAS_city: "Neptunacum" # hell yeah let's name a town after Neptune, because these guys are semi-piratical and even if they're good christians, no mariner can resist some paganism
+ HUB_NAME_STATE_BAHAMAS_port: "Salona" # after the town in Dalmatia (Solin) and ancient capital of the Liburnians
+ HUB_NAME_STATE_BAHAMAS_mine: "Oppidum Libertorum" # Don't think the Bahamas use a mine hub but I wanted to plug in a name anyways
+ HUB_NAME_STATE_BAHAMAS_farm: "Sanctus Clemens" # Clement of Rome is one of several saints named as Patron Saint of Sailors
+ HUB_NAME_STATE_BAHAMAS_wood: "Andreas" # Andros Town
  #
  ### SOUTH AMERICA ###
  #
@@ -976,8 +978,8 @@
  HUB_NAME_STATE_ALGIERS_wood: "Cartennae" # Ténès
  #
  HUB_NAME_STATE_TRIPOLI_city: "Garama"
- HUB_NAME_STATE_TRIPOLI_port:0 "Tripoli"
- HUB_NAME_STATE_TRIPOLI_mine:0 "Gadamis"
+ HUB_NAME_STATE_TRIPOLI_port: "Tripolis" # Tripoli, Libya
+ HUB_NAME_STATE_TRIPOLI_mine: "Cydamus" # Ghadames/Gadamis
  HUB_NAME_STATE_TRIPOLI_farm:0 "Tmassah"
  HUB_NAME_STATE_TRIPOLI_wood:0 "Murzuq"
  #
@@ -1025,3 +1027,7 @@
  HUB_NAME_STATE_SINDH_mine:0 "Mirpur Khas"
  HUB_NAME_STATE_SINDH_farm:0 "Nawabshah"
  HUB_NAME_STATE_SINDH_wood:0 "Sukkur"
+ #
+ ######## AUSTRALASIA ######
+ STATE_TASMANIA: "Lutruwita"
+ STATE_VICTORIA: "Tenggara"
