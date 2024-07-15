@@ -3686,6 +3686,30 @@
 				activate_production_methods={ "pm_wooden_buildings" }
 			}
 			create_building={
+				building="building_arms_industry"
+				add_ownership={
+					country={
+						country="c:MEX"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_muskets" }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_tooling_workshops"
+						country="c:MEX"
+						levels=1
+						region="STATE_MEXICO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
+			}
+			create_building={
 				building="building_glassworks"
 				add_ownership={
 					building={
@@ -3723,6 +3747,32 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_iron_mine"
+						country="c:MEX"
+						levels=1
+						region="STATE_MEXICO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:MEX"
+						levels=1
+						region="STATE_MEXICO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -3907,17 +3957,17 @@
 				activate_production_methods={ "pm_simple_organization" }
 			}
 			create_building={
-				building="building_food_industry"
+				building="building_logging_camp"
 				add_ownership={
 					building={
-						type="building_food_industry"
+						type="building_logging_camp"
 						country="c:MEX"
 						levels=1
-						region="STATE_GUERRERO"
+						region="STATE_MEXICO"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_pot_stills" "pm_disabled_canning" "pm_manual_dough_processing" "pm_sweeteners" }
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -3983,6 +4033,32 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
+				building="building_food_industry"
+				add_ownership={
+					building={
+						type="building_food_industry"
+						country="c:MEX"
+						levels=1
+						region="STATE_OAXACA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pot_stills" "pm_disabled_canning" "pm_manual_dough_processing" "pm_sweeteners" }
+			}
+			create_building={
+				building="building_maize_farm"
+				add_ownership={
+					building={
+						type="building_maize_farm"
+						country="c:MEX"
+						levels=2
+						region="STATE_OAXACA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 			}		
 			create_building={
 				building="building_vineyard_plantation"
@@ -4061,10 +4137,36 @@
 				activate_production_methods={ "pm_scholastic_education" }
 			}
 			create_building={
+				building="building_paper_mills"
+				add_ownership={
+					building={
+						type="building_paper_mills"
+						country="c:TZZ"
+						levels=1
+						region="STATE_JALISCO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_tooling_workshops"
+						country="c:TZZ"
+						levels=1
+						region="STATE_JALISCO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled"  }
+			}
+			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
-						type="building_fishing_wharf"
+						type="building_logging_camp"
 						country="c:TZZ"
 						levels=2
 						region="STATE_JALISCO"
@@ -4189,6 +4291,43 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
+				building="building_arms_industry"
+				add_ownership={
+					country={
+						country="c:CCM"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_muskets" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:CCM"
+						levels=1
+						region="STATE_BAJIO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_iron_mine"
+						country="c:CCM"
+						levels=1
+						region="STATE_BAJIO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_gold_mine"

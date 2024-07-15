@@ -302,6 +302,46 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Triple Alliance
+	c:MEX ?= {	
+		create_trade_route = {
+			goods = wood
+			level = 2
+			direction = import
+			target = c:TZZ.market
+		}
+    }
+
+	# mayapan
+	c:MAY ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:MEX.market
+		}
+    }
+
+	# Tzintzuntzan
+	c:TZZ ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:CCM.market
+		}
+    }
+
+	# Chichimen
+	c:CCM ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:TZZ.market
+		}
+    }
+
 
 
 

@@ -54,6 +54,19 @@
 				activate_production_methods={ "pm_simple_organization" "pm_secular_bureaucrats" }
 			}
 			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:MEX"
+						levels=1
+						region="STATE_GUATAMALA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
 				building="building_maize_farm"
 				add_ownership={
 					building={
