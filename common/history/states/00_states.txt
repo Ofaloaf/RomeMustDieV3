@@ -2660,7 +2660,7 @@ STATES = {
 	}
 	s:STATE_SANTA_CATARINA = {
 		create_state = {
-			country = c:KNG
+			country = c:KGG
 			owned_provinces = {
 				xC550DC x8A5C63 x8D6AA3 xDF5E13 x09803F x9937ED x9DE26B x3066EF xA88387 xEB0D5F xF6A625 x02483B x06999F x2DA91C x4538A5 xF3F10A xC7B370 x600573 xEDCD15 xA57238
 			}

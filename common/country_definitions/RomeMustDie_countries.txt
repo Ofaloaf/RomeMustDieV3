@@ -1610,7 +1610,7 @@ TPE = { # Tapé
 	capital = STATE_RIO_GRANDE_DO_SUL
 }
 
-KNG = { # Kaingang
+KGG = { # Kaingang
 	color = { 173 152 3 }
 	
 	country_type = unrecognized

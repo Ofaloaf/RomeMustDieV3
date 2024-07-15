@@ -655,7 +655,7 @@ POPS = {
 		}
 	}
 	s:STATE_SANTA_CATARINA = { # 1836 estimate. 61753 total.
-		region_state:KNG = {
+		region_state:KGG = {
 			create_pop = {
 				culture = amazonian
 				size = 35582

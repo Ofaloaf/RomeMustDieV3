@@ -115,4 +115,195 @@ TRADE_ROUTES = {
 			target = c:CHO.market
 		}
     }
+
+	# Kitu
+	c:QTO ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:QSU.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 1
+			direction = export
+			target = c:LMC.market
+		}
+    }
+
+	# Charcas
+	c:CRC ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:TWK.market
+		}
+    }
+
+	# Qusqo
+	c:QSU ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = export
+			target = c:TTN.market
+		}
+    }
+
+	# Limacania
+	c:LMC ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:QSU.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 1
+			direction = import
+			target = c:QSU.market
+		}
+    }
+
+	# TIRTANEL
+	c:TTN ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:ERE.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = export
+			target = c:LMC.market
+		}
+    }
+
+	# Muisca
+	c:MUI ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:TTN.market
+		}
+    }
+
+	# Venetiolan
+	c:VTL ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:TTN.market
+		}
+    }
+
+	# Ulpiana
+	c:ULP ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = export
+			target = c:GIA.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = export
+			target = c:TPE.market
+		}
+    }
+
+	# Guayra
+	c:GYR ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:PRG.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:PRG.market
+		}
+    }
+
+	# Kaingang Confederacy
+	c:KGG ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:PRG.market
+		}
+    }
+
+	# Tape
+	c:TPE ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:PRG.market
+		}
+    }
+
+	# Necoc Iauh
+	c:NCC ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:TTN.market
+		}
+    }
+
+	# Bawihka
+	c:BWH ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:TTN.market
+		}
+    }
+
+	# Nicanahuac
+	c:NIC ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:MEX.market
+		}
+    }
+
+	# Haiti
+	c:HAI ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:MEX.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = export
+			target = c:MEX.market
+		}
+    }
+
+
+
+
+
 }
