@@ -1756,7 +1756,7 @@ MRR = { # Murri
 	capital = STATE_QUEENSLAND
 }
 
-I05 = { # Wiradhuric
+WDH = { # Wiradhuric
 	color = { 140 70 67 }
 
 	country_type = decentralized

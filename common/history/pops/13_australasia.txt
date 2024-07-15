@@ -10,7 +10,7 @@
 				size = 152179
 			}
 		}
-		region_state:I05 = {
+		region_state:WDH = {
 			create_pop = {
 				culture = aborigine
 				size = 41921
@@ -125,7 +125,7 @@
 				size = 5004
 			}
 		}
-		region_state:I05 = {
+		region_state:WDH = {
 			create_pop = {
 				culture = aborigine
 				size = 3400
