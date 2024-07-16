@@ -60,7 +60,7 @@
 						type="building_logging_camp"
 						country="c:MEX"
 						levels=1
-						region="STATE_GUATAMALA"
+						region="STATE_GUATEMALA"
 					}
 				}
 				reserves=1
@@ -398,12 +398,25 @@
 				activate_production_methods={ "pm_basic_shipbuilding"  }
 			}
 			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:HAI"
+						levels=1
+						region="STATE_HAITI"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
 				building="building_tobacco_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
 						country="c:HAI"
-						levels=2
+						levels=1
 						region="STATE_HAITI"
 					}
 				}

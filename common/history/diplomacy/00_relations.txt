@@ -24,4 +24,11 @@ DIPLOMACY = {
         set_relations = { country = c:KNM value = 50 }
     }
 
+    c:LOU ?= {
+        set_relations = { country = c:FRK value = 50 }
+    }
+    c:FRK ?= {
+        set_relations = { country = c:LOU value = 50 }
+    }
+
 }

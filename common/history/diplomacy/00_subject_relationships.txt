@@ -114,4 +114,11 @@
 			type = protectorate
 		}
 	}
+
+	c:FRK = {
+		create_diplomatic_pact = {
+			country = c:LOU # Lodewijcslant
+			type = dominion
+		}
+	}
 }

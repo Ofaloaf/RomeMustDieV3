@@ -104,6 +104,18 @@ TRADE_ROUTES = {
 			direction = export
 			target = c:MAL.market
 		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = export
+			target = c:HAI.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = export
+			target = c:MSC.market
+		}
     }
 
 	# Zanzibar
@@ -295,6 +307,12 @@ TRADE_ROUTES = {
 			target = c:MEX.market
 		}
 		create_trade_route = {
+			goods = fabric
+			level = 2
+			direction = import
+			target = c:MSC.market
+		}
+		create_trade_route = {
 			goods = clippers
 			level = 1
 			direction = export
@@ -339,6 +357,42 @@ TRADE_ROUTES = {
 			level = 2
 			direction = import
 			target = c:TZZ.market
+		}
+    }
+
+	# Muscogee
+	c:MSC ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:HAI.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = export
+			target = c:CHT.market
+		}
+    }
+
+	# Chahta Yakni
+	c:CHT ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:MSC.market
+		}
+    }
+
+	# Chikashsha Yakni
+	c:CKW ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:CHE.market
 		}
     }
 
