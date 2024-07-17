@@ -1029,5 +1029,18 @@
  HUB_NAME_STATE_SINDH_wood:0 "Sukkur"
  #
  ######## AUSTRALASIA ######
+ STATE_SOUTH_AUSTRALIA: "Millewa"
  STATE_TASMANIA: "Lutruwita"
+ STATE_QUEENSLAND: "Candarace"
+ STATE_WESTERN_AUSTRALIA: "Guwinywardu"
+ STATE_NORTHERN_TERRITORY: "Gaagudju"
+ #
  STATE_VICTORIA: "Tenggara"
+ HUB_NAME_STATE_VICTORIA_city: "Banda Selatan" # South City
+ HUB_NAME_STATE_VICTORIA_port: "Pelabuhan Gunnai"
+ HUB_NAME_STATE_VICTORIA_mine: "Lanjanuc" # Mount Alexander
+ HUB_NAME_STATE_VICTORIA_farm:0 "Warrnambool"
+ HUB_NAME_STATE_VICTORIA_wood: "Kauan"
+ #
+ STATE_NEW_SOUTH_WALES: "Murrumbidgee"
+ HUB_NAME_STATE_NEW_SOUTH_WALES_city: "Nganbra"

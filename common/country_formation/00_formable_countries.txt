@@ -38,3 +38,102 @@ ETH = { # Ethiopia
 	
 	ai_will_do = { always = yes }
 }
+
+AOT = {
+	use_culture_states = yes
+
+	required_states_fraction = 1.0
+	
+	ai_will_do = { always = yes }
+}
+
+ARA = { # Arabia
+	states = {
+		STATE_YEMEN
+		STATE_OMAN
+		STATE_ABU_DHABI
+		STATE_NEJD
+		STATE_HEDJAZ
+		STATE_HAIL
+		STATE_BAGHDAD
+		STATE_TRANSJORDAN
+		STATE_PALESTINE
+		STATE_LEBANON
+		STATE_SYRIA
+		STATE_ALEPPO
+		STATE_MOSUL
+		STATE_DEIR_EZ_ZOR
+		STATE_BASRA
+		STATE_SINAI
+	}
+
+	required_states_fraction = 0.75	
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+	}
+}
+
+MAL = { # Mali
+	states = {
+		STATE_TIMBUKTU
+		STATE_WESTERN_MALI
+		STATE_EASTERN_MALI
+		STATE_SENEGAL
+		STATE_GUINEA
+		STATE_GAMBIA
+		STATE_VOLTA
+	}
+
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+
+YEM = { # Yemen
+	states = {
+		STATE_YEMEN
+	}
+
+	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+}
+
+AFG = {
+	states = {
+		STATE_WESTERN_AFGHANISTAN
+		STATE_EASTERN_AFGHANISTAN
+	}
+	
+	required_states_fraction = 1
+
+	ai_will_do = { always = yes }
+}
+
+### THE BELOW ARE NEUTERED ###
+BHT = {
+	use_culture_states = yes
+
+	required_states_fraction = 1.0
+	
+	possible = {
+		always = no
+	}
+	
+	ai_will_do = { always = no }
+}
+
+IDN = {
+	use_culture_states = yes
+
+	required_states_fraction = 1.0
+	
+	possible = {
+		always = no
+	}
+	
+	ai_will_do = { always = no }
+}

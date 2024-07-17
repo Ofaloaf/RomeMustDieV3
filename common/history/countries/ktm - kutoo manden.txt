@@ -12,7 +12,6 @@
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_land_based_taxation	
 		activate_law = law_type:law_national_militia
-		activate_law = law_type:law_womens_suffrage
 		
 		ig:ig_rural_folk = {
 			add_ruling_interest_group = yes

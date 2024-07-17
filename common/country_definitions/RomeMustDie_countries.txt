@@ -1716,7 +1716,7 @@ SLT = { # Selatan
 	
 	tier = kingdom
 	
-	capital = STATE_NEW_SOUTH_WALES
+	capital = STATE_VICTORIA
 	cultures = { selatanic }
 }
 
@@ -1767,7 +1767,7 @@ WDH = { # Wiradhuric
 	capital = STATE_NEW_SOUTH_WALES
 }
 
-I06 = { # Baagandji
+PAA = { # Paaka, aka the Darling River
 	color = { 167 134 57 }
 
 	country_type = decentralized
@@ -1778,7 +1778,7 @@ I06 = { # Baagandji
 	capital = STATE_NEW_SOUTH_WALES
 }
 
-I07 = { # Lower Murray
+NGJ = { # Ngarrindjeri
 	color = { 48 33 107 }
 
 	country_type = decentralized
@@ -1789,7 +1789,7 @@ I07 = { # Lower Murray
 	capital = STATE_NEW_SOUTH_WALES
 }
 
-I08 = { # Yarli
+MND = { # Munda
 	color = { 12 82 215 }
 
 	country_type = decentralized
@@ -1800,30 +1800,8 @@ I08 = { # Yarli
 	capital = STATE_NEW_SOUTH_WALES
 }
 
-I09 = { # Karnic
+NHR = { # Nharla Confederacy
 	color = { 236 232 85 }
-
-	country_type = decentralized
-
-	tier = principality
-
-	cultures = { aborigine }
-	capital = STATE_NEW_SOUTH_WALES
-}
-
-I10 = { # Gumbaynggiric
-	color = { 5 24 103 }
-
-	country_type = decentralized
-
-	tier = principality
-
-	cultures = { aborigine }
-	capital = STATE_NEW_SOUTH_WALES
-}
-
-I11 = { # Yugambeh–Bundjalung
-	color = { 208 210 229 }
 
 	country_type = decentralized
 
@@ -1855,9 +1833,18 @@ NRT = { # Ngāti Rātō, made-up Maori iwi that I think means "People of the Sun
 	capital = STATE_QUEENSLAND
 }
 
-# no I13
+NGK = { # Ngāti Kahungunu
+	color = { 107 66 228 }
 
-I14 = { # Waka-Gabi
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { maori }
+	capital = STATE_NORTH_ISLAND
+}
+
+KBI = { # Kabi/Waka-Gabi
 	color = { 252 112 227 }
 
 	country_type = decentralized
@@ -1868,7 +1855,7 @@ I14 = { # Waka-Gabi
 	capital = STATE_QUEENSLAND
 }
 
-I15 = { # Mayi
+YRH = { # yirandhali
 	color = { 78 146 22 }
 
 	country_type = decentralized
@@ -1879,7 +1866,7 @@ I15 = { # Mayi
 	capital = STATE_QUEENSLAND
 }
 
-I16 = { # Ngarna
+NGR = { # Ngarna
 	color = { 92 142 220 }
 
 	country_type = decentralized
@@ -1890,7 +1877,7 @@ I16 = { # Ngarna
 	capital = STATE_NORTHERN_TERRITORY
 }
 
-I17 = { # Kalkatungic
+KLK = { # Kalkatungic
 	color = { 132 219 205 }
 
 	country_type = decentralized
@@ -1901,7 +1888,7 @@ I17 = { # Kalkatungic
 	capital = STATE_QUEENSLAND
 }
 
-I19 = { # Yura
+YRA = { # Yura
 	color = { 218 76 144 }
 
 	country_type = decentralized
@@ -1923,40 +1910,7 @@ KTU = { # Kartu
 	capital = STATE_WESTERN_AUSTRALIA
 }
 
-I23 = { # Kanyara–Mantharta
-	color = { 73 229 248 }
-
-	country_type = decentralized
-
-	tier = principality
-
-	cultures = { aborigine }
-	capital = STATE_WESTERN_AUSTRALIA
-}
-
-I24 = { # Ngayarda
-	color = { 70 16 219 }
-
-	country_type = decentralized
-
-	tier = principality
-
-	cultures = { aborigine }
-	capital = STATE_WESTERN_AUSTRALIA
-}
-
-I25 = { # Marrngu
-	color = { 132 76 209 }
-
-	country_type = decentralized
-
-	tier = principality
-
-	cultures = { aborigine }
-	capital = STATE_WESTERN_AUSTRALIA
-}
-
-I26 = { # Ngumpin-Yapa
+NGY = { # Bilybara, previously Ngumpin-Yapa
 	color = { 18 141 110 }
 
 	country_type = decentralized
@@ -1967,7 +1921,7 @@ I26 = { # Ngumpin-Yapa
 	capital = STATE_NORTHERN_TERRITORY
 }
 
-I27 = { # Warumungu
+WRM = { # Warumungu
 	color = { 14 37 16 }
 
 	country_type = decentralized
@@ -1978,18 +1932,7 @@ I27 = { # Warumungu
 	capital = STATE_NORTHERN_TERRITORY
 }
 
-I28 = { # Arandic
-	color = { 182 165 254 }
-
-	country_type = decentralized
-
-	tier = principality
-
-	cultures = { aborigine }
-	capital = STATE_NORTHERN_TERRITORY
-}
-
-I29 = { # Garawan
+GRW = { # Garawan
 	color = { 190 16 32 }
 
 	country_type = decentralized
@@ -2000,7 +1943,7 @@ I29 = { # Garawan
 	capital = STATE_NORTHERN_TERRITORY
 }
 
-I30 = { # Mindi
+WBY = { # Wambaya
 	color = { 147 72 6 }
 
 	country_type = decentralized
@@ -2011,7 +1954,7 @@ I30 = { # Mindi
 	capital = STATE_NORTHERN_TERRITORY
 }
 
-I33 = { # Wardaman
+WDM = { # Wardaman
 	color = { 178 188 126 }
 
 	country_type = decentralized
@@ -2022,7 +1965,7 @@ I33 = { # Wardaman
 	capital = STATE_NORTHERN_TERRITORY
 }
 
-I34 = { # Wagiman
+WGM = { # Wagiman
 	color = { 21 108 207 }
 
 	country_type = decentralized
@@ -2033,7 +1976,7 @@ I34 = { # Wagiman
 	capital = STATE_NORTHERN_TERRITORY
 }
 
-I39 = { # Jarrakan
+GOO = { # Goonoonoorrang
 	color = { 113 111 2 }
 
 	country_type = decentralized
@@ -2044,7 +1987,7 @@ I39 = { # Jarrakan
 	capital = STATE_WESTERN_AUSTRALIA
 }
 
-I40 = { # Nyulnyulan
+MTW = { # Martuwarra
 	color = { 167 238 241 }
 
 	country_type = decentralized
@@ -2055,18 +1998,7 @@ I40 = { # Nyulnyulan
 	capital = STATE_WESTERN_AUSTRALIA
 }
 
-I41 = { # Bunuban
-	color = { 148 49 142 }
-
-	country_type = decentralized
-
-	tier = principality
-
-	cultures = { aborigine }
-	capital = STATE_WESTERN_AUSTRALIA
-}
-
-I42 = { # Worrorran
+WOR = { # Worrorran
 	color = { 206 205 45 }
 
 	country_type = decentralized
@@ -2077,4 +2009,25 @@ I42 = { # Worrorran
 	capital = STATE_WESTERN_AUSTRALIA
 }
 
-################
+MAT = { # Mait, or Ma-I
+	color = { 113 78 117 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { tagalog }
+	capital = STATE_LUZON
+}
+
+IBL = { # Ibalong
+	color = { 211 202 197 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { tagalog }
+	capital = STATE_LUZON
+}
+

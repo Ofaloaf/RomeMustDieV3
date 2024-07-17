@@ -769,22 +769,21 @@
 	s:STATE_LUZON = {
 		region_state:PHI = {
 			create_pop = {
-				culture = filipino
-				size = 1862796
+				culture = tagalog
+				size = 712681
 			}
 			create_pop = {
 				culture = han # nanfaren
-				religion = catholic
 				size = 8000
 			}
 			create_pop = {
-				culture = spanish
-				size = 8000
+				culture = tagalog
+				religion = animist
+				size = 168000
 			}
 			create_pop = {
 				culture = bornean
-				religion = catholic
-				size = 112400
+				size = 62400
 			}
 			create_pop = {
 				culture = moro
@@ -793,8 +792,20 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = filipino
+				culture = tagalog
 				size = 50000
+			}
+		}
+		region_state:MAT = {
+			create_pop = {
+				culture = tagalog
+				size = 620115
+			}
+		}
+		region_state:IBL = {
+			create_pop = {
+				culture = tagalog
+				size = 43000
 			}
 		}
 		region_state:SUL = {

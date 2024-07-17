@@ -2733,3 +2733,34 @@ selatanic={ # Malay, with some Tamil and Cantonese influences
 	}
 	graphics = east_asian
 }
+
+tagalog={
+	color= hsv{ 0.18 0.56 0.86 }
+	religion = hindu
+	traits = { indigenous_oceanic_heritage malay_culture }
+	male_common_first_names={
+		Apanoaan
+		Balinguit Busan
+		Jayadewa
+		Lakan
+		Namwaran 
+		Pitonggatan
+	}
+	female_common_first_names = {
+		Angkatan
+		Bukah
+	}	
+	#noble_last_names = {
+	#}
+	common_last_names={
+		Basi
+		Mangali Mandaui
+		Nakpil
+		Polo Pandacan
+		Salonga Surabao
+	}
+	ethnicities = {
+		1 = south_east_asian
+	}
+	graphics = east_asian
+}
