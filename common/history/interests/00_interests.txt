@@ -24,6 +24,11 @@
 		add_declared_interest = region_caribbean
 	}
 
+  # Haudenosaunee Confederacy
+  c:IRO ?= {
+		add_declared_interest = region_canada
+	}
+
 
 
 

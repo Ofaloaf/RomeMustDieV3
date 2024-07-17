@@ -396,6 +396,84 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Council of Three Fires
+	c:CTF ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:IRO.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = export
+			target = c:SWN.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = export
+			target = c:SWN.market
+		}
+    }
+
+	# Haudenosaunee
+	c:IRO ?= {	
+		create_trade_route = {
+			goods = paper
+			level = 4
+			direction = import
+			target = c:CTF.market
+		}
+    }
+
+	# Illiniwek
+	c:ILL ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:SWN.market
+		}
+    }
+
+	# Shaawanwaki Republic
+	c:SWN ?= {	
+		create_trade_route = {
+			goods = fabric
+			level = 1
+			direction = import
+			target = c:CKW.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:IRO.market
+		}
+    }
+
+	# Attawandaron
+	c:ATW ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:IRO.market
+		}
+    }
+
+	# Wendat
+	c:HUR ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:IRO.market
+		}
+    }
+
 
 
 
