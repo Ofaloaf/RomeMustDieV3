@@ -1833,7 +1833,7 @@ I11 = { # Yugambeh–Bundjalung
 	capital = STATE_NEW_SOUTH_WALES
 }
 
-I12 = { # Paman
+BMC = { # Bama Confederacy, from what seems to be the Paman word for person or people, Bama
 	color = { 207 182 66 }
 
 	country_type = decentralized
@@ -1844,16 +1844,18 @@ I12 = { # Paman
 	capital = STATE_QUEENSLAND
 }
 
-I13 = { # Dyirbalic
-	color = { 238 39 2 }
+NRT = { # Ngāti Rātō, made-up Maori iwi that I think means "People of the Sunset" or "West" in a really poetic way.
+	color = { 207 166 82 }
 
-	country_type = decentralized
+	country_type = unrecognized
 
 	tier = principality
 
-	cultures = { aborigine }
+	cultures = { maori }
 	capital = STATE_QUEENSLAND
 }
+
+# no I13
 
 I14 = { # Waka-Gabi
 	color = { 252 112 227 }
@@ -1910,7 +1912,7 @@ I19 = { # Yura
 	capital = STATE_SOUTH_AUSTRALIA
 }
 
-I22 = { # Kartu
+KTU = { # Kartu
 	color = { 244 126 55 }
 
 	country_type = decentralized

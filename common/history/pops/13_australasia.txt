@@ -95,16 +95,20 @@
 				size = 19052
 			}
 		}
-		region_state:I12 = {
+		region_state:BMC = {
 			create_pop = {
 				culture = aborigine
-				size = 11250
+				size = 5800
 			}
 		}
-		region_state:I13 = {
+		region_state:NRT = {
 			create_pop = {
 				culture = aborigine
-				size = 2700
+				size = 8800
+			}
+			create_pop = {
+				culture = maori
+				size = 31200
 			}
 		}
 		region_state:I14 = {
@@ -245,7 +249,7 @@
 				size = 4044
 			}
 		}
-		region_state:I22 = {
+		region_state:KTU = {
 			create_pop = {
 				culture = aborigine
 				size = 3885
