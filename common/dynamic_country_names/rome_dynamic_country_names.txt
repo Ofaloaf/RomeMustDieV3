@@ -504,3 +504,24 @@ MEX = { # Triple Alliance / Aztec Empire
 		}
 	}	
 }
+
+SLT = { # Tanah Selatan
+	dynamic_country_name = { # Negeri-Negeri Selatan
+		name = dyn_c_negeri_negeri_selatan
+		adjective = dyn_c_negeri_negeri_selatan_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { 
+				OR = {
+					has_law = law_type:law_presidential_republic 
+					has_law = law_type:law_parliamentary_republic 
+					has_law = law_type:law_council_republic 
+				}
+			}
+		}
+	}
+}

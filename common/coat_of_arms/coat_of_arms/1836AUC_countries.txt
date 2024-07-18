@@ -545,3 +545,64 @@ MSV = { # Muscovy
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
+
+SLT = { # Selatan. Trying to combine 
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	colored_emblem = {
+		texture = "ce_per_saltire_counterchanged.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_per_saltire_counterchanged.dds"
+		color1 = "black"
+		color2 = "red"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } rotation = 90 }
+	}
+	
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}
+	
+	colored_emblem = {
+		texture = "ce_crossed_kris_daggers.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+	}
+}
+
+YLN = { # Yolngu. Not a historical flag. I found an article about a Yirritja funeral and it had several monocolor flags on display there. I combined the colors of those flags into a single one.
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "blue"
+		instance = { scale = { 1.0 0.2 } position = { 0.5 0.3 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "yellow"
+		instance = { scale = { 1.0 0.2 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "green"
+		instance = { scale = { 1.0 0.2 } position = { 0.5 0.7 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "black"
+		instance = { scale = { 1.0 0.2 } position = { 0.5 0.9 } }
+	}
+}
