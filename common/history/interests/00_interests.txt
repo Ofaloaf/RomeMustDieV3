@@ -13,4 +13,23 @@
   c:TTN ?= {
 		add_declared_interest = region_andes
 	}
+
+  # Haiti
+  c:HAI ?= {
+		add_declared_interest = region_central_america
+	}
+
+  # Muscogee
+  c:MSC ?= {
+		add_declared_interest = region_caribbean
+	}
+
+  # Haudenosaunee Confederacy
+  c:IRO ?= {
+		add_declared_interest = region_canada
+	}
+
+
+
+
 }
