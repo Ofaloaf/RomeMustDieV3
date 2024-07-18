@@ -43,6 +43,8 @@
   byelorussian: "Krivian"
   afro_novomundan: "Afro-Novomundan"
   charrua: "Charrua"
+  selatanic: "Selatanic"
+  tagalog: "Tagalog"
   #
   nicene: "Nicene"
   arian: "Arian"
@@ -54,6 +56,7 @@
   nestorian: "Nestorian"
   mesoamerican_pagan: "Mesoamerican"
   great_spirit: "Great Spirit"
+  atua: "Atua"
   #
   romance_speaker: "Romance Speaker"
   eastern_woodlands: "Eastern Woodlands"
