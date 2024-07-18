@@ -474,6 +474,95 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Nippenit
+	c:NPC ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:WBK.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:WBK.market
+		}
+    }
+
+	# Wabanaki Confederacy
+	c:WBK ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 4
+			direction = import
+			target = c:NPC.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = export
+			target = c:NPC.market
+		}
+    }
+
+	# Hochelaga
+	c:HCH ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:WBK.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:WBK.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:IRO.market
+		}
+    }
+
+	# Vinland
+	c:VIN ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:WBK.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 3
+			direction = import
+			target = c:WBK.market
+		}
+    }
+
+	# Saki-Nip
+	c:SKN ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:VIN.market
+		}
+    }
+
+	# Innu Assi
+	c:INU ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:VIN.market
+		}
+    }
 
 
 
