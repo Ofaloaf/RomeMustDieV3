@@ -1,6 +1,9 @@
 ﻿COUNTRIES = {
 	c:MKR = {
 		effect_starting_technology_tier_4_tech = yes
+
+		add_technology_researched = law_enforcement
+
 		effect_starting_politics_conservative = yes
 
 		set_tax_level = medium

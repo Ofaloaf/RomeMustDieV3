@@ -1098,6 +1098,7 @@
 			}
 		}
 	}
+	# Iazygia
 	s:STATE_DELVIDEK={
 		region_state:HNN={
 			create_building={
