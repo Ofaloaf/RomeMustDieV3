@@ -62,7 +62,7 @@ STATE_VOLHYNIA = {
     mine = "x905D21"
     wood = "xAC3079"
     arable_land = 90
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
         bg_coal_mining = 68
         bg_logging = 11
@@ -567,7 +567,7 @@ STATE_EAST_GALICIA = {
     mine = "x7EDD9E"
     wood = "x8F9F20"
     arable_land = 145
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
         bg_coal_mining = 92
         bg_logging = 9
@@ -628,7 +628,7 @@ STATE_TRANSDANUBIA = {
         bg_logging = 7
     }
 }
-
+# Iazygia
 STATE_DELVIDEK = {
     id = 166
     subsistence_building = "building_subsistence_farms"
@@ -639,7 +639,7 @@ STATE_DELVIDEK = {
     mine = "xC347D8"
     wood = "x9E1AD1"
     arable_land = 50
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 4
     }
