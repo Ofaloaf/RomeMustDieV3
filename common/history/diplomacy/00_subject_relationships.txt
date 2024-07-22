@@ -55,6 +55,11 @@
 			country = c:MTS # Matsumae Dominion
 			type = vassal
 		}
+
+		create_diplomatic_pact = {
+			country = c:KAI # kaigai
+			type = dominion
+		}
 	}
 	
 	c:CHI = {
@@ -121,4 +126,7 @@
 			type = dominion
 		}
 	}
+
+
+
 }

@@ -31,4 +31,15 @@ DIPLOMACY = {
         set_relations = { country = c:LOU value = 50 }
     }
 
+    c:JAP ?= {
+		set_relations = { country = c:MTS value = 50 }
+		set_relations = { country = c:KAI value = 50 }
+	}
+    c:MTS ?= {
+        set_relations = { country = c:JAP value = 50 }
+    }
+    c:KAI ?= {
+        set_relations = { country = c:JAP value = 50 }
+    }
+
 }
