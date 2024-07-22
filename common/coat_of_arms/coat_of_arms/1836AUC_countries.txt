@@ -606,3 +606,29 @@ YLN = { # Yolngu. Not a historical flag. I found an article about a Yirritja fun
 		instance = { scale = { 1.0 0.2 } position = { 0.5 0.9 } }
 	}
 }
+
+CTF = { # Council of Three Fires
+	pattern = "pattern_solid.tga"
+	color1 = "green_dark"
+
+	colored_emblem = {
+		texture = "ce_flame_canada_nup.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { scale = { 0.5 0.5 } position = { 0.33 0.29 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_flame_canada_nup.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.7 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_flame_canada_nup.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 0.5 0.5 } position = { 0.6 0.29 } }
+	}
+}

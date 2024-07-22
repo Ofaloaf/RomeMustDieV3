@@ -178,7 +178,7 @@
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 frankish={
@@ -611,7 +611,7 @@ septimanian={
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 brithenig = {
@@ -801,7 +801,7 @@ hispanian = {
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 chesepian = {
@@ -948,7 +948,7 @@ ulpianic = {
 	ethnicities = {
 		1 = south_american
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 antillian = {
@@ -1015,7 +1015,7 @@ antillian = {
 		2 = native_american
 		1 = african
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 gothic = { # Occitan, basically
@@ -1166,7 +1166,7 @@ africanu = { # African Romance, with some Vandals
 		9 = arab
 		1 = slavic
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 ojibwe={
@@ -1459,7 +1459,7 @@ sardinian={
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 burgundian = { # Arpetan with some Swiss Latin thrown in
@@ -1594,7 +1594,7 @@ illyrian={ # Dalmatian, with some Illyrian names droppped in either in purestrai
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 thuringian = {
@@ -2385,7 +2385,7 @@ new_anatolic={
 		1 = north_caucasian
 		1 = arab
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 chibchan={
@@ -2558,7 +2558,7 @@ neoanahuacan = {
 	ethnicities = {
 		1 = south_american
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 afro_novomundan={
@@ -2627,7 +2627,7 @@ afro_novomundan={
 	ethnicities = {
 		1 = african
 	}
-	graphics = decentralised_americas
+	graphics = african
 }
 
 charrua={ # Not many attested Charruan names tbh. Added in some Guarani and Mapuche names.

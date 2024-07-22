@@ -1,0 +1,67 @@
+﻿gallo_frankish_nation_button = {
+	name = "gallo_frankish_nation_button"
+	desc = "gallo_frankish_nation_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		NOT = { has_variable = frk_germanic_path }
+		any_scope_state = {
+			state_region = {
+				is_homeland = cu:gallic
+				NAND = {
+					radical_fraction = {
+						value >= 0.10
+						culture = cu:gallic
+					}
+					culture_percent_state = {
+						target = cu:gallic
+						value < 0.25
+					}
+					devastation > 0
+				}
+			}
+			count >= 3
+		}
+		NOT = { exists = c:SUE )
+	}
+
+	effect = {
+		add_primary_culture = cu:gallic
+		set_variable = frk_romance_path
+	}
+}
+
+germanic_frankish_nation_button = {
+	name = "gallo_frankish_nation_button"
+	desc = "gallo_frankish_nation_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		NOT = { has_variable = frk_romance_path }
+		any_scope_state = {
+			state_region = {
+				OR = {
+					is_homeland = cu:suebian
+					is_homeland = cu:thuringian
+					is_homeland = cu:saxon
+					is_homeland = cu:alemannic
+					is_homeland = cu:frisian
+				}
+				NAND = {
+					radical_fraction = {
+						value >= 0.10
+					}
+					devastation > 0
+				}
+			}
+			count >= 4
+		}
+	}
+
+	effect = {
+		change_tag = GER
+		set_variable = frk_germanic_path
+	}
+}

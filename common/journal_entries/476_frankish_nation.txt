@@ -1,0 +1,33 @@
+﻿je_frankish_nation = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_historical_content
+	
+	scripted_button = gallo_frankish_nation_button
+	scripted_button = germanic_frankish_nation_button
+	
+	is_shown_when_inactive = {
+		c:FRK ?= this
+		NOR = {
+			is_revolutionary = yes
+			is_secessionist = yes
+		}
+	}
+	
+	possible = {
+		has_technology_researched = nationalism
+	}
+
+	complete = {
+		OR = {
+			has_variable = frk_romance_path
+			has_variable = frk_germanic_path
+		}
+	}
+	
+	on_complete = {
+
+	}
+		
+	weight = 1000
+}

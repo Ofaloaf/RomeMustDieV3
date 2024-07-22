@@ -290,3 +290,11 @@ YLN = { # Yolngu
 		priority = 1
 	}
 }
+
+CTF = { # Council of Three Fires
+	flag_definition = {
+		coa = CTF
+		subject_canton = CTF
+		priority = 1
+	}
+}
