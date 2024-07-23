@@ -3,7 +3,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1449137
+				size = 1249137
 			}
 			create_pop = {
 				culture = roman
@@ -21,7 +21,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1430344
+				size = 830344
 			}
 			create_pop = {
 				culture = roman
@@ -41,7 +41,7 @@
 	s:STATE_MALTA = {
 		region_state:WRE = {
 			create_pop = {
-				culture = maltese
+				culture = africanu
 				size = 117192
 			}
 			create_pop = {
@@ -84,7 +84,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1687881
+				size = 1287881
 			}
 		}
 	}
@@ -146,7 +146,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1069050
+				size = 869050
 			}
 			create_pop = {
 				culture = roman
@@ -190,7 +190,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1101656
+				size = 701656
 			}
 			create_pop = {
 				culture = roman
@@ -273,7 +273,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 872196
+				size = 772196
 			}
 			create_pop = {
 				culture = basque
@@ -492,11 +492,11 @@
 			}
 			create_pop = {
 				culture = illyrian
-				size = 662400
+				size = 462400
 			}
 			create_pop = {
 				culture = greek
-				size = 133996
+				size = 103996
 			}
 		}
 	}
@@ -585,7 +585,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = illyrian
-				size = 563592
+				size = 503592
 			}
 			create_pop = {
 				culture = roman
@@ -594,11 +594,11 @@
 			}
 			create_pop = {
 				culture = greek
-				size = 68396
+				size = 58396
 			}
 			create_pop = {
 				culture = roman
-				size = 176000
+				size = 136000
 			}
 		}
 	}
@@ -627,7 +627,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1147800
+				size = 847800
 			}
 			create_pop = {
 				culture = greek

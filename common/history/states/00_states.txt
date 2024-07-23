@@ -7531,7 +7531,7 @@ STATES = {
 			state_type = unincorporated
 		}
 		
-		add_homeland = cu:maltese
+		add_homeland = cu:africanu
 	}
 	s:STATE_UMBRIA = {
 		create_state = {
@@ -7627,7 +7627,7 @@ STATES = {
 			owned_provinces = { x2111E0 x39CBF7 x909463 x63E9DB x7DD48B x4DA0F1 xA4523A xF657D8 xB0E060 xCCBD19 x8517E9 xDAD836 xFA9C84 xE8DCC5 xA09060 }
 		}
 
-		add_homeland = cu:greek
+		add_homeland = cu:assyrian
 		add_homeland = cu:armenian
 	}
 	s:STATE_DEIR_EZ_ZOR = {
