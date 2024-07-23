@@ -29,6 +29,11 @@
 		add_declared_interest = region_canada
 	}
 
+  # Korea
+  c:KOR ?= {
+		add_declared_interest = region_south_china
+	}
+
 
 
 
