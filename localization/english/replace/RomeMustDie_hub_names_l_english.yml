@@ -581,9 +581,9 @@
  #
  STATE_LEBANON: "Phoenicia"
  HUB_NAME_STATE_LEBANON_city: "Berytus" # Beirut
- HUB_NAME_STATE_LEBANON_port:0 "Tripoli"
- HUB_NAME_STATE_LEBANON_mine:1 "Zahle"
- HUB_NAME_STATE_LEBANON_farm:1 "Deir al-Qamar"
+ HUB_NAME_STATE_LEBANON_port: "Tripolis" # Tripoli
+ HUB_NAME_STATE_LEBANON_mine: "Nihata" # Niha, near Zahle
+ HUB_NAME_STATE_LEBANON_farm: "Aremtha" # Aramta
  HUB_NAME_STATE_LEBANON_wood:1 "Sidon"
  #
  STATE_PALESTINE: "Palestina"
@@ -604,9 +604,9 @@
  #
  STATE_MICHIGAN: "Ojibwewaki" # Ojibwe Homeland
  HUB_NAME_STATE_MICHIGAN_city: "Mishimikinaak" # Mackinac Island
- HUB_NAME_STATE_MICHIGAN_mine: "Waawiiyaataanong"
- HUB_NAME_STATE_MICHIGAN_farm: "Sacenong"
- HUB_NAME_STATE_MICHIGAN_wood: "Kitchiwikwedongsing"
+ HUB_NAME_STATE_MICHIGAN_mine: "Waawiiyaataanong" # Detroit
+ HUB_NAME_STATE_MICHIGAN_farm: "Sacenong" # Saginaw
+ HUB_NAME_STATE_MICHIGAN_wood: "Kitchiwikwedongsing" # Traverse City
  #
  STATE_OHIO: "Shawandasse Tula" # Shawnee Land
  HUB_NAME_STATE_OHIO_city: "Chillicothe"
@@ -615,13 +615,13 @@
  HUB_NAME_STATE_OHIO_wood: "Coshocton"
  #
  STATE_RHODE_ISLAND: "Omaeqnomenew-ahkew"
- HUB_NAME_STATE_RHODE_ISLAND_city: "Gichi-namebini Ziibing"
- HUB_NAME_STATE_RHODE_ISLAND_farm: "Escanaba"
- HUB_NAME_STATE_RHODE_ISLAND_wood: "Baawitigong"
+ HUB_NAME_STATE_RHODE_ISLAND_city: "Gichi-namebini Ziibing" # Marquette
+ HUB_NAME_STATE_RHODE_ISLAND_farm: "Escanaba" # Escanaba
+ HUB_NAME_STATE_RHODE_ISLAND_wood: "Baawitigong" # Sault Sainte Marie
  #
- STATE_NEW_JERSEY: "Lënapehòkink" # Lenape Land
- HUB_NAME_STATE_NEW_JERSEY_city: "Shakamaxon"
- HUB_NAME_STATE_NEW_JERSEY_port: "Hupokàn"
+ STATE_NEW_JERSEY: "Lënapehòkink" # Lenape Land.
+ HUB_NAME_STATE_NEW_JERSEY_city: "Shakamaxon" # Philadelphia. Oh, would Romans latinize that to Shacamacum? Must investigate further.
+ HUB_NAME_STATE_NEW_JERSEY_port: "Hupokàn" # Hoboken. Latinize to Hupocum?
  HUB_NAME_STATE_NEW_JERSEY_mine: "Ramapough"
  #
  STATE_NEW_YORK: "Haudenosauneega" # Iroquois/Haudenosaunee Land
@@ -632,7 +632,7 @@
  #
  STATE_CONNECTICUT: "Monsiyok"
  HUB_NAME_STATE_CONNECTICUT_city: "Pishgachtigok"
- HUB_NAME_STATE_CONNECTICUT_port: "Novum Eboracum"
+ HUB_NAME_STATE_CONNECTICUT_port: "Novum Eboracum" # DO YOU GET WHAT CITY THIS REPRESENTS?
  HUB_NAME_STATE_CONNECTICUT_farm: "Rippowam"
  #
  STATE_MARYLAND: "Chesepiacum"
@@ -642,13 +642,17 @@
  HUB_NAME_STATE_MARYLAND_farm: "Villa Nova"
  #
  STATE_VERMONT: "Muhhekunneuw"
+ HUB_NAME_STATE_VERMONT_city: "Winoskik" # after the Winooski River
+ HUB_NAME_STATE_VERMONT_mine: "Ottauquechee" # A river in Vermont
+ HUB_NAME_STATE_VERMONT_farm: "Walloomsac" # after the Walloomsac River that goes through Bennington
+ HUB_NAME_STATE_VERMONT_wood: "Elligo-sigo" # Black River (Lake Memphremagog)
  #
  STATE_NEW_HAMPSHIRE: "Merruasquamack" # possible etymology of the Merrimack
  HUB_NAME_STATE_NEW_HAMPSHIRE_city: "Pannukog"
  HUB_NAME_STATE_NEW_HAMPSHIRE_port: "Pskehtekwis" # Piscataqua River
- HUB_NAME_STATE_NEW_HAMPSHIRE_mine:1 "Fairfield"
+ HUB_NAME_STATE_NEW_HAMPSHIRE_mine: "Ammoscongon" # Androscoggin River
  HUB_NAME_STATE_NEW_HAMPSHIRE_farm: "Namaoskeag" # Manchester
- HUB_NAME_STATE_NEW_HAMPSHIRE_wood:0 "Bartlett"
+ HUB_NAME_STATE_NEW_HAMPSHIRE_wood: "Winnisquam" # lake Winnisquam
  #
  STATE_WISCONSIN: "Wazidja"
  HUB_NAME_STATE_WISCONSIN_city: "Pūcīhkit" # Green Bay in Menominee
@@ -716,6 +720,8 @@
  STATE_PENNSYLVANIA: "Siskëwahane"
  HUB_NAME_STATE_PENNSYLVANIA_city: "Otzinachon" # Shamonkin/Fort Augusta
  HUB_NAME_STATE_PENNSYLVANIA_mine: "Pasakunk"
+ HUB_NAME_STATE_PENNSYLVANIA_farm: "Andastoerrhonon Kanata" # Susquennakock Town, fictitious. Andastoerrhonon is Wendat name for the Susquehannock, Kanata is Mohawk for town/city.
+ HUB_NAME_STATE_PENNSYLVANIA_wood: "Honniasont Kanata" # Honniasont Town, fictitious.
  #
  STATE_DELAWARE: "Nentego Ahkee"
  HUB_NAME_STATE_DELAWARE_city: "Maaxwaasunk"

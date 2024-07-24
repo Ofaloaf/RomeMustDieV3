@@ -82,6 +82,13 @@
   status_attila_tyrant: "The Tyrant has advanced up the Danube."
   status_attila_anthropophagus: "The Anthropophagus has quitted his den."
   #
+  je_frankish_nation: "Frankish Futures"
+  je_frankish_nation_reason: "The Frankish people sit in a unique position: on the edge of the Roman world, the Franks are intimately familiar with Romans life in a way few others are. Frankish lands are also the birthplace of Europe's industrial revolution, and the heartland of resistance against the Romans. To face the Romans, or face the Germans — which way should the Franks go?"
+  gallo_frankish_nation_button: "Embrace the Gallo-Romans"
+  gallo_frankish_nation_button_desc: "Gauls are the natural brothers of the Franks. Let us forge a new future together!"
+  germanic_frankish_nation_button: "Embrace the Germanic peoples"
+  germanic_frankish_nation_button_desc: "We are part of a vast Germanic brotherhood. Let us proclaim our great fraternity to the world!"
+  #
   clan_mother: "Clan Mother"
   clan_mother_desc: "TODO CD"
   #
