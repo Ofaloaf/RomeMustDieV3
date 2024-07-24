@@ -1,4 +1,4 @@
-﻿french_city = {
+﻿voip_roman_french_city = {
 #	graphical_culture = "french"
 	city_type = city
 	center_building_mesh = "latin_urban_city_townsquare_01_mesh"
@@ -46,6 +46,9 @@
 		"french_urban_residential_poor_02_mesh"
 		"french_urban_residential_poor_03_mesh"
 		"french_urban_residential_poor_04_mesh"
+		"latin_urban_city_residential_poor_01_mesh"
+		"latin_urban_city_residential_poor_02_mesh"
+		"latin_urban_city_residential_poor_03_mesh"
 	}
 	poor_building_offsets = {
 		position = 0.2

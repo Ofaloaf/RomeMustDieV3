@@ -9,10 +9,7 @@
 				OR = {
 					country_has_primary_culture = cu:greek
 					any_primary_culture = {
-						OR = {
-							has_discrimination_trait = romance_speaker
-							has_discrimination_trait = indigenous_american_heritage
-						}
+						has_discrimination_trait = romance_speaker
 					}
 				}
 			}

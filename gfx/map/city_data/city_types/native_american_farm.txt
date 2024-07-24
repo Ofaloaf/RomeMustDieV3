@@ -1,28 +1,19 @@
-﻿wild_west_farm = {
+﻿native_american_farm = {
 	city_type = farm
-	center_building_mesh = "wild_west_town_mesh"
+	center_building_mesh = "latin_rural_farm_centerpiece_01_mesh"
 	center_building_size = { 2 2 }
 
 	trigger = {
-		has_american_buildings_dlc_trigger = yes
 		any_scope_state = {
 			owner = {
 				any_primary_culture = {
-					has_discrimination_trait = eastern_woodlands
+					has_discrimination_trait = indigenous_american_heritage
 				}
-			}
-			OR = {
-				region = sr:region_canada
-				region = sr:region_new_england
-				region = sr:region_pacific_coast
-				region = sr:region_great_plains
-				region = sr:region_the_midwest
-				region = sr:region_dixie
 			}
 		}
 	}
 
-	weight = 10
+	weight = 1
 		
 	min_residential_buildings = 4
 	max_residential_buildings = 50
@@ -41,9 +32,9 @@
 		rotation = 0.0	#in degrees
 	}
 	mid_building_meshes = {
-		"latin_rural_residential_mid_01_mesh"
-		"latin_rural_residential_mid_02_mesh"
-		"latin_rural_residential_mid_03_mesh"
+		"african_rural_residential_mid_01_mesh"
+		"african_rural_residential_mid_02_mesh"
+		"african_rural_residential_mid_03_mesh"
 	}
 	mid_building_offsets = {
 		position = 0.0

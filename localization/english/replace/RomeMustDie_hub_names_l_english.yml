@@ -477,8 +477,17 @@
  HUB_NAME_STATE_NORTHERN_THRACE_city: "Pulpudeva"
  #
  STATE_SOUTHERN_SERBIA: "Dardania"
+ HUB_NAME_STATE_SOUTHERN_SERBIA_city: "Ulpiana" # Pristina
+ HUB_NAME_STATE_SOUTHERN_SERBIA_mine: "Iustiniana Prima" # Lebane, near Leskovac
+ HUB_NAME_STATE_SOUTHERN_SERBIA_farm:0 "Ferizaj"
+ HUB_NAME_STATE_SOUTHERN_SERBIA_wood: "Anthemiolana" # made up
  #
  STATE_MONTENEGRO: "Praevalitana"
+ HUB_NAME_STATE_MONTENEGRO_city: "Birziminium" # Podgorica
+ HUB_NAME_STATE_MONTENEGRO_port: "Ascrivium" # Cattaro
+ HUB_NAME_STATE_MONTENEGRO_mine:2 "Berane"
+ HUB_NAME_STATE_MONTENEGRO_farm: "Ketígni"
+ HUB_NAME_STATE_MONTENEGRO_wood:1 "Hanovi"
  #
  STATE_WALLACHIA: "Muntenia"
  HUB_NAME_STATE_WALLACHIA_city: "Argedava"
@@ -497,6 +506,53 @@
  HUB_NAME_STATE_ERZURUM_mine: "Yerznka"
  HUB_NAME_STATE_ERZURUM_farm:0 "Van"
  HUB_NAME_STATE_ERZURUM_wood:0 "Mush"
+ STATE_KARS: "Chorzene"
+ HUB_NAME_STATE_KARS_city:1 "Kars"
+ HUB_NAME_STATE_KARS_port: "Batumi"
+ HUB_NAME_STATE_KARS_mine: "Tsolakert" # Igdir
+ HUB_NAME_STATE_KARS_farm:1 "Ardahan"
+ HUB_NAME_STATE_KARS_wood: "Ardvin" # Artvin
+ STATE_TRABZON: "Pontos"
+ HUB_NAME_STATE_TRABZON_city: "Kotyora" # Ordu
+ HUB_NAME_STATE_TRABZON_port: "Kerasous" # Giresun
+ HUB_NAME_STATE_TRABZON_mine: "Rizunda" # Rize
+ HUB_NAME_STATE_TRABZON_farm: "Amisos" # Samsun
+ HUB_NAME_STATE_TRABZON_wood: "Trebizond" # Trabzon
+ STATE_ANKARA: "Cappadocia"
+ HUB_NAME_STATE_ANKARA_city: "Kaisáreia" # Kayseri
+ HUB_NAME_STATE_ANKARA_mine: "Taouion" # Tavium, near Yozgat
+ HUB_NAME_STATE_ANKARA_farm: "Sebastea" # Sivas
+ HUB_NAME_STATE_ANKARA_wood: "Ankyra" # Ankara
+ STATE_KASTAMONU: "Paphlagonia"
+ HUB_NAME_STATE_KASTAMONU_city: "Pompeiopolis" # not Kastamonu
+ HUB_NAME_STATE_KASTAMONU_port: "Sinope" # Sinop
+ HUB_NAME_STATE_KASTAMONU_mine: "Germanicopolis" # Kengiri
+ HUB_NAME_STATE_KASTAMONU_farm: "Claudiopolis"
+ HUB_NAME_STATE_KASTAMONU_wood: "Herakleia"
+ STATE_HUDAVENDIGAR: "Bithynia"
+ HUB_NAME_STATE_HUDAVENDIGAR_city: "Prousa" # Bursa
+ HUB_NAME_STATE_HUDAVENDIGAR_port: "Nikomedeia" # Izmit
+ HUB_NAME_STATE_HUDAVENDIGAR_mine: "Nikaea" # not Bilecik
+ HUB_NAME_STATE_HUDAVENDIGAR_farm: "Pegai" # Biga
+ HUB_NAME_STATE_HUDAVENDIGAR_wood: "Palaiokastron" # Balikesir
+ STATE_EASTERN_THRACE: "Europa"
+ HUB_NAME_STATE_EASTERN_THRACE_city:0 "Constantinople"
+ HUB_NAME_STATE_EASTERN_THRACE_port: "Kallipolis" # Gelibolu, Callipoli
+ HUB_NAME_STATE_EASTERN_THRACE_mine: "Saranta Ekklisies" # Kırklareli
+ HUB_NAME_STATE_EASTERN_THRACE_farm:0 "Adrianople"
+ HUB_NAME_STATE_EASTERN_THRACE_wood: "Medea" # Midye
+ STATE_AYDIN: "Asia"
+ HUB_NAME_STATE_AYDIN_city: "Smyrna" # Izmir
+ HUB_NAME_STATE_AYDIN_port: "Dardanellia" # Kale-i Sultaniye
+ HUB_NAME_STATE_AYDIN_mine: "Mogolla" # Mugla
+ HUB_NAME_STATE_AYDIN_farm: "Magnesia" # Manisa
+ HUB_NAME_STATE_AYDIN_wood: "Tralleis" # Aydin
+ STATE_KONYA: "Galatia"
+ HUB_NAME_STATE_KONYA_city: "Ikonion" # Konya
+ HUB_NAME_STATE_KONYA_port: "Attaleia" # Antalya
+ HUB_NAME_STATE_KONYA_mine: "Nikopolis" # Afyon
+ HUB_NAME_STATE_KONYA_farm: "Attouda" # Denizli
+ HUB_NAME_STATE_KONYA_wood: "Dorylaion" # Eskişehir
  #
  STATE_DIYARBAKIR: "Tigris"
  HUB_NAME_STATE_DIYARBAKIR_city: "Melitene"

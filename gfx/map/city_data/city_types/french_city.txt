@@ -10,7 +10,10 @@
 		any_scope_state = {
 			owner = {
 				any_primary_culture = {
-					has_discrimination_trait = romance_speaker
+					OR = {
+						has_discrimination_trait = romance_speaker
+						cu:frankish = this
+					}
 				}
 			}
 			OR = {
