@@ -74,6 +74,12 @@ TRADE_ROUTES = {
 			direction = import
 			target = c:NAG.market
 		}
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = export
+			target = c:SRJ.market
+		}
     }
 
 	# Indo Ganges Sultanate
@@ -561,6 +567,26 @@ TRADE_ROUTES = {
 			level = 1
 			direction = import
 			target = c:VIN.market
+		}
+    }
+
+	# Johore
+	c:JOH ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:JAV.market
+		}
+    }
+
+	# Sulu
+	c:SUL ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:CHO.market
 		}
     }
 
