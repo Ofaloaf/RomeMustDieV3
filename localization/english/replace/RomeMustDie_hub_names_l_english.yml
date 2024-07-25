@@ -477,8 +477,17 @@
  HUB_NAME_STATE_NORTHERN_THRACE_city: "Pulpudeva"
  #
  STATE_SOUTHERN_SERBIA: "Dardania"
+ HUB_NAME_STATE_SOUTHERN_SERBIA_city: "Ulpiana" # Pristina
+ HUB_NAME_STATE_SOUTHERN_SERBIA_mine: "Iustiniana Prima" # Lebane, near Leskovac
+ HUB_NAME_STATE_SOUTHERN_SERBIA_farm:0 "Ferizaj"
+ HUB_NAME_STATE_SOUTHERN_SERBIA_wood: "Anthemiolana" # made up
  #
  STATE_MONTENEGRO: "Praevalitana"
+ HUB_NAME_STATE_MONTENEGRO_city: "Birziminium" # Podgorica
+ HUB_NAME_STATE_MONTENEGRO_port: "Ascrivium" # Cattaro
+ HUB_NAME_STATE_MONTENEGRO_mine:2 "Berane"
+ HUB_NAME_STATE_MONTENEGRO_farm: "Ketígni"
+ HUB_NAME_STATE_MONTENEGRO_wood:1 "Hanovi"
  #
  STATE_WALLACHIA: "Muntenia"
  HUB_NAME_STATE_WALLACHIA_city: "Argedava"
@@ -497,6 +506,53 @@
  HUB_NAME_STATE_ERZURUM_mine: "Yerznka"
  HUB_NAME_STATE_ERZURUM_farm:0 "Van"
  HUB_NAME_STATE_ERZURUM_wood:0 "Mush"
+ STATE_KARS: "Chorzene"
+ HUB_NAME_STATE_KARS_city:1 "Kars"
+ HUB_NAME_STATE_KARS_port: "Batumi"
+ HUB_NAME_STATE_KARS_mine: "Tsolakert" # Igdir
+ HUB_NAME_STATE_KARS_farm:1 "Ardahan"
+ HUB_NAME_STATE_KARS_wood: "Ardvin" # Artvin
+ STATE_TRABZON: "Pontos"
+ HUB_NAME_STATE_TRABZON_city: "Kotyora" # Ordu
+ HUB_NAME_STATE_TRABZON_port: "Kerasous" # Giresun
+ HUB_NAME_STATE_TRABZON_mine: "Rizunda" # Rize
+ HUB_NAME_STATE_TRABZON_farm: "Amisos" # Samsun
+ HUB_NAME_STATE_TRABZON_wood: "Trebizond" # Trabzon
+ STATE_ANKARA: "Cappadocia"
+ HUB_NAME_STATE_ANKARA_city: "Kaisáreia" # Kayseri
+ HUB_NAME_STATE_ANKARA_mine: "Taouion" # Tavium, near Yozgat
+ HUB_NAME_STATE_ANKARA_farm: "Sebastea" # Sivas
+ HUB_NAME_STATE_ANKARA_wood: "Ankyra" # Ankara
+ STATE_KASTAMONU: "Paphlagonia"
+ HUB_NAME_STATE_KASTAMONU_city: "Pompeiopolis" # not Kastamonu
+ HUB_NAME_STATE_KASTAMONU_port: "Sinope" # Sinop
+ HUB_NAME_STATE_KASTAMONU_mine: "Germanicopolis" # Kengiri
+ HUB_NAME_STATE_KASTAMONU_farm: "Claudiopolis"
+ HUB_NAME_STATE_KASTAMONU_wood: "Herakleia"
+ STATE_HUDAVENDIGAR: "Bithynia"
+ HUB_NAME_STATE_HUDAVENDIGAR_city: "Prousa" # Bursa
+ HUB_NAME_STATE_HUDAVENDIGAR_port: "Nikomedeia" # Izmit
+ HUB_NAME_STATE_HUDAVENDIGAR_mine: "Nikaea" # not Bilecik
+ HUB_NAME_STATE_HUDAVENDIGAR_farm: "Pegai" # Biga
+ HUB_NAME_STATE_HUDAVENDIGAR_wood: "Palaiokastron" # Balikesir
+ STATE_EASTERN_THRACE: "Europa"
+ HUB_NAME_STATE_EASTERN_THRACE_city:0 "Constantinople"
+ HUB_NAME_STATE_EASTERN_THRACE_port: "Kallipolis" # Gelibolu, Callipoli
+ HUB_NAME_STATE_EASTERN_THRACE_mine: "Saranta Ekklisies" # Kırklareli
+ HUB_NAME_STATE_EASTERN_THRACE_farm:0 "Adrianople"
+ HUB_NAME_STATE_EASTERN_THRACE_wood: "Medea" # Midye
+ STATE_AYDIN: "Asia"
+ HUB_NAME_STATE_AYDIN_city: "Smyrna" # Izmir
+ HUB_NAME_STATE_AYDIN_port: "Dardanellia" # Kale-i Sultaniye
+ HUB_NAME_STATE_AYDIN_mine: "Mogolla" # Mugla
+ HUB_NAME_STATE_AYDIN_farm: "Magnesia" # Manisa
+ HUB_NAME_STATE_AYDIN_wood: "Tralleis" # Aydin
+ STATE_KONYA: "Galatia"
+ HUB_NAME_STATE_KONYA_city: "Ikonion" # Konya
+ HUB_NAME_STATE_KONYA_port: "Attaleia" # Antalya
+ HUB_NAME_STATE_KONYA_mine: "Nikopolis" # Afyon
+ HUB_NAME_STATE_KONYA_farm: "Attouda" # Denizli
+ HUB_NAME_STATE_KONYA_wood: "Dorylaion" # Eskişehir
  #
  STATE_DIYARBAKIR: "Tigris"
  HUB_NAME_STATE_DIYARBAKIR_city: "Melitene"
@@ -525,9 +581,9 @@
  #
  STATE_LEBANON: "Phoenicia"
  HUB_NAME_STATE_LEBANON_city: "Berytus" # Beirut
- HUB_NAME_STATE_LEBANON_port:0 "Tripoli"
- HUB_NAME_STATE_LEBANON_mine:1 "Zahle"
- HUB_NAME_STATE_LEBANON_farm:1 "Deir al-Qamar"
+ HUB_NAME_STATE_LEBANON_port: "Tripolis" # Tripoli
+ HUB_NAME_STATE_LEBANON_mine: "Nihata" # Niha, near Zahle
+ HUB_NAME_STATE_LEBANON_farm: "Aremtha" # Aramta
  HUB_NAME_STATE_LEBANON_wood:1 "Sidon"
  #
  STATE_PALESTINE: "Palestina"
@@ -548,9 +604,9 @@
  #
  STATE_MICHIGAN: "Ojibwewaki" # Ojibwe Homeland
  HUB_NAME_STATE_MICHIGAN_city: "Mishimikinaak" # Mackinac Island
- HUB_NAME_STATE_MICHIGAN_mine: "Waawiiyaataanong"
- HUB_NAME_STATE_MICHIGAN_farm: "Sacenong"
- HUB_NAME_STATE_MICHIGAN_wood: "Kitchiwikwedongsing"
+ HUB_NAME_STATE_MICHIGAN_mine: "Waawiiyaataanong" # Detroit
+ HUB_NAME_STATE_MICHIGAN_farm: "Sacenong" # Saginaw
+ HUB_NAME_STATE_MICHIGAN_wood: "Kitchiwikwedongsing" # Traverse City
  #
  STATE_OHIO: "Shawandasse Tula" # Shawnee Land
  HUB_NAME_STATE_OHIO_city: "Chillicothe"
@@ -559,13 +615,13 @@
  HUB_NAME_STATE_OHIO_wood: "Coshocton"
  #
  STATE_RHODE_ISLAND: "Omaeqnomenew-ahkew"
- HUB_NAME_STATE_RHODE_ISLAND_city: "Gichi-namebini Ziibing"
- HUB_NAME_STATE_RHODE_ISLAND_farm: "Escanaba"
- HUB_NAME_STATE_RHODE_ISLAND_wood: "Baawitigong"
+ HUB_NAME_STATE_RHODE_ISLAND_city: "Gichi-namebini Ziibing" # Marquette
+ HUB_NAME_STATE_RHODE_ISLAND_farm: "Escanaba" # Escanaba
+ HUB_NAME_STATE_RHODE_ISLAND_wood: "Baawitigong" # Sault Sainte Marie
  #
- STATE_NEW_JERSEY: "Lënapehòkink" # Lenape Land
- HUB_NAME_STATE_NEW_JERSEY_city: "Shakamaxon"
- HUB_NAME_STATE_NEW_JERSEY_port: "Hupokàn"
+ STATE_NEW_JERSEY: "Lënapehòkink" # Lenape Land.
+ HUB_NAME_STATE_NEW_JERSEY_city: "Shakamaxon" # Philadelphia. Oh, would Romans latinize that to Shacamacum? Must investigate further.
+ HUB_NAME_STATE_NEW_JERSEY_port: "Hupokàn" # Hoboken. Latinize to Hupocum?
  HUB_NAME_STATE_NEW_JERSEY_mine: "Ramapough"
  #
  STATE_NEW_YORK: "Haudenosauneega" # Iroquois/Haudenosaunee Land
@@ -576,7 +632,7 @@
  #
  STATE_CONNECTICUT: "Monsiyok"
  HUB_NAME_STATE_CONNECTICUT_city: "Pishgachtigok"
- HUB_NAME_STATE_CONNECTICUT_port: "Novum Eboracum"
+ HUB_NAME_STATE_CONNECTICUT_port: "Novum Eboracum" # DO YOU GET WHAT CITY THIS REPRESENTS?
  HUB_NAME_STATE_CONNECTICUT_farm: "Rippowam"
  #
  STATE_MARYLAND: "Chesepiacum"
@@ -586,13 +642,17 @@
  HUB_NAME_STATE_MARYLAND_farm: "Villa Nova"
  #
  STATE_VERMONT: "Muhhekunneuw"
+ HUB_NAME_STATE_VERMONT_city: "Winoskik" # after the Winooski River
+ HUB_NAME_STATE_VERMONT_mine: "Ottauquechee" # A river in Vermont
+ HUB_NAME_STATE_VERMONT_farm: "Walloomsac" # after the Walloomsac River that goes through Bennington
+ HUB_NAME_STATE_VERMONT_wood: "Elligo-sigo" # Black River (Lake Memphremagog)
  #
  STATE_NEW_HAMPSHIRE: "Merruasquamack" # possible etymology of the Merrimack
  HUB_NAME_STATE_NEW_HAMPSHIRE_city: "Pannukog"
  HUB_NAME_STATE_NEW_HAMPSHIRE_port: "Pskehtekwis" # Piscataqua River
- HUB_NAME_STATE_NEW_HAMPSHIRE_mine:1 "Fairfield"
+ HUB_NAME_STATE_NEW_HAMPSHIRE_mine: "Ammoscongon" # Androscoggin River
  HUB_NAME_STATE_NEW_HAMPSHIRE_farm: "Namaoskeag" # Manchester
- HUB_NAME_STATE_NEW_HAMPSHIRE_wood:0 "Bartlett"
+ HUB_NAME_STATE_NEW_HAMPSHIRE_wood: "Winnisquam" # lake Winnisquam
  #
  STATE_WISCONSIN: "Wazidja"
  HUB_NAME_STATE_WISCONSIN_city: "Pūcīhkit" # Green Bay in Menominee
@@ -660,6 +720,8 @@
  STATE_PENNSYLVANIA: "Siskëwahane"
  HUB_NAME_STATE_PENNSYLVANIA_city: "Otzinachon" # Shamonkin/Fort Augusta
  HUB_NAME_STATE_PENNSYLVANIA_mine: "Pasakunk"
+ HUB_NAME_STATE_PENNSYLVANIA_farm: "Andastoerrhonon Kanata" # Susquennakock Town, fictitious. Andastoerrhonon is Wendat name for the Susquehannock, Kanata is Mohawk for town/city.
+ HUB_NAME_STATE_PENNSYLVANIA_wood: "Honniasont Kanata" # Honniasont Town, fictitious.
  #
  STATE_DELAWARE: "Nentego Ahkee"
  HUB_NAME_STATE_DELAWARE_city: "Maaxwaasunk"
@@ -871,13 +933,15 @@
  HUB_NAME_STATE_CUBA_city: "Habana"
  HUB_NAME_STATE_CUBA_port: "Caersaroportus" # Santiago de Cuba
  HUB_NAME_STATE_CUBA_mine:0 "Guantanamo"
- HUB_NAME_STATE_CUBA_farm:1 "Puerto Príncipe"
- HUB_NAME_STATE_CUBA_wood:0 "Santa Clara"
- HUB_NAME_STATE_BAHAMAS_city:0 "Congo Town"
- HUB_NAME_STATE_BAHAMAS_port:0 "Nassau"
- HUB_NAME_STATE_BAHAMAS_mine:0 "NAME"
- HUB_NAME_STATE_BAHAMAS_farm:0 "Nicholls Town"
- HUB_NAME_STATE_BAHAMAS_wood:0 "Andros Town"
+ HUB_NAME_STATE_CUBA_farm: "Camagüebacum" # Camagüey/Puerto Príncipe
+ HUB_NAME_STATE_CUBA_wood: "Sancta Clara" # Santa Clara
+ #
+ STATE_BAHAMAS: "Bahamanae"
+ HUB_NAME_STATE_BAHAMAS_city: "Neptunacum" # hell yeah let's name a town after Neptune, because these guys are semi-piratical and even if they're good christians, no mariner can resist some paganism
+ HUB_NAME_STATE_BAHAMAS_port: "Salona" # after the town in Dalmatia (Solin) and ancient capital of the Liburnians
+ HUB_NAME_STATE_BAHAMAS_mine: "Oppidum Libertorum" # Don't think the Bahamas use a mine hub but I wanted to plug in a name anyways
+ HUB_NAME_STATE_BAHAMAS_farm: "Sanctus Clemens" # Clement of Rome is one of several saints named as Patron Saint of Sailors
+ HUB_NAME_STATE_BAHAMAS_wood: "Andreas" # Andros Town
  #
  ### SOUTH AMERICA ###
  #
@@ -976,8 +1040,8 @@
  HUB_NAME_STATE_ALGIERS_wood: "Cartennae" # Ténès
  #
  HUB_NAME_STATE_TRIPOLI_city: "Garama"
- HUB_NAME_STATE_TRIPOLI_port:0 "Tripoli"
- HUB_NAME_STATE_TRIPOLI_mine:0 "Gadamis"
+ HUB_NAME_STATE_TRIPOLI_port: "Tripolis" # Tripoli, Libya
+ HUB_NAME_STATE_TRIPOLI_mine: "Cydamus" # Ghadames/Gadamis
  HUB_NAME_STATE_TRIPOLI_farm:0 "Tmassah"
  HUB_NAME_STATE_TRIPOLI_wood:0 "Murzuq"
  #
@@ -1025,3 +1089,20 @@
  HUB_NAME_STATE_SINDH_mine:0 "Mirpur Khas"
  HUB_NAME_STATE_SINDH_farm:0 "Nawabshah"
  HUB_NAME_STATE_SINDH_wood:0 "Sukkur"
+ #
+ ######## AUSTRALASIA ######
+ STATE_SOUTH_AUSTRALIA: "Millewa"
+ STATE_TASMANIA: "Lutruwita"
+ STATE_QUEENSLAND: "Candarace"
+ STATE_WESTERN_AUSTRALIA: "Guwinywardu"
+ STATE_NORTHERN_TERRITORY: "Gaagudju"
+ #
+ STATE_VICTORIA: "Tenggara"
+ HUB_NAME_STATE_VICTORIA_city: "Banda Selatan" # South City
+ HUB_NAME_STATE_VICTORIA_port: "Pelabuhan Gunnai"
+ HUB_NAME_STATE_VICTORIA_mine: "Lanjanuc" # Mount Alexander
+ HUB_NAME_STATE_VICTORIA_farm:0 "Warrnambool"
+ HUB_NAME_STATE_VICTORIA_wood: "Kauan"
+ #
+ STATE_NEW_SOUTH_WALES: "Murrumbidgee"
+ HUB_NAME_STATE_NEW_SOUTH_WALES_city: "Nganbra"

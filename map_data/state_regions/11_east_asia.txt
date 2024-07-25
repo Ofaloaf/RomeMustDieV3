@@ -1157,6 +1157,7 @@ STATE_KYUSHU = {
         bg_coal_mining = 72
         bg_lead_mining = 36
         bg_sulfur_mining = 40
+        bg_logging = 12
         bg_fishing = 18
     }
     naval_exit_id = 3058

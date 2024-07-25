@@ -1189,6 +1189,7 @@
 			}
 		}
 	}
+	# Dumnonia
 	s:STATE_WEST_COUNTRY={
 		region_state:DMN={
 			create_building={
@@ -1238,12 +1239,6 @@
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_sulfur_mine"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -1431,6 +1426,7 @@
 			}
 		}
 	}
+	# Ulaidh
 	s:STATE_ULSTER={
 		region_state:AIL={
 			create_building={
@@ -1502,10 +1498,17 @@
 	s:STATE_LEINSTER={
 		region_state:AIL={
 			create_building={
-				building="building_lead_mine"
-				level=3
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:AIL"
+						levels=3
+						region="STATE_LEINSTER"
+					}
+				}
 				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+				activate_production_methods={ "pm_steel" "pm_automation_disabled"  }
 			}
 			create_building={
 				building="building_food_industry"
@@ -1521,9 +1524,54 @@
 			}
 			create_building={
 				building="building_military_shipyards"
-				level=15
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_military_shipbuilding_wooden_2"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:AIL"
+						levels=2
+						region="STATE_LEINSTER"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:AIL"
+						levels=1
+						region="STATE_LEINSTER"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:AIL"
+						levels=3
+						region="STATE_LEINSTER"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_lead_mine"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1959,6 +2007,7 @@
 			}
 		}
 	}
+	# Suessionia
 	s:STATE_PICARDY={
 		region_state:GLL={
 			create_building={

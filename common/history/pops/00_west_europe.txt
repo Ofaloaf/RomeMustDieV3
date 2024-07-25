@@ -1052,21 +1052,21 @@
 			create_pop = {
 				culture = alemannic
 				religion = nicene
-				size = 208009
+				size = 178009
 			}
 			create_pop = {
 				culture = alemannic
 				religion = nicene
-				size = 112005
+				size = 82005
 			}
 			create_pop = {
 				culture = roman
-				size = 388400
+				size = 288400
 			}
 			create_pop = {
 				culture = roman
 				religion = arian
-				size = 186786
+				size = 136786
 			}
 		}
 	}
@@ -1074,22 +1074,22 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = gallic
-				size = 210672
+				size = 180672
 			}
 			
 			create_pop = {
 				culture = burgundian
-				size = 363002
+				size = 323002
 			}
 
 			create_pop = {
 				culture = roman
-				size = 290756
+				size = 230756
 			}
 			create_pop = {
 				culture = alemannic
 				religion = nicene
-				size = 206634
+				size = 186634
 			}
 		}
 	}

@@ -6,6 +6,8 @@
 			type = dominion
 		}
 	}
+
+
 	c:ERE = {
 		create_diplomatic_pact = {
 			country = c:BLC
@@ -50,18 +52,22 @@
 		}
 	}
 	
-	c:MEX = {
-		create_diplomatic_pact = {
-			country = c:TLX
-			type = puppet
-		}
-	}
-	
 	c:JAP = {
 		create_diplomatic_pact = {
 			country = c:MTS # Matsumae Dominion
 			type = vassal
 		}
+
+		create_diplomatic_pact = {
+			country = c:KAI # kaigai
+			type = dominion
+		}
+	}
+	c:MTS = {
+		add_liberty_desire = -20
+	}
+	c:KAI = {
+		add_liberty_desire = -30
 	}
 	
 	c:CHI = {
@@ -70,6 +76,10 @@
 			type = tributary
 		}
 	}
+	c:YUN = {
+		add_liberty_desire = -20
+	}
+
 	c:MAL = {
 		create_diplomatic_pact = {
 			# Kutoo Manden
@@ -77,6 +87,10 @@
 			type = dominion
 		}
 	}
+	c:KAI = {
+		add_liberty_desire = -30
+	}
+	
 	c:KNM = {
 		create_diplomatic_pact = {
 			country = c:BEN # Benin
@@ -99,6 +113,22 @@
 			type = protectorate
 		}
 	}
+	c:BEN = {
+		add_liberty_desire = -20
+	}
+	c:ZZZ = {
+		add_liberty_desire = -30
+	}
+	c:SOK = {
+		add_liberty_desire = -10
+	}
+	c:HAU = {
+		add_liberty_desire = -30
+	}
+	c:ILR = {
+		add_liberty_desire = -30
+	}
+
 	c:IGS = {
 		create_diplomatic_pact = {
 			country = c:JAS # Jaisalmer
@@ -121,4 +151,17 @@
 			type = protectorate
 		}
 	}
+
+	c:FRK = {
+		create_diplomatic_pact = {
+			country = c:LOU # Lodewijcslant
+			type = dominion
+		}
+	}
+	c:LOU = {
+		add_liberty_desire = -30
+	}
+
+
+
 }

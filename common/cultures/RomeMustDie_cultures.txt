@@ -178,7 +178,7 @@
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 frankish={
@@ -611,7 +611,7 @@ septimanian={
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 brithenig = {
@@ -801,7 +801,7 @@ hispanian = {
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 chesepian = {
@@ -948,7 +948,7 @@ ulpianic = {
 	ethnicities = {
 		1 = south_american
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 antillian = {
@@ -1015,7 +1015,7 @@ antillian = {
 		2 = native_american
 		1 = african
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 gothic = { # Occitan, basically
@@ -1166,7 +1166,7 @@ africanu = { # African Romance, with some Vandals
 		9 = arab
 		1 = slavic
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 ojibwe={
@@ -1459,7 +1459,7 @@ sardinian={
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 burgundian = { # Arpetan with some Swiss Latin thrown in
@@ -1594,7 +1594,7 @@ illyrian={ # Dalmatian, with some Illyrian names droppped in either in purestrai
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 thuringian = {
@@ -2385,7 +2385,7 @@ new_anatolic={
 		1 = north_caucasian
 		1 = arab
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 chibchan={
@@ -2558,7 +2558,7 @@ neoanahuacan = {
 	ethnicities = {
 		1 = south_american
 	}
-	graphics = decentralised_americas
+	graphics = european
 }
 
 afro_novomundan={
@@ -2627,7 +2627,7 @@ afro_novomundan={
 	ethnicities = {
 		1 = african
 	}
-	graphics = decentralised_americas
+	graphics = african
 }
 
 charrua={ # Not many attested Charruan names tbh. Added in some Guarani and Mapuche names.
@@ -2667,4 +2667,100 @@ charrua={ # Not many attested Charruan names tbh. Added in some Guarani and Mapu
 		1 = native_american
 	}
 	graphics = decentralised_americas
+}
+
+selatanic={ # Malay, with some Tamil and Cantonese influences
+	color= hsv{ 0.92 0.49 0.60 }
+	religion = hindu
+	traits = { southeast_asian_heritage malay_culture }
+	male_common_first_names={
+		Anom Arifin Arumugam
+		Bambang
+		Cirebon
+		Iskandar
+		Karijosoedarmo
+		Marpuah
+		Ngabdurohman
+		Panembahan Palanivel
+		Sarip Slamet Solikin Soegija Soeharto Soekarno
+		Uthayakumar
+		Vigneswaran
+		Weeratunge
+	}
+	female_common_first_names = {
+		Bini
+		Megawati
+		Siti Soimah Sunarti Soepiah
+		Tatiek
+	}	
+	noble_last_names = {
+		Cakraningrat
+		Djajadiningrat Djojohadikusumo
+		Hamengkubuwono
+		Notomidjojo
+		Pakualaman
+		Soerjowinoto Sastrowardoyo
+	}
+	common_last_names={
+		Arulanandam
+		Balan Balasubramaniam Bian
+		Chandran
+		Ditta
+		Gnanalingam Govindasamy
+		Iyer
+		Jay
+		Kali Kamalanathan Kayveas Krshnan Kulasegaran Kunanlan Kiandee
+		Magendran Maniam Manickavasagam Manogaran Menon Moorthy Mudaliar Murugan
+		Natadiningrat Nurus Nadarajah Nair Nanthakumar
+		Ponnusamy Perera Patto
+		Rengasamy
+		Salihin Sepuh Sanasee_Thevar
+		Tajul Tan Too Thevandran Thalalla
+		Uthayakumar
+		Vasudevan
+	}
+	male_regal_first_names = {
+		Antasena
+		Duksina Dorodjatun
+		Gathot_Menol
+		Ibnu_Jarot
+		Kuseini 
+		Mustojo Murtejo
+		Sapardan Sugandi Sundoro Surojo Sujana Sujadi Subadya
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+
+tagalog={
+	color= hsv{ 0.18 0.56 0.86 }
+	religion = hindu
+	traits = { indigenous_oceanic_heritage malay_culture }
+	male_common_first_names={
+		Apanoaan
+		Balinguit Busan
+		Jayadewa
+		Lakan
+		Namwaran 
+		Pitonggatan
+	}
+	female_common_first_names = {
+		Angkatan
+		Bukah
+	}	
+	#noble_last_names = {
+	#}
+	common_last_names={
+		Basi
+		Mangali Mandaui
+		Nakpil
+		Polo Pandacan
+		Salonga Surabao
+	}
+	ethnicities = {
+		1 = south_east_asian
+	}
+	graphics = east_asian
 }

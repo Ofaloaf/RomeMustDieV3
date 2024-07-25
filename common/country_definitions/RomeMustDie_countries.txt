@@ -1610,7 +1610,7 @@ TPE = { # Tapé
 	capital = STATE_RIO_GRANDE_DO_SUL
 }
 
-KNG = { # Kaingang
+KGG = { # Kaingang
 	color = { 173 152 3 }
 	
 	country_type = unrecognized
@@ -1708,3 +1708,326 @@ BWH = { # Bawihka
 	cultures = { muisca }
 	capital = STATE_NICARAGUA
 }
+
+SLT = { # Selatan
+	color = { 77  139  106 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	capital = STATE_VICTORIA
+	cultures = { selatanic }
+}
+
+KNY = { # Kunanyi
+	color = { 224 194 152 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	capital = STATE_TASMANIA
+	cultures = { selatanic }
+}
+
+
+#############
+
+YLN = { # Yolngu
+	color = { 78 11 105 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+MRR = { # Murri
+	color = { 55 24 41 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_QUEENSLAND
+}
+
+WDH = { # Wiradhuric
+	color = { 140 70 67 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NEW_SOUTH_WALES
+}
+
+PAA = { # Paaka, aka the Darling River
+	color = { 167 134 57 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NEW_SOUTH_WALES
+}
+
+NGJ = { # Ngarrindjeri
+	color = { 48 33 107 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NEW_SOUTH_WALES
+}
+
+MND = { # Munda
+	color = { 12 82 215 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NEW_SOUTH_WALES
+}
+
+NHR = { # Nharla Confederacy
+	color = { 236 232 85 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NEW_SOUTH_WALES
+}
+
+BMC = { # Bama Confederacy, from what seems to be the Paman word for person or people, Bama
+	color = { 207 182 66 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_QUEENSLAND
+}
+
+NRT = { # Ngāti Rātō, made-up Maori iwi that I think means "People of the Sunset" or "West" in a really poetic way.
+	color = { 207 166 82 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { maori }
+	capital = STATE_QUEENSLAND
+}
+
+NGK = { # Ngāti Kahungunu
+	color = { 107 66 228 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { maori }
+	capital = STATE_NORTH_ISLAND
+}
+
+KBI = { # Kabi/Waka-Gabi
+	color = { 252 112 227 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_QUEENSLAND
+}
+
+YRH = { # yirandhali
+	color = { 78 146 22 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_QUEENSLAND
+}
+
+NGR = { # Ngarna
+	color = { 92 142 220 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+KLK = { # Kalkatungic
+	color = { 132 219 205 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_QUEENSLAND
+}
+
+YRA = { # Yura
+	color = { 218 76 144 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_SOUTH_AUSTRALIA
+}
+
+KTU = { # Kartu
+	color = { 244 126 55 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_WESTERN_AUSTRALIA
+}
+
+NGY = { # Bilybara, previously Ngumpin-Yapa
+	color = { 18 141 110 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+WRM = { # Warumungu
+	color = { 14 37 16 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+GRW = { # Garawan
+	color = { 190 16 32 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+WBY = { # Wambaya
+	color = { 147 72 6 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+WDM = { # Wardaman
+	color = { 178 188 126 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+WGM = { # Wagiman
+	color = { 21 108 207 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+GOO = { # Goonoonoorrang
+	color = { 113 111 2 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_WESTERN_AUSTRALIA
+}
+
+MTW = { # Martuwarra
+	color = { 167 238 241 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_WESTERN_AUSTRALIA
+}
+
+WOR = { # Worrorran
+	color = { 206 205 45 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_WESTERN_AUSTRALIA
+}
+
+MAT = { # Mait, or Ma-I
+	color = { 113 78 117 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { tagalog }
+	capital = STATE_LUZON
+}
+
+IBL = { # Ibalong
+	color = { 211 202 197 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { tagalog }
+	capital = STATE_LUZON
+}
+
