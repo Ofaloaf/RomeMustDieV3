@@ -290,3 +290,53 @@ YLN = { # Yolngu
 		priority = 1
 	}
 }
+
+CTF = { # Council of Three Fires
+	flag_definition = {
+		coa = CTF
+		subject_canton = CTF
+		priority = 1
+	}
+}
+
+SER = { # Serbia
+	flag_definition = {
+		coa = SER_archaic
+		subject_canton = SER_archaic
+		allow_overlord_canton = yes			
+		coa_with_overlord_canton = SER_subject					
+		priority = 100 # to overwrite any existing vanilla flags
+	}
+}
+
+NVG = { # Novgorod
+	flag_definition = {
+		coa = NVG
+		subject_canton = NVG
+		priority = 1
+	}
+}
+
+SZD = { # Suzdal
+	flag_definition = {
+		coa = SZD
+		subject_canton = SZD
+		priority = 1
+	}
+}
+
+PLM = { # Pelym
+	flag_definition = {
+		coa = PLM
+		subject_canton = PLM
+		priority = 1
+	}
+}
+
+SML = { # Smolensk
+	flag_definition = {
+		coa = SML
+		subject_canton = SML
+		priority = 1
+	}
+}

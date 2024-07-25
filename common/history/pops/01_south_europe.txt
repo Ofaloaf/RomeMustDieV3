@@ -3,7 +3,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1449137
+				size = 1249137
 			}
 			create_pop = {
 				culture = roman
@@ -21,7 +21,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1430344
+				size = 830344
 			}
 			create_pop = {
 				culture = roman
@@ -41,7 +41,7 @@
 	s:STATE_MALTA = {
 		region_state:WRE = {
 			create_pop = {
-				culture = maltese
+				culture = africanu
 				size = 117192
 			}
 			create_pop = {
@@ -84,7 +84,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1687881
+				size = 1287881
 			}
 		}
 	}
@@ -146,7 +146,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1069050
+				size = 869050
 			}
 			create_pop = {
 				culture = roman
@@ -190,7 +190,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1101656
+				size = 701656
 			}
 			create_pop = {
 				culture = roman
@@ -208,7 +208,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1087413
+				size = 987413
 			}
 		}
 	}
@@ -216,7 +216,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 1268400
+				size = 968400
 			}
 		}
 	}
@@ -225,7 +225,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = galician
-				size = 828528
+				size = 728528
 			}
 			create_pop = {
 				culture = hispanian
@@ -249,7 +249,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 1430808
+				size = 830808
 			}
 			create_pop = {
 				culture = basque
@@ -273,7 +273,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 1172196
+				size = 772196
 			}
 			create_pop = {
 				culture = basque
@@ -285,7 +285,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 1021112
+				size = 921112
 			}
 		}
 	}
@@ -305,7 +305,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 1057592
+				size = 787592
 			}
 		}
 	}
@@ -313,7 +313,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 1218404
+				size = 818404
 			}
 			create_pop = {
 				culture = roman
@@ -333,7 +333,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 1479996
+				size = 1079996
 			}
 		}
 	}
@@ -341,7 +341,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 1620800
+				size = 820800
 			}
 		}
 	}
@@ -349,7 +349,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 860796
+				size = 660796
 			}
 		}
 	}
@@ -401,40 +401,40 @@
 			create_pop = {
 				culture = greek
 				religion = nicene
-				size = 832996
+				size = 1232996
 			}
 			create_pop = {
 				culture = greek
 				religion = arian
-				size = 281992
+				size = 381992
 			}
 			create_pop = {
 				culture = illyrian
-				size = 7996
+				size = 24996
 			}
 			create_pop = {
 				culture = roman
 				religion = nicene
-				size = 80004
+				size = 120004
 			}
 			create_pop = {
 				culture = armenian
-				size = 67996
+				size = 97996
 			}
 			create_pop = {
 				culture = greek
 				religion = jewish
-				size = 50004
+				size = 75004
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = north_caucasian
-				size = 6000
+				size = 9000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = lacustrine_bantu
-				size = 16000
+				size = 24000
 			}
 		}
 	}
@@ -492,11 +492,11 @@
 			}
 			create_pop = {
 				culture = illyrian
-				size = 662400
+				size = 462400
 			}
 			create_pop = {
 				culture = greek
-				size = 133996
+				size = 103996
 			}
 		}
 	}
@@ -585,7 +585,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = illyrian
-				size = 563592
+				size = 503592
 			}
 			create_pop = {
 				culture = roman
@@ -594,11 +594,11 @@
 			}
 			create_pop = {
 				culture = greek
-				size = 68396
+				size = 58396
 			}
 			create_pop = {
 				culture = roman
-				size = 176000
+				size = 136000
 			}
 		}
 	}
@@ -627,7 +627,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 197800
+				size = 847800
 			}
 			create_pop = {
 				culture = greek
@@ -636,7 +636,7 @@
 			}
 			create_pop = {
 				culture = suebian
-				size = 324504
+				size = 274504
 			}
 			create_pop = {
 				culture = roman
@@ -702,11 +702,11 @@
 		region_state:ERE = {
 			create_pop = {
 				culture = roman
-				size = 9992
+				size = 18992
 			}
 			create_pop = {
 				culture = greek
-				size = 130000
+				size = 260000
 			}
 		}
 	}
@@ -795,26 +795,30 @@
 		region_state:DRG = {
 			create_pop = {
 				culture = sklavinian
-				size = 95204
+				size = 290408
 			}
 			create_pop = {
 				culture = greek
-				size = 72000
+				size = 144000
 			}
 		}
 		region_state:ERE = {
 			create_pop = {
 				culture = roman
-				size = 42000
+				size = 82000
 			}
 			create_pop = {
 				culture = greek
-				size = 194000
+				size = 588000
 			}
 			create_pop = {
 				culture = greek
 				religion = jewish
-				size = 42900
+				size = 84900
+			}
+			create_pop = {
+				culture = sklavinian
+				size = 95204
 			}
 		}
 	}
@@ -830,12 +834,12 @@
 			}
 			create_pop = {
 				culture = roman
-				size = 20000
+				size = 40000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = sklavinian
-				size = 11800
+				size = 41800
 			}
 
 		}
@@ -860,7 +864,7 @@
 		region_state:ERE = {
 			create_pop = {
 				culture = greek
-				size = 221996
+				size = 441996
 			}
 		}
 	}
