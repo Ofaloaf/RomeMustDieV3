@@ -1440,7 +1440,7 @@
 	s:STATE_VERACRUZ = { # 242658 in 1830, 259463 in 1840
 		region_state:MEX = {
 			create_pop = {
-				culture = neoanahuacan
+				culture = nahua
 				size = 130551
 			}	
 			create_pop = {
@@ -1516,12 +1516,11 @@
 	s:STATE_MEXICO = {
 		region_state:MEX = {
 			create_pop = {
-				culture = neoanahuacan
+				culture = nahua
 				size = 763486
 			}
 			create_pop = {
 				culture = mixtec
-				religion = nicene
 				size = 39996
 			}
 			create_pop = {
@@ -1547,7 +1546,7 @@
 	s:STATE_GUERRERO = { 
 		region_state:MEX = {
 			create_pop = {
-				culture = neoanahuacan
+				culture = nahua
 				size = 114874
 			}
 			create_pop = {
@@ -1567,7 +1566,7 @@
 	s:STATE_OAXACA = { # approx 479674. 457504 in 1830, 501844 in 1840.
 		region_state:MEX = {
 			create_pop = {
-				culture = neoanahuacan
+				culture = nahua
 				size = 143903
 			}
 			create_pop = {

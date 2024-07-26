@@ -167,7 +167,7 @@
 	s:STATE_SOUTH_AUSTRALIA = {
 		region_state:SLT = {
 			create_pop = {
-				culture = british
+				culture = selatanic
 				size = 11703
 			}
 			create_pop = {
@@ -225,7 +225,7 @@
 				size = 4014
 			}
 			create_pop = {
-				culture = british
+				culture = selatanic
 				size = 18485
 			}
 		}

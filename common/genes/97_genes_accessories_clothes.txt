@@ -604,8 +604,7 @@
 			girl = female
 
 		}
-
-		
+			
 		european_outfits_agitator = {
 			index = 36
 			male = {
@@ -956,7 +955,21 @@
 			}
 			boy = male
 			girl = female
-
+		}
+		
+		mesoamerican_outfits = {
+			index = 59
+			male = {
+				2 = male_outfit_polynesian_01_low
+				1 = male_outfit_african_common_03
+				
+			}
+			female = {
+				1 = female_outfit_african_common_01
+				1 = female_outfit_african_common_03
+			}
+			boy = male
+			girl = female
 		}
 	}
 
@@ -2867,7 +2880,21 @@
 				}
 				boy = male
 				girl = female
-			} 			
+			} 	
+
+			mesoamerican_cloak = {
+				index = 21
+				male = {
+					1 = male_clothes_secular_roman_senate_01
+					1 = male_top_layer_native_american_01
+				}
+				female = {
+					#
+				}
+
+				boy = male
+				girl = female
+			}			
 		}
 
 

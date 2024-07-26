@@ -90,7 +90,7 @@
   germanic_frankish_nation_button_desc: "We are part of a vast Germanic brotherhood. Let us proclaim our great fraternity to the world!"
   #
   clan_mother: "Clan Mother"
-  clan_mother_desc: "TODO CD"
+  clan_mother_desc: "Although there still may be gendered roles and expectations, women have much greater say in political activities in certain cultures."
   #
   party_amici_populi: "Amici Populi"
 
@@ -117,3 +117,6 @@
   #
   state_trait_malaria: "Mosquito-Borne Fever"
   state_trait_severe_malaria: "Severe Mosquito-Borne Fever"
+  #
+  building_vatican_city: "Vatican Palace"
+  pm_default_building_vatican_city: "Vatican Palace"
