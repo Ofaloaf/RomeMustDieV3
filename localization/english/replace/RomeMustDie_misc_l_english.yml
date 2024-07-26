@@ -117,3 +117,6 @@
   #
   state_trait_malaria: "Mosquito-Borne Fever"
   state_trait_severe_malaria: "Severe Mosquito-Borne Fever"
+  #
+  building_vatican_city: "Vatican Palace"
+  pm_default_building_vatican_city: "Vatican Palace"

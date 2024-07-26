@@ -149,7 +149,7 @@ idle = {
 			}
 		}
 
-		rifle_pop_idle = {
+		crossbow_pop_idle = {
 			animation = { head = "idle_head_struggle_pop_pitchfork" torso = "idle_body_crossbow" }
 
 			weight = {
@@ -159,11 +159,34 @@ idle = {
 					add = 110
 					soldier_clothes_pop_trigger = yes
 					struggling_pop_trigger = no
+					scope:pop ?= {
+						owner ?= {
+							NOT = { has_technology_researched = gunsmithing }
+						}
+					}
 				}
 			}
 			portrait_modifier = { animations_props = crossbow_attachment }
 		}
+		rifle_pop_idle = {
+			animation = { head = "idle_head_pop_holyscripture" torso = "idle_body_rifle" }
 
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 1000
+					soldier_clothes_pop_trigger = yes
+					struggling_pop_trigger = no
+					scope:pop ?= {
+						owner ?= {
+							has_technology_researched = gunsmithing
+						}
+					}
+				}
+			}
+			portrait_modifier = { animations_props = rifle_attachment }
+		}
 		pitchfork_pop_idle = {
 			animation = { head = "idle_head_pop_wrench" torso = "idle_body_pitchfork" }
 
@@ -457,21 +480,44 @@ idle = {
 			portrait_modifier = { animations_props = umbrella_attachment }
 		}
 
-		rifle_pop_idle_struggle = {
+		crossbow_pop_idle_struggle = {
 			animation = { head = "idle_head_struggle_pop_umbrella" torso = "idle_body_struggle_crossbow" }
 
 			weight = {
 				base = 0
 
 				modifier = {
-					add = 150
+					add = 110
 					soldier_clothes_pop_trigger = yes
 					struggling_pop_trigger = yes
+					scope:pop ?= {
+						owner ?= {
+							NOT = { has_technology_researched = gunsmithing }
+						}
+					}
 				}
 			}
 			portrait_modifier = { animations_props = crossbow_attachment }
 		}
+		rifle_pop_idle_struggle = {
+			animation = { head = "idle_head_struggle_pop_pitchfork" torso = "idle_body_struggle_rifle" }
 
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 1000
+					soldier_clothes_pop_trigger = yes
+					struggling_pop_trigger = yes
+					scope:pop ?= {
+						owner ?= {
+							has_technology_researched = gunsmithing
+						}
+					}
+				}
+			}
+			portrait_modifier = { animations_props = rifle_attachment }
+		}
 		pitchfork_pop_idle_struggle = {
 			animation = { head = "idle_head_struggle_pop_pitchfork" torso = "idle_body_struggle_pitchfork" }
 

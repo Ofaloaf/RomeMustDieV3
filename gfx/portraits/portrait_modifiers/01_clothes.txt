@@ -1104,6 +1104,230 @@
 			}
 		}
 	}
+	
+    #Native America
+
+    subarctic_native_american_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = native_american_outfits_north
+                range = { 0 1 } # For the randomness to work correctly
+            }
+
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+
+                native_american_clothes_pop_trigger = yes
+                cold_clothes_pop_trigger = yes
+            }
+			modifier = {
+				add = 500
+				scope:pop ?= {
+					OR = {
+						culture = cu:ugrian
+						culture = cu:finnish
+						culture = cu:sami
+					}
+				}
+				poor_clothes_pop_trigger = yes
+			}
+        }
+    }
+
+    native_american_clothes_low = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = native_american_outfits
+                range = { 0 0.5 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = native_american_legwear
+                range = { 0 0.33 } # For the randomness to work correctly
+            }
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                AND = {
+                    native_american_clothes_pop_trigger = yes
+                    poor_clothes_pop_trigger = yes
+                }
+            }
+        }
+    }
+
+   native_american_clothes_mid = {
+    dna_modifiers = {
+        accessory = {
+            mode = add
+            gene = outfits
+            template = native_american_outfits
+            range = { 0.45 0.55 }
+        }
+		
+        accessory = {
+            mode = add
+            gene = legwear
+            template = native_american_legwear
+            range = { 0 0.33 } # For the randomness to work correctly
+        }
+    } 
+
+    weight = {
+        base = 0
+        modifier = {
+            add = 1000
+                AND = {
+                    native_american_clothes_pop_trigger = yes
+                    OR = {
+                        middle_clothes_pop_trigger = yes
+                        upper_clothes_pop_trigger = yes
+                        soldier_clothes_pop_trigger = yes
+                    }
+                    clergy_clothes_pop_trigger = no
+                }
+            }
+        }
+    }
+
+     native_american_clothes_high = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = native_american_outfits
+                range = { 0.7 1 }
+            }
+                        accessory = {
+                mode = add
+                gene = legwear
+                template = native_american_legwear
+                range = { 0 0.33 } # For the randomness to work correctly
+            }
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                AND = {
+                    native_american_clothes_pop_trigger = yes
+                    clergy_clothes_pop_trigger = yes
+                }
+            }
+        }
+    }
+
+    native_american_male_ruler_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = native_american_outfits
+                range = { 0.7 1 } # For the randomness to work correctly
+            }
+
+     #       accessory = {
+     #           mode = add
+     #           gene = top_layer
+     #           template = native_american_top_layer
+     #           range = { 0 1 } # For the randomness to work correctly
+     #       }
+
+            accessory = {
+                mode = add
+                gene = legwear
+                template = native_american_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+
+                AND = {
+                    native_american_clothes_trigger = yes
+                    ruler_clothes_trigger = yes
+                }
+                scope:character = {
+                    is_female = no
+                    culture = cu:inuit 
+                }
+            }
+        }
+    }
+
+    native_american_female_ruler_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = native_american_outfits
+                range = { 0.0 1 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+
+                AND = {
+                    native_american_clothes_trigger = yes
+                    ruler_clothes_trigger = yes
+                }
+                scope:character = {
+                    is_female = yes
+                }
+            }
+        }
+    }
+
+    native_american_character_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = native_american_outfits
+                range = { 0.3 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = native_american_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+
+                native_american_clothes_trigger = yes
+                scope:character = {
+                    is_ruler = no
+                    NOT = { 
+                        culture = cu:inuit
+                    }
+                }
+            }
+        }
+    }
 
 	eastern_woodlands_romanized_ruler = {
 		dna_modifiers = {
@@ -1132,7 +1356,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 5000
 				
 				scope:character ?= {
 					is_ruler = yes
@@ -1165,7 +1389,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 5000
 				
 				poor_clothes_pop_trigger = yes
 				scope:pop ?= {
@@ -1198,7 +1422,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 5000
 				
 				middle_clothes_pop_trigger = yes
 				scope:pop ?= {
@@ -1231,12 +1455,13 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 5000
 				
 				scope:pop ?= {
 					OR = {
 						is_pop_type = capitalists
 						is_pop_type = academics
+						is_pop_type = officers
 					}
 					culture = {
 						has_discrimination_trait = indigenous_american_heritage
@@ -1913,6 +2138,251 @@
                     }
                 }
             }
+        }
+    }
+	
+    persian_landowners_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = male_outfit_arabic_royal_01
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = slavic_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = belts
+                template = no_belt
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 5000
+
+                OR = {
+                    scope:pop ?= {
+                        is_pop_type = aristocrats
+                        culture = {
+                            has_discrimination_trait = iranian_turanian_culture_group
+                        }
+                    }
+                    scope:character ?= {
+                        is_interest_group_type = ig_landowners
+                        age >= define:NCharacters|ADULT_AGE
+                        has_role = politician
+                        NAND = {    # monarchs wear other stuff
+                            is_ruler = yes
+                            owner ?={
+                                has_law = law_type:law_monarchy
+                            }
+                        }
+                        culture = {
+                            has_discrimination_trait = iranian_turanian_culture_group
+                            has_discrimination_trait = middle_eastern_heritage
+                        }
+                    }
+                    scope:character ?= {
+                        is_ruler = yes
+                        age >= define:NCharacters|ADULT_AGE
+                        culture = {
+                            has_discrimination_trait = iranian_turanian_culture_group
+                            has_discrimination_trait = central_asian_heritage
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    persian_monarch_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = persian_royal_coat
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = necklaces
+                template = persian_royal_jewelry
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = belts
+                template = persian_royal_belt
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = legwear
+                template = brazilian_white_legwear
+                accessory = male_legwear_south_american_01_brazilian
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 5000
+
+                has_dlc_feature = ep1_cosmetics
+
+                scope:character ?= {
+                    is_ruler = yes
+                    is_female = no
+                    owner ?= {
+                        c:PER ?= this
+                        has_law = law_type:law_monarchy
+                    }
+                    culture = {
+                        has_discrimination_trait = iranian_turanian_culture_group
+                        has_discrimination_trait = middle_eastern_heritage
+                    }
+                }
+            }
+        }
+    }
+	
+    arabic_poor_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = arabic_outfits
+                range = { 0.25 0.5 } # For the randomness to work correctly
+            }
+        } 
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                OR = {
+                    AND = {
+                        scope:pop ?= {
+                            culture = {
+                                has_discrimination_trait = ethiopian
+                            }
+                        }
+                        OR = {
+                            soldier_clothes_pop_trigger = yes
+                            poor_clothes_pop_trigger = yes
+                        }
+                    }
+                    AND = {
+                        OR = {
+                            arabic_clothes_pop_trigger = yes
+                            AND = {
+                                exists = scope:pop
+                                scope:pop = {
+                                    culture = cu:berber
+                                }
+                            }
+                            AND = {
+                                exists = scope:pop
+                                scope:pop = {
+                                    culture = cu:tuareg
+                                }
+                            }
+                        }
+                        poor_clothes_pop_trigger = yes
+                    }
+                }
+            }
+        }
+    }
+   arabic_soldier_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = coats
+                template = arabic_coats
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = european_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                AND = {
+                    OR = {
+                        arabic_clothes_pop_trigger = yes
+                        central_asian_clothes_pop_trigger = yes
+                    }
+                    OR = {
+                        soldier_clothes_pop_trigger = yes
+                        officers_clothes_pop_trigger = yes
+                    }
+                }
+            }
+        }
+    }
+    arabic_middle_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = arabic_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        } 
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                AND = {
+                    OR = {
+                        arabic_clothes_pop_trigger = yes
+                        scope:pop ?= {
+                            culture = {
+                                has_discrimination_trait = ethiopian
+                            }
+                        }
+                    }
+                    middle_clothes_pop_trigger = yes
+                }
+           }
+        }
+    }
+    arabic_upper_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = arabic_upper_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        } 
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                AND = {
+                    arabic_clothes_pop_trigger = yes
+                    upper_clothes_pop_trigger = yes
+                }
+           }
         }
     }
 }
