@@ -143,6 +143,36 @@
         }
     }
 	
+    semitic_religious_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = arabic_upper_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+				
+				OR = {
+					muslim_clothes_pop_trigger = yes
+					scope:pop ?= {
+						religion = rel:oriental_orthodox
+					}
+					AND = {
+						european_clothes_pop_trigger = no
+						jewish_clothes_pop_trigger = yes
+					}
+				}
+				clergy_clothes_pop_trigger = yes
+            }
+        }
+    }
+	
     buddhist_religious_clothes = {
         dna_modifiers = {
             accessory = {
@@ -1183,6 +1213,120 @@
 			}
         }
     }
+	
+    mesoamerican_south_american_pop_clothes = {
+        dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = mesoamerican_outfits
+				range = { 0 1 } # For the randomness to work correctly
+			}
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+				
+				clergy_clothes_pop_trigger = no
+				poor_clothes_pop_trigger = yes
+				
+				scope:pop ?= {
+					culture = {
+						has_discrimination_trait = indigenous_american_heritage
+						OR = {
+							has_discrimination_trait = native_mesoamerican_culture_group
+							has_discrimination_trait = south_american_group
+						}
+					}
+				}
+            }
+        }
+    }
+	
+    mesoamerican_south_american_upper_clothes = {
+        dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = top_layer
+				template = mesoamerican_cloak
+				range = { 0.51 1 }
+			}
+			accessory = {
+				mode = add
+				gene = outfits
+				template = mesoamerican_outfits
+				range = { 0.66 1 } # For the randomness to work correctly
+			}
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+				
+				clergy_clothes_pop_trigger = no
+				poor_clothes_pop_trigger = no
+				
+				scope:pop ?= {
+					culture = {
+						has_discrimination_trait = indigenous_american_heritage
+						OR = {
+							has_discrimination_trait = native_mesoamerican_culture_group
+							has_discrimination_trait = south_american_group
+						}
+					}
+				}
+            }
+			modifier = {
+				add = 1000
+				
+				scope:character ?= {
+					culture = {
+						has_discrimination_trait = indigenous_american_heritage
+						has_discrimination_trait = native_mesoamerican_culture_group
+					}
+				}
+			}
+        }
+    }
+	
+    mesoamerican_south_american_clergy_clothes = {
+        dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = top_layer
+				template = mesoamerican_cloak
+				range = { 0.51 1 }
+			}
+			accessory = {
+				mode = add
+				gene = outfits
+				template = mesoamerican_outfits
+				range = { 0.66 1 } # For the randomness to work correctly
+			}
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+				
+				clergy_clothes_pop_trigger = yes
+				
+				scope:pop ?= {
+					culture = {
+						has_discrimination_trait = indigenous_american_heritage
+						OR = {
+							has_discrimination_trait = native_mesoamerican_culture_group
+							has_discrimination_trait = south_american_group
+						}
+					}
+				}
+            }
+        }
+    }
 
     native_american_clothes_low = {
         dna_modifiers = {
@@ -1204,10 +1348,18 @@
             base = 0
             modifier = {
                 add = 1000
-                AND = {
-                    native_american_clothes_pop_trigger = yes
-                    poor_clothes_pop_trigger = yes
-                }
+				
+				poor_clothes_pop_trigger = yes
+				
+				scope:pop ?= {
+					culture = {
+						has_discrimination_trait = indigenous_american_heritage
+						NOR = {
+							has_discrimination_trait = native_mesoamerican_culture_group
+							has_discrimination_trait = south_american_group
+						}
+					}
+				}
             }
         }
     }
@@ -1233,15 +1385,21 @@
         base = 0
         modifier = {
             add = 1000
-                AND = {
-                    native_american_clothes_pop_trigger = yes
-                    OR = {
-                        middle_clothes_pop_trigger = yes
-                        upper_clothes_pop_trigger = yes
-                        soldier_clothes_pop_trigger = yes
-                    }
-                    clergy_clothes_pop_trigger = no
-                }
+				scope:pop ?= {
+					culture = {
+						has_discrimination_trait = indigenous_american_heritage
+						NOR = {
+							has_discrimination_trait = native_mesoamerican_culture_group
+							has_discrimination_trait = south_american_group
+						}
+					}
+				}
+				OR = {
+					middle_clothes_pop_trigger = yes
+					upper_clothes_pop_trigger = yes
+					soldier_clothes_pop_trigger = yes
+				}
+				clergy_clothes_pop_trigger = no
             }
         }
     }
@@ -1254,7 +1412,7 @@
                 template = native_american_outfits
                 range = { 0.7 1 }
             }
-                        accessory = {
+            accessory = {
                 mode = add
                 gene = legwear
                 template = native_american_legwear
@@ -1266,77 +1424,16 @@
             base = 0
             modifier = {
                 add = 1000
-                AND = {
-                    native_american_clothes_pop_trigger = yes
-                    clergy_clothes_pop_trigger = yes
-                }
-            }
-        }
-    }
-
-    native_american_male_ruler_clothes = {
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = outfits
-                template = native_american_outfits
-                range = { 0.7 1 } # For the randomness to work correctly
-            }
-
-     #       accessory = {
-     #           mode = add
-     #           gene = top_layer
-     #           template = native_american_top_layer
-     #           range = { 0 1 } # For the randomness to work correctly
-     #       }
-
-            accessory = {
-                mode = add
-                gene = legwear
-                template = native_american_legwear
-                range = { 0 1 } # For the randomness to work correctly
-            }
-        }
-
-        weight = {
-            base = 0
-            modifier = {
-                add = 1000
-
-                AND = {
-                    native_american_clothes_trigger = yes
-                    ruler_clothes_trigger = yes
-                }
-                scope:character = {
-                    is_female = no
-                    culture = cu:inuit 
-                }
-            }
-        }
-    }
-
-    native_american_female_ruler_clothes = {
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = outfits
-                template = native_american_outfits
-                range = { 0.0 1 } # For the randomness to work correctly
-            }
-        }
-
-        weight = {
-            base = 0
-            modifier = {
-                add = 1000
-
-                AND = {
-                    native_american_clothes_trigger = yes
-                    ruler_clothes_trigger = yes
-                }
-                scope:character = {
-                    is_female = yes
-                }
+				scope:pop ?= {
+					culture = {
+						has_discrimination_trait = indigenous_american_heritage
+						NOR = {
+							has_discrimination_trait = native_mesoamerican_culture_group
+							has_discrimination_trait = south_american_group
+						}
+					}
+				}
+                clergy_clothes_pop_trigger = yes
             }
         }
     }
@@ -1361,14 +1458,18 @@
             base = 0
             modifier = {
                 add = 1000
-
-                native_american_clothes_trigger = yes
-                scope:character = {
-                    is_ruler = no
-                    NOT = { 
-                        culture = cu:inuit
-                    }
-                }
+				
+				scope:character ?= {
+					is_ruler = yes
+					culture = {
+						has_discrimination_trait = indigenous_american_heritage
+						NOR = {
+							has_discrimination_trait = eastern_woodlands
+							has_discrimination_trait = south_american_group
+							cu:inuit = this
+						}
+					}
+				}
             }
         }
     }
@@ -2898,6 +2999,211 @@
                     }
                 }
             }
+        }
+    }
+	
+### South East Asia ###
+    south_east_asia_poor_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = indian_common_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                south_east_asia_clothes_pop_trigger = yes
+                OR = {
+                    poor_clothes_pop_trigger = yes
+                    AND = {
+                        exists = scope:pop
+                        scope:pop = {
+                            is_pop_type = soldiers
+                        }
+                    }
+                }
+            }
+        }
+    }
+    south_east_asia_middle_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = indian_high_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+
+                south_east_asia_clothes_pop_trigger = yes
+                middle_clothes_pop_trigger = yes
+            }
+        }
+    }
+
+    south_east_asia_upper_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = siamese_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = peasants_legwear
+                range = { 0 0.5 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 1200
+                south_east_asia_clothes_pop_trigger = yes
+                OR = {
+                    upper_clothes_pop_trigger = yes
+                    AND = {
+                        exists = scope:pop
+                        scope:pop = {
+                            is_pop_type = officers
+                        }
+                    }
+                }
+            }
+        }
+    }
+	
+    siamese_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = siamese_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = peasants_legwear
+                range = { 0 0.5 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                siamese_clothes_trigger = yes
+				scope:character ?= {
+					NOT = {
+						culture = {
+							cu:vietnamese = this
+						}
+					}
+				}
+            }
+        }
+    }
+
+    siamese_royal_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = siamese_royal_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = european_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 1200
+                siamese_clothes_trigger = yes
+				scope:character ?= {
+					NOT = {
+						culture = {
+							cu:vietnamese = this
+						}
+					}
+				}
+                monarchy_clothes_trigger = yes
+            }
+        }
+    }
+	
+### Indigenous Oceanic Heritage ###
+
+	indigenous_oceanic_pop_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = polynesian_outfits
+				range = { 0 0.5 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = necklaces
+				template = polynesian_necklaces
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		} 
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				indigenous_oceanic_clothes_trigger = yes
+				upper_clothes_pop_trigger = no
+			}
+		}
+	}
+	
+    indigenous_oceanic_high_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = polynesian_outfits
+                range = { 0 0.5 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = polynesian_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                indigenous_oceanic_clothes_trigger = yes
+                upper_clothes_pop_trigger = yes
+            }
+			
+			modifier = {
+				add = 1000
+				indigenous_oceanic_clothes_trigger = yes
+			}
         }
     }
 }
