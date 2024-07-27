@@ -1766,6 +1766,122 @@
         }
     }
 	
+    korean_agitator_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = korean_common_outfits
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                scope:character ?= {
+                    culture = {
+                        this = cu:korean
+                    }
+                }
+                agitator_character_trigger = yes 
+            }
+        }
+    }
+	
+    korean_pop_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = korean_low_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 500
+                AND = {
+                    exists = scope:pop
+                    scope:pop = {
+                        culture = cu:korean
+                    }
+                    OR = {
+                        poor_clothes_pop_trigger = yes
+                        middle_clothes_pop_trigger = yes
+                    }
+                }
+            }
+        }
+    }
+
+    korean_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = korean_common_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                OR = {
+                    AND = {
+                        exists = scope:character
+                        scope:character = {
+                            has_culture = cu:korean
+                            is_ruler = no
+                        }
+                    }
+                    AND = {
+                        exists = scope:pop
+                        scope:pop = {
+                            culture = cu:korean
+                            is_pop_type = officers
+                        }
+					}
+                }
+           }
+        }
+    }
+
+    korean_imperial_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = korean_imperial_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+				
+				scope:character ?= {
+					has_culture = cu:korean
+					is_ruler = yes
+					OR = {
+						age <= 10
+						NOT = {
+							owner ?= {
+								has_variable = KOR_korean_empire_declared
+							}
+						}
+					}
+                }
+            }
+        }
+    }
+	
     japanese_imperial_clothes = {
         dna_modifiers = {
             accessory = {

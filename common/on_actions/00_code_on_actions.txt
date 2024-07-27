@@ -747,8 +747,6 @@ on_yearly_pulse_country = {
 	on_actions = { # delay ensures events won't fire simultaneously
 		on_yearly_events
 		#delay = { days = 1 }
-		russian_monarchy_yearly_events
-		#delay = { days = 1 }
 		springtime_of_peoples_yearly_events
 		#delay = { days = 2 }
 		bp1_misc_yearly_events
@@ -1056,10 +1054,10 @@ on_diplomatic_play_started = {
 		}
 		
 		if = {
-			limit = { is_diplomatic_play_type = dp_unify_italy }
+			limit = { is_diplomatic_play_type = dp_unify_britannia }
 			every_country = {
 				limit = {
-					is_supporting_unification_candidate = { who = scope:initiator country_formation = ITA }
+					is_supporting_unification_candidate = { who = scope:initiator country_formation = GBI }
 				}
 				
 				scope:initiator = { annex = prev }

@@ -1,21 +1,4 @@
-﻿GBI = { # Britannia
-	states = {
-		STATE_HOME_COUNTIES
-		STATE_MIDLANDS
-		STATE_EAST_ANGLIA
-		STATE_WEST_COUNTRY
-		STATE_YORKSHIRE
-		STATE_LANCASHIRE
-		STATE_WALES
-		STATE_LOWLANDS
-	}
-
-	required_states_fraction = 0.75	
-	
-	ai_will_do = { always = yes }
-}
-
-CHI = { # China
+﻿CHI = { # China
 	use_culture_states = yes
 
 	required_states_fraction = 0.6

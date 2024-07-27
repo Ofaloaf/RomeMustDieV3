@@ -122,3 +122,14 @@
   pm_default_building_vatican_city: "Vatican Palace"
   #
   DATA_CHARACTER_TOOLTIP_HISTORICAL: "#b This is a scripted character#!"
+  #
+  ai_strategy_unify_germany: "Unify Germania"
+  ai_strategy_unify_germany_desc: "[COUNTRY.GetName] wants to unite the Germanic nations under its banner."
+  ai_strategy_unify_italy: "Unify Britannia"
+  ai_strategy_unify_italy_desc: "[COUNTRY.GetName] wants to unite the Britannic nations under its banner."
+  dp_unify_britannia: "Unify Britannia"
+  dp_unify_britannia_tooltip: "#header Start a $dp_unify_britannia$ [concept_diplomatic_play]#!\n$TOOLTIP_DELIMITER$\n$dp_unify_britannia_desc$"
+  dp_unify_britannia_desc: "Sets the initiating [concept_war_goal] to annex all Britannic homeland states held by other nations."
+  dp_leadership_britannia: "Britannian Leadership"
+  dp_leadership_britannia_desc: "Start a $dp_leadership_britannia$ [concept_diplomatic_play]\n$TOOLTIP_DELIMITER$\n$dp_leadership_britannia_tooltip_desc$"
+  dp_leadership_britannia_tooltip_desc: "Sets the initiating [concept_war_goal] to kick out the targeted [concept_country] as a [concept_unification_candidate] of the British [Concept('concept_unification', '$concept_major_unification$')]."
