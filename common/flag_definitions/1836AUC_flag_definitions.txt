@@ -340,3 +340,135 @@ SML = { # Smolensk
 		priority = 1
 	}
 }
+
+LIT = { # Lithuania
+	flag_definition = {
+		coa = LIT_pagan
+		subject_canton = LIT_pagan
+		priority = 100 # to override vanilla
+	}
+
+	flag_definition = { # basic tricolor is now used as strictly republican flag
+		coa = LIT
+		subject_canton = LIT
+		priority = 750
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	
+	flag_definition = {
+		coa = LIT_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+KVN = { # Kvenland
+	flag_definition = {
+		coa = KVN
+		subject_canton = KVN
+		priority = 1
+	}
+}
+
+HLS = { # Hälsingland
+	flag_definition = {
+		coa = HLS
+		subject_canton = HLS
+		priority = 1
+	}
+}
+
+JMT = { # Jämtland
+	flag_definition = {
+		coa = JMT
+		subject_canton = JMT
+		priority = 1
+	}
+
+	flag_definition = { #
+		coa = JMT_republic
+		subject_canton = JMT_republic
+		priority = 100
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}
+
+NOR = { # Norway
+	flag_definition = {
+		coa = NOR_sans_christianity
+		subject_canton = NOR_sans_christianity
+		priority = 100 # to override vanilla
+	}
+
+	flag_definition = { # Rose of Trondheim, on field of green since the old civil guard used green instead of red like the current flag
+		coa = NOR_sans_christianity_republic
+		subject_canton = NOR_sans_christianity_republic
+		priority = 750
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	
+	flag_definition = {
+		coa = NOR_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+FIN = { # Finland
+	flag_definition = {
+		coa = FIN_sans_christianity
+		subject_canton = FIN_sans_christianity
+		priority = 100 # to override vanilla
+	}
+
+	flag_definition = {
+		coa = FIN_fascist
+		subject_canton = FIN_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+MMU = { # Mhumhain/Munster
+	flag_definition = {
+		coa = MMU
+		subject_canton = MMU
+		priority = 1
+	}
+}
+
+DRG = { # Drougoubiteia
+	flag_definition = {
+		coa = DRG
+		subject_canton = DRG
+		priority = 1
+	}
+}
+
+BLC = { # Belechatouia
+	flag_definition = {
+		coa = BLC
+		subject_canton = BLC
+		priority = 1
+	}
+}
+
+VST = { # Vistula, uses Krakow flag
+	flag_definition = {
+		coa = KRA
+		subject_canton = KRA
+		priority = 1
+	}
+}
