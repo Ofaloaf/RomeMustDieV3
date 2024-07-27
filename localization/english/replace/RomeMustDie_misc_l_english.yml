@@ -120,3 +120,5 @@
   #
   building_vatican_city: "Vatican Palace"
   pm_default_building_vatican_city: "Vatican Palace"
+  #
+  DATA_CHARACTER_TOOLTIP_HISTORICAL: "#b This is a scripted character#!"

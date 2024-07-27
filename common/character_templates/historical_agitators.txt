@@ -55,7 +55,7 @@ agitator_edward_gibbon = {
 	agitator_usage = {
 		country_trigger = {
 			has_dlc_feature = voice_of_the_people_content
-			has_primary_culture = cu:saxon
+			any_primary_culture = { cu:saxon = this }
 		}
         interest_group_trigger = {
             is_marginal = no

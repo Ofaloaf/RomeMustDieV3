@@ -470,8 +470,7 @@
 					OR = {
 						AND = {
 							is_ruler = yes
-							exists = home_country
-							home_country = {
+							owner = {
 								NOT = { has_law = law_type:law_monarchy }
 							}
 						}
@@ -600,8 +599,7 @@
 			
 				scope:character ?= {
 					is_ruler = yes
-					exists = home_country
-					home_country = {
+					owner = {
 						has_law = law_type:law_monarchy
 					}
 					culture = {
@@ -952,7 +950,11 @@
 							is_interest_group_type = ig_landowners
 							culture = {
 								NOR = {
-									has_discrimination_trait = romance_speaker
+									cu:hispanian = this
+									cu:roman = this
+									cu:gallic = this
+									cu:africanu = this
+									cu:illyrian = this
 									has_discrimination_trait = greek_culture
 								}
 							}
@@ -968,7 +970,11 @@
 							}
 							culture = {
 								NOR = {
-									has_discrimination_trait = romance_speaker
+									cu:hispanian = this
+									cu:roman = this
+									cu:gallic = this
+									cu:africanu = this
+									cu:illyrian = this
 									has_discrimination_trait = greek_culture
 								}
 							}
@@ -984,7 +990,11 @@
 							}
 							culture = {
 								NOR = {
-									has_discrimination_trait = romance_speaker
+									cu:hispanian = this
+									cu:roman = this
+									cu:gallic = this
+									cu:africanu = this
+									cu:illyrian = this
 									has_discrimination_trait = greek_culture
 								}
 							}
@@ -1070,7 +1080,11 @@
 						}
 						culture = {
 							NOR = {
-								has_discrimination_trait = romance_speaker
+								cu:hispanian = this
+								cu:roman = this
+								cu:gallic = this
+								cu:africanu = this
+								cu:illyrian = this
 								has_discrimination_trait = greek_culture
 							}
 						}

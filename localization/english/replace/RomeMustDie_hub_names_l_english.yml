@@ -301,6 +301,27 @@
  HUB_NAME_STATE_EAST_PRUSSIA_mine: "Gumbinė"
  HUB_NAME_STATE_EAST_PRUSSIA_wood: "Alna"
  #
+ STATE_LITHUANIA: "Lithuania"
+ HUB_NAME_STATE_LITHUANIA_city:0 "Vilnius"
+ HUB_NAME_STATE_LITHUANIA_mine:0 "Utena"
+ HUB_NAME_STATE_LITHUANIA_farm:0 "Šiauliai"
+ HUB_NAME_STATE_LITHUANIA_wood:0 "Kaunas"
+ HUB_NAME_STATE_LITHUANIA_port:0 "Palanga"
+ #
+ STATE_LATVIA: "Latvia"
+ HUB_NAME_STATE_LATVIA_city:0 "Riga"
+ HUB_NAME_STATE_LATVIA_port:0 "Liepāja"
+ HUB_NAME_STATE_LATVIA_mine:1 "Jelgava"
+ HUB_NAME_STATE_LATVIA_farm:0 "Daugavpils"
+ HUB_NAME_STATE_LATVIA_wood:0 "Madona"
+ #
+ STATE_ESTONIA: "Aestingia"
+ HUB_NAME_STATE_ESTONIA_city: "Rafala" # Reval/Tallinn
+ HUB_NAME_STATE_ESTONIA_port:0 "Pärnu"
+ HUB_NAME_STATE_ESTONIA_mine:0 "Tartu"
+ HUB_NAME_STATE_ESTONIA_farm:1 "Narva"
+ HUB_NAME_STATE_ESTONIA_wood:0 "Haapsalu"
+ #
  STATE_GREATER_POLAND: "Polonia"
  HUB_NAME_STATE_GREATER_POLAND_city: "Lodza"
  HUB_NAME_STATE_GREATER_POLAND_mine: "Chastochova"

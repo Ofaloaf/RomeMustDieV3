@@ -1784,7 +1784,7 @@
 				building="building_furniture_manufacturies"
 				add_ownership={
 					building={
-						type="building__furniture_manufacturies"
+						type="building_furniture_manufacturies"
 						country="c:CHI"
 						levels=10
 						region="STATE_WESTERN_HUBEI"
