@@ -3,12 +3,12 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1249137
+				size = 849137
 			}
 			create_pop = {
 				culture = roman
 				religion = arian
-				size = 377859
+				size = 307859
 			}
 			create_pop = {
 				culture = roman
@@ -21,12 +21,12 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 830344
+				size = 630344
 			}
 			create_pop = {
 				culture = roman
 				religion = arian
-				size = 296800
+				size = 226800
 			}
 		}
 	}
@@ -84,7 +84,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1287881
+				size = 987881
 			}
 		}
 	}
@@ -92,7 +92,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 882848
+				size = 582848
 			}
 		}
 	}
@@ -100,7 +100,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 963294
+				size = 663294
 			}
 		}
 	}
@@ -190,7 +190,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 701656
+				size = 601656
 			}
 			create_pop = {
 				culture = roman
@@ -208,7 +208,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 987413
+				size = 787413
 			}
 		}
 	}
@@ -216,7 +216,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 968400
+				size = 668400
 			}
 		}
 	}
@@ -225,7 +225,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = galician
-				size = 728528
+				size = 528528
 			}
 			create_pop = {
 				culture = hispanian
@@ -237,7 +237,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 614264
+				size = 414264
 			}
 			create_pop = {
 				culture = basque
@@ -249,7 +249,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 830808
+				size = 630808
 			}
 			create_pop = {
 				culture = basque
@@ -265,7 +265,7 @@
 			}
 			create_pop = {
 				culture = basque
-				size = 700060
+				size = 600060
 			}
 		}
 	}
@@ -273,7 +273,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 772196
+				size = 672196
 			}
 			create_pop = {
 				culture = basque
@@ -285,7 +285,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 921112
+				size = 721112
 			}
 		}
 	}
@@ -305,7 +305,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 787592
+				size = 687592
 			}
 		}
 	}
@@ -313,7 +313,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 818404
+				size = 618404
 			}
 			create_pop = {
 				culture = roman
@@ -333,7 +333,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 1079996
+				size = 779996
 			}
 		}
 	}
@@ -341,7 +341,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 820800
+				size = 520800
 			}
 		}
 	}
@@ -349,7 +349,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = hispanian
-				size = 660796
+				size = 560796
 			}
 		}
 	}
@@ -427,14 +427,17 @@
 				size = 75004
 			}
 			create_pop = {
-				pop_type = slaves
-				culture = north_caucasian
+				culture = sklavinian
+				size = 19000
+			}
+			create_pop = {
+				culture = sklavinian
+				religion = slavic_pagan
 				size = 9000
 			}
 			create_pop = {
-				pop_type = slaves
-				culture = lacustrine_bantu
-				size = 24000
+				culture = assyrian
+				size = 84000
 			}
 		}
 	}
@@ -735,7 +738,7 @@
 		region_state:ERE = {
 			create_pop = {
 				culture = greek
-				size = 637592
+				size = 737592
 			}
 		}
 	}
@@ -743,20 +746,20 @@
 		region_state:ERE = {
 			create_pop = {
 				culture = greek
-				size = 160480
+				size = 210480
 			}
 			create_pop = {
 				culture = sklavinian
-				size = 73530
+				size = 98530
 			}
 			create_pop = {
 				culture = illyrian
-				size = 86208
+				size = 96208
 			}
 			create_pop = {
 				culture = albanian
 				religion = nicene
-				size = 71000
+				size = 86000
 			}
 		}
 		region_state:BLC = {
@@ -826,19 +829,19 @@
 		region_state:ERE = {
 			create_pop = {
 				culture = sklavinian
-				size = 264808
+				size = 464808
 			}
 			create_pop = {
 				culture = greek
-				size = 436000
+				size = 636000
 			}
 			create_pop = {
 				culture = roman
-				size = 40000
+				size = 80000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sklavinian
+				religion = slavic_pagan
 				size = 41800
 			}
 
@@ -848,15 +851,15 @@
 		region_state:ERE = {
 			create_pop = {
 				culture = greek
-				size = 126404
+				size = 226404
 			}
 			create_pop = {
 				culture = illyrian
-				size = 52016
+				size = 102016
 			}
 			create_pop = {
 				culture = roman
-				size = 11007
+				size = 21007
 			}
 		}
 	}
@@ -864,7 +867,7 @@
 		region_state:ERE = {
 			create_pop = {
 				culture = greek
-				size = 441996
+				size = 641996
 			}
 		}
 	}

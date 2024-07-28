@@ -9,17 +9,17 @@
 		any_scope_state = {
 			state_region = {
 				is_homeland = cu:gallic
-				NAND = {
-					radical_fraction = {
-						value >= 0.10
-						culture = cu:gallic
-					}
-					culture_percent_state = {
-						target = cu:gallic
-						value < 0.25
-					}
-					devastation > 0
+			}
+			NAND = {
+				radical_fraction = {
+					value >= 0.10
+					culture = cu:gallic
 				}
+				culture_percent_state = {
+					target = cu:gallic
+					value < 0.25
+				}
+				devastation > 0
 			}
 			count >= 3
 		}
@@ -49,12 +49,12 @@ germanic_frankish_nation_button = {
 					is_homeland = cu:alemannic
 					is_homeland = cu:frisian
 				}
-				NAND = {
-					radical_fraction = {
-						value >= 0.10
-					}
-					devastation > 0
+			}
+			NAND = {
+				radical_fraction = {
+					value >= 0.10
 				}
+				devastation > 0
 			}
 			count >= 4
 		}

@@ -502,7 +502,7 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = gallic
-				size = 1852741
+				size = 1052741
 			}
 			create_pop = {
 				culture = gallic
@@ -532,7 +532,7 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = gallic
-				size = 2670494
+				size = 870494
 			}
 			create_pop = {
 				culture = gallic
@@ -545,7 +545,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = septimanian
-				size = 1204848
+				size = 704848
 			}
 			create_pop = {
 				culture = roman
@@ -555,7 +555,7 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = septimanian
-				size = 597943
+				size = 607943
 			}
 			create_pop = {
 				culture = gothic
@@ -577,7 +577,12 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = septimanian
-				size = 509209
+				size = 174105
+			}
+			create_pop = {
+				culture = septimanian
+				religion = arian
+				size = 225104
 			}
 			create_pop = {
 				culture = roman
@@ -586,7 +591,7 @@
 			}
 			create_pop = {
 				culture = gallic
-				size = 711985
+				size = 381985
 			}
 			create_pop = {
 				culture = roman
@@ -594,7 +599,7 @@
 			}
 			create_pop = {
 				culture = burgundian
-				size = 1297420
+				size = 697420
 			}
 		}
 	}
@@ -602,7 +607,7 @@
 		region_state:FRK = {
 			create_pop = {
 				culture = gallic
-				size = 1608005
+				size = 608005
 			}
 			create_pop = {
 				culture = frankish
@@ -619,7 +624,7 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = gallic
-				size = 1470989
+				size = 570989
 			}
 			create_pop = {
 				culture = gallic
@@ -632,7 +637,7 @@
 		region_state:ALM = {
 			create_pop = {
 				culture = alemannic
-				size = 939988
+				size = 439988
 			}
 			create_pop = {
 				culture = alemannic
@@ -659,11 +664,11 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = gallic
-				size = 781728
+				size = 381728
 			}
 			create_pop = {
 				culture = septimanian
-				size = 388334
+				size = 280334
 			}
 			create_pop = {
 				culture = gallic
@@ -672,7 +677,7 @@
 			}
 			create_pop = {
 				culture = gothic
-				size = 473045
+				size = 373045
 			}
 		}
 	}
@@ -680,7 +685,7 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = gothic
-				size = 1093584
+				size = 693584
 			}
 			create_pop = {
 				culture = roman
@@ -688,7 +693,7 @@
 			}
 			create_pop = {
 				culture = septimanian
-				size = 630094
+				size = 330094
 			}
 		}
 	}
@@ -696,7 +701,7 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = septimanian
-				size = 1958617
+				size = 658617
 			}
 			create_pop = {
 				culture = septimanian
@@ -709,16 +714,16 @@
 		region_state:BRI = {
 			create_pop = {
 				culture = gallic
-				size = 2099083
-			}
-			create_pop = {
-				culture = gallic
-				religion = arian
-				size = 388007
+				size = 899083
 			}
 			create_pop = {
 				culture = gallic
 				religion = pelagian
+				size = 388007
+			}
+			create_pop = {
+				culture = gallic
+				religion = arian
 				size = 53180
 			}
 			create_pop = {
@@ -732,7 +737,7 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = gallic
-				size = 901366
+				size = 501366
 			}
 			create_pop = {
 				culture = gallic
@@ -749,7 +754,7 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = gallic
-				size = 1608973
+				size = 1008973
 			}
 			create_pop = {
 				culture = gallic
@@ -762,7 +767,7 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = gallic
-				size = 1143438
+				size = 943438
 			}
 			create_pop = {
 				culture = gallic
@@ -779,7 +784,7 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = gallic
-				size = 370731
+				size = 300731
 			}
 			create_pop = {
 				culture = gallic
@@ -796,7 +801,7 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = gallic
-				size = 1133731
+				size = 833731
 			}
 			create_pop = {
 				culture = gallic
@@ -813,7 +818,7 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = septimanian
-				size = 1703916
+				size = 1203916
 			}
 			create_pop = {
 				culture = gothic
@@ -833,7 +838,7 @@
 		region_state:GLL = {
 			create_pop = {
 				culture = gallic
-				size = 1375047
+				size = 1075047
 			}
 			create_pop = {
 				culture = gallic
