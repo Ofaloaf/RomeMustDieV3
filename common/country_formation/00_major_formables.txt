@@ -1,4 +1,44 @@
-﻿SCA = {
+﻿GBI = { # Britannia
+
+	is_major_formation = yes
+	
+	unification_play = dp_unify_britannia
+	leadership_play = dp_leadership_britannia
+	
+	states = {
+		STATE_HOME_COUNTIES
+		STATE_MIDLANDS
+		STATE_EAST_ANGLIA
+		STATE_WEST_COUNTRY
+		STATE_YORKSHIRE
+		STATE_LANCASHIRE
+		STATE_WALES
+		STATE_LOWLANDS
+	}
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { has_technology_researched = nationalism }
+	
+	possible = {
+		OR = {
+			country_has_primary_culture = cu:brithenig
+			country_has_primary_culture = cu:welsh
+		}
+		any_country = {
+			filter = {
+				OR = {
+					country_has_primary_culture = cu:brithenig
+					country_has_primary_culture = cu:welsh				
+				}
+			}
+			has_technology_researched = nationalism	
+			percent = 1
+		}
+	}
+}
+
+SCA = {
 	use_culture_states = yes
 	
 	is_major_formation = yes

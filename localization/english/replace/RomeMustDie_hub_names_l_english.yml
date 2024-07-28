@@ -204,6 +204,25 @@
  HUB_NAME_STATE_CHAMPAGNE_farm: "Trecassis"
  HUB_NAME_STATE_CHAMPAGNE_wood: "Calvus Mons"
  #
+ STATE_FRENCH_LOW_COUNTRIES: "Mempiscus" # based around the old Civitas Menapiorum
+ HUB_NAME_STATE_FRENCH_LOW_COUNTRIES_city: "Castellum Menapiorum" # actually Cassel, Nord
+ HUB_NAME_STATE_FRENCH_LOW_COUNTRIES_port: "Dunkerka" # Dunkirk
+ HUB_NAME_STATE_FRENCH_LOW_COUNTRIES_mine: "Valentianae" # Valenciennes
+ HUB_NAME_STATE_FRENCH_LOW_COUNTRIES_farm: "Bolonia" # Boulogne-sur-Mer rather than Calais
+ HUB_NAME_STATE_FRENCH_LOW_COUNTRIES_wood: "Atrebatis" # Arras
+ #
+ STATE_WALLONIA: "Arduenna"
+ HUB_NAME_STATE_WALLONIA_city: "Lucilinburhuc" # Luxembourg
+ HUB_NAME_STATE_WALLONIA_mine: "Leodium" # Liege
+ HUB_NAME_STATE_WALLONIA_farm: "Namucho" # Namur
+ HUB_NAME_STATE_WALLONIA_wood: "Carnotus" # old village near Charleroi
+ #
+ STATE_FLANDERS: "Flandrensis"
+ HUB_NAME_STATE_FLANDERS_city: "Bruocsella" # Brussels
+ HUB_NAME_STATE_FLANDERS_port: "Brugae" # Bruges
+ HUB_NAME_STATE_FLANDERS_mine: "Hassetelu" # Hasselt
+ HUB_NAME_STATE_FLANDERS_farm: "Antverpas" # Antwerp
+ HUB_NAME_STATE_FLANDERS_wood: "Ganda" # Ghent
  ### HISPANIA ###
  #
  STATE_CATALONIA: "Tarraconensis"
@@ -239,6 +258,26 @@
  HUB_NAME_STATE_NORTH_RHINE_mine: "Aquisgranum"
  HUB_NAME_STATE_NORTH_RHINE_farm: "Bonna"
  HUB_NAME_STATE_NORTH_RHINE_wood: "Oipen"
+ #
+ STATE_GELRE: "Isala" # after the Ijssel River
+ HUB_NAME_STATE_GELRE_city: "Hoeve" # Eindhoven
+ HUB_NAME_STATE_GELRE_mine: "Mosa Trajectum" # Maastricht
+ HUB_NAME_STATE_GELRE_farm: "Numaga" # Nijmegen, Carolingian Latin
+ HUB_NAME_STATE_GELRE_wood: "Arneym" # Arnhem
+ #
+ STATE_FRIESLAND: "Frisia"
+ HUB_NAME_STATE_FRIESLAND_city: "Flevum" # a little northeast of Groningen
+ HUB_NAME_STATE_FRIESLAND_port: "Harlinga" # Harlingen
+ HUB_NAME_STATE_FRIESLAND_mine: "Empne" # Emmen
+ HUB_NAME_STATE_FRIESLAND_farm: "Suol" # Zwolle
+ HUB_NAME_STATE_FRIESLAND_wood: "Drait" # Drachten
+ #
+ STATE_HOLLAND: "Holtlant"
+ HUB_NAME_STATE_HOLLAND_city: "Aemstelredamme" # Amsterdam
+ HUB_NAME_STATE_HOLLAND_port: "Rotta" # Rotterdam
+ HUB_NAME_STATE_HOLLAND_farm: "Ultrajectum" # Utrecht
+ HUB_NAME_STATE_HOLLAND_wood: "Braida" # Breda
+ HUB_NAME_STATE_HOLLAND_mine: "Broec" # Broek in Waterland
  #
  STATE_SCHLESWIG_HOLSTEIN: "Nordalbingia"
  #
@@ -300,6 +339,27 @@
  HUB_NAME_STATE_EAST_PRUSSIA_port: "Caloypede"
  HUB_NAME_STATE_EAST_PRUSSIA_mine: "Gumbinė"
  HUB_NAME_STATE_EAST_PRUSSIA_wood: "Alna"
+ #
+ STATE_LITHUANIA: "Lithuania"
+ HUB_NAME_STATE_LITHUANIA_city:0 "Vilnius"
+ HUB_NAME_STATE_LITHUANIA_mine:0 "Utena"
+ HUB_NAME_STATE_LITHUANIA_farm:0 "Šiauliai"
+ HUB_NAME_STATE_LITHUANIA_wood:0 "Kaunas"
+ HUB_NAME_STATE_LITHUANIA_port:0 "Palanga"
+ #
+ STATE_LATVIA: "Latvia"
+ HUB_NAME_STATE_LATVIA_city:0 "Riga"
+ HUB_NAME_STATE_LATVIA_port:0 "Liepāja"
+ HUB_NAME_STATE_LATVIA_mine:1 "Jelgava"
+ HUB_NAME_STATE_LATVIA_farm:0 "Daugavpils"
+ HUB_NAME_STATE_LATVIA_wood:0 "Madona"
+ #
+ STATE_ESTONIA: "Aestingia"
+ HUB_NAME_STATE_ESTONIA_city: "Rafala" # Reval/Tallinn
+ HUB_NAME_STATE_ESTONIA_port:0 "Pärnu"
+ HUB_NAME_STATE_ESTONIA_mine:0 "Tartu"
+ HUB_NAME_STATE_ESTONIA_farm:1 "Narva"
+ HUB_NAME_STATE_ESTONIA_wood:0 "Haapsalu"
  #
  STATE_GREATER_POLAND: "Polonia"
  HUB_NAME_STATE_GREATER_POLAND_city: "Lodza"
