@@ -590,6 +590,32 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Siberia
+	c:SIB ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:PLM.market
+		}
+    }
+
+	# Alania
+	c:ALN ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:CMN.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 2
+			direction = import
+			target = c:CMN.market
+		}
+    }
+
 
 
 

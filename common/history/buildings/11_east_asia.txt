@@ -2237,7 +2237,7 @@
 				add_ownership={
 					building={
 						type="building_livestock_ranch"
-						country="c:KTM"
+						country="c:KTN"
 						levels=5
 						region="STATE_URGA"
 					}
@@ -3577,7 +3577,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_sawmills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_fishing_wharf"
