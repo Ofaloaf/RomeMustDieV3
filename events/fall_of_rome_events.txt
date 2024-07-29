@@ -683,3 +683,130 @@ fall_of_rome_events.1 = { # Language Reform?
 		}
 	}
 }
+
+fall_of_rome_events.2 = { # The Great Apostasy
+	type = country_event
+	placement = root
+	duration = 3
+
+	title = fall_of_rome_events.2.t
+	desc = fall_of_rome_events.2.d
+	flavor = fall_of_rome_events.2.f
+
+	event_image = {
+		video = "votp_hostile_court"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+
+	# triggered by decision
+
+	immediate = {
+		ruler = {
+			save_scope_as = insane_ruler
+		}
+		ig:ig_devout.leader = {
+			save_scope_as = devout_leader
+		}
+	}
+	
+	cancellation_trigger = {
+		NOT = {
+			exists = scope:insane_ruler
+		}
+	}
+
+	option = {
+		default_option = yes
+		name = fall_of_rome_events.2.a
+		
+		scope:insane_ruler = {
+			kill_character = yes
+		}
+	}
+	
+	option = {
+		name = fall_of_rome_events.2.b
+		
+		scope:insane_ruler = {
+			if = {
+				limit = {
+					scope:insane_ruler.interest_group = {
+						is_interest_group_type = ig_devout
+					}
+				}
+				add_modifier = {
+					name = the_apostate_but_worse
+					months = -1
+				}
+			}
+			else = {
+				add_modifier = {
+					name = the_apostate
+					months = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = fall_of_rome_events.2.c
+		
+		random_list = {
+			50 = {
+				scope:insane_ruler = {
+					kill_character = yes
+				}
+			}
+			50 = {
+				scope:insane_ruler = {
+					remove_trait = psychological_affliction
+				}
+				if = {
+					limit = {
+						scope:insane_ruler = { has_trait = pious }
+					}
+					custom_tooltip = {
+						text = fall_of_rome_events.2.c.tt # The ruler's faith has been shattered by this ordeal.
+						scope:insane_ruler = {
+							remove_trait = pious 
+						}
+					}
+				}
+			}
+		}
+	}
+		
+	option = {
+		name = fall_of_rome_events.2.dd
+		highlighted_option = yes
+		trigger = {
+			ig:ig_devout = {
+				leader = {
+					has_trait = charismatic
+				}
+			}
+			hidden_trigger = {
+				scope:insane_ruler.interest_group = {
+					NOR = { 
+						is_interest_group_type = ig_industrialists 
+						is_interest_group_type = ig_intelligentsia
+					}
+				}
+			}
+		}
+		
+		scope:insane_ruler = {
+			set_ideology = ideology:ideology_theocrat
+			remove_trait = psychological_affliction
+			if = {
+				limit = {
+					scope:insane_ruler = { NOT = { has_trait = pious } }
+				}
+				add_trait = pious
+			}
+		}
+	}
+}

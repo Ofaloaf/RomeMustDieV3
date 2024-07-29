@@ -1,0 +1,51 @@
+﻿restore_ancient_pantheon = {
+	is_shown = {
+		any_primary_culture = {
+			OR = {
+				has_discrimination_trait = romance_speaker
+				cu:greek = this
+			}
+		}
+		country_tier = empire
+		ruler = {
+			has_trait = psychological_affliction
+			NOT = { has_variable = restored_ancient_pantheon }
+		}
+	}
+
+	possible = {
+		ig:ig_devout = {
+			is_in_government = no
+		}
+	}
+	
+	when_taken = {
+		ruler = {
+			set_variable = {
+				name = restored_ancient_pantheon
+			}
+		}
+		#show_as_tooltip = {
+		#	add_modifier = revived_ancient_pantheon
+		#	months = -1
+		#}
+		trigger_event = { id = fall_of_rome_events.2 }
+		custom_tooltip = {
+			text = restore_ancient_pantheon_tt
+		}
+	}
+
+	ai_chance = {
+		base = 0
+		modifier = {
+			ruler.popularity >= 0
+			add = 5
+		}
+		modifier = {
+			ruler.interest_group = {
+				is_interest_group_type = ig_devout
+			}
+			add = -1000
+		}		
+	}
+}

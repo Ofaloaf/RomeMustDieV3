@@ -107,6 +107,9 @@
   classicist_enthusiasm: "Classicist Enthusiasm"
   overemphasis_on_liberal_arts: "Overemphasis on Liberal Arts"
   classical_coursework: "Classical Coursework"
+  revived_ancient_pantheon: "Eternal Glory of the Revived Ancient Pantheon"
+  the_apostate: "The Apostate"
+  the_apostate_but_worse: "The Great Apostate"
 
   Legio_II: "Legio II"
   Legio_III: "Legio III"
@@ -133,3 +136,7 @@
   dp_leadership_britannia: "Britannian Leadership"
   dp_leadership_britannia_desc: "Start a $dp_leadership_britannia$ [concept_diplomatic_play]\n$TOOLTIP_DELIMITER$\n$dp_leadership_britannia_tooltip_desc$"
   dp_leadership_britannia_tooltip_desc: "Sets the initiating [concept_war_goal] to kick out the targeted [concept_country] as a [concept_unification_candidate] of the British [Concept('concept_unification', '$concept_major_unification$')]."
+  #
+  restore_ancient_pantheon: "Restore the Roman Pantheon"
+  restore_ancient_pantheon_desc: "What ails our great nation is the pernicious poison of... Christianity. Yes, that's it! By declaring the return of the ancient gods, surely #BOLD this#! will fix things! Oh, my pounding head! Just go out and outlaw Christianity, will you?"
+  restore_ancient_pantheon_tt: "#N This will definitely work, and everyone will love this.#!"
