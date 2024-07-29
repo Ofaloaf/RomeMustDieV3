@@ -525,3 +525,62 @@ SLT = { # Tanah Selatan
 		}
 	}
 }
+
+IGS = { # Indus-Ganges/Indo-Gangetic Everything
+	dynamic_country_name = {
+		name = dyn_c_indo_gangetic_sultanate
+		adjective = dyn_c_indo_gangetic_sultanate_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_indo_gangetic_state
+		adjective = dyn_c_indo_gangetic_state_adj
+		
+		is_main_tag_only = yes
+		priority = 30
+		
+		trigger = {
+			scope:actor ?= {
+				coa_fascist_trigger = yes
+				NOT = {
+					has_law = law_type:law_council_republic
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_indo_gangetic_union
+		adjective = dyn_c_indo_gangetic_union_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			OR = {
+				coa_def_republic_flag_trigger = yes
+				coa_def_communist_flag_trigger = yes
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_indo_gangetic_free_territory
+		adjective = dyn_c_indo_gangetic_free_territory_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_anarchy
+			}
+		}
+	}
+}

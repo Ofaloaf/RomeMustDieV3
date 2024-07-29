@@ -7477,24 +7477,23 @@ FRA_fascist = {
 FIN = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-	color2 = "blue"
-
+	
 	colored_emblem = {
-		texture = "ce_cross_finland.dds"
-		color1 = color2
-		color2 = color2
+		texture = "ce_ukkos_hammer.dds"
+		color1 = "usa_monarchy_blue"
+		color2 = "white"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
 FIN_subject = {
-	# renamed from FIN_canton
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-	color2 = "blue"
-
+	
 	colored_emblem = {
-		texture = "ce_cross_england.dds"
-		color1 = color2
-		color2 = color2
+		texture = "ce_ukkos_hammer.dds"
+		color1 = "usa_monarchy_blue"
+		color2 = "white"
+		instance = { scale = { 0.52 0.52 } position = { 0.75 0.50 } }
 	}
 }
 FIN_subject_RUS = {
@@ -8238,7 +8237,29 @@ GBR_fascist = {
 	}
 }
 
-GEO = { # Georgia
+GEO = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = color2
+		color2 = color2
+	}
+	
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = color2
+		color2 = color2
+		instance = { scale = { 0.3 0.3 } position = { 0.20 0.20 } }		
+		instance = { scale = { 0.3 0.3 } position = { 0.76 0.80 } }		
+		instance = { scale = { 0.3 0.3 } position = { 0.20 0.80 } }		
+		instance = { scale = { 0.3 0.3 } position = { 0.76 0.20 } }				
+	}
+}
+
+GEO_republic = { # Georgia
 	# since 1918 (outside USSR period)
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -12470,6 +12491,17 @@ LIB_dictatorship = {
 
 LIT = { # Lithuania
 	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_tamga_gediminas.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+LIT_republic = { # Lithuania
+	pattern = "pattern_solid.tga"
 	color1 = "yellow"
 
 	colored_emblem = {
@@ -13808,17 +13840,16 @@ MON_absolute_monarchy = {
 	}		
 }
 
-MOR = { # Morocco
-	# Adopted 1915
+MOR = { # Mauretania
 	
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "blue"
 
 	colored_emblem = {
-		texture = "ce_star_pentagram.dds"
-		color1 = "green"
-		color2 = "green"
+		texture = "ce_religion_kushism.dds"
+		color1 = "yellow_light"
+		color2 = "yellow_light"
 		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
 	}		
 }
@@ -13842,9 +13873,9 @@ MOR_subject = {
 	color2 = "blue"
 
 	colored_emblem = {
-		texture = "ce_star_05_morocco.dds"
-		color1 = "green"
-		color2 = "red"
+		texture = "ce_religion_kushism.dds"
+		color1 = "yellow_light"
+		color2 = "yellow_light"
 		instance = { scale = { 0.55 0.55 } position = { 0.75 0.5 } }
 	}	
 	colored_emblem = {		
@@ -15077,28 +15108,28 @@ NNV_subject = {
 	}
 }
 
-NOR = {
+NOR = { # sans cross
 	pattern = "pattern_solid.tga"
 	color1 = "red"
-	color2 = "white"
-	color3 = "blue"
-
+	
 	colored_emblem = {
-		texture = "ce_cross_norway.dds"
-		color1 = color2
-		color2 = color3
+		texture = "ce_lion_rampant_axe.dds"
+		color1 = "yellow"
+		color2 = "white"
+		color3 = "red"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }
 	}
 }
 NOR_canton = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
-	color2 = "white"
-	color3 = "blue"
-
+	
 	colored_emblem = {
-		texture = "ce_cross_england_fimbriated.dds"
-		color1 = color2
-		color2 = color3
+		texture = "ce_lion_rampant_axe.dds"
+		color1 = "yellow"
+		color2 = "white"
+		color3 = "red"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }
 	}
 }
 NOR_communist = {
@@ -16595,80 +16626,21 @@ PCO = {
 
 PER = { # Persia
 	pattern = "pattern_solid.tga"
-	color1 = "green"
-	color2 = "green"
+	color1 = "yellow"
 	
 	colored_emblem = {
-		texture = "ce_inti.dds"
-		color1 = "yellow"
-		color2 = "orange"
-		color3 = "white"
-		instance = { scale = { 0.60 0.60 } position = { 0.51 0.42 } }			
-	}	
-	colored_emblem = {		
 		texture = "ce_solid.dds"
-		color1 = "green"
-		color2 = "green"
-		instance = { scale = { 0.4 0.2 } position = { 0.50 0.65 } }		
-	}	
-	colored_emblem = {		
-		texture = "ce_frame_circle.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.16 0.16 } position = { 0.51 0.42 } }		
+		color1 = "green_dark"
+		color2 = "green_dark"
+		instance = { scale = { 0.85 0.85 } position = { 0.5 0.5 } }
 	}
-	colored_emblem = {		
-		texture = "ce_solid.dds"
-		color1 = "yellow_dark"
-		color2 = "yellow_dark"
-		instance = { scale = { 0.5 0.02 } position = { 0.525 0.81 } }		
-	}	
-	colored_emblem = {		
-		texture = "ce_solid.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.49 0.01 } position = { 0.525 0.805 } }		
-	}	
-	colored_emblem = {
-		texture = "ce_lion_persia.dds"
-		color1 = "yellow"
-		color2 = "orange"
-		color3 = "white"
-		instance = { scale = { 1.1 1.1 } position = { 0.50 0.50 } }			
-	}
-}
-PER_absolute_monarchy = { 
-	# Starting flag
-	
-	pattern = "pattern_border_of_3.dds"
-	color1 = "white"
-	color2 = "green"
 	
 	colored_emblem = {
-		texture = "ce_inti.dds"
-		color1 = "yellow"
-		color2 = "orange"
+		texture = "ce_derafsh_kaviani.dds"
+		color1 = "yellow_light"
+		color2 = "red_light"
 		color3 = "white"
-		instance = { scale = { 0.60 0.60 } position = { 0.46 0.42 } }			
-	}	
-	colored_emblem = {		
-		texture = "ce_solid.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.5 0.25 } position = { 0.5 0.75 } }		
-	}	
-	colored_emblem = {		
-		texture = "ce_frame_circle.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.16 0.16 } position = { 0.46 0.42 } }		
-	}		
-	colored_emblem = {
-		texture = "ce_lion_persia.dds"
-		color1 = "yellow"
-		color2 = "orange"
-		color3 = "white"
-		instance = { scale = { 1.1 1.1 } position = { 0.45 0.50 } }			
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
 	}
 }
 PER_republic = {
@@ -16680,98 +16652,29 @@ PER_republic = {
 		texture = "ce_tricolor_horizontal.dds"
 		color1 = "white"
 		color2 = "red"
-	}	
-	colored_emblem = {
-		texture = "ce_inti.dds"
-		color1 = "yellow"
-		color2 = "orange"
-		color3 = "white"
-		instance = { scale = { 0.30 0.30 } position = { 0.51 0.465 } }			
-	}	
+	}		
+}
 
-	colored_emblem = {		
-		texture = "ce_frame_circle.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.08 0.08 } position = { 0.51 0.465 } }		
-	}	
-	colored_emblem = {		
-		texture = "ce_solid.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.25 0.10 } position = { 0.5 0.6 } }		
-	}	
-	colored_emblem = {		
-		texture = "ce_solid.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { scale = { 0.26 0.02 } position = { 0.51 0.66 } }		
-	}	
-	colored_emblem = {
-		texture = "ce_lion_persia.dds"
-		color1 = "yellow"
-		color2 = "orange"
-		color3 = "white"
-		instance = { scale = { 0.55 0.55 } position = { 0.5 0.505 } }			
-	}		
-}
-PER_dictatorship = {
-	# removed crown from an imperial standard
+PER_fascist = { # derafsh kaviani
 	pattern = "pattern_solid.tga"
-	color1 = "white"
-	color2 = "green"
+	color1 = "red"
 	
 	colored_emblem = {
-		texture = "ce_inti.dds"
-		color1 = "yellow_dark"
-		color2 = "orange"
-		color3 = "white"
-		instance = { scale = { 0.30 0.30 } position = { 0.50 0.46 } }			
-	}	
-	colored_emblem = {		
 		texture = "ce_solid.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.4 0.1 } position = { 0.5 0.64 } }		
-	}	
-	colored_emblem = {		
-		texture = "ce_frame_circle.dds"
-		color1 = "yellow_dark"
-		color2 = "yellow"
-		instance = { scale = { 0.08 0.08 } position = { 0.50 0.46 } }		
-	}	
-	
-	colored_emblem = {		
-		texture = "ce_solid.dds"
-		color1 = "yellow_dark"
-		color2 = "yellow_dark"
-		instance = { scale = { 0.25 0.015 } position = { 0.50 0.67 } }		
-	}		
-	colored_emblem = {
-		texture = "ce_lion_persia.dds"
-		color1 = "yellow_dark"
-		color2 = "orange"
-		color3 = "white"
-		instance = { scale = { 0.55 0.55 } position = { 0.49 0.51 } }			
+		color1 = "purple"
+		color2 = "purple"
+		instance = { scale = { 0.85 0.85 } position = { 0.5 0.5 } }
 	}
+	
 	colored_emblem = {
-		texture = "ce_wreath.dds"
-		color1 = "green"
-		color2 = "orange"
+		texture = "ce_derafsh_kaviani.dds"
+		color1 = "yellow_light"
+		color2 = "red"
 		color3 = "white"
-		instance = { scale = { 1.0 1.0 } position = { 0.50 0.51 } }			
-	}	
-	colored_emblem = {
-		texture = "ce_rhombus.dds"
-		color1 = "red"
-		color2 = "orange"
-		color3 = "white"
-		instance = { scale = { 0.6 0.8 } position = { 0 0 } }		
-		instance = { scale = { 0.6 0.8 } position = { 1 0 } }		
-		instance = { scale = { 0.6 0.8 } position = { 0 1 } }		
-		instance = { scale = { 0.6 0.8 } position = { 1 1 } }				
-	}	
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
 }
+
 PER_theocracy = {
 	# flag of modern islamic republic would probably stand out too much
 	
@@ -19091,12 +18994,28 @@ SEQ = { # Indian Territory
 
 SER = {
 	pattern = "pattern_solid.tga"
-	color1 = "red"
+	color1 = "purple"
 
 	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "blue"
+		texture = "ce_shield_iberian.dds"
+		color1 = "white"
 		color2 = "white"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.49 } }			
+	}
+	colored_emblem = {
+		texture = "ce_shield_iberian_cross_thin.dds"
+		color1 = "red"
+		color2 = "white"
+		instance = { scale = { 0.82 0.82 } position = { 0.5 0.49 } }			
+	}	
+	colored_emblem = {
+		texture = "ce_letter_beta.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { -0.28 0.28 } position = { 0.40 0.33 } }			
+		instance = { scale = { 0.28 0.28 } position = { 0.60 0.33 } }		
+		instance = { scale = { -0.25 0.25 } position = { 0.406 0.64 } }			
+		instance = { scale = { 0.25 0.25 } position = { 0.594 0.64 } }			
 	}
 }
 SER_absolute_monarchy = {
@@ -23113,12 +23032,10 @@ TRH = { # Turkestan, using the flag of the Basmachi movement as a base
 LOU = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
-	color2 = "white"
-	color3 = "yellow"
-
+	
 	textured_emblem = {
 		texture = "te_louisiana_swan.dds"
-		instance = { scale = { 0.85 0.85 } position = { 0.5 0.5 } }
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
 LOU_monarchy = {

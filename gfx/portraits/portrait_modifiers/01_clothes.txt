@@ -1481,6 +1481,7 @@
 							has_discrimination_trait = eastern_woodlands
 							has_discrimination_trait = south_american_group
 							cu:inuit = this
+							cu:chesepian = this
 						}
 					}
 				}
