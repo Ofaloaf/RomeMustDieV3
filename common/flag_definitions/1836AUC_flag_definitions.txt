@@ -669,3 +669,11 @@ KAI = { # Kaigai
 		priority = 1
 	}	
 }
+
+MDL = { # Mediolanum
+	flag_definition = {
+		coa = ENG
+		subject_canton = ENG
+		priority = 1
+	}	
+}
