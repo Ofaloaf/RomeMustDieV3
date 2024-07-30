@@ -761,7 +761,12 @@
 				add = 1000
 				
 				poor_clothes_pop_trigger = yes
-				european_clothes_pop_trigger = yes
+				OR = {
+					european_clothes_pop_trigger = yes
+					scope:pop ?= {
+						culture = cu:atzingani
+					}
+				}
 				scope:pop ?= {
 					culture = {
 						NOR = {
@@ -843,7 +848,12 @@
 				
 				OR = {
 					AND = {
-						european_clothes_pop_trigger = yes
+						OR = {
+							european_clothes_pop_trigger = yes
+							scope:pop ?= {
+								culture = cu:atzingani
+							}
+						}
 						middle_clothes_pop_trigger = yes
 						scope:pop ?= {
 							culture = {
@@ -855,7 +865,12 @@
 						}
 					}
 					AND = {
-						european_clothes_trigger = yes
+						OR = {
+							european_clothes_trigger = yes
+							scope:character ?= {
+								culture = cu:atzingani
+							}
+						}
 						politician_clothes_trigger = yes
 						scope:character ?= {
 							OR = {
@@ -906,7 +921,12 @@
 				add = 1000
 				
 				politician_clothes_trigger = yes
-				european_clothes_trigger = yes
+				OR = {
+					european_clothes_trigger = yes
+					scope:character ?= {
+						culture = cu:atzingani
+					}
+				}
 				scope:character ?= {
 					is_interest_group_type = ig_industrialists
 					culture = {
@@ -945,7 +965,12 @@
 				OR = {
 					AND = {
 						politician_clothes_trigger = yes
-						european_clothes_trigger = yes
+						OR = {
+							european_clothes_trigger = yes
+							scope:character ?= {
+								culture = cu:atzingani
+							}
+						}
 						scope:character ?= {
 							is_interest_group_type = ig_landowners
 							culture = {
@@ -981,7 +1006,12 @@
 						}
 					}
 					AND = {
-						european_clothes_pop_trigger = yes
+						OR = {
+							european_clothes_pop_trigger = yes
+							scope:pop ?= {
+								culture = cu:atzingani
+							}
+						}
 						scope:pop ?= {
 							OR = {
 								is_pop_type = capitalists
@@ -1071,7 +1101,12 @@
 				add = 1000
 			
 				AND = {
-					european_clothes_trigger = yes
+					OR = {
+						european_clothes_trigger = yes
+						scope:character ?= {
+							culture = cu:atzingani
+						}
+					}
 					scope:character ?= {
 						is_ruler = yes
 						exists = home_country
@@ -1117,7 +1152,12 @@
 				add = 1000
 				
 				AND = {
-					european_clothes_pop_trigger = yes
+					OR = {
+						european_clothes_pop_trigger = yes
+						scope:pop ?= {
+							culture = cu:atzingani
+						}
+					}
 					scope:pop ?= {
 						OR = {
 							is_pop_type = soldiers

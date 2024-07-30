@@ -2801,7 +2801,7 @@ rhaetic={ # Rhaeto-Romance group. Mostly leaning on Romansh with some Ladin and 
 		Freana Floura
 		Gelgia Georghina
 		Hiazinta
-		Ignazi
+		Ignazia
 		Jacobea Juditta Juventina
 		Lisetta Ladina Laurenzia Leta Librata Ligrezie Liuna
 		Maria Madleina Monica Macrina
