@@ -6,3 +6,6 @@ germanic_culture_group={
 
 hunnish_culture_group={
 }
+
+romani_culture_group={
+}

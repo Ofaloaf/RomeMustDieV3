@@ -2847,3 +2847,65 @@ rhaetic={ # Rhaeto-Romance group. Mostly leaning on Romansh with some Ladin and 
 	}
 	graphics = european
 }
+
+atzingani = {
+	color = rgb{ 57 43 66 }
+	religion = nestorian
+	traits = { romani_culture_group romani_heritage }
+	
+	male_common_first_names = {
+		Abraham Augusto Andreas Absolom Anselo Appeli Arcolas
+		Baius Bisnajura
+		Camlo
+		David
+		Elias
+		Isaak
+		JoZ_ko 
+		Kalo
+		Louka Lazarus
+		Mateo Moyses Marko
+		Philip Pontius
+		Romanus Romulus
+		Samon Simon Stevan
+		Tiberio Tinya
+		Yakob Youda Yosia Yohanni
+		Zacharias Zebedeo
+	}
+	female_common_first_names = {
+		Ana Abigal Allis Angelis
+		Basilia Bethania
+		C_irikli
+		Diamanta
+		Elisabeth
+		Lulud
+		Maria
+		Rupuni
+	}
+	common_last_names = {
+		Arias
+		Botos Barbul Baltzar Barandaj 
+		CioabA_
+		DrA_ghici Doktor
+		Farkas Filigrana
+		GiN_a
+		Hatzis Haliti
+		Janczy
+		KaloC_ajo KolompA_r Krasniqi
+		LA_zA_ricA_ LajkO_ 
+		Majia Mirga
+		PlopS_or
+		RA_zvan Rotaru
+		Shibil Schileru S_ajn Stoian Stoican 
+		Sanctus_Petrus Sanctus_Paulus Sanctus_Stephanus Sanctus_Andreas Sanctus_Marcus Sanctus_Matthaeus Sanctus_Lucas Sanctus_Iohannes
+		Tas TankO_
+		Vitali Varga Velea
+	}
+
+	ethnicities = {
+		1 = arab
+		2 = south_american
+		2 = caucasian
+		1 = slavic
+	}
+	graphics = european
+}

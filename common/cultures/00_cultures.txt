@@ -13819,7 +13819,7 @@ south_andean={
 
 peruvian = {
 	color= rgb{ 168 72 132 }
-	religion = catholic
+	religion = nicene
 	traits = { hispanophone european_heritage }
 
 	male_common_first_names = {
@@ -13894,7 +13894,7 @@ peruvian = {
 
 bolivian = {
 	color= rgb{ 133 115 107 }
-	religion = catholic
+	religion = nicene
 	traits = { hispanophone european_heritage }
 
 	male_common_first_names = {
@@ -13964,7 +13964,7 @@ bolivian = {
 
 ecuadorian = {
 	color= rgb{ 109 156 133 }
-	religion = catholic
+	religion = nicene
 	traits = { hispanophone european_heritage }
 
 	male_common_first_names = {
@@ -14033,7 +14033,7 @@ ecuadorian = {
 
 chilean = {
 	color= rgb{ 183 62 40 }
-	religion = catholic
+	religion = nicene
 	traits = { hispanophone european_heritage }
 
 	male_common_first_names = {
@@ -14107,7 +14107,7 @@ chilean = {
 
 venezuelan={
 	color=rgb{ 67 48 175 }
-	religion = catholic
+	religion = nicene
 	traits = { hispanophone european_heritage }
 
 	male_common_first_names={
@@ -14181,7 +14181,7 @@ venezuelan={
 
 argentine={
 	color=rgb{ 179 208 221 }
-	religion = catholic
+	religion = nicene
 	traits = { hispanophone european_heritage }
 
 	male_common_first_names = {
@@ -14249,7 +14249,7 @@ argentine={
 
 uruguayan={
 	color=rgb{ 213 210 187 }
-	religion = catholic
+	religion = nicene
 	traits = { hispanophone european_heritage }
 
 	male_common_first_names = {
@@ -14312,7 +14312,7 @@ uruguayan={
 
 paraguayan={
 	color=rgb{ 140 192 63 }
-	religion = catholic
+	religion = nicene
 	traits = { hispanophone european_heritage }
 
 	male_common_first_names = {
@@ -14380,7 +14380,7 @@ paraguayan={
 
 colombian={
 	color=rgb{ 47 78 185 }
-	religion = catholic
+	religion = nicene
 	traits = { hispanophone european_heritage }
 
 	male_common_first_names = {
