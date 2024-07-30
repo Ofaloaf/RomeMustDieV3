@@ -677,3 +677,67 @@ MDL = { # Mediolanum
 		priority = 1
 	}	
 }
+
+LST = { # Lusitania
+	flag_definition = {
+		coa = LST
+		subject_canton = LST
+		priority = 1
+	}	
+}
+
+GTH = { # Gothia
+	flag_definition = {
+		coa = GTH
+		subject_canton = GTH
+		priority = 1
+	}	
+}
+
+DLM = { # Dalmatia
+	flag_definition = {
+		coa = DLM
+		subject_canton = DLM
+		priority = 1
+	}	
+}
+
+BDL = { # Bardulia
+	flag_definition = {
+		coa = BDL
+		subject_canton = BDL
+		priority = 1
+	}	
+}
+
+BTC = { # Baetica
+	flag_definition = {
+		coa = BTC
+		subject_canton = BTC
+		priority = 1
+	}	
+}
+
+TRR = { # Tarraconensis
+	flag_definition = {
+		coa = TRR
+		subject_canton = TRR
+		priority = 1
+	}	
+}
+
+CRN = { # Carantia
+	flag_definition = {
+		coa = CRN
+		subject_canton = CRN
+		priority = 1
+	}	
+}
+
+HLV = { # Helvetia
+	flag_definition = {
+		coa = HLV
+		subject_canton = HLV
+		priority = 1
+	}	
+}

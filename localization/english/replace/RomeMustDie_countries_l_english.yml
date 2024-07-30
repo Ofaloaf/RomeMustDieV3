@@ -435,6 +435,10 @@
   NGK_ADJ: "Ngāti Kahungunu"
   IBL: "Ibalong"
   IBL_ADJ: "Ibalong"
+  SIC: "Sicilia"
+  SIC_ADJ: "Sicilia"
+  CRN: "Carantia"
+  CRN_ADJ: "Carantian"
   #
   dyn_c_western_roman_empire: "Western Roman Empire"
   dyn_c_western_roman_empire_adj: "Roman"

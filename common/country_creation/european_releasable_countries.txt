@@ -11,6 +11,7 @@
 SIC = {
 	states = {
 		STATE_SICILY
+		STATE_MALTA
 	}
 	
 	ai_will_do = { always = no }
@@ -19,6 +20,15 @@ SIC = {
 MDL = {
 	states = {
 		STATE_LOMBARDY
+	}
+	
+	ai_will_do = { always = no }
+}
+
+HLV = {
+	states = {
+		STATE_EAST_SWITZERLAND
+		STATE_WEST_SWITZERLAND
 	}
 	
 	ai_will_do = { always = no }
@@ -33,12 +43,21 @@ DLM = {
 		STATE_DALMATIA
 		STATE_CROATIA
 		STATE_BOSNIA
-		STATE_SLOVENIA
 		STATE_SLAVONIA
 	}
 	
 	ai_will_do = { always = no }
 }
+
+CRN = {
+	states = {
+		STATE_STYRIA
+		STATE_SLOVENIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
 
 ################
 

@@ -671,7 +671,7 @@
 				size = 167946
 			}
 			create_pop = {
-				culture = slovene
+				culture = sklavinian
 				size = 59996
 			}
 		}

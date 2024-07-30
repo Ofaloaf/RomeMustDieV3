@@ -1000,7 +1000,7 @@
 				size = 364796
 			}
 			create_pop = {
-				culture = roman
+				culture = rhaetic
 				religion = arian
 				size = 372000
 			}
@@ -1017,7 +1017,7 @@
 				size = 130018
 			}
 			create_pop = {
-				culture = roman
+				culture = rhaetic
 				religion = arian
 				size = 63557
 			}
@@ -1026,8 +1026,13 @@
 	s:STATE_SOUTH_TYROL = {
 		region_state:WRE = {
 			create_pop = {
+				culture = rhaetic
+				religion = nicene
+				size = 121050
+			}
+			create_pop = {
 				culture = roman
-				size = 174100
+				size = 53050
 			}
 			create_pop = {
 				culture = suebian
@@ -1065,11 +1070,12 @@
 				size = 82005
 			}
 			create_pop = {
-				culture = roman
+				culture = rhaetic
+				religion = nicene
 				size = 288400
 			}
 			create_pop = {
-				culture = roman
+				culture = rhaetic
 				religion = arian
 				size = 136786
 			}
@@ -1088,7 +1094,7 @@
 			}
 
 			create_pop = {
-				culture = roman
+				culture = rhaetic
 				size = 230756
 			}
 			create_pop = {
@@ -1271,7 +1277,7 @@
 				size = 625068
 			}
 			create_pop = {
-				culture = roman
+				culture = rhaetic
 				religion = arian
 				size = 189173
 			}
@@ -1284,7 +1290,7 @@
 				size = 1048400
 			}
 			create_pop = {
-				culture = roman
+				culture = rhaetic
 				religion = arian
 				size = 12000
 			}
@@ -1342,7 +1348,7 @@
 				size = 55000
 			}
 			create_pop = {
-				culture = roman
+				culture = rhaetic
 				religion = arian
 				size = 25004
 			}

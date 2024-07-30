@@ -538,11 +538,37 @@
  HUB_NAME_STATE_DELVIDEK_farm: "Tysia"
  HUB_NAME_STATE_DELVIDEK_wood: "Zabotka"
  #
+ STATE_SLOVENIA: "Carniola"
+ HUB_NAME_STATE_SLOVENIA_city: "Emona" # Ljubljana
+ HUB_NAME_STATE_SLOVENIA_mine: "Poetovio" # Ptuj
+ HUB_NAME_STATE_SLOVENIA_farm: "Celeia" # Celje
+ HUB_NAME_STATE_SLOVENIA_wood: "Neviodunum" # Drnovo
+ #
  STATE_SLAVONIA: "Savia"
  HUB_NAME_STATE_SLAVONIA_city: "Marsonia"
  HUB_NAME_STATE_SLAVONIA_mine: "Piretis"
  HUB_NAME_STATE_SLAVONIA_farm: "Mursa"
  HUB_NAME_STATE_SLAVONIA_wood: "Servitium"
+ #
+ STATE_BOSNIA: "Bathinus" # the Bosna River
+ HUB_NAME_STATE_BOSNIA_city: "Domavia" # Srebrenica
+ HUB_NAME_STATE_BOSNIA_mine: "Diluntum" # little SE of Mostar
+ HUB_NAME_STATE_BOSNIA_farm: "Baloia" # Šipovo, south of Banja Luka
+ HUB_NAME_STATE_BOSNIA_wood: "Bersellum" # Turbe, Travnik
+ #
+ STATE_CROATIA: "Colapis" # Kuba River
+ HUB_NAME_STATE_CROATIA_city: "Dautonia" # Andautonia, ancient Zagreb, 3th c nameform from Antonine Itinerary
+ HUB_NAME_STATE_CROATIA_mine: "Metulum" # Ogulin, a little SW of Karlovac
+ HUB_NAME_STATE_CROATIA_farm: "Siscia" # Segestica, Sisak
+ HUB_NAME_STATE_CROATIA_port: "Flumen" # Rijeka
+ HUB_NAME_STATE_CROATIA_wood: "Ad Fines" # Velika Gorica
+ #
+ STATE_DALMATIA: "Dalmatia"
+ HUB_NAME_STATE_DALMATIA_city: "Spalatum" # Split
+ HUB_NAME_STATE_DALMATIA_port: "Jadera" # Zadar
+ HUB_NAME_STATE_DALMATIA_mine: "Ragusium" # Ragusa
+ HUB_NAME_STATE_DALMATIA_farm: "Ninia" # Knin
+ HUB_NAME_STATE_DALMATIA_wood: "Scardona" # Skradin
  #
  STATE_TRANSDANUBIA: "Pelso"
  HUB_NAME_STATE_TRANSDANUBIA_city: "Gorsium"

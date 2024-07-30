@@ -2764,3 +2764,86 @@ tagalog={
 	}
 	graphics = east_asian
 }
+
+rhaetic={ # Rhaeto-Romance group. Mostly leaning on Romansh with some Ladin and Friulian mixed in, along with Latin to keep things thematic
+	color = rgb{148 41 63 }
+	religion = arian
+	traits = { romance_speaker latin_culture_group european_heritage }
+	
+	male_common_first_names={
+		Antoni Abraam Andri Adam Augustinus Amadeus AgapI_t Alesch Ambros Andreia Antimus
+		Bastiaun Banadetg Battista Balser Baltisar Barclamiu Baseli Bonifazi 
+		Chrest Cristoffel Ciascian Constantin Crisogon Chiaspar Cesar Calist
+		Daniel Donat Drusus Dumeng Dionis
+		Elija Esaja Eligi Erco Emerens
+		Firmiliano Flurin Fortunazian Faust Felici Fideli Fort
+		Giahannes Gagl Gisep Gudench Gieri Gaitan Giuli Giacum Gregori
+		Ignazi Innocenz
+		Josua Jeremia Jachiam Justin Jaronas Jonpitschen
+		Luzi Largias Librat Liun Lurainz
+		Maurus Murezzan Mudest Martin Maxentius Magnasch Matiu Mitgel Melcher
+		Natan Nicet NiculO_ Nutal
+		Oresti
+		Padrut Pasqual Pancraz Paulin Plasch
+		Roc Renat Raggo RU_f Remigi Romedius
+		Schimun Sacharja Steffan Silvester Sueton Sein Sievi
+		Tello Teodor Tumasch Tarcisi Teodosi
+		Uorsin Ursicin
+		Valantin Venanzi Vigieli Vincens
+		ZenA_r
+	}
+	female_common_first_names = {
+		Adeleida Agata Almina Andrina Angiolina
+		Ballonia Balungia Baselia Beatris Benvenuta Barla
+		Cornelia Carmelia Catregna Claritta Colastia Constanzia Cypriana
+		Duscha Dorathea Dumengia
+		Eugenia Emerita
+		Freana Floura
+		Gelgia Georghina
+		Hiazinta
+		Ignazi
+		Jacobea Juditta Juventina
+		Lisetta Ladina Laurenzia Leta Librata Ligrezie Liuna
+		Maria Madleina Monica Macrina
+		Nesa Nadina Nutala
+		Onna Otavia
+		RA_tia Rusina
+		Sylvia Selina Sibila Staschia 
+		Teodosa Tomasina
+		Uorschla Urbania
+		Vigelia Violanta Ziglia
+	}
+	common_last_names={
+		Accola Aliesch Alton Asinius Arricus Abellenus Altadus Ansegisus Arducius Agricola Amatus Ambrosius Achivus Astropius Angellus Aurelianus Aselion 
+		Buchli Bergamin Bifrun Biert Barblan Breunus Baldissera Barlac Bubulcus BrE_laz Berthelaius
+		Cadruvi Caduff Camenisch Carigiet Caviezel Cavelty Caflisch Cathrin Chiampell Candrion ChO_nz Camunnus Cotuantius Costadedoi Costamoling Candinas Cabert Claudianus Cromatius Calixtus Cornelius
+		Demetz Darms Decurtins Derungs Dosch Deplazes Dasser Declara Delamuraz 
+		Eutropius Epiphanius
+		Fontana Furdenan Frontull Florentius Fedeli
+		Giger Gallicius Gabriel Gengel Gudinchet Genaunus Ghedina Grammatius Gaudentius
+		Heliodorus Heyminus Hymnemodus Hermagoras Hilarius
+		Insam Isarcus Iringus Ingenuinus
+		Jenatsch JumbiE_rch Jaggi Jocundinus Januarius
+		Lansel Lenert Lendi Lepontius Leontius
+		Mureda Melchior Martinus Michel Maggi Mathis Mazzel Mischi Morlang Magnerius Marius Mastulo
+		Nadig Nantelmus
+		Olgiati Optandus
+		Planta Perathoner Peer Pecosta Pescoller Pruritius Paulinus Protasius Pappulus Prothais Placidianus Protadius Pantalus Pictavus Patecho Pigentius Praeiectus Prisc
+		Runggaldier Rocca Rucantius Ruguscus Rinna Rottonara Remigius Rufus Rocolenus Ricuinus Ravengerius 
+		Schuen Senoner Simler Stonus Sotriffer Sidonius Salonius Salvius Secundinus Severius
+		Tavella Tigurinus Triumpilinus Tosi TramE_r Theoplastus Tranquillinus Trogus
+		Vian Vinatzer Vindelicus Variscus Videsott Vallazza Vinazer Verendarius Vilencus Venantius 
+		Walaus
+		#
+		#da_Losanna
+		#de_RU_
+		#da_Surlej
+		#da_Vindonissa
+	}
+		
+		
+	ethnicities = {
+		1 = caucasian
+	}
+	graphics = european
+}

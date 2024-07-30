@@ -193,7 +193,7 @@
 				size = 601656
 			}
 			create_pop = {
-				culture = roman
+				culture = rhaetic
 				religion = arian
 				size = 122773
 			}
@@ -495,7 +495,11 @@
 			}
 			create_pop = {
 				culture = illyrian
-				size = 462400
+				size = 373640
+			}
+			create_pop = {
+				culture = serbian
+				size = 88760
 			}
 			create_pop = {
 				culture = greek
@@ -558,12 +562,13 @@
 				size = 464400
 			}
 			create_pop = {
-				culture = roman
+				culture = rhaetic
+				religion = arian
 				size = 20084
 			}
 			create_pop = {
 				culture = roman
-				religion = arian
+				religion = nicene
 				size = 1304
 			}
 		}
@@ -629,8 +634,12 @@
 	s:STATE_ISTRIA = {
 		region_state:WRE = {
 			create_pop = {
+				culture = illyrian
+				size = 547800
+			}
+			create_pop = {
 				culture = roman
-				size = 847800
+				size = 147800
 			}
 			create_pop = {
 				culture = greek
@@ -647,7 +656,7 @@
 				size = 4792
 			}
 			create_pop = {
-				culture = roman
+				culture = rhaetic
 				religion = arian
 				size = 124000
 			}

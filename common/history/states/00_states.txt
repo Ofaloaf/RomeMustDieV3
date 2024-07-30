@@ -3883,7 +3883,7 @@ STATES = {
 			country = c:WRE
 			owned_provinces = { x7E4B86 x5FB41E xD00161 x90C0E0 x11C0E0 }
 		}
-		add_homeland = cu:roman
+		add_homeland = cu:rhaetic
 		add_homeland = cu:alemannic
 	}
 	s:STATE_WEST_SWITZERLAND = {
@@ -3895,7 +3895,7 @@ STATES = {
 		add_homeland = cu:alemannic
 		add_homeland = cu:burgundian
 		add_homeland = cu:gallic
-		add_homeland = cu:roman
+		add_homeland = cu:rhaetic
 	}
 	s:STATE_PUERTO_RICO = {
 		create_state = {
@@ -7166,7 +7166,7 @@ STATES = {
 			country = c:WRE
 			owned_provinces = { x108021 x3060BF x56C78A xB061C0 x36B2E3 xF0A040 }
 		}
-		
+		add_homeland = cu:rhaetic
 		add_homeland = cu:roman
 	}
 	s:STATE_LOMBARDY = {
@@ -7209,7 +7209,8 @@ STATES = {
 		}
 		
 		add_homeland = cu:suebian
-		add_homeland = cu:roman
+		add_homeland = cu:rhaetic
+		add_homeland = cu:illyrian
 	}
 	s:STATE_TYROL = {
 		create_state = {
@@ -7218,6 +7219,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:suebian
+		add_homeland = cu:rhaetic
 	}
 	s:STATE_AUSTRIA = {
 		create_state = {
@@ -7233,6 +7235,7 @@ STATES = {
 			owned_provinces = { xD0BF60 x1120FF xD040E0 x039D0F }
 		}
 		
+		add_homeland = cu:rhaetic
 		add_homeland = cu:roman
 	}
 	s:STATE_SLOVENIA = {
@@ -7242,6 +7245,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:illyrian
+		add_homeland = cu:rhaetic
 	}
 	s:STATE_DELVIDEK = {
 		create_state = {
