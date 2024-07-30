@@ -750,8 +750,8 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = peasants_legwear
-				range = { 0 0.5 }
+				template = fp1_common_legwear
+				range = { 0 1 }
 			}
 		} 
 
@@ -1227,6 +1227,32 @@
 			}
 		}
 	}
+	
+    slavic_middle_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = slavic_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = slavic_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        } 
+        weight = {
+            base = 0
+            modifier = {
+                add = 5000
+
+                slavic_clothes_pop_trigger = yes
+                middle_clothes_pop_trigger = yes
+           }
+        }
+    }
 	
     #Native America
 

@@ -53,9 +53,9 @@ on_monthly_pulse_country = {
 		caudillo.1
 		sa_migration.5
 		amazonas.1 # Taming Amazonia
-		paraguay.11 # Paraguay War
-		acw_events.9 # CSA victory event
-		persia_events.5 # Persian slave liberation event
+		#paraguay.11 # Paraguay War
+		#acw_events.9 # CSA victory event
+		#persia_events.5 # Persian slave liberation event
 
 		# Exile Agitators Events
 		yeet_agitator_events.1

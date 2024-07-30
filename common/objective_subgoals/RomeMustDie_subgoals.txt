@@ -1,0 +1,9 @@
+﻿sg_play_the_game = { # :)
+	category = sgcat_romemustdie
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}

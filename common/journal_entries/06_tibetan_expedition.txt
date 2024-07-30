@@ -1,0 +1,19 @@
+﻿je_tibet_expedition = {
+	
+	group = je_group_objectives
+
+	immediate = {
+	}
+	
+    complete = {
+    }
+    
+    fail = {
+    }
+	
+	on_fail = {
+	}
+
+    transferable = no
+    should_be_pinned_by_default = yes
+}

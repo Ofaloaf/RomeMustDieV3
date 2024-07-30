@@ -9,7 +9,7 @@
 		#sg_strong_market #Keep
 	}
 	
-	#final_subgoal = sg_strong_market
+	final_subgoal = sg_play_the_game
 	
 	on_start = {
 	}
@@ -25,7 +25,7 @@ objective_struggle_for_the_new_world = {
 		#sg_colonization_laws
 	}
 	
-	#final_subgoal = sg_the_hegemon
+	final_subgoal = sg_play_the_game
 	
 	on_start = {
 	}
@@ -41,7 +41,7 @@ objective_oriens = {
 		#sg_encourage_liberal_ideas
 	}
 	
-	#final_subgoal = sg_egalitarian_society
+	final_subgoal = sg_play_the_game
 	
 	on_start = {
 	}
@@ -57,7 +57,7 @@ objective_heart_of_africa = {
 		#sg_encourage_liberal_ideas
 	}
 	
-	#final_subgoal = sg_egalitarian_society
+	final_subgoal = sg_play_the_game
 	
 	on_start = {
 	}
