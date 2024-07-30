@@ -249,6 +249,12 @@
  HUB_NAME_STATE_BRITTANY_farm: "Aletum" # Alet/Aleth, a little east of Saint-Brieuc
  HUB_NAME_STATE_BRITTANY_wood: "Redonas" # Rennes
  #
+ STATE_MAINE_ANJOU: "Cenomanica"
+ HUB_NAME_STATE_MAINE_ANJOU_city: "Andecavis" # Angers, 769
+ HUB_NAME_STATE_MAINE_ANJOU_mine: "Vallis" # Laval
+ HUB_NAME_STATE_MAINE_ANJOU_farm: "Ceromannis" # Le Mans, 6th c
+ HUB_NAME_STATE_MAINE_ANJOU_wood: "Turonis" # Tours
+ #
  STATE_NORMANDY: "Veliocassinus"
  HUB_NAME_STATE_NORMANDY_city: "Rotomagus" # Rouen
  HUB_NAME_STATE_NORMANDY_port: "Juliobona" # Lillebonne rather than Le Havre
@@ -289,6 +295,20 @@
  HUB_NAME_STATE_TOLEDO_mine: "Pozuelum"
  HUB_NAME_STATE_TOLEDO_farm: "Toletum"
  HUB_NAME_STATE_TOLEDO_wood: "Conca"
+ #
+ STATE_ANDALUSIA: "Baetica"
+ HUB_NAME_STATE_ANDALUSIA_city: "Hispalis" # Seville
+ HUB_NAME_STATE_ANDALUSIA_port: "Gades" # Cádiz
+ HUB_NAME_STATE_ANDALUSIA_mine: "Onuba" # Huelva
+ HUB_NAME_STATE_ANDALUSIA_farm: "Corduba" # Córdoba
+ HUB_NAME_STATE_ANDALUSIA_wood: "Astigi" # Écija
+ #
+ STATE_GRANADA: "Bastitania"
+ HUB_NAME_STATE_GRANADA_city: "Florentia" # Granada
+ HUB_NAME_STATE_GRANADA_port: "Calpe" # Gibraltar
+ HUB_NAME_STATE_GRANADA_mine: "Urci" # Almería
+ HUB_NAME_STATE_GRANADA_farm: "Malaca" # Malaga
+ HUB_NAME_STATE_GRANADA_wood: "Gaiena" # Jaen
  #
  ### GERMANIA
  #
