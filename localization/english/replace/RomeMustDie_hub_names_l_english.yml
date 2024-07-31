@@ -1210,6 +1210,54 @@
  HUB_NAME_STATE_AL_RIF_farm:0 "Oujda"
  HUB_NAME_STATE_AL_RIF_wood: "Oppidum Novum" # Ksar el Kebir
  #
+ STATE_FEZ: "Volubilis"
+ HUB_NAME_STATE_FEZ_city: "Wlili" # Volubilis, but in Berber
+ HUB_NAME_STATE_FEZ_port: "Sala" # Rabat
+ HUB_NAME_STATE_FEZ_mine: "Aquae Daciae" # Sidi Moulay Yakoub
+ HUB_NAME_STATE_FEZ_farm: "Tocolsida" # Bled Takourart
+ HUB_NAME_STATE_FEZ_wood: "Thamusida" # Kénitra
+ #
+ STATE_MATRUH: "Marmarica"
+ HUB_NAME_STATE_MATRUH_city: "Tetrapyrgia" # Salloum
+ HUB_NAME_STATE_MATRUH_port: "Tparatonion" # Coptic form of Paraetonium. Mersa Matruh.
+ HUB_NAME_STATE_MATRUH_farm: "Klimax" # actually the Qattara Pass
+ HUB_NAME_STATE_MATRUH_wood: "Zygra" # Sidi Barrani
+ HUB_NAME_STATE_MATRUH_mine: "Ammon" # Siwa
+ #
+ STATE_LOWER_EGYPT: "Aegyptos"
+ HUB_NAME_STATE_LOWER_EGYPT_city: "Memfi" # Memphis, across the river from Cairo
+ HUB_NAME_STATE_LOWER_EGYPT_port:0 "Alexandria"
+ HUB_NAME_STATE_LOWER_EGYPT_mine: "Bilbeis" # Phelbes
+ HUB_NAME_STATE_LOWER_EGYPT_farm: "Athribis"
+ HUB_NAME_STATE_LOWER_EGYPT_wood: "Tipersis" # Giza
+ #
+ STATE_SINAI: "Rhinokoroura"
+ HUB_NAME_STATE_SINAI_city: "Peremoun" # Pelusium, near Port Said
+ HUB_NAME_STATE_SINAI_port: "Peklousma" # Clysma
+ HUB_NAME_STATE_SINAI_mine: "Raithu" # El Tor
+ HUB_NAME_STATE_SINAI_farm:1 "Nekhel"
+ HUB_NAME_STATE_SINAI_wood: "Rinokoroura"
+ #
+ STATE_MIDDLE_EGYPT: "Arkadia"
+ HUB_NAME_STATE_MIDDLE_EGYPT_city: "Herakleopolis"
+ HUB_NAME_STATE_MIDDLE_EGYPT_port: "Drepanum"
+ HUB_NAME_STATE_MIDDLE_EGYPT_mine: "Qubba"
+ HUB_NAME_STATE_MIDDLE_EGYPT_farm: "Syowt" # Asyut
+ HUB_NAME_STATE_MIDDLE_EGYPT_wood: "Bompae" # Sohag
+ #
+ STATE_UPPER_EGYPT: "Thebaid"
+ HUB_NAME_STATE_UPPER_EGYPT_city: "Pape" # Thebes, modern Luxor.
+ HUB_NAME_STATE_UPPER_EGYPT_port: "Philoterida" # Safaga
+ HUB_NAME_STATE_UPPER_EGYPT_mine: "Apollinopolis" # Edfu
+ HUB_NAME_STATE_UPPER_EGYPT_farm: "Berenike" # north of Shalateen
+ HUB_NAME_STATE_UPPER_EGYPT_wood: "Aristonis" # Wadi Gerf
+ #
+ EGYPTIAN_DESERT: "Deserta Occidentalis"
+ HUB_NAME_STATE_EGYPTIAN_DESERT_city: "Souan" # Aswan
+ HUB_NAME_STATE_EGYPTIAN_DESERT_mine: "Esotero" # Kharga
+ HUB_NAME_STATE_EGYPTIAN_DESERT_farm: "Pachoras" # Faras, now under Lake Nasser
+ HUB_NAME_STATE_EGYPTIAN_DESERT_wood:0 "Birein"
+ #
  ############ ASIA #############
  #
  STATE_AZERBAIJAN: "Shirvan"
