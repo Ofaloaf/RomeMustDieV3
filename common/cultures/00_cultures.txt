@@ -5795,6 +5795,7 @@ greek={
 		Bryennios Basilakes
 		Diogenes Dalassenos Doukas
 		Komnenos
+		Lekapenos
 		Makrembolites
 		Rhangabe 
 		Xiphilinos

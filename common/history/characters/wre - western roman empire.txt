@@ -48,5 +48,11 @@
 		create_character = {
 			template = wre_general_04	# Eneas Cincio
 		}
+		
+		### ADMIRALS
+		
+		create_character = {
+			template = wre_admiral_1	# Ottavio Essuperanzio
+		}
 	}
 }

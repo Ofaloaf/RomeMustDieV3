@@ -741,3 +741,11 @@ HLV = { # Helvetia
 		priority = 1
 	}	
 }
+
+KNM = { # Kanem
+	flag_definition = {
+		coa = KNM
+		subject_canton = KNM
+		priority = 1
+	}	
+}

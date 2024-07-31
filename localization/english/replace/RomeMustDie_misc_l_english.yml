@@ -62,7 +62,7 @@
   #
   gov_restored_mayapan_absolutist: "Restored League"
   gov_restored_mayapan_desc: "The Restored League of Mayapan is a centralized government, led by the hereditary rulers of Tutul-Xiu."
-  RULER_TITLE: "Ajaw"
+  RULER_TITLE_AJAW: "Ajaw"
   #
   gov_sichuanese_court: "Sichuanese Court"
   gov_sichuanese_court_desc: "The Da Shu dynasty is run by a clique of Sichuanese ministers and bureaucrats who serve the Supreme Emperor."
@@ -90,11 +90,16 @@
   revived_ancient_pantheon: "Eternal Glory of the Revived Ancient Pantheon"
   the_apostate: "The Apostate"
   the_apostate_but_worse: "The Great Apostate"
-
+  #
   Legio_II: "Legio II"
   Legio_III: "Legio III"
   Legio_VI: "Legio VI"
-  
+  Classis_Ravennas: "Classis Ravennas"
+  Thema_Thrakis: "Thema Thrakis"
+  Thema_Hellinikis: "Thema Hellinikis"
+  Thema_Anatolikon: "Thema Anatolikon"
+  Basilikos_Stolos: "Basilikos Stolos"
+  #
   WRE_BLOC: "Imperium Orientiale"
   ERE_BLOC: "Imperium Occidentale"
   #

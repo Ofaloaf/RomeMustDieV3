@@ -1209,6 +1209,7 @@
  HUB_NAME_STATE_AL_RIF_mine:0 "Taza"
  HUB_NAME_STATE_AL_RIF_farm:0 "Oujda"
  HUB_NAME_STATE_AL_RIF_wood: "Oppidum Novum" # Ksar el Kebir
+ #
  ############ ASIA #############
  #
  STATE_AZERBAIJAN: "Shirvan"

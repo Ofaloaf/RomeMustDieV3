@@ -720,17 +720,32 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 5000
 				
 				scope:character ?= {
 					OR = {
 						has_role = general
 						has_role = admiral
 					}
-					culture = {
-						OR = {
-							has_discrimination_trait = romance_speaker
-							has_discrimination_trait = greek_culture
+					OR = {
+						culture = {
+							OR = {
+								has_discrimination_trait = romance_speaker
+								has_discrimination_trait = greek_culture
+							}
+						}
+						AND = {
+							owner ?= {
+								OR = {
+									c:WRE ?= this
+									c:ERE ?= this
+									c:GBI ?= this
+									c:GLL ?= this
+								}
+							}
+							culture = {
+								NOT = { has_discrimination_trait = germanic_culture_group }
+							}
 						}
 					}
 				}
