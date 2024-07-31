@@ -32,15 +32,15 @@
 		
 		### Generals ###
 		
-		create_character = {
-			template = ere_general_01 # Pantaleon Xiphilinos
-		}
-		create_character = {
-			template = ere_general_02 # Christodoulos Pepagomenos
-		}
-		create_character = {
-			template = ere_general_03 # Arcolas Xenopoulos
-		}
+		#create_character = {
+		#	template = ere_general_01 # Pantaleon Xiphilinos
+		#}
+		#create_character = {
+		#	template = ere_general_02 # Christodoulos Pepagomenos
+		#}
+		#create_character = {
+		#	template = ere_general_03 # Arcolas Xenopoulos
+		#}
 		create_character = {
 			template = ere_general_04 # Ioannis Theotokis
 		}

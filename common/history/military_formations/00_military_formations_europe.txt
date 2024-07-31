@@ -83,6 +83,18 @@
 				state_region = s:STATE_CAMPANIA
 				count = 1
 			}
+			
+			save_scope_as = legio_ii
+		}
+		
+		create_character = {
+			template = wre_odoacer_expy # Onulphus Otacheringi
+			
+			save_scope_as = onulphus_otacheringi
+		}
+		
+		scope:onulphus_otacheringi = {
+			transfer_to_formation = scope:legio_ii
 		}
 		
 		create_military_formation = {
@@ -108,6 +120,18 @@
 				state_region = s:STATE_TUNISIA
 				count = 1
 			}
+			
+			save_scope_as = legio_iii
+		}
+		
+		create_character = {
+			template = wre_general_02 # Bonifacio Ruffo
+			
+			save_scope_as = bonifacio_ruffo
+		}
+		
+		scope:bonifacio_ruffo = {
+			transfer_to_formation = scope:legio_iii
 		}
 
 		create_military_formation = {
@@ -138,6 +162,18 @@
 				state_region = s:STATE_LAZIO
 				count = 1
 			}
+			
+			save_scope_as = legio_vi
+		}
+		
+		create_character = {
+			template = wre_general_04 # Eneas Cincio
+			
+			save_scope_as = eneas_cincio
+		}
+		
+		scope:eneas_cincio = {
+			transfer_to_formation = scope:legio_vi
 		}
 		
 		create_military_formation = {
@@ -196,6 +232,28 @@
 				state_region = s:STATE_WESTERN_THRACE
 				count = 1
 			}
+			
+			save_scope_as = thema_thrakis
+		}
+		
+		create_character = {
+			template = ere_general_01 # Pantaleon Xiphilinos
+			
+			save_scope_as = pantaleon_xiphilinos
+		}
+		
+		scope:pantaleon_xiphilinos = {
+			transfer_to_formation = scope:thema_thrakis
+		}
+		
+		create_character = {
+			template = ere_general_03 # Arcolas Xenopoulos
+			
+			save_scope_as = arcolas_xenopoulos
+		}
+		
+		scope:arcolas_xenopoulos = {
+			transfer_to_formation = scope:thema_thrakis
 		}
 		
 		create_military_formation = {
@@ -213,6 +271,18 @@
 				state_region = s:STATE_MACEDONIA
 				count = 2
 			}
+			
+			save_scope_as = thema_anatolikon
+		}
+		
+		create_character = {
+			template = ere_general_02 # Christodoulos Pepagomenos
+			
+			save_scope_as = christodoulos_pepagomenos
+		}
+		
+		scope:christodoulos_pepagomenos = {
+			transfer_to_formation = scope:thema_anatolikon
 		}
 
 		create_military_formation = {

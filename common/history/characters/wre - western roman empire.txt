@@ -15,9 +15,9 @@
 
 		# Armed Forces
 		# Onulphus Otacheringi
-		create_character = {
-			template = wre_odoacer_expy
-		}
+		#create_character = {
+		#	template = wre_odoacer_expy
+		#}
 		
 		# Rural Folks
 		# Costantino Atrianense
@@ -37,17 +37,17 @@
 			template = wre_general_01	# Gercorio Segontiense
 		}
 		
-		create_character = {
-			template = wre_general_02	# Bonifacio Ruffo
-		}
+		#create_character = {
+		#	template = wre_general_02	# Bonifacio Ruffo
+		#}
 
 		create_character = {
 			template = wre_general_03	# Glaucias Scirtar
 		}
 
-		create_character = {
-			template = wre_general_04	# Eneas Cincio
-		}
+		#create_character = {
+		#	template = wre_general_04	# Eneas Cincio
+		#}
 		
 		### ADMIRALS
 		
