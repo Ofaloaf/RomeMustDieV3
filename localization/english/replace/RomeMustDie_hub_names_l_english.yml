@@ -1238,7 +1238,7 @@
  HUB_NAME_STATE_SINAI_farm:1 "Nekhel"
  HUB_NAME_STATE_SINAI_wood: "Rinokoroura"
  #
- STATE_MIDDLE_EGYPT: "Arkadia"
+ STATE_MIDDLE_EGYPT: "Arcadia"
  HUB_NAME_STATE_MIDDLE_EGYPT_city: "Herakleopolis"
  HUB_NAME_STATE_MIDDLE_EGYPT_port: "Drepanum"
  HUB_NAME_STATE_MIDDLE_EGYPT_mine: "Qubba"
@@ -1258,6 +1258,12 @@
  HUB_NAME_STATE_EGYPTIAN_DESERT_farm: "Pachoras" # Faras, now under Lake Nasser
  HUB_NAME_STATE_EGYPTIAN_DESERT_wood:0 "Birein"
  #
+ STATE_LIBERIA: "Diani" # St. Paul River
+ HUB_NAME_STATE_LIBERIA_city: "Diougou" # Zwedru River
+ HUB_NAME_STATE_LIBERIA_port: "Dazoe" # Dazoe Island, now called Providence Island
+ HUB_NAME_STATE_LIBERIA_mine: "Sanokwelleh"
+ HUB_NAME_STATE_LIBERIA_farm:0 "Gbarnga"
+ HUB_NAME_STATE_LIBERIA_wood: "Sapo"
  ############ ASIA #############
  #
  STATE_AZERBAIJAN: "Shirvan"
