@@ -1252,7 +1252,7 @@
  HUB_NAME_STATE_UPPER_EGYPT_farm: "Berenike" # north of Shalateen
  HUB_NAME_STATE_UPPER_EGYPT_wood: "Aristonis" # Wadi Gerf
  #
- EGYPTIAN_DESERT: "Deserta Occidentalis"
+ STATE_EGYPTIAN_DESERT: "Deserta Occidentalis"
  HUB_NAME_STATE_EGYPTIAN_DESERT_city: "Souan" # Aswan
  HUB_NAME_STATE_EGYPTIAN_DESERT_mine: "Esotero" # Kharga
  HUB_NAME_STATE_EGYPTIAN_DESERT_farm: "Pachoras" # Faras, now under Lake Nasser

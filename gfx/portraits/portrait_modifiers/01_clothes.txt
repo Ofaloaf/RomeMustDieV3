@@ -779,7 +779,7 @@
 				OR = {
 					european_clothes_pop_trigger = yes
 					scope:pop ?= {
-						culture = cu:atzingani
+						culture = cu:rromani
 					}
 				}
 				scope:pop ?= {
@@ -866,7 +866,7 @@
 						OR = {
 							european_clothes_pop_trigger = yes
 							scope:pop ?= {
-								culture = cu:atzingani
+								culture = cu:rromani
 							}
 						}
 						middle_clothes_pop_trigger = yes
@@ -883,7 +883,7 @@
 						OR = {
 							european_clothes_trigger = yes
 							scope:character ?= {
-								culture = cu:atzingani
+								culture = cu:rromani
 							}
 						}
 						politician_clothes_trigger = yes
@@ -939,7 +939,7 @@
 				OR = {
 					european_clothes_trigger = yes
 					scope:character ?= {
-						culture = cu:atzingani
+						culture = cu:rromani
 					}
 				}
 				scope:character ?= {
@@ -983,7 +983,7 @@
 						OR = {
 							european_clothes_trigger = yes
 							scope:character ?= {
-								culture = cu:atzingani
+								culture = cu:rromani
 							}
 						}
 						scope:character ?= {
@@ -1024,7 +1024,7 @@
 						OR = {
 							european_clothes_pop_trigger = yes
 							scope:pop ?= {
-								culture = cu:atzingani
+								culture = cu:rromani
 							}
 						}
 						scope:pop ?= {
@@ -1119,7 +1119,7 @@
 					OR = {
 						european_clothes_trigger = yes
 						scope:character ?= {
-							culture = cu:atzingani
+							culture = cu:rromani
 						}
 					}
 					scope:character ?= {
@@ -1170,7 +1170,7 @@
 					OR = {
 						european_clothes_pop_trigger = yes
 						scope:pop ?= {
-							culture = cu:atzingani
+							culture = cu:rromani
 						}
 					}
 					scope:pop ?= {

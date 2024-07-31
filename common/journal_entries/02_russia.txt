@@ -61,21 +61,6 @@ je_caucasian_war = {
     complete = {
     }
 
-    on_complete = {
-    }
-
-    fail = {
-    }
-
-    on_fail = {
-    }
-
-    on_weekly_pulse = {
-    }
-
-    on_monthly_pulse = {
-    }
-
     weight = 100
 
     should_be_pinned_by_default = yes
@@ -98,20 +83,6 @@ je_circassian_expulsions = {
     }
 
     complete = {
-    }
-
-    on_complete = {
-
-    }
-
-    fail = {
-    }
-
-    on_fail = {
-
-    }
-
-    on_monthly_pulse = {
     }
 
     weight = 100
@@ -159,12 +130,6 @@ je_caucasian_war_circassia = {
     complete = {
     }
 
-    on_complete = {
-    }
-
-    on_monthly_pulse = {
-    }
-
     weight = 100
 
     should_be_pinned_by_default = yes
@@ -209,9 +174,6 @@ je_caucasian_war_imamate = {
     complete = {
     }
 
-    on_complete = {
-    }
-
     weight = 100
 
     should_be_pinned_by_default = yes
@@ -230,18 +192,6 @@ je_pacify_the_steppes = {
     }
 
     complete = {
-    }
-
-    on_complete = {
-    }   
-
-    fail = {
-    }
-
-    on_fail = {
-    }
-
-    invalid = {
     }
 
     weight = 100
@@ -264,15 +214,6 @@ je_the_last_kazakh_khan = {
     complete = {
     }
 
-    on_complete = {
-    }
-
-    fail = {
-    }
-
-    on_fail = {
-    }
-
     weight = 100
 
     should_be_pinned_by_default = yes
@@ -292,8 +233,6 @@ je_conquest_of_central_asia = {
     immediate = {
     }
     complete = {
-    }
-    on_complete = {
     }
 
     weight = 1000

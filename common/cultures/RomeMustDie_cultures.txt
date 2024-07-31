@@ -2848,7 +2848,7 @@ rhaetic={ # Rhaeto-Romance group. Mostly leaning on Romansh with some Ladin and 
 	graphics = european
 }
 
-atzingani = {
+rromani = {
 	color = rgb{ 57 43 66 }
 	religion = nestorian
 	traits = { romani_culture_group romani_heritage }

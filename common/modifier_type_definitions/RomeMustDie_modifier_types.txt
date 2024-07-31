@@ -415,7 +415,7 @@ state_rhaetic_standard_of_living_add={
 	}
 }
 
-state_atzingani_standard_of_living_add={
+state_rromani_standard_of_living_add={
 	decimals=1
 	color=good
 	game_data={

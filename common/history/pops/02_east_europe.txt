@@ -613,7 +613,7 @@
 				size = 31996
 			}
 			create_pop = {
-				culture = atzingani
+				culture = rromani
 				size = 161864
 			}
 		}
@@ -650,7 +650,7 @@
 				size = 20000
 			}
 			create_pop = {
-				culture = atzingani
+				culture = rromani
 				size = 92079
 			}
 		}
@@ -683,7 +683,7 @@
 				size = 59996
 			}
 			create_pop = {
-				culture = atzingani
+				culture = rromani
 				size = 84834
 			}
 		}
@@ -699,20 +699,16 @@
 				size = 160000
 			}
 			create_pop = {
-				culture = illyrian
-				size = 40000
+				culture = rromani
+				size = 49490
 			}
 			create_pop = {
 				culture = serb
 				size = 284196
 			}
 			create_pop = {
-				culture = suebian
-				size = 36000
-			}
-			create_pop = {
-				culture = romanian
-				size = 44000
+				culture = illyrian
+				size = 70510
 			}
 		}
 	}
@@ -731,7 +727,7 @@
 				size = 59228
 			}
 			create_pop = {
-				culture = atzingani
+				culture = rromani
 				size = 62296
 			}
 			create_pop = {
@@ -827,7 +823,7 @@
 				size = 32800
 			}
 			create_pop = {
-				culture = atzingani
+				culture = rromani
 				size = 42856
 			}
 		}
@@ -852,7 +848,7 @@
 				size = 142000
 			}
 			create_pop = {
-				culture = atzingani
+				culture = rromani
 				size = 29490
 			}
 		}
@@ -873,11 +869,11 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = atzingani
+				culture = rromani
 				size = 10000
 			}
 			create_pop = {
-				culture = atzingani
+				culture = rromani
 				size = 78785
 			}
 		}
@@ -894,11 +890,11 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = atzingani
+				culture = rromani
 				size = 10000
 			}
 			create_pop = {
-				culture = atzingani
+				culture = rromani
 				size = 50731
 			}
 		}
@@ -918,7 +914,7 @@
 				size = 40000
 			}
 			create_pop = {
-				culture = atzingani
+				culture = rromani
 				size = 44950
 			}
 		}
