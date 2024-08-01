@@ -1,7 +1,7 @@
 ﻿voip_roman_french_city = {
 #	graphical_culture = "french"
 	city_type = city
-	center_building_mesh = "latin_urban_city_townsquare_01_mesh"
+	center_building_mesh = "french_city_centerpiece_01_mesh"
 	building_skyscraper = {"french_city_centerpiece_skyscraper_01_mesh"}
 	center_building_size = { 2 2 }
 
@@ -59,24 +59,24 @@
 		rotation = 0.0
 	}
 
-	building_construction_sector = {"french_city_factory_construction_01_mesh"}
-	building_food_industry = {"french_city_factory_food_01_mesh"}
-	building_paper_mills = {"french_city_factory_papermill_01_mesh"}
-	building_textile_mills = {"french_city_factory_textilemill_01_mesh"}
-	building_furniture_manufacturies= {"french_city_factory_furniture_01_mesh"}
-	building_glassworks = {"french_city_factory_glass_01_mesh"}
-	building_tooling_workshops = {"french_city_factory_tools_01_mesh"}
-	building_steel_mills = {"french_city_factory_steel_01_mesh"}
-	building_arms_industry = {"french_city_factory_arms_01_mesh"}
-	building_artillery_foundries = {"french_city_factory_arms_01_mesh"}
-	building_war_machine_industry = {"french_city_factory_warmachine_01_mesh"}
-	building_munition_plants = {"french_city_factory_munition_01_mesh"}
-	building_motor_industry = {"french_city_factory_tech_01_mesh"}
-	building_electrics_industry = {"french_city_factory_tech_01_mesh"}
-	building_chemical_plants = {"french_city_factory_chemical_01_mesh"}
-	building_synthetics_plants = {"french_city_factory_chemical_01_mesh"}
-	building_power_plant = {"french_city_factory_powerplant_01_mesh"}
-	building_explosives_factory = {"french_city_factory_chemical_01_mesh"}
+	building_construction_sector = {"latin_manufactory_03_mesh"}
+	building_food_industry = {"latin_manufactory_01_mesh"}
+	building_textile_mills = {"latin_tools_manufactory_01_mesh"}
+	building_furniture_manufacturies= {"latin_furniture_manufactory_01_mesh"}
+	building_glassworks = {"latin_glassworks_manufactory_01_mesh"}
+	building_tooling_workshops = {"latin_tools_manufactory_01_mesh"}
+	building_paper_mills = {"latin_manufactory_02_mesh"}
+	building_chemical_plants = {"latin_colonial_manufactory_01_mesh"}
+	building_steel_mills = {"latin_manufactory_01_mesh"}
+	building_arms_industry = {"latin_colonial_manufactory_03_mesh"}
+	building_artillery_foundries = {"latin_colonial_manufactory_03_mesh"}
+	building_war_machine_industry = {"war_machines_manufactory_01_mesh"}
+	building_motor_industry = {"latin_colonial_manufactory_02_mesh"}
+	building_munition_plants = {"latin_colonial_manufactory_03_mesh"}
+	building_synthetics_plants = {"latin_glassworks_manufactory_01_mesh"}
+	building_electrics_industry = {"latin_manufactory_02_mesh"}
+	building_power_plant = {"latin_manufactory_01_mesh"}
+	building_explosives_factory = {"latin_colonial_manufactory_01_mesh"}
 
 
 	building_suez_canal = {"canal_suezcanal_01_mesh"}

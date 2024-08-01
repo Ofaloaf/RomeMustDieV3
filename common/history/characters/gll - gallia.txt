@@ -1,14 +1,27 @@
 ﻿CHARACTERS = {
 	c:GLL = {
+		#create_character = { # created and assigned to an army in common\history\military_formations\WRE_military_formations.txt
+		#	template = GLL_ruler 		# Siagres Egides
+		#}
+		
 		create_character = {
-			first_name = Siagres
-			last_name = Egides
-			historical = yes
-			ruler = yes
-			age = 51
-			interest_group = ig_armed_forces
-			traits = {
-			}
+			template = GLL_landowners 	# Apollinaris Ecdissi
 		}
+		
+		create_character = {
+			template = GLL_rural_folk	# Eliien Armandes
+		}
+		
+		create_character = {
+			template = GLL_devout 		# Avit Alcim
+		}
+	
+		#create_character = { # created and assigned to an army in common\history\military_formations\WRE_military_formations.txt
+		#	template = GLL_general_01	# Aureliien Eparciaus
+		#}
+		
+		#create_character = { # created and assigned to an army in common\history\military_formations\WRE_military_formations.txt
+		#	template = GLL_general_02	# Fortunatus Minucius
+		#}
 	}
 }

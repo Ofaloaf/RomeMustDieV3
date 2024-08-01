@@ -58,6 +58,5 @@
 			value = 0
 		}
 		add_journal_entry = { type = je_fall_of_rome }
-		change_infamy = -300
 	}
 }

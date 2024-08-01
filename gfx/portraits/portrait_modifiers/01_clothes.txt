@@ -720,17 +720,32 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 5000
 				
 				scope:character ?= {
 					OR = {
 						has_role = general
 						has_role = admiral
 					}
-					culture = {
-						OR = {
-							has_discrimination_trait = romance_speaker
-							has_discrimination_trait = greek_culture
+					OR = {
+						culture = {
+							OR = {
+								has_discrimination_trait = romance_speaker
+								has_discrimination_trait = greek_culture
+							}
+						}
+						AND = {
+							owner ?= {
+								OR = {
+									c:WRE ?= this
+									c:ERE ?= this
+									c:GBI ?= this
+									c:GLL ?= this
+								}
+							}
+							culture = {
+								NOT = { has_discrimination_trait = germanic_culture_group }
+							}
 						}
 					}
 				}
@@ -750,8 +765,8 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = peasants_legwear
-				range = { 0 0.5 }
+				template = fp1_common_legwear
+				range = { 0 1 }
 			}
 		} 
 
@@ -761,7 +776,12 @@
 				add = 1000
 				
 				poor_clothes_pop_trigger = yes
-				european_clothes_pop_trigger = yes
+				OR = {
+					european_clothes_pop_trigger = yes
+					scope:pop ?= {
+						culture = cu:rromani
+					}
+				}
 				scope:pop ?= {
 					culture = {
 						NOR = {
@@ -843,7 +863,12 @@
 				
 				OR = {
 					AND = {
-						european_clothes_pop_trigger = yes
+						OR = {
+							european_clothes_pop_trigger = yes
+							scope:pop ?= {
+								culture = cu:rromani
+							}
+						}
 						middle_clothes_pop_trigger = yes
 						scope:pop ?= {
 							culture = {
@@ -855,7 +880,12 @@
 						}
 					}
 					AND = {
-						european_clothes_trigger = yes
+						OR = {
+							european_clothes_trigger = yes
+							scope:character ?= {
+								culture = cu:rromani
+							}
+						}
 						politician_clothes_trigger = yes
 						scope:character ?= {
 							OR = {
@@ -906,7 +936,12 @@
 				add = 1000
 				
 				politician_clothes_trigger = yes
-				european_clothes_trigger = yes
+				OR = {
+					european_clothes_trigger = yes
+					scope:character ?= {
+						culture = cu:rromani
+					}
+				}
 				scope:character ?= {
 					is_interest_group_type = ig_industrialists
 					culture = {
@@ -945,7 +980,12 @@
 				OR = {
 					AND = {
 						politician_clothes_trigger = yes
-						european_clothes_trigger = yes
+						OR = {
+							european_clothes_trigger = yes
+							scope:character ?= {
+								culture = cu:rromani
+							}
+						}
 						scope:character ?= {
 							is_interest_group_type = ig_landowners
 							culture = {
@@ -981,7 +1021,12 @@
 						}
 					}
 					AND = {
-						european_clothes_pop_trigger = yes
+						OR = {
+							european_clothes_pop_trigger = yes
+							scope:pop ?= {
+								culture = cu:rromani
+							}
+						}
 						scope:pop ?= {
 							OR = {
 								is_pop_type = capitalists
@@ -1071,7 +1116,12 @@
 				add = 1000
 			
 				AND = {
-					european_clothes_trigger = yes
+					OR = {
+						european_clothes_trigger = yes
+						scope:character ?= {
+							culture = cu:rromani
+						}
+					}
 					scope:character ?= {
 						is_ruler = yes
 						exists = home_country
@@ -1117,7 +1167,12 @@
 				add = 1000
 				
 				AND = {
-					european_clothes_pop_trigger = yes
+					OR = {
+						european_clothes_pop_trigger = yes
+						scope:pop ?= {
+							culture = cu:rromani
+						}
+					}
 					scope:pop ?= {
 						OR = {
 							is_pop_type = soldiers
@@ -1187,6 +1242,32 @@
 			}
 		}
 	}
+	
+    slavic_middle_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = slavic_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = slavic_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        } 
+        weight = {
+            base = 0
+            modifier = {
+                add = 5000
+
+                slavic_clothes_pop_trigger = yes
+                middle_clothes_pop_trigger = yes
+           }
+        }
+    }
 	
     #Native America
 
@@ -1481,6 +1562,7 @@
 							has_discrimination_trait = eastern_woodlands
 							has_discrimination_trait = south_american_group
 							cu:inuit = this
+							cu:chesepian = this
 						}
 					}
 				}

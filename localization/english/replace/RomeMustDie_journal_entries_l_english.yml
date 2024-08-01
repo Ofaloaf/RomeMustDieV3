@@ -1,0 +1,35 @@
+﻿l_english:
+  je_fall_of_rome: "Teetering Empire"
+  je_fall_of_rome_reason: "Various local civil and military powers within [SCOPE.GetRootScope.GetCountry.GetName] may tear the country apart, if given the opportunity."
+  je_fall_of_rome_goal: "A number of factors risk imploding [SCOPE.GetRootScope.GetCountry.GetName]"
+  fall_of_rome_criteria: "Each of the following will contribute #red 20%#! to the collapse of [SCOPE.GetRootScope.GetCountry.GetName]:\n- Losing control of the #BOLD Prefecture of the West#!\n- Letting government legitimacy fall to #BOLD Illegitimate #!\n- Warring against the #BOLD Eastern Roman Empire#!\n- Going into debt and taking any [concept_loans]\n- Having a [concept_civil_war]\n- Allowing an interest group led by a #BOLD [concept_barbarian]#! into government\n\nEach of the following will detract #green -20%#! from the fracturing of [SCOPE.GetRootScope.GetCountry.GetName]:\n- Removing the #BOLD Foederati#! from the Armed Forces\n- Recovering #BOLD North Africa#!\n- Annexing the #BOLD Gallic Empire#!\n- Regaining #BOLD any#! territory in #BOLD Britannia#!"
+  concept_barbarian: "Barbarian"
+  concept_barbarian_desc: "A #BOLD Barbarian#! is any character with a culture that neither has the #BOLD Latin#! trait nor is Greek, such as the Thuringian culture."
+  #
+  je_attila_returns: "Attila's Return"
+  je_attila_returns_reason: "Attila, the descendant of the Great Nimrod, nutured in Engaddi, the Dread of the World himself, has fled his prison and is clearly intending to return to [ROOT.GetCountry.GetName] and resume his rule. The earth quakes!"
+  status_attila_emperor: "The Emperor approaches the capital."
+  status_attila_tyrant: "The Tyrant has advanced up the Danube."
+  status_attila_anthropophagus: "The Anthropophagus has quitted his den."
+  #
+  je_frankish_nation: "Frankish Futures"
+  je_frankish_nation_reason: "The Frankish people sit in a unique position: on the edge of the Roman world, the Franks are intimately familiar with Romans life in a way few others are. Frankish lands are also the birthplace of Europe's industrial revolution, and the heartland of resistance against the Romans. To face the Romans, or face the Germans — which way should the Franks go?"
+  gallo_frankish_nation_button: "Embrace the Gallo-Romans"
+  gallo_frankish_nation_button_desc: "Gauls are the natural brothers of the Franks. Let us forge a new future together!"
+  germanic_frankish_nation_button: "Embrace the Germanic peoples"
+  germanic_frankish_nation_button_desc: "We are part of a vast Germanic brotherhood. Let us proclaim our great fraternity to the world!"
+  #
+  je_risorgimento: "Resurgamentum"
+  je_risorgimento_reason: "The winds of nationalism sweeping Europe have begun to pass through [ROOT.GetCountry.GetName], inspiring figures both within our government and without to look towards the restoration of a single, unified Britannia.\n\nWithin our [SCOPE.sCulture('north_italian_scope').GetName] and [SCOPE.sCulture('south_italian_scope').GetName] states, we have [Country.MakeScope.Var('italian_states_radicals_total').GetValue|D] radicals out of a total population of [Country.MakeScope.Var('italian_states_pop_total').GetValue|D], representing [Country.MakeScope.Var('italian_states_radicals_total_bar').GetValue|R]#red %#! of our British population.\n\nReaching #red;bold;shadow 25%#! will lead to the seizure of the [ROOT.GetCountry.GetAdjective] government by pan-British revolutionaries[ROOT.GetCountry.GetCustom('italy_fate_loc')]."
+  austrian_radicals_cooldown_tt: "Has not used the #bold Encourage British Nationalism#! decision in the past #bold three years#!"
+  italian_radicals_cooldown_tt: "Has not used the #bold Sponsor Pro-Unification Sentiment#! decision in the past #bold three years#!"
+  is_italy_tt: "Has formed the nation of #bold Britannia#!"
+  italy_will_get_couped_custom: " and the instatement of a #bold democratic republic#!"
+  italy_will_get_annexed_custom: " and #red annexation#! into the leading British state"
+  owns_italian_homelands_tt: "Owns [GetCulture('north_italian').GetName] or [GetCulture('south_italian').GetName] [concept_homeland] states"
+  #
+  je_risorgimento_austrian_radicals_button: "Encourage British Nationalism"
+  je_risorgimento_austrian_radicals_button_desc: "To the shame of true patriots across this blessed isle, British territories are now held by foreign powers. Our journey to unify the island may inspire them to raise arms against their own oppressors."
+  je_risorgimento_italian_radicals_button: "Spur Pro-Unification Sentiment"
+  je_risorgimento_italian_radicals_button_desc: "Throughout the isle of Great Britain, the masses are slowly awakening and turning towards the idea of a unified Britannia. If their rulers are not inclined to follow the call, perhaps their people will be."
+  

@@ -1,0 +1,163 @@
+﻿je_schleswig_holstein_question = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	
+	group = je_group_historical_content
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:north_german # no one should have these
+			country_has_primary_culture = cu:south_german
+		}
+	}
+
+	possible = {
+		always = no		
+	}
+
+	complete = {
+	}
+	
+	fail = {
+	}	
+
+	on_complete = {	
+	}
+	
+	status_desc = {
+		first_valid = {
+			triggered_desc = { 
+				desc = je_schleswig_holstein_question_status
+			}
+		}
+	}
+
+	weight = 1000
+	should_be_pinned_by_default = yes
+}
+
+je_german_unification_idea = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	
+	group = je_group_historical_content
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:north_german # no one should have these
+			country_has_primary_culture = cu:south_german
+		}
+	}
+
+	possible = {
+		always = no	
+	}
+ 
+	complete = {
+	}
+
+	on_complete = {
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = { 
+				desc = je_german_unification_idea_status
+			}
+		}
+	}
+
+	weight = 1000
+	should_be_pinned_by_default = yes
+}
+
+je_north_german_unification = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	
+	group = je_group_historical_content
+	
+	complete = {			
+	}
+
+	on_monthly_pulse = {	
+	}
+
+	on_complete = {
+		remove_variable = je_unification_progress
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = { 
+				desc = je_north_german_status
+			}
+		}
+	}
+
+	weight = 1000
+	should_be_pinned_by_default = yes
+}
+
+je_south_german_unification = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	
+	group = je_group_historical_content
+
+	complete = {	
+	}
+
+	on_monthly_pulse = {
+	}
+
+	on_complete = {
+		remove_variable = je_unification_progress
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_south_german_status
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}
+
+	weight = 1000
+	should_be_pinned_by_default = yes
+}
+
+je_german_unification = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	
+	group = je_group_historical_content
+
+	is_shown_when_inactive = {
+		has_variable = je_german_confederate_unifier
+		any_primary_culture = { cu:north_german = this }
+	}
+
+	possible = {
+		always = no
+	}
+
+	complete = {	
+	}
+
+	on_complete = {
+		remove_variable = je_unification_progress
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_german_status
+			}
+		}
+	}
+
+	invalid = {
+	}
+
+	weight = 1000
+	should_be_pinned_by_default = yes
+}

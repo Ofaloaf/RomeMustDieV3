@@ -1,0 +1,130 @@
+﻿MILITARY_FORMATIONS = {
+	c:GLL ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_occitania
+			name = exercitus_galliae
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_RHONE
+				count = 4
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_RHONE
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_GUYENNE
+				count = 5
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_AQUITAINE
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_POITOU
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_AQUITAINE
+				count = 6
+			}
+			
+			save_scope_as = exercitus_galliae
+		}
+		
+		create_character = {
+			template = GLL_ruler # Siagres Egides
+			
+			save_scope_as = siagres_egides
+		}
+		
+		scope:siagres_egides = {
+			transfer_to_formation = scope:exercitus_galliae
+		}
+		
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_france
+			name = exercitus_suessionorum
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ILE_DE_FRANCE
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_PICARDY
+				count = 2
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_NORMANDY
+				count = 5
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_ORLEANS
+				count = 5
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_PICARDY
+				count = 4
+			}
+			
+			save_scope_as = exercitus_suessionorum
+		}
+		
+		create_character = {
+			template = GLL_general_01 # Aureliien Eparciaus
+			
+			save_scope_as = aureliien_eparciaus
+		}
+		
+		scope:aureliien_eparciaus = {
+			transfer_to_formation = scope:exercitus_suessionorum
+		}
+		
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_occitania
+			name = exercitus_arvernorum
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_AUVERGNE_LIMOUSIN
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_AUVERGNE_LIMOUSIN
+				count = 2
+			}
+			
+			save_scope_as = exercitus_arvernorum
+		}
+		
+		create_character = {
+			template = GLL_general_02 # Fortunatus Minucius
+			
+			save_scope_as = fortunatus_minucius
+		}
+		
+		scope:fortunatus_minucius = {
+			transfer_to_formation = scope:exercitus_arvernorum
+		}
+	}
+}

@@ -2031,3 +2031,24 @@ IBL = { # Ibalong
 	capital = STATE_LUZON
 }
 
+CRN = { # Carantia
+	color = { 239 223 157 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { illyrian rhaetic }
+	capital = STATE_STYRIA
+}
+
+HLV = { # Helvetia, babeyyy
+	color = { 165 45 38 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	capital = STATE_WEST_SWITZERLAND
+	cultures = { rhaetic }
+}

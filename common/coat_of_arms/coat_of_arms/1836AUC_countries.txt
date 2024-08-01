@@ -613,8 +613,8 @@ CTF = { # Council of Three Fires
 
 	colored_emblem = {
 		texture = "ce_flame_canada_nup.dds"
-		color1 = "red"
-		color2 = "red"
+		color1 = "red_light"
+		color2 = "red_light"
 		instance = { scale = { 0.5 0.5 } position = { 0.33 0.29 } }
 	}
 	
@@ -631,33 +631,6 @@ CTF = { # Council of Three Fires
 		color2 = "yellow"
 		instance = { scale = { 0.5 0.5 } position = { 0.6 0.29 } }
 	}
-}
-
-SER_archaic = {
-	pattern = "pattern_solid.tga"
-	color1 = "purple"
-
-	colored_emblem = {
-		texture = "ce_shield_iberian.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.9 0.9 } position = { 0.5 0.49 } }			
-	}
-	colored_emblem = {
-		texture = "ce_shield_iberian_cross_thin.dds"
-		color1 = "red"
-		color2 = "white"
-		instance = { scale = { 0.82 0.82 } position = { 0.5 0.49 } }			
-	}	
-	colored_emblem = {
-		texture = "ce_letter_beta.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { -0.28 0.28 } position = { 0.40 0.33 } }			
-		instance = { scale = { 0.28 0.28 } position = { 0.60 0.33 } }		
-		instance = { scale = { -0.25 0.25 } position = { 0.406 0.64 } }			
-		instance = { scale = { 0.25 0.25 } position = { 0.594 0.64 } }			
-	}	
 }
 
 NVG = { # Novgorod
@@ -715,17 +688,7 @@ SML = { # Smolensk
 	}
 }
 
-LIT_pagan = { # Lithuania, but with less christ
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	
-	colored_emblem = {
-		texture = "ce_tamga_gediminas.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
-	}
-}
+# LIT_pagan = { # Lithuania, but with less christ
 
 KVN = { # Kvenland, using the old Lappland flag
 	pattern = "pattern_solid.tga"
@@ -784,19 +747,6 @@ JMT_republic = { # Jämtland
 	}
 }
 
-NOR_sans_christianity = { # Norway
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	
-	colored_emblem = {
-		texture = "ce_lion_rampant_axe.dds"
-		color1 = "yellow"
-		color2 = "white"
-		color3 = "red"
-		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }
-	}
-}
-
 NOR_sans_christianity_republic = { # Norway
 	pattern = "pattern_solid.tga"
 	color1 = "green"
@@ -806,18 +756,6 @@ NOR_sans_christianity_republic = { # Norway
 		color1 = "yellow"
 		color2 = "yellow"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
-	}
-}
-
-FIN_sans_christianity = { # Finland
-	pattern = "pattern_solid.tga"
-	color1 = "white"
-	
-	colored_emblem = {
-		texture = "ce_ukkos_hammer.dds"
-		color1 = "usa_monarchy_blue"
-		color2 = "white"
-		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
 	}
 }
 
@@ -867,5 +805,486 @@ BLC = { # Belechatouia
 		texture = "ce_hand.dds"
 		color1 = "yellow_dark"
 		instance = { scale = { 0.4 0.4 } position = { 0.5 0.5 } }
+	}
+}
+
+MCP = { # Mincip
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	
+	colored_emblem = {
+		texture = "ce_saltire.dds"
+		color1 = "yellow"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+EBR = { # Ebrauc
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	textured_emblem = {
+		texture = "te_white_rose_of_york.dds"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
+}
+
+CHT = { # Choctaw
+	pattern = "pattern_solid.tga"
+	color1 = "usa_monarchy_blue"
+	
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 1.1 1.1 } position = { 0.5 0.5 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { scale = { 0.95 0.95 } position = { 0.5 0.5 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_choctaw_brigade.dds"
+		color1 = "white"
+		instance = { scale = { 0.70 0.70 } position = { 0.5 0.5 } }
+	}
+}
+
+LOU_subject = { 
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+
+	textured_emblem = {
+		texture = "te_louisiana_swan.dds"
+		instance = { scale = { 0.52 0.52 } position = { 0.75 0.50 } }
+	}
+}
+
+ALM = { # Alamannia
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_lion_passant_guardant_long.dds"
+		color1 = "black"
+		color2 = "red"
+		color3 = "yellow"
+		instance = { scale = { 0.24 0.22 } position = { 0.5 0.33 } }
+		instance = { scale = { 0.23 0.22 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.18 0.20 } position = { 0.3 0.66 } }		
+	}
+}
+
+ALM_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+SXN = { # (Old) Saxony
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_horse.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+SXN_subject = { 
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_horse.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { scale = { 0.52 0.52 } position = { 0.75 0.50 } }
+	}
+}
+
+RGL = { # Langobardia
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_border_lombardy_venetia.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_cross_patty_hollow.dds"
+		color1 = "white"
+		color2 = "yellow_dark"
+		instance = { scale = { 0.6 0.6 } position = { 0.5 0.5 } }
+	}
+}
+
+RGL_subject = { 
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_cross_patty_hollow.dds"
+		color1 = "white"
+		color2 = "yellow_dark"
+		instance = { scale = { 0.6 0.6 } position = { 0.75 0.50 } }
+	}
+}
+
+RGL_communist = { # Langobardia
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_border_lombardy_venetia.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_star_05_hollow.dds"
+		color1 = "white"
+		color2 = "yellow_dark"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
+}
+
+RGL_communist_canton = { # Langobardia
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_star_05_hollow.dds"
+		color1 = "white"
+		color2 = "yellow_dark"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+RGL_communist_subject = { 
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_star_05_hollow.dds"
+		color1 = "white"
+		color2 = "yellow_dark"
+		instance = { scale = { 0.6 0.6 } position = { 0.75 0.50 } }
+	}
+}
+
+# PER_revised = { # Persia. check PER in 02 file. derafsh kaviani but with some islamic elements
+
+LTV = { # Altava
+	pattern = "pattern_solid.tga"
+	color1 = "tan"
+
+	colored_emblem = {
+		texture = "ce_border_compony.dds"
+		color1 = "white"
+		color2 = "tan"
+	}
+
+	colored_emblem = {
+		texture = "ce_capricorn_01.dds"
+		color1 = "yellow_light"
+		color2 = "yellow_light"
+		instance = { scale = { -0.66 0.66 } position = { 0.50 0.50 } }	
+	}
+}
+
+LTV_subject = { 
+	pattern = "pattern_solid.tga"
+	color1 = "tan"
+	
+	colored_emblem = {
+		texture = "ce_capricorn_01.dds"
+		color1 = "yellow_light"
+		color2 = "yellow_light"
+		instance = { scale = { -0.6 0.6 } position = { 0.75 0.50 } }
+	}
+}
+
+TGR = { # Axum
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_border_compony.dds"
+		color1 = "white"
+		color2 = "tan"
+	}
+
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "red_dark"
+		color2 = "red_dark"
+		instance = { scale = { 0.75 0.75 } position = { 0.50 0.50 } }	
+	}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.70 0.70 } position = { 0.50 0.50 } }	
+	}
+	colored_emblem = {
+		texture = "ce_cross_order_christ.dds"
+		color1 = "red_dark"
+		color2 = "red_dark"
+		instance = { scale = { 0.70 0.70 } position = { 0.50 0.50 } }	
+	}
+}
+
+TGR_canton = { # Axum
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_cross_order_christ.dds"
+		color1 = "red_dark"
+		color2 = "red_dark"
+		instance = { scale = { 1.0 1.0 } position = { 0.50 0.50 } }	
+	}
+}
+
+TGR_subject = { # Axum
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_cross_order_christ.dds"
+		color1 = "red_dark"
+		color2 = "red_dark"
+		instance = { scale = { 0.6 0.6 } position = { 0.75 0.50 } }	
+	}
+}
+
+IGS = { # based off early Mughal flag
+	pattern = "pattern_solid.tga"
+	color1 = "green_dark"
+	color2 = "yellow_light"
+
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.10 0.00 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.30 0.00 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.50 0.00 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.70 0.00 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.90 0.00 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.00 0.20 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.20 0.20 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.40 0.20 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.60 0.20 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.80 0.20 } scale = { 0.08 0.08 } }
+		instance = { position = { 1.00 0.20 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.10 0.40 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.30 0.40 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.50 0.40 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.70 0.40 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.90 0.40 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.00 0.60 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.20 0.60 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.40 0.60 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.60 0.60 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.80 0.60 } scale = { 0.08 0.08 } }
+		instance = { position = { 1.00 0.60 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.10 0.80 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.30 0.80 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.50 0.80 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.70 0.80 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.90 0.80 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.00 1.00 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.20 1.00 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.40 1.00 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.60 1.00 } scale = { 0.08 0.08 } }
+		instance = { position = { 0.80 1.00 } scale = { 0.08 0.08 } }
+		instance = { position = { 1.00 1.00 } scale = { 0.08 0.08 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_16.dds"
+		color1 = green_dark
+		color2 = green_dark
+		instance = { scale = { 0.85 0.85 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_16.dds"
+		color1 = yellow_dark
+		color2 = yellow_dark
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}		
+}
+
+IGS_canton = {
+	pattern = "pattern_solid.tga"
+	color1 = "green_dark"
+	color2 = "yellow_light"
+
+	colored_emblem = {
+		texture = "ce_sun_face_gwalior.dds"
+		color1 = yellow
+		color2 = yellow
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}		
+}
+
+IGS_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "green_dark"
+	color2 = "yellow_light"
+
+	colored_emblem = {
+		texture = "ce_sun_face_gwalior.dds"
+		color1 = yellow
+		color2 = yellow
+		instance = { scale = { 0.55 0.55 } position = { 0.75 0.5 } }
+	}		
+}
+
+KAI = { # Kaigai
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_chrysanthemum_japan.dds"
+		color1 = "red"
+		color2 = "white"
+		instance = { scale = { 0.25 0.25 } position = { 0.12 0.18 } }			
+	}
+	colored_emblem = {
+		texture = "ce_bear_california.dds"
+		color1 = "brown"
+		color2 = "black"
+		color3 = "white"
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }			
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { scale = { 1.0 0.25 } position = { 0.5 0.875 } }			
+	}	
+}
+
+LST = { # Lusitania
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = "blue_light"
+	}
+}
+
+GTH = { # Gothia
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_saltire_potenty.dds"
+		color1 = "black"
+	}
+}
+
+DLM = { # Dalmatia
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	
+	colored_emblem = {
+		texture = "ce_lion_head.dds"
+		color1 = "yellow_dark"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.4 0.4 } position = { 0.25 0.29 } }
+		instance = { scale = { 0.4 0.4 } position = { 0.75 0.29 } }
+		instance = { scale = { 0.4 0.4 } position = { 0.5 0.7 } }
+	}
+}
+
+BDL = { # Bardulia
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_laurel_circled.dds"
+		color1 = "yellow_dark"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}
+}
+
+BTC = { # Baetica
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_star_gunelve.dds"
+		color1 = "red_dark"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+TRR = { # Tarraconensis
+	pattern = "pattern_border_triangles_morocco.dds"
+	color1 = "red_dark"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_eagle_napoleonian.dds"
+		color1 = "yellow_light"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}
+}
+
+CRN = { # Carantia
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "red"
+		color2 = "white"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+HLV = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "red"
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "red"
+		color2 = "yellow"
+	}		
+}
+
+KNM = { # Kanem
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_palm_tree.dds"
+		color1 = "green"
+		color2 = "green"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }
 	}
 }

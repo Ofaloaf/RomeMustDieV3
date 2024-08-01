@@ -1,0 +1,173 @@
+﻿ALB = {
+	states = {
+		STATE_ALBANIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+### ITALIA ###
+
+SIC = {
+	states = {
+		STATE_SICILY
+		STATE_MALTA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+MDL = {
+	states = {
+		STATE_LOMBARDY
+	}
+	
+	ai_will_do = { always = no }
+}
+
+HLV = {
+	states = {
+		STATE_EAST_SWITZERLAND
+		STATE_WEST_SWITZERLAND
+	}
+	
+	ai_will_do = { always = no }
+}
+
+################
+
+### ILLYRICUM ET PANNONIA ###
+
+DLM = {
+	states = {
+		STATE_DALMATIA
+		STATE_CROATIA
+		STATE_BOSNIA
+		STATE_SLAVONIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+CRN = {
+	states = {
+		STATE_STYRIA
+		STATE_SLOVENIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+
+################
+
+### GALLIA ###
+
+ARV = {
+	states = {
+		STATE_AUVERGNE_LIMOUSIN
+	}
+	
+	ai_will_do = { always = no }
+}
+
+GTH = {
+	states = {
+		STATE_LANGUEDOC
+		STATE_POITOU
+		STATE_GUYENNE
+		STATE_AQUITAINE
+	}
+	
+	ai_will_do = { always = no }
+}
+
+BGN = { # Burgundia
+	states = {
+		STATE_WEST_SWITZERLAND
+		STATE_RHONE
+		STATE_BURGUNDY
+		STATE_FRANCHE_COMTE
+	}
+	
+	ai_will_do = { always = no }
+}
+
+################
+
+### BRITANNIA ###
+
+CGL = { # Cair Gloui
+	provinces = { xE020C0 x225544 }
+	
+	ai_will_do = { always = no }
+}
+
+DMN = {
+	states = {
+		STATE_WEST_COUNTRY
+	}
+	
+	ai_will_do = { always = no }
+}
+
+################
+
+### HISPANIA ###
+
+NAV = {
+	states = {
+		STATE_NAVARRA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+BTC = {
+	states = {
+		STATE_ANDALUSIA
+		STATE_GRANADA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+GLI = {
+	states = {
+		STATE_GALICIA
+		STATE_ASTURIAS
+	}
+	
+	ai_will_do = { always = no }
+}
+
+TRR = {
+	states = {
+		STATE_CATALONIA
+		STATE_ARAGON
+		STATE_BALEARES
+		STATE_VALENCIA
+		STATE_TOLEDO
+	}
+	
+	ai_will_do = { always = no }
+}
+
+LST = {
+	states = {
+		STATE_BADAJOZ
+		STATE_BEIRA
+		STATE_ESTREMADURA
+		STATE_ALENTEJO
+	}
+	
+	ai_will_do = { always = no }
+}
+
+BDL = {
+	states = {
+		STATE_CASTILE
+	}
+	
+	ai_will_do = { always = no }
+}

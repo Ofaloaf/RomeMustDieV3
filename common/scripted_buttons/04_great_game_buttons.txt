@@ -1,0 +1,632 @@
+﻿je_afghan_unification_appeal_to_russia_button = {
+	name = "je_afghan_unification_appeal_to_russia_button"
+	desc = "je_afghan_unification_appeal_to_russia_button_desc"
+
+	selected = {
+		has_variable = AFG_appealed_to_RUS
+	}
+
+	visible = {
+		exists = c:RUS
+		NOT = {
+			exists = c:AFG
+		}
+	}
+
+	possible = {
+	}
+
+	effect = {
+		set_variable = { name = AFG_RUS_support_cooldown years = 10 }
+		set_variable = { name = pending_aid_request value = c:RUS }
+	}
+	
+	ai_chance = {
+		base = 0
+
+		modifier = {
+			trigger = {
+				c:RUS ?= {
+					relations:root >= relations_threshold:cordial
+				}
+			}
+			add = 15
+		}
+
+		modifier = {
+			trigger = {
+				is_diplomatic_play_committed_participant = yes
+			}
+			add = 10
+		}
+
+		modifier = {
+			trigger = {
+				has_variable = player_RUS_denied_aid_request
+			}
+			add = -1000
+		}
+	}
+}
+
+je_afghan_unification_appeal_to_britain_button = {
+	name = "je_afghan_unification_appeal_to_britain_button"
+	desc = "je_afghan_unification_appeal_to_britain_button_desc"
+
+	selected = {
+		has_variable = AFG_appealed_to_GBR
+	}
+
+	visible = {
+		exists = c:GBR
+		NOT = {
+			exists = c:AFG
+		}
+	}
+
+	possible = {
+		has_technology_researched = mandatory_service
+	}
+
+	effect = {
+		set_variable = { name = AFG_GBR_support_cooldown years = 10 }
+		set_variable = { name = pending_aid_request value = c:GBR }
+		save_scope_as = afghan_nation_scope
+	}
+	
+	ai_chance = {
+		base = 0
+
+		modifier = {
+			trigger = {
+				c:GBR ?= {
+					relations:root >= relations_threshold:cordial
+				}
+			}
+			add = 15
+		}
+
+		modifier = {
+			trigger = {
+				is_diplomatic_play_committed_participant = yes
+			}
+			add = 10
+		}
+
+		modifier = {
+			trigger = {
+				has_variable = player_GBR_denied_aid_request
+			}
+			add = -1000
+		}
+	}
+}
+
+je_consolidate_afghanistan_durand_line = {
+	name = "je_consolidate_afghanistan_durand_line"
+	desc = "je_consolidate_afghanistan_durand_line_desc"
+	
+	selected = {
+		has_variable = proposed_durand_line
+	}
+
+	visible = {
+		exists = c:AFG
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = already_approved_of_treaty_tt
+			NOT = {
+				has_variable = afghanistan_delimitation_treaty_approved
+			}
+		}
+	}
+
+	effect = {
+		if = {
+			limit = {
+				has_variable = proposed_durand_line
+			}
+			remove_variable = proposed_durand_line
+		}
+		if = {
+			limit = {
+				has_variable = proposed_indus_line
+			}
+			remove_variable = proposed_indus_line
+		}
+		if = {
+			limit = {
+				has_variable = proposed_status_quo
+			}
+			remove_variable = proposed_status_quo
+		}
+		set_variable = proposed_durand_line
+		custom_tooltip = if_treaty_process_succeeds_tt
+	}
+
+	ai_chance = {
+		base = 200
+	}
+}
+
+je_consolidate_afghanistan_indus_line = {
+	name = "je_consolidate_afghanistan_indus_line"
+	desc = "je_consolidate_afghanistan_indus_line_desc"
+
+	selected = {
+		has_variable = proposed_indus_line
+	}
+	
+	visible = {
+		exists = c:AFG
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = already_approved_of_treaty_tt
+			NOT = {
+				has_variable = afghanistan_delimitation_treaty_approved
+			}
+		}
+	}
+
+	effect = {
+	}
+
+	ai_chance = {
+		base = 50
+	}
+}
+
+je_consolidate_afghanistan_southeast_status_quo = {
+	name = "je_consolidate_afghanistan_southeast_status_quo"
+	desc = "je_consolidate_afghanistan_southeast_status_quo_desc"
+
+	selected = {
+		has_variable = proposed_status_quo
+	}
+	
+	visible = {
+		exists = c:AFG
+	}
+
+	possible = {
+	}
+
+	effect = {
+	}
+	
+	ai_chance = {
+		base = 50
+		modifier = {
+			trigger = {
+				c:AFG = {
+					relations:root >= relations_threshold:cordial
+				}
+			}
+			add = 25
+		}
+	}
+}
+
+je_consolidate_afghanistan_torkestan_line = {
+	name = "je_consolidate_afghanistan_torkestan_line"
+	desc = "je_consolidate_afghanistan_torkestan_line_desc"
+	
+	selected = {
+		has_variable = proposed_torkestan_line
+	}
+
+	visible = {
+		exists = c:AFG
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = already_approved_of_treaty_tt
+			NOT = {
+				has_variable = afghanistan_delimitation_treaty_approved
+			}
+		}
+	}
+
+	effect = {
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+je_consolidate_afghanistan_amu_darya_line = {
+	name = "je_consolidate_afghanistan_amu_darya_line"
+	desc = "je_consolidate_afghanistan_amu_darya_line_desc"
+	
+	selected = {
+		has_variable = proposed_amu_darya_line
+	}
+
+	visible = {
+		exists = c:AFG
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = already_approved_of_treaty_tt
+			NOT = {
+				has_variable = afghanistan_delimitation_treaty_approved
+			}
+		}
+	}
+
+	effect = {
+	}
+	
+	ai_chance = {
+		base = 200
+		modifier = {
+			trigger = {
+				has_variable = north_border_rejected
+			}
+			add = -100
+		}
+	}
+}
+
+je_consolidate_afghanistan_north_status_quo = {
+	name = "je_consolidate_afghanistan_north_status_quo"
+	desc = "je_consolidate_afghanistan_north_status_quo_desc"
+
+	selected = {
+		has_variable = proposed_status_quo_north
+	}
+	
+	visible = {
+		exists = c:AFG
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = already_approved_of_treaty_tt
+			NOT = {
+				has_variable = afghanistan_delimitation_treaty_approved
+			}
+		}
+	}
+
+	effect = {
+	}
+	
+	ai_chance = {
+		base = 50
+	}
+}
+
+je_consolidate_afghanistan_approve_of_treaty = {
+	name = "je_consolidate_afghanistan_approve_of_treaty"
+	desc = "je_consolidate_afghanistan_approve_of_treaty_desc"
+	
+	visible = {
+		exists = c:AFG
+	}
+
+	possible = {
+	}
+
+	effect = {
+		custom_tooltip = {
+			text = approve_of_delimitation_treaty_tt
+			set_variable = { name = afghanistan_delimitation_treaty_approved days = 365 }
+		}
+	}
+	
+	ai_chance = {
+		base = 200
+		modifier = {
+			trigger = {
+				scope:rival_gp_scope ?= {
+					NOR = {
+						has_variable = proposed_durand_line
+						has_variable = proposed_indus_line
+						has_variable = proposed_status_quo
+						has_variable = proposed_torkestan_line
+						has_variable = proposed_amu_darya_line
+						has_variable = proposed_status_quo_north
+						has_variable = afghanistan_delimitation_treaty_approved
+					}
+				}
+			}
+			add = -1000
+		}
+	}
+}
+
+je_consolidate_afghanistan_retract_treaty = {
+	name = "je_consolidate_afghanistan_retract_treaty"
+	desc = "je_consolidate_afghanistan_retract_treaty_desc"
+	
+	visible = {
+		exists = c:AFG
+		has_variable = afghanistan_delimitation_treaty_approved
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = proposed_partition_plan_tt
+			OR = {
+				has_variable = proposed_durand_line
+				has_variable = proposed_indus_line
+				has_variable = proposed_status_quo
+				has_variable = proposed_torkestan_line
+				has_variable = proposed_amu_darya_line
+				has_variable = proposed_status_quo_north
+			}
+		}
+	}
+
+	effect = {
+		reset_afghan_treaty = yes
+	}
+	
+	ai_chance = {
+		base = 0
+	}
+}
+
+je_consolidate_afghanistan_offer_compensation = {
+	name = "je_consolidate_afghanistan_offer_compensation"
+	desc = "je_consolidate_afghanistan_offer_compensation_desc"
+	
+	selected = {
+		has_variable = proposed_compensation_for_afghanistan
+	}
+
+	visible = {
+		exists = c:AFG
+		has_variable = afghanistan_rejection
+		c:AFG = {
+			relations:root > relations_threshold:poor
+		}
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = already_approved_of_treaty_tt
+			NOT = {
+				has_variable = afghanistan_delimitation_treaty_approved
+			}
+		}
+	}
+
+	effect = {
+		set_variable = proposed_compensation_for_afghanistan
+		custom_tooltip = if_treaty_process_succeeds_tt
+		show_as_tooltip = {
+			create_diplomatic_pact = {
+				country = c:AFG
+				type = bankroll
+			}
+		}
+	}
+	
+	ai_chance = {
+		base = 200
+	}
+}
+
+je_consolidate_afghanistan_threaten_reprisals = {
+	name = "je_consolidate_afghanistan_threaten_reprisals"
+	desc = "je_consolidate_afghanistan_threaten_reprisals_desc"
+	
+	selected = {
+		has_variable = proposed_reprisals_for_afghanistan
+	}
+
+	visible = {
+		exists = c:AFG
+		has_variable = afghanistan_rejection
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = already_approved_of_treaty_tt
+			NOT = {
+				has_variable = afghanistan_delimitation_treaty_approved
+			}
+		}
+		c:AFG = {
+			relations:root < relations_threshold:cordial
+		}
+	}
+
+	effect = {
+		set_variable = proposed_reprisals_for_afghanistan
+		ROOT = {
+			create_incident = {
+				country = c:AFG
+				value = 5
+			}
+		}
+		custom_tooltip = if_treaty_process_fails_relations_hit_tt
+	}
+	
+	ai_chance = {
+		base = 200
+	}
+}
+
+je_consolidate_afghanistan_resolve_northern_conflict = {
+	name = "je_consolidate_afghanistan_resolve_northern_conflict"
+	desc = "je_consolidate_afghanistan_resolve_northern_conflict_desc"
+	
+
+	visible = {
+		exists = c:AFG
+		AND = {
+			OR = {
+				has_variable = proposed_torkestan_line
+				AND = {
+					has_variable = proposed_amu_darya_line
+					c:AFG ?= {
+						any_scope_state = {
+							region = sr:region_central_asia
+						}
+					}
+				}
+				has_variable = proposed_status_quo_north
+			}
+			scope:rival_gp_scope ?= {
+				OR = {
+					has_variable = proposed_torkestan_line
+					AND = {
+						has_variable = proposed_amu_darya_line
+						c:AFG ?= {
+							any_scope_state = {
+								region = sr:region_central_asia
+							}
+						}
+					}
+					has_variable = proposed_status_quo_north
+				}
+			}
+			NAND = {
+				has_variable = proposed_status_quo_north
+				scope:rival_gp_scope ?= {
+					has_variable = proposed_status_quo_north
+				}
+			}
+		}
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = is_not_already_negotiating_tt
+			NOT = {
+				has_variable = resolving_north_conflict
+			}
+		}
+	}
+
+	effect = {
+		set_variable = resolving_north_conflict
+		save_scope_as = sender_scope
+		scope:rival_gp_scope ?= {
+			trigger_event = { id = gg_afghanistan.5 popup = yes }
+		}
+	}
+	
+	ai_chance = {
+		base = 200
+	}
+}
+
+je_consolidate_afghanistan_resolve_southwest_conflict = {
+	name = "je_consolidate_afghanistan_resolve_southwest_conflict"
+	desc = "je_consolidate_afghanistan_resolve_southwest_conflict_desc"
+
+	visible = {
+		exists = c:AFG
+		AND = {
+			OR = {
+				has_variable = proposed_durand_line
+				AND = {
+					has_variable = proposed_indus_line
+					c:AFG = {
+						any_scope_state = {
+							OR = {
+								region = sr:region_north_india
+								region = sr:region_himalayas
+							}
+							NOT = {
+								state_region = {
+									is_homeland = cu:pashtun
+								}
+							}
+						}
+					}
+				}
+				has_variable = proposed_status_quo
+			}
+			scope:rival_gp_scope ?= {
+				OR = {
+					has_variable = proposed_durand_line
+					AND = {
+						has_variable = proposed_indus_line
+						c:AFG = {
+							any_scope_state = {
+								OR = {
+									region = sr:region_north_india
+									region = sr:region_himalayas
+								}
+								NOT = {
+									state_region = {
+										is_homeland = cu:pashtun
+									}
+								}
+							}
+						}
+					}
+					has_variable = proposed_status_quo
+				}
+			}
+			NAND = {
+				has_variable = proposed_status_quo
+				scope:rival_gp_scope ?= {
+					has_variable = proposed_status_quo
+				}
+			}
+		}
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = is_not_already_negotiating_tt
+			NOT = {
+				has_variable = resolving_southwest_conflict
+			}
+		}
+	}
+
+	effect = {
+		set_variable = resolving_southwest_conflict
+		save_scope_as = sender_scope
+		scope:rival_gp_scope ?= {
+			trigger_event = { id = gg_afghanistan.6 popup = yes }
+		}
+	}
+	
+	ai_chance = {
+		base = 200
+	}
+}
+
+je_pamir_expedition_dismiss_button = {
+	name = "je_pamir_expedition_dismiss_button"
+	desc = "je_pamir_expedition_dismiss_button_desc"
+
+	visible = {
+		always = yes
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = has_not_cancelled_pamir_expedition_tt
+			NOT = {
+				has_variable = dismissed_pamir_expedition
+			}
+		}
+	}
+
+	effect = {
+		custom_tooltip = {
+			text = pamir_expedition_dismissed_tt
+			set_variable = dismissed_pamir_expedition
+		}
+	}
+	
+	ai_chance = {
+		base = 50
+	}
+}

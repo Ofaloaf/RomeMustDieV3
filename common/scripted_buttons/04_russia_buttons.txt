@@ -1,0 +1,124 @@
+﻿je_the_eastern_border_treaty_of_beijing = {
+	name = "je_the_eastern_border_treaty_of_beijing"
+	desc = "je_the_eastern_border_treaty_of_beijing_desc"
+
+	visible = { 
+		always = no
+	}
+
+	ai_chance = {
+	}
+
+	possible = {
+	}
+
+	effect = {
+	}
+}
+
+je_the_eastern_border_russia_chuguchak_protocol = {
+	name = "je_the_eastern_border_russia_chuguchak_protocol"
+	desc = "je_the_eastern_border_russia_chuguchak_protocol_desc"
+
+	visible = {
+		always = no
+	}
+
+	ai_chance = {
+	}
+
+	possible = {
+	}
+
+	effect = {
+	}
+}
+
+je_the_eastern_border_treaty_of_aigun = {
+	name = "je_the_eastern_border_treaty_of_aigun"
+	desc = "je_the_eastern_border_treaty_of_aigun_desc"
+
+	visible = {
+		always = no
+	}
+
+	ai_chance = {
+		base = 10
+	}
+
+	possible = {
+	}
+
+	effect = {
+	}
+}
+
+
+imamate_dispatch_muhammad_amin = {
+	name = "imamate_dispatch_muhammad_amin"
+	desc = "imamate_dispatch_muhammad_amin_desc"
+	
+	visible = {
+		always = no
+	}
+
+	possible = {
+	}
+
+	effect = {
+	}  
+
+	ai_chance = {
+	}
+}
+
+russia_escalate_caucasian_war = {
+	name = "russia_escalate_caucasian_war"
+	desc = "russia_escalate_caucasian_war_desc"
+	
+	visible = {
+		always = no
+	}
+
+	possible = {
+	}
+
+	effect = {
+	}  
+
+	ai_chance = {
+	}
+}
+
+je_conquest_of_central_asia_turkmen_button = {
+	name = "je_conquest_of_central_asia_turkmen_button"
+	desc = "je_conquest_of_central_asia_turkmen_button_desc"
+
+	visible = {
+		always = no
+	}
+
+	possible = {
+	}
+
+	effect = {
+	}
+
+	ai_chance = {
+	}
+}
+
+russia_halt_circassian_expulsions = {
+	name = "russia_halt_circassian_expulsions"
+	desc = "russia_halt_circassian_expulsions_desc"
+
+	visible = {
+		always = no
+	}
+
+	possible = {
+	}
+
+	effect = {
+	}
+}

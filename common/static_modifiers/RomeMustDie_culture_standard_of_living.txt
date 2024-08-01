@@ -461,30 +461,50 @@ charrua_standard_of_living_modifier_negative = {
 
 atua_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_charrua_standard_of_living_add = 1
+	state_atua_standard_of_living_add = 1
 }
 
 atua_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_charrua_standard_of_living_add = 1
+	state_atua_standard_of_living_add = 1
 }
 
 selatanic_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_charrua_standard_of_living_add = 1
+	state_selatanic_standard_of_living_add = 1
 }
 
 selatanic_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_charrua_standard_of_living_add = 1
+	state_selatanic_standard_of_living_add = 1
 }
 
 tagalog_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_charrua_standard_of_living_add = 1
+	state_tagalog_standard_of_living_add = 1
 }
 
 tagalog_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_charrua_standard_of_living_add = 1
+	state_tagalog_standard_of_living_add = 1
+}
+
+rhaetic_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_rhaetic_standard_of_living_add = 1
+}
+
+rhaetic_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_rhaetic_standard_of_living_add = 1
+}
+
+rromani_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_rromani_standard_of_living_add = 1
+}
+
+rromani_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_rromani_standard_of_living_add = 1
 }

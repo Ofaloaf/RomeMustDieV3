@@ -41,6 +41,12 @@
 					}
 				}
             }
+			modifier = {
+				add = 1000
+				scope:character ?= {
+					has_template = ere_general_03
+				}
+			}
         }
     }
 	

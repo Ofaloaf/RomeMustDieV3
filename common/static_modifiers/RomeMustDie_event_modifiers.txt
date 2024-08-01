@@ -52,3 +52,19 @@ classical_coursework = {
 	country_society_tech_research_speed_mult = -0.025
 	country_prestige_mult = 0.05
 }
+
+revived_ancient_pantheon = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_legitimacy_base_add = 50
+	country_prestige_mult = 0.10
+}
+
+the_apostate = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_popularity_add = -50
+}
+
+the_apostate_but_worse = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_popularity_add = -75
+}

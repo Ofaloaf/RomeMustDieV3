@@ -1,0 +1,165 @@
+﻿ere_ruler = {
+	first_name = Theophylaktos
+	last_name = of_Bithynia
+	historical = yes
+	ruler = yes
+	noble = yes
+	age = 71
+	dna = dna_king_william_04
+	culture = cu:greek
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_royalist
+	traits = {
+		romantic
+	}
+}
+
+ere_heir = {
+	first_name = Alexandra
+	last_name = of_Bithynia
+	historical = yes
+	heir = yes
+	female = yes
+	noble = yes
+	age = 25
+	dna = dna_queen_victoria
+	culture = cu:greek
+	interest_group = ig_industrialists
+	ideology = ideology_moderate
+	traits = {
+		direct
+	}
+}
+
+ere_rural_folk_leader = {
+	first_name = Basileios
+	last_name = Kouboukleisios
+	historical = yes
+	age = 48
+	culture = cu:greek
+	religion = rel:nicene
+	ig_leader = yes
+	interest_group = ig_rural_folk
+	ideology = ideology_moderate
+	traits = {
+		meticulous
+		tactful
+		honorable
+	}
+}
+
+ere_petty_bourgeoisie_leader = {
+	first_name = Theodoros
+	last_name = Sikoundenos
+	historical = yes
+	age = 55
+	culture = cu:greek
+	religion = rel:nicene
+	ig_leader = yes
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_moderate
+	traits = {
+		reckless
+		hedonist
+		charismatic
+	}
+}
+
+### COMMANDERS - GENERALS ###
+
+ere_general_01 = {
+    first_name = Pantaleon
+    last_name = Xiphilinos
+    historical = yes
+    age = 57
+    culture = cu:greek
+    religion = rel:nicene
+    interest_group = ig_landowners
+    ideology = ideology_jingoist_leader
+    is_general = yes
+    hq = region_thracia
+    commander_rank = commander_rank_3
+    traits = {
+        direct
+		pious
+        mountain_commander		
+    }
+}
+
+ere_general_02 = {
+    first_name = Christodoulos
+    last_name = Pepagomenos
+    historical = yes
+    age = 62
+    culture = cu:greek
+    religion = rel:nicene
+    interest_group = ig_petty_bourgeoisie
+    ideology = ideology_moderate
+    is_general = yes
+    hq = region_anatolia
+    commander_rank = commander_rank_2
+    traits = {
+        cautious
+		reserved
+		surveyor
+    }
+}
+
+ere_general_03 = {
+    first_name = Arcolas
+    last_name = Xenopoulos
+    historical = yes
+    age = 42
+    culture = cu:rromani
+    religion = rel:nicene
+    interest_group = ig_armed_forces
+    ideology = ideology_moderate
+    is_general = yes
+    hq = region_thracia
+    commander_rank = commander_rank_1
+    traits = {
+        tactful
+        reserved
+		basic_artillery_commander
+    }
+}
+
+ere_general_04 = {
+    first_name = Ioannis
+    last_name = Theotokis
+    historical = yes
+    age = 50
+    culture = cu:greek
+    religion = rel:nicene
+    interest_group = ig_devout
+    ideology = ideology_moderate
+    is_general = yes
+    hq = region_anatolia
+    commander_rank = commander_rank_1
+    traits = {
+        cautious
+		reserved
+		basic_defensive_strategist
+    }
+}
+
+### Admirals ###
+
+ere_admiral_1 = {
+    first_name = Levon
+    last_name = Mamikonian
+    historical = yes
+    age = 63
+    culture = cu:armenian
+    religion = rel:oriental_orthodox
+    interest_group = ig_industrialists
+    ideology = ideology_moderate
+    is_admiral = yes
+    hq = region_thracia
+    commander_rank = commander_rank_3
+    traits = {
+        dockyard_master
+        basic_naval_commander
+        innovative
+    }
+}

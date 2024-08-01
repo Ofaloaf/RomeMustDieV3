@@ -172,7 +172,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1070867
+				size = 1054754
 			}
 			create_pop = {
 				culture = roman
@@ -184,6 +184,10 @@
 				religion = jewish
 				size = 6001
 			}
+			create_pop = {
+				culture = rromani
+				size = 16113
+			}
 		}
 	}
 	s:STATE_VENETIA = {
@@ -193,7 +197,7 @@
 				size = 601656
 			}
 			create_pop = {
-				culture = roman
+				culture = rhaetic
 				religion = arian
 				size = 122773
 			}
@@ -401,7 +405,7 @@
 			create_pop = {
 				culture = greek
 				religion = nicene
-				size = 1232996
+				size = 1161421
 			}
 			create_pop = {
 				culture = greek
@@ -439,6 +443,10 @@
 				culture = assyrian
 				size = 84000
 			}
+			create_pop = {
+				culture = rromani
+				size = 71575
+			}
 		}
 	}
 	s:STATE_DOBRUDJA = {
@@ -449,7 +457,7 @@
 			}
 			create_pop = {
 				culture = sklavinian
-				size = 170708
+				size = 150468
 			}
 			create_pop = {
 				culture = greek
@@ -459,13 +467,17 @@
 				culture = romanian
 				size = 76000
 			}
+			create_pop = {
+				culture = rromani
+				size = 20240
+			}
 		}
 	}
 	s:STATE_ALBANIA = {
 		region_state:ERE = {
 			create_pop = {
 				culture = albanian
-				size = 1132008
+				size = 1068099
 			}
 			create_pop = {
 				culture = greek
@@ -474,6 +486,10 @@
 			create_pop = {
 				culture = illyrian
 				size = 91200
+			}
+			create_pop = {
+				culture = rromani
+				size = 63908
 			}
 		}
 	}
@@ -495,11 +511,19 @@
 			}
 			create_pop = {
 				culture = illyrian
-				size = 462400
+				size = 364123
+			}
+			create_pop = {
+				culture = serbian
+				size = 88760
 			}
 			create_pop = {
 				culture = greek
 				size = 103996
+			}
+			create_pop = {
+				culture = rromani
+				size = 9517
 			}
 		}
 	}
@@ -508,20 +532,20 @@
 			create_pop = {
 				culture = greek
 				religion = arian
-				size = 64756
+				size = 61756
 			}
 			create_pop = {
 				culture = greek
-				size = 108652
+				size = 103652
 			}
 			create_pop = {
 				culture = sklavinian
-				size = 497600
+				size = 464900
 			}
 			create_pop = {
 				culture = sklavinian
 				religion = slavic_pagan
-				size = 140004
+				size = 137004
 			}
 			create_pop = {
 				culture = armenian
@@ -532,22 +556,30 @@
 				religion = jewish
 				size = 6996
 			}
+			create_pop = {
+				culture = rromani
+				size = 42700
+			}
 		}
 	}
 	s:STATE_BULGARIA = {
 		region_state:BUL = {
 			create_pop = {
 				culture = greek
-				size = 214408
+				size = 184344
 			}
 			create_pop = {
 				culture = sklavinian
 				religion = slavic_pagan
-				size = 488400
+				size = 458400
 			}
 			create_pop = {
 				culture = sklavinian
-				size = 171600
+				size = 141600
+			}
+			create_pop = {
+				culture = rromani
+				size = 90064
 			}
 		}
 	}
@@ -555,16 +587,21 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = illyrian
-				size = 464400
+				size = 459541
 			}
 			create_pop = {
-				culture = roman
+				culture = rhaetic
+				religion = arian
 				size = 20084
 			}
 			create_pop = {
 				culture = roman
-				religion = arian
+				religion = nicene
 				size = 1304
+			}
+			create_pop = {
+				culture = rromani
+				size = 4859
 			}
 		}
 	}
@@ -601,7 +638,11 @@
 			}
 			create_pop = {
 				culture = roman
-				size = 136000
+				size = 128821
+			}
+			create_pop = {
+				culture = rromani
+				size = 7179
 			}
 		}
 	}
@@ -629,8 +670,12 @@
 	s:STATE_ISTRIA = {
 		region_state:WRE = {
 			create_pop = {
+				culture = illyrian
+				size = 537800
+			}
+			create_pop = {
 				culture = roman
-				size = 847800
+				size = 147800
 			}
 			create_pop = {
 				culture = greek
@@ -639,7 +684,7 @@
 			}
 			create_pop = {
 				culture = suebian
-				size = 274504
+				size = 273225
 			}
 			create_pop = {
 				culture = roman
@@ -647,9 +692,13 @@
 				size = 4792
 			}
 			create_pop = {
-				culture = roman
+				culture = rhaetic
 				religion = arian
 				size = 124000
+			}
+			create_pop = {
+				culture = rromani
+				size = 11279
 			}
 		}
 	}
@@ -661,7 +710,7 @@
 			}
 			create_pop = {
 				culture = serb
-				size = 204058
+				size = 191910
 			}
 			create_pop = {
 				culture = albanian
@@ -671,13 +720,21 @@
 				culture = greek
 				size = 30524
 			}
+			create_pop = {
+				culture = rromani
+				size = 12148
+			}
 		}
 	}
 	s:STATE_NORTHERN_SERBIA = {
 		region_state:SER = {
 			create_pop = {
 				culture = serb
-				size = 809604
+				size = 752122
+			}
+			create_pop = {
+				culture = rromani
+				size = 57482
 			}
 		}
 	}
@@ -685,19 +742,23 @@
 		region_state:BUL = {
 			create_pop = {
 				culture = greek
-				size = 91800
+				size = 76800
 			}
 			create_pop = {
 				culture = sklavinian
-				size = 132400
+				size = 117400
 			}
 			create_pop = {
 				culture = serb
-				size = 561800
+				size = 546800
 			}
 			create_pop = {
 				culture = albanian
-				size = 192596
+				size = 177596
+			}
+			create_pop = {
+				culture = rromani
+				size = 58716
 			}
 		}
 	}
@@ -709,7 +770,11 @@
 			}
 			create_pop = {
 				culture = greek
-				size = 260000
+				size = 257210
+			}
+			create_pop = {
+				culture = rromani
+				size = 2790
 			}
 		}
 	}
@@ -717,7 +782,11 @@
 		region_state:ERE = {
 			create_pop = {
 				culture = greek
-				size = 80404
+				size = 78997
+			}
+			create_pop = {
+				culture = rromani
+				size = 1407
 			}
 		}
 	}
@@ -726,11 +795,15 @@
 		region_state:ERE = {
 			create_pop = {
 				culture = roman
-				size = 10988
+				size = 10688
 			}
 			create_pop = {
 				culture = greek
-				size = 82996
+				size = 82356
+			}
+			create_pop = {
+				culture = rromani
+				size = 1240
 			}
 		}
 	}
@@ -738,7 +811,11 @@
 		region_state:ERE = {
 			create_pop = {
 				culture = greek
-				size = 737592
+				size = 717677
+			}
+			create_pop = {
+				culture = rromani
+				size = 19915
 			}
 		}
 	}
@@ -782,15 +859,19 @@
 		region_state:DRG = {
 			create_pop = {
 				culture = albanian
-				size = 210892
+				size = 190626
 			}
 			create_pop = {
 				culture = sklavinian
-				size = 434000
+				size = 414000
 			}
 			create_pop = {
 				culture = greek
-				size = 92000
+				size = 87000
+			}
+			create_pop = {
+				culture = rromani
+				size = 55266
 			}
 		}
 	}
@@ -798,11 +879,15 @@
 		region_state:DRG = {
 			create_pop = {
 				culture = sklavinian
-				size = 290408
+				size = 273303
 			}
 			create_pop = {
 				culture = greek
-				size = 144000
+				size = 132000
+			}
+			create_pop = {
+				culture = rromani
+				size = 29105
 			}
 		}
 		region_state:ERE = {
@@ -812,7 +897,7 @@
 			}
 			create_pop = {
 				culture = greek
-				size = 588000
+				size = 552304
 			}
 			create_pop = {
 				culture = greek
@@ -823,13 +908,17 @@
 				culture = sklavinian
 				size = 95204
 			}
+			create_pop = {
+				culture = rromani
+				size = 35696
+			}
 		}
 	}
 	s:STATE_WESTERN_THRACE = {
 		region_state:ERE = {
 			create_pop = {
 				culture = sklavinian
-				size = 464808
+				size = 428148
 			}
 			create_pop = {
 				culture = greek
@@ -844,22 +933,29 @@
 				religion = slavic_pagan
 				size = 41800
 			}
-
+			create_pop = {
+				culture = rromani
+				size = 36660
+			}
 		}
 	}
 	s:STATE_IONIAN_ISLANDS = {
 		region_state:ERE = {
 			create_pop = {
 				culture = greek
-				size = 226404
+				size = 194524
 			}
 			create_pop = {
 				culture = illyrian
-				size = 102016
+				size = 92016
 			}
 			create_pop = {
 				culture = roman
 				size = 21007
+			}
+			create_pop = {
+				culture = rromani
+				size = 41880
 			}
 		}
 	}
@@ -867,7 +963,11 @@
 		region_state:ERE = {
 			create_pop = {
 				culture = greek
-				size = 641996
+				size = 622737
+			}
+			create_pop = {
+				culture = rromani
+				size = 19259
 			}
 		}
 	}

@@ -1,0 +1,57 @@
+﻿WLK = {
+	states = {
+		STATE_ICA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+LNP = {
+	use_culture_states = yes # Lenape
+	
+	ai_will_do = { always = no }
+}
+
+PWT = {
+	states = {
+		STATE_DISTRICT_OF_COLUMBIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+MSC = {
+	use_culture_states = yes # Muskogean
+	
+	ai_will_do = { always = no }
+}
+
+CHE = {
+	use_culture_states = yes # Cherokee
+	
+	ai_will_do = { always = no }
+}
+
+CKW = {
+	provinces = {
+		xC07000 x7BEEC0 x3F62E9 x4E7A21 x29E11F xBAAD96 xC671E3 xEDB65F x8B0210 x807080 xC85BEB x12DEAF x31044F x6D0DAC x14BCC5 xF641D2
+	}
+	ai_will_do = { always = no }
+}
+
+CHT = {
+	states = {
+		STATE_MISSISSIPPI
+	}
+	
+	ai_will_do = { always = no }
+}
+
+SWN = {
+	states = {
+		STATE_INDIANA
+		STATE_OHIO
+	}
+	
+	ai_will_do = { always = no }
+}

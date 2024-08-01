@@ -1,0 +1,240 @@
+﻿je_the_eastern_border = {
+    icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+    
+    is_shown_when_inactive = {
+		always = no
+    }
+    possible = {
+		always = no
+    }
+    immediate = {
+    }
+    complete = {
+    }
+    on_complete = {
+    }
+
+    weight = 1000
+    should_be_pinned_by_default = yes
+}
+
+je_caucasian_war = {
+    icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+    group = je_group_historical_content
+
+    immediate = {
+    }
+
+    status_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = caucasian_war_escalated_loc
+                trigger = {
+					NAND = {
+					   c:CHC ?= {
+							has_truce_with = root
+						}
+						c:CIR ?= {
+							has_truce_with = root
+						}
+					}
+                }
+            }
+            triggered_desc = {
+                desc = caucasian_war_non_escalated_loc
+                trigger = {
+                    c:CHC ?= {
+                        has_truce_with = root
+                    }
+                    c:CIR ?= {
+                        has_truce_with = root
+                    }
+                }
+            }    
+        }
+    }
+
+    complete = {
+    }
+
+    weight = 100
+
+    should_be_pinned_by_default = yes
+}
+
+je_circassian_expulsions = {
+    icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+    group = je_group_historical_content
+
+    is_shown_when_inactive = {
+		always = no
+    }
+
+    possible = {
+		always = no
+    }
+
+    immediate = {
+    }
+
+    complete = {
+    }
+
+    weight = 100
+
+    should_be_pinned_by_default = yes
+}
+
+je_caucasian_war_circassia = {
+    icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+    group = je_group_historical_content
+
+    immediate = {
+    }
+
+    status_desc = {
+        first_valid = {
+            triggered_desc = {
+                desc = caucasian_war_escalated_loc
+                trigger = {
+					NAND = {
+					   c:CHC ?= {
+							has_truce_with = c:RUS
+						}
+						c:CIR ?= {
+							has_truce_with = c:RUS
+						}
+					}
+                }
+            }
+            triggered_desc = {
+                desc = caucasian_war_non_escalated_loc
+                trigger = {
+                    c:CHC ?= {
+                        has_truce_with = c:RUS
+                    }
+                    c:CIR ?= {
+                        has_truce_with = c:RUS
+                    }
+                }
+            }    
+        }
+    }
+
+    complete = {
+    }
+
+    weight = 100
+
+    should_be_pinned_by_default = yes
+}
+
+je_caucasian_war_imamate = {
+    icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+    group = je_group_historical_content
+
+    immediate = {
+    }
+
+    status_desc = {
+            triggered_desc = {
+                desc = caucasian_war_escalated_loc
+                trigger = {
+					NAND = {
+					   c:CHC ?= {
+							has_truce_with = c:RUS
+						}
+						c:CIR ?= {
+							has_truce_with = c:RUS
+						}
+					}
+                }
+            }
+            triggered_desc = {
+                desc = caucasian_war_non_escalated_loc
+                trigger = {
+                    c:CHC ?= {
+                        has_truce_with = c:RUS
+                    }
+                    c:CIR ?= {
+                        has_truce_with = c:RUS
+                    }
+                }
+            }    
+        }
+    }
+
+    complete = {
+    }
+
+    weight = 100
+
+    should_be_pinned_by_default = yes
+}
+
+je_pacify_the_steppes = {
+    icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+    group = je_group_historical_content
+
+    possible = {
+		always = no
+    }
+
+    immediate = {
+    }
+
+    complete = {
+    }
+
+    weight = 100
+
+    should_be_pinned_by_default = yes
+}
+
+je_the_last_kazakh_khan = {
+    icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+    group = je_group_historical_content
+	
+	possible = {
+		always = no
+	}
+
+    immediate = {
+    }
+
+    complete = {
+    }
+
+    weight = 100
+
+    should_be_pinned_by_default = yes
+}
+
+je_conquest_of_central_asia = {
+    icon = "gfx/interface/icons/event_icons/event_military.dds"
+    
+    group = je_group_historical_content
+
+    is_shown_when_inactive = {
+		always = no
+    }
+    possible = {
+		always = no
+    }
+    immediate = {
+    }
+    complete = {
+    }
+
+    weight = 1000
+    should_be_pinned_by_default = yes
+}

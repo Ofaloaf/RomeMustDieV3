@@ -1,0 +1,110 @@
+﻿# Gallia/Gaul/Gallic Empire
+
+GLL_ruler = {
+	first_name = Siagres
+	last_name = Egides
+	historical = yes
+	ruler = yes
+	is_general = yes
+	age = 51
+	interest_group = ig_armed_forces
+	ideology = ideology_moderate
+	culture = cu:gallic
+	religion = rel:nicene
+    hq = region_occitania
+    commander_rank = commander_rank_3
+	traits = {
+		charismatic
+		direct
+		traditionalist_commander
+	}
+}
+
+GLL_landowners = { # after Sidonius Apollinaris
+	first_name = Apollinaris
+	last_name = Ecdissi
+	historical = yes
+    ig_leader = yes
+	age = 37
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	culture = cu:septimanian
+	religion = rel:nicene
+	traits = {
+		literary
+		persistent
+		inspirational_orator
+	}
+}
+
+GLL_rural_folk = { # after the Bacaudic leaders Amandus and Aelianus
+	first_name = Eliien
+	last_name = Amandes
+	historical = yes
+    ig_leader = yes
+	age = 46
+	interest_group = ig_rural_folk
+	ideology = ideology_radical
+	culture = cu:gallic
+	religion = rel:nicene
+	traits = {
+		ambitious
+		imperious
+		demagogue
+	}
+}
+
+GLL_devout = { # after Alcimus Ecdicius Avitus
+	first_name = Avit
+	last_name = Alcim
+	historical = yes
+    ig_leader = yes
+	age = 40
+	interest_group = ig_devout
+	ideology = ideology_theocrat
+	culture = cu:septimanian
+	religion = rel:nicene
+	traits = {
+		pious
+		charismatic
+		experienced_diplomat
+	}
+}
+
+GLL_general_01 = {
+	first_name = Aureliien
+	last_name = Eparciaus
+	historical = yes
+	is_general = yes
+	age = 60
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	culture = cu:gallic
+	religion = rel:nicene
+    hq = region_france
+    commander_rank = commander_rank_3
+	traits = {
+		tactful
+		imposing
+		erudite
+	}
+}
+
+GLL_general_02 = {
+	first_name = Fortunatus
+	last_name = Minucius
+	historical = yes
+	is_general = yes
+	age = 43
+	interest_group = ig_rural_folk
+	ideology = ideology_radical
+	culture = cu:roman
+	religion = rel:arian
+    hq = region_occitania
+    commander_rank = commander_rank_1
+	traits = {
+		reckless
+		bandit
+		popular_commander
+	}
+}

@@ -592,16 +592,16 @@
 		region_state:HNN = {
 			create_pop = {
 				culture = hunnic
-				size = 1019200
+				size = 919200
 			}
 			create_pop = {
 				culture = hunnic
 				religion = nicene
-				size = 402400
+				size = 326468
 			}
 			create_pop = {
 				culture = slovak
-				size = 549596
+				size = 473664
 			}
 			create_pop = {
 				culture = suebian
@@ -612,13 +612,17 @@
 				religion = slavic_pagan
 				size = 31996
 			}
+			create_pop = {
+				culture = rromani
+				size = 161864
+			}
 		}
 	}
 	s:STATE_BEKES = {
 		region_state:HNN = {
 			create_pop = {
 				culture = hunnic
-				size = 406611
+				size = 366611
 			}
 			create_pop = {
 				culture = hunnic
@@ -635,15 +639,19 @@
 			}
 			create_pop = {
 				culture = romanian
-				size = 530400
+				size = 478321
 			}
 			create_pop = {
 				culture = serb
 				size = 117004
 			}
 			create_pop = {
-				culture = croat
+				culture = sklavinian
 				size = 20000
+			}
+			create_pop = {
+				culture = rromani
+				size = 92079
 			}
 		}
 	}
@@ -651,7 +659,7 @@
 		region_state:HNN = {
 			create_pop = {
 				culture = slovak
-				size = 1435796
+				size = 1350962
 			}
 			create_pop = {
 				culture = czech
@@ -671,8 +679,12 @@
 				size = 167946
 			}
 			create_pop = {
-				culture = slovene
+				culture = sklavinian
 				size = 59996
+			}
+			create_pop = {
+				culture = rromani
+				size = 84834
 			}
 		}
 	}
@@ -687,27 +699,23 @@
 				size = 160000
 			}
 			create_pop = {
-				culture = illyrian
-				size = 40000
+				culture = rromani
+				size = 49490
 			}
 			create_pop = {
 				culture = serb
 				size = 284196
 			}
 			create_pop = {
-				culture = suebian
-				size = 36000
-			}
-			create_pop = {
-				culture = romanian
-				size = 44000
+				culture = illyrian
+				size = 70510
 			}
 		}
 	}
 	s:STATE_BANAT = {
 		region_state:HNN = {
 			create_pop = {
-				culture = croat
+				culture = sklavinian
 				size = 312640
 			}
 			create_pop = {
@@ -719,7 +727,7 @@
 				size = 59228
 			}
 			create_pop = {
-				culture = bulgarian
+				culture = rromani
 				size = 62296
 			}
 			create_pop = {
@@ -800,19 +808,23 @@
 			create_pop = {
 				culture = sklavinian
 				religion = slavic_pagan
-				size = 132004
+				size = 121004
 			}
 			create_pop = {
 				culture = sklavinian
-				size = 174600
+				size = 182744
 			}
 			create_pop = {
 				culture = illyrian
-				size = 732000
+				size = 702000
 			}
 			create_pop = {
 				culture = greek
 				size = 32800
+			}
+			create_pop = {
+				culture = rromani
+				size = 42856
 			}
 		}
 	}
@@ -821,7 +833,7 @@
 			create_pop = {
 				culture = sklavinian
 				religion = slavic_pagan
-				size = 286000
+				size = 256510
 			}
 			create_pop = {
 				culture = hunnic
@@ -835,16 +847,20 @@
 				culture = illyrian
 				size = 142000
 			}
+			create_pop = {
+				culture = rromani
+				size = 29490
+			}
 		}
 	}
 	s:STATE_MOLDAVIA = {
 		region_state:GAL = {
 			create_pop = {
 				culture = romanian
-				size = 1393304
+				size = 1314519
 			}
 			create_pop = {
-				culture = bulgarian
+				culture = sklavinian
 				size = 228008
 			}
 			create_pop = {
@@ -853,8 +869,12 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = romanian
+				culture = rromani
 				size = 10000
+			}
+			create_pop = {
+				culture = rromani
+				size = 78785
 			}
 		}
 	}
@@ -866,12 +886,16 @@
 			}
 			create_pop = {
 				culture = romanian
-				size = 722177
+				size = 671446
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = romanian
+				culture = rromani
 				size = 10000
+			}
+			create_pop = {
+				culture = rromani
+				size = 50731
 			}
 		}
 	}
@@ -879,7 +903,7 @@
 		region_state:GAL = {
 			create_pop = {
 				culture = romanian
-				size = 808396
+				size = 763446
 			}
 			create_pop = {
 				culture = ukrainian
@@ -888,6 +912,10 @@
 			create_pop = {
 				culture = sklavinian
 				size = 40000
+			}
+			create_pop = {
+				culture = rromani
+				size = 44950
 			}
 		}
 	}

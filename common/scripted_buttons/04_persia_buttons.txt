@@ -1,0 +1,91 @@
+﻿greater_khorasan_button = {
+	name = "greater_khorasan_button"
+	desc = "greater_khorasan_button_desc"
+
+	visible = {
+		always = no
+	}
+
+	possible = {
+		always = no
+	}
+
+	effect = {
+	}
+
+	ai_chance = {
+	}
+}
+
+persian_baluchistan_button = {
+	name = "persian_baluchistan_button"
+	desc = "persian_baluchistan_button_desc"
+
+	visible = {
+		always = no
+	}
+
+	possible = {
+		always = no
+	}
+
+	effect = {
+	}
+
+	ai_chance = {
+	}
+}
+
+persia_british_aid_button = {
+	name = "persia_british_aid_button"
+	desc = "persia_british_aid_button_desc"
+
+	visible = {
+		always = no
+	}
+
+	possible = {
+		always = no
+	}
+
+	effect = {
+	}
+
+	ai_chance = {
+	}
+}
+
+persia_russian_aid_button = {
+	name = "persia_russian_aid_button"
+	desc = "persia_russian_aid_button_desc"
+
+	visible = {
+		always = no
+	}
+
+	possible = {
+		always = no
+	}
+
+	effect = {
+	}
+}
+
+persia_resettle_merv_button = {
+	name = "persia_resettle_merv_button"
+	desc = "persia_resettle_merv_button_desc"
+
+	visible = {
+		always = no
+	}
+
+	possible = {
+		always = no
+	}
+
+	effect = {
+	}
+
+	ai_chance = {
+	}
+}

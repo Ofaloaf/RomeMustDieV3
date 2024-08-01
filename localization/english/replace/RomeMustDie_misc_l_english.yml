@@ -62,32 +62,12 @@
   #
   gov_restored_mayapan_absolutist: "Restored League"
   gov_restored_mayapan_desc: "The Restored League of Mayapan is a centralized government, led by the hereditary rulers of Tutul-Xiu."
-  RULER_TITLE: "Ajaw"
+  RULER_TITLE_AJAW: "Ajaw"
   #
   gov_sichuanese_court: "Sichuanese Court"
   gov_sichuanese_court_desc: "The Da Shu dynasty is run by a clique of Sichuanese ministers and bureaucrats who serve the Supreme Emperor."
   #
   gallic_crisis: "Gallic Crisis"
-  #
-  je_fall_of_rome: "Teetering Empire"
-  je_fall_of_rome_reason: "Various local civil and military powers within [SCOPE.GetRootScope.GetCountry.GetName] may tear the country apart, if given the opportunity."
-  je_fall_of_rome_goal: "A number of factors risk imploding [SCOPE.GetRootScope.GetCountry.GetName]"
-  fall_of_rome_criteria: "Each of the following will contribute #red 20%#! to the collapse of [SCOPE.GetRootScope.GetCountry.GetName]:\n- Losing control of the #BOLD Prefecture of the West#!\n- Letting government legitimacy fall to #BOLD Illegitimate #!\n- Warring against the #BOLD Eastern Roman Empire#!\n- Going into debt and taking any [concept_loans]\n- Having a [concept_civil_war]\n- Allowing an interest group led by a #BOLD [concept_barbarian]#! into government\n\nEach of the following will detract #green -20%#! from the fracturing of [SCOPE.GetRootScope.GetCountry.GetName]:\n- Removing the #BOLD Foederati#! from the Armed Forces\n- Recovering #BOLD North Africa#!\n- Annexing the #BOLD Gallic Empire#!\n- Regaining #BOLD any#! territory in #BOLD Britannia#!"
-  concept_barbarian: "Barbarian"
-  concept_barbarian_desc: "A #BOLD Barbarian#! is any character with a culture that neither has the #BOLD Latin#! trait nor is Greek, such as the Thuringian culture."
-  #
-  je_attila_returns: "Attila's Return"
-  je_attila_returns_reason: "Attila, the descendant of the Great Nimrod, nutured in Engaddi, the Dread of the World himself, has fled his prison and is clearly intending to return to [ROOT.GetCountry.GetName] and resume his rule. The earth quakes!"
-  status_attila_emperor: "The Emperor approaches the capital."
-  status_attila_tyrant: "The Tyrant has advanced up the Danube."
-  status_attila_anthropophagus: "The Anthropophagus has quitted his den."
-  #
-  je_frankish_nation: "Frankish Futures"
-  je_frankish_nation_reason: "The Frankish people sit in a unique position: on the edge of the Roman world, the Franks are intimately familiar with Romans life in a way few others are. Frankish lands are also the birthplace of Europe's industrial revolution, and the heartland of resistance against the Romans. To face the Romans, or face the Germans — which way should the Franks go?"
-  gallo_frankish_nation_button: "Embrace the Gallo-Romans"
-  gallo_frankish_nation_button_desc: "Gauls are the natural brothers of the Franks. Let us forge a new future together!"
-  germanic_frankish_nation_button: "Embrace the Germanic peoples"
-  germanic_frankish_nation_button_desc: "We are part of a vast Germanic brotherhood. Let us proclaim our great fraternity to the world!"
   #
   clan_mother: "Clan Mother"
   clan_mother_desc: "Although there still may be gendered roles and expectations, women have much greater say in political activities in certain cultures."
@@ -107,11 +87,26 @@
   classicist_enthusiasm: "Classicist Enthusiasm"
   overemphasis_on_liberal_arts: "Overemphasis on Liberal Arts"
   classical_coursework: "Classical Coursework"
-
+  revived_ancient_pantheon: "Eternal Glory of the Revived Ancient Pantheon"
+  the_apostate: "The Apostate"
+  the_apostate_but_worse: "The Great Apostate"
+  #
+  Legio_I: "Legio I"
   Legio_II: "Legio II"
   Legio_III: "Legio III"
+  Legio_IV: "Legio IV"
+  Legio_V: "Legio V"
   Legio_VI: "Legio VI"
-  
+  Legio_VII: "Legio VII"
+  Classis_Ravennas: "Classis Ravennas"
+  Thema_Thrakis: "Thema Thrakis"
+  Thema_Hellinikis: "Thema Hellinikis"
+  Thema_Anatolikon: "Thema Anatolikon"
+  Basilikos_Stolos: "Basilikos Stolos"
+  exercitus_galliae: "Exercitus Galliae"
+  exercitus_suessionorum: "Exercitus Suessionorum"
+  exercitus_arvernorum: "Exercitus Avernorum"
+  #
   WRE_BLOC: "Imperium Orientiale"
   ERE_BLOC: "Imperium Occidentale"
   #
@@ -133,3 +128,7 @@
   dp_leadership_britannia: "Britannian Leadership"
   dp_leadership_britannia_desc: "Start a $dp_leadership_britannia$ [concept_diplomatic_play]\n$TOOLTIP_DELIMITER$\n$dp_leadership_britannia_tooltip_desc$"
   dp_leadership_britannia_tooltip_desc: "Sets the initiating [concept_war_goal] to kick out the targeted [concept_country] as a [concept_unification_candidate] of the British [Concept('concept_unification', '$concept_major_unification$')]."
+  #
+  restore_ancient_pantheon: "Restore the Roman Pantheon"
+  restore_ancient_pantheon_desc: "What ails our great nation is the pernicious poison of... Christianity. Yes, that's it! By declaring the return of the ancient gods, surely #BOLD this#! will fix things! Oh, my pounding head! Just go out and outlaw Christianity, will you?"
+  restore_ancient_pantheon_tt: "#N This will definitely work, and everyone will love this.#!"

@@ -15,9 +15,9 @@
 
 		# Armed Forces
 		# Onulphus Otacheringi
-		create_character = {
-			template = wre_odoacer_expy
-		}
+		#create_character = {
+		#	template = wre_odoacer_expy
+		#}
 		
 		# Rural Folks
 		# Costantino Atrianense
@@ -33,20 +33,26 @@
 		
 		### GENERALS
 		
-		create_character = {
-			template = wre_general_01	# Gercorio Segontiense
-		}
+		#create_character = {
+		#	template = wre_general_01	# Gercorio Segontiense
+		#}
 		
-		create_character = {
-			template = wre_general_02	# Bonifacio Ruffo
-		}
+		#create_character = { # created and assigned to an army in common\history\military_formations\WRE_military_formations.txt
+		#	template = wre_general_02	# Bonifacio Ruffo
+		#}
 
 		create_character = {
 			template = wre_general_03	# Glaucias Scirtar
 		}
 
+		#create_character = { # created and assigned to an army in common\history\military_formations\WRE_military_formations.txt
+		#	template = wre_general_04	# Eneas Cincio
+		#}
+		
+		### ADMIRALS
+		
 		create_character = {
-			template = wre_general_04	# Eneas Cincio
+			template = wre_admiral_1	# Ottavio Essuperanzio
 		}
 	}
 }

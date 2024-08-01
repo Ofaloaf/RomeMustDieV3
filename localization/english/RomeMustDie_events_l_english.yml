@@ -23,4 +23,11 @@
   fall_of_rome_events.1.a: "The foundations of Romanitas are dignity and tradition, and this has neither!"
   fall_of_rome_events.1.b: "The strength of Rome rests on our ability to change with the times."
   fall_of_rome_events.1.c: "Are our standards falling so low? Tell teachers to focus on the classics!"
-  
+  fall_of_rome_events.2.t: "The Great Apostasy"
+  fall_of_rome_events.2.d: "[SCOPE.sCharacter('insane_ruler').GetPrimaryRoleTitle] [SCOPE.sCharacter('insane_ruler').GetFullName]'s surprise declaration of the return of ancient Roman paganism has met reactions ranging from sheer bafflement to righteous anger. Nobody wanted this, and nobody will follow this insane directive. The [SCOPE.sCharacter('insane_ruler').GetPrimaryRoleTitle]'s reputation has been permanently marred by this bizarre and ridiculous action."
+  fall_of_rome_events.2.f: ""Worshipping #italic Jupiter#! as if we're Caesar's peers back in some dark age of superstition? This is absurd! Obscene! Who #italic does#! that sort of thing, even in desperation?" The speaker shook his head sadly. "I'm afraid I must ask for our dear leader to step down, if this is the only kind of decision [SCOPE.sCharacter('insane_ruler').GetHerHis] mind can produce.""
+  fall_of_rome_events.2.a: "[SCOPE.sCharacter('insane_ruler').GetFullName] must retire from public life."
+  fall_of_rome_events.2.b: "[SCOPE.sCharacter('insane_ruler').GetHerHis|U] decision was terrible, but [SCOPE.sCharacter('insane_ruler').GetSheHe] cannot leave now."
+  fall_of_rome_events.2.c: "A period of convalescence may help [SCOPE.sCharacter('insane_ruler').GetHerHim]."
+  fall_of_rome_events.2.c.tt: "[SCOPE.sCharacter('insane_ruler').GetFullNameNoFormatting]'s faith has been shattered by this ordeal, and [SCOPE.sCharacter('insane_ruler').GetSheHe] is no longer #bold pious#!."
+  fall_of_rome_events.2.dd: "[SCOPE.sCharacter('devout_leader').GetFullName] may be able to talk the [SCOPE.sCharacter('insane_ruler').GetPrimaryRoleTitle] out of apostasy."

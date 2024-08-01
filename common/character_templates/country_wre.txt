@@ -149,6 +149,26 @@ wre_general_04 = {
     }
 }
 
+### COMMANDERS - ADMIRALS ###
+
+wre_admiral_1 = {
+    first_name = Ottavio
+    last_name = Essuperanzio
+    historical = yes
+    age = 66
+    culture = cu:roman
+    religion = rel:nicene
+    interest_group = ig_armed_forces
+    ideology = ideology_moderate
+    is_admiral = yes
+    hq = region_italy
+    commander_rank = commander_rank_3
+    traits = {
+        cautious
+        sickly
+    }
+}
+
 ### AGITATORS ###
 
 wre_agitator_diana_nemorensis = {
