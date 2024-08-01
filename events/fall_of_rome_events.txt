@@ -785,7 +785,15 @@ fall_of_rome_events.2 = { # The Great Apostasy
 		trigger = {
 			ig:ig_devout = {
 				leader = {
-					has_trait = charismatic
+					OR = {
+						has_trait = charismatic
+						has_trait = experienced_diplomat
+						has_trait = masterful_diplomat
+						has_trait = inspirational_orator
+						has_trait = demagogue
+						has_trait = firebrand
+					}
+					is_ruler = no
 				}
 			}
 			hidden_trigger = {
@@ -799,7 +807,10 @@ fall_of_rome_events.2 = { # The Great Apostasy
 		}
 		
 		scope:insane_ruler = {
-			set_ideology = ideology:ideology_theocrat
+			if = {
+				limit = { NOT = { has_ideology = ideology:ideology_theocrat } }
+				set_ideology = ideology:ideology_theocrat
+			}
 			remove_trait = psychological_affliction
 			if = {
 				limit = {
