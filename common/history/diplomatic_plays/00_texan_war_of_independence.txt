@@ -20,6 +20,8 @@
 				type = conquer_state
 				target_state = s:STATE_LANGUEDOC.region_state:WRE
 			}
-		}			
+		}	
+		change_infamy = -350	
 	}
+	c:GLL = { change_infamy = -350 }
 }

@@ -397,7 +397,7 @@
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_homesteading" }
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -1667,7 +1667,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=10
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
@@ -2040,6 +2040,12 @@
 				reserves=1
 				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated"  }
 			}	
+			create_building={
+				building="building_barracks"
+				level=6
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
 		}
 	}
 	s:STATE_ALSACE_LORRAINE={
@@ -2445,6 +2451,12 @@
 				level=10
 				reserves=1
 				activate_production_methods={ "pm_military_shipbuilding_wooden_2"  }
+			}
+			create_building={
+				building="building_barracks"
+				level=7
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
 			}
 			create_building={
 				building="building_port"
@@ -3022,7 +3034,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=10
+				level=6
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
