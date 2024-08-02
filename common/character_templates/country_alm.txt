@@ -1,0 +1,56 @@
+﻿# Alamannia
+
+ALM_landowner = { # Aginarîch Hrôking
+	first_name = AginarI_ch
+	last_name = HrO_king
+	historical = yes
+	culture = cu:alemannic
+	religion = rel:arian
+	ruler = yes
+	ig_leader = yes
+	female = no
+	age = 54
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	traits = {
+		sickly
+		meticulous
+		literary
+	}
+}
+
+ALM_armed_forces = {
+	first_name = Lantfrid
+	last_name = Alaholfing
+	historical = yes
+	culture = cu:alemannic
+	religion = rel:arian
+	ig_leader = yes
+	female = no
+	age = 49
+	interest_group = ig_armed_forces
+	ideology = ideology_moderate
+	traits = {
+		wrathful
+		romantic
+		basic_political_operator
+	}
+}
+
+ALM_devout = { # Firmus Seiterich
+	first_name = Firmus
+	last_name = Seiterich
+	historical = yes
+	culture = cu:alemannic
+	religion = rel:arian
+	ig_leader = yes
+	female = no
+	age = 65
+	interest_group = ig_devout
+	ideology = ideology_theocrat
+	traits = {
+		ambitious
+		cruel
+		expert_political_operator
+	}
+}

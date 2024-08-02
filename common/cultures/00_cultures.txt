@@ -1233,79 +1233,90 @@ alemannic={
 	religion = arian
 	traits = { germanic_culture_group european_heritage }
 	male_common_first_names={
-		Adolf Alexander Anton Augustus Albert Andreas Ambros Alois
-		Benedicht
-		Carl Christoph Christian Constant CA_sar Carl-Friedrich
-		Dominik Damian
-		Eduard Ernst Eugen Emil Ernst_August
-		Friedrich Franz Florian Franz_Xaver
-		Gall Gabriel Gustav Gottfried Georg Gottlieb
-		Hermann Heinrich
-		Imbert
-		Johann Jakob Joseph Johann_Baptist Johann_Konrad Johann_Peter Jakob_Christoph
-		Kaspar Klemens Kajetan Konrad
-		Ludwig Leo
-		Manfred Martin Moritz
-		Nazar Nikolaus
-		Otto Oswald
-		Peter Placidus Philipp
-		Rudolf
-		Samuel Stephan Silvan Severin
-		Theodor
-		Ulrich
-		Wolfgang Walter Wilhelm
+		Adolf Alexander Anton Augustus Albert Andreas Ambros Arnulf AginarI_ch Aurel Arnefrid Alawich
+		Benedicht Butilin Begga Bercthold Bonifaz Berno
+		Carl Christoph Christian Constant CA_sar Cajus Craloh Cuonrad Cuono
+		Dominik Damian Dracoald Dietpald Diethelm Dieto Donarad
+		Eduard Ernst Eugen Emil Erchangar Eberhard Ekkehard Erlebald Engilbert Embrico
+		Fridrich Franz Florian FrawomA_r Folkwin Frideloh
+		Gebhard Gustav Gotfrid Georg Gottlieb Grimoald Gundomad Gunzo Gibawulthu Gozpert
+		Hermann Hainrich Hesso Haito Hariobaud HnO_domA_ri Hordahari Heribrecht Hartmuat Hiltebold Hadubrant
+		Imbert Immo
+		Jakob Joseph Johannes Joachim
+		Kaspar Klemens Kajetan Karl Konstantin Keba
+		Ludwig Leo Lothar Leuthari Liutolf Liuthard Leodegar
+		Manfred Martin Moritz Makrian ME_darI_k Markwart Meinrad Meginwart Mangold Mang
+		Nazar Nikolaus Notker Nebi
+		Otto Oswald O_tmA_r
+		Petus Placidus Philipp Priarius Paulus Perewelf
+		Ruedolf Rando Ruodpert Ruadhard Ratpert Rumold Ruadhelm Ruodho Ruodmann Ruomo 
+		Samuel Stephan Silvan Severin Suomar Salomon
+		Theodor Theutbald Theodul Thieting Tagebert
+		Uodalrich Urius Ursipert Ursulf Udalmann Udalschalk
+		Vaefar
+		Wolfgang Walter Wilhelm Willehari Widigaui Westaralb WadomA_ri WitharI_d Waltram Werinher Walahfrid Wolfleoz Witigowo Waldo Wigolt
 		Xavier
 	}
 	female_common_first_names = {
-		Anna
+		Anna Adalheidis
 		Barbara
+		CA_cilia Cimburga
 		Emilie
-		Gertrud
-		Germaine
-		Henriette
-		Isabelle
-		Johanna
-		Julie
-		Lydia
-		Maria
-		Rosalie
+		Gertrud 
+		Hildegard Hemma
+		Itte Ingundis Ingohildis
+		Johanna Julia
+		Katharina Kunigunde
+		Lydia Luitgard
+		Maria Margareta
+		Rosalie Richinza
+		Wiborada
 	}	
-	noble_last_names = { # mostly patrician families of Bern
-		von_Bonstetten von_BU_ren von_Bergmann
-		von_Donatz
-		Effinger von_Erlach
-		von_Frisching
-		von_Graffenried
-		von_Hettlingen
-		Lentulus Lombach von_Ligerz
-		May von_Muelinen von_Muralt
-		von_Reding-Biberegg von_RU_pplin
-		von_Salis-Soglio von_Steiger von_Schorno von_Streng
-		von_Tavel von_Thurn
-		von_Wattenwyl von_Weber
-		Zehender
+	noble_last_names = {
+		Alaholfing Adalongus Altheus Asmundus vo_Araro
+		vo_Bonstetten vo_Bergmann vu_Bade vo_BuS_nang vo_BO_ttstei
+		vu_Chrenzach vo_ChlingebA_rg
+		vo_Donatz
+		Effinger vo_Erlech vu_Eppestei vu_Eschtrych vu_EinsidlA_
+		vo_Frisching vu_Frickige vu_Fryybeg vo_Fulach vo_FlU_e
+		Guarinus vo_Graffenried vo_Gagern vu_GrO_gling
+		vo_Hettlingen Heyminus vo_Heidegg vo_Hundwiil vo_Hewe
+		vu_Konschtanz
+		Lentulus Lombach vo_Ligerz vo_Lirheim
+		May vo_Muelinen vo_Muralt vo_Murbach vo_MUll_heim vo_Menge
+		Nantelmus vo_NA_lleburg
+		vu_Oettingen
+		Prothias
+		vu_RyyfA_lde vo_Russikon vo_Ramstei vo_Rosenegg vo_Rudolphi
+		vo_Steiger vo_Schorno vo_Streng vu_Simerenge vo_Schaffhuse
+		vo_Tavel vo_Thurn vo_Twiel vo_Tenge Tutz
+		Vulfinus Vultcherius vu_Vohburg Vilencus
+		vo_Wattenwyl von_Weber vu_WirttebA_rg vo_Wysseburg Wolleb
+		Zehender ZA_hringer
 	}
 	common_last_names={
 		Ador Anderwert Angehrn Altwegg Aepli
-		Brenner BA_chtold Bacher BlO_sch Barblan Balmer Bodenheimer Bitzius Burren Benzinger BU_eler Bachmann Bamert Bettschart Binzegger
+		Brenner BA_chtold Bacher BlO_sch Barblan Balmer Bodenheimer Bitzius Burren Benzinger BU_eler Bachmann Bamert Bettschart Binzegger Baldung BU_rgisser Blarer Beusch 
 		Calonder Corrodi Castell Camenzind
-		Deucher DA_hler Dieth Dinkelmann DU_rrenmatt DU_ggelin Dumelin
+		Deucher DA_hler Dieth Dinkelmann DU_rrenmatt DU_ggelin Dumelin Denzler
 		Enderlin ElsA_sser Eggenschwyler Eggli Eberle Etter Egloff
-		Fornerod Funk Fassbind Freyenmuth
+		Fornerod Funk Fassbind Freyenmuth Fischer
+		Germann
 		Haab Herzog Haller HU_gelberger Henggeler Hegglin
 		Iten
 		Jaggi
-		Knusel Kuoni Kurz KlA_y KO_nitzer KU_ndig KA_lin
+		Knusel Kuoni Kurz KlA_y KO_nitzer KU_ndig KA_lin Kalb Kunz
 		Leinert Loosli Lindt Lienhard Lohner Litschi Loser Labhardt Leutenegger
 		Motta Munzinger Meyer Morel Marti Minder Morgenthaler Moser Mettler Moos Merz MO_rikofer
-		Naff Nussbaumer
-		Oethiker Ochsner
-		RA_z Ritschard Ruoss Rogenmoser Ruckstuhl Reutlinger Roth
-		Schneider de_Staeel Siegwart-Muller Stutz Streiff StA_mpfli Stockmar Schneider Schurer SchA_r Simonin Stutzer Steinegger Styger Sidler Schwerzmann Sulzberger Scherb
-		Tschudi Tschiemer Theiler Trinkler
+		Naff Nussbaumer NO_thlich
+		Oethiker Ochsner Opser
+		Pfuser
+		RA_z Ritschard Ruoss Rogenmoser Ruckstuhl Reutlinger Ruffiner Reher RO_sch
+		Schneider de_Staeel Siegwart-Muller Stutz Streiff StA_mpfli Stockmar Schneider Schurer SchA_r Simonin Stutzer Steinegger Styger Sidler Schwerzmann Sulzberger Scherb Schwarzmurer
+		Tschudi Tschiemer Theiler Trinkler Tutz TU_rr
 		Usteri
-		ValA_r Villiger
-		Wille Wyss Wynistorf Willi Winet Wiss
+		ValA_r Villiger Vorster
+		Wille Wyss Wynistorf Willi Winet Waeldin Wiss WU_lflinger Wengi
 		Zeni Zeerleder Ziltener ZU_rcher
 	}
 	graphics = european

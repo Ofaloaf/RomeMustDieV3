@@ -1,0 +1,11 @@
+﻿CHARACTERS = {
+	c:SXN ?= {
+		create_character = {			# Waltbraht Esikoning
+			template = SXN_landowner 	# also ruler
+		}
+		
+		create_character = {			# Hathumar Thunaersunu
+			template = SXN_devout
+		}
+	}
+}

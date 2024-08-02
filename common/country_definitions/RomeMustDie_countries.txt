@@ -359,7 +359,7 @@ ALM = { # Alemannia
 	
 	cultures = { alemannic }
 	
-	capital = STATE_BADEN
+	capital = STATE_WURTTEMBERG # so the capital is Cannstatt
 }
 
 FRK = { # Frankia

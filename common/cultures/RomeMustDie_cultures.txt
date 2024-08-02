@@ -293,46 +293,51 @@ suebian = {
 	traits = { germanic_culture_group european_heritage }
 	
 	male_common_first_names = {
-		Arnolt Ariamir Agriulf Anila Adoric Adegaster
-		Becilla Bretenand
-		Chuonrad Cuno Chararic Commundus
-		Daniel Donagast Daildus Donegild
+		Arnolt Ariamir Agriulf Anila Adoric Adegaster Aostarpald Asperht Arbeo
+		Becilla Bretenand Baldro
+		Chuonrad Cuno Chararic Commundus Caozperht
+		Daniel Donagast Daildus Donegild Diotmar Diudolf Donarpreht Diotrih
 		Enze Emicho Eberwin Enceman Eboric Eldivert Ermegis
-		Framta Fridivert Felgirus Fredisclus
-		Gunthalm Gardingus Gundifortis Gundivald Geodegild Gumarius
-		Herbord Herich Hunimund Hermeric Hermeneric Hildemir
-		Ilderic Ildefonsus Iuvatus
+		Framta Fridivert Felgirus Fredisclus Folderich Foldulf Fuldoin Funtan Fuscias
+		Gunthalm Gardingus Gundifortis Gundivald Geodegild Gumarius Gaozrich
+		Herbord Herich Hunimund Hermeric Hermeneric Hildemir Haduprant Haostarpald Herigast Hleoperht Hroadant
+		Ilderic Ildefonsus Iuvatus Irminheri Irminperht
 		Kendered
-		Liutwin Leodefred Lubellus Lallin
-		Maldras Marchus Miro Malaric Mundus Modild Magnarius Mantila
-		Nitigisius Neufila Nantild
+		Liutwin Leodefred Lubellus Lallin Leotholf Liutpald
+		Maldras Marchus Miro Malaric Mundus Modild Magnarius Mantila Maorolf Muotrih
+		Nitigisius Neufila Nantild Naothart
 		Ovdalric Ostrofred Osobred Olcarius Odoynus
-		Perhtold Purchart Pantardus Paul Petrus
+		Perhtold Purchart Pantardus Paul Petrus Peradeo
 		Ruedin Reginbold Rechiar Rechila Remismund Richimund Reccafred Rodomir Reccehard Reccesuind
-		Sunila Severin Sisivert
+		Sunila Severin Sisivert Starcholf
 		Theudomir Theubald
-		Uittimer
+		Uittimer Uuolfpero Vuldar
 		Veremund Visclafred Vistragild Valarius Vizila
-		Weinhere
+		Weinhere Waltheri Weriwolf Wolfgang Woto Welant
+		Zabanus
 	}
 	female_common_first_names = {
-		Aliverta Astriverga Amalilli Austrogoto Audesinda
+		Aliverta Astriverga Amalilli Austrogoto Audesinda Adalfrit
 		Basina Brunildi Baquina
-		Donadildi
-		Ermengontia Ermefara
-		Fronildi Frogeva
-		Guntedrudia Genobreda Goldregoto Gesmira Goysenda Gondella
-		Ilduara
+		Cotafrit Cotahilt
+		Donadildi Deoinga Deothilt Diotfrit
+		Ermengontia Ermefara Erchanfrit Ermelinda Eillanhilt
+		Fronildi Frogeva Freuuihilt Fuscildis Fresin
+		Guntedrudia Genobreda Goldregoto Gesmira Goysenda Gondella Gozhilt
+		Heldin Hilticoma Holda Hrodpirin Husina
+		Ilduara Ingaberta Ingedrudis Irmindrud Ingudis Irminsuind Itis
 		Kindiverga Ketemera
 		Liuvilo
-		Mectubrida Meroildi
+		Mectubrida Meroildi Mehthilt Meripirin Mistila
 		Odorica
-		Penetrudia Petra
+		Penetrudia Petra Pherfrit Prunhilt
 		Qualatrudia
-		Remisiwera Reicionda Rimionda Rodosildi Recesuinda
-		Suinthiliuba Siseguntia Sisiverta Sabita
-		Thuresmunda Teudisila Trasmira Tructesinda
-		Vestregoti
+		Remisiwera Reicionda Rimionda Rodosildi Recesuinda Rihhilt
+		Suinthiliuba Siseguntia Sisiverta Sabita Sigifrit Starchilt Suapin Suuanahilt
+		Thuresmunda Teudisila Trasmira Tructesinda Theodfrit
+		Uote Uualhin
+		Vuldarniu Vultrogotha Vestregoti
+		Woda
 	}
 	common_last_names = {
 		Ammur Angest Anagiol
@@ -372,7 +377,7 @@ saxon = { # Mix of Plattdüütsch/Neddersassisch and Old Saxon
 	traits = { germanic_culture_group european_heritage }
 
 	male_common_first_names = {
-		Allert Arndt Aigino Alfred Athelwulf Albion Adelf Adalward Amelung Ansgar Adalbrand Adalbero Arp Adaldag Alert
+		Allert Arndt Aigino Alfred Athelwulf Albion Adelf Adalward Amelung Ansgar Adalbrand Adalbero Arp Adaldag Alert Allo Asig
 		Berent Bertold Breido Broder BrU_ne
 		Cynewulf Cort
 		Dankert Detert Detmar
@@ -391,13 +396,13 @@ saxon = { # Mix of Plattdüütsch/Neddersassisch and Old Saxon
 		Tideke Thiadgrim Thietmar Tank Tammo Toke
 		Unni Unwan Ulfhard
 		Vollert
-		Werner Wichman Willem Willigis Widukind Wigger Walter Wigbert Waldemar Wilrich
+		Werner Wichman Willem Willigis Widukind Wigger Walter Wigbert Waldemar Wilrich Waltbraht
 	}
 	female_common_first_names = {
 		Aleferna
 		Emike
 		Frowa Freca
-		Gheseken Gesche Gertrud
+		Gheseken Gesche Gertrud Gheua
 		Hasela Hadewig Harmina Hibbel
 		Ilsebe Inneke Itta
 		Kunneke Kunigunde
