@@ -606,13 +606,97 @@ TRADE_ROUTES = {
 			goods = small_arms
 			level = 1
 			direction = import
-			target = c:CMN.market
+			target = c:BUL.market
 		}
 		create_trade_route = {
 			goods = paper
 			level = 2
 			direction = import
 			target = c:CMN.market
+		}
+    }
+
+	# Bolghar
+	c:BGR ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 3
+			direction = import
+			target = c:PLM.market
+		}
+		create_trade_route = {
+			goods = furniture
+			level = 3
+			direction = import
+			target = c:PRM.market
+		}
+    }
+
+	# Perm
+	c:PRM ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 2
+			direction = import
+			target = c:BGR.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:PLM.market
+		}
+    }
+
+	# Pelym
+	c:PLM ?= {	
+		create_trade_route = {
+			goods = furniture
+			level = 1
+			direction = import
+			target = c:PRM.market
+		}
+    }
+
+	# Suzdal
+	c:SZD ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 3
+			direction = import
+			target = c:NVG.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 4
+			direction = import
+			target = c:NVG.market
+		}
+    }
+
+	# Novgorod
+	c:NVG ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 4
+			direction = import
+			target = c:SZD.market
+		}
+    }
+
+	# Moscovy
+	c:MSV ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:SZD.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:NVG.market
 		}
     }
 
