@@ -562,6 +562,30 @@
  HUB_NAME_STATE_LOWLANDS_mine: "Penprys" # Dumfries, speculative Welsh name
  HUB_NAME_STATE_LOWLANDS_farm: "Cathures" # Glasgow, Brythonic origin
  HUB_NAME_STATE_LOWLANDS_wood: "Dùn Dèagh" # Dundee, Scottish Gaelic
+ # 
+ STATE_BOHEMIA: "Boiohaemum"
+ HUB_NAME_STATE_BOHEMIA_city: "Praha"
+ HUB_NAME_STATE_BOHEMIA_mine: "Stradonice" # Rožnov
+ HUB_NAME_STATE_BOHEMIA_farm: "Grecz" # Hradec Králové
+ HUB_NAME_STATE_BOHEMIA_wood: "Pilisin" # Plzen
+ #
+ STATE_MORAVIA: "Moravia"
+ HUB_NAME_STATE_MORAVIA_city:0 "Brno"
+ HUB_NAME_STATE_MORAVIA_mine:0 "Olomouc"
+ HUB_NAME_STATE_MORAVIA_farm:0 "Breclav"
+ HUB_NAME_STATE_MORAVIA_wood:1 "Jihlava"
+ #
+ STATE_WEST_SLOVAKIA: "Nitravia"
+ HUB_NAME_STATE_WEST_SLOVAKIA_city: "Nitrava" # TODO TO DO MOVE THIS HUB
+ HUB_NAME_STATE_WEST_SLOVAKIA_mine: "Sylna" # Zilina
+ HUB_NAME_STATE_WEST_SLOVAKIA_farm: "Laugaricio" # Trenčín
+ HUB_NAME_STATE_WEST_SLOVAKIA_wood:1 "Banska Bystrica"
+ #
+ STATE_EAST_SLOVAKIA: "Transcarpathia"
+ HUB_NAME_STATE_EAST_SLOVAKIA_city: "Cassa" # Kosice
+ HUB_NAME_STATE_EAST_SLOVAKIA_mine: "Hunguar"
+ HUB_NAME_STATE_EAST_SLOVAKIA_farm: "Tupcha" # near Mukachevo
+ HUB_NAME_STATE_EAST_SLOVAKIA_wood: "Felka" # district of Poprad
  #
  STATE_CENTRAL_HUNGARY: "Pannonia"
  HUB_NAME_STATE_CENTRAL_HUNGARY_city: "Aquincum"
