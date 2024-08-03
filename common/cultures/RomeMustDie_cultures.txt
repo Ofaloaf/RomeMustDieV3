@@ -1470,7 +1470,7 @@ sardinian={
 burgundian = { # Arpetan with some Swiss Latin thrown in
 	color= hsv{ 0.88 0.56 0.84 }
 	religion = arian
-	traits = { germanic_culture_group european_heritage }
+	traits = { germanic_culture_group european_heritage romance_speaker }
 
 	male_common_first_names = {
 		AmE_dE_ Aguilmar
