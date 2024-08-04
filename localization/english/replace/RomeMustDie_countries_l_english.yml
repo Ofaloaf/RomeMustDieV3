@@ -441,6 +441,8 @@
   CRN_ADJ: "Carantian"
   HLV: "Helvetia"
   HLV_ADJ: "Helvetian"
+  RSM: "Loegria" # overwrite of San Marco
+  RSM_ADJ: "Loegrian"
   #
   dyn_c_western_roman_empire: "Western Roman Empire"
   dyn_c_western_roman_empire_adj: "Roman"

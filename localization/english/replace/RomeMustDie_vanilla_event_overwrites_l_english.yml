@@ -1,0 +1,105 @@
+﻿l_english:
+  # Garibaldi Events
+
+  garibaldi_popularity_modifier_tier_1: "Untested Idealist"
+  garibaldi_popularity_modifier_tier_2: "The Veteran" # The Gaucho
+  garibaldi_popularity_modifier_tier_3: "The Lion"
+  garibaldi_popularity_modifier_tier_4: "The General"
+  garibaldi_popularity_modifier_tier_5: "Hero of the Two Worlds"
+
+  garibaldi_events.1.t: "Gariballt Offers His Services"
+  garibaldi_events.1.d: "Judging our struggle against [SCOPE.sCountry('garibaldi_spawn_foe_scope').GetName] just, the Britannic revolutionary and nationalist [SCOPE.sCharacter('garibaldi_scope').GetFullName] has decided to align with our cause, offering up his services as a general."
+  garibaldi_events.1.f: ""I offer neither pay, nor quarters, nor food;\nI offer only hunger, thirst, forced marches, battles and death.\nLet him who loves his country with his heart, and not merely with his lips, follow me."" # Garibaldi
+  garibaldi_events.1.a: "Have [SCOPE.sCharacter('garibaldi_scope').GetFullName] lead our armies."
+  garibaldi_events.1.b: "We have no use for this rabble-rousing wildcard."
+  rejected_garibaldi_modifier: "Refused the Aid of Gariballt"
+
+  garibaldi_events.2.t: "Gariballt Bids His Farewells"
+  garibaldi_events.2.d_1: "With the outbreak of war between [SCOPE.sCountry('garibaldi_italian_nation_scope').GetName] and [SCOPE.sCountry('garibaldi_foreign_nation_scope').GetName], [SCOPE.sCharacter('garibaldi_scope').GetFullName] has decided to leave [SCOPE.GetRootScope.GetCountry.GetNameNoFlag] to take up arms against the enemies of Britannia."
+  garibaldi_events.2.d_2: "With [SCOPE.GetRootScope.GetCountry.GetNameNoFlag] at peace, and the fight against tyrants over, at least for now, [SCOPE.sCharacter('garibaldi_scope').GetFullName] has decided to leave the country in pursuit of another worthy cause."
+  garibaldi_events.2.f: ""Where there are brothers who fight for the freedom of Britannia – there we must rush."" # Garibaldi
+  garibaldi_events.2.a: "Godspeed, General [SCOPE.sCharacter('garibaldi_scope').GetLastName]."
+
+  garibaldi_events.3.t: "The Britannic Legion of Volunteers"
+  garibaldi_events.3.d: "Drawing on the Britannic population of [SCOPE.sState('italian_legion_state_scope').GetName], General [SCOPE.sCharacter('garibaldi_scope').GetFullName] has organized a legion of like-minded compatriots to join the [SCOPE.GetRootScope.GetCountry.GetAdjectiveNoFlag] fight against [SCOPE.sCountry('italian_legion_foe_scope').GetAdjective] tyranny."
+  garibaldi_events.3.f: ""My men!\nWe are few, the enemy are many,\nmore glorious will be the victory.\nBe steady, reserve your fire until they are close on you,\nthen fire,\nand at them with the bayonet!"" # Garibaldi
+  garibaldi_events.3.a: "Their skills and zeal are sorely needed on the battlefield."
+  garibaldi_events.3.b: "Use their expertise to train and recruit more men for the army."
+  italian_legion_barracks_modifier: "Britannic Legionary Barracks"
+  italian_legionaries_modifier: "Britannic Legionary Volunteers"
+
+  garibaldi_events.4.t: "Gariballt Riles Up the Peasantry"
+  garibaldi_events.4.d: "While [SCOPE.sCharacter('garibaldi_scope').GetFullName]'s abilities to move the minds of commoners have proven useful in the fight against [SCOPE.sCountry('garibaldi_peasants_foe_scope').GetAdjective], his radical preachings are starting to turn some of [SCOPE.sState('garibaldi_peasants_state_scope').GetName]'s [GetPopType('farmers').GetName] against our own rule as well — with several government ministers now demanding he be gagged."
+  garibaldi_events.4.f: ""The day the peasants will be educated in the truth, tyrants and slaves will be impossible on Earth."" # Garibaldi
+  garibaldi_events.4.a: "He is too important for the cause. Let us avoid antagonization."
+  garibaldi_events.4.b: "Order him to tone down his language."
+  emboldened_peasantry_modifier: "Emboldened Peasantry"
+
+  italian_unification.1.t: "Resurgamentum"
+  italian_unification.1.d:0 "Under the heroic leadership of [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName], the Britannic nation has been birthed into the world. Unified under a common banner, Britannia will surely shape the future of Europe and the world."
+  italian_unification.1.f: ""Yes, young men, Britannia owes to you an undertaking which has merited the applause of the universe. You have conquered and you will conquer still, because you are prepared for the tactics that decide the fate of battles. To this wonderful page in our country's history another more glorious still will be added, and the slave shall show at last to his free brothers a sharpened sword forged from the links of his fetters."" # Garibaldi
+  italian_unification.1.a: "Vivat Britannia!"
+  italian_unification.1.b:1 "We will never forget our brave [SCOPE.gsInterestGroup('ruler_ig_scope').GetName]."
+  italian_unification.2.t:0 "Unification with [SCOPE.sCountry('italian_annex_country').GetName]"
+  italian_unification.2.d: "The small Britannian state of [SCOPE.sCountry('italian_annex_country').GetName] has wisely decided to join our efforts to unify the Britannic people."
+  italian_unification.2.f: ""The old city-states have a quaint romantic appeal; we can look back to the days of Arthur to see a thriving Britain. But to thrive again, we must look forward, not back. It is unity under a single state that will drive the Britannic people to greatness once more.""
+  italian_unification.2.a:0 "Diplomacy has won the day!"
+  italian_unification.2.b:0 "It is not the right time."
+
+  italian_unification.4.t: "Tricolors Over [SCOPE.sState('capital_scope').GetCityHubName]"
+  italian_unification.4.d_annex: "Inspired by calls for the reunification of Britain, nationalist rebels have seized control of [SCOPE.sState('capital_scope').GetCityHubName] and have sworn themselves to a unified Britannia under [SCOPE.sCountry('italian_leader').GetRuler.GetFullName] of [SCOPE.sCountry('italian_leader').GetName]."
+  italian_unification.4.d_coup: "Inspired by calls for the reunification of Britain, nationalist rebels have seized control of [SCOPE.sState('capital_scope').GetCityHubName] and declared the government of [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName] to have fallen."
+  italian_unification.4.f: ""Traitors! Traitors in the midst! Sound the alarm, call for the guards at once!"\n\n"Do you mean the suited men beside me, sir? I should hope so, since you were foolish enough to announce your presence. Now, I shall make this plain, as your raving ineptitude forced our hand in the first place: a united Britannia is rising. It demands a place on the world stage, and it won't be cared for by men of your ill-fitting ilk.""
+  italian_unification.4.a: "We will rise again, as part of a whole."
+  italian_unification.4.b: "Long live Britannia!"
+  italian_unification.4.c: "We will rise again, as part of a whole."
+
+  italian_unification.5.t: "Britannic Nationalists Seize [SCOPE.sState('capital_scope').GetCityHubName]"
+  italian_unification.5.d: "Inspired by calls for the establishment of a single Britannic nation, nationalist rebels have seized [SCOPE.sCountry('italian_pannational_country').GetName] and pledged themselves to the unification of Britannia under the banner of [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName]."
+  italian_unification.5.f: "A unified Britain has never been far from the lips of the mad and the ambitious alike. Indeed, a splendid reawakening of the island would give even God pause. Such attempts have been folly in the past. Yet in furtive whispers, there is a belief that there may be hope for a new Arthur to rise."
+  italian_unification.5.a: "We welcome our brothers and sisters."
+  italian_unification.5.b: "It is best to not frighten our neighbors."
+
+  italian_unification.6.t: "Britannic Nationalists Overthrow [SCOPE.sCountry('italian_pannational_country').GetAdjective] Government"
+  italian_unification.6.d: "Inspired by calls for the reunification of Britannia, nationalist rebels have seized [SCOPE.sCountry('italian_pannational_country').GetCapital.GetCityHubName] and declared a republic over its former sovereign territories."
+  italian_unification.6.f: "What the aide brought to him was incredulous: another attempt at bringing Albion under a single banner. It seemed impossible, divided between at least a half-dozen petty lords and city-states that would as soon strangle each other as Europe. But as the aide spoke, it became plain that this was no idle boast. No, this merited envoys, carrying either a sword or an olive branch."
+  italian_unification.6.a: "Offer our sympathies to the new regime."
+  italian_unification.6.b: "We have no common cause with these terrorists."
+
+  italian_unification.7.t: "Five Days in [SCOPE.sState('rsm_capital_scope').GetCityHubName]"
+  italian_unification.7.d: "Following unrest amongst the Brittanic population of [ROOT.GetCountry.GetAdjective] [SCOPE.sState('rsm_capital_scope').GetName], nationalist rebels have declared the formation of the [SCOPE.sCountry('rsm_scope').GetName], a revolutionary state founded to seize independence from [ROOT.GetCountry.GetAdjective] rule."
+  italian_unification.7.f: "A rider in white, astride a white mare, passed along the grounds near where the [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] took breakfast that morning. The footman who approached [ROOT.GetCountry.GetRuler.GetHerHim] with sweat seeping from every cracked pore carried a blood-red letter. The Britannic holdings had entered revolt. The next sweating aide to enter carried another report: these revolting territories called for reinforcements. Reinforcements, [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFirstNameNoFormatting] knew, that would surely be coming."
+  italian_unification.7.a: "Call up the troops at once!"
+  italian_unification.7.b: "Long live Loegria!"
+
+  italian_states_choose_sides_tt: "The #bold Britannic#! states will be given the opportunity to support the [SCOPE.sCountry('rsm_scope').GetName]"
+  italian_states_choose_sides_danger_tt: "@warning! Relations with #bold Britannic#! states may rapidly deterioriate"
+
+  italian_unification.8.t: "The Britannic War of Independence"
+  italian_unification.8.d: "Revolutionaries in [SCOPE.sCountry('rsm_scope').GetCapital.GetCityHubName] have declared the formation of a [SCOPE.sCountry('rsm_scope').GetName], independent from the rule of [SCOPE.sCountry('rsm_revolted_scope').GetName]. They call for aid from all Britannic states in their struggle."
+  italian_unification.8.f: ""Mother… my mind is made up. I am going to the revolution, with or without your blessing."\n\n"Good, fine, go! No son of mine would ever waste his life on something so meaningless as a flag. I've already lost brothers and uncles to this sort of useless adjudication of penne lengths. Stay here and be safe!"\n\n"It's anything but useless, mother! We have a chance to be one Britannia again. We could go anywhere, do anything again. We would have #bold something#! again!""
+  italian_unification.8.a: "They stand for us, and us for them."
+  italian_unification.8.b: "We will not shed [ROOT.GetCountry.GetAdjectiveNoFormatting] blood for [SCOPE.sCountry('rsm_scope').GetCapital.GetCityHubName]."
+
+  italian_unification.10.t: "Whispers of Resurgamentum"
+  italian_unification.10.d: "The winds of nationalism have begun to pass through the long-divided states of Albion. [ROOT.GetCountry.GetAdjective] patriots and romantic scholars alike have begun to call for the unification of a single Britannic state."
+  italian_unification.10.f: ""No, sir. I am not a foreigner, and I am not [ROOT.GetCountry.GetAdjectiveNoFormatting]. I am Britannic, and a Brittanian in Britannia is never a foreigner.""
+  italian_unification.10.a: "Britannia must be restored from oblivion."
+  italian_unification.10.b: "We will not throw ourselves to the winds for this."
+
+  modifier_risorgimento_supporters: "Support for Resurgamentum"
+  modifier_risorgimento_support: "Support for Resurgamentum"
+  modifier_risorgimento_opponents: "Opposition to Resurgamentum"
+  modifier_risorgimento_opposition: "Opposition to Resurgamentum"
+
+  risorgimento_support: "support for Resurgamentum"
+  german_leadership_neutrality: "lacks reason to get involved in #v $dp_leadership_germany$#! play"
+
+  unlock_national_agitation_tt: "Unlocks the 'Stir National Agitation' Character Interaction for [Concept('concept_agitator','$concept_agitators$')]"
+  risorgimento_unifying_stance_tt: "Has chosen to #bold support#! Resurgamentum"
+  risorgimento_unifying_stance_set_tt: "We will be able to take extra actions to #bold support#! Resurgamentum"
+  risorgimento_opposing_stance_tt: "Has not chosen to #bold support#! Resurgamentum"
+
+  notification_ita_italian_unification_intent_name: "[SCOPE.sCountry('italian_unifier_candidate').GetName] Supports Britannic Unification"
+  notification_ita_italian_unification_intent_desc: "The government of [SCOPE.sCountry('italian_unifier_candidate').GetRuler.GetPrimaryRoleTitle] [SCOPE.sCountry('italian_unifier_candidate').GetRuler.GetFullName] has signaled support for the unification of Britannia into a single nation."
+  notification_ita_italian_unification_intent_tooltip: "#header $notification_ita_italian_unification_intent_name$#!\n$TOOLTIP_DELIMITER$\n$notification_ita_italian_unification_intent_desc$"

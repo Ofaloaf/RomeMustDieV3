@@ -4004,8 +4004,8 @@ RSM = {
 
 	tier = principality
 	
-	cultures = { north_italian }
-	capital = STATE_LOMBARDY
+	cultures = { brithenig }
+	capital = STATE_HOME_COUNTIES
 }
 
 HRE = {

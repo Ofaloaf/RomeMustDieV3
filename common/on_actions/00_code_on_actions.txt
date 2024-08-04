@@ -1111,7 +1111,14 @@ on_character_death = {
 				trigger_event = expedition_events.110
 			}
 		}
-
+		###
+		# Garibaldi exist check
+		if = {
+			limit = {
+				has_template = garibaldi_character_template
+			}
+			remove_global_variable = garibaldi_is_alive_global_var
+		}
 		### Caudillo Kingmaker
 		if = {
 			limit = {
@@ -1667,14 +1674,6 @@ on_country_formed = {
 			}
 			trigger_event = { id = formation.1 popup = yes }
 		}
-        else_if = {
-			limit = {
-				c:PLT ?= THIS
-				was_formed_from = PRG
-				has_variable = patino_paraguay_var
-			}
-			add_primary_culture = cu:guarani
-		}
 		else_if = {
 			limit = {
 				c:UBD ?= ROOT
@@ -1683,25 +1682,9 @@ on_country_formed = {
 		}
 		else_if = {
 			limit = {
-				c:BYZ ?= ROOT
-			}
-			trigger_event = { id = formation.3 popup = yes }
-		}
-		else_if = {
-			limit = {
 				c:IBE ?= ROOT
 			}
 			trigger_event = { id = formation.5 popup = yes }
-		}
-		else_if = {
-			limit = {
-				OR = {
-					c:BRZ ?= ROOT
-					c:USA ?= ROOT
-					c:SAF ?= ROOT
-				}
-			}
-			trigger_event = { id = formation.6 popup = yes }
 		}
 		else_if = {
 			limit = {
@@ -1795,35 +1778,9 @@ on_country_formed = {
 		}
 		else_if = {
 			limit = {
-				c:ITA ?= ROOT
+				c:GBI ?= ROOT # Britannia rather than Italy
 			}
 			trigger_event = { id = italian_unification.1 popup = yes }
-		}
-		else_if = {
-			limit = {
-				c:AFG ?= ROOT
-				has_journal_entry = je_unify_afghanistan
-			}
-			if = {
-				limit = {
-					was_formed_from = KUN
-				}
-				add_primary_culture = cu:uzbek
-			}
-			if = {
-				limit = {
-					was_formed_from = MAI
-				}
-				add_primary_culture = cu:uzbek
-				add_primary_culture = cu:turkmen
-			}
-			trigger_event = { id = gg_afghanistan.4 popup = yes }
-		}
-		else_if = {
-			limit = {
-				c:FSA ?= ROOT
-			}
-			trigger_event = { id = fsa_events.1 popup = yes }
 		}
 		else = {
 			trigger_event = { id = formation.17 popup = yes }
@@ -2757,14 +2714,14 @@ on_secession_start = {
 				}
 				scope:target = {
 					OR = {
-						country_has_primary_culture = cu:north_italian
-						country_has_primary_culture = cu:south_italian
+						country_has_primary_culture = cu:brithenig
+						country_has_primary_culture = cu:welsh
 					}
 				}
 				ROOT = {
 					NOR = {
-						country_has_primary_culture = cu:north_italian
-						country_has_primary_culture = cu:south_italian
+						country_has_primary_culture = cu:brithenig
+						country_has_primary_culture = cu:welsh
 					}
 				}
 				any_country = {
@@ -2773,78 +2730,6 @@ on_secession_start = {
 			}
 			root = {
 				trigger_event = { id = italian_unification.7 days = 3 }
-			}
-		}
-		if = {
-			limit = {
-				NOR = {
-			        c:POL ?= this
-			        c:KRA ?= this
-			        AND = {
-			            c:GAL ?= this
-			            ruler = {
-			                culture = cu:polish
-			            }
-			        }
-				}
-				scope:target = {
-					OR = {
-			            c:POL ?= this
-			            c:KRA ?= this
-			            AND = {
-			                c:GAL ?= this
-			                ruler = {
-			                    culture = cu:polish
-			                }
-			            }
-			        }
-				}
-				OR = {
-					c:POL ?= {
-						NOT = {
-							this = scope:target
-						}
-					}
-					c:KRA ?= {
-						NOT = {
-							this = scope:target
-						}
-					}
-					c:GAL ?= {
-						NOT = {
-							this = scope:target
-						}
-					}
-				}
-			}
-			scope:target = {
-				set_variable = {
-					name = polish_rebel_country_var
-					months = short_modifier_time
-				}
-			}
-			set_variable = {
-				name = polish_rebel_country_enemy_var
-				months = short_modifier_time
-			}
-			every_country = {
-				limit = {
-					OR = {
-						c:POL ?= this
-						c:KRA ?= this
-			            AND = {
-			                c:GAL ?= this
-			                ruler = {
-			                    culture = cu:polish
-			                }
-			            }
-					}
-					NOT = {
-						this = scope:target
-					}
-
-				}
-				trigger_event = { id = poland_events.5 days = 7 popup = yes }
 			}
 		}
 	}
