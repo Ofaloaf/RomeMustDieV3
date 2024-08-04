@@ -630,6 +630,12 @@ TRADE_ROUTES = {
 			direction = import
 			target = c:PRM.market
 		}
+		create_trade_route = {
+			goods = clothes
+			level = 4
+			direction = import
+			target = c:MSV.market
+		}
     }
 
 	# Perm
@@ -672,6 +678,12 @@ TRADE_ROUTES = {
 			direction = import
 			target = c:NVG.market
 		}
+		create_trade_route = {
+			goods = clothes
+			level = 4
+			direction = import
+			target = c:MSV.market
+		}
     }
 
 	# Novgorod
@@ -681,6 +693,12 @@ TRADE_ROUTES = {
 			level = 4
 			direction = import
 			target = c:SZD.market
+		}
+		create_trade_route = {
+			goods = clothes
+			level = 6
+			direction = import
+			target = c:MSV.market
 		}
     }
 
@@ -697,6 +715,78 @@ TRADE_ROUTES = {
 			level = 2
 			direction = import
 			target = c:NVG.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 6
+			direction = import
+			target = c:CMN.market
+		}
+    }
+
+	# Smolensk
+	c:SML ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 3
+			direction = import
+			target = c:MSV.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 3
+			direction = import
+			target = c:NVG.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = export
+			target = c:NVG.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = export
+			target = c:MSV.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 4
+			direction = export
+			target = c:UKR.market
+		}
+    }
+
+	# Kyiv
+	c:UKR ?= {	
+		create_trade_route = {
+			goods = iron
+			level = 3
+			direction = import
+			target = c:CMN.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 6
+			direction = import
+			target = c:GAL.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 3
+			direction = import
+			target = c:GAL.market
+		}
+    }
+
+	# Halych
+	c:GAL ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 4
+			direction = import
+			target = c:BOH.market
 		}
     }
 
