@@ -790,6 +790,28 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Lithuania
+	c:LIT ?= {	
+		create_trade_route = {
+			goods = fabric
+			level = 5
+			direction = import
+			target = c:GAL.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 5
+			direction = import
+			target = c:CMN.market
+		}
+		create_trade_route = {
+			goods = dye
+			level = 2
+			direction = import
+			target = c:MEX.market
+		}
+    }
+
 
 
 

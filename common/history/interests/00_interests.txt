@@ -60,6 +60,11 @@
     add_declared_interest = region_danubia
 	}
 
+  # Lithuania
+  c:LIT ?= {
+		add_declared_interest = region_central_america
+	}
+
 
 
 
