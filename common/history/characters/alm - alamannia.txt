@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:ALM = {
+		create_character = {
+			template = ALM_landowner	# Aginarîch Hrôking
+		}
+		
+		create_character = {
+			template = ALM_armed_forces	# Lantfrid Alaholfing
+		}
+		
+		create_character = {
+			template = ALM_devout		# Firmus Seiterich
+		}
+	}
+}

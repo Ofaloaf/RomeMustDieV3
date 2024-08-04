@@ -749,3 +749,11 @@ KNM = { # Kanem
 		priority = 1
 	}	
 }
+
+BOH = { # Moravia
+	flag_definition = {
+		coa = BOH
+		subject_canton = BOH
+		priority = 100
+	}	
+}

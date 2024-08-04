@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:BOH = {
+		create_character = {
+			template = BOH_ruler			# Bořivoj Sámovec
+		}
+		
+		create_character = {
+			template = BOH_landowner		# Domoslav z Nitriansky
+		}
+		
+		create_character = {
+			template = BOH_armed_forces		# Skottas Curidachus
+		}
+	}
+}

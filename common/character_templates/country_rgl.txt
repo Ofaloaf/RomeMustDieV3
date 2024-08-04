@@ -1,0 +1,90 @@
+﻿### Langobardia character template file ###
+
+RGL_ruler = {
+    first_name = "Diotrih"
+    last_name = "Huosi" 
+    historical = yes
+	culture = cu:suebian
+	religion = rel:arian
+    ruler = yes
+    age = 50
+    interest_group = ig_petty_bourgeoisie
+    ideology = ideology_moderate
+    traits = {
+        ambitious
+		arrogant
+		basic_diplomat
+    }
+}
+
+RGL_petty_bourgeoisie = { # Fredisclus Noricus
+	first_name = "Fredisclus"
+	last_name = "Noricus"
+	historical = yes
+	culture = cu:suebian
+	religion = rel:arian
+	ig_leader = yes
+	female = no
+	age = 45
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_royalist
+	traits = {
+		meticulous
+		tactful
+		erudite
+	}
+}
+
+RGL_intelligentsia = { # Haduprant Wiguleus
+	first_name = "Haduprant"
+	last_name = "Wiguleus"
+	historical = yes
+	culture = cu:suebian
+	religion = rel:arian
+	ig_leader = yes
+	female = no
+	age = 38
+	interest_group = ig_intelligentsia
+	ideology = ideology_jingoist_leader
+	traits = {
+		brave
+		direct
+		demagogue
+	}
+}
+
+RGL_devout = { # Iuvatus vo Herlaha
+	first_name = "Iuvatus"
+	last_name = "vo_Herlaha"
+	historical = yes
+	culture = cu:suebian
+	religion = rel:arian
+	ig_leader = yes
+	female = no
+	age = 60
+	interest_group = ig_devout
+	ideology = ideology_moderate
+	traits = {
+		arrogant
+		persistent
+		inspirational_orator
+	}
+}
+
+RGL_industrialists = { # Wayland the Smith
+	first_name = "Welant"
+	last_name = "vo_Prambach"
+	historical = yes
+	culture = cu:suebian
+	religion = rel:arian
+	ig_leader = yes
+	female = no
+	age = 42
+	interest_group = ig_industrialists
+	ideology = ideology_radical
+	traits = {
+		wrathful
+		innovative
+		firebrand
+	}
+}

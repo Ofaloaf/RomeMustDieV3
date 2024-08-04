@@ -3548,7 +3548,7 @@ STATES = {
 		
 		add_homeland = cu:irish
 	}
-	s:STATE_LANGUEDOC = {
+	s:STATE_LANGUEDOC = { # Narbonensis
 		create_state = {
 			country = c:GLL
 			owned_provinces = { "x106040" "x306080" "x3784B2" "x5615DD" "x7C1D57" "xB0E000" "xECF077" }
@@ -3561,7 +3561,7 @@ STATES = {
 		add_homeland = cu:gothic
 		add_homeland = cu:septimanian
 	}
-	s:STATE_RHONE = {
+	s:STATE_RHONE = { # Lugdunensis
 		create_state = {
 			country = c:GLL
 			owned_provinces = { "x1B4B66" "x30C060" "x3369C6" "x704060" "x71A804" "x73F176" "x7516B6" "x8E88DA" "xB04060" "xB8E48D" "xEF4060" }
@@ -3571,7 +3571,7 @@ STATES = {
 		add_homeland = cu:burgundian
 		add_homeland = cu:gallic
 	}
-	s:STATE_FRENCH_LOW_COUNTRIES = {
+	s:STATE_FRENCH_LOW_COUNTRIES = { # Mempiscus
 		create_state = {
 			country = c:FRK
 			owned_provinces = { "x106000" "x5362AC" "x70C020" "xA0A080" "xD0854D" "xE0A0C0" }
@@ -3579,7 +3579,7 @@ STATES = {
 		add_homeland = cu:frankish
 		add_homeland = cu:gallic
 	}
-	s:STATE_PICARDY = {
+	s:STATE_PICARDY = { # Suessionia
 		create_state = {
 			country = c:GLL
 			owned_provinces = { "x075199" "x10A0C0" "x7040A0" "xC4C61A" "xCF1F6D" "xE0A624" }
@@ -3587,7 +3587,7 @@ STATES = {
 		
 		add_homeland = cu:gallic
 	}
-	s:STATE_ALSACE_LORRAINE = {
+	s:STATE_ALSACE_LORRAINE = { # Alsatia
 		create_state = {
 			country = c:ALM
 			owned_provinces = { "x4899A2" "x6E4891" "xCC3250" "xF0C0A0" }
@@ -3596,7 +3596,7 @@ STATES = {
 		add_homeland = cu:gallic
 		add_homeland = cu:alemannic
 	}
-	s:STATE_POITOU = {
+	s:STATE_POITOU = { # Thifalia
 		create_state = {
 			country = c:GLL
 			owned_provinces = { "x19234B" "x3F74AF" "x50A040" "x9401C7" "xD020C0" "xD0A040" "xDD4DD0" "xE269A3" }
@@ -3606,7 +3606,7 @@ STATES = {
 		add_homeland = cu:septimanian
 		add_homeland = cu:gothic
 	}
-	s:STATE_GUYENNE = {
+	s:STATE_GUYENNE = { # Garumna
 		create_state = {
 			country = c:GLL
 			owned_provinces = { "x061121" "x086618" "x106080" "x306000" "x30E000" "x5020C0" "x7BCDC4" "xA2BBE9" "xAF89BC" "xB06000" "xC8CD2F" "xF3D359" }
@@ -3615,7 +3615,7 @@ STATES = {
 		add_homeland = cu:gothic
 		add_homeland = cu:septimanian
 	}
-	s:STATE_AUVERGNE_LIMOUSIN = {
+	s:STATE_AUVERGNE_LIMOUSIN = { # Arvernia
 		create_state = {
 			country = c:GLL
 			owned_provinces = { "x01FD5F" "x07BCC1" "x368F00" "x3FE149" "x50A0C0" "x61609A" "x70C060" "xA27EFD" "xA8AE71" "xABE045" "xBED0F4" "xDF5770" "xF080E0" }
@@ -3623,7 +3623,7 @@ STATES = {
 		
 		add_homeland = cu:septimanian
 	}
-	s:STATE_BRITTANY = {
+	s:STATE_BRITTANY = { # Armorica
 		create_state = {
 			country = c:BRI
 			owned_provinces = { "x10A040" "x2368E7" "x2BD902" "x32C2E2" "x50F4A7" "x55607E" "x706000" "x85E5AC" "xA0B0D1" "xABF468" "xC4D7A2" "xD0E080" "xD584A0" "xF91DD2" }
@@ -3632,7 +3632,7 @@ STATES = {
 		add_homeland = cu:gallic
 		add_homeland = cu:brithenig
 	}
-	s:STATE_BURGUNDY = {
+	s:STATE_BURGUNDY = { # Divionensis
 		create_state = {
 			country = c:GLL
 			owned_provinces = { "x09BB96" "x10DF00" "x380D42" "x6D7896" "x7000E0" "x708060" "x79B85C" "x8329EC" "x8C3297" "x999D4B" "xC69235" "xF08060" }
@@ -3640,7 +3640,7 @@ STATES = {
 		add_homeland = cu:burgundian
 		add_homeland = cu:gallic
 	}
-	s:STATE_CHAMPAGNE = {
+	s:STATE_CHAMPAGNE = { # Rhemus
 		create_state = {
 			country = c:GLL
 			owned_provinces = { "x4B7684" "x5FEA2F" "x600883" "x669027" "x8AE8D1" "xD6A06D" "xE280FC" "xEF00DF" "xEF40A0" "xEFBF20" }
@@ -3648,7 +3648,7 @@ STATES = {
 		
 		add_homeland = cu:gallic
 	}
-	s:STATE_FRANCHE_COMTE = {
+	s:STATE_FRANCHE_COMTE = { # Sequania
 		create_state = {
 			country = c:GLL
 			owned_provinces = { "x3D8EF9" "x700060" "xA9D961" "xB000E0" "xCF46D1" "xF00060" }
@@ -3656,7 +3656,7 @@ STATES = {
 		add_homeland = cu:burgundian
 		add_homeland = cu:gallic
 	}
-	s:STATE_LORRAINE = {
+	s:STATE_LORRAINE = { # Leucorum
 		create_state = {
 			country = c:GLL
 			owned_provinces = { "x282DCC" "x3080E0" "x70BFA0" "x7FC1E6" "xB080E0" "xC5F13A" }
@@ -3664,7 +3664,7 @@ STATES = {
 		
 		add_homeland = cu:gallic
 	}
-	s:STATE_AQUITAINE = {
+	s:STATE_AQUITAINE = { # Aquitania
 		create_state = {
 			country = c:GLL
 			owned_provinces = { "x073FC4" "x5F7F2D" "x606DEC" "x6E16BB" "x70A080" "x76BA85" "xA220D0" "xBBF036" "xCD8E77" "xD957E6" "xF02080" "xF0A080" }
@@ -3673,7 +3673,7 @@ STATES = {
 		add_homeland = cu:septimanian
 		add_homeland = cu:gothic
 	}
-	s:STATE_MAINE_ANJOU = {
+	s:STATE_MAINE_ANJOU = { # Cenomanica
 		create_state = {
 			country = c:GLL
 			owned_provinces = { "x093DF5" "x192CA5" "x30E080" "x56E158" "x6B5474" "x7CAE05" "xB0E080" "xD02040" "xF6A48C" }
@@ -3681,7 +3681,7 @@ STATES = {
 		
 		add_homeland = cu:gallic
 	}
-	s:STATE_ORLEANS = {
+	s:STATE_ORLEANS = { # Aurelianensis
 		create_state = {
 			country = c:GLL
 			owned_provinces = { "x14F855" "x47B641" "x50CE72" "x6E4717" "x886277" "x90A0C0" "x90E000" "xD8BA95" "xE13BC2" "xE3E249" "xE7B296" "xF0E39E" "xF522D9" }
@@ -3689,7 +3689,7 @@ STATES = {
 		
 		add_homeland = cu:gallic
 	}
-	s:STATE_ILE_DE_FRANCE = {
+	s:STATE_ILE_DE_FRANCE = { # Parisiacus
 		create_state = {
 			country = c:GLL
 			owned_provinces = { "x12462D" "x7080DF" "x71DA2E" "x906000" }
@@ -7333,7 +7333,7 @@ STATES = {
 		add_homeland = cu:czech
 		add_homeland = cu:polish
 	}
-	s:STATE_BRANDENBURG = {
+	s:STATE_BRANDENBURG = { # Hevellia
 		create_state = {
 			country = c:LTC
 			owned_provinces = { xA65DA6 x83B1A8 x9B9076 xA040A0 x069CFB xF8D457 x61C0A0 x82F9A8 x9E7304 x76EF4E xDF4020 x28CEC2 xB90BFF x514C51 xF77289 x60BF20 }
@@ -7341,7 +7341,7 @@ STATES = {
 		
 		add_homeland = cu:sorb
 	}
-	s:STATE_SCHLESWIG_HOLSTEIN = {
+	s:STATE_SCHLESWIG_HOLSTEIN = { # Nordalbingia
 		create_state = {
 			country = c:SXN
 			owned_provinces = { x804160 x64824C xBFCC21 }
@@ -7359,7 +7359,7 @@ STATES = {
 		add_homeland = cu:saxon
 		add_homeland = cu:sorb
 	}
-	s:STATE_WURTTEMBERG = {
+	s:STATE_WURTTEMBERG = { # Swabia
 		create_state = {
 			country = c:ALM
 			owned_provinces = { x118060 x100060 xC541D2 x8F0060 xDBB84C x908060 }
@@ -7367,7 +7367,7 @@ STATES = {
 		
 		add_homeland = cu:alemannic
 	}
-	s:STATE_BADEN = {
+	s:STATE_BADEN = { # Decumatia
 		create_state = {
 			country = c:ALM
 			owned_provinces = { xE0A2B9 xB00160 xB08061 xAEBA2A x318061 }
@@ -7375,7 +7375,7 @@ STATES = {
 		
 		add_homeland = cu:alemannic
 	}
-	s:STATE_HANNOVER = {
+	s:STATE_HANNOVER = { # Angria
 		create_state = {
 			country = c:SXN
 			owned_provinces = { x165E05 x694B91 xBBA504 xBF00DF x4D62A0 x8080E0 x784B8E xF9DCA2 xECC3B4 xC00161 x4101E0 }
@@ -7403,7 +7403,7 @@ STATES = {
 		add_homeland = cu:thuringian
 		add_homeland = cu:suebian
 	}
-	s:STATE_SAXONY = {
+	s:STATE_SAXONY = { # Thuringia
 		create_state = {
 			country = c:THR
 			owned_provinces = { 
@@ -7415,7 +7415,7 @@ STATES = {
 		add_homeland = cu:thuringian
 		add_homeland = cu:sorb
 	}
-	s:STATE_BRUNSWICK = {	
+	s:STATE_BRUNSWICK = {	# Ostfalia
 		create_state = {
 			country = c:SXN
 			owned_provinces = { xA001E0 x2180E0 x4C16EA xA61E6E x43D537 }
@@ -7423,7 +7423,7 @@ STATES = {
 		
 		add_homeland = cu:saxon
 	}
-	s:STATE_HESSE = {
+	s:STATE_HESSE = { # Hassia
 		create_state = {
 			country = c:ALM
 			owned_provinces = { xD04121 x2248E2 xC08020 xFF1DBB x3E794B x11C0A0 x1141A0 x8B7C67 }

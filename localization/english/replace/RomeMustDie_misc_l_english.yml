@@ -61,8 +61,16 @@
   gov_restored_mayapan_desc: "The Restored League of Mayapan is a confederal government, led by the hereditary rulers of Tutul-Xiu."
   #
   gov_restored_mayapan_absolutist: "Restored League"
-  gov_restored_mayapan_desc: "The Restored League of Mayapan is a centralized government, led by the hereditary rulers of Tutul-Xiu."
+  gov_restored_mayapan_absolutist_desc: "The Restored League of Mayapan is a centralized government, led by the hereditary rulers of Tutul-Xiu."
   RULER_TITLE_AJAW: "Ajaw"
+  #
+  gov_saxon_confederation: "Saxon Confederation"
+  gov_saxon_confederation_desc: "The Saxon Confederation convenes at regular intervals to discuss executive, legislative, and judicial matters, all in one deliberative body."
+  RULER_HERITOGO: "Heritogo"
+  #
+  gov_germanic_council: "Germanic Assembly"
+  gov_germanic_council_desc: "The Germanic tradition of holding assemblies where all free people can deliberate and discuss lives on in the modern council, assembly, or #italic Thing#!. Presided over by a speaker entrusted with memorizing and understanding, these councils can be powerful counters to the autocratic tendencies of powerhungry individuals."
+  RULER_SPEAKER: "Speaker"
   #
   gov_sichuanese_court: "Sichuanese Court"
   gov_sichuanese_court_desc: "The Da Shu dynasty is run by a clique of Sichuanese ministers and bureaucrats who serve the Supreme Emperor."

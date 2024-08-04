@@ -5,7 +5,6 @@
 	recommended_tags = { HNN FRK LIT }	
 
 	objective_subgoals = {
-		sg_expand_basic_building
 	}
 	
 	final_subgoal = sg_play_the_game
