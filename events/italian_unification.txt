@@ -836,7 +836,7 @@ italian_unification.10 = {
 		if = {
 			limit = {
 				is_ai = yes
-				is_unification_candidate = ITA
+				is_unification_candidate = GBI
 			}
 			set_strategy = ai_strategy_unify_italy
 		}
