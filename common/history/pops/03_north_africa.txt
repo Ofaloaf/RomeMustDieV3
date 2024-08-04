@@ -143,6 +143,7 @@
 		region_state:EGY = {
 			create_pop = {
 				culture = bedouin
+				religion = oriental_orthodox
 				size = 10948
 			}
 			create_pop = {
@@ -158,6 +159,7 @@
 			}
 			create_pop = {
 				culture = sudanese
+				religion = oriental_orthodox
 				size = 8123
 			}
 			create_pop = {
@@ -171,10 +173,12 @@
 		region_state:EGY = {
 			create_pop = {
 				culture = bedouin
+				religion = oriental_orthodox
 				size = 7801
 			}
 			create_pop = { # Siwi People
 				culture = berber
+				religion = oriental_orthodox
 				size = 2165
 			}
 			create_pop = {
@@ -200,6 +204,7 @@
 			}
 			create_pop = {
 				culture = bedouin
+				religion = oriental_orthodox
 				size = 11120
 			}
 			create_pop = {
@@ -210,6 +215,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = sudanese
+				religion = oriental_orthodox
 				size = 101
 			}
 		}
@@ -267,21 +273,25 @@
 			}
 			create_pop = {
 				culture = sudanese
+				religion = oriental_orthodox
 				size = 40004
 			}
 			create_pop = {
 				culture = beja
+				religion = oriental_orthodox
 				size = 82000
 			}
 			# 20-30% of Northern Sudan's population may have been enslaved in the early 19th century
 			create_pop = {
 				pop_type = slaves
 				culture = sudanese
+				religion = oriental_orthodox
 				size = 46000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = beja
+				religion = animist
 				size = 40000
 			}
 		}
@@ -290,6 +300,7 @@
 		region_state:MKR = {
 			create_pop = {
 				culture = sudanese
+				religion = oriental_orthodox
 				size = 224396
 			}
 			create_pop = {
@@ -329,6 +340,7 @@
 			}
 			create_pop = {
 				culture = fur
+				religion = oriental_orthodox
 				size = 78000
 			}
 		}
@@ -341,6 +353,7 @@
 			}
 			create_pop = {
 				culture = nuba
+				religion = oriental_orthodox
 				size = 344100
 			}
 			create_pop = {
@@ -349,6 +362,7 @@
 			}
 			create_pop = {
 				culture = sudanese
+				religion = oriental_orthodox
 				size = 50004
 			}
 			create_pop = {
@@ -358,6 +372,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = sudanese
+				religion = oriental_orthodox
 				size = 228000
 			}
 		}
@@ -368,10 +383,12 @@
 			}
 			create_pop = {
 				culture = sudanese
+				religion = oriental_orthodox
 				size = 14000
 			}
 			create_pop = {
 				culture = beja
+				religion = oriental_orthodox
 				size = 16000
 			}
 		}
@@ -379,20 +396,24 @@
 	s:STATE_MARRAKECH = {
 		region_state:MOR = {
 			create_pop = {
-				culture = maghrebi
-				size = 686700
+				culture = berber
+				religion = nicene
+				size = 886700
 			}
 			create_pop = {
-				culture = sephardic
+				culture = africanu
+				religion = nicene
 				size = 42500
 			}
 			create_pop = {
 				culture = berber
-				size = 243996
+				religion = jewish
+				size = 43996
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = bambara
+				religion = nicene
 				size = 56000
 			}
 		}
@@ -400,15 +421,18 @@
 	s:STATE_FEZ = {
 		region_state:MOR = {
 			create_pop = {
-				culture = maghrebi
+				culture = berber
+				religion = nicene
 				size = 878696
 			}
 			create_pop = {
-				culture = berber
+				culture = africanu
+				religion = nicene
 				size = 116004
 			}
 			create_pop = {
-				culture = sephardic
+				culture = berber
+				religion = jewish
 				size = 70504
 			}
 			create_pop = {
@@ -430,11 +454,18 @@
 			}
 			create_pop = {
 				culture = berber
-				size = 76800
+				religion = nicene
+				size = 38800
+			}
+			create_pop = {
+				culture = berber
+				religion = jewish
+				size = 38000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = bambara
+				religion = animist
 				size = 34000
 			}
 		}
@@ -443,19 +474,23 @@
 		region_state:MOR = {
 			create_pop = {
 				culture = berber
-				size = 322000
+				religion = nicene
+				size = 422000
 			}
 			create_pop = {
-				culture = bedouin
+				culture = berber
+				religion = jewish
 				size = 27008
 			}
 			create_pop = {
-				culture = maghrebi
-				size = 222396
+				culture = berber
+				religion = arian
+				size = 122396
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = bambara
+				religion = animist
 				size = 24000
 			}
 		}
@@ -579,6 +614,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = africanu
+				religion = nicene
 				size = 1165804
 			}
 			create_pop = {
@@ -607,7 +643,12 @@
 			}
 			create_pop = {
 				culture = africanu
-				size = 82301
+				religion = nicene
+				size = 53201
+			}
+			create_pop = {
+				culture = africanu
+				size = 29100
 			}
 			create_pop = {
 				culture = greek
