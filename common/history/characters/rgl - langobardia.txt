@@ -1,0 +1,23 @@
+﻿CHARACTERS = {
+	c:RGL = {
+		create_character = {
+			template = RGL_ruler				# Diotrih Huosi
+		}
+		
+		create_character = {
+			template = RGL_petty_bourgeoisie 	# Fredisclus Noricus
+		}
+		
+		create_character = {
+			template = RGL_intelligentsia		# Haduprant Wiguleus
+		}
+		
+		create_character = {
+			template = RGL_devout 				# Iuvatus vo Herlaha
+		}
+		
+		create_character = {
+			template = RGL_industrialists		# Welant vo Prambach
+		}
+	}
+}

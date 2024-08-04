@@ -182,20 +182,18 @@
 	s:STATE_SOUTHERN_FINLAND = {
 		region_state:FIN = {
 			create_pop = {
-				culture = swedish
-				size = 154900
+				culture = finnish
+				# TODO: RELIGION ASSIGNMENTS
+				size = 150000
 			}
 			create_pop = {
 				culture = finnish
+				# TODO: RELIGION ASSIGNMENTS
 				size = 690000
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 400
-			}
-			create_pop = {
-				culture = russian
-				size = 300
+				culture = lithuanian
+				size = 5600
 			}
 		}
 	}
@@ -203,20 +201,13 @@
 		region_state:FIN = {
 			create_pop = {
 				culture = finnish
+				# TODO: RELIGION ASSIGNMENTS
 				size = 177000
 			}
 			create_pop = {
 				culture = finnish
-				religion = orthodox
-				size = 10000
-			}
-			create_pop = {
-				culture = swedish
-				size = 1200
-			}
-			create_pop = {
-				culture = russian
-				size = 700
+				# TODO: RELIGION ASSIGNMENTS
+				size = 11900
 			}
 		}
 	}
@@ -224,11 +215,11 @@
 		region_state:FIN = {
 			create_pop = {
 				culture = swedish
-				size = 12000
+				size = 6000
 			}
 			create_pop = {
 				culture = finnish
-				size = 500
+				size = 6500
 			}
 		}
 	}

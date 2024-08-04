@@ -1,0 +1,53 @@
+﻿BOH_ruler = { # Bořivoj Sámovec
+	first_name = BoR_ivoj
+	last_name = SA_movec
+	historical = yes
+	culture = cu:czech
+	religion = rel:arian
+	ruler = yes
+	female = no
+	age = 73
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	traits = {
+		hedonist
+		direct
+		arrogant
+	}
+}
+
+BOH_landowner = { # Domoslav z Nitriansky
+	first_name = Domoslav
+	last_name = z_Nitriansky
+	historical = yes
+	culture = cu:slovak
+	religion = rel:arian
+	ig_leader = yes
+	female = no
+	age = 60
+	interest_group = ig_landowners
+	ideology = ideology_royalist
+	traits = {
+		reserved
+		honorable
+		erudite
+	}
+}
+
+BOH_armed_forces = { # Skottas Curidachus, a Hun in Moravian employ
+	first_name = Skottas
+	last_name = Curidachus
+	historical = yes
+	culture = cu:hunnic
+	religion = rel:arian
+	ig_leader = yes
+	female = no
+	age = 55
+	interest_group = ig_armed_forces
+	ideology = ideology_moderate
+	traits = {
+		tactful
+		honorable
+		popular_commander
+	}
+}

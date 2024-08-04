@@ -198,7 +198,7 @@
  HUB_NAME_STATE_PICARDY_farm: "Bellovacum"
  HUB_NAME_STATE_PICARDY_wood: "Compendio"
  #
- STATE_CHAMPAGNE: "Campanenses"
+ STATE_CHAMPAGNE: "Rhemus"
  HUB_NAME_STATE_CHAMPAGNE_city: "Rhemus"
  HUB_NAME_STATE_CHAMPAGNE_mine: "Epossium" # Carignan
  HUB_NAME_STATE_CHAMPAGNE_farm: "Trecassis"
@@ -341,6 +341,11 @@
  STATE_SCHLESWIG_HOLSTEIN: "Nordalbingia"
  #
  STATE_HANNOVER: "Angria"
+ HUB_NAME_STATE_HANNOVER_city: "Tulifurdum" # near Hanover, probably
+ HUB_NAME_STATE_HANNOVER_port: "Amuthon" # Emden
+ HUB_NAME_STATE_HANNOVER_mine: "Bylanuelde" # Bielefeld
+ HUB_NAME_STATE_HANNOVER_farm: "Ausana" # Osnabrück
+ HUB_NAME_STATE_HANNOVER_wood: "Mind" # Minden
  #
  STATE_BRUNSWICK: "Ostfalia"
  #
@@ -348,18 +353,36 @@
  #
  STATE_SAXONY: "Thuringia"
  #
+ STATE_HESSE: "Hassia"
+ HUB_NAME_STATE_HESSE_city: "Chassalla" # Kassel. TODO CD MOVE HUB FROM FRANKFURT LOCATION
+ HUB_NAME_STATE_HESSE_mine: "Giezzen" # Giessen
+ HUB_NAME_STATE_HESSE_farm: "Moguntiacum" # Mainz
+ HUB_NAME_STATE_HESSE_wood: "Uulthaha" # Fulda
+ #
  STATE_MECKLENBURG: "Obotritia"
  HUB_NAME_STATE_MECKLENBURG_city: "Veligrad" # Mecklenburg proper
  HUB_NAME_STATE_MECKLENBURG_port: "Rozstoc"
  HUB_NAME_STATE_MECKLENBURG_mine: "Strelci"
  HUB_NAME_STATE_MECKLENBURG_farm: "Broda"
- HUB_NAME_STATE_MECKLENBURG_wood: "Guščerov"
+ HUB_NAME_STATE_MECKLENBURG_wood: "Guščerov" # Güstrow
  #
  STATE_BAVARIA: "Bajovaria"
  HUB_NAME_STATE_BAVARIA_city: "Muniche"
  HUB_NAME_STATE_BAVARIA_mine: "Pons Aeni"
  HUB_NAME_STATE_BAVARIA_farm: "Radaspona"
  HUB_NAME_STATE_BAVARIA_wood: "Augusburuc"
+ #
+ STATE_WURTTEMBERG: "Swabia"
+ HUB_NAME_STATE_WURTTEMBERG_city: "Cannstatt" # Stuttgart
+ HUB_NAME_STATE_WURTTEMBERG_mine: "Lindoua"
+ HUB_NAME_STATE_WURTTEMBERG_farm: "Hulma"
+ HUB_NAME_STATE_WURTTEMBERG_wood: "Helibrunna"
+ #
+ STATE_BADEN: "Decumatia"
+ HUB_NAME_STATE_BADEN_city: "Durla" # Durlach
+ HUB_NAME_STATE_BADEN_mine: "Constantia" # Konstanz
+ HUB_NAME_STATE_BADEN_farm: "Herdern"
+ HUB_NAME_STATE_BADEN_wood: "Bergheim" # old core village of Heidelberg
  #
  STATE_AUSTRIA: "Vindobona"
  HUB_NAME_STATE_AUSTRIA_city: "Vindobona" # Vienna
@@ -539,6 +562,30 @@
  HUB_NAME_STATE_LOWLANDS_mine: "Penprys" # Dumfries, speculative Welsh name
  HUB_NAME_STATE_LOWLANDS_farm: "Cathures" # Glasgow, Brythonic origin
  HUB_NAME_STATE_LOWLANDS_wood: "Dùn Dèagh" # Dundee, Scottish Gaelic
+ # 
+ STATE_BOHEMIA: "Boiohaemum"
+ HUB_NAME_STATE_BOHEMIA_city: "Praha"
+ HUB_NAME_STATE_BOHEMIA_mine: "Stradonice" # Rožnov
+ HUB_NAME_STATE_BOHEMIA_farm: "Grecz" # Hradec Králové
+ HUB_NAME_STATE_BOHEMIA_wood: "Pilisin" # Plzen
+ #
+ STATE_MORAVIA: "Moravia"
+ HUB_NAME_STATE_MORAVIA_city:0 "Brno"
+ HUB_NAME_STATE_MORAVIA_mine:0 "Olomouc"
+ HUB_NAME_STATE_MORAVIA_farm:0 "Breclav"
+ HUB_NAME_STATE_MORAVIA_wood:1 "Jihlava"
+ #
+ STATE_WEST_SLOVAKIA: "Nitravia"
+ HUB_NAME_STATE_WEST_SLOVAKIA_city: "Nitrava" # TODO TO DO MOVE THIS HUB
+ HUB_NAME_STATE_WEST_SLOVAKIA_mine: "Sylna" # Zilina
+ HUB_NAME_STATE_WEST_SLOVAKIA_farm: "Laugaricio" # Trenčín
+ HUB_NAME_STATE_WEST_SLOVAKIA_wood:1 "Banska Bystrica"
+ #
+ STATE_EAST_SLOVAKIA: "Transcarpathia"
+ HUB_NAME_STATE_EAST_SLOVAKIA_city: "Cassa" # Kosice
+ HUB_NAME_STATE_EAST_SLOVAKIA_mine: "Hunguar"
+ HUB_NAME_STATE_EAST_SLOVAKIA_farm: "Tupcha" # near Mukachevo
+ HUB_NAME_STATE_EAST_SLOVAKIA_wood: "Felka" # district of Poprad
  #
  STATE_CENTRAL_HUNGARY: "Pannonia"
  HUB_NAME_STATE_CENTRAL_HUNGARY_city: "Aquincum"

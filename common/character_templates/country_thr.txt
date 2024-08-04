@@ -1,0 +1,19 @@
+﻿# Thuringia
+
+THR_ruler = { # Thioto Warinus
+	first_name = Thioto
+	last_name = Warinus
+	historical = yes
+	culture = cu:thuringian
+	religion = rel:arian
+	ruler = yes
+	female = no
+	age = 44
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	traits = {
+		bigoted
+		meticulous
+		basic_diplomat
+	}
+}

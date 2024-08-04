@@ -1,0 +1,38 @@
+﻿# Saxonia/Old Saxony
+
+SXN_landowner = { # Waltbraht Esikoning
+	first_name = Waltbraht
+	last_name = Esikoning
+	historical = yes
+	culture = cu:saxon
+	religion = rel:germanic_pagan
+	ruler = yes
+	ig_leader = yes
+	female = no
+	age = 31
+	interest_group = ig_landowners
+	ideology = ideology_jingoist_leader
+	traits = {
+		imposing
+		wrathful
+		firebrand
+	}
+}
+
+SXN_devout = { # Hathumar Thunaersunu
+	first_name = Hathumar
+	last_name = Thunaersunu
+	historical = yes
+	culture = cu:saxon
+	religion = rel:germanic_pagan
+	ig_leader = yes
+	female = no
+	age = 47
+	interest_group = ig_devout
+	ideology = ideology_jingoist_leader
+	traits = {
+		pious
+		brave
+		demagogue
+	}
+}

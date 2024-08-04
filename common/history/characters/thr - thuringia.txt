@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:THR = {
+		create_character = {
+			template = THR_ruler			# Thioto Warinus
+		}
+	}
+}

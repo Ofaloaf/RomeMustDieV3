@@ -1233,79 +1233,90 @@ alemannic={
 	religion = arian
 	traits = { germanic_culture_group european_heritage }
 	male_common_first_names={
-		Adolf Alexander Anton Augustus Albert Andreas Ambros Alois
-		Benedicht
-		Carl Christoph Christian Constant CA_sar Carl-Friedrich
-		Dominik Damian
-		Eduard Ernst Eugen Emil Ernst_August
-		Friedrich Franz Florian Franz_Xaver
-		Gall Gabriel Gustav Gottfried Georg Gottlieb
-		Hermann Heinrich
-		Imbert
-		Johann Jakob Joseph Johann_Baptist Johann_Konrad Johann_Peter Jakob_Christoph
-		Kaspar Klemens Kajetan Konrad
-		Ludwig Leo
-		Manfred Martin Moritz
-		Nazar Nikolaus
-		Otto Oswald
-		Peter Placidus Philipp
-		Rudolf
-		Samuel Stephan Silvan Severin
-		Theodor
-		Ulrich
-		Wolfgang Walter Wilhelm
+		Adolf Alexander Anton Augustus Albert Andreas Ambros Arnulf AginarI_ch Aurel Arnefrid Alawich
+		Benedicht Butilin Begga Bercthold Bonifaz Berno
+		Carl Christoph Christian Constant CA_sar Cajus Craloh Cuonrad Cuono
+		Dominik Damian Dracoald Dietpald Diethelm Dieto Donarad
+		Eduard Ernst Eugen Emil Erchangar Eberhard Ekkehard Erlebald Engilbert Embrico
+		Fridrich Franz Florian FrawomA_r Folkwin Frideloh
+		Gebhard Gustav Gotfrid Georg Gottlieb Grimoald Gundomad Gunzo Gibawulthu Gozpert
+		Hermann Hainrich Hesso Haito Hariobaud HnO_domA_ri Hordahari Heribrecht Hartmuat Hiltebold Hadubrant
+		Imbert Immo
+		Jakob Joseph Johannes Joachim
+		Kaspar Klemens Kajetan Karl Konstantin Keba
+		Ludwig Leo Lothar Leuthari Liutolf Liuthard Leodegar
+		Manfred Martin Moritz Makrian ME_darI_k Markwart Meinrad Meginwart Mangold Mang
+		Nazar Nikolaus Notker Nebi
+		Otto Oswald O_tmA_r
+		Petus Placidus Philipp Priarius Paulus Perewelf
+		Ruedolf Rando Ruodpert Ruadhard Ratpert Rumold Ruadhelm Ruodho Ruodmann Ruomo 
+		Samuel Stephan Silvan Severin Suomar Salomon
+		Theodor Theutbald Theodul Thieting Tagebert
+		Uodalrich Urius Ursipert Ursulf Udalmann Udalschalk
+		Vaefar
+		Wolfgang Walter Wilhelm Willehari Widigaui Westaralb WadomA_ri WitharI_d Waltram Werinher Walahfrid Wolfleoz Witigowo Waldo Wigolt
 		Xavier
 	}
 	female_common_first_names = {
-		Anna
+		Anna Adalheidis
 		Barbara
+		CA_cilia Cimburga
 		Emilie
-		Gertrud
-		Germaine
-		Henriette
-		Isabelle
-		Johanna
-		Julie
-		Lydia
-		Maria
-		Rosalie
+		Gertrud 
+		Hildegard Hemma
+		Itte Ingundis Ingohildis
+		Johanna Julia
+		Katharina Kunigunde
+		Lydia Luitgard
+		Maria Margareta
+		Rosalie Richinza
+		Wiborada
 	}	
-	noble_last_names = { # mostly patrician families of Bern
-		von_Bonstetten von_BU_ren von_Bergmann
-		von_Donatz
-		Effinger von_Erlach
-		von_Frisching
-		von_Graffenried
-		von_Hettlingen
-		Lentulus Lombach von_Ligerz
-		May von_Muelinen von_Muralt
-		von_Reding-Biberegg von_RU_pplin
-		von_Salis-Soglio von_Steiger von_Schorno von_Streng
-		von_Tavel von_Thurn
-		von_Wattenwyl von_Weber
-		Zehender
+	noble_last_names = {
+		Alaholfing Adalongus Altheus Asmundus vo_Araro
+		vo_Bonstetten vo_Bergmann vu_Bade vo_BuS_nang vo_BO_ttstei
+		vu_Chrenzach vo_ChlingebA_rg
+		vo_Donatz
+		Effinger vo_Erlech vu_Eppestei vu_Eschtrych vu_EinsidlA_
+		vo_Frisching vu_Frickige vu_Fryybeg vo_Fulach vo_FlU_e
+		Guarinus vo_Graffenried vo_Gagern vu_GrO_gling
+		vo_Hettlingen Heyminus vo_Heidegg vo_Hundwiil vo_Hewe
+		vu_Konschtanz
+		Lentulus Lombach vo_Ligerz vo_Lirheim
+		May vo_Muelinen vo_Muralt vo_Murbach vo_MUll_heim vo_Menge
+		Nantelmus vo_NA_lleburg
+		vu_Oettingen
+		Prothias
+		vu_RyyfA_lde vo_Russikon vo_Ramstei vo_Rosenegg vo_Rudolphi
+		vo_Steiger vo_Schorno vo_Streng vu_Simerenge vo_Schaffhuse
+		vo_Tavel vo_Thurn vo_Twiel vo_Tenge Tutz
+		Vulfinus Vultcherius vu_Vohburg Vilencus
+		vo_Wattenwyl von_Weber vu_WirttebA_rg vo_Wysseburg Wolleb
+		Zehender ZA_hringer
 	}
 	common_last_names={
 		Ador Anderwert Angehrn Altwegg Aepli
-		Brenner BA_chtold Bacher BlO_sch Barblan Balmer Bodenheimer Bitzius Burren Benzinger BU_eler Bachmann Bamert Bettschart Binzegger
+		Brenner BA_chtold Bacher BlO_sch Barblan Balmer Bodenheimer Bitzius Burren Benzinger BU_eler Bachmann Bamert Bettschart Binzegger Baldung BU_rgisser Blarer Beusch 
 		Calonder Corrodi Castell Camenzind
-		Deucher DA_hler Dieth Dinkelmann DU_rrenmatt DU_ggelin Dumelin
+		Deucher DA_hler Dieth Dinkelmann DU_rrenmatt DU_ggelin Dumelin Denzler
 		Enderlin ElsA_sser Eggenschwyler Eggli Eberle Etter Egloff
-		Fornerod Funk Fassbind Freyenmuth
+		Fornerod Funk Fassbind Freyenmuth Fischer
+		Germann
 		Haab Herzog Haller HU_gelberger Henggeler Hegglin
 		Iten
 		Jaggi
-		Knusel Kuoni Kurz KlA_y KO_nitzer KU_ndig KA_lin
+		Knusel Kuoni Kurz KlA_y KO_nitzer KU_ndig KA_lin Kalb Kunz
 		Leinert Loosli Lindt Lienhard Lohner Litschi Loser Labhardt Leutenegger
 		Motta Munzinger Meyer Morel Marti Minder Morgenthaler Moser Mettler Moos Merz MO_rikofer
-		Naff Nussbaumer
-		Oethiker Ochsner
-		RA_z Ritschard Ruoss Rogenmoser Ruckstuhl Reutlinger Roth
-		Schneider de_Staeel Siegwart-Muller Stutz Streiff StA_mpfli Stockmar Schneider Schurer SchA_r Simonin Stutzer Steinegger Styger Sidler Schwerzmann Sulzberger Scherb
-		Tschudi Tschiemer Theiler Trinkler
+		Naff Nussbaumer NO_thlich
+		Oethiker Ochsner Opser
+		Pfuser
+		RA_z Ritschard Ruoss Rogenmoser Ruckstuhl Reutlinger Ruffiner Reher RO_sch
+		Schneider de_Staeel Siegwart-Muller Stutz Streiff StA_mpfli Stockmar Schneider Schurer SchA_r Simonin Stutzer Steinegger Styger Sidler Schwerzmann Sulzberger Scherb Schwarzmurer
+		Tschudi Tschiemer Theiler Trinkler Tutz TU_rr
 		Usteri
-		ValA_r Villiger
-		Wille Wyss Wynistorf Willi Winet Wiss
+		ValA_r Villiger Vorster
+		Wille Wyss Wynistorf Willi Winet Waeldin Wiss WU_lflinger Wengi
 		Zeni Zeerleder Ziltener ZU_rcher
 	}
 	graphics = european
@@ -4670,139 +4681,85 @@ czech={
 	religion = arian
 	traits = { west_slavic european_heritage }
 	male_common_first_names={
-		Abraham
-		Alexander
-		Alfred
-		Alois
-		Antonin
-		August
-		Bedrich
-		Benedikt
-		Borivoj
-		Cenek
+		Arkleb
+		BoR_ivoj BedR_ich Boleslav BoC_ek BR_etislav BeneS_
+		C_astolov Crha
 		Drahoslav
-		David_2
-		Edvard
-		Emanuel
-		Emil
-		Evzen
-		Frantisek
-		Frantisek_Josef
-		Frantisek_Xaver
-		Hermenegild
-		Jaroslav
-		Jindrich
-		Jiri
-		Josef
-		Jan_2
-		Jan_Krtitel
-		Jan_Nepomuk
-		Kajetan
-		Karel
-		Konstantin
+		Hynek
+		Jaroslav Jan_2 JaromI_r
+		KazimI_r
 		Ladislav
-		Luvik
-		Matyas
-		Maxmilian
-		Mikulas
-		Olbram
-		Otakar
-		Pavel
-		Petr
-		Radola
-		Rafael_2
-		Tomas
-		Vincenc
-		Vitezslav
-		Vlastimil
-		Vojtech
-		Vratislav
-		Vaclav
-		Zdenek
+		Miroslav
+		Otakar OndR_ej OldR_ich
+		Predslav Pavel Petr
+		Radoslav
+		Svatopulk SpytinhnE_v Strachkvas S_ebI_r SobE_slav StrojmI_r
+		Vitezslav Vlastimil Vojtech Vratislav Vaclav ValiS_ ViktorI_n VanE_k
 	}
 	female_common_first_names = {
-		Anna
-		Barbara
-		Blank
-		Eleonora
+		Anna AneZ_ka AdlE_ta
+		Barbora Biagota BoZ_slava
+		Doubravka
+		Eleonora EliS_ka
 		Ivana
-		Jaroslava
-		Jenovefa
-		Karolina
-		Katerina
-		Klara
-		Martha
-		Martina
+		Jaroslava Jenovefa Jotka Jarmila
+		Karolina Katerina Klara
+		Ludmila
+		Martha Martina
 		Olga
 		Renata
 		Stanislava
-		Tereza
-		Zdena
-		Zuzana
+		Tereza Teta
+		Zdena Zuzana Z_ofie
 	}	
+	regal_last_names = {
+		BrnE_nskY_
+		DE_poltovec
+		HostivI_tovec
+		MoravskY_
+		OpavskY_ OlomouckY_
+		PR_emyslovec
+		SA_movec SlavnI_kovec
+		VA_clavovec
+		ZnojemskY_
+	}
 	noble_last_names = {
-		Albert
-		Clary_Aldringen
-		Colloredo-Mansfeld
-		Harrach
+		BrnE_nskY_ BuC_ovickY_
+		C_ernohorskY_
 		Lichnovsky
-		Thun-Hohenstein
-		von_Mittrowitz-Nettolitzky
-		von_Nostitz
-		Vratislav_z_Mitrovic
-		z_Bubna
-		z_Lichtenstejna
+		MoravskY_ MitrovskY_
+		OpavskY_ OlomouckY_
+		PR_emyslovec
+		SlavnI_kovec
+		TrnavskY_
+		Vratislav_z_Mitrovic VA_clavovec
+		ZnojemskY_
+		z_Bubna z_Boskovic
+		z_Ceblovic
+		z_DrahotuS_ z_DitrichS_tejna
+		z_KunS_tA_tu
+		z_Linavy
+		z_PodE_brad
 		z_Lobkovic
 	}
 	common_last_names={
-		Balaban
-		Basch
-		Breisky
+		AntoS_
+		Balaban Basch Breisky Balasz BuS_ek BrU_Z_ek Beznoska
 		Celovsky
-		Dvorak
+		Dvorak Douda
 		Fibich
 		Gajda
-		Gellner
-		Hrdlicka
-		Halek
+		Hrdlicka Halek Hala
 		Jirecek
-		Kadlec
-		Kafka
-		Koller
-		Krizkovsky
-		Kucera
-		Kuchar
-		Lederer
-		Makosky
-		Mik
-		Moravec
-		Nemecek
-		Neruda
-		Novotny
-		Novacek
-		Popper
-		Radecky
-		Rokytansky
-		Safranek
-		Safarik
-		Schack
-		Schubert
-		Skoda
-		Skuhersky
-		Smetana
-		Snejdarek
-		Suk
-		Svoboda
-		Syrovy
-		Tomasek
-		Tyl
-		Vitasek
-		Vorisek
-		Wankel
-		Weber
-		Zoubek
-		Zibrt
-		Zivr
+		Kadlec Kafka Krizkovsky Kucera Kuchar KnE_nickY_ KoS_C_ak KR_I_Z_ KratochvI_l
+		Makosky Mik Moravec MatE_jC_ek
+		Nemecek Neruda Novotny Novacek NedobitY_
+		PeriC_ PS_eniC_ka
+		Radecky Rokytansky RU_Z_iC_ka
+		Safranek Safarik Skoda Skuhersky Skobla Snejdarek Suk Syrovy S_vehla S_I_dlo StateC_nY_ S_upC_I_k Straka
+		Tomasek Tyl Tikal
+		Vitasek Vorisek VA_cha VeselY_ Vykoupil
+		Zoubek Zibrt Zivr Zyka
 	}
 	ethnicities = {
 		1 = slavic
@@ -8150,7 +8107,7 @@ panjabi={
 	ethnicities = {
 		1 = indian
 	}
-	graphics = arabic
+	graphics = south_asian
 }
 
 kashmiri={
@@ -8195,7 +8152,7 @@ kashmiri={
 	ethnicities = {
 		1 = indian
 	}
-	graphics = arabic
+	graphics = south_asian
 }
 
 gujarati={
@@ -8240,7 +8197,7 @@ gujarati={
 	ethnicities = {
 		1 = indian
 	}
-	graphics = arabic
+	graphics = south_asian
 }
 
 marathi={
@@ -8300,7 +8257,7 @@ marathi={
 	ethnicities = {
 		1 = indian
 	}
-	graphics = arabic
+	graphics = south_asian
 }
 
 sindi={
@@ -8353,7 +8310,7 @@ sindi={
 	ethnicities = {
 		1 = indian
 	}
-	graphics = arabic
+	graphics = south_asian
 }
 
 rajput={
@@ -8404,7 +8361,7 @@ rajput={
 	ethnicities = {
 		1 = indian
 	}
-	graphics = arabic
+	graphics = south_asian
 }
 
 kannada={
@@ -8454,7 +8411,7 @@ kannada={
 	ethnicities = {
 		1 = indian
 	}
-	graphics = arabic
+	graphics = south_asian
 }
 
 malayalam={
@@ -8494,7 +8451,7 @@ malayalam={
 	ethnicities = {
 		1 = indian
 	}
-	graphics = arabic
+	graphics = south_asian
 }
 
 tamil={
@@ -8540,7 +8497,7 @@ tamil={
 	ethnicities = {
 		1 = indian
 	}
-	graphics = arabic
+	graphics = south_asian
 }
 
 telegu={
@@ -8583,7 +8540,7 @@ telegu={
 	ethnicities = {
 		1 = indian
 	}
-	graphics = arabic
+	graphics = south_asian
 }
 
 vietnamese={

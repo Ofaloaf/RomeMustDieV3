@@ -1188,6 +1188,26 @@
 					}
 				}
 			}
+			modifier = {
+				add = 1000
+				european_clothes_trigger = yes
+				OR = {
+					AND = {
+						politician_clothes_trigger = yes
+						armed_forces_clothes_trigger = yes
+					}
+					military_clothes_trigger = yes
+				}
+				scope:character ?= {
+					culture = {
+						NOR = {
+							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = greek_culture
+						}
+					}
+					NOT = { owner = { c:FRK ?= this } }
+				}
+			}
 		}
 	}
 	
