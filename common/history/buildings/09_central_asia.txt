@@ -316,32 +316,6 @@
 				activate_production_methods={ "pm_muskets" "pm_automation_disabled" }
 			}
 			create_building={
-				building="building_food_industry"
-				add_ownership={
-					building={
-						type="building_livestock_ranch"
-						country="c:BGR"
-						levels=2
-						region="STATE_SAMARA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_manual_dough_processing" "pm_disabled_distillery" }
-			}
-			create_building={
-				building="building_tooling_workshops"
-				add_ownership={
-					building={
-						type="building_tooling_workshops"
-						country="c:BGR"
-						levels=1
-						region="STATE_SAMARA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_pig_iron" }
-			}
-			create_building={
 				building="building_rye_farm"
 				add_ownership={
 					building={
@@ -360,12 +334,25 @@
 					building={
 						type="building_iron_mine"
 						country="c:BGR"
-						levels=2
+						levels=1
 						region="STATE_SAMARA"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:BGR"
+						levels=1
+						region="STATE_SAMARA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 		region_state:CMN={
@@ -403,7 +390,7 @@
 					building={
 						type="building_food_industry"
 						country="c:BGR"
-						levels=1
+						levels=2
 						region="STATE_KAZAN"
 					}
 				}
@@ -438,15 +425,42 @@
 			}
 		}
 	}
+	#Sary Tau
 	s:STATE_TARTARIA={
 		region_state:CMN={
+			create_building={
+				building="building_paper_mills"
+				add_ownership={
+					building={
+						type="building_paper_mills"
+						country="c:CMN"
+						levels=3
+						region="STATE_TARTARIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:CMN"
+						levels=3
+						region="STATE_TARTARIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
 			create_building={
 				building="building_iron_mine"
 				add_ownership={
 					building={
 						type="building_iron_mine"
 						country="c:CMN"
-						levels=6
+						levels=3
 						region="STATE_TARTARIA"
 					}
 				}
@@ -480,6 +494,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_furniture_manufacturies"
+				add_ownership={
+					building={
+						type="building_furniture_manufacturies"
+						country="c:CMN"
+						levels=1
+						region="STATE_ASTRAKHAN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
 			}
 			create_building={
 				building="building_livestock_ranch"

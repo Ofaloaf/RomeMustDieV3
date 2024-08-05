@@ -39,6 +39,33 @@
 		add_declared_interest = region_indonesia
 	}
 
+  # Bolghar
+  c:BGR ?= {
+		add_declared_interest = region_west_siberia
+	}
+
+  # Moscovy
+  c:MSV ?= {
+		add_declared_interest = region_dnieper
+	}
+
+  # Smolensk
+  c:SML ?= {
+		add_declared_interest = region_dnieper
+	}
+
+  # Kyiv
+  c:UKR ?= {
+		add_declared_interest = region_poland
+    add_declared_interest = region_danubia
+	}
+
+  # Lithuania
+  c:LIT ?= {
+		add_declared_interest = region_central_america
+	}
+
+
 
 
 

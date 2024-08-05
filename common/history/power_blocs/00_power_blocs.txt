@@ -74,4 +74,28 @@
 			}
 		}
 	}
+
+	c:LIT = {
+		create_power_bloc = {
+			name =  BALTIC_TRADE_LEAGUE
+
+			map_color = { 154  69  116 }
+
+			founding_date = 1701.01.01
+			identity = identity_trade_league
+			principle = principle_external_trade_1
+			
+			member = c:POL
+			member = c:MZV
+			member = c:SML
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_foreign_investment_1
+			}
+		}
+	}
 }
