@@ -5663,6 +5663,8 @@ georgian={
 }
 
 greek={
+	##
+	# removed more modern Greek names and slipped in some more Hellenized Roman names, to emphasize the early-ERE theming a bit more strongly
 	color= hsv{ 0.94 0.45 0.48 }
 	religion = nicene
 	traits = { greek_culture latin_culture_group european_heritage }
@@ -5672,57 +5674,67 @@ greek={
 	}	
 	
 	male_common_first_names = {
-		#
-		Alexandros Angelos Anastasios Aristidis Antonios Aristovoulos Alexios Andreas Agamemnon Avgoustos Anthimos Adam Anagnostis 
-		Beniamin
+		Alexandros Angelos Anastasios Aristidis Antonios Aristovoulos Alexios Andreas Agamemnon Avgoustos Anthimos Anthemiolos Adam Asomatianos Arsenios Andronikos Alypios Anatolios Agathias Asklepios Apollonios Asklepiodotos Aristokritos Apollodoros Athenodoros Ambrosios Agathoboulos
+		Beniamin Basiliskos Boethios
 		Charilaos Christos Christoforos Christodoulos
-		Dimitrios Dionysios Diomidis
-		Evangelos Eleftherios Efstathios Emmanouil Epameinontas 
-		Filippos
-		Georgios Gerasimos Gregorios Germanos
-		Ilias Ioannis Iakovos Iraklis Iason
-		Konstantinos Kyriakos Kostas
-		Leonidas Leon Lambros Lazaros Lykourgos
-		Militiadis Menelaos Markos Merkourios Makarios
-		Nikos Nikolaos Nikephoros Niketas
-		Odysseas
-		Panos Panagiotis Periklis Petros Pantelis Pantaleon Pavlos Panoutsos 
-		Spyridon Sokratis Stamatios Sotiros Stephanos Stelios Stylianos Skarlatos Sofoklis Staurakios
-		Theodoros Tilemachos Thomas Trifon Theodorakis Theophilos Thrasyvoulos Themistoklis Theophylaktos
-		Vasilios Viktor
-		Xenon
-		Zacharias
+		Dimitrios Dionysios David Diomidis Domnentiolos Domnikos Dioskoros Damaskios Domninos Dorotheos
+		Evangelos Eleftherios Efstathios Epameinontas Euthymios Eulalios Evagrios Eusebios
+		Filippos Faustos
+		Georgios Gerasimos Gregorios Germanos Gennadios Gaios
+		Herakleidas Herakleios Hilarion Hermogenes Heliodoros Hierios Hierokles Helion
+		Ilias Ioannis Iakovos Iason Ioustinos Iosef Ioannikios Isidoros
+		Konstantinos Kyriakos Kostas Kontoleon Konstantiolos Klaudianos Kosmas Konstas Komentiolos
+		Leonidas Leon Lambros Lazaros Lykourgos Lazaros Leontios Longinos Loukios
+		Militiadis Menelaos Markos Merkourios Makarios Matthaios Markellos Menas Maximos
+		Nikos Nikolaos Nikephoros Niketas Niphon
+		Odysseas Olympiodoros Ourbikios Olybrios
+		Panos Periklis Petros Pantelis Pantaleon Pavlos Panoutsos Philippikos Porphyrios Probus Pompeios Patrikios Proklos Philoxenos Ploutarchos Philostratos Peregrinos Ptolemaios
+		Romanos
+		Spyridon Sokratis Stamatios Sotiros Stephanos Stelios Stylianos Skarlatos Sofoklis Staurakios Sisinnios Simplikios Sophronios Sextos
+		Theodoros Tilemachos Thomas Trifon Theophilos Thrasyvoulos Themistoklis Theophylaktos Tarasios Theodotos Theodosios Theon
+		Viktor
+		Xenon Xenarchos
+		Zacharias Zenodotos Zosimas
 	}
 	female_common_first_names = {
-		Aikaterini Aganiki Angeliki Asimina Anna Anastasia Alexandra Akrivi Amalia
+		Aikaterini Aganiki Angeliki Asimina Anna Anastasia Alexandra Arthelais Antonina Asklipigeneia Aedesia Arkadia
 		Domnitsa Despina Domna
-		Evanthia Eliza Elpida Eleni Eleftheria Eirini Evfrosini
-		Ilektra
-		Kalliroi Kalliopi Konstantina Kiriakoula
-		Lena Laskarina Loukia
-		Marika Maria Marianna Manto
-		Photini
+		Evanthia Eliza Elpida Eleni Eleftheria Eirini Evfrosini Eudokia
+		Fausta
+		Iouliana Ioustina
+		Kalliroi Kalliopi Konstantina Kiriakoula Kassia
+		Lena Laskarina Loukia Leontia
+		Marika Maria Marina Melania Martina
+		Photini Praeiekta Pelagia Prokopia
 		Sofia Soteria Sevasti
-		Thaleia
-		Virginia Vassiliki
+		Thaleia Theodora Theodota Theokiste Thekla
+		Virginia Vassiliki Vigilantia
 		Zacharati
 	}
 	male_regal_first_names = {
-		Andronikos Anastasios Alexandros
+		Andronikos Anastasios Alexandros Arkadios
 		Filippos
 		Georgios
-		Ioannis
-		Konstantinos
+		Herakleios
+		Ioannis Iostinos 
+		Konstantinos Konstas
 		Leon
+		Maximos Michael Manouel
 		Nikolaos Nikephoros Niketas
+		Valentinos
 		Pavlos
+		Tiberios Theodosios
 	}
 	female_regal_first_names = {
-		Alexandra Alexia
-		Eleni Eirini
+		Alexandra Alexia Antonina
+		Domentzia
+		Eirene Euphrosyne Eudokia EpiphaneI_a
+		Helene
+		Iouliana
 		Konstantina
-		Maria
+		Maria Martina
 		Olympia
+		Poulcheria
 		Sofia
 		Theodora
 	}
@@ -5730,7 +5742,7 @@ greek={
 	# some Hellenic forms of names from the "Livre d'Or de la Noblesse Ionienne"
 	# also added Souliotes
 	noble_last_names = { 
-		Arvanitachi Argyropoulos
+		Arvanitachi Argyropoulos 
 		Benizelos Botsaris Boutzias Bousbos Boufis Bekas
 		Drakos Dousmanis Danglis
 		Fotos
@@ -5739,46 +5751,58 @@ greek={
 		Kolokotronis Kapodistrias Kalogeras Kallergis Kartanos Koutsonikas Kaskaris
 		Levidis Landos
 		Metaxas Manos Mavromichalis Mavrokordatos Mamonas Marmoras Mantzos Matis Mourouzis
-		Notaras Nikas Negreponte
-		Pieros Polylas Prosalendi Patrikios Papagiannis Palamas Pandazis
+		Notaras Nikas
+		Polylas Prosalendi Palamas Pandazis 
 		Rodostamos Rallis
-		Soutsos Seos Sachinis Salataris
-		Theotokis Tzavelas Thanasis Toras Todis Tzoris
+		Soutsos Seos Sachinis Salataris 
+		Tzavelas Thanasis Toras Todis Tzoris
 		Vlassopoulos Velios Vasos
 		Ypsilantis
 		Zarbas
 		### ROMAN AND BYZANTINE GREEK FAMILIES
-		Argyros
-		Bryennios Basilakes
-		Diogenes Dalassenos Doukas
-		Komnenos
-		Lekapenos
-		Makrembolites
-		Rhangabe 
-		Xiphilinos
+		Argyros Apokaukos Apokapes Apion Aaronios Anikios Aetios Anemas Akakios Aelios Autoreianos Aurelios Aginantios Akilios Annios Annianos Amnios Appios
+		Bryennios Basilakes Bourtzes Botaneiates
+		Chalkokondyles Choumnos
+		Diogenes Dalassenos Doukas Dekios Daimonoioannes Doxapatres Domitios Dekentios
+		Euphorbenos Elpidios
+		Fabianos
+		Glabas Gabras
+		Hagiotheodorites Hilarianos
+		Iunios
+		Komnenos Keroularios Katakalon Kamytzes Kallergis Kabasilas Kontostephanos Kalbenos Kornelios Kassios Klaudios
+		Lekapenos Likinianos Likinios Limenios Lollios
+		Makrembolites Maleinos Maliasenos Mavrogenis Melissenos Metochites Mourouzis Mouzalon Messios Memmios Mekilios Manlios Metilios
+		Nicomachos Nepotianos Nonios
+		Orosios
+		Parsakoutenos Petraliphas Philanthropenos Philes Pegonites Prokopios Pomponios Petronios Polemios Platorios
+		Rhangabe Rufios
+		Skleros Sphrantzes Septimios Symmachos Salloustios Sabinios Sempronios Soulpikios
+		Tarchaneiotes Tornikios Tiberianos Tatios Tullios Tullianos Tettios Trebatios
+		Vegetios Volusianos Vibios Valerios
+		Xiphilinos Xiphias
 	}
 	common_last_names = {
-		Andreou Aspiotis Andriakopoulos Athanasopoulos Anninos Athanasiou Akratopoulos Antonpoulos Asimakopoulos Axiotis Atouemes
-		Belokas Benardis Baltatzis
-		Chalkokondylis Chrysafis Chorafas Chrysafos Chazapis Charalambis
-		Deligiannis Damaskos Diamantis Diamantopoulos Dontis Drivas Dalezios Douros
-		Eftaxias
+		Aspiotis Andriakopoulos Athanasopoulos Anninos Akratopoulos Antonpoulos Asimakopoulos Axiotis Atouemes Alakaseus Aaronios Arianites Asidenos Aspietes Autoreianos Allatios Aemilianos Ablabios Amantios Apouleios Auxentios Aginantios Akilios
+		Belokas Benardis Baltatzis Brachamios Bourtzes Barasbakourios Boioannes Boilas Bekkos Barymes Bonosianos
+		Chalkokondylis Chrysafis Chorafas Chrysafos Chazapis Charalambis Choirosphaktes Chalkoutzes Chabaron Chloros Choiroboskos Chrysaphios
+		Deligiannis Damaskos Diamantis Diamantopoulos Dontis Drivas Dalezios Douros Daphnomales Dexippos
+		Eftaxias Euphorbenos Eulamios Eunapios
 		Fetsis Fetsios Frangoudis Frangopoulos Foustanos Farmakidis Freris Farmakidis Fotilas
-		Gennimatas Golemis Gerakeris Grigoriou Gouskos Georgiadis Gaitanos Grigoriadis Gneftos Gazis
-		Hatzidakis
-		Iatrou Iatridis 
-		Karousou Karakatsanis Kafetzis Koletis Kostantinidis Konstantinou Karakalos Karvelas Karagiannopoulos Karasevdas Karagiannis Katravas Khatzis Kontos Koukoudakis Kourkoulas Kasdaglis Kallisperi Kanaris Konstantas
-		Lagoudakis Lavrentis Loverdos Loundras Langakis Levidis Lamprakis Laskaridis Lerias Liapis Logothetis
-		Merkatis Mouratis Masouris Mitropoulos Mikhailidis Moustakopoulos Morakis Mangourakis Markou Marnezos Mazoukas Mikhalopoulos Malokinis Mavrommatis Mavrogenes Mansolas
-		Nikolopoulos Nastos Neroutsos Negris
-		Orphanidis Orlandos
-		Paraskevopoulos Papasymeon Papadiamantopoulos Persakis Papasideris Pierrakos-Mavromichalis Poulos Pyrgos Petmezas Papaioannou Pavlidis Platis Petrou Pantazidis Patsouris Pothitos Pepanos Paspatis Petrokokkinos Papafingos Peppas Psychas Printezis Papailiopoulos
-		Romantzas Rallis Roussos
-		Skaltsogiannis Stais Sanidis Salouros Santanis Stournaras Siganous Skandalidis
-		Theodoropoulos Tryfiatis-Tripiaris Tsiklitiras Theofilakis Trikoupis Triantafyllakos Tombazis
+		Gennimatas Golemis Gerakeris Grigoriou Gouskos Georgiadis Gaitanos Grigoriadis Gneftos Gazis Galesiotes Gregoras
+		Hatzidakis Hikanatos Holobolos Himerios Hilarianos
+		Iatrou Iatridis Italos Iberitzes
+		Karousou Karakatsanis Kafetzis Koletis Kostantinidis Konstantinou Karakalos Karvelas Karagiannopoulos Karasevdas Karagiannis Katravas Khatzis Kontos Koukoudakis Kourkoulas Kasdaglis Kallisperi Kanaris Konstantas Krenites Kamateros Katakalon Kalothetos Karantenos Kourkouas Kalaphates Koutzes Kedrenos Kananites
+		Lagoudakis Lavrentis Loverdos Loundras Langakis Levidis Lamprakis Laskaridis Lerias Liapis Logothetis Lykaon Lydos Lachanodrakon Laertios Laurentianos Limenios
+		Merkatis Mouratis Masouris Mitropoulos Mikhailidis Moustakopoulos Morakis Mangourakis Markou Marnezos Mazoukas Mikhalopoulos Malokinis Mavrommatis Mavrogenes Mansolas Maurex Maleinos Mangaphas Metochites Mesardonites Maroullos Marinos Markianos Mokios Maxentios Mallotes
+		Nikolopoulos Nastos Neroutsos Negris Nestongos Nauridis Noumenios
+		Orphanidis Ouranos Onomagoulos Oinomaos
+		Paraskevopoulos Papasymeon Papadiamantopoulos Persakis Papasideris Poulos Pyrgos Petmezas Papaioannou Pavlidis Platis Petrou Pantazidis Patsouris Pothitos Pepanos Paspatis Petrokokkinos Papafingos Peppas Psychas Printezis Papailiopoulos Proteuon Platypodes PachymE_ris Psellos Philokales Perenos Pakourianos Petzeas Petraliphas Philanthropenos Priskianos Pamprepios Podopagouros Postoumianos Probianos Polemios
+		Romantzas Rallis Roussos Rhabdouchos 
+		Skaltsogiannis Stais Sanidis Salouros Santanis Stournaras Siganous Skandalidis Spanes Skoulatos Stryphnos Spondyles Sgouros Spyridonakes Styppeiotes Sabinianos Severianos Severos
+		Theodoropoulos Tryfiatis-Tripiaris Tsiklitiras Theofilakis Trikoupis Triantafyllakos Tombazis Tessarakontapechys Tarchaneiotes Tagaris Tornikios Triphyllios Toubakes Thalassios
 		Versis Vasilakos Vrettos Vouros Vourakis Vavis Valetsiotis Vlachos Vikhos Vrasivanopoulos Vlassis Vourvoulis Voustinos Vakondios Varthalitis
 		Xydras Xenakis Xenopoulos Xylinakos
-		Zoumis Zanos Zacharopoulos Zervinis Zafyropoulos Zarifi
+		Zoumis Zanos Zacharopoulos Zervinis Zafyropoulos Zarifi Zographos Zonaras Zemarchos Zenobios
 	}
 
 	ethnicities = {

@@ -354,7 +354,7 @@
  STATE_SAXONY: "Thuringia"
  #
  STATE_HESSE: "Hassia"
- HUB_NAME_STATE_HESSE_city: "Chassalla" # Kassel. TODO CD MOVE HUB FROM FRANKFURT LOCATION
+ HUB_NAME_STATE_HESSE_city: "Chassalla" # Kassel.
  HUB_NAME_STATE_HESSE_mine: "Giezzen" # Giessen
  HUB_NAME_STATE_HESSE_farm: "Moguntiacum" # Mainz
  HUB_NAME_STATE_HESSE_wood: "Uulthaha" # Fulda
@@ -570,13 +570,13 @@
  HUB_NAME_STATE_BOHEMIA_wood: "Pilisin" # Plzen
  #
  STATE_MORAVIA: "Moravia"
- HUB_NAME_STATE_MORAVIA_city:0 "Brno"
+ HUB_NAME_STATE_MORAVIA_city: "Velehrad" # also known as Veligrad, exact location and modern identity unknown for sure
  HUB_NAME_STATE_MORAVIA_mine:0 "Olomouc"
- HUB_NAME_STATE_MORAVIA_farm:0 "Breclav"
+ HUB_NAME_STATE_MORAVIA_farm: "Rajhrad" # archaically Raygrad, I think.
  HUB_NAME_STATE_MORAVIA_wood:1 "Jihlava"
  #
  STATE_WEST_SLOVAKIA: "Nitravia"
- HUB_NAME_STATE_WEST_SLOVAKIA_city: "Nitrava" # TODO TO DO MOVE THIS HUB
+ HUB_NAME_STATE_WEST_SLOVAKIA_city: "Nitrava" #
  HUB_NAME_STATE_WEST_SLOVAKIA_mine: "Sylna" # Zilina
  HUB_NAME_STATE_WEST_SLOVAKIA_farm: "Laugaricio" # Trenčín
  HUB_NAME_STATE_WEST_SLOVAKIA_wood:1 "Banska Bystrica"
@@ -667,6 +667,12 @@
  #
  STATE_NORTHERN_THRACE: "Northern Thrace"
  HUB_NAME_STATE_NORTHERN_THRACE_city: "Pulpudeva"
+ #
+ STATE_NORTHERN_SERBIA: "Serbia"
+ HUB_NAME_STATE_NORTHERN_SERBIA_city: "Singitin" # Singidunum, but the -dunum ending is changed to the etymologically-similar Slavic -tin
+ HUB_NAME_STATE_NORTHERN_SERBIA_mine: "Dasminium" # a little northeast of Kruševac
+ HUB_NAME_STATE_NORTHERN_SERBIA_farm: "Mons Aureus" # Smederevo
+ HUB_NAME_STATE_NORTHERN_SERBIA_wood: "Rudo Polje" # Kraljevo
  #
  STATE_SOUTHERN_SERBIA: "Dardania"
  HUB_NAME_STATE_SOUTHERN_SERBIA_city: "Ulpiana" # Pristina

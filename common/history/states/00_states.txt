@@ -7253,7 +7253,7 @@ STATES = {
 			owned_provinces = { x77143D x901B70 x9E1AD1 x11E021 x626998 xC347D8 }
 		}
 		
-		add_homeland = cu:croat
+		add_homeland = cu:hunnic
 		add_homeland = cu:serb
 	}
 	s:STATE_POSEN = {

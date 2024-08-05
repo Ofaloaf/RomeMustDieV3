@@ -1,0 +1,11 @@
+﻿CHARACTERS = {
+	c:ECH = {
+		create_character = {
+			# Iosep Gariballt, the Giuseppe Garibaldi of this scenario
+			template = garibaldi_character_template
+			on_created = {
+				exile_character = yes
+			}
+		}	
+	}
+}

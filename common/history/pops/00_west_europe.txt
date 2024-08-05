@@ -972,7 +972,11 @@
 		region_state:BOH = {
 			create_pop = {
 				culture = suebian
-				size = 480408
+				size = 288245
+			}
+			create_pop = {
+				culture = hunnic
+				size = 192163
 			}
 			create_pop = {
 				culture = czech
