@@ -252,6 +252,7 @@
 			}
 		}
 	}
+	# Grodno
 	s:STATE_BREST={
 		region_state:LIT={
 			create_building={
@@ -282,7 +283,7 @@
 					building={
 						type="building_rye_farm"
 						country="c:LIT"
-						levels=5
+						levels=11
 						region="STATE_BREST"
 					}
 				}
@@ -727,8 +728,21 @@
 					building={
 						type="building_paper_mills"
 						country="c:LIT"
-						levels=3
+						levels=1
 						region="STATE_ORSHA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_paper_mills"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:LIT"
+						levels=2
+						region="STATE_LITHUANIA"
 					}
 				}
 				reserves=1
@@ -1356,8 +1370,21 @@
 					building={
 						type="building_furniture_manufacturies"
 						country="c:LIT"
-						levels=6
+						levels=3
 						region="STATE_MINSK"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_handcrafted_furniture" "pm_automation_disabled" "pm_no_luxuries" }
+			}
+			create_building={
+				building="building_furniture_manufacturies"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:LIT"
+						levels=3
+						region="STATE_LITHUANIA"
 					}
 				}
 				reserves=1
@@ -1547,7 +1574,7 @@
 					building={
 						type="building_rye_farm"
 						country="c:LIT"
-						levels=1
+						levels=6
 						region="STATE_ESTONIA"
 					}
 				}
@@ -1625,7 +1652,20 @@
 					building={
 						type="building_textile_mills"
 						country="c:LIT"
-						levels=6
+						levels=2
+						region="STATE_LITHUANIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms"  }
+			}
+			create_building={
+				building="building_textile_mills"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:LIT"
+						levels=4
 						region="STATE_LITHUANIA"
 					}
 				}
@@ -1685,30 +1725,26 @@
 	s:STATE_MAZOVIA={
 		region_state:MZV={
 			create_building={
-				building="building_furniture_manufacturies"
+				building="building_government_administration"
 				add_ownership={
-					building={
-						type="building_furniture_manufacturies"
-						country="c:MZV"
-						levels=2
-						region="STATE_MAZOVIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
-			}
-			create_building={
-				building="building_paper_mills"
-				add_ownership={
-					building={
-						type="building_paper_mills"
+					country={
 						country="c:MZV"
 						levels=3
-						region="STATE_MAZOVIA"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
+				building="building_arms_industry"
+				add_ownership={
+					country={
+						country="c:MZV"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_automation_disabled" }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -1716,7 +1752,7 @@
 					building={
 						type="building_rye_farm"
 						country="c:MZV"
-						levels=2
+						levels=9
 						region="STATE_MAZOVIA"
 					}
 				}
@@ -1862,7 +1898,20 @@
 					building={
 						type="building_tooling_workshops"
 						country="c:POL"
-						levels=3
+						levels=1
+						region="STATE_GREATER_POLAND"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:POL"
+						levels=2
 						region="STATE_GREATER_POLAND"
 					}
 				}
@@ -1873,9 +1922,22 @@
 				building="building_iron_mine"
 				add_ownership={
 					building={
+						type="building_financial_district"
+						country="c:POL"
+						levels=3
+						region="STATE_GREATER_POLAND"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
 						type="building_iron_mine"
 						country="c:POL"
-						levels=5
+						levels=2
 						region="STATE_GREATER_POLAND"
 					}
 				}

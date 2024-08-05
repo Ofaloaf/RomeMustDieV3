@@ -727,18 +727,6 @@ TRADE_ROUTES = {
 	# Smolensk
 	c:SML ?= {	
 		create_trade_route = {
-			goods = small_arms
-			level = 3
-			direction = import
-			target = c:MSV.market
-		}
-		create_trade_route = {
-			goods = tools
-			level = 3
-			direction = import
-			target = c:NVG.market
-		}
-		create_trade_route = {
 			goods = luxury_furniture
 			level = 1
 			direction = export
@@ -809,6 +797,18 @@ TRADE_ROUTES = {
 			level = 2
 			direction = import
 			target = c:MEX.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 3
+			direction = import
+			target = c:UKR.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 3
+			direction = import
+			target = c:CMN.market
 		}
     }
 
