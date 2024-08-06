@@ -318,6 +318,12 @@
  HUB_NAME_STATE_NORTH_RHINE_farm: "Bonna" # Bonn
  HUB_NAME_STATE_NORTH_RHINE_wood: "Oipen"
  #
+ STATE_RHINELAND: "Rhenania"
+ HUB_NAME_STATE_RHINELAND_city: "Treveris" # Trier. was Saarbrücken TODO CD MOVE HUB
+ HUB_NAME_STATE_RHINELAND_mine: "Lutra" # Kaiserslautern
+ HUB_NAME_STATE_RHINELAND_farm: "Mannenheim" # Mannheim
+ HUB_NAME_STATE_RHINELAND_wood: "Sarabrucca" # Saarbrücken. was Tried TODO CD MOVE HUB
+ #
  STATE_GELRE: "Isala" # after the Ijssel River
  HUB_NAME_STATE_GELRE_city: "Hoeve" # Eindhoven
  HUB_NAME_STATE_GELRE_mine: "Mosa Trajectum" # Maastricht
