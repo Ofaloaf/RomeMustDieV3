@@ -94,12 +94,22 @@
   gov_saxon_confederation_desc: "The Saxon Confederation is a [concept_government_type] that convenes at regular intervals to discuss executive, legislative, and judicial matters, all in one deliberative body.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
   RULER_HERITOGO: "Heritogo"
   #
+  gov_government_of_the_palace: "Palace Government"
+  gov_government_of_the_palace_desc: "The Palace Government is a Frankish [concept_government_type] that is centered on the royal household. Affairs of the crown are decided in royal courts and state rooms; even other organs of the state find it necessary to work within the gilded halls of Frankish nobility.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_mayoralty_of_the_palace_presidential: "Palace Mayoralty"
+  gov_mayoralty_of_the_palace_presidential_desc: "This [concept_government_type] has ceded all effective power to the [Concept('concept_ruler','Mayor of the Palace')], a position traditionally of immense prestige.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_MAYOR: "Mayor"
+  #
   gov_germanic_council: "Germanic Assembly"
   gov_germanic_council_desc: "The Germanic tradition of holding assemblies where all free people can deliberate and discuss lives on in the modern council, assembly, or #italic Thing#!. Presided over by a speaker entrusted with memorizing and understanding, this [concept_government_type] can be powerful counter to the autocratic tendencies of powerhungry individuals.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
   RULER_SPEAKER: "Speaker"
   #
   gov_sichuanese_court: "Sichuanese Court"
   gov_sichuanese_court_desc: "The Da Shu dynasty is run by a clique of Sichuanese ministers and bureaucrats who serve the Supreme Emperor.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_royal_patrimony: "Royal Patrimony"
+  gov_royal_patrimony_desc: "The Royal Patrimony is a [concept_government_type] where no distinction is drawn between the personal property of the [concept_ruler] and the property of the [concept_country] and national government.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
   #
   gallic_crisis: "Gallic Crisis"
   #

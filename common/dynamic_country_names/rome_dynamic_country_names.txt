@@ -374,11 +374,7 @@ EGY = { # Egypt
 		trigger = {
 			coa_def_independent_trigger = yes
 			exists = scope:actor
-			scope:actor = {
-				ruler ?= {
-					has_culture = cu:copt
-				}
-			}
+			scope:actor.ruler.culture = { cu:copt = this }
 		}
 	}
 	dynamic_country_name = { # Khemia

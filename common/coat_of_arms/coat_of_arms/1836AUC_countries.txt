@@ -14,6 +14,16 @@
 @NZL_coa_offset = @[3/16] 
 @sm_fra = 0.16
 
+red_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+}
+
+red_flag_dark = {
+	pattern = "pattern_solid.tga"
+	color1 = "roman_red"
+}
+
 WRE = { # Western Roman Empire
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -28,6 +38,62 @@ WRE = { # Western Roman Empire
 		texture = "ce_chi_rho.dds"
 		color1 = "white"
 		color2 = "white"
+	}
+}
+
+WRE_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_border_compony.dds"
+		color1 = "yellow"
+		color2 = "red"
+	}
+
+	colored_emblem = {
+		texture = "ce_hammer_sickle_wreath.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}
+}
+
+WRE_odoacer = { # based on Odoacer-issued solidus that featured a Winged Victory
+	pattern = "pattern_solid.tga"
+	color1 = "yellow_light"
+
+	colored_emblem = {
+		texture = "ce_border_compony.dds"
+		color1 = "yellow_light"
+		color2 = "red_dark"
+	}
+
+	textured_emblem = {
+		texture = "te_winged_victory.dds"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}
+}
+
+WRE_rebel_usurper_labarum = { #
+	pattern = "pattern_border_of_4.dds"
+	color1 = "blue"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_saltire.dds"
+		color1 = "yellow"
+		color2 = "blue"
+	}
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 0.33 0.33 } position = { 0.125 0.5 } }
+		instance = { scale = { 0.33 0.33 } position = { 0.875 0.5 } }
+		instance = { scale = { 0.33 0.33 } position = { 0.5 0.125 } }
+		instance = { scale = { 0.33 0.33 } position = { 0.5 0.875 } }
 	}
 }
 
@@ -60,8 +126,48 @@ ERE = { # Eastern Roman Empire
 
 	colored_emblem = {
 		texture = "ce_chi_rho.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}
+}
+
+ERE_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+
+	colored_emblem = {
+		texture = "ce_border_compony.dds"
 		color1 = "white"
-		color2 = "white"
+		color2 = "purple"
+	}
+
+	colored_emblem = {
+		texture = "ce_hammer_sickle_wreath.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}
+}
+
+ERE_rebel_usurper_labarum = { #
+	pattern = "pattern_border_of_4.dds"
+	color1 = "green_dark"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_saltire.dds"
+		color1 = "yellow"
+		color2 = "blue"
+	}
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { scale = { 0.33 0.33 } position = { 0.125 0.5 } }
+		instance = { scale = { 0.33 0.33 } position = { 0.875 0.5 } }
+		instance = { scale = { 0.33 0.33 } position = { 0.5 0.125 } }
+		instance = { scale = { 0.33 0.33 } position = { 0.5 0.875 } }
 	}
 }
 
@@ -689,6 +795,25 @@ SML = { # Smolensk
 }
 
 # LIT_pagan = { # Lithuania, but with less christ
+
+LIT_disco_communism = { # Lithuania starts off controlling Estonia, sooo
+	pattern = "pattern_solid.tga"
+	color1 = "red_dark"
+	
+	colored_emblem = {
+		texture = "ce_antlers_attire.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.25 0.25 } position = { 0.5 0.25 } rotation = 180 }
+	}
+}
 
 KVN = { # Kvenland, using the old Lappland flag
 	pattern = "pattern_solid.tga"

@@ -24,6 +24,7 @@
 			country_tier = hegemony
 			country_tier = empire
 		}
+		NOT = { c:FRK ?= this }
 	}
 
 	on_government_type_change = {
@@ -80,6 +81,7 @@ gov_civitas = {
 		NOR = {
 			country_tier = hegemony
 			country_tier = empire
+			c:FRK ?= this
 		}
 	}
 
@@ -88,113 +90,16 @@ gov_civitas = {
 	}
 }
 
-gov_french_2nd_republic_presidential = {
-	transfer_of_power = presidential_elective
-	new_leader_on_reform_government = yes
-
-	male_ruler = "RULER_TITLE_CHANCELLOR"
-	female_ruler = "RULER_TITLE_CHANCELLOR"
-	
-	possible = {
-		has_law = law_type:law_presidential_republic
-		country_has_primary_culture = cu:french
-		has_variable = fra_republic_counter
-		var:fra_republic_counter ?= 2
-	}
-
-	on_government_type_change = {
-		change_to_presidential_elective = yes
-	}
-}
-
-gov_french_2nd_republic_presidential_dictator = {
+gov_mayoralty_of_the_palace_presidential = {
 	transfer_of_power = dictatorial
 
-	male_ruler = "RULER_TITLE_CHANCELLOR"
-	female_ruler = "RULER_TITLE_CHANCELLOR"
+	male_ruler = "RULER_TITLE_MAYOR"
+	female_ruler = "RULER_TITLE_MAYOR"
 	
 	possible = {
 		has_law = law_type:law_presidential_republic
-		country_has_primary_culture = cu:french
+		c:FRK ?= root
 		country_has_voting_franchise = no
-		has_variable = fra_republic_counter
-		var:fra_republic_counter ?= 2
-	}
-
-	on_government_type_change = {
-		change_to_dictatorial = yes
-	}
-}
-
-gov_french_3rd_republic_presidential = {
-	transfer_of_power = presidential_elective
-	new_leader_on_reform_government = yes
-
-	male_ruler = "RULER_TITLE_CHANCELLOR"
-	female_ruler = "RULER_TITLE_CHANCELLOR"
-	
-	possible = {
-		has_law = law_type:law_presidential_republic
-		country_has_primary_culture = cu:french
-		has_variable = fra_republic_counter
-		var:fra_republic_counter ?= 3
-	}
-
-	on_government_type_change = {
-		change_to_presidential_elective = yes
-	}
-}
-
-gov_french_3rd_republic_presidential_dictator = {
-	transfer_of_power = dictatorial
-
-	male_ruler = "RULER_TITLE_CHANCELLOR"
-	female_ruler = "RULER_TITLE_CHANCELLOR"
-	
-	possible = {
-		has_law = law_type:law_presidential_republic
-		country_has_primary_culture = cu:french
-		country_has_voting_franchise = no
-		has_variable = fra_republic_counter
-		var:fra_republic_counter ?= 3
-	}
-
-	on_government_type_change = {
-		change_to_dictatorial = yes
-	}
-}
-
-gov_french_4th_republic_presidential = {
-	transfer_of_power = presidential_elective
-	new_leader_on_reform_government = yes
-
-	male_ruler = "RULER_TITLE_CHANCELLOR"
-	female_ruler = "RULER_TITLE_CHANCELLOR"
-	
-	possible = {
-		has_law = law_type:law_presidential_republic
-		country_has_primary_culture = cu:french
-		has_variable = fra_republic_counter
-		var:fra_republic_counter ?= 4
-	}
-
-	on_government_type_change = {
-		change_to_presidential_elective = yes
-	}
-}
-
-gov_french_4th_republic_presidential_dictator = {
-	transfer_of_power = dictatorial
-
-	male_ruler = "RULER_TITLE_CHANCELLOR"
-	female_ruler = "RULER_TITLE_CHANCELLOR"
-	
-	possible = {
-		has_law = law_type:law_presidential_republic
-		country_has_primary_culture = cu:french
-		country_has_voting_franchise = no
-		has_variable = fra_republic_counter
-		var:fra_republic_counter ?= 4
 	}
 
 	on_government_type_change = {

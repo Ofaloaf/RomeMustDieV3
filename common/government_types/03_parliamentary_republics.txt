@@ -12,6 +12,7 @@
 			has_discrimination_trait = romance_speaker
 			has_discrimination_trait = european_heritage
 		}
+		NOT = { c:FRK ?= this }
 	}
 
 	on_government_type_change = {
@@ -35,6 +36,7 @@ gov_roman_senate_dictatorship = {
 			has_discrimination_trait = romance_speaker
 			has_discrimination_trait = european_heritage
 		}
+		NOT = { c:FRK ?= this }
 	}
 
 	on_government_type_change = {
@@ -49,8 +51,8 @@ gov_haudenosaunee_confederacy = {
 	transfer_of_power = parliamentary_elective
 	new_leader_on_reform_government = yes
 
-	male_ruler = "RULER_TITLE_SACHEM"
-	female_ruler = "RULER_TITLE_SACHEM"
+	male_ruler = "RULER_TITLE_TADODAHO"
+	female_ruler = "RULER_TITLE_TADODAHO"
 	
 	possible = {
 		has_law = law_type:law_parliamentary_republic
