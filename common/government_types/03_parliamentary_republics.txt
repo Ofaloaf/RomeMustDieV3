@@ -1,4 +1,91 @@
-﻿
+﻿gov_roman_senate = {
+	transfer_of_power = parliamentary_elective
+	new_leader_on_reform_government = yes
+
+	male_ruler = "RULER_TITLE_SENATOR"
+	female_ruler = "RULER_TITLE_SENATRIX"
+	
+	possible = {
+		has_law = law_type:law_parliamentary_republic
+		country_has_voting_franchise = yes
+		any_primary_culture = {
+			has_discrimination_trait = romance_speaker
+			has_discrimination_trait = european_heritage
+		}
+	}
+
+	on_government_type_change = {
+		change_to_parliamentary_elective = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_parliamentary_elective = yes
+	}
+}
+
+gov_roman_senate_dictatorship = {
+	transfer_of_power = dictatorial
+
+	male_ruler = "RULER_TITLE_DICTATOR"
+	female_ruler = "RULER_TITLE_DICTATRIX"
+	
+	possible = {
+		has_law = law_type:law_parliamentary_republic
+		country_has_voting_franchise = no
+		any_primary_culture = {
+			has_discrimination_trait = romance_speaker
+			has_discrimination_trait = european_heritage
+		}
+	}
+
+	on_government_type_change = {
+		change_to_dictatorial = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_dictatorial = yes
+	}
+}
+
+gov_haudenosaunee_confederacy = {
+	transfer_of_power = parliamentary_elective
+	new_leader_on_reform_government = yes
+
+	male_ruler = "RULER_TITLE_SACHEM"
+	female_ruler = "RULER_TITLE_SACHEM"
+	
+	possible = {
+		has_law = law_type:law_parliamentary_republic
+		country_has_voting_franchise = yes
+		c:IRO ?= this
+	}
+
+	on_government_type_change = {
+		change_to_parliamentary_elective = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_parliamentary_elective = yes
+	}
+}
+
+gov_haudenosaunee_confederacy_dictatorship = {
+	transfer_of_power = dictatorial
+
+	male_ruler = "RULER_TITLE_TADODAHO"
+	female_ruler = "RULER_TITLE_TADODAHO"
+	
+	possible = {
+		has_law = law_type:law_parliamentary_republic
+		country_has_voting_franchise = no
+		c:IRO ?= this
+	}
+
+	on_government_type_change = {
+		change_to_dictatorial = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_dictatorial = yes
+	}
+}
+
 gov_daijo-kan = {
 	transfer_of_power = parliamentary_elective
 	new_leader_on_reform_government = yes

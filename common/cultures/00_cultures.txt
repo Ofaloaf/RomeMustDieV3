@@ -4912,27 +4912,31 @@ russian={
 	religion = nicene
 	traits = { east_slavic european_heritage }
 	male_common_first_names={
-		Aleksandr Alexei Andrei Anton
+		Aleksandr Alexei Andrei Anton Artemiy
 		Boris
 		Dmitry
-		Fyodor
+		Epifany
+		Fyodor Filofei
 		Gennady Giorgi Grigoriy
-		Igor Ivan
-		Kirill Konstantin
-		Lavr Leonid Lev
-		Maxim Mikhail
-		Nikita Nikolai
+		Igor Ivan Ilarion Iona
+		Kirill Konstantin Kozma
+		Lavr Leonid Lev Luka
+		Maxim Mikhail Makary
+		Nikita Nikolai Nikodim
 		Oleg
-		Pavel Pyotr
+		Pavel Pyotr Platon
 		Roman
 		Semyon Sergei
-		Valery Vasily Viktor Vladimir Vladislav
+		Trifon
+		Valery Vasily Viktor Vladimir Vladislav Vissarion
 		Yegor Yevgeny Yuri
+		Zhidoslav
 	}
 	female_common_first_names = {
-		Aleksandra Anastasiya Anna Avdotya
+		Aleksandra Anastasiya Anna Avdotya Agafokleya
 		Daria
 		Elena Elizabeta Evgenia Evlalia
+		Feodosia
 		Kira
 		Lydia Lyobov
 		Maria
@@ -4944,45 +4948,46 @@ russian={
 		Zinaida
 	}	
 	noble_last_names = {
-		Alexeyevich Andreyevich
-		Bogolyubsky Bestuzhev-Ryumin Bulatovich Buturlin
-		Dolgorukov Demidov Dolgoruky Dmitriyevich
-		Fikelmon
-		Greig Gruzinsky Golitsyn Grigoryevich Gorchakov
+		Alexeyevich Andreyevich Anrep
+		Bogolyubsky Bestuzhev-Ryumin Bulatovich Buturlin Bunin Berezovsky Bobrinsky 
+		Dolgorukov Demidov Dolgoruky Dmitriyevich Durnovo
+		Gruzinsky Grigoryevich Gorchakov
 		Ignatiev Ivelich Ivanovich
-		Kamensky Krymsky Kushelev-Bezborodko Kutaisov Kurakin
+		Kamensky Krymsky Kushelev-Bezborodko Kutaisov Kurakin Kuritsyn Khilkov Khvostov Karetnikov Kurbsky
 		Hoyningen-Huene
-		Lopukhin Lobanov-Rostovsky Lukich
-		Matveyev Meshchersky Mikhailovich
+		Lopukhin Lobanov-Rostovsky Lukich Laptev Lyapunov
+		Matveyev Meshchersky Mikhailovich Menshikov
+		Naryshkin 
 		Orlov Obolensky
-		Pistohlkors Putyatin Petrovich
-		Rostopchin Rumyantsev Romanov
-		Saltykov Sergeyevich
-		Tolstoy
-		Volkonsky Vladimirovich
-		Witte
+		Putyatin Petrovich
+		Rostopchin Rumyantsev Romanov Romodanovsky 
+		Saltykov Sergeyevich Sheremetev Shuvalov Shuysky Streshnev Stroganov Subbotin
+		Tolstoy Turbin
+		Volkonsky Vladimirovich Vorontsov
 		Yengalychev Yusupov Yuryevsky 
+		Zubov
 	}
 	common_last_names={
-		Alexseyev Antonov Azarov
-		Badanov Brusilov Budyonny
-		Chibisov
-		Denikin Dragomirov
-		Frolov
-		Golovin Grishin Gurko
+		Alexseyev Antonov Andreyev Anuchin Artemyev
+		Badanov Brusilov Budyonny Berezovsky Belskiy Beketov Bezobrazov
+		Chibisov Chorny
+		Denikin Dragomirov Dubasov
+		Frolov Farmakovsky
+		Golovin Grishin Gurko Gorodtsov Gerasimov
 		Ivanov
-		Kasso Kolchak Konev Konstantinov Kornilov Kuropatkin
+		Kasso Kolchak Konev Konstantinov Kornilov Kuropatkin Kobylin Kondakov Kozlov
 		Lazarev
-		Makarov Menshikov 
+		Makarov Menshikov Matyushkin Morozov
 		Nakhimov Nebogatov Nikolaevich
-		Ostrovsky
-		Pavlov Putyatin
-		Rozhestvensky
-		Shuvalov Skobelev Surkov Sorokin
-		Tukhachevsky
-		Vorontsov Voroshilov 
-		Yegorov Yudenich
-		Zavoyko
+		Ostrovsky Olenin Ovchinnikov
+		Pavlov Putyatin Przhevalsky Pakhomov Polenov Prakhov Perfilyev
+		Rozhestvensky Rushanin Rublev
+		Shuvalov Skobelev Surkov Sorokin Skopkin Samokvasov Semenkovich Svirsky Sorsky Sanin Skuratov
+		Timofeyevich Turbin 
+		Uspensky Uvarov
+		Vorontsov Voroshilov Voronkov Veselovsky Vyrodkov Viskovatyi
+		Yegorov Yudenich Yakovlev Yaroslavov
+		Zavoyko Zakharyin Zotov Zarutsky
 	}
 	male_regal_first_names = {
 		Aleksandr Alexei
@@ -4995,6 +5000,7 @@ russian={
 	female_regal_first_names = {
 		Anastasiya Anna
 		Elena Elizabeta Evgenia
+		Feodosia
 		Kira
 		Maria
 		Olga
@@ -5010,6 +5016,7 @@ russian={
 		Obolensky
 		Pavlovich
 		Romanov
+		Sheremetev
 		Vladimirovich
 		Yurievich
 	}
@@ -5074,6 +5081,7 @@ byelorussian={
 		Bodganovich Bonch-Bruyevich Balahovich Byalynitsky-Birulya Baratinski
 		Ciarlecki
 		Domeyko Dunin-Martsynkevich Dovnar-Zapolsky
+		Glinka
 		Hurynowicz
 		KalinoU_ski Khrutski Kalavur Korsak
 		Lastouski Luckievich Lutsevich 
@@ -5154,7 +5162,7 @@ ukrainian={
 		Xenia
 		Yevheniya Yaroslava
 	}
-	regal_common_last_names = {
+	regal_last_names = {
 		Dmytrovych
 		Mstyslavytch
 		Olgovych
@@ -5163,17 +5171,18 @@ ukrainian={
 		Volodymyrovych
 	}
 	noble_last_names = {
+		Annenkov
 		Bezborodko Balaban 
 		Chubynsky Czajkowski
 		Drahomanov Doroshenko Drahomanov Domontovych Drevchenko
 		Gogol-Yanovsky Gorlenko
 		Hnizdovsky Hrekov Hrushevsky Hertsyk Holovatsky
 		Karaszewicz-Tokarzewski Kobyliansky Konysky Kropyvnytsky Kulish Kuilovskiy Kochubey Khanenko
-		Levytsky Lototsky Lyzohub Lysenko Lypynsky
+		Levytsky Lototsky Lyzohub Lysenko Lypynsky Lysianskyi
 		Mazepa
 		Nelyubovych Nemyrych
 		Ohonovsky Omelianovych-Pavlenko Ortynsky Ostroz_ki Orlyk
-		Petrushevych
+		Petrushevych Poltoratskyi
 		Rodzianko Rozumovskyi 
 		Sas-Kuilovsky Shakhovskoy Sheptytsky Skoropadskyi 
 		Tereshchenko Tishkevich Tukalskyi
@@ -5187,7 +5196,7 @@ ukrainian={
 		Dyachenko Doroshenko 
 		Fedorenko Fyodorovich
 		Gamula Grigoriev
-		Hrekov Hladyshevsky Herasymenko Holovatskyi Holubovych Hlavatskyi Hrushevsky Hlushko Honcharuk Hryhoruk Hryhorovych
+		Hrekov Hladyshevsky Herasymenko Holovatskyi Holubovych Hlavatskyi Hrushevsky Hlushko Honcharuk Hryhoruk Hryhorovych Halushchynskyi
 		Ivanenko Ivanov Ivanovskiy
 		Kapustiansky Kondratenko Kovalchuk Kozytskiy Krushelnytskyi Kabachok Khotkevych Kopan Kornievsky Kucherenko Kravchenko Kovalenko Kushnirenko Kravchenko Kolisnychenko Kazakau
 		Leshchenko Leshchinskiy Lukashevych Levchenko Lysenko Lazinski

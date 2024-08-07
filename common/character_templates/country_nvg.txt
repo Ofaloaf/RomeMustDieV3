@@ -1,0 +1,17 @@
+﻿NVG_ruler = { # Akinfiy Kamensky
+	first_name = Akinfiy
+	last_name = Kamensky
+	historical = yes
+	culture = cu:russian
+	religion = rel:nicene
+	ruler = yes
+	female = no
+	age = 56
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	traits = {
+		bigoted
+		persistent
+		master_bureaucrat
+	}
+}

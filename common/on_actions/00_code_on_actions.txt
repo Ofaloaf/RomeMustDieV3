@@ -50,7 +50,6 @@ on_monthly_pulse_country = {
 		dei_breakup.1
 		poland_events.3 # Polish Unification
 		colonial_administration_events.2 # African Colony Radicals
-		caudillo.1
 		sa_migration.5
 		amazonas.1 # Taming Amazonia
 		#paraguay.11 # Paraguay War
@@ -145,7 +144,6 @@ on_yearly_pulse_country = {
 		if = {
 			limit = {
 				NOR = {
-					has_journal_entry = je_sick_man_main # Ottomans have enough required reforms to worry about
 					has_journal_entry = je_meiji_restoration # Ditto for Japan
 					has_variable = gov_petition_fired
 					has_variable = gov_petition_cooldown
@@ -672,28 +670,6 @@ on_character_death = {
 				has_template = garibaldi_character_template
 			}
 			remove_global_variable = garibaldi_is_alive_global_var
-		}
-		### Caudillo Kingmaker
-		if = {
-			limit = {
-				NOT = { has_variable = caudillo_kingmaker }
-				has_role = politician
-				interest_group = {
-					is_interest_group_type = ig_armed_forces
-					is_marginal = no
-				}
-				owner = {
-					in_election_campaign = no
-					country_has_voting_franchise = yes
-					OR = {
-						has_journal_entry = je_caudillo
-						has_modifier = age_of_caudillos_modifier
-					}
-				}
-			}
-			owner = {
-				trigger_event = { id = caudillo.5 days = 1 }
-			}
 		}
 	}
 }
@@ -2013,27 +1989,6 @@ on_law_enactment_pass = {
 		}
 		if = {
 			limit = {
-				has_journal_entry = je_pedro_republic
-				is_enacting_law = law_type:law_presidential_republic
-			}
-			set_variable = { name = hide_ruler_change_notification days = 3 }
-			ruler = { place_character_in_void = 6 }
-			trigger_event = { id = pedro.10 popup = yes days = 1 }
-		}
-		if = {
-			limit = {
-				has_modifier = brazil_slaving_pariah_modifier
-				has_law = law_type:law_slave_trade
-				OR = {
-					is_enacting_law = law_type:law_debt_slavery
-					is_enacting_law = law_type:law_legacy_slavery
-					is_enacting_law = law_type:law_slavery_banned
-				}
-			}
-			remove_modifier = brazil_slaving_pariah_modifier
-		}
-		if = {
-			limit = {
 				OR = {
 					has_modifier = unrestricted_slave_trade_modifier
 					has_modifier = restricted_slave_trade_modifier
@@ -2125,56 +2080,6 @@ on_law_enactment_ended = {
 # null law
 on_law_activated = {
 	effect = {
-		if = {
-			limit = {
-				c:BRZ ?= {
-					has_journal_entry = je_matter_of_slavery
-					OR = {
-						has_modifier = unrestricted_slave_trade_modifier
-						has_modifier = restricted_slave_trade_modifier
-						has_modifier = slave_shipments_intercepted_small
-						has_modifier = slave_shipments_intercepted_large
-					}
-					OR = {
-						has_law = law_type:law_debt_slavery
-						has_law = law_type:law_legacy_slavery
-					}
-				}
-			}
-			c:BRZ ?= {
-				if = {
-					limit = {
-						has_modifier = unrestricted_slave_trade_modifier
-					}
-					remove_modifier = unrestricted_slave_trade_modifier
-				}
-				if = {
-					limit = {
-						has_modifier = restricted_slave_trade_modifier
-					}
-					remove_modifier = restricted_slave_trade_modifier
-				}
-				if = {
-					limit = {
-						has_modifier = slave_shipments_intercepted_small
-					}
-					remove_modifier = slave_shipments_intercepted_small
-				}
-				if = {
-					limit = {
-						has_modifier = slave_shipments_intercepted_large
-					}
-					remove_modifier = slave_shipments_intercepted_large
-				}
-				if = {
-					limit = {
-						has_variable = var_slave_trade_suppression_var
-					}
-					remove_variable = var_slave_trade_suppression_var
-				}
-			}
-		}
-		# removed Brazil Matter of Slavery JE ref
 	}
 }
 
@@ -2215,14 +2120,6 @@ on_revolution_start = {
 				}
 			}
 			set_variable = anti_monarchist_revolution
-		}
-		if = {
-			limit = {
-				has_journal_entry = je_warlord_china
-				NOT = { has_variable = china_warlord_explosion_revolution }
-			}
-			chi_remove_1_fragile_unity = yes
-			set_variable = china_warlord_explosion_revolution
 		}
 		if = {
 			limit = {
@@ -2334,332 +2231,6 @@ on_civil_war_won = {
 				has_variable = revolutionary_prov_gov_var
 			}
 			trigger_event = { id = provisional_government_events.1 days = 7 popup = yes }
-		}
-
-		##### FRENCH MONARCHISTS WHEN A CIVIL WAR IS WON #####
-
-		### Orleanists
-		if = {
-			limit = {
-				c:FRA ?= this
-				has_law = law_type:law_monarchy
-				any_interest_group = {
-					is_in_government = yes
-					is_strongest_ig_in_government = yes
-					leader = {	
-						has_ideology = ideology:ideology_orleanist
-					}
-				}
-				NOT = { has_variable = one_true_french_dynasty }
-			}
-
-			### Reset AI to support Orleanists. Players can continue to support any dynasty they like ###
-			if = {
-				limit = {
-					is_player = no
-					has_variable = supporting_bonapartist_var
-				}
-				remove_variable = supporting_bonapartist_var
-			}
-			if = {
-				limit = {
-					is_player = no
-					has_variable = supporting_legitimist_var
-				}
-				remove_variable = supporting_legitimist_var
-			}
-			if = {
-				limit = {
-					is_player = no
-					NOT = { has_variable = supporting_orleanist_var }
-				}
-				set_variable = {
-					name = supporting_orleanist_var
-				}
-			}
-			### 
-
-			# Generate an Orleanist monarch if somehow there's not an Orleanist in charge and it's either the AI, or the player has set a restoration variable and something's just gotten buggy. 
-			# If France is controlled by a player and a dynasty other than the Orleanists has been restored to the throne, nothing in this section applies.
-			if = {
-				limit = {
-					any_scope_character = {
-						is_ruler = yes
-						NOT = { has_variable = orleanist_leader }
-					}
-					OR = {
-						is_player = no
-						AND = {
-							is_player = yes
-							has_variable = orleanist_restoration_var
-						}
-					}
-				}
-				generate_french_monarch = yes
-				if = {
-					limit = {
-						has_variable = bonapartist_restoration_var
-					}
-					remove_variable = bonapartist_restoration_var
-				}
-				if = {
-					limit = {
-						has_variable = legitimist_restoration_var
-					}
-					remove_variable = legitimist_restoration_var
-				}
-				if = {
-					limit = {
-						NOT = { has_variable = orleanist_restoration_var }
-					}
-					set_variable = orleanist_restoration_var
-				}
-			}
-			###
-
-			# If France somehow doesn't have the monarchist JEs, it (re)gains them
-			if = {
-				limit = {
-					NOT = { has_journal_entry = je_divided_monarchists }
-					has_dlc_feature = voice_of_the_people_content
-				}
-				if = {
-					limit = {
-						has_variable = fra_divided_monarchists_freeze
-					}
-					remove_variable = fra_divided_monarchists_freeze
-				}
-				add_journal_entry = {
-					type = je_divided_monarchists
-				}
-			}
-
-			if = {
-				limit = {
-					has_variable = orleanist_restoration_var
-					NOT = { has_journal_entry = je_cement_the_rightful_dynasty }
-					has_dlc_feature = voice_of_the_people_content
-				}
-				add_journal_entry = {
-					type = je_cement_the_rightful_dynasty
-				}
-			}
-		}
-
-		### Bonapartists
-		else_if = {
-			limit = {
-				c:FRA ?= this
-				has_law = law_type:law_monarchy
-				any_interest_group = {
-					is_in_government = yes
-					is_strongest_ig_in_government = yes
-					leader = {	
-						has_ideology = ideology:ideology_bonapartist
-					}
-				}
-				NOT = { has_variable = one_true_french_dynasty }
-			}
-
-			### Reset AI to support Bonapartists. Players can continue to support any dynasty they like ###
-			if = {
-				limit = {
-					is_player = no
-					has_variable = supporting_orleanist_var
-				}
-				remove_variable = supporting_orleanist_var
-			}
-			if = {
-				limit = {
-					is_player = no
-					has_variable = supporting_legitimist_var
-				}
-				remove_variable = supporting_legitimist_var
-			}
-			if = {
-				limit = {
-					is_player = no
-					NOT = { has_variable = supporting_bonapartist_var }
-				}
-				set_variable = {
-					name = supporting_bonapartist_var
-				}
-			}
-			### 
-
-			# Generate a Bonapartist monarch if somehow there's not an Bonapartist in charge and it's either the AI, or the player has set a restoration variable and something's just gotten buggy. 
-			# If France is controlled by a player and a dynasty other than the glorious house of Bonaparte has been restored to the throne, nothing in this section applies.
-			if = {
-				limit = {
-					any_scope_character = {
-						is_ruler = yes
-						NOT = { has_variable = bonapartist_leader }
-					}
-					OR = {
-						is_player = no
-						AND = {
-							is_player = yes
-							has_variable = bonapartist_restoration_var
-						}
-					}
-				}
-				generate_french_monarch = yes
-				if = {
-					limit = {
-						has_variable = orleanist_restoration_var
-					}
-					remove_variable = orleanist_restoration_var
-				}
-				if = {
-					limit = {
-						has_variable = legitimist_restoration_var
-					}
-					remove_variable = legitimist_restoration_var
-				}
-				if = {
-					limit = {
-						NOT = { has_variable = bonapartist_restoration_var }
-					}
-					set_variable = bonapartist_restoration_var
-				}
-			}
-			###
-
-			# If France somehow doesn't have the monarchist JEs, it (re)gains them
-			if = {
-				limit = {
-					NOT = { has_journal_entry = je_divided_monarchists }
-					has_dlc_feature = voice_of_the_people_content
-				}
-				if = {
-					limit = {
-						has_variable = fra_divided_monarchists_freeze
-					}
-					remove_variable = fra_divided_monarchists_freeze
-				}
-				add_journal_entry = {
-					type = je_divided_monarchists
-				}
-			}
-
-			if = {
-				limit = {
-					has_variable = bonapartist_restoration_var
-					NOT = { has_journal_entry = je_cement_the_rightful_dynasty }
-					has_dlc_feature = voice_of_the_people_content
-				}
-				add_journal_entry = {
-					type = je_cement_the_rightful_dynasty
-				}
-			}
-		}
-
-		### Legitimists
-		else_if = {
-			limit = {
-				c:FRA ?= this
-				has_law = law_type:law_monarchy
-				any_interest_group = {
-					is_in_government = yes
-					is_strongest_ig_in_government = yes
-					leader = {	
-						has_ideology = ideology:ideology_legitimist
-					}
-				}
-				NOT = { has_variable = one_true_french_dynasty }
-			}
-
-			### Reset AI to support Legitimists. Players can continue to support any dynasty they like ###
-			if = {
-				limit = {
-					is_player = no
-					has_variable = supporting_bonapartist_var
-				}
-				remove_variable = supporting_bonapartist_var
-			}
-			if = {
-				limit = {
-					is_player = no
-					has_variable = supporting_orleanist_var
-				}
-				remove_variable = supporting_orleanist_var
-			}
-			if = {
-				limit = {
-					is_player = no
-					NOT = { has_variable = supporting_legitimist_var }
-				}
-				set_variable = {
-					name = supporting_legitimist_var
-				}
-			}
-			### 
-
-			# Generate a Legitimist monarch if somehow there's not an Legitimist in charge and it's either the AI, or the player has set a restoration variable and something's just gotten buggy. 
-			# If France is controlled by a player and a dynasty other than the house of Bourbon has been restored to the throne, nothing in this section applies.
-			if = {
-				limit = {
-					any_scope_character = {
-						is_ruler = yes
-						NOT = { has_variable = legitimist_leader }
-					}
-					OR = {
-						is_player = no
-						AND = {
-							is_player = yes
-							has_variable = legitimist_restoration_var
-						}
-					}
-				}
-				generate_french_monarch = yes
-				if = {
-					limit = {
-						has_variable = orleanist_restoration_var
-					}
-					remove_variable = orleanist_restoration_var
-				}
-				if = {
-					limit = {
-						has_variable = bonapartist_restoration_var
-					}
-					remove_variable = bonapartist_restoration_var
-				}
-				if = {
-					limit = {
-						NOT = { has_variable = legitimist_restoration_var }
-					}
-					set_variable = legitimist_restoration_var
-				}
-			}
-			###
-
-			# If France somehow doesn't have the monarchist JEs, it (re)gains them
-			if = {
-				limit = {
-					NOT = { has_journal_entry = je_divided_monarchists }
-					has_dlc_feature = voice_of_the_people_content
-				}
-				if = {
-					limit = {
-						has_variable = fra_divided_monarchists_freeze
-					}
-					remove_variable = fra_divided_monarchists_freeze
-				}
-				add_journal_entry = {
-					type = je_divided_monarchists
-				}
-			}
-
-			if = {
-				limit = {
-					has_variable = legitimist_restoration_var
-					NOT = { has_journal_entry = je_cement_the_rightful_dynasty }
-					has_dlc_feature = voice_of_the_people_content
-				}
-				add_journal_entry = {
-					type = je_cement_the_rightful_dynasty
-				}
-			}
 		}
 	}
 }

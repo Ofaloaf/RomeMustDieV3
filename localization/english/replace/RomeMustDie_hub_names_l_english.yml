@@ -359,6 +359,12 @@
  #
  STATE_SAXONY: "Thuringia"
  #
+ STATE_FRANCONIA: "Regana"
+ HUB_NAME_STATE_FRANCONIA_city: "Norenberg" # Nuremberg
+ HUB_NAME_STATE_FRANCONIA_mine: "Baierrute" # Bayreuth
+ HUB_NAME_STATE_FRANCONIA_farm: "Trufalistat" # Coburg
+ HUB_NAME_STATE_FRANCONIA_wood: "Uburzis" # Wurzburg
+ #
  STATE_HESSE: "Hassia"
  HUB_NAME_STATE_HESSE_city: "Chassalla" # Kassel.
  HUB_NAME_STATE_HESSE_mine: "Giezzen" # Giessen
@@ -611,6 +617,18 @@
  HUB_NAME_STATE_DELVIDEK_farm: "Tysia"
  HUB_NAME_STATE_DELVIDEK_wood: "Zabotka"
  #
+ STATE_NORTHERN_TRANSYLVANIA: "Samosius"
+ HUB_NAME_STATE_NORTHERN_TRANSYLVANIA_city: "Napoca"
+ HUB_NAME_STATE_NORTHERN_TRANSYLVANIA_mine: "Georgiopolis"
+ HUB_NAME_STATE_NORTHERN_TRANSYLVANIA_farm: "Asserculis"
+ HUB_NAME_STATE_NORTHERN_TRANSYLVANIA_wood: "Porolissum"
+ #
+ STATE_SOUTHERN_TRANSYLVANIA: "Apulensis"
+ HUB_NAME_STATE_SOUTHERN_TRANSYLVANIA_city: "Barsa"
+ HUB_NAME_STATE_SOUTHERN_TRANSYLVANIA_mine: "Cedonia"
+ HUB_NAME_STATE_SOUTHERN_TRANSYLVANIA_farm: "Apulum" # Alba Iulia
+ HUB_NAME_STATE_SOUTHERN_TRANSYLVANIA_wood:1 "Deva"
+ #
  STATE_SLOVENIA: "Carniola"
  HUB_NAME_STATE_SLOVENIA_city: "Emona" # Ljubljana
  HUB_NAME_STATE_SLOVENIA_mine: "Poetovio" # Ptuj
@@ -670,6 +688,17 @@
  #
  STATE_BULGARIA: "Moesia"
  HUB_NAME_STATE_BULGARIA_city: "Sredets" # Sofia
+ HUB_NAME_STATE_BULGARIA_port:0 "Varna"
+ HUB_NAME_STATE_BULGARIA_mine: "Tarnovgrad"
+ HUB_NAME_STATE_BULGARIA_farm:0 "Shumen"
+ HUB_NAME_STATE_BULGARIA_wood: "Storgosia" # Pleven
+ #
+ STATE_DOBRUDJA: "Scythia Minor"
+ HUB_NAME_STATE_DOBRUDJA_city: "Aigissós"
+ HUB_NAME_STATE_DOBRUDJA_port: "Tomis"
+ HUB_NAME_STATE_DOBRUDJA_mine: "Abrittum"
+ HUB_NAME_STATE_DOBRUDJA_farm: "Callatis"
+ HUB_NAME_STATE_DOBRUDJA_wood: "Istrum"
  #
  STATE_NORTHERN_THRACE: "Northern Thrace"
  HUB_NAME_STATE_NORTHERN_THRACE_city: "Pulpudeva"

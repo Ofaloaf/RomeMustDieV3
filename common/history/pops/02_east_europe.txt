@@ -790,7 +790,7 @@
 			}
 			create_pop = {
 				culture = slovak
-				religion = slavic_paganf
+				religion = slavic_pagan
 				size = 208852
 			}
 			create_pop = {

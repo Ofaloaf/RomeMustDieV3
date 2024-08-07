@@ -209,6 +209,42 @@
 				count = 1
 			}
 			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_STYRIA
+				count = 3
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SLOVENIA
+				count = 1
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TUNISIA
+				count = 2
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_TUNISIA
+				count = 3
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_CONSTANTINE
+				count = 2
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_TUNISIA
+				count = 3
+			}
+			
 			save_scope_as = legio_iii
 		}
 		
@@ -326,50 +362,8 @@
 		
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_north_africa
-			name = Legio_V
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_STYRIA
-				count = 3
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SLOVENIA
-				count = 1
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_TUNISIA
-				count = 2
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_TUNISIA
-				count = 3
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_CONSTANTINE
-				count = 2
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_TUNISIA
-				count = 3
-			}
-		}
-		
-		create_military_formation = {
-			type = army
 			hq_region = sr:region_iberia
-			name = Legio_VII
+			name = Legio_V
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
@@ -404,7 +398,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_ARAGON
-				count = 4
+				count = 1
 			}
 			
 			combat_unit = {
@@ -428,24 +422,18 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_CATALONIA
-				count = 4
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_TOLEDO
-				count = 3
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_BADAJOZ
 				count = 2
 			}
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_CASTILE
+				state_region = s:STATE_TOLEDO
+				count = 2
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_BADAJOZ
 				count = 2
 			}
 			

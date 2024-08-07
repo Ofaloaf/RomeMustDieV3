@@ -443,6 +443,8 @@
   HLV_ADJ: "Helvetian"
   RSM: "Loegria" # overwrite of San Marco
   RSM_ADJ: "Loegrian"
+  BAV: "Baiuvaria"
+  BAV_ADJ: "Baiuvarian"
   #
   dyn_c_western_roman_empire: "Western Roman Empire"
   dyn_c_western_roman_empire_adj: "Roman"
@@ -502,3 +504,11 @@
   dyn_c_indo_gangetic_union_adj: "Indo-Gangetic"
   dyn_c_indo_gangetic_free_territory: "Indo-Gangetic Free Territory"
   dyn_c_indo_gangetic_free_territory_adj: "Indo-Gangetic"
+  dyn_c_commune_of_constantinople: "Commune of Constantinople"
+  dyn_c_commune_of_constantinople_adj: "Constantinopolitan"
+  dyn_c_plebeian_council_of_rome: "Plebeian Council of Rome"
+  dyn_c_plebeian_council_of_rome_adj: "Roman"
+  dyn_c_plebeian_council_of_romans: "Plebeian Council of Romans"
+  dyn_c_plebeian_council_of_romans_adj: "Roman"
+  dyn_c_lutetian_commune: "Lutetian Commune"
+  dyn_c_lutetian_commune_adj: "Lutetian"

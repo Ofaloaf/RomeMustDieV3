@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:HNN = {
+		create_character = {
+			template = HNN_ruler	# Khinialon Sungur
+		}
+		
+		create_character = {
+			template = HNN_heir		# Apsich Sungar
+		}
+		
+		#create_character = { # created and assigned in military formations
+		#	template = HNN_general_01
+		#}
+	}
+}
