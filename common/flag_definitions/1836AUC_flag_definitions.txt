@@ -420,7 +420,7 @@ LIT = { # Lithuania
 	}	
 	
 	flag_definition = {
-		coa = LIT_disco_communist #LIT_communist
+		coa = LIT_communist
 		priority = 1500
 		trigger = { 
 			coa_def_communist_flag_trigger = yes

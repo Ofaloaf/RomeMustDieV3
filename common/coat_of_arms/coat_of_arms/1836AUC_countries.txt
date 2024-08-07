@@ -61,11 +61,11 @@ WRE_communist = {
 
 WRE_odoacer = { # based on Odoacer-issued solidus that featured a Winged Victory
 	pattern = "pattern_solid.tga"
-	color1 = "yellow_light"
+	color1 = "yellow_dark"
 
 	colored_emblem = {
 		texture = "ce_border_compony.dds"
-		color1 = "yellow_light"
+		color1 = "yellow_dark"
 		color2 = "red_dark"
 	}
 
@@ -90,10 +90,10 @@ WRE_rebel_usurper_labarum = { #
 		texture = "ce_circle.dds"
 		color1 = "yellow"
 		color2 = "yellow"
-		instance = { scale = { 0.33 0.33 } position = { 0.125 0.5 } }
-		instance = { scale = { 0.33 0.33 } position = { 0.875 0.5 } }
-		instance = { scale = { 0.33 0.33 } position = { 0.5 0.125 } }
-		instance = { scale = { 0.33 0.33 } position = { 0.5 0.875 } }
+		instance = { scale = { 0.33 0.33 } position = { 0.18 0.5 } }
+		instance = { scale = { 0.33 0.33 } position = { 0.82 0.5 } }
+		instance = { scale = { 0.33 0.33 } position = { 0.5 0.22 } }
+		instance = { scale = { 0.33 0.33 } position = { 0.5 0.78 } }
 	}
 }
 
@@ -120,7 +120,7 @@ ERE = { # Eastern Roman Empire
 
 	colored_emblem = {
 		texture = "ce_border_compony.dds"
-		color1 = "yellow"
+		color1 = "white"
 		color2 = "purple"
 	}
 
@@ -164,10 +164,10 @@ ERE_rebel_usurper_labarum = { #
 		texture = "ce_circle.dds"
 		color1 = "yellow"
 		color2 = "yellow"
-		instance = { scale = { 0.33 0.33 } position = { 0.125 0.5 } }
-		instance = { scale = { 0.33 0.33 } position = { 0.875 0.5 } }
-		instance = { scale = { 0.33 0.33 } position = { 0.5 0.125 } }
-		instance = { scale = { 0.33 0.33 } position = { 0.5 0.875 } }
+		instance = { scale = { 0.33 0.33 } position = { 0.18 0.5 } }
+		instance = { scale = { 0.33 0.33 } position = { 0.82 0.5 } }
+		instance = { scale = { 0.33 0.33 } position = { 0.5 0.22 } }
+		instance = { scale = { 0.33 0.33 } position = { 0.5 0.78 } }
 	}
 }
 
