@@ -65,6 +65,11 @@
 		add_declared_interest = region_central_america
 	}
 
+  # Frankia
+  c:FRK ?= {
+		add_declared_interest = region_congo
+	}
+
 
 
 

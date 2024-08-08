@@ -822,6 +822,16 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Frankia
+	c:FRK ?= {	
+		create_trade_route = {
+			goods = dye
+			level = 5
+			direction = import
+			target = c:CHO.market
+		}
+    }
+
 
 
 
