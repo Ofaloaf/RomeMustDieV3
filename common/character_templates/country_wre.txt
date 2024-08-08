@@ -7,6 +7,8 @@
     interest_group = ig_landowners
     traits = {
         arrogant
+		ambitious
+		personal_debt
     }
 }
 
@@ -19,6 +21,7 @@ wre_heir = {
     interest_group = ig_petty_bourgeoisie
     traits = {
         reckless
+		bad_diplomat
     }
 }
 

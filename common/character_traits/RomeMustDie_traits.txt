@@ -16,6 +16,7 @@
 
 	country_modifier = {
 		country_influence_mult = -0.1
+		country_infamy_decay_mult = -0.25
 	}
 
 	possible = {
@@ -28,7 +29,7 @@
 	}
 
 	weight = {
-		value = 20
+		value = 10
 		if = {
 			limit = {
 				OR = {
@@ -42,9 +43,9 @@
 		if = {
 			limit = {
 				OR = {
+					has_trait = senile
+					has_trait = alcoholic
 					has_trait = imperious
-					has_trait = wrathful
-					has_trait = reckless
 				}
 			}
 			multiply = 2
@@ -73,27 +74,25 @@ paranoid = {
 	}
 
 	interest_group_modifier = {
-		interest_group_pop_attraction_mult = -0.1
-		interest_group_pol_str_mult = 0.05
+		interest_group_pop_attraction_mult = -0.05
+		interest_group_pol_str_mult = 0.1
 	}
 
 	possible = {
-		NOT = { has_trait = sickly }
 		NOT = { age < define:NCharacters|ADULT_AGE }
 	}
 
 	weight = {
-		value = 1
+		value = 5
 		if = {
 			limit = {
 				has_role = agitator
 			}
-			multiply = 1.5
+			multiply = 3
 		}
 	}
 
 	replace = {	
-		trait_child
 	}
 
 	value = 3

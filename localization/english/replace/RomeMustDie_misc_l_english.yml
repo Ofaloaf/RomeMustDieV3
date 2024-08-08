@@ -177,3 +177,10 @@
   restore_ancient_pantheon: "Restore the Roman Pantheon"
   restore_ancient_pantheon_desc: "What ails our great nation is the pernicious poison of... Christianity. Yes, that's it! By declaring the return of the ancient gods, surely #BOLD this#! will fix things! Oh, my pounding head! Just go out and outlaw Christianity, will you?"
   restore_ancient_pantheon_tt: "#N This will definitely work, and everyone will love this.#!"
+  #
+  bad_diplomat: "Inept Diplomat"
+  bad_diplomat_desc: "This character is particularly bad at diplomacy and the art of speak good."
+  paranoid: "Paranoid"
+  paranoid_desc: "This character suspects everyone, seeing dangers real and imagined everywhere."
+  personal_debt: "Personal Debt"
+  personal_debt_desc: "This character suffers from an acute deficit of funds, through either cruel twists of fate or sheer money-handling incompetence."
