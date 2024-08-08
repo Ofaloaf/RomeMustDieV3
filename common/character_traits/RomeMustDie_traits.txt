@@ -1,9 +1,103 @@
-﻿bad_diplomat = {
+﻿terrible_speaker = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/terrible_speaker.dds"
+
+	character_modifier = {
+		character_popularity_add = -15
+	}
+
+	command_modifier = {
+		character_battle_condition_lost_mult = 0.5 # CANNOT give good directions
+	}
+
+	country_modifier = {
+		country_influence_mult = -0.1
+	}
+
+	agitator_modifier = {
+		interest_group_pop_attraction_mult = -0.1
+	}
+
+	interest_group_modifier = {
+		interest_group_pop_attraction_mult = -0.1
+		interest_group_pol_str_mult = -0.05
+	}
+
+	possible = {
+		NOT = { has_trait = charismatic }
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	weight = {
+		value = 5
+		if = {
+			limit = {
+				has_role = agitator
+			}
+			multiply = 3
+		}
+	}
+
+	replace = {	
+	}
+
+	value = 3
+}
+
+paranoid = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/paranoid.dds"
+
+	character_modifier = {
+		character_popularity_add = -15
+	}
+
+	country_modifier = {
+		country_suppression_ig_attraction_mult = -0.05
+		country_authority_mult = 0.05
+	}
+
+	agitator_modifier = {
+		interest_group_in_government_approval_add = -1
+		interest_group_in_opposition_approval_add = -1
+	}
+
+	interest_group_modifier = {
+		interest_group_pop_attraction_mult = -0.05
+		interest_group_pol_str_mult = 0.1
+	}
+
+	possible = {
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	weight = {
+		value = 5
+		if = {
+			limit = {
+				has_role = agitator
+			}
+			multiply = 3
+		}
+		if = {
+			limit = {
+				has_trait = bandit
+			}
+			multiply = 2
+		}
+	}
+
+	replace = {	
+	}
+
+	value = 3
+}
+
+bad_diplomat = {
 	type = skill
 	texture = "gfx/interface/icons/character_trait_icons/bad_diplomat.dds"
 
 	character_modifier = {
-		character_popularity_add = -10
 	}
 	
 	agitator_modifier = {
@@ -16,7 +110,7 @@
 
 	country_modifier = {
 		country_influence_mult = -0.1
-		country_infamy_decay_mult = -0.25
+		country_legitimacy_ideological_incoherence_mult = 0.25
 	}
 
 	possible = {
@@ -55,47 +149,61 @@
 	value = 2
 }
 
-paranoid = {
-	type = personality
-	texture = "gfx/interface/icons/character_trait_icons/honorable.dds"
+personal_wealth = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/personal_wealth.dds"
 
 	character_modifier = {
-		character_popularity_add = -15
+		character_popularity_add = 10 # wealth generates its own popularity
+	}
+
+	command_modifier = {
+		unit_supply_consumption_mult = -0.1 # can help supply their own troops
 	}
 
 	country_modifier = {
-		country_suppression_ig_attraction_mult = -0.05
-		country_authority_mult = 0.05
+		country_capitalists_pol_str_mult = 0.1
+		country_aristocrats_pol_str_mult = 0.1
 	}
 
 	agitator_modifier = {
-		interest_group_in_government_approval_add = -1
-		interest_group_in_opposition_approval_add = -1
+		interest_group_pol_str_mult = 0.1 # can fund their IG out of their own pockets
 	}
 
 	interest_group_modifier = {
-		interest_group_pop_attraction_mult = -0.05
 		interest_group_pol_str_mult = 0.1
+		interest_group_pop_attraction_mult = 0.05
 	}
 
 	possible = {
+		NOT = { has_trait = personal_debt }
 		NOT = { age < define:NCharacters|ADULT_AGE }
 	}
 
 	weight = {
-		value = 5
+		value = 10
 		if = {
 			limit = {
-				has_role = agitator
+				OR = {
+					has_trait = hedonist
+					has_trait = expensive_tastes
+				}
 			}
-			multiply = 3
+			divide = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = persistent
+					has_trait = meticulous
+					has_trait = grifter
+				}
+			}
+			multiply = 2
 		}
 	}
 
-	replace = {	
-	}
-
-	value = 3
+	value = 2
 }
 
 personal_debt = {
@@ -122,6 +230,7 @@ personal_debt = {
 	}
 
 	possible = {
+		NOT = { has_trait = personal_wealth }
 		NOT = { age < define:NCharacters|ADULT_AGE }
 	}
 
