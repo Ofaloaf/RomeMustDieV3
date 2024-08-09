@@ -169,7 +169,7 @@
 					building={
 						type="building_manor_house"
 						country="c:LOU"
-						levels=2
+						levels=4
 						region="STATE_LOUISIANA"
 					}
 				}
@@ -182,7 +182,7 @@
 					building={
 						type="building_financial_district"
 						country="c:FRK"
-						levels=3
+						levels=1
 						region="STATE_FLANDERS"
 					}
 				}

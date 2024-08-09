@@ -812,6 +812,54 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Vistula
+	c:VST ?= {	
+		create_trade_route = {
+			goods = paper
+			level = 2
+			direction = export
+			target = c:LIT.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 2
+			direction = export
+			target = c:BOH.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:BOH.market
+		}
+    }
+
+	# Moravia
+	c:BOH ?= {	
+		create_trade_route = {
+			goods = grain
+			level = 6
+			direction = import
+			target = c:GAL.market
+		}
+    }
+
+	# Frankia
+	c:FRK ?= {	
+		create_trade_route = {
+			goods = dye
+			level = 5
+			direction = import
+			target = c:CHO.market
+		}
+		create_trade_route = {
+			goods = silk
+			level = 2
+			direction = import
+			target = c:WRE.market
+		}
+    }
+
 
 
 
