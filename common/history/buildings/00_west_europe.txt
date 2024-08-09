@@ -1665,12 +1665,12 @@
 				reserves=1
 				activate_production_methods={  "pm_intensive_grazing_ranch" "pm_standard_fences" "pm_unrefrigerated" "pm_slaughterhouses" }
 			}
-			create_building={
-				building="building_barracks"
-				level=4
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=4
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_PROVENCE={
@@ -1705,12 +1705,12 @@
 				reserves=1
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts" }
 			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=5
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 			create_building={
 				building="building_military_shipyards"
 				level=10
@@ -1751,12 +1751,12 @@
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated"  }
 			}
-			create_building={
-				building="building_barracks"
-				level=10
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=10
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 			create_building={
 				building="building_wheat_farm"
 				level=4
@@ -1821,12 +1821,12 @@
 				reserves=1
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts" }
 			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=5
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 		region_state:GLL={
 			create_building={
@@ -1865,12 +1865,12 @@
 				reserves=1
 				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-			create_building={
-				building="building_barracks"
-				level=10
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=10
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_RHONE={
@@ -1935,12 +1935,12 @@
 				reserves=1
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts" }
 			}
-			create_building={
-				building="building_barracks"
-				level=15
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=15
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_FRENCH_LOW_COUNTRIES={
@@ -2040,12 +2040,12 @@
 				reserves=1
 				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated"  }
 			}	
-			create_building={
-				building="building_barracks"
-				level=6
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=6
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_ALSACE_LORRAINE={
@@ -2142,12 +2142,12 @@
 				reserves=1
 				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-			create_building={
-				building="building_barracks"
-				level=15
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=15
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_AUVERGNE_LIMOUSIN={
@@ -2188,12 +2188,12 @@
 				reserves=1
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts" }
 			}
-			create_building={
-				building="building_barracks"
-				level=25
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=5
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_BRITTANY={
@@ -2304,12 +2304,12 @@
 				reserves=1
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts" }
 			}
-			create_building={
-				building="building_barracks"
-				level=10
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=10
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_CHAMPAGNE={
@@ -2320,12 +2320,12 @@
 				reserves=1
 				activate_production_methods={ "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing" "pm_pot_stills" }
 			}
-			create_building={
-				building="building_barracks"
-				level=10
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=10
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 			create_building={
 				building="building_logging_camp"
 				level=3
@@ -2366,12 +2366,12 @@
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
-			create_building={
-				building="building_barracks"
-				level=10
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=10
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_LORRAINE={
@@ -2400,12 +2400,12 @@
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
-			create_building={
-				building="building_barracks"
-				level=15
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=15
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_AQUITAINE={
@@ -2452,12 +2452,12 @@
 				reserves=1
 				activate_production_methods={ "pm_military_shipbuilding_wooden_2"  }
 			}
-			create_building={
-				building="building_barracks"
-				level=7
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=7
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 			create_building={
 				building="building_port"
 				level=3
@@ -2498,12 +2498,12 @@
 				reserves=1
 				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=5
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_HOLLAND={
@@ -3032,12 +3032,12 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-			create_building={
-				building="building_barracks"
-				level=6
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=6
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_TYROL={
@@ -3070,12 +3070,12 @@
 				reserves=1
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts" }
 			}
-			create_building={
-				building="building_barracks"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=2
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_POMERANIA={
@@ -3208,12 +3208,12 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}			
+#			create_building={
+#				building="building_barracks"
+#				level=5
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}			
 		}
 	}
 	s:STATE_WEST_SWITZERLAND={
@@ -3242,12 +3242,12 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				level=5
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_WESTPHALIA={

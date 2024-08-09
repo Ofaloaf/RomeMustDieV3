@@ -819,3 +819,27 @@ BOH = { # Moravia
 		priority = 100
 	}	
 }
+
+TCR = { # Tuscaroria
+	flag_definition = {
+		coa = TCR
+		subject_canton = TCR
+		priority = 1
+	}
+}
+
+PWT = { # Powhatan/Poguatania
+	flag_definition = {
+		coa = PWT
+		subject_canton = PWT
+		priority = 1
+	}
+}
+
+CTW = { # Catawba
+	flag_definition = {
+		coa = CTW
+		subject_canton = CTW
+		priority = 1
+	}
+}

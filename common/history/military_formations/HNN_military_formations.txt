@@ -8,35 +8,35 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_CENTRAL_HUNGARY
-				count = 2
+				count = 6
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_DELVIDEK
-				count = 1
+				count = 3
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_BANAT
-				count = 2
+				count = 3
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_BEKES
-				count = 3
+				count = 6
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_NORTHERN_TRANSYLVANIA
-				count = 2
+				count = 4
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_TRANSDANUBIA
-				count = 3
+				count = 5
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
+				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_CENTRAL_HUNGARY
 				count = 2
 			}
@@ -46,14 +46,14 @@
 				count = 2
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
+				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_BEKES
-				count = 1
+				count = 2
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
+				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_SOUTHERN_TRANSYLVANIA
-				count = 1
+				count = 2
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
@@ -68,12 +68,12 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_TRANSDANUBIA
-				count = 1
+				count = 2
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_BANAT
-				count = 1
+				count = 2
 			}
 			
 			save_scope_as = royal_hunnic_army

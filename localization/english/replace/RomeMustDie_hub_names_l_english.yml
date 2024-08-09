@@ -854,8 +854,10 @@
  #
  STATE_NEW_JERSEY: "Lënapehòkink" # Lenape Land.
  HUB_NAME_STATE_NEW_JERSEY_city: "Shakamaxon" # Philadelphia. Oh, would Romans latinize that to Shacamacum? Must investigate further.
+ HUB_NAME_STATE_NEW_JERSEY_farm: "Xhohkaxink" # Bridgeton. More properly, this is a possible etymology of the Cohansey River, which Bridgeton sits on.
  HUB_NAME_STATE_NEW_JERSEY_port: "Hupokàn" # Hoboken. Latinize to Hupocum?
  HUB_NAME_STATE_NEW_JERSEY_mine: "Ramapough"
+ HUB_NAME_STATE_NEW_JERSEY_wood: "Mantoloking"
  #
  STATE_NEW_YORK: "Haudenosauneega" # Iroquois/Haudenosaunee Land
  HUB_NAME_STATE_NEW_YORK_city: "Onondaga"
@@ -959,6 +961,9 @@
  STATE_DELAWARE: "Nentego Ahkee"
  HUB_NAME_STATE_DELAWARE_city: "Maaxwaasunk"
  HUB_NAME_STATE_DELAWARE_farm: "Villa Ursana"
+ HUB_NAME_STATE_DELAWARE_port: "Genua Nova"
+ HUB_NAME_STATE_DELAWARE_wood: "Villa Aniciana"
+ HUB_NAME_STATE_DELAWARE_mine: "Carbonaria"
  #
  STATE_NORTH_CAROLINA: "North Caesarina"
  HUB_NAME_STATE_NORTH_CAROLINA_city: "Saura"
