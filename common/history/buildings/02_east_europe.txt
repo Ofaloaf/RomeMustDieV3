@@ -1936,17 +1936,17 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:HNN"
-						levels=15
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				add_ownership={
+#					country={
+#						country="c:HNN"
+#						levels=15
+#					}
+#				}
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_BEKES={
@@ -1977,17 +1977,17 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:HNN"
-						levels=10
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				add_ownership={
+#					country={
+#						country="c:HNN"
+#						levels=10
+#					}
+#				}
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_TRANSDANUBIA={
@@ -2044,17 +2044,17 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:HNN"
-						levels=15
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				add_ownership={
+#					country={
+#						country="c:HNN"
+#						levels=15
+#					}
+#				}
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	# Iazygia
@@ -2099,20 +2099,20 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:HNN"
-						levels=5
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				add_ownership={
+#					country={
+#						country="c:HNN"
+#						levels=5
+#					}
+#				}
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
-	s:STATE_BANAT={
+	s:STATE_BANAT={ # Tibiscus
 		region_state:HNN={
 			create_building={
 				building="building_wheat_farm"
@@ -2153,17 +2153,17 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:HNN"
-						levels=5
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+#			create_building={
+#				building="building_barracks"
+#				add_ownership={
+#					country={
+#						country="c:HNN"
+#						levels=5
+#					}
+#				}
+#				reserves=1
+#				activate_production_methods={ "pm_no_organization" }
+#			}
 		}
 	}
 	s:STATE_WEST_SLOVAKIA={
