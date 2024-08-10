@@ -968,8 +968,8 @@
 			index = 59
 			male = {
 				2 = male_outfit_polynesian_01_low
+				1 = male_outfit_mesoamerica_tilmatli
 				1 = male_outfit_african_common_03
-				
 			}
 			female = {
 				1 = female_outfit_african_common_01
@@ -2916,7 +2916,20 @@
 
 				boy = male
 				girl = female
-			}			
+			}
+
+			northern_cloak = {
+				index = 22
+				male = {
+					1 = male_fur_pelt_cloak_03
+				}
+				female = {
+					1 = female_fur_pelt_cloak_03
+				}
+
+				boy = male
+				girl = female
+			}
 		}
 
 

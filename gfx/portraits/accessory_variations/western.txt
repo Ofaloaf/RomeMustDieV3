@@ -175,6 +175,13 @@ pattern_textures = {
 }
 
 pattern_textures = {
+	name = "western_chainmail_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/all/chainmail_plain_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/all/chainmail_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/all/chainmail_plain_01_properties.dds"
+}
+
+pattern_textures = {
 	name = "velvet_01"
 	colormask	= "gfx/portraits/accessory_variations/textures/patterns/all/velvet_01_masks.dds"
 	normal		= "gfx/portraits/accessory_variations/textures/patterns/all/velvet_01_normal.dds"

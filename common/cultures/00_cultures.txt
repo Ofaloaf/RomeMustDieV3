@@ -12291,30 +12291,30 @@ iroquoian={
 	traits = { indigenous_american_heritage eastern_woodlands }
 	male_common_first_names={
 		Akwiraron Akwirente
-		Domagaya
-		Canaqueese
+		Domagaya Dewaselakeh
+		Canaqueese Cogwagee
 		Ga-Na-Gua Guyasuta Ganio-dai-io Gyantwachia
 		Hadawa-ko Hayonhwonhish Honayawas Hutgohsodoneh
-		Kaintwakon
+		Kaintwakon Kalonyoudyeh Kanonaron Karaghtadie
 		Odeserundiye Onenhariio Ourehouare
 		Skenandoa Sganyodaiyo Sakokwenionkwas Sagoyewatha Sayenqueraghta Sigwaahdohgwih Sosondowa Saonchiogwa
-		Tanacharison Thaonawyuthe Tejonihokarawa Taignoagny Tewahangarahken Taweeratt
+		Tanacharison Thaonawyuthe Tejonihokarawa Taignoagny Tewahangarahken Taweeratt Tyorhansera
 	}
 	female_common_first_names = {
 		Akat Alliquippa
 		Dehhewanis Degonwadonti
 		Gahonnoneh Gowongo
 		Kaniehtiio Kawisenhawe
-		Lydia
+		Ohtowa_kE_hson
 		Tekakwitha Tyonajanegen Tagaskouita Tekahentakwa
 	}
 	noble_last_names = {
 	}
 	common_last_names={
-		AkhwesA_hsne Akawenteaka A_no__wara
-		Canawaugus Chenussio 
+		AkhwesA_hsne Akawenteaka A_no__wara Ahdohwahgeseon
+		Canawaugus Chenussio Canoga
 		Deawendote
-		Ganienkeh Ganandogan Goiogouen Ganneious
+		Ganienkeh Ganandogan Goiogouen Ganneious Ganundasaga
 		KentE__ke Kana_tsioharE__ke Kahnawake KanehsatA__ke Kendaia Katenuaka
 		OhswE__ken Onaquaga
 		Queanettquaga Quinaouatoua

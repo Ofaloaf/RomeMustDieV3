@@ -1205,6 +1205,94 @@
 		}
 	}
 	
+	northern_beserker_agitator = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = northern_low
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = fp1_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = top_layer
+				template = northern_cloak
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		} 
+
+		weight = {
+			base = 0
+			modifier = {
+				add = 5000
+				
+				agitator_character_trigger = yes 
+				scope:character ?= {
+					OR = {
+						is_interest_group_type = ig_armed_forces
+						has_ideology = ideology:ideology_jingoist_leader
+						has_ideology = ideology:ideology_fascist
+					}
+					culture = {
+						has_discrimination_trait = germanic_culture_group
+					}
+				}
+			}
+		}
+	}
+	
+	northern_pagan_devout_agitator = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = northern_european_pagan_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = fp1_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = top_layer
+				template = northern_cloak
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		} 
+
+		weight = {
+			base = 0
+			modifier = {
+				add = 5000
+				
+				agitator_character_trigger = yes 
+				scope:character ?= {
+					OR = {
+						religion = rel:germanic_pagan
+						religion = rel:baltic_pagan
+						religion = rel:slavic_pagan
+					}
+					OR = {
+						is_interest_group_type = ig_devout
+						has_ideology = ideology:ideology_theocrat
+					}
+					culture = {
+						has_discrimination_trait = germanic_culture_group
+					}
+				}
+			}
+		}
+	}
+	
 	northern_monarch = {
 		dna_modifiers = {
 			accessory = {
@@ -1489,7 +1577,7 @@
 				mode = add
 				gene = outfits
 				template = mesoamerican_outfits
-				range = { 0.66 1 } # For the randomness to work correctly
+				range = { 0.75 1 } # For the randomness to work correctly
 			}
         } 
 
@@ -1536,7 +1624,7 @@
 				mode = add
 				gene = outfits
 				template = mesoamerican_outfits
-				range = { 0.66 1 } # For the randomness to work correctly
+				range = { 0.75 1 } # For the randomness to work correctly
 			}
         } 
 
@@ -1559,6 +1647,39 @@
             }
         }
     }
+	
+    mesoamerican_tilmatli_character_clothes = {
+        dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = mesoamerican_outfits
+				accessory = male_outfit_mesoamerica_tilmatli
+			}
+        } 
+		
+        weight = {
+            base = 0
+            modifier = {
+                add = 5000
+				
+				OR = {
+					politician_clothes_trigger = yes
+					military_clothes_trigger = yes
+				}
+				scope:character ?= {
+					is_ruler = no # redundant with politician check but I don't care
+					is_female = no # poncho clips with women's outfits
+					culture = {
+						has_discrimination_trait = native_mesoamerican_culture_group
+					}
+					NOT = {
+						is_interest_group_type = ig_devout
+					}
+				}
+			}
+		}
+	}
 
     native_american_clothes_low = {
         dna_modifiers = {
@@ -1810,6 +1931,21 @@
 					}
 				}
 			}
+            modifier = {
+                add = 5000
+                scope:character ?= {
+                    culture = {
+						has_discrimination_trait = indigenous_american_heritage
+						has_discrimination_trait = eastern_woodlands
+                    }
+					NOR = {
+						is_interest_group_type = ig_landowners
+						is_interest_group_type = ig_devout
+						is_interest_group_type = ig_industrialists		
+					}
+                }
+                politician_clothes_trigger = yes 
+            }
 		}
 	}
 	
@@ -1847,6 +1983,21 @@
 					}
 				}
 			}
+            modifier = {
+                add = 5000
+                scope:character ?= {
+                    culture = {
+						has_discrimination_trait = indigenous_american_heritage
+						has_discrimination_trait = eastern_woodlands
+                    }
+					OR = {
+						is_interest_group_type = ig_landowners
+						is_interest_group_type = ig_devout
+						is_interest_group_type = ig_industrialists		
+					}
+                }
+                politician_clothes_trigger = yes 
+            }
 		}
 	}
 	
@@ -1863,6 +2014,12 @@
                 gene = legwear
                 template = native_american_legwear
                 range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = top_layer
+                template = northern_cloak
+                accessory = male_fur_pelt_cloak_03
             }
         }
         weight = {
