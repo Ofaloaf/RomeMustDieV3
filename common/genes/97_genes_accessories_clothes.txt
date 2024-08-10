@@ -2894,6 +2894,23 @@
 
 				boy = male
 				girl = female
+			}
+
+			fur_pelt_cloak = {
+				index = 22
+				male = {
+					1 = male_fur_pelt_cloak_01
+					1 = male_fur_pelt_cloak_02
+					1 = male_fur_pelt_cloak_03
+				}
+				female = {
+					1 = female_fur_pelt_cloak_01
+					1 = female_fur_pelt_cloak_02
+					1 = female_fur_pelt_cloak_03
+				}
+
+				boy = male
+				girl = female
 			}			
 		}
 

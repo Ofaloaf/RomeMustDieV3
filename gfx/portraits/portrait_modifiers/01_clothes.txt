@@ -1143,6 +1143,110 @@
 			}
 		}
 	}
+	
+	northern_general = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = northern_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			
+			accessory = {
+				mode = add
+				gene = legwear
+				template = fp1_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			
+			accessory = {
+				mode = add
+				gene = top_layer
+				template = fur_pelt_cloak
+				range = { 0.2 0.65 } # Trying to do fancy math stuff so fe/male_fur_pelt_cloak_02 is most common and _01 also shows up, but less often than 02
+			}
+		} 
+
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				european_clothes_trigger = yes
+				OR = {
+					AND = {
+						politician_clothes_trigger = yes
+						armed_forces_clothes_trigger = yes
+					}
+					military_clothes_trigger = yes
+				}
+				scope:character ?= {
+					culture = {
+						NOR = {
+							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = greek_culture
+						}
+					}
+					NOT = { 
+						owner ?= { 
+							OR = {
+								c:FRK ?= this 
+								any_primary_culture = {
+									OR = {
+										has_discrimination_trait = romance_speaker
+										has_discrimination_trait = greek_culture
+									}
+								}
+							} 
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	northern_agitator_military = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = northern_medium
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			
+			accessory = {
+				mode = add
+				gene = legwear
+				template = fp1_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			
+			accessory = {
+				mode = add
+				gene = top_layer
+				template = fur_pelt_cloak
+				range = { 0 0.33 } # targeting male_fur_pelt_cloak_01/female_fur_pelt_cloak_01
+			}
+		} 
+
+		weight = {
+			base = 0
+            modifier = {
+                add = 1000
+                scope:character ?= {
+                    culture = {
+                        has_discrimination_trait = germanic_culture_group
+                    }
+					OR = {
+						is_interest_group_type = ig_armed_forces
+						has_ideology = ideology:ideology_fascist
+						has_ideology = ideology:ideology_jingoist_leader
+					}
+                }
+                agitator_character_trigger = yes 
+            }
+		}
+	}
 		
 	northern_soldier = {
 		dna_modifiers = {
@@ -1186,26 +1290,6 @@
 						}
 						NOT = { owner = { c:FRK ?= this } }
 					}
-				}
-			}
-			modifier = {
-				add = 1000
-				european_clothes_trigger = yes
-				OR = {
-					AND = {
-						politician_clothes_trigger = yes
-						armed_forces_clothes_trigger = yes
-					}
-					military_clothes_trigger = yes
-				}
-				scope:character ?= {
-					culture = {
-						NOR = {
-							has_discrimination_trait = romance_speaker
-							has_discrimination_trait = greek_culture
-						}
-					}
-					NOT = { owner = { c:FRK ?= this } }
 				}
 			}
 		}
