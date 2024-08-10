@@ -424,10 +424,18 @@
 			christian_outfits = {
 				index = 23
 				male = {
-					1 = male_outfit_christian_priest_01					
+					1 = male_outfit_christian_priest_01	
+					2 = male_clothes_priest_low_01_franciscan
+					1 = male_clothes_priest_low_01_dominican
+					1 = male_clothes_priest_low_01_benedictine
+					#
+					1 = male_clothes_priest_low_01_franciscan
+					4 = male_clothes_priest_high_01
 				}
 				female = {
-					1 = female_clothes_secular_byzantine_nobility_02_common
+					2 = female_clothes_secular_byzantine_nobility_02_common
+					3 = female_clothes_secular_western_nobility_03_common
+					5 = female_clothes_priest_low_01
 				}
 				boy = male
 				girl = female
@@ -439,6 +447,7 @@
 					1 = male_outfit_christian_pope_01				
 				}
 				female = {
+					1 = female_clothes_priest_low_01
 				}
 				boy = male
 				girl = female
@@ -455,8 +464,6 @@
 				boy = male
 				girl = female
 			}
-
-			
 
 			siamese_royal_outfits = {
 				index = 26

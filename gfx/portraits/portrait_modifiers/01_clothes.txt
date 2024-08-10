@@ -89,13 +89,13 @@
 	#### ####
 	
 	
-    christian_character_clothes = {
+    christian_devout_leader_clothes = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = outfits
                 template = christian_outfits
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0.6 1 } 
             }
         }
 
@@ -104,41 +104,67 @@
             modifier = {
                 add = 5000
                 military_clothes_trigger = no
-                exists = scope:character
-                scope:character = {
-                    OR = {
-                        AND = {
-                            politician_clothes_trigger = yes  
-                            christian_clothes_trigger = yes
-                            OR = {
-                                devout_clothes_trigger = yes
-                                AND = {
-                                    exists = scope:character
-                                    exists = c:PAP
-                                    scope:character = {
-										exists = home_country
-                                        home_country = c:PAP
-                                        has_ideology = ideology:ideology_theocrat
-                                    }
-                                }
-                            }
-                        }
-                        AND = {
-                            christian_clothes_trigger = yes
-                            ruler_clothes_trigger = yes
-							exists = home_country
-                            home_country = {
-                                has_law = law_type:law_theocracy
-                            }
-                        }
-                    }
-                }  
+				OR = {
+					AND = {
+						politician_clothes_trigger = yes  
+						christian_clothes_trigger = yes
+						devout_clothes_trigger = yes
+					}
+					AND = {
+						christian_clothes_trigger = yes
+						ruler_clothes_trigger = yes
+						scope:character ?= {
+							owner ?= {
+								has_law = law_type:law_theocracy
+							}
+						}
+					}
+				}
 			}
+		}
+	}
+	
+    christian_devout_agitator_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = christian_outfits
+                range = { 0.5 0.6 } 
+            }
+        }
+		
+        weight = {
+            base = 0
             modifier = {
                 add = 5000
-                
+				
+				politician_clothes_trigger = yes  
+				christian_clothes_trigger = yes
+				OR = {
+					devout_clothes_trigger = yes
+					has_ideology = ideology:ideology_theocrat
+				}
+			}
+		}
+	}
+	
+    christian_pop_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = christian_outfits
+                range = { 0 0.5 } # For the randomness to work correctly
+            }
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 5000
 				christian_clothes_pop_trigger = yes
-                clergy_clothes_pop_trigger = yes              
+				clergy_clothes_pop_trigger = yes
             }
         }
     }
