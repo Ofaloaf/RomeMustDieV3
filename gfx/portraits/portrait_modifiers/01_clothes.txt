@@ -1867,6 +1867,44 @@
 			}
 		}
 	}
+	
+	eastern_woodlands_modernized_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = noble_jacket
+				range = { 0 1 }
+			}
+			
+			accessory = {
+				mode = add
+				gene = legwear
+				template = fp1_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		} 
+
+		weight = {
+			base = 0
+			
+            modifier = {
+                add = 5000
+                scope:character ?= {
+                    culture = {
+						has_discrimination_trait = indigenous_american_heritage
+						has_discrimination_trait = eastern_woodlands
+                    }
+					OR = {
+						is_interest_group_type = ig_intelligentsia
+						is_interest_group_type = ig_petty_bourgeoisie
+						is_interest_group_type = ig_industrialists		
+					}
+                }
+                politician_clothes_trigger = yes 
+            }
+		}
+	}
 
 	eastern_woodlands_romanized_proletariat = {
 		dna_modifiers = {
@@ -1941,7 +1979,18 @@
 					NOR = {
 						is_interest_group_type = ig_landowners
 						is_interest_group_type = ig_devout
-						is_interest_group_type = ig_industrialists		
+						AND = {
+							is_interest_group_type = ig_intelligentsia
+							is_female = no
+						}
+						AND = {
+							is_interest_group_type = ig_petty_bourgeoisie
+							is_female = no
+						}
+						AND = {
+							is_interest_group_type = ig_industrialists	
+							is_female = no
+						}	
 					}
                 }
                 politician_clothes_trigger = yes 
@@ -1992,8 +2041,7 @@
                     }
 					OR = {
 						is_interest_group_type = ig_landowners
-						is_interest_group_type = ig_devout
-						is_interest_group_type = ig_industrialists		
+						is_interest_group_type = ig_devout	
 					}
                 }
                 politician_clothes_trigger = yes 

@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "male_headgear_phrygian_hat_mesh"
+	file = "male_headgear_phrygian_hat.mesh"
+
+	meshsettings = {
+		name = "male_headgear_secular_byzantine_common_01Shape"
+		index = 0
+		texture_diffuse = "male_headgear_phrygian_hat_diffuse.dds"
+		texture_normal = "male_headgear_phrygian_hat_normal.dds"
+		texture_specular = "male_headgear_phrygian_hat_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_headgear_phrygian_hat_entity"
+	pdxmesh = "male_headgear_phrygian_hat_mesh"
+
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/phrygian_hat_01/male_headgear_phrygian_hat_masks.dds"	
+				variation = "male_legwear_red"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}

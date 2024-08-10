@@ -1243,7 +1243,7 @@
 				index = 75
 
 				male = {
-					1 = male_headgear_secular_latin_cfp_phrygian_common_01
+					1 = male_headgear_phrygian_hat_entity
 				}
 
 				female = {
@@ -1254,7 +1254,7 @@
 			}
 			
 			brimmed_hat_variants = {
-				index = 98
+				index = 76
 				male = {
 					1 = empty
 					1 = male_prop_straw_hat
@@ -1263,6 +1263,19 @@
 				}
 
 				female = {
+				}
+				boy = male
+				girl = female
+			}
+			
+			eastern_woodlands_headgear = {
+				index = 77
+				male = {
+					1 = male_headgear_ate_native_nobility_01
+				}
+
+				female = {
+					1 = female_headgear_ate_native_nobility_01
 				}
 				boy = male
 				girl = female

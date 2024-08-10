@@ -407,6 +407,31 @@
         }
     }
 	
+    eastern_woodlands_ruler_headdress = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = eastern_woodlands_headgear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                ruler_clothes_trigger = yes
+                scope:character ?= {
+                    is_ruler = yes
+                    culture = {
+						has_discrimination_trait = eastern_woodlands
+						NOT = { has_discrimination_trait = romance_speaker }
+					}
+                }
+            }
+        }
+    }
+	
     mesoamerican_andean_hat_headgear = {
         dna_modifiers = {
             accessory = {
