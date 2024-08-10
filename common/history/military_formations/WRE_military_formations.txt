@@ -453,7 +453,7 @@
 			save_scope_as = glaucias_scirtag
 		}
 		
-		scope:wre_general_03 = {
+		scope:glaucias_scirtag = {
 			transfer_to_formation = scope:legio_v
 		}
 		
