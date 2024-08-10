@@ -65,6 +65,40 @@ ere_petty_bourgeoisie_leader = {
 	}
 }
 
+ere_trade_union_leader = {
+	first_name = Pompeios
+	last_name = ho_Hermeiou
+	historical = yes
+	age = 48
+	culture = cu:greek
+	religion = rel:nicene
+	ig_leader = yes
+	interest_group = ig_trade_unions
+	ideology = ideology_moderate
+	traits = {
+		wrathful
+		imposing
+		firebrand
+	}
+}
+
+ere_industrialist_leader = {
+	first_name = Hephaestion
+	last_name = Kalliopas
+	historical = yes
+	age = 40
+	culture = cu:greek
+	religion = rel:nicene
+	ig_leader = yes
+	interest_group = ig_industrialists
+	ideology = ideology_radical
+	traits = {
+		imposing
+		innovative
+		reckless
+	}
+}
+
 ### COMMANDERS - GENERALS ###
 
 ere_general_01 = {
@@ -156,10 +190,31 @@ ere_admiral_1 = {
     ideology = ideology_moderate
     is_admiral = yes
     hq = region_thracia
-    commander_rank = commander_rank_3
+    commander_rank = commander_rank_2
     traits = {
+		meticulous
         dockyard_master
-        basic_naval_commander
         innovative
     }
 }
+
+ere_admiral_2 = {
+    first_name = Zosimas
+    last_name = Lykaon
+    historical = yes
+    age = 44
+    culture = cu:greek
+    religion = rel:nicene
+    interest_group = ig_armed_forces
+    ideology = ideology_moderate
+    is_admiral = yes
+    hq = region_thracia
+    commander_rank = commander_rank_3
+    traits = {
+		brave
+		honorable
+        basic_naval_commander
+    }
+}
+
+# "Posdeidonios" ??

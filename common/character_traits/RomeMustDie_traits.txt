@@ -1,0 +1,259 @@
+﻿terrible_speaker = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/terrible_speaker.dds"
+
+	character_modifier = {
+		character_popularity_add = -15
+	}
+
+	command_modifier = {
+		character_battle_condition_lost_mult = 0.5 # CANNOT give good directions
+	}
+
+	country_modifier = {
+		country_influence_mult = -0.1
+	}
+
+	agitator_modifier = {
+		interest_group_pop_attraction_mult = -0.1
+	}
+
+	interest_group_modifier = {
+		interest_group_pop_attraction_mult = -0.1
+		interest_group_pol_str_mult = -0.05
+	}
+
+	possible = {
+		NOT = { has_trait = charismatic }
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	weight = {
+		value = 5
+		if = {
+			limit = {
+				has_role = agitator
+			}
+			multiply = 3
+		}
+	}
+
+	replace = {	
+	}
+
+	value = 3
+}
+
+paranoid = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/paranoid.dds"
+
+	character_modifier = {
+		character_popularity_add = -15
+	}
+
+	country_modifier = {
+		country_suppression_ig_attraction_mult = 0.25
+		country_authority_mult = 0.05
+	}
+
+	agitator_modifier = {
+		interest_group_in_government_approval_add = -1
+		interest_group_in_opposition_approval_add = -1
+		country_suppression_ig_attraction_mult = -0.05
+	}
+
+	interest_group_modifier = {
+		interest_group_pop_attraction_mult = -0.05
+		interest_group_pol_str_mult = 0.1
+	}
+
+	possible = {
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	weight = {
+		value = 5
+		if = {
+			limit = {
+				has_role = agitator
+			}
+			multiply = 3
+		}
+		if = {
+			limit = {
+				has_trait = bandit
+			}
+			multiply = 2
+		}
+	}
+
+	replace = {	
+	}
+
+	value = 3
+}
+
+bad_diplomat = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/bad_diplomat.dds"
+
+	character_modifier = {
+	}
+	
+	agitator_modifier = {
+		interest_group_pop_attraction_mult = -0.05
+	}
+
+	command_modifier = {
+		unit_morale_recovery_mult = -0.5
+	}
+
+	country_modifier = {
+		country_influence_mult = -0.1
+		country_legitimacy_ideological_incoherence_mult = 0.25
+	}
+
+	possible = {
+		NOR = {
+			has_trait = basic_diplomat
+			has_trait = experienced_diplomat
+			has_trait = masterful_diplomat
+		}
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	weight = {
+		value = 10
+		if = {
+			limit = {
+				OR = {
+					has_trait = tactful
+					has_trait = charismatic
+					has_trait = direct
+				}
+			}
+			divide = 3
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = senile
+					has_trait = alcoholic
+					has_trait = imperious
+				}
+			}
+			multiply = 2
+		}
+	}
+
+	value = 2
+}
+
+personal_wealth = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/personal_wealth.dds"
+
+	character_modifier = {
+		character_popularity_add = 10 # wealth generates its own popularity
+	}
+
+	command_modifier = {
+		unit_supply_consumption_mult = -0.1 # can help supply their own troops
+	}
+
+	country_modifier = {
+		country_capitalists_pol_str_mult = 0.1
+		country_aristocrats_pol_str_mult = 0.1
+	}
+
+	agitator_modifier = {
+		interest_group_pol_str_mult = 0.1 # can fund their IG out of their own pockets
+	}
+
+	interest_group_modifier = {
+		interest_group_pol_str_mult = 0.1
+		interest_group_pop_attraction_mult = 0.05
+	}
+
+	possible = {
+		NOT = { has_trait = personal_debt }
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	weight = {
+		value = 10
+		if = {
+			limit = {
+				OR = {
+					has_trait = hedonist
+					has_trait = expensive_tastes
+				}
+			}
+			divide = 2
+		}
+		if = {
+			limit = {
+				OR = {
+					has_trait = persistent
+					has_trait = meticulous
+					has_trait = grifter
+				}
+			}
+			multiply = 2
+		}
+	}
+
+	value = 2
+}
+
+personal_debt = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/personal_debt.dds"
+
+	character_modifier = {
+	}
+
+	command_modifier = {
+		unit_supply_consumption_mult = 0.1
+	}
+
+	country_modifier = {
+		state_tax_waste_add = 0.02
+	}
+
+	agitator_modifier = {
+		interest_group_pop_attraction_mult = -0.05
+	}
+
+	interest_group_modifier = {
+		interest_group_pop_attraction_mult = -0.1
+	}
+
+	possible = {
+		NOT = { has_trait = personal_wealth }
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	weight = {
+		value = 10
+		if = {
+			limit = {
+				has_role = agitator
+			}
+			multiply = 0.25
+		}
+		if = {
+			limit = {
+				OR = {
+					has_addiction = yes
+					has_trait = reckless
+				}
+			}
+			multiply = 2
+		}
+	}
+
+	replace = {
+	}
+}

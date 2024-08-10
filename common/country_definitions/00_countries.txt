@@ -450,13 +450,13 @@ BAD = {
 }
 
 BAV = {
-	color = { 121  175  235 }
+	color = { 121 175 235 }
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
-	cultures = { south_german }
+	cultures = { suebian }
 	capital = STATE_BAVARIA
 	is_named_from_capital = yes
 }
@@ -4004,8 +4004,8 @@ RSM = {
 
 	tier = principality
 	
-	cultures = { north_italian }
-	capital = STATE_LOMBARDY
+	cultures = { brithenig }
+	capital = STATE_HOME_COUNTIES
 }
 
 HRE = {

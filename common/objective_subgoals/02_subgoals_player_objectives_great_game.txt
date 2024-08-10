@@ -1,0 +1,207 @@
+﻿sg_great_game = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_maintain_afghan_protectorate = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_disrupt_russian_caucasus = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_counter_russian_pacific_influence = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_consolidate_british_india = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_repulse_russian_pamirs = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_consolidate_afghanistan = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_secure_persian_border = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_unify_afghanistan = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+sg_pacify_kazakh_steppe = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_codify_chinese_border = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_consolidate_central_asia = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_acquire_chinese_concessions = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_acquire_korean_protectorate = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_expand_eastern_frontier = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_secure_influence_over_persia = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_consolidate_persia = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_achieve_sovereignty = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}
+
+sg_secure_tibet = {
+	category = sgcat_great_game
+	is_repeatable = no
+
+	trigger = {
+	}
+	
+	on_start = {
+	}
+}

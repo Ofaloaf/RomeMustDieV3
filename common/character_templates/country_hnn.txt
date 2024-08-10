@@ -5,7 +5,7 @@ HNN_attila_the_hun_char = {
 	last_name = Mundzucus
 	historical = yes
 	culture = cu:hunnic
-	religion = arian
+	religion = rel:arian
 	is_general = yes
 	female = no
 	birth_date = 1691.8.16 # this should give the age Napoleon would've been in 1836, less 10 years
@@ -17,4 +17,54 @@ HNN_attila_the_hun_char = {
 		cruel
 		celebrity_commander
 	}
+}
+
+HNN_ruler = { # Khinialon Sungur
+	first_name = Khinialon
+	last_name = Sungur
+	historical = yes
+	culture = cu:hunnic
+	religion = rel:arian
+	ruler = yes
+	female = no
+	age = 78
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	traits = {
+		reserved
+		cautious
+		alcoholic
+	}
+}
+
+HNN_heir = {
+    first_name = "Apsich"
+    last_name = Sungur
+    historical = yes
+    heir = yes
+    age = 57
+    interest_group = ig_devout
+	ideology = ideology_royalist
+    traits = {
+        brave
+    }
+}
+
+HNN_general_01 = {
+    first_name = Zabergan
+    last_name = Eunod
+    historical = yes
+    age = 59
+    culture = cu:hunnic
+    religion = rel:arian
+    interest_group = ig_armed_forces
+    ideology = ideology_attila_partisan
+    is_general = yes
+    hq = region_danubia
+    commander_rank = commander_rank_3
+    traits = {
+        imperious
+		tactful
+		experienced_offensive_planner
+    }
 }

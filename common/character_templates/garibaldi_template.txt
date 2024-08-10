@@ -1,0 +1,20 @@
+﻿garibaldi_character_template = {
+	first_name = Iosep
+	last_name = Gariballt # "Garibaldi" looks pretty Germanic in origin, but I reckon it's okay for some people in a Romano-British Britannia to be of Germanic descent, plus it makes it clear who this is supposed to be.
+	historical = yes
+	culture = cu:brithenig
+	religion = nicene # He hated the pope, but still identified as a Christian
+	interest_group = ig_trade_unions
+	is_agitator = yes 
+	female = no
+	birth_date = 1719.7.4 # historical Garibaldi born on 1807.7.4, so 28 years old at game start.
+	dna = dna_giuseppe_garibaldi
+	ideology = ideology_radical
+	traits = {
+		brave
+		basic_offensive_planner
+	}
+	on_created = {
+		set_global_variable = garibaldi_is_alive_global_var
+	}
+}

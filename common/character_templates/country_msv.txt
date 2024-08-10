@@ -1,0 +1,17 @@
+﻿MSV_ruler = { # Mikail Velyaminov
+	first_name = Mikhail
+	last_name = Velyaminov
+	historical = yes
+	culture = cu:russian
+	religion = rel:nicene
+	ruler = yes
+	female = no
+	age = 70
+	interest_group = ig_landowners
+	ideology = ideology_traditionalist
+	traits = {
+		arrogant
+		sickly
+		pious
+	}
+}

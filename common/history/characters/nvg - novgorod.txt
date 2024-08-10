@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:NVG = {
+		create_character = {
+			template = NVG_ruler	# Akinfiy Kamensky
+		}
+	}
+}

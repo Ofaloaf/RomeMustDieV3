@@ -8,7 +8,7 @@
 		Benedicto Bonifacio Bonoso Belisario Bassiano Baptista
 		Costantino Costans Claudio Claudiano Cromatio Cristophoro Cassiodoro Crescenzio
 		David Daniel Dionigi Donato Desiderato
-		Emygdio Eusebio Eugenio Eliodoro Eneas
+		Emygdio Eusebio Eugenio Eliodoro Eneas Equitio
 		Fidelis Faustino Fortunato Fortunatiano
 		Georgio Gregorio Gordiano Grato Gratiano Genialis Gaudentio Geminiano Gaudioso Gennadio
 		Ignatio Ioannes Iustino Iulio Iusto Iuliano Ianuario Iacobo
@@ -55,11 +55,11 @@
 		Fullo Faltonio Florencio Florentiense Falconieri Frusinense Florentini
 		Grumentense Genusiense Grumense Gallerani Gorini Grizi
 		Iguviense Igneo Istoniense Iacopi Iohanni
-		Laviniense Luceriense Larinense Luti Lapi Lupicini
+		Laviniense Luceriense Larinense Luti Lapi Lupicini Lorentiano
 		Mediolanense Minerviense Marini Marsili Micheli Martini
 		Nepolitano Novariense Nequinense Natiolense Nuceriense Narniense Nerini Neroni
 		Ostiense Ortense
-		Pisano Populoniense Potentiense Placentiense Pisaurense Pinnense Prifernense Plestiense Paganelli Petri Ponci Pratesi Prosperi
+		Pisano Populoniense Potentiense Placentiense Pisaurense Pinnense Prifernense Plestiense Paganelli Petri Ponci Pratesi Prosperi Postumiano
 		Ravennense Ruffo Rocchi Rustichelli Rustichi
 		Sutriense Sepinense Sarsinense Spoletiense Silviense Scala Salicetense Salomoni Sorense Salvaterra Siminetti Stefani Salvucci
 		Telesiense Turense Trebense Taddei Toscanelli

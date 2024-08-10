@@ -514,7 +514,7 @@
 				size = 364123
 			}
 			create_pop = {
-				culture = serbian
+				culture = serb
 				size = 88760
 			}
 			create_pop = {

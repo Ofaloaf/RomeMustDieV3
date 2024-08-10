@@ -7,6 +7,7 @@ THR_ruler = { # Thioto Warinus
 	culture = cu:thuringian
 	religion = rel:arian
 	ruler = yes
+	ig_leader = yes
 	female = no
 	age = 44
 	interest_group = ig_landowners

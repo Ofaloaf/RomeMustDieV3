@@ -661,7 +661,7 @@ gov_decentralized_realm = {
 }
 
 
-gov_hm_gov = {
+gov_government_of_the_palace = {
 	transfer_of_power = hereditary
 
 	male_ruler = "RULER_TITLE_KING"
@@ -672,7 +672,7 @@ gov_hm_gov = {
 	
 	possible = {
 		has_law = law_type:law_monarchy
-		AND = { exists = c:GBR c:GBR = ROOT }
+		c:FRK ?= this
 	}
 
 	on_government_type_change = {
@@ -680,83 +680,22 @@ gov_hm_gov = {
 	}
 }
 
-gov_fra_constitutional_monarchy_orleanist = {
+gov_royal_patrimony = {
 	transfer_of_power = hereditary
-
-	male_ruler = "RULER_TITLE_KING"
-	female_ruler = "RULER_TITLE_QUEEN"
 	
-	male_heir = "RULER_TITLE_PRINCE_ROYAL"
-	female_heir = "RULER_TITLE_PRINCESS_ROYAL"
+	male_ruler = "RULER_TITLE_KING"
+	female_ruler = "RULER_TITLE_QUEEN" 
+
+	male_heir = "RULER_TITLE_PRINCE"
+	female_heir = "RULER_TITLE_PRINCESS"
 	
 	possible = {
+		country_tier = kingdom
 		has_law = law_type:law_monarchy
-		country_has_voting_franchise = yes
-		has_variable = orleanist_restoration_var
-		country_has_primary_culture = cu:french
-	}
-
-	on_government_type_change = {
-		change_to_hereditary = yes
-	}
-}
-
-gov_fra_constitutional_monarchy_legitimist = {
-	transfer_of_power = hereditary
-
-	male_ruler = "RULER_TITLE_KING"
-	female_ruler = "RULER_TITLE_QUEEN"
-	
-	male_heir = "RULER_TITLE_DAUPHIN"
-	female_heir = "RULER_TITLE_DAUPHINE"
-	
-	possible = {
-		has_law = law_type:law_monarchy
-		country_has_voting_franchise = yes
-		has_variable = legitimist_restoration_var
-		country_has_primary_culture = cu:french
-	}
-
-	on_government_type_change = {
-		change_to_hereditary = yes
-	}
-}
-
-gov_fra_absolute_monarchy_orleanist = {
-	transfer_of_power = hereditary
-
-	male_ruler = "RULER_TITLE_KING"
-	female_ruler = "RULER_TITLE_QUEEN"
-	
-	male_heir = "RULER_TITLE_PRINCE_ROYAL"
-	female_heir = "RULER_TITLE_PRINCESS_ROYAL"
-	
-	possible = {
-		has_law = law_type:law_monarchy
-		country_has_voting_franchise = no
-		has_variable = orleanist_restoration_var
-		country_has_primary_culture = cu:french
-	}
-
-	on_government_type_change = {
-		change_to_hereditary = yes
-	}
-}
-
-gov_fra_absolute_monarchy_legitimist = {
-	transfer_of_power = hereditary
-
-	male_ruler = "RULER_TITLE_KING"
-	female_ruler = "RULER_TITLE_QUEEN"
-	
-	male_heir = "RULER_TITLE_DAUPHIN"
-	female_heir = "RULER_TITLE_DAUPHINE"
-	
-	possible = {
-		has_law = law_type:law_monarchy
-		country_has_voting_franchise = no
-		has_variable = legitimist_restoration_var
-		country_has_primary_culture = cu:french
+		OR = {
+			has_law = law_type:law_traditionalism
+			has_law = law_type:law_command_economy
+		}
 	}
 
 	on_government_type_change = {

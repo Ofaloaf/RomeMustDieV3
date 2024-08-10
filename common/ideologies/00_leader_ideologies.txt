@@ -379,19 +379,6 @@ ideology_radical = {
 				has_law = law_type:law_guaranteed_liberties
 			}
 		}
-		# Invalid for pre-ACW USA
-		NOT = {
-			owner = {
-				AND = {
-					exists = c:USA
-					OR = {
-						c:USA = this
-						civil_war_origin_country = c:USA
-					}
-				}
-				has_journal_entry = je_acw_countdown
-			}
-		}
 		# Monarchs cannot be republicans
 		NOT = {
 			owner = {
@@ -787,24 +774,11 @@ ideology_abolitionist = {
 		}	
 		if = {
 			limit = { scope:interest_group = { is_interest_group_type = ig_intelligentsia } }
-			add = 150
-			
-			if = {
-				limit = {
-					owner = { has_journal_entry = je_acw_countdown }
-				}
-				add = 150
-			}		
+			add = 150		
 		}		
 		if = {
 			limit = { has_trait = tactful }
 			add = 75
-		}
-		if = {
-			limit = {
-				owner = { has_journal_entry = je_acw_countdown }
-			}
-			add = 100
 		}
 	}
 }
@@ -864,25 +838,11 @@ ideology_slaver = {
 		}		
 		if = {
 			limit = { scope:interest_group = { is_interest_group_type = ig_landowners } }
-			add = 500
-			
-			if = {
-				limit = {
-					owner = { has_journal_entry = je_acw_countdown }
-				}
-				add = 500
-			}			
+			add = 500			
 		}
 		if = {
 			limit = { scope:interest_group = { is_interest_group_type = ig_rural_folk } }
-			add = 250
-			
-			if = {
-				limit = {
-					owner = { has_journal_entry = je_acw_countdown }
-				}
-				add = 250
-			}			
+			add = 250	
 		}		
 		if = {
 			limit = { has_trait = cruel }
@@ -891,12 +851,6 @@ ideology_slaver = {
 		if = {
 			limit = { has_trait = bigoted }
 			add = 75
-		}
-		if = {
-			limit = {
-				owner = { has_journal_entry = je_acw_countdown }
-			}
-			add = 100
 		}
 		if = { # very difficult to reintroduce slavery once you ban it and its supporters have faded from the political scene
 			limit = {
@@ -1103,24 +1057,6 @@ ideology_jingoist_leader = {
 				}
 			}
 			add = 50
-		}
-		# less likely for conservative French IG's
-		if = {
-			limit = {
-				owner = {
-					exists = c:FRA
-					this = c:FRA
-					has_journal_entry = je_divided_monarchists
-				}
-				scope:interest_group = {
-					OR = {
-						is_interest_group_type = ig_landowners
-						is_interest_group_type = ig_petty_bourgeoisie
-						is_interest_group_type = ig_devout
-					}
-				}
-			}
-			add = -100
 		}
 	}
 }
@@ -1355,16 +1291,6 @@ ideology_social_democrat = {
 			}
 			multiply = 0.01
 		}
-		# National Liberation Alliance
-		if = {
-			limit = {
-				owner = {
-					has_variable = national_liberation_alliance_variable
-					has_journal_entry = je_new_republic
-				}
-			}
-			multiply = 1.20
-		}
 	}
 }
 
@@ -1504,16 +1430,6 @@ ideology_communist = {
 				}
 				multiply = 2
 			}
-		}
-		# National Liberation Alliance
-		if = {
-			limit = {
-				owner = {
-					has_variable = national_liberation_alliance_variable
-					has_journal_entry = je_new_republic
-				}
-			}
-			multiply = 1.25
 		}
 	}
 }
@@ -1712,16 +1628,6 @@ ideology_vanguardist = {
 				owner = { has_variable = election_vanguardist_support }
 			}
 			multiply = 2
-		}
-		# National Liberation Alliance
-		if = {
-			limit = {
-				owner = {
-					has_variable = national_liberation_alliance_variable
-					has_journal_entry = je_new_republic
-				}
-			}
-			multiply = 1.25
 		}
 	}
 }
@@ -2082,16 +1988,6 @@ ideology_anarchist = {
 				owner = { has_variable = election_anarchist_support }
 			}
 			multiply = 2
-		}
-		# National Liberation Alliance
-		if = {
-			limit = {
-				owner = {
-					has_variable = national_liberation_alliance_variable
-					has_journal_entry = je_new_republic
-				}
-			}
-			multiply = 1.10
 		}
 	}
 }
@@ -2867,23 +2763,6 @@ ideology_protectionist = {
 			}
 			add = -75
 		}
-		# less likely for conservative French IG's
-		if = {
-			limit = {
-				owner = {
-					exists = c:FRA
-					this = c:FRA
-					has_journal_entry = je_divided_monarchists
-				}
-				scope:interest_group = {
-					OR = {
-						is_interest_group_type = ig_industrialists
-						is_interest_group_type = ig_petty_bourgeoisie
-					}
-				}
-			}
-			add = -100
-		}
 	}
 }
 
@@ -3615,15 +3494,6 @@ ideology_integralist = {
 				}
 			}
 			add = -25
-		}
-		# Vargas fosters fascism
-		if = {
-			limit = {
-				owner = {
-					has_journal_entry = je_new_republic
-				}
-			}
-			add = 50
 		}
 		# red scare can make you more fascist
 		if = {
