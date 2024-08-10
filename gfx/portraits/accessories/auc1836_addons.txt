@@ -136,6 +136,11 @@ male_clothes_priest_high_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_priest_high_01_entity" }	
 }
 
+male_clothes_northern_pagan_priest_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_northern_pagan_priest_01_entity" }	
+}
+
 # FEE-MALES ###
 
 
@@ -202,6 +207,11 @@ female_clothes_secular_northern_nobility_02_high = {
 female_clothes_priest_low_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_priest_low_01_entity" }	
+}
+
+female_clothes_northern_pagan_priest_01 = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_northern_pagan_priest_01_entity" }	
 }
 
 ### LEGWEAR ###

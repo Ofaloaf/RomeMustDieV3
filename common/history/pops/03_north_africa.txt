@@ -455,7 +455,7 @@
 			create_pop = {
 				culture = berber
 				religion = nicene
-				size = 38800
+				size = 69200
 			}
 			create_pop = {
 				culture = berber
@@ -463,10 +463,9 @@
 				size = 38000
 			}
 			create_pop = {
-				pop_type = slaves
-				culture = bambara
+				culture = songhai
 				religion = animist
-				size = 34000
+				size = 3400
 			}
 		}
 	}

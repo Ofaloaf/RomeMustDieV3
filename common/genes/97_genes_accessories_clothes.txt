@@ -978,6 +978,21 @@
 			boy = male
 			girl = female
 		}
+		
+		northern_european_pagan_clothes = {
+			index = 60
+			male = {
+				4 = male_clothes_northern_pagan_priest_01
+			}
+			female = {
+				1 = female_clothes_secular_northern_nobility_01_low
+				1 = female_clothes_secular_northern_nobility_02_low
+				2 = female_clothes_northern_pagan_priest_01
+			}
+
+			boy = male
+			girl = female
+		}
 	}
 
 

@@ -104,15 +104,14 @@
             modifier = {
                 add = 5000
                 military_clothes_trigger = no
+				christian_clothes_trigger = yes
 				OR = {
 					AND = {
 						politician_clothes_trigger = yes  
-						christian_clothes_trigger = yes
 						devout_clothes_trigger = yes
 					}
 					AND = {
 						christian_clothes_trigger = yes
-						ruler_clothes_trigger = yes
 						scope:character ?= {
 							owner ?= {
 								has_law = law_type:law_theocracy
@@ -143,7 +142,9 @@
 				christian_clothes_trigger = yes
 				OR = {
 					devout_clothes_trigger = yes
-					has_ideology = ideology:ideology_theocrat
+					scope:character ?= {
+						has_ideology = ideology:ideology_theocrat
+					}
 				}
 			}
 		}
@@ -164,6 +165,96 @@
             modifier = {
                 add = 5000
 				christian_clothes_pop_trigger = yes
+				clergy_clothes_pop_trigger = yes
+            }
+        }
+    }
+	
+    northern_pagan_devout_leader_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = northern_european_pagan_clothes
+                range = { 0.5 1 } 
+            }
+			
+			accessory = {
+				mode = add
+				gene = legwear
+				template = fp1_common_legwear
+				range = { 0 1 }
+			}
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 5000
+                military_clothes_trigger = no
+				scope:character ?= {
+					OR = {
+						religion = rel:germanic_pagan
+						religion = rel:baltic_pagan
+						religion = rel:slavic_pagan
+					}
+				}
+				OR = {
+					AND = {
+						politician_clothes_trigger = yes 
+						devout_clothes_trigger = yes
+					}
+					AND = {
+						politician_clothes_trigger = yes  
+						OR = {
+							devout_clothes_trigger = yes
+							scope:character ?= {
+								has_ideology = ideology:ideology_theocrat
+							}
+						}
+					}
+					AND = {
+						ruler_clothes_trigger = yes
+						scope:character ?= {
+							owner ?= {
+								has_law = law_type:law_theocracy
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+    northern_pagan_pop_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = northern_european_pagan_clothes
+                range = { 0 0.5 } # For the randomness to work correctly
+            }
+			
+			accessory = {
+				mode = add
+				gene = legwear
+				template = fp1_common_legwear
+				range = { 0 1 }
+			}
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 5000
+
+				scope:pop ?= {
+					OR = {
+						religion = rel:germanic_pagan
+						religion = rel:baltic_pagan
+						religion = rel:slavic_pagan
+					}
+				}
 				clergy_clothes_pop_trigger = yes
             }
         }
@@ -250,7 +341,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = fp1_common_legwear
+				template = ck3_mena_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 
@@ -377,7 +468,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = fp1_common_legwear
+				template = ck3_mena_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			
@@ -420,7 +511,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = fp1_common_legwear
+				template = ck3_mena_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		} 
@@ -475,7 +566,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = fp1_common_legwear
+				template = ck3_mena_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			
@@ -529,7 +620,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = fp1_common_legwear
+				template = ck3_mena_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		} 
@@ -566,7 +657,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = fp1_common_legwear
+				template = ck3_mena_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -607,7 +698,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = fp1_common_legwear
+				template = ck3_mena_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -692,7 +783,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = fp1_common_legwear
+				template = ck3_mena_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -1076,7 +1167,7 @@
 		}
 	}
 	
-	roman_armed_forces_leader = {
+	northern_armed_forces_leader = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -1758,6 +1849,36 @@
 			}
 		}
 	}
+	
+    eastern_woodlands_agitator_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = native_american_outfits
+                range = { 0.3 1 } # For the randomness to work correctly
+            }
+            accessory = {
+                mode = add
+                gene = legwear
+                template = native_american_legwear
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 5000
+                scope:character ?= {
+                    culture = {
+						has_discrimination_trait = indigenous_american_heritage
+						has_discrimination_trait = eastern_woodlands
+                    }
+                }
+                agitator_character_trigger = yes 
+            }
+        }
+    }
 	
 	andean_character = {
 		dna_modifiers = {
