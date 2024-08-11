@@ -50,6 +50,44 @@ WRE = { # Western Roman Empire
 		subject_canton = WRE
 		priority = 1
 	}
+	flag_definition = {
+		coa = WRE_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+			coa_def_secessionist_or_revolutionary_trigger = no
+		}
+	}
+	flag_definition = {
+		coa = WRE_odoacer
+		priority = 10000
+		trigger = { 
+			scope:actor ?= {
+				ruler = {
+					OR = {
+						has_template = wre_odoacer_expy
+						has_template = foederati_leader_template
+					}
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = WRE_rebel_usurper_labarum
+		priority = 15
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+			coa_def_secessionist_or_revolutionary_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = red_flag_dark
+		priority = 15
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+			coa_def_secessionist_or_revolutionary_trigger = yes
+		}
+	}
 }
 
 ERE = { # Eastern Roman Empire
@@ -57,6 +95,30 @@ ERE = { # Eastern Roman Empire
 		coa = ERE
 		subject_canton = ERE
 		priority = 1
+	}
+	flag_definition = {
+		coa = ERE_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+			coa_def_secessionist_or_revolutionary_trigger = no
+		}
+	}
+	flag_definition = {
+		coa = ERE_rebel_usurper_labarum
+		priority = 15
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+			coa_def_secessionist_or_revolutionary_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = red_flag
+		priority = 15
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+			coa_def_secessionist_or_revolutionary_trigger = yes
+		}
 	}
 }
 
@@ -756,4 +818,28 @@ BOH = { # Moravia
 		subject_canton = BOH
 		priority = 100
 	}	
+}
+
+TCR = { # Tuscaroria
+	flag_definition = {
+		coa = TCR
+		subject_canton = TCR
+		priority = 1
+	}
+}
+
+PWT = { # Powhatan/Poguatania
+	flag_definition = {
+		coa = PWT
+		subject_canton = PWT
+		priority = 1
+	}
+}
+
+CTW = { # Catawba
+	flag_definition = {
+		coa = CTW
+		subject_canton = CTW
+		priority = 1
+	}
 }

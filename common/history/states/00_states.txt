@@ -1355,14 +1355,13 @@ STATES = {
 		add_homeland = cu:hispanian
 		add_homeland = cu:basque
 	}
-	s:STATE_CATALONIA = {
+	s:STATE_CATALONIA = { # Tarraconensis
 		create_state = {
 			country = c:WRE
 			owned_provinces = { xE0C020 xD616D2 x08B4D6 x11E041 x945748 x906040 x936FF3 x2914C3 x0C64AC xC2FFD9 x890622 }
 		}
 		
 		add_homeland = cu:hispanian
-		add_homeland = cu:catalan
 	}
 	s:STATE_BALEARES = {
 		create_state = {
@@ -2990,7 +2989,7 @@ STATES = {
 		add_homeland = cu:berber
 		add_claim = c:MOR
 	}
-	s:STATE_ORAN = {
+	s:STATE_ORAN = { # Altava
 		create_state = {
 			country = c:LTV
 			owned_provinces = { 
@@ -3025,7 +3024,7 @@ STATES = {
 		add_homeland = cu:tuareg
 		add_homeland = cu:berber
 	}
-	s:STATE_ALGIERS = {
+	s:STATE_ALGIERS = { # Caesariensis
 		create_state = {
 			country = c:LTV
 			owned_provinces = { 
@@ -3036,7 +3035,7 @@ STATES = {
 		add_homeland = cu:africanu
 		add_homeland = cu:berber
 	}
-	s:STATE_CONSTANTINE = {
+	s:STATE_CONSTANTINE = { # Numidia
 		create_state = {
 			country = c:ARS
 			owned_provinces = { 
@@ -3798,14 +3797,14 @@ STATES = {
 		}
 		add_homeland = cu:hispanian
 	}
-	s:STATE_TOLEDO = {
+	s:STATE_TOLEDO = { # Carpetania
 		create_state = {
 			country = c:WRE
 			owned_provinces = { x302080 x2B550F xB0A080 xB5194A xF841E6 xB0A000 xF693FD x92DDDA x89CA9E xCAA3E1 xDCD24C x41C3FC x73D6A9 x093A56 xB02080 xF44640 x88CEE5 x8010A0 xA1BEC2 }
 		}
 		add_homeland = cu:hispanian
 	}
-	s:STATE_WALLONIA = {
+	s:STATE_WALLONIA = { # Arduenna
 		create_state = {
 			country = c:FRK
 			owned_provinces = { x5180A0 xB0A0C0 x916574 x2D32D7 x8080A0 xEF2040 x3A5FB9 xD001A0 }
@@ -3813,7 +3812,7 @@ STATES = {
 
 		add_homeland = cu:frankish
 	}
-	s:STATE_FLANDERS = {
+	s:STATE_FLANDERS = { # Flandrensis
 		create_state = {
 			country = c:FRK
 			owned_provinces = { x93FB2E x018061 x0141A0 x8041A0 x800060 x808061 }
@@ -3829,7 +3828,7 @@ STATES = {
 		
 		add_homeland = cu:frisian
 	}
-	s:STATE_GELRE = {
+	s:STATE_GELRE = { # Isala
 		create_state = {
 			country = c:FRK
 			owned_provinces = { x0000DF xC0C0A0 x4C4894 xAF3A54 x41C0A0 }
@@ -7253,7 +7252,7 @@ STATES = {
 			owned_provinces = { x77143D x901B70 x9E1AD1 x11E021 x626998 xC347D8 }
 		}
 		
-		add_homeland = cu:croat
+		add_homeland = cu:hunnic
 		add_homeland = cu:serb
 	}
 	s:STATE_POSEN = {
@@ -7296,7 +7295,7 @@ STATES = {
 		add_homeland = cu:prussian
 		add_homeland = cu:lithuanian
 	}
-	s:STATE_RHINELAND = {
+	s:STATE_RHINELAND = { # Rhenania
 		create_state = {
 			country = c:FRK
 			owned_provinces = { xD080A0 x904020 xC1B963 x5D7A68 }
@@ -7308,7 +7307,7 @@ STATES = {
 		add_homeland = cu:frankish
 		add_homeland = cu:alemannic
 	}
-	s:STATE_NORTH_RHINE = {
+	s:STATE_NORTH_RHINE = { # Ripuaria
 		create_state = {
 			country = c:FRK
 			owned_provinces = { x9F4072 x8001E0 x834B66 x518021 x29CCD6 x486F6A }

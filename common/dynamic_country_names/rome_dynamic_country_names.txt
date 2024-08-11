@@ -40,6 +40,48 @@ WRE = { # rome
 			}
 		}
 	}
+	
+	dynamic_country_name = {
+		name = dyn_c_roman_republic
+		adjective = WRE_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_plebeian_council_of_rome
+		adjective = dyn_c_plebeian_council_of_rome_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+			scope:actor ?= {
+				capital = { state_region = s:STATE_LAZIO }
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_plebeian_council_of_romans
+		adjective = dyn_c_plebeian_council_of_romans_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+			scope:actor ?={
+				capital = { NOT = { state_region = s:STATE_LAZIO } }
+			}
+		}
+	}
 }
 
 GLL = { # Gallia
@@ -53,6 +95,21 @@ GLL = { # Gallia
 		trigger = {
 			exists = scope:actor
 			scope:actor = { has_law = law_type:law_monarchy }
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_lutetian_commune
+		adjective = dyn_c_lutetian_commune_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+			scope:actor ?={
+				capital = { NOT = { state_region = s:STATE_ILE_DE_FRANCE } }
+			}
 		}
 	}
 }
@@ -91,6 +148,21 @@ ERE = { # Eastern Roman Empire
 			scope:actor = { has_law = law_type:law_monarchy }
 			c:WRE ?= {
 				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_commune_of_constantinople
+		adjective = dyn_c_commune_of_constantinople_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+			scope:actor ?= {
+				capital = { state_region = s:STATE_EASTERN_THRACE }
 			}
 		}
 	}
@@ -303,8 +375,8 @@ EGY = { # Egypt
 			coa_def_independent_trigger = yes
 			exists = scope:actor
 			scope:actor = {
-				ruler ?= {
-					has_culture = cu:copt
+				ruler = {
+					culture = { cu:copt = this }
 				}
 			}
 		}

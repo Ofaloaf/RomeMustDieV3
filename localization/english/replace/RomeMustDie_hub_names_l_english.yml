@@ -318,6 +318,12 @@
  HUB_NAME_STATE_NORTH_RHINE_farm: "Bonna" # Bonn
  HUB_NAME_STATE_NORTH_RHINE_wood: "Oipen"
  #
+ STATE_RHINELAND: "Rhenania"
+ HUB_NAME_STATE_RHINELAND_city: "Treveris" # Trier. was Saarbrücken TODO CD MOVE HUB
+ HUB_NAME_STATE_RHINELAND_mine: "Lutra" # Kaiserslautern
+ HUB_NAME_STATE_RHINELAND_farm: "Mannenheim" # Mannheim
+ HUB_NAME_STATE_RHINELAND_wood: "Sarabrucca" # Saarbrücken. was Tried TODO CD MOVE HUB
+ #
  STATE_GELRE: "Isala" # after the Ijssel River
  HUB_NAME_STATE_GELRE_city: "Hoeve" # Eindhoven
  HUB_NAME_STATE_GELRE_mine: "Mosa Trajectum" # Maastricht
@@ -353,8 +359,14 @@
  #
  STATE_SAXONY: "Thuringia"
  #
+ STATE_FRANCONIA: "Regana"
+ HUB_NAME_STATE_FRANCONIA_city: "Norenberg" # Nuremberg
+ HUB_NAME_STATE_FRANCONIA_mine: "Baierrute" # Bayreuth
+ HUB_NAME_STATE_FRANCONIA_farm: "Trufalistat" # Coburg
+ HUB_NAME_STATE_FRANCONIA_wood: "Uburzis" # Wurzburg
+ #
  STATE_HESSE: "Hassia"
- HUB_NAME_STATE_HESSE_city: "Chassalla" # Kassel. TODO CD MOVE HUB FROM FRANKFURT LOCATION
+ HUB_NAME_STATE_HESSE_city: "Chassalla" # Kassel.
  HUB_NAME_STATE_HESSE_mine: "Giezzen" # Giessen
  HUB_NAME_STATE_HESSE_farm: "Moguntiacum" # Mainz
  HUB_NAME_STATE_HESSE_wood: "Uulthaha" # Fulda
@@ -570,13 +582,13 @@
  HUB_NAME_STATE_BOHEMIA_wood: "Pilisin" # Plzen
  #
  STATE_MORAVIA: "Moravia"
- HUB_NAME_STATE_MORAVIA_city:0 "Brno"
+ HUB_NAME_STATE_MORAVIA_city: "Velehrad" # also known as Veligrad, exact location and modern identity unknown for sure
  HUB_NAME_STATE_MORAVIA_mine:0 "Olomouc"
- HUB_NAME_STATE_MORAVIA_farm:0 "Breclav"
+ HUB_NAME_STATE_MORAVIA_farm: "Rajhrad" # archaically Raygrad, I think.
  HUB_NAME_STATE_MORAVIA_wood:1 "Jihlava"
  #
  STATE_WEST_SLOVAKIA: "Nitravia"
- HUB_NAME_STATE_WEST_SLOVAKIA_city: "Nitrava" # TODO TO DO MOVE THIS HUB
+ HUB_NAME_STATE_WEST_SLOVAKIA_city: "Nitrava" #
  HUB_NAME_STATE_WEST_SLOVAKIA_mine: "Sylna" # Zilina
  HUB_NAME_STATE_WEST_SLOVAKIA_farm: "Laugaricio" # Trenčín
  HUB_NAME_STATE_WEST_SLOVAKIA_wood:1 "Banska Bystrica"
@@ -604,6 +616,18 @@
  HUB_NAME_STATE_DELVIDEK_mine: "Pancevo"
  HUB_NAME_STATE_DELVIDEK_farm: "Tysia"
  HUB_NAME_STATE_DELVIDEK_wood: "Zabotka"
+ #
+ STATE_NORTHERN_TRANSYLVANIA: "Samosius"
+ HUB_NAME_STATE_NORTHERN_TRANSYLVANIA_city: "Napoca"
+ HUB_NAME_STATE_NORTHERN_TRANSYLVANIA_mine: "Georgiopolis"
+ HUB_NAME_STATE_NORTHERN_TRANSYLVANIA_farm: "Asserculis"
+ HUB_NAME_STATE_NORTHERN_TRANSYLVANIA_wood: "Porolissum"
+ #
+ STATE_SOUTHERN_TRANSYLVANIA: "Apulensis"
+ HUB_NAME_STATE_SOUTHERN_TRANSYLVANIA_city: "Barsa"
+ HUB_NAME_STATE_SOUTHERN_TRANSYLVANIA_mine: "Cedonia"
+ HUB_NAME_STATE_SOUTHERN_TRANSYLVANIA_farm: "Apulum" # Alba Iulia
+ HUB_NAME_STATE_SOUTHERN_TRANSYLVANIA_wood:1 "Deva"
  #
  STATE_SLOVENIA: "Carniola"
  HUB_NAME_STATE_SLOVENIA_city: "Emona" # Ljubljana
@@ -664,9 +688,26 @@
  #
  STATE_BULGARIA: "Moesia"
  HUB_NAME_STATE_BULGARIA_city: "Sredets" # Sofia
+ HUB_NAME_STATE_BULGARIA_port:0 "Varna"
+ HUB_NAME_STATE_BULGARIA_mine: "Tarnovgrad"
+ HUB_NAME_STATE_BULGARIA_farm:0 "Shumen"
+ HUB_NAME_STATE_BULGARIA_wood: "Storgosia" # Pleven
+ #
+ STATE_DOBRUDJA: "Scythia Minor"
+ HUB_NAME_STATE_DOBRUDJA_city: "Aigissós"
+ HUB_NAME_STATE_DOBRUDJA_port: "Tomis"
+ HUB_NAME_STATE_DOBRUDJA_mine: "Abrittum"
+ HUB_NAME_STATE_DOBRUDJA_farm: "Callatis"
+ HUB_NAME_STATE_DOBRUDJA_wood: "Istrum"
  #
  STATE_NORTHERN_THRACE: "Northern Thrace"
  HUB_NAME_STATE_NORTHERN_THRACE_city: "Pulpudeva"
+ #
+ STATE_NORTHERN_SERBIA: "Serbia"
+ HUB_NAME_STATE_NORTHERN_SERBIA_city: "Singitin" # Singidunum, but the -dunum ending is changed to the etymologically-similar Slavic -tin
+ HUB_NAME_STATE_NORTHERN_SERBIA_mine: "Dasminium" # a little northeast of Kruševac
+ HUB_NAME_STATE_NORTHERN_SERBIA_farm: "Mons Aureus" # Smederevo
+ HUB_NAME_STATE_NORTHERN_SERBIA_wood: "Rudo Polje" # Kraljevo
  #
  STATE_SOUTHERN_SERBIA: "Dardania"
  HUB_NAME_STATE_SOUTHERN_SERBIA_city: "Ulpiana" # Pristina
@@ -813,8 +854,10 @@
  #
  STATE_NEW_JERSEY: "Lënapehòkink" # Lenape Land.
  HUB_NAME_STATE_NEW_JERSEY_city: "Shakamaxon" # Philadelphia. Oh, would Romans latinize that to Shacamacum? Must investigate further.
+ HUB_NAME_STATE_NEW_JERSEY_farm: "Xhohkaxink" # Bridgeton. More properly, this is a possible etymology of the Cohansey River, which Bridgeton sits on.
  HUB_NAME_STATE_NEW_JERSEY_port: "Hupokàn" # Hoboken. Latinize to Hupocum?
  HUB_NAME_STATE_NEW_JERSEY_mine: "Ramapough"
+ HUB_NAME_STATE_NEW_JERSEY_wood: "Mantoloking"
  #
  STATE_NEW_YORK: "Haudenosauneega" # Iroquois/Haudenosaunee Land
  HUB_NAME_STATE_NEW_YORK_city: "Onondaga"
@@ -918,6 +961,9 @@
  STATE_DELAWARE: "Nentego Ahkee"
  HUB_NAME_STATE_DELAWARE_city: "Maaxwaasunk"
  HUB_NAME_STATE_DELAWARE_farm: "Villa Ursana"
+ HUB_NAME_STATE_DELAWARE_port: "Genua Nova"
+ HUB_NAME_STATE_DELAWARE_wood: "Villa Aniciana"
+ HUB_NAME_STATE_DELAWARE_mine: "Carbonaria"
  #
  STATE_NORTH_CAROLINA: "North Caesarina"
  HUB_NAME_STATE_NORTH_CAROLINA_city: "Saura"

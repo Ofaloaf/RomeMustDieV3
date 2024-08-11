@@ -199,71 +199,7 @@ ai_strategy_default = {
 				}
 			}
 			add = -75
-		}		
-
-		if = { #Taiping should never surrender against China.
-			limit = {
-				c:TPG ?= THIS
-				exists = c:CHI
-				is_diplomatic_play_enemy_of = c:CHI
-			}
-			add = 1000
-		}
-
-		if = { # Paraguay Should never surrender if they have the relevant JE
-			limit = {
-				c:PRG ?= this
-				has_journal_entry = je_expanding_paraguay
-				scope:diplomatic_play = {
-	                OR = {
-	                    has_play_goal = conquer_state
-	                    has_play_goal = return_state
-	                    has_play_goal = make_tributary
-	                    has_play_goal = make_protectorate
-	                }
-				}
-			}
-			add = 1000
-		}
-
-		if = { #Caucasian states & Kazakhstan should never surrender against Russia
-			limit = {
-				OR = {
-					c:CIR ?= THIS
-					c:CHC ?= THIS
-					c:KAZ ?= THIS
-				}
-				exists = c:RUS
-				is_diplomatic_play_enemy_of = c:RUS
-			}
-			add = 1000
-		}
-
-		if = { #Bribery
-			limit = {
-				has_modifier = modifier_central_asian_bribe_payments
-				exists = c:RUS
-				is_diplomatic_play_enemy_of = c:RUS
-			}
-			add = -25
-		}
-		
-		if = { #Likewise for Mughals.
-			limit = {
-				c:MUG ?= THIS
-				exists = c:BIC
-				is_diplomatic_play_enemy_of = c:BIC
-			}
-			add = 1000
-		}
-
-        # Paraguay should be bold while they have the war JE.
-        if = {
-            limit = {
-            	has_journal_entry = je_expanding_paraguay
-            }
-            add = 25
-        }
+		}	
 
 		# Italian minors should be willing to fight Austria
 		if = { 
@@ -720,71 +656,6 @@ ai_strategy_default = {
 		
 			if = {
 				limit = {
-					has_journal_entry = je_boxer_rebellion
-					scope:target_state.state_region = { is_homeland = cu:han }
-				}
-				add = 50
-			}
-
-			if = {
-				limit = {
-					has_journal_entry = je_greek_nationalism
-					scope:target_state.state_region = { is_homeland = cu:greek }
-				}
-				add = 50
-			}
-
-			if = {
-				limit = {
-					has_journal_entry = je_consolidate_colonial_rule
-					scope:target_country = {
-						NOT = { is_subject_of = ROOT }
-						any_scope_state = {
-							OR = {
-								region = sr:region_north_india
-								region = sr:region_south_india
-								region = sr:region_himalayas
-								state_region = s:STATE_BURMA
-								state_region = s:STATE_KACHIN
-								state_region = s:STATE_SHAN_STATES
-								state_region = s:STATE_PEGU
-							}
-						}
-					}
-				}
-				add = 50
-			}
-
-			if = {
-				limit = {
-					has_journal_entry = je_expanding_paraguay
-					scope:target_country = {
-						any_scope_state = {
-							state_region = s:STATE_CORRIENTES
-						}
-					}
-				}
-				add = 50
-			}
-
-			if = {
-				limit = {
-					has_journal_entry = je_expanding_paraguay
-					scope:target_country = {
-						any_scope_state = {
-							OR = {
-								state_region = s:STATE_SANTA_FE
-								state_region = s:STATE_PARANA
-								state_region = s:STATE_RIO_GRANDE_DO_SUL
-							}
-						}
-					}
-				}
-				add = 25
-			}
-
-			if = {
-				limit = {
 					has_journal_entry = je_age_of_princes
 					scope:target_state = {
 						OR = {
@@ -795,152 +666,6 @@ ai_strategy_default = {
 				}
 				add = 50
 			}
-			
-			if = {
-				limit = {
-					has_journal_entry = je_unify_afghanistan
-					scope:target_state = {
-						is_homeland_of_country_cultures = root
-					}
-				}
-				add = 75
-			}
-
-			if = {
-				limit = {
-					has_journal_entry = je_eastern_frontier
-					scope:target_state = {
-						OR = {
-							region = sr:region_persia
-							region = sr:region_central_asia
-							region = sr:region_north_india
-						}
-						has_claim_by = ROOT
-					}
-				}
-				add = 75
-			}
-
-			if = {
-				limit = {
-					has_journal_entry = je_manifest_destiny_mexico
-					scope:target_state = {
-						OR = {
-							state_region = s:STATE_CALIFORNIA
-							state_region = s:STATE_NEVADA
-							state_region = s:STATE_UTAH
-							state_region = s:STATE_COLORADO
-							state_region = s:STATE_ARIZONA
-							state_region = s:STATE_NEW_MEXICO
-							state_region = s:STATE_TEXAS
-						}
-					}
-				}
-				add = 50
-			}
-
-			if = {
-				limit = {
-					has_journal_entry = je_conquer_oregon
-					scope:target_state = {
-						OR = {
-							state_region = s:STATE_WASHINGTON
-							state_region = s:STATE_IDAHO
-							state_region = s:STATE_OREGON
-						}
-					}
-				}
-				add = 50
-			}
-
-			if = {
-				limit = {
-					has_journal_entry = je_alaska
-					scope:target_state = {
-						state_region = s:STATE_ALASKA
-					}
-				}
-				add = 50
-			}
-
-			if = {
-				limit = {
-					has_journal_entry = je_the_eastern_border
-					scope:target_state = {
-						OR = {
-							state_region = s:STATE_OUTER_MANCHURIA
-							state_region = s:STATE_JETISY
-							state_region = s:STATE_TOMSK
-							state_region = s:STATE_KIRGHIZIA
-						}
-					}
-				}
-				add = 50
-			}
-
-			if = {
-				limit = {
-					has_journal_entry = je_conquest_of_algeria
-					scope:target_state = {
-						OR = {
-							state_region = s:STATE_ALGIERS
-							state_region = s:STATE_CONSTANTINE
-							state_region = s:STATE_ORAN
-							state_region = s:STATE_SAHARA
-							state_region = s:STATE_EAST_SAHARA
-						}
-					}
-				}
-				add = 100
-			}
-
-			if = { #Russian Central Asia
-				limit = {
-					has_journal_entry = je_conquest_of_central_asia
-					scope:target_state = {
-						region = sr:region_central_asia
-					}
-				}
-				add = 50
-			}
-
-			if = {
-				limit = {
-					country_has_primary_culture = cu:russian
-					has_law = law_type:law_national_supremacy
-					has_technology_researched = nationalism
-					scope:target_state = {
-						owner = {
-							OR = {
-								c:OZH ?= this
-								c:UZH ?= this
-								c:KZH ?= this
-								c:KAZ ?= this
-							}
-						}
-					}
-				}
-				add = 15
-			}
-			
-			if = {
-				limit = { 
-					wants_to_solve_schleswig_holstein = yes
-					scope:target_country = {
-						is_oppressor_of_schleswig_holstein = yes
-					}
-				}
-				
-				if = {
-					limit = {
-						scope:target_state = { state_region = s:STATE_SCHLESWIG_HOLSTEIN }				
-					}				
-					add = 50
-				}
-				else = {
-					multiply = 0.0
-				}
-			}	
 			
 			if = {
 				limit = {
@@ -1451,56 +1176,6 @@ ai_strategy_default = {
 				add = 100
 			}
 
-			if = { #Indian suzerain will be aggressive against Afganistan, if Afghanistan is threatened by Russia.
-				limit = {
-					AND = {
-						c:RUS ?= {
-							any_scope_state = {
-								OR = {
-									state_region = s:STATE_UZBEKIA
-									state_region = s:STATE_KIRGHIZIA
-									state_region = s:STATE_KHIVA
-									state_region = s:STATE_TURKMENIA
-									state_region = s:STATE_TAJIKISTAN
-								}
-							}
-						}
-						ROOT = {
-							country_is_in_europe = yes
-							OR = {
-								any_scope_state = {
-									OR = {
-										region = sr:region_north_india
-										region = sr:region_south_india
-									}
-									count >= 3
-								}
-								any_country = {
-									is_subject_of = prev
-									any_scope_state = {
-										OR = {
-											region = sr:region_north_india
-											region = sr:region_south_india
-										}
-										count >= 3
-									}
-								}
-							}
-						}
-						scope:target_country = {
-							any_scope_state = {
-								OR = {
-									state_region = s:STATE_KABUL
-									state_region = s:STATE_HERAT
-									state_region = s:STATE_KANDAHAR
-								}
-							}
-						}
-					}
-				}
-				add = 50
-			}
-
 			if = {
 				limit = {
 					lenient_ai_behavior_trigger = yes
@@ -1881,99 +1556,6 @@ ai_strategy_default = {
 			add = 0.5
 		}
 
-		# French Natural Borders
-		if = {
-			limit = {
-				has_journal_entry = je_french_natural_borders
-				has_strategy = ai_strategy_territorial_expansion
-				scope:target_country = {
-					any_scope_state = {
-						OR = {
-							state_region = {
-								is_homeland = cu:french
-							}
-							state_region = s:STATE_WALLONIA
-							state_region = s:STATE_FLANDERS
-							state_region = s:STATE_RHINELAND
-							state_region = s:STATE_NORTH_RHINE
-						}
-					}
-				}
-			}
-			add = 0.5
-		}	
-
-		# Afghanistan
-		if = {
-			limit = {
-				has_journal_entry = je_unify_afghanistan
-				scope:target_country = {
-					has_journal_entry = je_unify_afghanistan
-				}
-			}
-			add = 3
-		}
-		
-		# Persia
-		if = {
-			limit = {
-				has_journal_entry = je_eastern_frontier
-				scope:target_country = {
-					capital = {
-						region = sr:region_persia
-					}
-				}
-			}
-			add = 5
-		}
-
-		#Taiping
-		if = { 
-			limit = {
-				exists = c:TPG
-				THIS = c:TPG
-				scope:target_country = {
-					has_journal_entry = je_taiping
-				}
-			}
-			add = 3
-		}	
-
-		#Caucasus
-		if = { 
-			limit = {
-				exists = c:CIR
-				THIS = c:CIR
-				scope:target_country = {
-					this = c:RUS
-				}
-			}
-			add = 5
-		}
-		if = { 
-			limit = {
-				exists = c:CHC
-				THIS = c:CHC
-				scope:target_country = {
-					this = c:RUS
-				}
-			}
-			add = 5
-		}
-
-		# Acre claimant wants Acre
-		if = {
-			limit = {
-				has_journal_entry = je_acre_dispute
-				scope:target_country = {
-					any_scope_state = {
-						state_region = s:STATE_ACRE
-					}
-				}
-			}
-			add = 0.5
-		}
-
 		# Italian minors will want to help San Marco if involved
 		if = { 
 			limit = {
@@ -2123,132 +1705,42 @@ ai_strategy_default = {
 			add = 25
 		}
 
-		# USA should be extremely aggressive against owners of their Manifest Destiny states
+		# Rome will want its old borders if it shakes off its funk
 		if = {
 			limit = {
-				has_journal_entry = je_manifest_destiny_mexico
+				c:WRE ?= this
+				NOT = { has_journal_entry = je_fall_of_rome }
 				scope:target_country = {
 					any_scope_state = {
 						OR = {
-							state_region = s:STATE_CALIFORNIA
-							state_region = s:STATE_NEVADA
-							state_region = s:STATE_UTAH
-							state_region = s:STATE_COLORADO
-							state_region = s:STATE_ARIZONA
-							state_region = s:STATE_NEW_MEXICO
-							state_region = s:STATE_TEXAS
+							state_region = s:STATE_CORSICA
+							state_region = s:STATE_SARDINIA
+							state_region = s:STATE_AUSTRIA
+							state_region = s:STATE_BAVARIA
+							state_region = s:STATE_BADEN
+							state_region = s:STATE_RHINELAND
+							state_region = s:STATE_WALLONIA
+							state_region = s:STATE_FLANDERS
+							state_region = s:STATE_GELRE
+							state_region = s:STATE_NORTH_RHINE
+							state_region = {
+								OR = {
+									is_homeland = cu:roman
+									is_homeland = cu:illyrian
+									is_homeland = cu:rhaetic
+									is_homeland = cu:gallic
+									is_homeland = cu:septimanian
+									# gothic and burgundian are unnecessary and cover the same ground
+									is_homeland = cu:hispanian
+									is_homeland = cu:africanu
+								}
+							}
 						}
 					}
 				}
 			}
 			add = 25
 		}
-
-		# Extra french aggression for Haiti renouncing debt payments
-		if = {
-			limit = {
-				has_variable = haiti_stops_paying_france_aggressor				
-				scope:target_country = {
-					has_variable = haiti_stops_paying_france_target
-					any_state = {
-						has_claim_by = root
-					}
-				}				
-			}
-			add = 5
-		}
-
-		# Extra aggression against Peru-Bolivia in general
-		if = {
-			limit = {
-				scope:target_country = {
-					has_journal_entry = je_peru_bolivia
-				}
-				OR = {
-					country_has_primary_culture = cu:south_andean
-					country_has_primary_culture = cu:north_andean
-					country_has_primary_culture = cu:platinean
-					country_has_primary_culture = cu:argentine
-					country_has_primary_culture = cu:chilean
-					country_has_primary_culture = cu:colombian
-					country_has_primary_culture = cu:ecuadorian
-				}
-			}
-			add = 25
-		}
-
-		# Even more aggression if you have the War of the Confederation JE
-		if = {
-			limit = {
-				has_journal_entry = je_war_of_the_confederation
-				scope:target_country = {
-					has_journal_entry = je_peru_bolivia
-				}
-			}
-			add = 75
-		}
-
-		# Veiled Protectorate
-		if = {
-			limit = {
-				has_journal_entry = je_veiled_protectorate
-				exists = c:EGY
-				scope:target_country = {
-					THIS = c:EGY
-				}
-			}
-			add = 5
-		}
-
-		# East India Company vs its neighbors
-		if = {
-			limit = {
-				has_journal_entry = je_consolidate_colonial_rule
-				scope:target_country = {
-					NOR = { 
-						is_subject_of = ROOT 
-						is_subject_of = ROOT.overlord
-					}
-					any_scope_state = {
-						OR = {
-							region = sr:region_north_india
-							region = sr:region_south_india
-							region = sr:region_himalayas
-							state_region = s:STATE_BURMA
-							state_region = s:STATE_KACHIN
-							state_region = s:STATE_SHAN_STATES
-							state_region = s:STATE_PEGU
-						}
-					}
-				}
-			}
-			add = 3
-		}
-
-		# Britain consolidating South Asia
-		if = {
-			limit = {
-				c:GBR ?= this
-				has_variable = british_raj_var
-				exists = c:BIC
-				scope:target_country = {
-					NOT = { is_subject_of = ROOT }
-					any_scope_state = {
-						OR = {
-							region = sr:region_north_india
-							region = sr:region_south_india
-							region = sr:region_himalayas
-							state_region = s:STATE_BURMA
-							state_region = s:STATE_KACHIN
-							state_region = s:STATE_SHAN_STATES
-							state_region = s:STATE_PEGU
-						}
-					}
-				}
-			}
-			add = 3
-		}
-
 
 		if = { #Russian Caucasus
 			limit = {
@@ -2454,270 +1946,6 @@ ai_strategy_default = {
             }
             add = -25
         }
-        # France should very aggressively go for Algeria.
-		if = {
-			limit = {
-				has_journal_entry = je_conquest_of_algeria
-				scope:target_country = {
-					any_scope_state = {
-						OR = {
-							state_region = s:STATE_ALGIERS
-							state_region = s:STATE_CONSTANTINE
-							state_region = s:STATE_ORAN
-							state_region = s:STATE_SAHARA
-							state_region = s:STATE_EAST_SAHARA
-						}
-					}
-				}
-			}
-			add = 10
-		}
-		# Russia should very aggressively go for the Caucasus if it's still a great power.
-		if = {
-			limit = {
-				exists = c:RUS
-                THIS = c:RUS
-                country_rank = rank_value:great_power
-                OR = {
-                	exists = c:CIR
-                	exists = c:CHC
-                }
-				scope:target_country = {
-					NOT = {
-						is_country_type = recognized
-					}
-					any_scope_state = {
-						OR = {
-							state_region = s:STATE_KUBAN
-							state_region = s:STATE_DAGESTAN
-							state_region = s:STATE_NORTH_CAUCASUS
-						}
-					}
-				}
-				NOT = {
-					has_global_variable = caucasus_failure_var
-				}
-			}
-			add = 100
-		}
-
-		if = {
-			limit = {
-				has_journal_entry = je_the_krakow_uprising
-				country_rank >= rank_value:major_power
-				exists = c:KRA
-				scope:target_country = {
-					this = c:KRA
-					NOT = {
-						is_subject_of = root
-					}
-				}
-			}
-			add = 50
-		}
-
-		if = {
-			limit = {
-				has_journal_entry = je_maintain_afghan_protectorate
-				scope:target_country = {
-					capital = {
-						region = sr:region_persia
-					}
-					OR = {
-						country_has_primary_culture = cu:pashtun
-						country_has_primary_culture = cu:tajik
-					}
-				}
-			}
-			add = 50
-		}
-
-        # Isolationist Paraguay under Francia should not go awol.
-        if = {
-            limit = {
-            	has_journal_entry = je_francocracia
-            }
-            add = -25
-        }
-        # Paraguay is less likely to be aggressive when modernizing.
-        if = {
-            limit = {
-            	has_journal_entry = je_modernizing_paraguay
-            }
-            add = -10
-        }
-        # Paraguay should be highly aggressive while they have the war JE.
-        if = {
-            limit = {
-                has_journal_entry = je_expanding_paraguay
-                scope:target_country = {
-                    any_scope_state = {
-                        state_region = s:STATE_CORRIENTES
-                    }
-                }
-            }
-            add = 50
-         }
-
-        if = {
-            limit = {
-                has_journal_entry = je_expanding_paraguay
-                scope:target_country = {
-                    any_scope_state = {
-                        OR = {
-                            state_region = s:STATE_SANTA_FE
-                            state_region = s:STATE_PARANA
-                            state_region = s:STATE_RIO_GRANDE_DO_SUL
-                        }
-                    }
-                }
-            }
-            add = 25
-        }
-		# Acre claimant wants Acre
-		if = {
-			limit = {
-				has_journal_entry = je_acre_dispute
-				scope:target_country = {
-					any_scope_state = {
-						state_region = s:STATE_ACRE
-					}
-				}
-			}
-			add = 25
-		}
-        # Great Powers with slavery banned should be more aggressive against an openly slave trading Brazil
-		if = {
-			limit = {
-				has_law = law_type:law_slavery_banned
-				country_rank >= rank_value:great_power
-				scope:target_country = {
-					has_modifier = brazil_slaving_pariah_modifier
-					has_law = law_type:law_slave_trade
-				}
-			}
-			add = 10
-		}
-		
-		# Persia is very aggressive if not cowed
-		if = {
-			limit = {
-				has_journal_entry = je_eastern_frontier
-				scope:target_country = {
-					any_scope_state = {
-						OR = {
-							region = sr:region_persia
-							region = sr:region_central_asia
-							region = sr:region_north_india
-						}
-						has_claim_by = ROOT
-					}
-				}
-			}
-			add = 10
-		}
-
-		#Aggression against non-aligned Afghanistan
-		if = {
-			limit = {
-				c:GBR ?= this
-				has_variable = committed_to_afghanistan_assistance
-				scope:target_country = {
-					has_variable = AFG_appealed_to_RUS
-				}
-			}
-			add = 5
-		}
-		else_if = {
-			limit = {
-				c:RUS ?= this
-				has_variable = committed_to_afghanistan_assistance
-				scope:target_country = {
-					has_variable = AFG_appealed_to_GBR
-				}
-			}
-			add = 5
-		}
-		
-		if = {
-			limit = {
-				c:GBR ?= this
-				has_variable = committed_to_afghanistan_assistance
-				any_country = {
-					has_variable = AFG_appealed_to_GBR
-					is_diplomatic_play_enemy_of = scope:target_country
-				}
-				scope:target_country = {
-					OR = {
-						country_has_primary_culture = cu:pashtun
-						country_has_primary_culture = cu:tajik
-					}
-				}
-			}
-			add = 5
-		}
-		else_if = {
-			limit = {
-				c:RUS ?= this
-				has_variable = committed_to_afghanistan_assistance
-				any_country = {
-					has_variable = AFG_appealed_to_RUS
-					is_diplomatic_play_enemy_of = scope:target_country
-				}
-				scope:target_country = {
-					OR = {
-						country_has_primary_culture = cu:pashtun
-						country_has_primary_culture = cu:tajik
-					}
-				}
-			}
-			add = 5
-		}
-
-		# Japanese aggression against China for the Sino-Japanese War
-		if = {
-			limit = {
-				has_global_variable = sino_japanese_war
-				c:JAP ?= this
-				scope:target_country = {
-					country_has_primary_culture = cu:korean
-					overlord = {
-						OR = {
-							country_has_primary_culture = cu:han
-							country_has_primary_culture = cu:manchu
-						}
-					}
-				}
-			}
-			add = 25
-		}
-		if = {
-			limit = {
-				has_global_variable = sino_japanese_war
-				c:JAP ?= this
-				scope:target_country = {
-					OR = {
-						country_has_primary_culture = cu:han
-						country_has_primary_culture = cu:manchu
-					}
-					any_subject_or_below = {
-						country_has_primary_culture = cu:korean
-					}
-				}
-			}
-			add = 25
-		}
-
-		# Afghan Consolidation
-		if = {
-			limit = {
-				has_journal_entry = je_unify_afghanistan
-				scope:target_country = {
-					has_journal_entry = je_unify_afghanistan
-				}
-			}
-			add = 35
-		}
 	}
 	
 	# How much construction output should the AI aim for
@@ -3494,36 +2722,7 @@ ai_strategy_default = {
 				add = 50
 			}
 		}	
-		region_central_asia = {
-			if = {
-				limit = {
-					has_journal_entry = je_great_game_control
-					OR = {
-						c:GBR ?= this
-						c:RUS ?= this
-					}
-				}
-				add = 500
-			}
-			else = {
-				add = -25
-			}
-		}	
-		region_persia = {
-			if = {
-				limit = {
-					has_journal_entry = je_great_game_control
-					OR = {
-						c:GBR ?= this
-						c:RUS ?= this
-					}
-				}
-				add = 500
-			}
-			else = {
-				add = -25
-			}
-		}	
+
 		region_north_china = {
 			if = {
 				limit = {
@@ -3942,25 +3141,7 @@ ai_strategy_default = {
 					add = 200				
 				}					
 			}		
-
-			if = {
-				limit = {
-					scope:target_country = {
-						has_journal_entry = je_peru_bolivia
-					}
-					OR = {
-						country_has_primary_culture = cu:south_andean
-						country_has_primary_culture = cu:north_andean
-						country_has_primary_culture = cu:platinean
-						country_has_primary_culture = cu:argentine
-						country_has_primary_culture = cu:chilean
-						country_has_primary_culture = cu:colombian
-						country_has_primary_culture = cu:ecuadorian
-					}
-				}
-				add = -50
-			}
-
+			
 			multiply = {
 				value = "ai_ideological_opinion(scope:target_country)"
 				multiply = 0.05
@@ -4310,27 +3491,6 @@ ai_strategy_default = {
 				}
 				add = 500
 			}
-			
-			if = {
-				limit = {
-					c:GBR ?= this
-					has_variable = committed_to_afghanistan_assistance
-					scope:target_country = {
-						has_variable = AFG_appealed_to_RUS
-					}
-				}
-				add = 100
-			}
-			else_if = {
-				limit = {
-					c:RUS ?= this
-					has_variable = committed_to_afghanistan_assistance
-					scope:target_country = {
-						has_variable = AFG_appealed_to_GBR
-					}
-				}
-				add = 100
-			}
 
 			multiply = {
 				value = "ai_ideological_opinion(scope:target_country)"
@@ -4496,24 +3656,6 @@ ai_strategy_default = {
 				add = 500
 			}
 			
-			if = {
-				limit = {
-					scope:target_country = {
-						has_journal_entry = je_peru_bolivia
-					}
-					OR = {
-						country_has_primary_culture = cu:south_andean
-						country_has_primary_culture = cu:north_andean
-						country_has_primary_culture = cu:platinean
-						country_has_primary_culture = cu:argentine
-						country_has_primary_culture = cu:chilean
-						country_has_primary_culture = cu:colombian
-						country_has_primary_culture = cu:ecuadorian
-					}				
-				}
-				add = 100
-			}			
-
 			if = {
 				limit = {
 					NOT = { is_country_type = unrecognized }
@@ -5067,43 +4209,6 @@ ai_strategy_default = {
 
 			if = {
 				limit = {
-					has_journal_entry = je_maintain_afghan_protectorate
-					scope:target_country = {
-						capital = {
-							region = sr:region_persia
-						}
-						OR = {
-							country_has_primary_culture = cu:pashtun
-							country_has_primary_culture = cu:tajik
-						}
-					}
-				}
-				add = 50
-			}
-
-			if = {
-				limit = {
-					has_journal_entry = je_consolidate_colonial_rule
-					scope:target_country = {
-						NOT = { is_subject_of = ROOT }
-						any_scope_state = {
-							OR = {
-								region = sr:region_north_india
-								region = sr:region_south_india
-								region = sr:region_himalayas
-								state_region = s:STATE_BURMA
-								state_region = s:STATE_KACHIN
-								state_region = s:STATE_SHAN_STATES
-								state_region = s:STATE_PEGU
-							}
-						}
-					}
-				}
-				add = 25
-			}
-
-			if = {
-				limit = {
 					has_secret_goal = {
 						who = scope:target_country
 						secret_goal = dominate
@@ -5444,29 +4549,6 @@ ai_strategy_default = {
 					max = 2.0
 				}				
 			}
-			# Britain will prioritize ending slavery in Brazil if they have the Aberdeen Act JE
-			if = {
-				limit = {
-					has_journal_entry = je_aberdeen_act
-					scope:target_country = {
-						c:BRZ ?= this
-					}
-				}
-				add = 50
-			}
-			# Great Powers with slavery banned will prioritize ending slavery in Brazil if that country failed its slavery JE
-			if = {
-				limit = {
-					has_law = law_type:law_slavery_banned
-					country_rank >= rank_value:great_power
-					scope:target_country = {
-						c:BRZ ?= this
-						has_modifier = brazil_slaving_pariah_modifier
-						has_law = law_type:law_slave_trade
-					}
-				}
-				add = 30
-			}
 
 			min = 0
 			max = 100
@@ -5598,24 +4680,6 @@ ai_strategy_default = {
 					}
 					add = 25
 				}
-			}
-
-			if = {
-				limit = {
-					scope:target_country = {
-						has_journal_entry = je_peru_bolivia
-					}
-					OR = {
-						country_has_primary_culture = cu:south_andean
-						country_has_primary_culture = cu:north_andean
-						country_has_primary_culture = cu:platinean
-						country_has_primary_culture = cu:argentine
-						country_has_primary_culture = cu:chilean
-						country_has_primary_culture = cu:colombian
-						country_has_primary_culture = cu:ecuadorian
-					}						
-				}
-				add = 75
 			}
 
 			# Relations with subject

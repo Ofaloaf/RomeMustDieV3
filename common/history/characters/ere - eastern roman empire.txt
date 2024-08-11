@@ -30,6 +30,14 @@
 			template = ere_petty_bourgeoisie_leader # Theodoros Sikoundenos
 		}
 		
+		create_character = {
+			template = ere_trade_union_leader # Pompeios ho Hermeiou
+		}
+		
+		create_character = {
+			template = ere_industrialist_leader # Hephaestion Kalliopas
+		}
+		
 		### Generals ###
 		
 		#create_character = {
@@ -49,6 +57,10 @@
 		
 		create_character = {
 			template = ere_admiral_1 # Levon Mamikonian
+		}
+		
+		create_character = {
+			template = ere_admiral_2 # Zosimas Lykaon
 		}
 	}
 }

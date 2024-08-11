@@ -8,7 +8,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_PROVENCE
-				count = 3
+				count = 2
 			}
 			
 			combat_unit = {
@@ -20,7 +20,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_CROATIA
-				count = 3
+				count = 1
 			}
 			
 			combat_unit = {
@@ -44,13 +44,13 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_SAVOY
-				count = 1
+				count = 2
 			}
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_PROVENCE
-				count = 1
+				count = 4
 			}
 			
 			combat_unit = {
@@ -62,20 +62,32 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_SLAVONIA
-				count = 3
+				count = 4
 			}
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_SAVOY
-				count = 1
+				count = 4
 			}
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_CROATIA
-				count = 2
+				count = 6
 			}
+			
+			save_scope_as = legio_i
+		}
+		
+		create_character = {
+			template = wre_odoacer_expy # Onulphus Otacheringi
+			
+			save_scope_as = onulphus_otacheringi
+		}
+		
+		scope:onulphus_otacheringi = {
+			transfer_to_formation = scope:legio_i
 		}
 	
 		create_military_formation = {
@@ -87,98 +99,88 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_PIEDMONT
-				count = 8
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_CAMPANIA
-				count = 1
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_CAMPANIA
-				count = 1
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_TUSCANY
-				count = 1
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_TUSCANY
-				count = 1
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_TUSCANY
-				count = 1
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_SARDINIA
-				count = 4
+				count = 2
 			}
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_SICILY
-				count = 5
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_EMILIA
-				count = 1
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_EMILIA
-				count = 1
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_APULIA
-				count = 1
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_APULIA
-				count = 1
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_CAMPANIA
-				count = 1
+				count = 2
 			}
 			
 			save_scope_as = legio_ii
 		}
 		
 		create_character = {
-			template = wre_odoacer_expy # Onulphus Otacheringi
-			
-			save_scope_as = onulphus_otacheringi
-		}
-		
-		create_character = {
 			template = wre_general_01 # Gercorio Segontiense
 			
 			save_scope_as = gercorio_segontiense
-		}
-		
-		scope:onulphus_otacheringi = {
-			transfer_to_formation = scope:legio_ii
 		}
 		
 		scope:gercorio_segontiense = {
@@ -207,6 +209,42 @@
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_TUNISIA
 				count = 1
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_STYRIA
+				count = 3
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SLOVENIA
+				count = 1
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_TUNISIA
+				count = 2
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_TUNISIA
+				count = 3
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_CONSTANTINE
+				count = 2
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_TUNISIA
+				count = 3
 			}
 			
 			save_scope_as = legio_iii
@@ -326,50 +364,8 @@
 		
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_north_africa
-			name = Legio_V
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_STYRIA
-				count = 3
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SLOVENIA
-				count = 1
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_TUNISIA
-				count = 2
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_TUNISIA
-				count = 3
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_CONSTANTINE
-				count = 2
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_TUNISIA
-				count = 3
-			}
-		}
-		
-		create_military_formation = {
-			type = army
 			hq_region = sr:region_iberia
-			name = Legio_VII
+			name = Legio_V
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
@@ -380,7 +376,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_NAVARRA
-				count = 5
+				count = 3
 			}
 			
 			combat_unit = {
@@ -392,25 +388,25 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_BADAJOZ
-				count = 2
+				count = 1
 			}
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_NAVARRA
-				count = 2
+				count = 1
 			}
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_ARAGON
-				count = 4
+				count = 1
 			}
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_CATALONIA
-				count = 3
+				count = 2
 			}
 			
 			combat_unit = {
@@ -422,30 +418,24 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_CASTILE
-				count = 3
+				count = 1
 			}
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_CATALONIA
-				count = 4
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_TOLEDO
-				count = 3
-			}
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_BADAJOZ
 				count = 2
 			}
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_CASTILE
+				state_region = s:STATE_TOLEDO
+				count = 1
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_BADAJOZ
 				count = 2
 			}
 			
@@ -454,6 +444,17 @@
 				state_region = s:STATE_ARAGON
 				count = 1
 			}
+			save_scope_as = legio_v
+		}
+		
+		create_character = {
+			template = wre_general_03 # Glaucias Scirtar
+			
+			save_scope_as = glaucias_scirtag
+		}
+		
+		scope:glaucias_scirtag = {
+			transfer_to_formation = scope:legio_v
 		}
 		
 		create_military_formation = {

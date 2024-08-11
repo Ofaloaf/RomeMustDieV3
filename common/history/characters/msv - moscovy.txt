@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:MSV = {
+		create_character = {
+			template = MSV_ruler			# Mikail Velyaminov
+		}
+	}
+}

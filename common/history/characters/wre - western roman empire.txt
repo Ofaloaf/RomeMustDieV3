@@ -41,9 +41,9 @@
 		#	template = wre_general_02	# Bonifacio Ruffo
 		#}
 
-		create_character = {
-			template = wre_general_03	# Glaucias Scirtar
-		}
+		#create_character = {
+		#	template = wre_general_03	# Glaucias Scirtar
+		#}
 
 		#create_character = { # created and assigned to an army in common\history\military_formations\WRE_military_formations.txt
 		#	template = wre_general_04	# Eneas Cincio
