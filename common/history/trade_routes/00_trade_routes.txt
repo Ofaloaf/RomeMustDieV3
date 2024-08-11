@@ -860,6 +860,28 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Mhumhain
+	c:MMU ?= {	
+		create_trade_route = {
+			goods = dye
+			level = 1
+			direction = import
+			target = c:MEX.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:AIL.market
+		}
+		create_trade_route = {
+			goods = iron
+			level = 4
+			direction = import
+			target = c:PGN.market
+		}
+    }
+
 
 
 
