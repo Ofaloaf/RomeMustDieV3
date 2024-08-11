@@ -2,6 +2,7 @@
     first_name = Victor
     last_name = Tatulus
     historical = yes
+	dna = WRE_victor_tatulus
     ruler = yes
     age = 58
     interest_group = ig_landowners
@@ -16,6 +17,7 @@ wre_heir = {
     first_name = "Victorianus"
     last_name = Tatulus
     historical = yes
+	dna = WRE_victorianus_tatulus
     heir = yes
     age = 24
     interest_group = ig_petty_bourgeoisie

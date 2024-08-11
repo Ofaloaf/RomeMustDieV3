@@ -4635,14 +4635,14 @@ prussian={
 		Alvydas Arelis Auctune 
 		Bajoras Beidras Budo 
 		Dagonis 
-		Ekkelis 
+		Ekkelis Erks
 		Galindas Gauronas Gerdautas Glande Golding 
 		Jauguttis 
 		Karatas Klukis Kugis
 		Milzas 
 		Nomedas 
 		Prusas 
-		Sergonis 
+		Sergonis Skomantas
 		Ulinniks Ulitis
 	}
 	female_common_first_names={
@@ -4661,7 +4661,7 @@ prussian={
 		Gintautaitis Gedigaudas Geraiun
 		Jankowskie
 		Kuilis Kalabijjan
-		Milciunos
+		Milciunos Mants
 		Nemanas Nareliunos Nowlunas
 		Pregolyas Priegliusas Peckollas
 		Rickias Remezytis 
@@ -11746,46 +11746,76 @@ muskogean={ # Creek and Seminole
 	religion = arian
 	traits = { indigenous_american_heritage eastern_woodlands }
 	male_common_first_names={
-		Alexander
-		Billy
-		Gideon
-		John Joseph Jack
-		Kose
-		Micanopy
-		Peter
-		Roley
-		Sam Solomon
+		Ahaya Asi-yahola Arpiucki
+		Bolek
+		Chekilli Chitto_Harjo Chebon_Ahbulah
+		Eneah_Emathla
+		Hothlepoya Heles-haco Hoboi-Hili-Miko Hopaychutke
+		Isparhecher
+		Michenopah Menawa
+		Opothleyahola Oktarssarsharjo
+		Steekchakomeco
+		Tustunnuggee_Hutke Talof_Harjo Tomochichi Toonahawi Tvstanagi_HopvyE_ Tokose_Mathla Tvstanagi_RakkE_
+		Yaha_Tustunugge Ya-ha_Hadjo
+		# some Roman(tic) and Christian influences
+		Arius
+		Constantinus
+		Salomon
 	}
 	female_common_first_names = {
-		Ann
-		Cindoche
-		Delilah
+		Cindoche Coosaponakeesa Chechoter
 		Kecharte
-		Lucy
-		Martha
-		Polly Polikissut
+		Malee
+		Senoya Sinnugee Senauki
 		Yulaka
+		# some Roman(tic) and Christian influences
+		Placidia
+		Sophia
 	}	
-	noble_last_names = {
-		Ahhajumba
-		Bowlegs Brim
-		Checote
-		McIntosh
-		Stedham
+	noble_last_names = {	# Creek clan names have forms like Hota'lga'lgi, which means Wind Clan, derived from Ho'tvle for Wind. I'm using the latter as the actual nameform, because I don't know the linguistic nuances but need to make a call, and what European noble would call themselves Ferdinand of the House of Habsburg rather than Ferdinand von Habsburg?
+		Eccaswv # Beaver
+		Ho_tvle # Wind (clan)
+		Kono # Skunk
+		Nokuse # Bear
+		Ya_hv # Wolf
+		Fuswv # Bird
+		Cu_lv # Fox
+		Ka_tcv # Panther
+		Kowa_kuce # Cat/Wildcat
+		Aha_ # Potato. yes.
+		Hvlpv_tv # Alligator
+		Wotko # Raccoon
+		Supak_tv # Toad
+		Eco
+		#
+		Albaamaha # Alabama
+		Okchai
 	}
 	common_last_names={
-		Anderson Arthur
-		Beaver Barnett Berryhill
-		Coppinger Callahan Carr
-		Dreadfulwater Davis
+		Eccaswv # Beaver
+		Ho_tvle # Wind (clan)
+		Kono # Skunk
+		Nokuse # Bear
+		Ya_hv # Wolf
+		Fuswv # Bird
+		Cu_lv # Fox
+		Ka_tcv # Panther
+		Kowa_kuce # Cat/Wildcat
+		Aha_ # Potato. yes.
+		Hvlpv_tv # Alligator
+		Wotko # Raccoon
+		Supak_tv # Toad
+		Eco
+		#
+		Ahhajumba Apalachicola Albaamaha Atcik-ha_ta Amooklasah
+		Chiacahuti Chatahuchi
+		Eufala
 		Fixico
-		Hicks Hardage Harjo
-		Isaac
-		Jones
-		McQueen
-		Powell Perryman Prince Potter
-		Sixkiller
-		Yoholo
+		Koasati
+		Okfuskee Oconee Osuchi Ocmulque Okchai
+		Sawokli
+		Taliapaste Tacusa Tabacha Talisi
+		Yoholo Ylapi
 	}
 	ethnicities = {
 		1 = native_american
@@ -12291,30 +12321,30 @@ iroquoian={
 	traits = { indigenous_american_heritage eastern_woodlands }
 	male_common_first_names={
 		Akwiraron Akwirente
-		Domagaya
-		Canaqueese
+		Domagaya Dewaselakeh
+		Canaqueese Cogwagee
 		Ga-Na-Gua Guyasuta Ganio-dai-io Gyantwachia
 		Hadawa-ko Hayonhwonhish Honayawas Hutgohsodoneh
-		Kaintwakon
+		Kaintwakon Kalonyoudyeh Kanonaron Karaghtadie
 		Odeserundiye Onenhariio Ourehouare
 		Skenandoa Sganyodaiyo Sakokwenionkwas Sagoyewatha Sayenqueraghta Sigwaahdohgwih Sosondowa Saonchiogwa
-		Tanacharison Thaonawyuthe Tejonihokarawa Taignoagny Tewahangarahken Taweeratt
+		Tanacharison Thaonawyuthe Tejonihokarawa Taignoagny Tewahangarahken Taweeratt Tyorhansera
 	}
 	female_common_first_names = {
 		Akat Alliquippa
 		Dehhewanis Degonwadonti
 		Gahonnoneh Gowongo
 		Kaniehtiio Kawisenhawe
-		Lydia
+		Ohtowa_kE_hson
 		Tekakwitha Tyonajanegen Tagaskouita Tekahentakwa
 	}
 	noble_last_names = {
 	}
 	common_last_names={
-		AkhwesA_hsne Akawenteaka A_no__wara
-		Canawaugus Chenussio 
+		AkhwesA_hsne Akawenteaka A_no__wara Ahdohwahgeseon
+		Canawaugus Chenussio Canoga
 		Deawendote
-		Ganienkeh Ganandogan Goiogouen Ganneious
+		Ganienkeh Ganandogan Goiogouen Ganneious Ganundasaga
 		KentE__ke Kana_tsioharE__ke Kahnawake KanehsatA__ke Kendaia Katenuaka
 		OhswE__ken Onaquaga
 		Queanettquaga Quinaouatoua

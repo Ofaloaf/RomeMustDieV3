@@ -1,0 +1,18 @@
+﻿PWT_ruler = { # Opechancanough Orapake
+	first_name = Opechancanough
+	last_name = Orapake
+	historical = yes
+	culture = cu:algonquian
+	religion = rel:nicene
+	ruler = yes
+	female = no
+	age = 58
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	traits = {
+		terrible_speaker
+		cautious
+		alcoholic
+		personal_wealth
+	}
+}

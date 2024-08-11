@@ -158,186 +158,77 @@ scottish={
 
 galician={
 	color= hsv{ 0.52 0.51 0.75 }
-	religion = catholic
-	traits = { iberian_culture_group lusophone european_heritage }
+	religion = nicene
+	traits = { latin_culture_group romance_speaker european_heritage }
 	male_common_first_names={
-		Abel
-		Adriano
-		Afonso
-		Alberto
-		Alexandre
-		Alfredo
-		Andre
-		Antonio_2
-		Aquilino
-		Artur
-		Augusto
-		Bartolomeu
-		Bernardo
-		Bruno
-		Caetano
-		Carlos
-		Christovao
-		Claudio_2
-		Candido
-		Damiao
-		Daniel
-		David
-		Dinis
-		Diogo
-		Duarte
-		Ernesto
-		Estevao
-		Eugenio
-		Fernando
-		Filipe
-		Francisco
-		Francisco_Xavier
-		Gastao
-		Hermenegildo
-		Ignacio_2
-		Jeronimo
-		Joaquim
-		Jorge
-		Jose
-		Joao
-		Julio_2
-		Leopoldo
-		Luis_2
-		Manuel
-		Miguel
-		Mario_2
-		Nicolau
-		Nuno
-		Orlando
-		Pascoal
-		Paulo
-		Pedro
-		Rafael_2
-		Raul
-		Roberto
-		Rodrigo
-		Rui
-		Santiago
-		Sebastiao
-		Teodoro
-		Teofilo
-		Tiago
-		Tome
+		Abel Adriano Alberto Absalon Andre Antonio_2 Aquilino Augusto Adiuvando Aidio ApariC_io
+		Bartolomeu Bennatus Blandino
+		Caetano Christovao Claudio_2 Candido Calcedonio Centullus Cesarius Conparato Constanzo Crispus
+		Damiao Daniel David Dinis Diogo Dato Decius Deiservo Donatus Donumdei
+		Estevao Eugenio
+		Filipe Facundus Feles Flavius Floridio Fortis Fulgentius
+		Gastao Gaudenzo Gaudioso Gercorio
+		Honestus Honoratus Honorius
+		Ignacio_2 Iermanus Ilianus Iordanus Iustinus
+		Jeronimo Joaquim Jorge Jose Joao Julio_2
+		Laurenzo Lazarus Leo Leontius Liberius Liverto Locrizo Lucius
+		Miguel Mario_2 Marcello Marchus Mertinus Mateus Maurenzo Mauriliz Maximinus Maximus Modestus Mogeimo Moysen
+		Nicolau Nuno
+		Octavio Orbanus Osevio
+		Pascoal Paulo Pedro Paio Patre Pelaio Placidio Poncius Porfirius Posedonius Potenzus
+		Rafael_2 Ramulus Romanus Romeus
+		Sebastiao Salomon Samuhel Sebastianos Septimus Severo Sexto Silvanus Silvester Simplicius
+		Teodoro Teofilo Tiago Tome Titus Timotheus
 		Urbano
 		Vasco
-		Vicente
-		Vitorino
-		Vitorio
-		Alvaro
-		Oscar_2
+		Vicente Vitorino Vitorio Valeriano Valerio Vicentius Vincemalus
 	}
 	female_common_first_names = {
-		Adelgundes
-		Ana
-		Antonia_2
-		Avelina
-		Benedita
-		Bernardina
-		Carlota
+		Ana Antonia_2 Avelina Alvura Antolina Aurobonna
+		Benedita Bonella Bononome Bonosa
+		Carlota Cecilia
+		Deidona Doretia Dulce
 		Eulalia_2
-		Francisca
-		Gabriela
-		Isabel
-		Joana
-		Joaquina
-		Josefa
-		Leopoldina
-		Maria
-		Micaela
-		Rafaela
-		Rita
-		Rosa
-		Rosalia
-		Sofia
+		Felicia Floridia
+		Gabriela Gaudiosa Genesia Genesita Gratiosa
+		Honoria
+		Isabel Iberia Iuliana Iussana
+		Joana Joaquina Josefa
+		Laurenza Letifica Lepora Lupella
+		Maria Micaela Maiorina Marina Martinus Matreduze Matrevita Mendonia Meola
+		Naoralia Natalia
+		Orabona Ostabia
+		Pacina Placidia Presenza Proentia
+		Rafaela Rita Rosa Rosalia Reverenza Romana
+		Sofia Sabatina Scemena Semperbona Speciosa Susana
 		Teresa
+		Valeria Vigilia Virginia
 	}	
-	noble_last_names = {
-		Correia_de_Sa
-		Costa
-		da_Cunna
-		da_Silva_Pereira
-		de_Almada
-		de_Braganza
-		de_Braganca-Coburgo
-		Carballo
-		de_Caula
-		de_Oliveira
-		de_Queiros
-		de_Sousa
-		de_Sousa_Coutinno
-		de_Vasconcelos
-		dos_Anxos
-		Rangel
-		Rebelo
-		Vilela
-	}
+	#noble_last_names = {		
+	#}
 	common_last_names={
-		Amaral
-		Barreto
-		Bleck
-		Braga
-		Cabral
-		Capelo
-		Carmona
-		Coelho
-		Correia
-		Coutinho
-		Dias
-		Fernandes
-		Ferreira
-		Figueira
-		Freire_de_Andrade
-		Gago
-		Gil
-		Gomes
-		Herculano
-		Ivens
-		Keil
-		Lopes
-		Machado
-		Magalhaes
-		Mendes
-		Moniz
-		Mouzinho
-		Nogueira
-		Nunes
-		Ortigao
-		Pereira
-		Pinheiro
-		Pinto
-		Pires
-		Pomar
-		Pulido
-		Queiroz
-		Quintanilha
-		Ribeiro
-		Rodrigues
-		Salazar
-		Sampaio
-		Silveira
-		Sergio_2
-		Tavares
-		Teixeira
-		Vidigal
-		Vieira
-		da_Silva
-		de_Almeida
-		de_Arriaga
-		de_Castro
-		de_Gusmao
-		de_Lacerda
-		de_Mesquita
-		de_Moura
-		de_Noronha
-		de_Paiva
-		dos_Reis
-		dos_Santos
+		Amaral Arias Abrentius Acerrimus Advocatus Aemilius Aecius Atrianus Agrestius Amantilius Amantius Antenato
+		Barreto Braga Barva Basilianus Bellarifonsus Bellaronius Bonimenzo
+		Cabral Capelo Carmona Coelho Correia Coutinho Cresconius Caecius Calventius Celsius Ciprianus Citronius Conantius Cordelius Cornelius
+		Dias Dominicus Dalmazius Delgada Dicentius Donimentius Donadeo Dunnius
+		Ermentarius Envolatus Exemeno
+		Ferreira Figueira Fallustius Faustinus Fenesteiro Ferriolo Ferronio Flaino Flamolinus Flazentius Florenus Furtunius
+		Gaudius Genenetivo
+		Herculano HelI_as Horlonio Horatius Holovio Horosius
+		Iovius Iubandus Iulius Iunius
+		Kavinio Kellelello Katon Karidoso Kintinus
+		Lopes Lalan Lallinus Lalon Lampadius Lecenianus Licenis Letimius Lopon Lucentius Luparius
+		Machado Magalhaes Mendes Moniz Mouzinho Manuel Magicus Magnentius Maliciosus Mancius Mallus Mallaton Malasco Manenentios Marcelianus Mariolus Marrequino Martianus Martius Maternianus Maderno Mauni Mauratinus Morecadus Mauricellus Mauricius Melquisedec Menitius Menneus Meotellius Mercolino Murcurianus Misinus Mictus Moldomi Moino Momellus Motano Moviga
+		Nogueira Nunes Naiorellus Nebridius Nelectus Nebucano Novidius Numitius
+		Ortigao Octavianus Orinoleo Osormeo Oveccus Ovinius
+		Pereira Pinheiro Pinto Pires Pomar Pulido Palatinus Palmacius Pantaleus Paschasius Patricius Patrino Perenius Perello Petrunius Pictacius Piliolus Pexpi Pinniolo Pintinus Placentius Polemius Pompedius Ponpeianus Ponpilo Porcilianus Postonio Potamius Precarius Pregamius Presidio Proamius Provicio Pruentus Puricello
+		Queiroz Quintanilha Quintilianus Quintius Quinto Quinzano Quiriacus
+		Ribeiro Rabinadus Reles Renovado Revelius Reverentius
+		Salazar Sampaio Silveira Sergio_2 Servandus Salcedo Sabbatus Sabbatinus Salvatus Sampirus Santoius Santon Sardinarius Sardinus Saturninus Sarracinus Sarranio Savaano Savinus Scemoso Segundinus Semeson Sempronio Sereniano Serotinus Servianus Setto Silus Soribonius Sperantius 
+		Tavares Teixeira Tabera Tardenatus Teiro Teorenius Teretianus Tertulianus Timinus Toranzus Totodens Toutellus Teygoy Tuniu Tusto
+		Vidigal Vieira Vilela Vincibilis Vistruarius Valentius Varvarinus Vela Venatori Venerandus Viator Vicco Violentius Viventius Vivianus
+		Yseceriz
+		Zallico Zamarius Zasio Zarraquino Zieri Zerno
 	}
 	ethnicities = {
 		1 = caucasian
@@ -559,7 +450,7 @@ balinese={
 
 cajun={
 	color= hsv{ 0.62 0.54 0.72 }
-	religion = catholic
+	religion = nicene
 	traits = { francophone european_heritage }
 	male_common_first_names={
 		Amos Anatole Aaron Augustin Achille
@@ -871,7 +762,7 @@ circassian = {
 
 francoprovencal = {
 	color= rgb{ 158 41 12 }
-	religion = catholic
+	religion = nicene
 	traits = { francophone swiss european_heritage }
 
 	male_common_first_names = {
@@ -938,7 +829,7 @@ francoprovencal = {
 
 sulista = {
 	color= hsv{ 0.50 0.40 0.53 }
-	religion = catholic
+	religion = nicene
 	traits = { lusophone european_heritage }
 
 	male_common_first_names = {
@@ -997,7 +888,7 @@ sulista = {
 
 nordestino = {
 	color= hsv{ 0.43 0.50 0.55 }
-	religion = catholic
+	religion = nicene
 	traits = { lusophone european_heritage }
 
 	male_common_first_names = {
@@ -1056,7 +947,7 @@ nordestino = {
 
 amazonic = {
 	color= hsv{ 0.43 0.50 0.55 }
-	religion = catholic
+	religion = nicene
 	traits = { lusophone european_heritage }
 
 	male_common_first_names = {
@@ -1111,7 +1002,7 @@ amazonic = {
 
 paulista = {
 	color= hsv{ 0.66 0.55 0.60 }
-	religion = catholic
+	religion = nicene
 	traits = { lusophone european_heritage }
 
 	male_common_first_names = {

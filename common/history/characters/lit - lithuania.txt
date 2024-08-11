@@ -1,18 +1,18 @@
 ﻿CHARACTERS = {
 	c:LIT = {
 		create_character = {
-			first_name = Gedvilas
-			last_name = AlS_eniS_kis
-			historical = yes
-			ruler = yes
-			age = 57
-			interest_group = ig_devout
-			traits = {
-			}
+			template = LIT_ruler
 			on_created = {
 				set_variable = {
 					name = is_santa_anna # this is here only to make the error log shut up
 				}				
+			}
+		}
+		
+		create_character = {
+			template = LIT_agitator # Girdavas Mokinis, Prussian devout agitator
+			on_created = {
+				exile_character = yes
 			}
 		}
 	}

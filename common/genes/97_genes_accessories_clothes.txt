@@ -424,10 +424,18 @@
 			christian_outfits = {
 				index = 23
 				male = {
-					1 = male_outfit_christian_priest_01					
+					1 = male_outfit_christian_priest_01	
+					2 = male_clothes_priest_low_01_franciscan
+					1 = male_clothes_priest_low_01_dominican
+					1 = male_clothes_priest_low_01_benedictine
+					#
+					1 = male_clothes_priest_low_01_franciscan
+					4 = male_clothes_priest_high_01
 				}
 				female = {
-					1 = female_clothes_secular_byzantine_nobility_02_common
+					2 = female_clothes_secular_byzantine_nobility_02_common
+					3 = female_clothes_secular_western_nobility_03_common
+					5 = female_clothes_priest_low_01
 				}
 				boy = male
 				girl = female
@@ -439,6 +447,7 @@
 					1 = male_outfit_christian_pope_01				
 				}
 				female = {
+					1 = female_clothes_priest_low_01
 				}
 				boy = male
 				girl = female
@@ -455,8 +464,6 @@
 				boy = male
 				girl = female
 			}
-
-			
 
 			siamese_royal_outfits = {
 				index = 26
@@ -961,13 +968,54 @@
 			index = 59
 			male = {
 				2 = male_outfit_polynesian_01_low
+				1 = male_outfit_mesoamerica_tilmatli
 				1 = male_outfit_african_common_03
-				
 			}
 			female = {
 				1 = female_outfit_african_common_01
 				1 = female_outfit_african_common_03
 			}
+			boy = male
+			girl = female
+		}
+		
+		northern_european_pagan_clothes = {
+			index = 60
+			male = {
+				4 = male_clothes_northern_pagan_priest_01
+			}
+			female = {
+				1 = female_clothes_secular_northern_nobility_01_low
+				1 = female_clothes_secular_northern_nobility_02_low
+				2 = female_clothes_northern_pagan_priest_01
+			}
+
+			boy = male
+			girl = female
+		}
+		
+		simple_tunic = {
+			index = 61
+			male = {
+				1 = male_bedchamber_01_common
+			}
+			female = {
+				#
+			}
+
+			boy = male
+			girl = female
+		}
+		
+		noble_jacket = {
+			index = 62
+			male = {
+				1 = male_noble_jacket_01
+			}
+			female = {
+				#
+			}
+			
 			boy = male
 			girl = female
 		}
@@ -2894,7 +2942,20 @@
 
 				boy = male
 				girl = female
-			}			
+			}
+
+			northern_cloak = {
+				index = 22
+				male = {
+					1 = male_fur_pelt_cloak_03
+				}
+				female = {
+					1 = female_fur_pelt_cloak_03
+				}
+
+				boy = male
+				girl = female
+			}
 		}
 
 
