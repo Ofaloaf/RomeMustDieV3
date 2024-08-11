@@ -4635,14 +4635,14 @@ prussian={
 		Alvydas Arelis Auctune 
 		Bajoras Beidras Budo 
 		Dagonis 
-		Ekkelis 
+		Ekkelis Erks
 		Galindas Gauronas Gerdautas Glande Golding 
 		Jauguttis 
 		Karatas Klukis Kugis
 		Milzas 
 		Nomedas 
 		Prusas 
-		Sergonis 
+		Sergonis Skomantas
 		Ulinniks Ulitis
 	}
 	female_common_first_names={
@@ -4661,7 +4661,7 @@ prussian={
 		Gintautaitis Gedigaudas Geraiun
 		Jankowskie
 		Kuilis Kalabijjan
-		Milciunos
+		Milciunos Mants
 		Nemanas Nareliunos Nowlunas
 		Pregolyas Priegliusas Peckollas
 		Rickias Remezytis 

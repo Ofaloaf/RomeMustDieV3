@@ -1355,7 +1355,12 @@
 						has_ideology = ideology:ideology_theocrat
 					}
 					culture = {
-						has_discrimination_trait = germanic_culture_group
+						OR = {
+							has_discrimination_trait = germanic_culture_group
+							has_discrimination_trait = baltic_culture_group
+							has_discrimination_trait = finnic
+							has_discrimination_trait = scandinavian_culture_group
+						}
 					}
 				}
 			}
