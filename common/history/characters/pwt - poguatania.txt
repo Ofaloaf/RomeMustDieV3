@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:PWT = {
+		create_character = {
+			template = PWT_ruler	# Opechancanough Orapake
+		}
+	}
+}

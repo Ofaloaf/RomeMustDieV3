@@ -293,6 +293,11 @@ male_headgear_felt_hat_brown = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_prop_felt_hat_brown_entity" }	
 }
 
+male_headwrap_01 = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headwrap_01_entity" }	
+}
+
 male_headgear_ate_native_nobility_01 = {
 	set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_ate_native_nobility_01_entity" }	
@@ -301,6 +306,11 @@ male_headgear_ate_native_nobility_01 = {
 female_headgear_ate_native_nobility_01 = {
 	set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "female_headgear_ate_native_nobility_01_entity" }	
+}
+
+female_headwrap_01 = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "female_headwrap_01_entity" }	
 }
 
 ### TOP LAYERS

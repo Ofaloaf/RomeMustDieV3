@@ -117,3 +117,18 @@ variation = {
 	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_romemustdie_common_01.dds" }	
 }
+
+variation = {
+	name = "plain_cotton_white"
+	
+
+	pattern = { 
+		weight = 1
+		 
+		r = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		a = { textures = "generic_cotton_standard_fine_01"			layout = "plain_fabric_layout" }
+	}
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_01_western_bedchamber_02.dds" }	
+}

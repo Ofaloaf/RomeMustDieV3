@@ -313,8 +313,11 @@
 		native_american_hairstyles = {
 			index = 12
 			male = {
+				1 = empty # BALD
 				1 = male_hair_indian_02
+				1 = male_hair_long_01
 				1 = male_hair_long_02
+				1 = male_hair_long_03
 				1 = male_hair_european_03
 				1 = male_hair_european_08
 				1 = male_hair_european_16

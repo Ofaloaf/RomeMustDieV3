@@ -1243,7 +1243,7 @@
 				index = 75
 
 				male = {
-					1 = male_headgear_phrygian_hat_entity
+					1 = male_headgear_phrygian_hat
 				}
 
 				female = {
@@ -1280,6 +1280,22 @@
 				boy = male
 				girl = female
 			}
+			
+			eastern_woodlands_turban = {
+				index = 78
+				male = {
+					1 = empty
+					2 = male_headgear_native_american_common_01
+					1 = male_headwrap_01
+				}
+
+				female = {
+					3 = empty
+					1 = female_headwrap_01
+				}
+				boy = male
+				girl = female
+			}	
 		}
 	}
 }

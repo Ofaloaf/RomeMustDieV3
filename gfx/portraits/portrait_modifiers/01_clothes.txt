@@ -687,6 +687,66 @@
 		}
 	}
 	
+	roman_foederatus = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = northern_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			
+			accessory = {
+				mode = add
+				gene = legwear
+				template = fp1_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			
+			accessory = {
+				mode = add
+				gene = top_layer
+				template = roman_ep2_cloak
+				range = { 0 0.5 } # For the randomness to work correctly
+			}
+		} 
+
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				
+				scope:character ?= {
+					OR = {
+						has_template = foederati_leader_template
+						has_template = wre_odoacer_expy
+					}
+				}
+			}
+			modifier = {
+				add = 1000
+				
+				politician_clothes_trigger = yes
+				scope:character ?= {
+					is_interest_group_type = ig_armed_forces
+					culture = {
+						NOR = {
+							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = greek_culture
+						}
+					}
+					owner ?= {
+						OR = {
+							c:WRE ?= this
+							c:ERE ?= this
+							c:GLL ?= this
+						}
+					}
+				}
+			}
+		}
+	}
+	
 	roman_monarch = {
 		dna_modifiers = {
 			accessory = {
@@ -1112,6 +1172,7 @@
 									cu:gallic = this
 									cu:africanu = this
 									cu:illyrian = this
+									cu:galician = this
 									has_discrimination_trait = greek_culture
 								}
 							}
@@ -1132,6 +1193,7 @@
 									cu:gallic = this
 									cu:africanu = this
 									cu:illyrian = this
+									cu:galician = this
 									has_discrimination_trait = greek_culture
 								}
 							}
@@ -1199,6 +1261,13 @@
 					is_interest_group_type = ig_armed_forces
 					culture = {
 						has_discrimination_trait = germanic_culture_group
+					}
+					owner ?= {
+						NOR = { 
+							c:WRE ?= this 
+							c:GLL ?= this
+							c:ERE ?= this
+						}
 					}
 				}
 			}
@@ -1410,7 +1479,10 @@
 							has_discrimination_trait = greek_culture
 						}
 					}
-					NOT = { owner = { c:FRK ?= this } }
+					NOR = { 
+						owner = { c:FRK ?= this } 
+						owner = { c:WRE ?= this }
+					}
 				}
 			}
 		}
@@ -1898,11 +1970,25 @@
 					OR = {
 						is_interest_group_type = ig_intelligentsia
 						is_interest_group_type = ig_petty_bourgeoisie
-						is_interest_group_type = ig_industrialists		
+						is_interest_group_type = ig_industrialists
+						is_interest_group_type = ig_trade_unions
 					}
                 }
                 politician_clothes_trigger = yes 
             }
+            modifier = {
+                add = 5000
+                scope:character ?= {
+                    culture = {
+						has_discrimination_trait = indigenous_american_heritage
+						has_discrimination_trait = eastern_woodlands
+                    }
+					OR = {
+						has_role = general
+						has_role = admiral
+					}
+				}
+			}
 		}
 	}
 
@@ -1989,6 +2075,10 @@
 						}
 						AND = {
 							is_interest_group_type = ig_industrialists	
+							is_female = no
+						}	
+						AND = {
+							is_interest_group_type = ig_trade_unions
 							is_female = no
 						}	
 					}
