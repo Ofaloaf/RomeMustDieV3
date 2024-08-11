@@ -882,6 +882,58 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Ebrauc
+	c:EBR ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 3
+			direction = import
+			target = c:AIL.market
+		}
+    }
+
+	# Elmet
+	c:ELM ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:EBR.market
+		}
+    }
+
+	# Cair Legion
+	c:CLR ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:RCT.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:RCT.market
+		}
+    }
+
+	# Maunguid
+	c:MAC ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:RCT.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 3
+			direction = import
+			target = c:RCT.market
+		}
+    }
+
 
 
 
