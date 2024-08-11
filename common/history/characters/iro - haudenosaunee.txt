@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:IRO = {
+		create_character = {
+			template = IRO_ruler				# Decanesora Hononwirehdonh. Also Rural Folk leader.
+		}
+		
+		create_character = {
+			template = IRO_landowners_leader	# Konwajonhondyon A'nó:wara
+		}
+		
+		create_character = {
+			template = IRO_agitator				# Onondeyoh Ohkwa:ri
+		}
+	}
+}

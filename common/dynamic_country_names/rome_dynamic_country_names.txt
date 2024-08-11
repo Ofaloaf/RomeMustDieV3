@@ -375,7 +375,8 @@ EGY = { # Egypt
 			coa_def_independent_trigger = yes
 			exists = scope:actor
 			scope:actor = {
-				ruler = {
+				any_scope_character = {
+					is_ruler = yes
 					culture = { cu:copt = this }
 				}
 			}

@@ -106,8 +106,8 @@ on_yearly_events = {
 		1 = natural_disaster_events.8
 		
 		# Warlords
-		20 = warlord_china_events.110
-		20 = warlord_china_events.301
+		#20 = warlord_china_events.110
+		#20 = warlord_china_events.301
 		
 		# Assassination
 		10 = assassination_events.1
@@ -137,7 +137,7 @@ on_yearly_events = {
 		50 = strike.6
 		50 = strike.7
 
-		10 = opium_wars.8
+		#10 = opium_wars.8
 		
 		10 = communism.7
 		10 = communism.9

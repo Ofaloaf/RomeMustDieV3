@@ -1,0 +1,34 @@
+﻿LIT_ruler = {
+	first_name = Gedvilas
+	last_name = AlS_eniS_kis
+	historical = yes
+	culture = cu:lithuanian
+	religion = rel:baltic_pagan
+	ruler = yes
+	age = 57
+	interest_group = ig_devout
+	traits = {
+		pious
+		cruel
+		expert_political_operator
+	}
+}
+
+LIT_agitator = {
+	first_name = Girdavas
+	last_name = Mokinis
+	historical = yes
+	culture = cu:prussian
+	religion = rel:baltic_pagan
+	is_agitator = yes 
+	female = no
+	age = 45
+	interest_group = ig_devout
+	ideology = ideology_traditionalist
+	traits = {
+		wrathful
+		brave
+		cocaine_addiction # LET'S FUCKING GO
+		firebrand
+	}
+}

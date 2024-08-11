@@ -7,7 +7,6 @@ pdxmesh = {
 	blend_shape = { id = "male_clothes_secular_northern_nobility_02_bs_gaunt"		type = "male_clothes_secular_northern_nobility_02_bs_gaunt.mesh" }
 	blend_shape = { id = "male_clothes_secular_northern_nobility_02_bs_muscular"		type = "male_clothes_secular_northern_nobility_02_bs_muscular.mesh" }	
 	blend_shape = { id = "male_clothes_secular_northern_nobility_02_bs_old"		type = "male_clothes_secular_northern_nobility_02_bs_old.mesh" }
-	blend_shape = { id = "male_clothes_secular_northern_nobility_02_bs_dwarf"		type = "male_clothes_secular_northern_nobility_02_bs_dwarf.mesh" }
 
 	meshsettings = {
 		name = "|male_clothes_secular_northern_nobility_02|male_clothes_secular"
