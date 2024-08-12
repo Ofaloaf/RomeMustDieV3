@@ -363,6 +363,14 @@ f_cloaks_sec_fp4_western_era3_nob_02 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "f_cloaks_sec_fp4_western_era3_nob_02_entity" }	
 }
 
+###########
+# SASHES? #
+###########
+
+male_sash_slavic_agitator_colors_01 = {
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_sash_slavic_agitator_colors_01_entity" }	
+}
+
 
 ###########
 ## PROPS ##

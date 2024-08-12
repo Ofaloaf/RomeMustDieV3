@@ -132,3 +132,27 @@ variation = {
 	}
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_01_western_bedchamber_02.dds" }	
 }
+
+variation = {
+	name = "male_sash_slavic_agitator_colors_01"
+	
+	pattern = { 
+		weight = 1
+
+		r = { textures = "generic_cotton_standard_fine_01" 				layout = "plain_fabric_layout_90" }
+		g = { textures = "generic_felt_plain_01" 							layout = "trim_layout_03" }
+		b = { textures = "generic_wool_standard_plain_01" 				layout = "european_gold_trim_layout_02" }
+		a = { textures = "generic_misc_plastic_shiny"					layout = "plain_fabric_layout" }
+	}
+
+	pattern = { 
+		weight = 1
+
+		r = { textures = "generic_silk_hat_plain_01" 				layout = "plain_fabric_layout_90" }
+		g = { textures = "generic_felt_plain_01" 							layout = "trim_layout_03" }
+		b = { textures = "generic_wool_standard_plain_01" 				layout = "european_gold_trim_layout_02" }
+		a = { textures = "generic_misc_plastic_shiny"					layout = "plain_fabric_layout" }
+	}		
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_sashes_prussian_01.dds" }	
+}

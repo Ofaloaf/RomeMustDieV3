@@ -6235,82 +6235,89 @@ turkish={
 	graphics = arabic
 }
 
-azerbaijani={ # TODO: Old Azeri names
+azerbaijani={ # Mix of Middle and New Persian, picking figures from the history of Azerbaijan and Iranian Azerbaijan
 	color= hsv{ 0.67 0.38 0.41 }
 	religion = sunni
 	traits = { caucasus_group iranian_turanian_culture_group middle_eastern_heritage }
 	male_common_first_names={
-		Ahmad
-		Ali
-		Aliagha
-		Bahram
-		Elbay
-		Farhad
-		Firudin
-		Hamid
-		Hasan
-		Heydar
-		Huseyin
-		Ibrahim
-		Ismayil
-		Jalil
-		Mahmud
-		Malik
-		Mehdi
-		Mohammad
-		Murad
-		Samad
-		Tahir
-		Zahid
+		Ahmad Afridun Akestan Anushirvan Asad Afzal Abu_l-Musafir Afshin Abu_Mansur Arshusha Abbas
+		Bukhtnassar Bahram Barzabod Bamshad
+		Dariush
+		Fariburz Farrukhzad Farhad Farbod Feroz
+		Garshasp
+		Haytham Hushang Hashim Husayn
+		Ibrahim Ishaq Ismail Iskandar
+		Ja_far Justan Javidhan
+		Khalid Khalilullah Keykavus Kavus Kayqubad Khosrow
+		Lashkari
+		Mardavij Maymun Manuchihr Mamlan Mahmud Muflih Mehrdad Mazyar Marzuban Mu_adh
+		Parviz
+		Qubad Qarin Quhyar Qatran
+		Rashid Rustam
+		Sawada Subuk Salar Sulayman
+		Tahir Talha
+		Ubaydallah
+		Vahsudan Varsken
+		Wasif
+		Yusuf Yaghoub
 	}
 	female_common_first_names = {
-		Alaviyya
-		Amaliya
-		Aziza
-		Hagigat
+		Bahar
+		Gordiya Gohar
 		Hamida
-		Heyran
-		Izzet
-		Maryam
-		Munavvar 
-		Nasiba
-		Nesrin
-		Nuriyya
-		Sakina
-		Shargiyya
-		Shirin
+		Marzieh Murrod Maryam Mehrangiz
+		Nagisa Nahid
+		Rodakh Rabia
+		Rusudan # Little bit of Georgian bleedover is intentional
+		Shamkuya Sousan Shirin
+		Tamar # Little bit of Georgian bleedover is intentional
+		Tahmina
+		Yakhan
 	}	
-	noble_last_names = {
-		Akhundzade 
-		Ashurbeyov
-		Bahmani-Qajar
-		Bakikhanov
-		Kazembek
-		Kengerli 
-		Ibrahimbek
-		Javanshir
-		Kalantarli
-		Mammadbeyov
-		Mehmandarov
-		Nakhchivanski
-		Narimanbekov 
-		Qasimbek
-		Topchubashi
-	}
+	#noble_last_names = {
+	#}
 	common_last_names={
-		Ahmadbek
-		Ahmadzade
-		Akbarzade
-		Edigar
+		Ardabili Amirkhizi
+		Buya Baylaqani Barzandi Bilalabadi
+		Charandabi
+		Darbandi Devdad Dezhmani Dabili Dinawari
+		Faryabi
 		Ganjavi
-		Ildyrym
-		Mehmandar
-		Nakhchivani
-		Qasimzade
-		Rasulzade
-		Tahirzade
-		Talishkhan
-		Zardabi
+		Harzandi Heyrani
+		Kiya Kojjani
+		Layzani
+		Maraghi
+		Nakhjavani
+		Pilsavari
+		Qabalaqi
+		Rashti
+		Shirvani Semirani Serabi Shamkiri Sabalani
+		Taremi Tabrizi
+		Vardudi
+		Zanjani Zalami
+		#
+		al-Afshin
+		al-Shamakhi
+		al-Tabari
+		ibn_Ahmad ibn_Abi_l-Saj
+		ibn_Baduspan ibn_Barbad
+		ibn_Davud ibn_Dalula
+		ibn_Farrukhzad ibn_Farrukh ibn_Fayyaz ibn_Fazlullah
+		ibn_Gurdzad
+		ibn_Haytham ibn_Husayn
+		ibn_Ibrahim
+		ibn_Kaki ibn_Khalid ibn_Khasskin ibn_Kharakhuruh ibn_Kawus ibn_Khordadbeh
+		ibn_Mazyad ibn_Muhammad ibn_Mamlan ibn_Mansur ibn_Muhalhal ibn_Musafir ibn_Marzuban ibn_Mardi
+		ibn_Narse
+		ibn_Pishkin
+		ibn_Ruzaiq
+		ibn_Sallar ibn_Suraqa ibn_Sarkash
+		ibn_Wahsudan
+		ibn_Yazid
+		ibn_Zayd
+		Haqai_qi # Seeker
+		Khaqani # Regal
+		Mustuwafi
 	}
 	ethnicities = {
 		1 = arab

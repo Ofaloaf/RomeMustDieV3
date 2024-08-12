@@ -1350,7 +1350,7 @@ lenape={
 }
 
 catawba = {
-	color= rgb{ 233 116 10 }
+	color= rgb{ 10 116 233 }
 	religion = nicene
 	traits = { indigenous_american_heritage eastern_woodlands }
 
