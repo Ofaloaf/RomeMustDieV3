@@ -623,113 +623,177 @@
 		region_state:CNT={
 			create_building={
 				building="building_government_administration"
-				level=1
+				add_ownership={
+					country={
+						country="c:CNT"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
-			}			
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
-			}		
-			create_building={
-				building="building_arts_academy"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_traditional_art" }
-			}	
+			}				
 			create_building={
 				building="building_furniture_manufacturies"
-				level=1
+				add_ownership={
+					building={
+						type="building_furniture_manufacturies"
+						country="c:CNT"
+						levels=2
+						region="STATE_HOME_COUNTIES"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_lathe"  "pm_automation_disabled" "pm_luxury_furniture" }
 			}
 			create_building={
-				building="building_shipyards"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
 				building="building_fishing_wharf"
-				level=2
+				add_ownership={
+					building={
+						type="building_fishing_wharf"
+						country="c:CNT"
+						levels=2
+						region="STATE_HOME_COUNTIES"
+					}
+				}
 				reserves=1
 				activate_production_methods={  "pm_unrefrigerated" "pm_fishing_trawlers" }
 			}		
 			create_building={
 				building="building_rye_farm"
-				level=2
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:CNT"
+						levels=2
+						region="STATE_HOME_COUNTIES"
+					}
+				}
 				reserves=1
 				activate_production_methods={  "pm_no_secondary" "pm_tools" "pm_soil_enriching_farming" }
 			}
 			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:CNT"
+						levels=2
+						region="STATE_HOME_COUNTIES"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
 				building="building_livestock_ranch"
-				level=1
+				add_ownership={
+					building={
+						type="building_livestock_ranch"
+						country="c:CNT"
+						levels=1
+						region="STATE_HOME_COUNTIES"
+					}
+				}
 				reserves=1
 				activate_production_methods={  "pm_intensive_grazing_ranch" "pm_standard_fences" "pm_unrefrigerated" "pm_slaughterhouses" }
 			}
 			create_building={
 				building="building_port"
-				level=2
+				add_ownership={
+					country={
+						country="c:CNT"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_military_shipyards"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_military_shipbuilding_wooden_2"  }
 			}
 		}
 		region_state:MCP={
 			create_building={
 				building="building_government_administration"
-				level=3
+				add_ownership={
+					country={
+						country="c:MCP"
+						levels=3
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
-			}			
-			create_building={
-				building="building_university"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_scholastic_education" }
 			}
 			create_building={
-				building="building_paper_mills"
-				level=2
+				building="building_shipyards"
+				add_ownership={
+					building={
+						type="building_shipyards"
+						country="c:MCP"
+						levels=1
+						region="STATE_HOME_COUNTIES"
+					}
+				}
 				reserves=1
-				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled"  }
-			}			
-			create_building={
-				building="building_textile_mills"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_traditional_looms" "pm_craftsman_sewing" }
+				activate_production_methods={ "pm_basic_shipbuilding"  }
 			}
 			create_building={
-				building="building_furniture_manufacturies"
-				level=1
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:MCP"
+						levels=1
+						region="STATE_HOME_COUNTIES"
+					}
+				}
 				reserves=1
-				activate_production_methods={ "pm_lathe"  "pm_automation_disabled" "pm_luxury_furniture" }
-			}
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}				
 			create_building={
 				building="building_barracks"
-				level=15
+				add_ownership={
+					country={
+						country="c:MCP"
+						levels=15
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}			
 			create_building={
 				building="building_rye_farm"
-				level=3
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:MCP"
+						levels=3
+						region="STATE_HOME_COUNTIES"
+					}
+				}
 				reserves=1
 				activate_production_methods={  "pm_no_secondary" "pm_tools" "pm_soil_enriching_farming" }
 			}
 			create_building={
 				building="building_livestock_ranch"
-				level=2
+				add_ownership={
+					building={
+						type="building_livestock_ranch"
+						country="c:MCP"
+						levels=2
+						region="STATE_HOME_COUNTIES"
+					}
+				}
 				reserves=1
 				activate_production_methods={  "pm_intensive_grazing_ranch" "pm_standard_fences" "pm_unrefrigerated" "pm_slaughterhouses" }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:MCP"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -1494,83 +1558,128 @@
 			}
 		}
 	}
+	# Echen
 	s:STATE_EAST_ANGLIA={
 		region_state:ECH={
 			create_building={
 				building="building_government_administration"
-				level=2
+				add_ownership={
+					country={
+						country="c:ECH"
+						levels=2
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}			
 			create_building={
-				building="building_university"
-				level=1
+				building="building_arms_industry"
+				add_ownership={
+					country={
+						country="c:ECH"
+						levels=1
+					}
+				}
 				reserves=1
-				activate_production_methods={ "pm_scholastic_education" }
+				activate_production_methods={ "pm_muskets" "pm_automation_disabled" }
 			}
 			create_building={
-				building="building_furniture_manufacturies"
-				level=4
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_tooling_workshops"
+						country="c:ECH"
+						levels=1
+						region="STATE_EAST_ANGLIA"
+					}
+				}
 				reserves=1
-				activate_production_methods={ "pm_lathe" "pm_luxury_furniture" "pm_automation_disabled"  }
-			}
-			create_building={
-				building="building_glassworks"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_leaded_glass" "pm_disabled_ceramics" "pm_manual_glassblowing" }
-			}
-			create_building={
-				building="building_food_industry"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing" "pm_pot_stills" }
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
 			}
 			create_building={
 				building="building_iron_mine"
-				level=2
+				add_ownership={
+					building={
+						type="building_iron_mine"
+						country="c:ECH"
+						levels=1
+						region="STATE_EAST_ANGLIA"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}			
 			create_building={
-				building="building_shipyards"
-				level=1
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:ECH"
+						levels=2
+						region="STATE_EAST_ANGLIA"
+					}
+				}
 				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding"  }
-			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}			
 			create_building={
-				building="building_military_shipyards"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_military_shipbuilding_wooden_2"  }
-			}
-			create_building={
 				building="building_rye_farm"
-				level=3
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:ECH"
+						levels=3
+						region="STATE_EAST_ANGLIA"
+					}
+				}
 				reserves=1
-				activate_production_methods={ "pm_soil_enriching_farming" "pm_no_secondary" "pm_tools"  }
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools"  }
 			}
 			create_building={
 				building="building_livestock_ranch"
-				level=2
+				add_ownership={
+					building={
+						type="building_livestock_ranch"
+						country="c:ECH"
+						levels=2
+						region="STATE_EAST_ANGLIA"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 			create_building={
 				building="building_fishing_wharf"
-				level=1
+				add_ownership={
+					building={
+						type="building_fishing_wharf"
+						country="c:ECH"
+						levels=1
+						region="STATE_EAST_ANGLIA"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated"  }
 			}
 			create_building={
+				building="building_barracks"
+				add_ownership={
+					country={
+						country="c:ECH"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+			create_building={
 				building="building_port"
-				level=3
+				add_ownership={
+					country={
+						country="c:ECH"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}

@@ -95,6 +95,12 @@
 		add_declared_interest = region_north_india
 	}
 
+  # Western Roman Empire
+  c:WRE ?= {
+		add_declared_interest = region_england
+	}
+
+
 
 
 

@@ -1032,6 +1032,72 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Echen
+	c:ECH ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:MCP.market
+		}
+    }
+
+	# Mincip
+	c:MCP ?= {	
+		create_trade_route = {
+			goods = fabric
+			level = 1
+			direction = import
+			target = c:DMN.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 3
+			direction = import
+			target = c:ECH.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:ECH.market
+		}
+    }
+
+	# Ceint
+	c:CNT ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:MCP.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 3
+			direction = import
+			target = c:ECH.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 2
+			direction = import
+			target = c:MMU.market
+		}
+		create_trade_route = {
+			goods = furniture
+			level = 2
+			direction = export
+			target = c:EBR.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 4
+			direction = export
+			target = c:WRE.market
+		}
+    }
+
 
 
 
