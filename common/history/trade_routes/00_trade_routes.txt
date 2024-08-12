@@ -934,6 +934,104 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Ill Paes
+	c:PGN ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:SCO.market
+		}
+    }
+
+	# Guynet
+	c:GWY ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:MMU.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:MMU.market
+		}
+    }
+
+	# Guent
+	c:GWT ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:MMU.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:MMU.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:AIL.market
+		}
+    }
+
+	#Dumnonia
+	c:DMN ?= {	
+		create_trade_route = {
+			goods = fabric
+			level = 3
+			direction = import
+			target = c:MSC.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 2
+			direction = import
+			target = c:SCO.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:EBR.market
+		}
+    }
+
+	# Glouvia
+	c:CGL ?= {	
+		create_trade_route = {
+			goods = fabric
+			level = 6
+			direction = import
+			target = c:IGS.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:SCO.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:AIL.market
+		}
+		create_trade_route = {
+			goods = clothes
+			level = 4
+			direction = export
+			target = c:AIL.market
+		}
+    }
+
 
 
 

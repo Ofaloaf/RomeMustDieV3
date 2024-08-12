@@ -75,6 +75,26 @@
 		add_declared_interest = region_mexico
 	}
 
+  # Alba
+  c:SCO ?= {
+		add_declared_interest = region_england
+	}
+
+  # Ailech
+  c:AIL ?= {
+		add_declared_interest = region_england
+	}
+  
+  # Dumonia
+  c:DMN ?= {
+		add_declared_interest = region_dixie
+	}
+
+   # Glouvia
+  c:CGL ?= {
+		add_declared_interest = region_north_india
+	}
+
 
 
 
