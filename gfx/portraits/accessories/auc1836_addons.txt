@@ -303,6 +303,41 @@ male_headgear_ate_native_nobility_01 = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_ate_native_nobility_01_entity" }	
 }
 
+male_headgear_yishanguan = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "yishanguan_entity" }
+}
+
+male_headgear_chinese_imperial_02 = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_chinese_imperial_02_entity" }
+}
+
+male_headgear_chinese_imperial_03 = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_chinese_imperial_03_entity" }
+}
+
+male_headgear_wushamao = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "wushamao_entity" }
+}
+
+male_headgear_vfm_field_cap_01 = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_vfm_field_cap_01_entity" }
+}
+
+male_headgear_vfm_field_cap_red = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_vfm_field_cap_red_entity" }
+}
+
+male_headgear_vfm_field_cap_purple = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_vfm_field_cap_purple_entity" }
+}
+
 female_headgear_ate_native_nobility_01 = {
 	set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "female_headgear_ate_native_nobility_01_entity" }	

@@ -793,6 +793,50 @@
 			}
 		}
 	}
+
+	roman_republican_ruler = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = roman_high
+				range = { 0.5 1.0 }
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = ck3_mena_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = sashes
+				template = roman_sashes
+				range = { 0.5 1.0 } # to target the generic multicolor sashes
+			}
+		} 
+
+		weight = {
+			base = 0
+			modifier = {
+				add = 5000
+			
+				scope:character ?= {
+					is_ruler = yes
+					owner = {
+						NOT = { has_law = law_type:law_monarchy }
+					}
+					culture = {
+						has_discrimination_trait = european_heritage
+						OR = {
+							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = greek_culture
+						}
+					}
+				}
+			}
+		}
+	}
 		
 	roman_soldier = {
 		dna_modifiers = {

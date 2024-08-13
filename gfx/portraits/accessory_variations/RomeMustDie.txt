@@ -156,3 +156,51 @@ variation = {
 
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_sashes_prussian_01.dds" }	
 }
+
+variation = {
+	name = "male_headgear_european_field_cap_01"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_medal_metals_01" 				layout = "plain_fabric_layout" }
+		b = { textures = "generic_leather_standard_plain_01" 	layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_headgear_field_cap_austrian_tones.dds" }	
+}
+
+variation = {
+	name = "male_headgear_european_field_cap_red"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_medal_metals_01" 				layout = "plain_fabric_layout" }
+		b = { textures = "generic_leather_standard_plain_01" 	layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_headgear_field_cap_wre_tones.dds" }	
+}
+
+variation = {
+	name = "male_headgear_european_field_cap_purple"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_medal_metals_01" 				layout = "plain_fabric_layout" }
+		b = { textures = "generic_leather_standard_plain_01" 	layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_headgear_field_cap_ere_tones.dds" }	
+}

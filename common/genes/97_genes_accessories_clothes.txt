@@ -2129,6 +2129,7 @@
 				index = 18
 				male = {
 					1 = male_sash_slavic_agitator_01
+					1 = male_sash_slavic_agitator_colors_01
 				}
 
 				female = {
