@@ -770,6 +770,7 @@
 				1 = male_clothes_secular_roman_soldier_white_and_purple
 				1 = male_clothes_secular_roman_soldier_white_and_green
 				1 = male_clothes_secular_roman_soldier_white_and_blue
+				1 = male_top_layer_south_american_bandit_lampiao_plain
 			}
 			female = {
 				1 = female_clothes_secular_byzantine_nobility_02_common

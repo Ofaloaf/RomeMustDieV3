@@ -1199,6 +1199,7 @@
 
 				male = {
 					1 = male_headgear_roman_galea_helmet
+					1 = male_headgear_intercisa_helmet
 				}
 
 				female = {
@@ -1306,6 +1307,7 @@
 					1 = male_headgear_vfm_field_cap_01
 					1 = male_headgear_vfm_field_cap_red
 					1 = male_headgear_vfm_field_cap_purple
+					1 = male_headgear_vfm_european_adrian_01
 				}
 
 				female = {

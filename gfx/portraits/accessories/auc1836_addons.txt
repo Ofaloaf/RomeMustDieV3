@@ -156,6 +156,11 @@ male_noble_jacket_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_noble_jacket_01_entity" }
 }
 
+male_top_layer_south_american_bandit_lampiao_plain = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_top_layer_south_american_bandit_lampiao_plain_entity" }
+}
+
 # FEE-MALES ###
 
 
@@ -336,6 +341,16 @@ male_headgear_vfm_field_cap_red = {
 male_headgear_vfm_field_cap_purple = {
 	set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_vfm_field_cap_purple_entity" }
+}
+
+male_headgear_vfm_european_adrian_01 = {
+	set_tags ="no_hair"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_vfm_european_adrian_01_entity" }
+}
+
+male_headgear_intercisa_helmet = {
+	set_tags ="no_hair"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_intercisa_helmet_entity" }
 }
 
 female_headgear_ate_native_nobility_01 = {

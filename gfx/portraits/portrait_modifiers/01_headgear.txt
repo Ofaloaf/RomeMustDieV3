@@ -750,7 +750,9 @@
             modifier = {
                 add = 100
                 scope:pop ?= {
-                    has_discrimination_trait = han_chinese
+					culture = {
+						has_discrimination_trait = han_chinese
+					}
                 }
                 poor_clothes_pop_trigger = yes
             }
