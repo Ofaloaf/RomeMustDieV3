@@ -5712,7 +5712,7 @@ greek={
 	}	
 	
 	male_common_first_names = {
-		Alexandros Angelos Anastasios Aristidis Antonios Aristovoulos Alexios Andreas Agamemnon Avgoustos Anthimos Anthemiolos Adam Asomatianos Arsenios Andronikos Alypios Anatolios Agathias Asklepios Apollonios Asklepiodotos Aristokritos Apollodoros Athenodoros Ambrosios Agathoboulos
+		Alexandros Angelos Anastasios Aristidis Antonios Aristovoulos Alexios Andreas Agamemnon Avgoustos Anthimos Anthemiolos Adam Asomatianos Arsenios Andronikos Alypios Anatolios Agathias Asklepios Apollonios Asklepiodotos Aristokritos Apollodoros Athenodoros Ambrosios Agathoboulos Antipatros
 		Beniamin Basiliskos Boethios
 		Charilaos Christos Christoforos Christodoulos
 		Dimitrios Dionysios David Diomidis Domnentiolos Domnikos Dioskoros Damaskios Domninos Dorotheos
@@ -5726,7 +5726,7 @@ greek={
 		Militiadis Menelaos Markos Merkourios Makarios Matthaios Markellos Menas Maximos
 		Nikos Nikolaos Nikephoros Niketas Niphon
 		Odysseas Olympiodoros Ourbikios Olybrios
-		Panos Periklis Petros Pantelis Pantaleon Pavlos Panoutsos Philippikos Porphyrios Probus Pompeios Patrikios Proklos Philoxenos Ploutarchos Philostratos Peregrinos Ptolemaios
+		Panos Periklis Petros Pantelis Pantaleon Pavlos Panoutsos Philippikos Porphyrios Probus Pompeios Patrikios Proklos Philoxenos Ploutarchos Philostratos Peregrinos Ptolemaios Poublios
 		Romanos
 		Spyridon Sokratis Stamatios Sotiros Stephanos Stelios Stylianos Skarlatos Sofoklis Staurakios Sisinnios Simplikios Sophronios Sextos
 		Theodoros Tilemachos Thomas Trifon Theophilos Thrasyvoulos Themistoklis Theophylaktos Tarasios Theodotos Theodosios Theon
@@ -5736,6 +5736,7 @@ greek={
 	}
 	female_common_first_names = {
 		Aikaterini Aganiki Angeliki Asimina Anna Anastasia Alexandra Arthelais Antonina Asklipigeneia Aedesia Arkadia
+		Balbilla
 		Domnitsa Despina Domna
 		Evanthia Eliza Elpida Eleni Eleftheria Eirini Evfrosini Eudokia
 		Fausta
@@ -5745,7 +5746,7 @@ greek={
 		Marika Maria Marina Melania Martina
 		Photini Praeiekta Pelagia Prokopia
 		Sofia Soteria Sevasti
-		Thaleia Theodora Theodota Theokiste Thekla
+		Thaleia Theodora Theodota Theokiste Thekla Tisamenis
 		Virginia Vassiliki Vigilantia
 		Zacharati
 	}
@@ -5798,7 +5799,7 @@ greek={
 		Ypsilantis
 		Zarbas
 		### ROMAN AND BYZANTINE GREEK FAMILIES
-		Argyros Apokaukos Apokapes Apion Aaronios Anikios Aetios Anemas Akakios Aelios Autoreianos Aurelios Aginantios Akilios Annios Annianos Amnios Appios
+		Argyros Apokaukos Apokapes Apion Aaronios Anikios Aetios Anemas Akakios Ailios Autoreianos Aurelios Aginantios Akilios Annios Annianos Amnios Appios
 		Bryennios Basilakes Bourtzes Botaneiates
 		Chalkokondyles Choumnos
 		Diogenes Dalassenos Doukas Dekios Daimonoioannes Doxapatres Domitios Dekentios
@@ -5806,17 +5807,17 @@ greek={
 		Fabianos
 		Glabas Gabras
 		Hagiotheodorites Hilarianos
-		Iunios
-		Komnenos Keroularios Katakalon Kamytzes Kallergis Kabasilas Kontostephanos Kalbenos Kornelios Kassios Klaudios
+		Iunios Ioulios
+		Komnenos Keroularios Katakalon Kamytzes Kallergis Kabasilas Kontostephanos Kalbenos Kornelios Kassios Klaudios Kourkouas
 		Lekapenos Likinianos Likinios Limenios Lollios
-		Makrembolites Maleinos Maliasenos Mavrogenis Melissenos Metochites Mourouzis Mouzalon Messios Memmios Mekilios Manlios Metilios
+		Makrembolites Maleinos Maliasenos Mavrogenis Melissenos Metochites Mourouzis Mouzalon Messios Memmios Mekilios Manlios Metilios Monomachus
 		Nicomachos Nepotianos Nonios
 		Orosios
-		Parsakoutenos Petraliphas Philanthropenos Philes Pegonites Prokopios Pomponios Petronios Polemios Platorios
+		Parsakoutenos Petraliphas Philanthropenos Philes Pegonites Prokopios Pomponios Petronios Polemios Platorios Phokas
 		Rhangabe Rufios
 		Skleros Sphrantzes Septimios Symmachos Salloustios Sabinios Sempronios Soulpikios
-		Tarchaneiotes Tornikios Tiberianos Tatios Tullios Tullianos Tettios Trebatios
-		Vegetios Volusianos Vibios Valerios
+		Tarchaneiotes Tornikios Tiberianos Tatios Tullios Tullianos Tettios Trebatios Tzamplakon Tzimiskes
+		Vegetios Volusianos Vibios Valerios Viboullios
 		Xiphilinos Xiphias
 	}
 	common_last_names = {
