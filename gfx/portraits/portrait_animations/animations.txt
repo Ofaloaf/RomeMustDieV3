@@ -169,7 +169,7 @@ idle = {
 			portrait_modifier = { animations_props = crossbow_attachment }
 		}
 		rifle_pop_idle = {
-			animation = { head = "idle_head_pop_holyscripture" torso = "idle_body_rifle" }
+			animation = { head = "idle_head_pop_calipers" torso = "idle_body_rifle" }
 
 			weight = {
 				base = 0

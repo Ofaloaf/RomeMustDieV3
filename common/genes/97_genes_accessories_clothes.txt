@@ -719,7 +719,7 @@
 			male = {
 				1 = male_clothes_secular_western_nobility_03_common
 				1 = male_clothes_secular_byzantine_nobility_01_common
-				1 = male_clothes_secular_byzantine_nobility_02_common
+				1 = male_clothes_common_02_common
 			}
 			female = {
 				1 = female_clothes_secular_western_nobility_03_common
@@ -736,7 +736,7 @@
 				1 = male_clothes_secular_western_nobility_03_low
 				1 = male_clothes_secular_western_nobility_03_high
 				1 = male_clothes_secular_byzantine_nobility_01_low
-				1 = male_clothes_secular_byzantine_nobility_02_low
+				1 = male_clothes_common_02_low
 			}
 			female = {
 				1 = female_clothes_secular_western_nobility_03_low
@@ -751,7 +751,7 @@
 			index = 45
 			male = {
 				1 = male_clothes_secular_byzantine_nobility_01_high
-				1 = male_clothes_secular_byzantine_nobility_02_high
+				1 = male_clothes_common_02_high
 			}
 			female = {
 				1 = female_clothes_secular_western_nobility_03_high
@@ -839,7 +839,7 @@
 		roman_war_war = {
 			index = 51
 			male = {
-				1 = male_clothes_secular_roman_war
+				1 = male_clothes_common_02_roman_generic
 			}
 			female = {
 				1 = female_clothes_secular_western_nobility_03_low
@@ -996,10 +996,12 @@
 		simple_tunic = {
 			index = 61
 			male = {
-				1 = male_bedchamber_01_common
+				2 = male_clothes_common_01
+				1 = male_clothes_common_01_red
+				1 = male_clothes_common_01_purple
 			}
 			female = {
-				#
+				1 = female_clothes_secular_byzantine_nobility_02_common
 			}
 
 			boy = male
@@ -2761,11 +2763,12 @@
 			roman_fancy_cloak = {
 				index = 9
 				male = {
-					1 = male_cloaks_secular_fp1_nobility_03
+					1 = male_western_cloak_01
+					1 = male_western_cloak_02
 				}
 
 				female = {
-					1 = female_cloaks_secular_fp1_nobility_03
+					1 = female_western_cloak_02
 				}
 				boy = male
 				girl = female
@@ -2774,7 +2777,14 @@
 			roman_officer_pop_cloak = {
 				index = 10
 				male = {
-					1 = male_cloaks_secular_fp1_nobility_03
+					1 = male_western_cloak_01
+					1 = male_western_cloak_02
+					1 = male_western_cloak_01_red
+					1 = male_western_cloak_02_red
+					1 = male_western_cloak_01_purple
+					1 = male_western_cloak_02_purple
+					1 = male_western_cloak_01_white
+					1 = male_western_cloak_02_white
 				}
 
 				female = {

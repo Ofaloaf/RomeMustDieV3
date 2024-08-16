@@ -646,7 +646,7 @@
 		}
 	}
 	
-	roman_armed_forces_leader = {
+	roman_armed_forces_wre_leader = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -664,7 +664,7 @@
 				mode = add
 				gene = top_layer
 				template = roman_officer_pop_cloak
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0.25 0.5 }
 			}
 		} 
 
@@ -676,6 +676,100 @@
 				politician_clothes_trigger = yes
 				scope:character ?= {
 					is_interest_group_type = ig_armed_forces
+					owner ?= {
+						c:WRE ?= this
+					}
+					culture = {
+						OR = {
+							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = greek_culture
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	roman_armed_forces_ere_leader = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = roman_high
+				range = { 0.5 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = ck3_mena_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = top_layer
+				template = roman_officer_pop_cloak
+				range = { 0.5 0.75 }
+			}
+		} 
+
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				
+				politician_clothes_trigger = yes
+				scope:character ?= {
+					is_interest_group_type = ig_armed_forces
+					owner ?= {
+						c:ERE ?= this
+					}
+					culture = {
+						OR = {
+							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = greek_culture
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	roman_armed_forces_misc_leader = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = roman_high
+				range = { 0.5 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = ck3_mena_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = top_layer
+				template = roman_officer_pop_cloak
+				range = { 0 0.25 } # For the randomness to work correctly
+			}
+		} 
+
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				
+				politician_clothes_trigger = yes
+				scope:character ?= {
+					is_interest_group_type = ig_armed_forces
+					owner ?= {
+						NOR = {
+							c:WRE ?= this
+							c:ERE ?= this
+						}
+					}
 					culture = {
 						OR = {
 							has_discrimination_trait = romance_speaker
@@ -843,14 +937,14 @@
 			accessory = {
 				mode = add
 				gene = outfits
-				template = roman_soldiery
-				range = { 0 0.25 } # red variant
+				template = simple_tunic
+				range = { 0.5 0.75 } # red variant
 			}
 			
 			accessory = {
 				mode = add
 				gene = legwear
-				template = fp1_common_legwear
+				template = ck3_mena_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
         }
@@ -875,14 +969,14 @@
 			accessory = {
 				mode = add
 				gene = outfits
-				template = roman_soldiery
-				range = { 0.25 0.50 } # purple variant
+				template = simple_tunic
+				range = { 0.75 1.0 } # purple variant
 			}
 			
 			accessory = {
 				mode = add
 				gene = legwear
-				template = fp1_common_legwear
+				template = ck3_mena_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
         }
@@ -893,9 +987,9 @@
                 
                 scope:pop ?= {
 					is_pop_type = soldiers
-					exists = c:WRE
+					exists = c:ERE
 					owner = {
-						c:WRE = this
+						c:ERE = this
 					}
 				}
             }
@@ -907,8 +1001,8 @@
 			accessory = {
 				mode = add
 				gene = outfits
-				template = roman_soldiery
-				range = { 0.75 1.0 } # targetting just the lampiao_misc variant
+				template = simple_tunic
+				range = { 0 0.25 } # targetting just the lampiao_misc variant
 			}
 			
 			accessory = {
@@ -925,10 +1019,7 @@
 				add = 500
 				
 				scope:pop ?= {
-					OR = {
-						is_pop_type = soldiers
-						is_pop_type = officers
-					}
+					is_pop_type = soldiers
 					culture = {
 						OR = {
 							has_discrimination_trait = romance_speaker
@@ -940,13 +1031,13 @@
 		}
 	}
 	
-	roman_misc_officer = {
+	roman_wre_officer = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = outfits
-				template = roman_soldiery
-				range = { 0.75 1.0 } # targetting just the lampiao_misc variant
+				template = simple_tunic
+				range = { 0.5 0.75 }
 			}
 			accessory = {
 				mode = add
@@ -958,7 +1049,81 @@
 				mode = add
 				gene = top_layer
 				template = roman_officer_pop_cloak
+				range = { 0.25 0.5 }
+			}
+		} 
+
+		weight = {
+			base = 0
+			modifier = {
+				add = 5000
+				
+				scope:pop ?= {
+					is_pop_type = officers
+					owner ?= {
+						c:WRE ?= this
+					}
+				}
+			}
+		}
+	}
+	
+	roman_ere_officer = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = simple_tunic
+				range = { 0.75 1 } #
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = ck3_mena_legwear
 				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = top_layer
+				template = roman_officer_pop_cloak
+				range = { 0.5 0.75 }
+			}
+		} 
+
+		weight = {
+			base = 0
+			modifier = {
+				add = 5000
+				
+				scope:pop ?= {
+					is_pop_type = officers
+					owner ?= {
+						c:ERE ?= this
+					}
+				}
+			}
+		}
+	}
+	
+	roman_misc_officer = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = simple_tunic
+				range = { 0 0.5 } #
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = ck3_mena_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = top_layer
+				template = roman_officer_pop_cloak
+				range = { 0 0.25 }
 			}
 		} 
 
@@ -1354,7 +1519,7 @@
 			accessory = {
 				mode = add
 				gene = top_layer
-				template = roman_officer_pop_cloak
+				template = roman_fancy_cloak
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		} 

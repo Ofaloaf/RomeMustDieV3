@@ -22,7 +22,7 @@ pdxmesh = {
 }
 
 entity = {
-	name = "male_outfit_repurposed_lampiao_01_entity"
+	name = "male_top_layer_south_american_bandit_lampiao_01_entity"
 	pdxmesh = "male_top_layer_south_american_bandit_lampiao_01_mesh"
 
 	attribute = { name = "body_bs_fat"                                 blend_shape = "male_top_layer_south_american_bandit_lampiao_01_bs_fat" }
