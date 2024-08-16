@@ -20,32 +20,6 @@ male_clothes_secular_byzantine_nobility_02_high = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_byzantine_nobility_02_high_entity" }	
 }
 
-
-male_clothes_secular_roman_soldier_yellow_and_red = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_roman_soldier_yellow_and_red_entity" }	
-}
-
-male_clothes_secular_roman_soldier_white_and_red = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_roman_soldier_white_and_red_entity" }	
-}
-
-male_clothes_secular_roman_soldier_white_and_purple = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_roman_soldier_white_and_purple_entity" }	
-}
-
-male_clothes_secular_roman_soldier_white_and_green = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_roman_soldier_white_and_green_entity" }	
-}
-
-male_clothes_secular_roman_soldier_white_and_blue = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_roman_soldier_white_and_blue_entity" }	
-}
-
 male_clothes_secular_byzantine_nobility_01_common = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_secular_byzantine_nobility_01_common_entity" }	
@@ -156,9 +130,24 @@ male_noble_jacket_01 = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_noble_jacket_01_entity" }
 }
 
-male_top_layer_south_american_bandit_lampiao_plain = {
+male_outfit_repurposed_lampiao_plain_wre_red = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_top_layer_south_american_bandit_lampiao_plain_entity" }
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_repurposed_lampiao_wre_red_entity" }
+}
+
+male_outfit_repurposed_lampiao_plain_ere_purple = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_repurposed_lampiao_ere_purple_entity" }
+}
+
+male_outfit_repurposed_lampiao_plain_blue = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_repurposed_lampiao_plain_blue_entity" }
+}
+
+male_outfit_repurposed_lampiao_plain_misc = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_repurposed_lampiao_plain_misc_entity" }
 }
 
 # FEE-MALES ###

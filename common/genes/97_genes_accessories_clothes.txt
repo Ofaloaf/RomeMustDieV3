@@ -765,12 +765,10 @@
 		roman_soldiery = {
 			index = 46
 			male = {
-				1 = male_clothes_secular_roman_soldier_yellow_and_red
-				1 = male_clothes_secular_roman_soldier_white_and_red
-				1 = male_clothes_secular_roman_soldier_white_and_purple
-				1 = male_clothes_secular_roman_soldier_white_and_green
-				1 = male_clothes_secular_roman_soldier_white_and_blue
-				1 = male_top_layer_south_american_bandit_lampiao_plain
+				1 = male_outfit_repurposed_lampiao_plain_wre_red
+				1 = male_outfit_repurposed_lampiao_plain_ere_purple
+				1 = male_outfit_repurposed_lampiao_plain_blue
+				1 = male_outfit_repurposed_lampiao_plain_misc
 			}
 			female = {
 				1 = female_clothes_secular_byzantine_nobility_02_common
