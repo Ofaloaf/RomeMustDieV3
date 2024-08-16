@@ -284,3 +284,67 @@ variation = {
 
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_male_top_layer_south_american_bandit_lampiao_plain_misc.dds" }	
 }
+
+variation = {
+	name = "headgear_european_military_02_WRE_red"
+	
+
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_misc_plastic_shiny" 			layout = "plain_fabric_layout" }
+		b = { textures = "generic_misc_plastic_shiny" 			layout = "plain_fabric_layout" }
+		a = { textures = "generic_misc_plastic_shiny"			layout = "plain_fabric_layout" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_european_headgear_military_02_WRE_red.dds" }	
+}
+
+variation = {
+	name = "headgear_european_military_02_ERE_purple"
+	
+
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_misc_plastic_shiny" 			layout = "plain_fabric_layout" }
+		b = { textures = "generic_misc_plastic_shiny" 			layout = "plain_fabric_layout" }
+		a = { textures = "generic_misc_plastic_shiny"			layout = "plain_fabric_layout" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_european_headgear_military_02_ERE_purple.dds" }	
+}
+
+variation = {
+	name = "headgear_european_military_02_WRE_red_fancy"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "european_gold_trim_01" 				layout = "male_headgera_american_02" }
+		b = { textures = "generic_misc_plastic_shiny" 			layout = "plain_fabric_layout" }
+		a = { textures = "generic_misc_plastic_shiny"			layout = "plain_fabric_layout" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_european_headgear_military_02_WRE_red_fancy.dds" }	
+}
+
+variation = {
+	name = "headgear_european_military_02_ERE_purple_fancy"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "european_gold_trim_01" 				layout = "male_headgera_american_02" }
+		b = { textures = "generic_misc_plastic_shiny" 			layout = "plain_fabric_layout" }
+		a = { textures = "generic_misc_plastic_shiny"			layout = "plain_fabric_layout" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_european_headgear_military_02_ERE_purple_fancy.dds" }	
+}

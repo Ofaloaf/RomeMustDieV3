@@ -837,14 +837,78 @@
 			}
 		}
 	}
+
+    roman_wre_soldier = {
+        dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = roman_soldiery
+				range = { 0 0.25 } # red variant
+			}
+			
+			accessory = {
+				mode = add
+				gene = legwear
+				template = fp1_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                
+                scope:pop ?= {
+					is_pop_type = soldiers
+					exists = c:WRE
+					owner = {
+						c:WRE = this
+					}
+				}
+            }
+        }
+    }
+
+    roman_ere_soldier = {
+        dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = roman_soldiery
+				range = { 0.25 0.50 } # purple variant
+			}
+			
+			accessory = {
+				mode = add
+				gene = legwear
+				template = fp1_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                
+                scope:pop ?= {
+					is_pop_type = soldiers
+					exists = c:WRE
+					owner = {
+						c:WRE = this
+					}
+				}
+            }
+        }
+    }
 		
-	roman_soldier = {
+	roman_misc_soldier = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = outfits
 				template = roman_soldiery
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0.75 1.0 } # targetting just the lampiao_misc variant
 			}
 			
 			accessory = {
@@ -858,7 +922,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 500
 				
 				scope:pop ?= {
 					OR = {
@@ -876,13 +940,13 @@
 		}
 	}
 	
-	roman_officer = {
+	roman_misc_officer = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = outfits
 				template = roman_soldiery
-				range = { 0 1 } # For the randomness to work correctly
+				range = { 0.75 1.0 } # targetting just the lampiao_misc variant
 			}
 			accessory = {
 				mode = add

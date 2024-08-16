@@ -1193,13 +1193,13 @@
 				girl = female
 			}
 
-			roman_galea_helmet = {
+			roman_soldier_kepi = {
 
 				index = 72
 
 				male = {
-					1 = male_headgear_roman_galea_helmet
-					1 = male_headgear_intercisa_helmet
+					1 = com_male_headgear_european_military_02_WRE_red
+					1 = com_male_headgear_european_military_02_ERE_purple
 				}
 
 				female = {
@@ -1227,12 +1227,13 @@
 				girl = female
 			}
 			
-			roman_centurion_helmet = {
+			roman_officer_kepi = {
 
 				index = 74
 
 				male = {
-					1 = male_headgear_roman_centurion_helmet
+					1 = com_male_headgear_european_military_02_WRE_red_fancy
+					1 = com_male_headgear_european_military_02_ERE_purple_fancy
 				}
 
 				female = {

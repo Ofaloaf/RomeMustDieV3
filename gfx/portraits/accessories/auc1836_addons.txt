@@ -242,14 +242,24 @@ female_legwear_secular_fp1_common_01 = {
 
 ### hattes
 
-male_headgear_roman_galea_helmet = {
-	set_tags ="no_hair"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "galea_helmet_entity" }	
+com_male_headgear_european_military_02_WRE_red = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_WRE_red_entity" }	
 }
 
-male_headgear_roman_centurion_helmet = {
-	set_tags ="no_hair"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "centurion_helmet_entity" }	
+com_male_headgear_european_military_02_WRE_red_fancy = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_WRE_red_fancy_entity" }	
+}
+
+com_male_headgear_european_military_02_ERE_purple = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_ERE_purple_entity" }	
+}
+
+com_male_headgear_european_military_02_ERE_purple_fancy = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_ERE_purple_fancy_entity" }	
 }
 
 male_headgear_secular_byzantine_pannonian_common_01 = {
@@ -335,11 +345,6 @@ male_headgear_vfm_field_cap_purple = {
 male_headgear_vfm_european_adrian_01 = {
 	set_tags ="no_hair"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_vfm_european_adrian_01_entity" }
-}
-
-male_headgear_intercisa_helmet = {
-	set_tags ="no_hair"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_intercisa_helmet_entity" }
 }
 
 female_headgear_ate_native_nobility_01 = {

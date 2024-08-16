@@ -96,13 +96,13 @@
         }
     }
 	
-    roman_soldier_helmet = {
+    roman_wre_soldier_kepi = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = headgear
-                template = roman_galea_helmet
-                range = { 0 1 } # For the randomness to work correctly
+                template = roman_soldier_kepi
+                range = { 0 0.5 } # For the randomness to work correctly
            
             } 
         }
@@ -112,18 +112,38 @@
                 add = 200
                 
                 scope:pop ?= {
-					OR = {
-						is_pop_type = soldiers
-						is_pop_type = officers
-					}
-					culture = {
-						has_discrimination_trait = romance_speaker
-					}
+					is_pop_type = soldiers
 					exists = c:WRE
 					owner = {
 						c:WRE = this
 					}
 				}
+            }
+        }
+    }
+
+    roman_ere_soldier_kepi = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = roman_soldier_kepi
+                range = { 0.5 1.0 }
+           
+            } 
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                
+                scope:pop ?= {
+                    is_pop_type = soldiers
+                    exists = c:ERE
+                    owner = {
+                        c:ERE = this
+                    }
+                }
             }
         }
     }
