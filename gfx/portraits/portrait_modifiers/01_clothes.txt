@@ -944,7 +944,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = ck3_mena_legwear
+				template = south_american_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
         }
@@ -976,7 +976,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = ck3_mena_legwear
+				template = south_american_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
         }
@@ -1008,7 +1008,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = fp1_common_legwear
+				template = south_american_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		} 
@@ -1042,7 +1042,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = ck3_mena_legwear
+				template = south_american_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -1079,7 +1079,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = ck3_mena_legwear
+				template = south_american_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -1116,7 +1116,7 @@
 			accessory = {
 				mode = add
 				gene = legwear
-				template = ck3_mena_legwear
+				template = south_american_legwear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			accessory = {
