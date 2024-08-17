@@ -1214,10 +1214,10 @@
 				index = 73
 
 				male = {
-					1 = male_headgear_secular_byzantine_pannonian_common_01
-					1 = male_headgear_secular_western_pillbox_common_01
-					1 = male_headgear_secular_western_pillbox_low_01
-					1 = male_headgear_secular_byzantine_pannonian_high_01
+					#
+					#
+					#
+					#
 				}
 
 				female = {

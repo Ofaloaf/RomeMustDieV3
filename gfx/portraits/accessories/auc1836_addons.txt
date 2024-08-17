@@ -272,29 +272,9 @@ com_male_headgear_european_military_02_ERE_purple_fancy = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_ERE_purple_fancy_entity" }	
 }
 
-male_headgear_secular_byzantine_pannonian_common_01 = {
-	set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_secular_byzantine_pannonian_common_01_entity" }	
-}
-
 male_headgear_phrygian_hat = {
 	set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_phrygian_hat_entity" }	
-}
-
-male_headgear_secular_western_pillbox_common_01 = {
-	set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_secular_western_pillbox_common_01_entity" }	
-}
-
-male_headgear_secular_western_pillbox_low_01 = {
-	set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_secular_western_pillbox_low_01_entity" }	
-}
-
-male_headgear_secular_byzantine_pannonian_high_01 = {
-	set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_secular_byzantine_pannonian_high_01_entity" }	
 }
 
 male_headgear_felt_hat_black = {
