@@ -125,3 +125,87 @@ breton={
 	}
 	graphics = european
 }
+
+british={
+	color= hsv{ 0.1 0.1 0.1 }
+	religion = nicene
+	traits = { dummy_language dummy_heritage }
+	
+	male_common_first_names={
+		Anders		
+	}
+	female_common_first_names = {
+		Anna
+	}
+	common_last_names={
+		Andersson
+	}
+	
+	ethnicities = {
+		1 = eth_placeholder
+	}
+	graphics = european
+}
+
+portuguese={
+	color= hsv{ 0.1 0.1 0.1 }
+	religion = nicene
+	traits = { dummy_language dummy_heritage }
+	
+	male_common_first_names={
+		Anders		
+	}
+	female_common_first_names = {
+		Anna
+	}
+	common_last_names={
+		Andersson
+	}
+	
+	ethnicities = {
+		1 = eth_placeholder
+	}
+	graphics = european
+}
+
+french={
+	color= hsv{ 0.1 0.1 0.1 }
+	religion = nicene
+	traits = { dummy_language dummy_heritage }
+	
+	male_common_first_names={
+		Anders		
+	}
+	female_common_first_names = {
+		Anna
+	}
+	common_last_names={
+		Andersson
+	}
+	
+	ethnicities = {
+		1 = eth_placeholder
+	}
+	graphics = european
+}
+
+occitan={
+	color= hsv{ 0.1 0.1 0.1 }
+	religion = nicene
+	traits = { dummy_language dummy_heritage }
+	
+	male_common_first_names={
+		Anders		
+	}
+	female_common_first_names = {
+		Anna
+	}
+	common_last_names={
+		Andersson
+	}
+	
+	ethnicities = {
+		1 = eth_placeholder
+	}
+	graphics = european
+}
