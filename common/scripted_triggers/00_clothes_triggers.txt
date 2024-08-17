@@ -1,4 +1,15 @@
-﻿british_empire_clothes_trigger = {
+﻿greco_roman_european_culture = {
+	# I want Chesepians to have a slightly different visual vibe
+	culture ?= {
+		has_discrimination_trait = european_heritage
+		OR = {
+			has_discrimination_trait = romance_speaker
+			has_discrimination_trait = greek_culture
+		}
+	}
+}
+
+british_empire_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
 		exists = c:GBR

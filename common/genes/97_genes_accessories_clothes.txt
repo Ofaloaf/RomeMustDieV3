@@ -718,6 +718,7 @@
 		roman_low = {
 			index = 43
 			male = {
+				1 = male_outfit_plain_white_tunic
 				1 = male_clothes_secular_western_nobility_03_common
 				1 = male_clothes_secular_byzantine_nobility_01_common
 				1 = male_clothes_common_02_common

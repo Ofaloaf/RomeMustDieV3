@@ -357,7 +357,9 @@
             base = 0
             modifier = {
                 add = 100
-                european_clothes_trigger = yes
+                scope:character ?= {
+					greco_roman_european_culture = yes
+				}
                 agitator_character_trigger = yes
             }
         }
@@ -397,23 +399,13 @@
 						politician_clothes_trigger = yes
 						scope:character ?= {
 							is_interest_group_type = ig_landowners
-							culture = {
-								OR = {
-									has_discrimination_trait = romance_speaker
-									has_discrimination_trait = greek_culture
-								}
-							}
+							greco_roman_european_culture = yes
 						}
 					}
 					AND = {
 						scope:pop ?= {
 							is_pop_type = aristocrats
-							culture = {
-								OR = {
-									has_discrimination_trait = romance_speaker
-									has_discrimination_trait = greek_culture
-								}
-							}
+							greco_roman_european_culture = yes
 						}
 					}
 				}
@@ -445,12 +437,7 @@
 				
 				poor_clothes_pop_trigger = yes
 				scope:pop ?= {
-					culture = {
-						OR = {
-							has_discrimination_trait = romance_speaker
-							has_discrimination_trait = greek_culture
-						}
-					}
+					greco_roman_european_culture = yes
 				}
 			}
 		}
