@@ -1098,6 +1098,135 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Halsingland
+	c:HLS ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+    }
+
+	# Kvenland
+	c:KVN ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:SWE.market
+		}
+    }
+
+	# Jamtland
+	c:JMT ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+    }
+
+	# Finland
+	c:FIN ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:GTL.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:LIT.market
+		}
+		
+    }
+
+	# Jutland
+	c:JUT ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:LIT.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:NOR.market
+		}
+		
+    }
+
+	# Norway
+	c:NOR ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:FIN.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:GTL.market
+		}
+		
+    }
+
 
 
 
