@@ -24948,12 +24948,6 @@ RU_CUL_ADJ = {
 	}
 	text = {  
 		trigger = {
-			this = cu:maures
-		}
-		localization_key = RU_CUL_ADJ_maures
-	}
-	text = {  
-		trigger = {
 			this = cu:mayan
 		}
 		localization_key = RU_CUL_ADJ_mayan
