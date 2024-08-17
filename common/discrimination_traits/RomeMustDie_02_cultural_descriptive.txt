@@ -1,5 +1,8 @@
 ﻿romance_speaker = {
 }
 
+dummy_language = {
+}
+
 eastern_woodlands = {
 }

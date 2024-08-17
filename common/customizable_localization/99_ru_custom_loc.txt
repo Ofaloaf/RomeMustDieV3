@@ -24246,9 +24246,9 @@ RU_CUL_ADJ = {
 	}
 	text = {  
 		trigger = {
-			this = cu:azerbaijani
+			this = cu:azeri
 		}
-		localization_key = RU_CUL_ADJ_azerbaijani
+		localization_key = RU_CUL_ADJ_azeri
 	}
 	text = {  
 		trigger = {
@@ -24384,9 +24384,9 @@ RU_CUL_ADJ = {
 	}
 	text = {  
 		trigger = {
-			this = cu:byelorussian
+			this = cu:krivian
 		}
-		localization_key = RU_CUL_ADJ_byelorussian
+		localization_key = RU_CUL_ADJ_krivian
 	}
 	text = {  
 		trigger = {

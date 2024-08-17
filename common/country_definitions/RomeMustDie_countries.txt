@@ -546,7 +546,7 @@ BLC = { # Belechatouia
 	
 	tier = principality
 	
-	cultures = { sklavinian }
+	cultures = { sclaveni }
 	
 	capital = STATE_THESSALIA
 }
@@ -558,7 +558,7 @@ DRG = { # Drougoubiteia
 	
 	tier = principality
 	
-	cultures = { sklavinian }
+	cultures = { sclaveni }
 	
 	capital = STATE_MACEDONIA
 }
@@ -1410,7 +1410,7 @@ SML = { # Smolensk
 	
 	tier = grand_principality
 	
-	cultures = { byelorussian }
+	cultures = { krivian }
 	
 	capital = STATE_SMOLENSK
 }

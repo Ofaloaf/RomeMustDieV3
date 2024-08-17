@@ -174,7 +174,7 @@ state_thuringian_standard_of_living_add={
 	}
 }
 
-state_sklavinian_standard_of_living_add={
+state_sclaveni_standard_of_living_add={
 	decimals=1
 	color=good
 	game_data={
@@ -416,6 +416,22 @@ state_rhaetic_standard_of_living_add={
 }
 
 state_rromani_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_azeri_standard_of_living_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+state_krivian_standard_of_living_add={
 	decimals=1
 	color=good
 	game_data={

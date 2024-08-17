@@ -218,14 +218,14 @@ thuringian_standard_of_living_modifier_negative = {
 	state_thuringian_standard_of_living_add = 1
 }
 
-sklavinian_standard_of_living_modifier_positive = {
+sclaveni_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_sklavinian_standard_of_living_add = 1
+	state_sclaveni_standard_of_living_add = 1
 }
 
-sklavinian_standard_of_living_modifier_negative = {
+sclaveni_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_sklavinian_standard_of_living_add = 1
+	state_sclaveni_standard_of_living_add = 1
 }
 
 frisian_standard_of_living_modifier_positive = {
@@ -507,4 +507,24 @@ rromani_standard_of_living_modifier_positive = {
 rromani_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_rromani_standard_of_living_add = 1
+}
+
+azeri_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_rhaetic_standard_of_living_add = 1
+}
+
+azeri_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_rhaetic_standard_of_living_add = 1
+}
+
+krivian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_rhaetic_standard_of_living_add = 1
+}
+
+krivian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_rhaetic_standard_of_living_add = 1
 }

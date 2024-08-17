@@ -785,7 +785,7 @@
 				size = 36000
 			}
 			create_pop = {
-				culture = azerbaijani
+				culture = azeri
 				size = 33600
 				pop_type = slaves
 			}
@@ -820,7 +820,7 @@
 	s:STATE_TABRIZ = {
 		region_state:AZB = {
 			create_pop = {
-				culture = azerbaijani
+				culture = azeri
 				size = 731300
 			}
 			create_pop = {
@@ -828,7 +828,7 @@
 				size = 2000
 			}
 			create_pop = {
-				culture = azerbaijani
+				culture = azeri
 				religion = sunni
 				size = 591000
 			}
@@ -850,7 +850,7 @@
 				size = 5996
 			}
 			create_pop = {
-				culture = azerbaijani
+				culture = azeri
 				size = 132207
 				pop_type = slaves
 			}
@@ -1128,7 +1128,7 @@
 		}
 		region_state:ARM = {
 			create_pop = {
-				culture = azerbaijani
+				culture = azeri
 				size = 17000
 			}
 			create_pop = {

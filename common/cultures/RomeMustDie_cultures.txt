@@ -1671,7 +1671,7 @@ thuringian = {
 	graphics = european
 }
 
-sklavinian={
+sclaveni={
 	color= hsv{ 0.40 0.26 0.58 }
 	religion = nicene
 	traits = { jugoslav european_heritage }

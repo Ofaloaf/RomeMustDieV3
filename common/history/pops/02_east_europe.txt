@@ -44,7 +44,7 @@
 				size = 143992
 			}
 			create_pop = {
-				culture = byelorussian
+				culture = krivian
 				size = 998996
 			}
 			create_pop = {
@@ -110,7 +110,7 @@
 				size = 344804
 			}
 			create_pop = {
-				culture = byelorussian
+				culture = krivian
 				size = 90000
 			}
 		}
@@ -118,7 +118,7 @@
 	s:STATE_SMOLENSK = {
 		region_state:SML = {
 			create_pop = {
-				culture = byelorussian
+				culture = krivian
 				size = 1283590
 			}
 			create_pop = {
@@ -131,7 +131,7 @@
 	s:STATE_ORSHA = {
 		region_state:LIT = {
 			create_pop = {
-				culture = byelorussian
+				culture = krivian
 				size = 1753376
 			}
 			create_pop = {
@@ -285,7 +285,7 @@
 				size = 79800
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 12000
 			}
 		}
@@ -310,7 +310,7 @@
 				size = 139932
 			}
 			create_pop = {
-				culture = byelorussian
+				culture = krivian
 				size = 707700
 			}
 			create_pop = {
@@ -646,7 +646,7 @@
 				size = 117004
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 20000
 			}
 			create_pop = {
@@ -679,7 +679,7 @@
 				size = 167946
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 59996
 			}
 			create_pop = {
@@ -695,7 +695,7 @@
 				size = 197200
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 160000
 			}
 			create_pop = {
@@ -731,7 +731,7 @@
 				size = 62296
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 245256
 			}
 			create_pop = {
@@ -806,12 +806,12 @@
 	s:STATE_SOUTHERN_TRANSYLVANIA = {
 		region_state:HNN = {
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				religion = slavic_pagan
 				size = 121004
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 182744
 			}
 			create_pop = {
@@ -831,7 +831,7 @@
 	s:STATE_NORTHERN_TRANSYLVANIA = {
 		region_state:HNN = {
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				religion = slavic_pagan
 				size = 256510
 			}
@@ -840,7 +840,7 @@
 				size = 388000
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 167008
 			}
 			create_pop = {
@@ -860,7 +860,7 @@
 				size = 1314519
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 228008
 			}
 			create_pop = {
@@ -881,7 +881,7 @@
 	s:STATE_WALLACHIA = {
 		region_state:BUL = {
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 372031
 			}
 			create_pop = {
@@ -914,7 +914,7 @@
 				size = 107996
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 40000
 			}
 			create_pop = {
