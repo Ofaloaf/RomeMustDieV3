@@ -860,6 +860,373 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Mhumhain
+	c:MMU ?= {	
+		create_trade_route = {
+			goods = dye
+			level = 1
+			direction = import
+			target = c:MEX.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:AIL.market
+		}
+		create_trade_route = {
+			goods = iron
+			level = 4
+			direction = import
+			target = c:PGN.market
+		}
+    }
+
+	# Ebrauc
+	c:EBR ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 3
+			direction = import
+			target = c:AIL.market
+		}
+    }
+
+	# Elmet
+	c:ELM ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:EBR.market
+		}
+    }
+
+	# Cair Legion
+	c:CLR ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:RCT.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:RCT.market
+		}
+    }
+
+	# Maunguid
+	c:MAC ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:RCT.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 3
+			direction = import
+			target = c:RCT.market
+		}
+    }
+
+	# Ill Paes
+	c:PGN ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:SCO.market
+		}
+    }
+
+	# Guynet
+	c:GWY ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:MMU.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:MMU.market
+		}
+    }
+
+	# Guent
+	c:GWT ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:MMU.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:MMU.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:AIL.market
+		}
+    }
+
+	#Dumnonia
+	c:DMN ?= {	
+		create_trade_route = {
+			goods = fabric
+			level = 3
+			direction = import
+			target = c:MSC.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 2
+			direction = import
+			target = c:SCO.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:EBR.market
+		}
+    }
+
+	# Glouvia
+	c:CGL ?= {	
+		create_trade_route = {
+			goods = fabric
+			level = 6
+			direction = import
+			target = c:IGS.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:SCO.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:AIL.market
+		}
+		create_trade_route = {
+			goods = clothes
+			level = 4
+			direction = export
+			target = c:AIL.market
+		}
+    }
+
+	# Echen
+	c:ECH ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:MCP.market
+		}
+    }
+
+	# Mincip
+	c:MCP ?= {	
+		create_trade_route = {
+			goods = fabric
+			level = 1
+			direction = import
+			target = c:DMN.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 3
+			direction = import
+			target = c:ECH.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:ECH.market
+		}
+    }
+
+	# Ceint
+	c:CNT ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:MCP.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 3
+			direction = import
+			target = c:ECH.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 2
+			direction = import
+			target = c:MMU.market
+		}
+		create_trade_route = {
+			goods = furniture
+			level = 2
+			direction = export
+			target = c:EBR.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 4
+			direction = export
+			target = c:WRE.market
+		}
+    }
+
+	# Halsingland
+	c:HLS ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+    }
+
+	# Kvenland
+	c:KVN ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:SWE.market
+		}
+    }
+
+	# Jamtland
+	c:JMT ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+    }
+
+	# Finland
+	c:FIN ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:GTL.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:LIT.market
+		}
+		
+    }
+
+	# Jutland
+	c:JUT ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:LIT.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:NOR.market
+		}
+		
+    }
+
+	# Norway
+	c:NOR ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:FIN.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:GTL.market
+		}
+		
+    }
+
 
 
 
