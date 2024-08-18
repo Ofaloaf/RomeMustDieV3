@@ -66,6 +66,16 @@
                 european_clothes_trigger = yes
                 slavic_clothes_trigger = no
                 agitator_character_trigger = yes
+                scope:character ?= {
+					NOT = {
+						greco_roman_european_culture = yes
+						OR = {
+							is_interest_group_type = ig_landowners
+							has_ideology = ideology:ideology_royalist
+							has_ideology = ideology:ideology_humanitarian_royalist
+						}
+					}
+				}
             }
         }
     }
@@ -183,6 +193,20 @@
 					}
 				}
             }
+            modifier = {
+                add = 5000
+                scope:character ?= {
+					greco_roman_european_culture = yes
+					OR = {
+						is_interest_group_type = ig_armed_forces
+						has_ideology = ideology:ideology_jingoist
+					}
+					home_country ?= {
+						c:WRE ?= this
+					}
+				}
+                agitator_character_trigger = yes
+            }
         }
     }
 
@@ -219,6 +243,20 @@
 						c:ERE ?= this
 					}
 				}
+            }
+            modifier = {
+                add = 5000
+                scope:character ?= {
+					greco_roman_european_culture = yes
+					OR = {
+						is_interest_group_type = ig_armed_forces
+						has_ideology = ideology:ideology_jingoist
+					}
+					home_country ?= {
+						c:ERE ?= this
+					}
+				}
+                agitator_character_trigger = yes
             }
         }
     }
@@ -328,6 +366,23 @@
                 }
             }
         }
+        weight = {
+            base = 0
+            modifier = {
+                add = 10000
+                
+                scope:pop ?= {
+                    OR = {
+						is_pop_type = soldiers
+						is_pop_type = officers
+					}
+                    owner ?= {
+                        c:WRE ?= this
+                        has_technology_researched = bolt_action_rifles
+                    }
+                }
+            }
+        }
     }
 
     ere_late_military_headgear = {
@@ -346,6 +401,23 @@
                 
                 scope:character ?= {
                     has_role = general
+                    owner ?= {
+                        c:ERE ?= this
+                        has_technology_researched = bolt_action_rifles
+                    }
+                }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 10000
+                
+                scope:pop ?= {
+                    OR = {
+						is_pop_type = soldiers
+						is_pop_type = officers
+					}
                     owner ?= {
                         c:ERE ?= this
                         has_technology_researched = bolt_action_rifles

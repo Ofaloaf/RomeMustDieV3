@@ -4791,7 +4791,7 @@ greek={
 		Iunios Ioulios
 		Komnenos Keroularios Katakalon Kamytzes Kallergis Kabasilas Kontostephanos Kalbenos Kornelios Kassios Klaudios Kourkouas
 		Lekapenos Likinianos Likinios Limenios Lollios
-		Makrembolites Maleinos Maliasenos Mavrogenis Melissenos Metochites Mourouzis Mouzalon Messios Memmios Mekilios Manlios Metilios Monomachus
+		Makrembolites Maleinos Maliasenos Mavrogenis Melissenos Metochites Mourouzis Mouzalon Messios Memmios Mekilios Manlios Metilios Monomachos
 		Nicomachos Nepotianos Nonios
 		Orosios
 		Parsakoutenos Petraliphas Philanthropenos Philes Pegonites Prokopios Pomponios Petronios Polemios Platorios Phokas

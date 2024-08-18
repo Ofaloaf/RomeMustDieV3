@@ -364,6 +364,47 @@
             }
         }
     }
+	
+	roman_blueblood_agitator = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = roman_medium
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			
+			accessory = {
+				mode = add
+				gene = legwear
+				template = fp1_common_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			
+			accessory = {
+				mode = add
+				gene = top_layer
+				template = roman_officer_pop_cloak
+				range = { 0.75 1.0 } # Roman noblemen/monarchists always wear white
+			}
+		} 
+
+		weight = {
+			base = 0
+            modifier = {
+                add = 1000
+                scope:character ?= {
+					greco_roman_european_culture = yes
+					OR = {
+						is_interest_group_type = ig_landowners
+						has_ideology = ideology:ideology_royalist
+						has_ideology = ideology:ideology_humanitarian_royalist
+					}
+				}
+                agitator_character_trigger = yes
+            }
+		}
+	}
 
 	roman_senator = {
 		dna_modifiers = {
