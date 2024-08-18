@@ -1,7 +1,6 @@
 ﻿variation = {
 	name = "male_outfit_tilmatli"
 	
-
 	pattern = { 
 		weight = 1
 		 
@@ -131,4 +130,423 @@ variation = {
 		a = { textures = "generic_cotton_standard_fine_01"			layout = "plain_fabric_layout" }
 	}
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_01_western_bedchamber_02.dds" }	
+}
+
+variation = {
+	name = "male_sash_slavic_agitator_colors_01"
+	
+	pattern = { 
+		weight = 1
+
+		r = { textures = "generic_cotton_standard_fine_01" 				layout = "plain_fabric_layout_90" }
+		g = { textures = "generic_felt_plain_01" 							layout = "trim_layout_03" }
+		b = { textures = "generic_wool_standard_plain_01" 				layout = "european_gold_trim_layout_02" }
+		a = { textures = "generic_misc_plastic_shiny"					layout = "plain_fabric_layout" }
+	}
+
+	pattern = { 
+		weight = 1
+
+		r = { textures = "generic_silk_hat_plain_01" 				layout = "plain_fabric_layout_90" }
+		g = { textures = "generic_felt_plain_01" 							layout = "trim_layout_03" }
+		b = { textures = "generic_wool_standard_plain_01" 				layout = "european_gold_trim_layout_02" }
+		a = { textures = "generic_misc_plastic_shiny"					layout = "plain_fabric_layout" }
+	}		
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_sashes_prussian_01.dds" }	
+}
+
+variation = {
+	name = "male_headgear_european_field_cap_01"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_medal_metals_01" 				layout = "plain_fabric_layout" }
+		b = { textures = "generic_leather_standard_plain_01" 	layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_headgear_field_cap_austrian_tones.dds" }	
+}
+
+variation = {
+	name = "male_headgear_european_field_cap_red"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_medal_metals_01" 				layout = "plain_fabric_layout" }
+		b = { textures = "generic_leather_standard_plain_01" 	layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_headgear_field_cap_wre_tones.dds" }	
+}
+
+variation = {
+	name = "male_headgear_european_field_cap_purple"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_medal_metals_01" 				layout = "plain_fabric_layout" }
+		b = { textures = "generic_leather_standard_plain_01" 	layout = "plain_fabric_layout" }
+		a = { textures = "generic_wool_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_headgear_field_cap_ere_tones.dds" }	
+}
+
+variation = {
+	name = "male_headgear_european_adrian_01"
+	
+ 
+	pattern = {
+		weight = 1
+ 
+		r = { textures = "generic_medal_metals_01" 				layout = "plain_fabric_layout" }
+		g = { textures = "generic_leather_standard_plain_01" 	layout = "plain_fabric_layout" }
+		b = { textures = "generic_medal_metals_01" 				layout = "plain_fabric_layout" }
+		a = { textures = "generic_medal_metals_01"				layout = "plain_fabric_layout" }
+	}	
+	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_headgear_adrian_01.dds" }	
+}
+
+variation = {
+	name = "male_top_layer_south_american_bandit_lampiao_wre_red"
+	
+	
+	pattern = { 
+		weight = 1
+		
+		r = { textures = "generic_cotton_standard_fine_01" 				layout = "slavic_fabric_layout" }
+		g = { textures = "generic_leather_standard_plain_01" 			layout = "slavic_fabric_layout" }
+		b = { textures = "generic_cotton_standard_fine_01" 				layout = "european_gold_trim_layout_02" }
+		a = { textures = "generic_cotton_standard_fine_01"				layout = "plain_fabric_layout" }
+	}
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_male_top_layer_south_american_bandit_lampiao_wre_red.dds" }	
+}
+
+variation = {
+	name = "male_top_layer_south_american_bandit_lampiao_ere_purple"
+	
+	
+	pattern = { 
+		weight = 1
+		
+		r = { textures = "generic_cotton_standard_fine_01" 				layout = "slavic_fabric_layout" }
+		g = { textures = "generic_leather_standard_plain_01" 			layout = "slavic_fabric_layout" }
+		b = { textures = "generic_cotton_standard_fine_01" 				layout = "european_gold_trim_layout_02" }
+		a = { textures = "generic_cotton_standard_fine_01"				layout = "plain_fabric_layout" }
+	}
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_male_top_layer_south_american_bandit_lampiao_ere_purple.dds" }	
+}
+
+variation = {
+	name = "male_top_layer_south_american_bandit_lampiao_plain_blue"
+	
+	
+	pattern = { 
+		weight = 1
+		
+		r = { textures = "generic_cotton_standard_fine_01" 				layout = "slavic_fabric_layout" }
+		g = { textures = "generic_leather_standard_plain_01" 			layout = "slavic_fabric_layout" }
+		b = { textures = "generic_cotton_standard_fine_01" 				layout = "european_gold_trim_layout_02" }
+		a = { textures = "generic_cotton_standard_fine_01"				layout = "plain_fabric_layout" }
+	}
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_male_top_layer_south_american_bandit_lampiao_blue.dds" }	
+}
+
+variation = {
+	name = "male_top_layer_south_american_bandit_lampiao_plain_misc"
+	
+	
+	pattern = { 
+		weight = 1
+		
+		r = { textures = "generic_cotton_standard_fine_01" 				layout = "slavic_fabric_layout" }
+		g = { textures = "generic_leather_standard_plain_01" 			layout = "slavic_fabric_layout" }
+		b = { textures = "generic_cotton_standard_fine_01" 				layout = "european_gold_trim_layout_02" }
+		a = { textures = "generic_cotton_standard_fine_01"				layout = "plain_fabric_layout" }
+	}
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palettes/color_palette_male_top_layer_south_american_bandit_lampiao_plain_misc.dds" }	
+}
+
+variation = {
+	name = "headgear_european_military_02_WRE_red"
+	
+
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_misc_plastic_shiny" 			layout = "plain_fabric_layout" }
+		b = { textures = "generic_misc_plastic_shiny" 			layout = "plain_fabric_layout" }
+		a = { textures = "generic_misc_plastic_shiny"			layout = "plain_fabric_layout" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_european_headgear_military_02_WRE_red.dds" }	
+}
+
+variation = {
+	name = "headgear_european_military_02_ERE_purple"
+	
+
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_misc_plastic_shiny" 			layout = "plain_fabric_layout" }
+		b = { textures = "generic_misc_plastic_shiny" 			layout = "plain_fabric_layout" }
+		a = { textures = "generic_misc_plastic_shiny"			layout = "plain_fabric_layout" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_european_headgear_military_02_ERE_purple.dds" }	
+}
+
+variation = {
+	name = "headgear_european_military_02_WRE_red_fancy"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "european_gold_trim_01" 				layout = "male_headgera_american_02" }
+		b = { textures = "generic_misc_plastic_shiny" 			layout = "plain_fabric_layout" }
+		a = { textures = "generic_misc_plastic_shiny"			layout = "plain_fabric_layout" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_european_headgear_military_02_WRE_red_fancy.dds" }	
+}
+
+variation = {
+	name = "headgear_european_military_02_ERE_purple_fancy"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_plain_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "european_gold_trim_01" 				layout = "male_headgera_american_02" }
+		b = { textures = "generic_misc_plastic_shiny" 			layout = "plain_fabric_layout" }
+		a = { textures = "generic_misc_plastic_shiny"			layout = "plain_fabric_layout" }
+	}	
+
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_european_headgear_military_02_ERE_purple_fancy.dds" }	
+}
+
+variation = {
+	name = "romemustdie_common_01"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_linen_plain_01" 				layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 				layout = "edge_trim_layout" }
+		b = { textures = "western_linen_trim_01" 				layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"					layout = "small_trim_layout" }
+	}
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_cotton_standard_fine_01"  	layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 				layout = "edge_trim_layout" }
+		b = { textures = "western_linen_trim_01" 				layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"					layout = "small_trim_layout" }
+	}
+	
+	# Color palette textures are 16-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_romemustdie_common_02.dds" }	
+}
+
+variation = {
+	name = "romemustdie_common_01_red"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 				layout = "edge_trim_layout" }
+		b = { textures = "western_linen_trim_01" 				layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"					layout = "small_trim_layout" }
+	}
+	
+	# Color palette textures are 16-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_romemustdie_common_02_red.dds" }	
+}
+
+variation = {
+	name = "romemustdie_common_01_purple"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "generic_cotton_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "western_linen_trim_01" 				layout = "edge_trim_layout" }
+		b = { textures = "western_linen_trim_01" 				layout = "small_trim_layout" }
+		a = { textures = "western_wool_belt_01"					layout = "small_trim_layout" }
+	}
+	
+	# Color palette textures are 16-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_romemustdie_common_02_purple.dds" }	
+}
+
+variation = {
+	name = "male_western_cloak_01_generic"
+	
+	# patterns are sampled using UV-set 2
+	# uv-coordinates will be modified with scale, rotation, and offset before the texture is sampled
+	# If more than one pattern_layout is provided one will be chosen at random (uniformly, no weights)
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_wool_plain_01" 			layout = "plain_fabric_layout" }
+		g = { textures = "western_wool_plain_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 			layout = "plain_fabric_layout" }
+		a = { textures = "western_wool_plain_01"			layout = "small_trim_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_wool_plain_02" 			layout = "plain_fabric_layout" }
+		g = { textures = "western_wool_plain_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 			layout = "plain_fabric_layout" }
+		a = { textures = "western_wool_plain_01"			layout = "small_trim_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_wool_plain_02" 			layout = "plain_fabric_layout" }
+		g = { textures = "western_wool_plain_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 			layout = "plain_fabric_layout" }
+		a = { textures = "western_wool_plain_01"			layout = "small_trim_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "northern_wool_03" 				layout = "plain_fabric_layout" }
+		g = { textures = "western_wool_plain_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 			layout = "plain_fabric_layout" }
+		a = { textures = "western_wool_plain_01"			layout = "small_trim_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "northern_wool_01" 				layout = "plain_fabric_layout" }
+		g = { textures = "western_wool_plain_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 			layout = "plain_fabric_layout" }
+		a = { textures = "western_wool_plain_01"			layout = "small_trim_layout" }
+	}	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "northern_wool_01" 				layout = "plain_fabric_layout" }
+		g = { textures = "western_wool_plain_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 			layout = "plain_fabric_layout" }
+		a = { textures = "western_wool_plain_01"			layout = "small_trim_layout" }
+	}	
+	
+	# Color palette textures are 16-wide and N-high.
+	# Shaders will chose a row in the texture at random, and each column will be sampled once.
+	# First column will be masked by the red channel in the masks, second by the green, etc.
+	# If more than one color palette texture is provided one will be chosen at random (uniformly, no weights)
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_romemustdie_western_cloak_01_generic.dds" }	
+}
+
+variation = {
+	name = "male_western_cloak_01_red"
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_wool_plain_02" 			layout = "plain_fabric_layout" }
+		g = { textures = "western_wool_plain_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 			layout = "plain_fabric_layout" }
+		a = { textures = "western_wool_plain_01"			layout = "small_trim_layout" }
+	}	
+	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_romemustdie_western_cloak_01_red.dds" }
+}
+
+variation = {
+	name = "male_western_cloak_01_purple"
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_wool_plain_02" 			layout = "plain_fabric_layout" }
+		g = { textures = "western_wool_plain_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 			layout = "plain_fabric_layout" }
+		a = { textures = "western_wool_plain_01"			layout = "small_trim_layout" }
+	}	
+	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_romemustdie_western_cloak_01_purple.dds" }
+}
+
+variation = {
+	name = "male_western_cloak_01_white"
+	
+	pattern = { 
+		weight = 1
+		#r,g,b,a here refers to the channels in the pattern_mask scripted in the entity
+		r = { textures = "western_wool_plain_02" 			layout = "plain_fabric_layout" }
+		g = { textures = "western_wool_plain_01" 			layout = "plain_fabric_layout" }
+		b = { textures = "western_linen_plain_01" 			layout = "plain_fabric_layout" }
+		a = { textures = "western_wool_plain_01"			layout = "small_trim_layout" }
+	}	
+	
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_romemustdie_western_cloak_01_white.dds" }
+}
+
+variation = {
+	name = "romemustdie_common_03_generic"
+	
+ 
+	pattern = { 
+		weight = 1
+ 
+		r = { textures = "generic_wool_standard_fine_01" 		layout = "plain_fabric_layout" }
+		g = { textures = "generic_silk_standard_plain_01" 		layout = "plain_fabric_layout" }
+		b = { textures = "generic_cotton_standard_fine_01" 				layout = "small_trim_layout" }
+		a = { textures = "generic_silk_standard_plain_01"		layout = "plain_fabric_layout" }
+	}	
+
+ 
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_romemustdie_common_03.dds" }	
 }

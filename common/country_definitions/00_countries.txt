@@ -38,7 +38,7 @@ RUS = {
 
 	tier = empire
 	
-	cultures = { russian ukrainian byelorussian }
+	cultures = { russian ukrainian krivian }
 	capital = STATE_INGRIA
 }
 
@@ -951,7 +951,7 @@ BUL = {
 
 	tier = kingdom
 	
-	cultures = { sklavinian }	
+	cultures = { sclaveni }	
 	capital = STATE_BULGARIA
 }
 
@@ -1162,7 +1162,7 @@ AZB = {
 
 	tier = kingdom
 	
-	cultures = { azerbaijani }
+	cultures = { azeri }
 	capital = STATE_TABRIZ
 	is_named_from_capital = yes
 }
@@ -1289,7 +1289,7 @@ PER = {
 	
 	tier = empire
 	
-	cultures = { persian azerbaijani}
+	cultures = { persian azeri}
 	capital = STATE_IRAKAJEMI
 }
 
@@ -2425,7 +2425,7 @@ BYE = {
 
 	tier = kingdom
 	
-	cultures = { byelorussian }
+	cultures = { krivian }
 	capital = STATE_MINSK
 }
 
@@ -3853,7 +3853,7 @@ CAU = {
 
 	tier = empire
 	
-	cultures = { azerbaijani armenian georgian }
+	cultures = { azeri armenian georgian }
 	capital = STATE_GREATER_CAUCASUS
 }
 

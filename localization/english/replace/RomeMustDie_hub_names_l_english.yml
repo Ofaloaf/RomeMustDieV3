@@ -680,6 +680,18 @@
  HUB_NAME_STATE_LUHANSK_farm: "Kodak" # Ekaterinoslav
  HUB_NAME_STATE_LUHANSK_wood: "Khortytsia" # in Zaporizhia
  #
+ STATE_ORSHA: "Rsha" # old name of Orsha
+ HUB_NAME_STATE_ORSHA_city: "Rsha" # as above
+ HUB_NAME_STATE_ORSHA_mine:1 "Mogilev"
+ HUB_NAME_STATE_ORSHA_farm:0 "Gomel"
+ HUB_NAME_STATE_ORSHA_wood:1 "Vitebsk"
+ #
+ STATE_BRYANSK: "Debryansk" # old name of Bryansk
+ HUB_NAME_STATE_BRYANSK_city: "Debryansk" # as above
+ HUB_NAME_STATE_BRYANSK_mine:0 "Volokolamsk"
+ HUB_NAME_STATE_BRYANSK_farm:0 "Vyazma"
+ HUB_NAME_STATE_BRYANSK_wood:0 "Kaluga"
+ #
  STATE_TARTARIA: "Sary Tau"
  HUB_NAME_STATE_TARTARIA_city: "Sary Tau" # Saratov
  HUB_NAME_STATE_TARTARIA_mine:0 "Penza"
@@ -1360,6 +1372,10 @@
  ############ ASIA #############
  #
  STATE_AZERBAIJAN: "Shirvan"
+ HUB_NAME_STATE_AZERBAIJAN_city:1 "Baku"
+ HUB_NAME_STATE_AZERBAIJAN_mine: "Langarkunān" # Lankaran
+ HUB_NAME_STATE_AZERBAIJAN_farm: "Saingilo" # Zaqatala
+ HUB_NAME_STATE_AZERBAIJAN_wood: "Ganja" # Yelizavetpol in Tsarist Russia
  #
  STATE_BEIJING: "Yan"
  HUB_NAME_STATE_BEIJING_city: "Yanjing"
@@ -1374,11 +1390,23 @@
  HUB_NAME_STATE_XIAN_farm:0 "Hanzhong"
  HUB_NAME_STATE_XIAN_wood:0 "Yanʼan"
  #
- 
+ STATE_ULIASTAI: "Uliastai"
  HUB_NAME_STATE_ULIASTAI_city: "Ordu-Baliq"
  HUB_NAME_STATE_ULIASTAI_mine:0 "Sharga"
  HUB_NAME_STATE_ULIASTAI_farm:0 "Khorgo"
  HUB_NAME_STATE_ULIASTAI_wood:1 "Ölgii"
+ #
+ STATE_WESTERN_AFGHANISTAN: "Western Afghanistan"
+ HUB_NAME_STATE_WESTERN_AFGHANISTAN_city:0 "Herat"
+ HUB_NAME_STATE_WESTERN_AFGHANISTAN_mine:0 "Shindand"
+ HUB_NAME_STATE_WESTERN_AFGHANISTAN_farm:0 "Sheberghan"
+ HUB_NAME_STATE_WESTERN_AFGHANISTAN_wood:0 "Mazar-i Sharif"
+ #
+ STATE_EASTERN_AFGHANISTAN: "Eastern Afghanistan"
+ HUB_NAME_STATE_EASTERN_AFGHANISTAN_city:0 "Kabul"
+ HUB_NAME_STATE_EASTERN_AFGHANISTAN_mine:0 "Ghazni"
+ HUB_NAME_STATE_EASTERN_AFGHANISTAN_farm: "Adinapur" # Jalalabad
+ HUB_NAME_STATE_EASTERN_AFGHANISTAN_wood: "Jauz Gun" # Fayzabad
  #
  #HINDUSTAN
  #

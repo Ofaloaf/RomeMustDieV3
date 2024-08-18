@@ -17,7 +17,7 @@
   catawba: "Catawba"
   ulpianic: "Ulpianic"
   thuringian: "Thuringian"
-  sklavinian: "Sklavinian"
+  sclaveni: "Sclaveni"
   scottish: "Scotti"
   septimanian: "Septimanian"
   frisian: "Frisian"
@@ -40,7 +40,7 @@
   daju: "Daju"
   antian: "Antian"
   neoanahuacan: "Neo-Anahuacan"
-  byelorussian: "Krivian"
+  krivian: "Krivian"
   afro_novomundan: "Afro-Novomundan"
   charrua: "Charrua"
   selatanic: "Selatanic"
@@ -49,6 +49,7 @@
   rromani: "Romani"
   romanian: "Vlach"
   ukrainian: "Ruthenian"
+  azeri: "Azeri"
   #
   nicene: "Nicene"
   arian: "Arian"
@@ -62,6 +63,8 @@
   great_spirit: "Great Spirit"
   atua: "Atua"
   #
+  dummy_heritage: "#red #b DUMMY - REPORT IF YOU SEE THIS#!#!"
+  dummy_language: "#red #b DUMMY - REPORT IF YOU SEE THIS#!#!"
   romance_speaker: "Romance Speaker"
   eastern_woodlands: "Eastern Woodlands"
   latin_culture_group: "Latin"
@@ -70,4 +73,5 @@
   new_world: "New World"
   romani_culture_group: "Roma Peoples"
   romani_heritage: "Romani Heritage"
+  jugoslav: "South Slavic"
   

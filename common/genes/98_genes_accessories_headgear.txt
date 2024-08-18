@@ -167,8 +167,11 @@
 			chinese_imperial_headgear = {
 				index = 10
 				male = {
-					1 = male_headgear_chinese_imperial_01
-					
+					1 = male_headgear_wushamao				# Wushamao, for court officials
+					1 = male_headgear_chinese_imperial_01	# Qing
+					1 = male_headgear_chinese_imperial_02
+					1 = male_headgear_chinese_imperial_03
+					1 = male_headgear_yishanguan			# Ming
 				}
 
 				female = {
@@ -1190,12 +1193,13 @@
 				girl = female
 			}
 
-			roman_galea_helmet = {
+			roman_soldier_kepi = {
 
 				index = 72
 
 				male = {
-					1 = male_headgear_roman_galea_helmet
+					1 = com_male_headgear_european_military_02_WRE_red
+					1 = com_male_headgear_european_military_02_ERE_purple
 				}
 
 				female = {
@@ -1210,10 +1214,10 @@
 				index = 73
 
 				male = {
-					1 = male_headgear_secular_byzantine_pannonian_common_01
-					1 = male_headgear_secular_western_pillbox_common_01
-					1 = male_headgear_secular_western_pillbox_low_01
-					1 = male_headgear_secular_byzantine_pannonian_high_01
+					#
+					#
+					#
+					#
 				}
 
 				female = {
@@ -1223,12 +1227,13 @@
 				girl = female
 			}
 			
-			roman_centurion_helmet = {
+			roman_officer_kepi = {
 
 				index = 74
 
 				male = {
-					1 = male_headgear_roman_centurion_helmet
+					1 = com_male_headgear_european_military_02_WRE_red_fancy
+					1 = com_male_headgear_european_military_02_ERE_purple_fancy
 				}
 
 				female = {
@@ -1296,6 +1301,22 @@
 				boy = male
 				girl = female
 			}	
+
+			rome_late_military_hats = {
+				index = 79
+				male = {
+					1 = male_headgear_vfm_field_cap_01
+					1 = male_headgear_vfm_field_cap_red
+					1 = male_headgear_vfm_field_cap_purple
+					1 = male_headgear_vfm_european_adrian_01
+				}
+
+				female = {
+					1 = empty
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }

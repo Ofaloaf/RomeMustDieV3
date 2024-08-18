@@ -1,3 +1,7 @@
-﻿romani_heritage = {
+﻿dummy_heritage = {
+	heritage = yes
+}
+
+romani_heritage = {
 	heritage = yes
 }

@@ -431,11 +431,11 @@
 				size = 75004
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 19000
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				religion = slavic_pagan
 				size = 9000
 			}
@@ -456,7 +456,7 @@
 				size = 3000
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 150468
 			}
 			create_pop = {
@@ -539,11 +539,11 @@
 				size = 103652
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 464900
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				religion = slavic_pagan
 				size = 137004
 			}
@@ -569,12 +569,12 @@
 				size = 184344
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				religion = slavic_pagan
 				size = 458400
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 141600
 			}
 			create_pop = {
@@ -745,7 +745,7 @@
 				size = 76800
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 117400
 			}
 			create_pop = {
@@ -826,7 +826,7 @@
 				size = 210480
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 98530
 			}
 			create_pop = {
@@ -841,7 +841,7 @@
 		}
 		region_state:BLC = {
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 661770
 			}
 			create_pop = {
@@ -862,7 +862,7 @@
 				size = 190626
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 414000
 			}
 			create_pop = {
@@ -878,7 +878,7 @@
 	s:STATE_MACEDONIA = {
 		region_state:DRG = {
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 273303
 			}
 			create_pop = {
@@ -905,7 +905,7 @@
 				size = 84900
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 95204
 			}
 			create_pop = {
@@ -917,7 +917,7 @@
 	s:STATE_WESTERN_THRACE = {
 		region_state:ERE = {
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				size = 428148
 			}
 			create_pop = {
@@ -929,7 +929,7 @@
 				size = 80000
 			}
 			create_pop = {
-				culture = sklavinian
+				culture = sclaveni
 				religion = slavic_pagan
 				size = 41800
 			}

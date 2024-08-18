@@ -96,13 +96,13 @@
         }
     }
 	
-    roman_soldier_helmet = {
+    roman_wre_soldier_kepi = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = headgear
-                template = roman_galea_helmet
-                range = { 0 1 } # For the randomness to work correctly
+                template = roman_soldier_kepi
+                range = { 0 0.5 } # For the randomness to work correctly
            
             } 
         }
@@ -112,16 +112,111 @@
                 add = 200
                 
                 scope:pop ?= {
-					OR = {
-						is_pop_type = soldiers
-						is_pop_type = officers
-					}
-					culture = {
-						has_discrimination_trait = romance_speaker
-					}
+					is_pop_type = soldiers
 					exists = c:WRE
 					owner = {
 						c:WRE = this
+					}
+				}
+            }
+        }
+    }
+
+    roman_ere_soldier_kepi = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = roman_soldier_kepi
+                range = { 0.5 1.0 }
+           
+            } 
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                
+                scope:pop ?= {
+                    is_pop_type = soldiers
+                    exists = c:ERE
+                    owner = {
+                        c:ERE = this
+                    }
+                }
+            }
+        }
+    }
+	
+    roman_wre_officer_kepi = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = roman_officer_kepi
+                range = { 0 0.5 } # For the randomness to work correctly
+           
+            } 
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                
+                scope:pop ?= {
+					is_pop_type = officers
+					exists = c:WRE
+					owner = {
+						c:WRE = this
+					}
+				}
+            }
+            modifier = {
+                add = 200
+				scope:character ?= {
+					OR = {
+						has_role = admiral
+						has_role = general
+					}
+					owner ?= {
+						c:WRE ?= this
+					}
+				}
+            }
+        }
+    }
+
+    roman_ere_officer_kepi = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = roman_officer_kepi
+                range = { 0.5 1.0 }
+           
+            } 
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                
+                scope:pop ?= {
+                    is_pop_type = officers
+                    owner = {
+                        c:ERE ?= this
+                    }
+                }
+            }
+            modifier = {
+                add = 200
+				scope:character ?= {
+					OR = {
+						has_role = admiral
+						has_role = general
+					}
+					owner ?= {
+						c:ERE ?= this
 					}
 				}
             }
@@ -209,74 +304,53 @@
             }
         }
     }
-	
-    roman_general_pannonian_hat = {
+
+    wre_late_military_headgear = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = headgear
-                template = roman_pannonian_hat
-                range = { 0.75 1 } # For the randomness to work correctly
-           
-            } 
+                template = rome_late_military_hats
+                accessory = male_headgear_vfm_field_cap_red
+            }
         }
         weight = {
             base = 0
             modifier = {
-                add = 200
-				
-				scope:character ?= {
-					has_role = general
-					culture = {
-						OR = {
-							cu:roman = this
-							cu:gallic = this
-							cu:hispanian = this
-							cu:illyrian = this
-							cu:greek = this
-						}
-					}
-				}
+                add = 10000
+                
+                scope:character ?= {
+                    has_role = general
+                    owner ?= {
+                        c:WRE ?= this
+                        has_technology_researched = bolt_action_rifles
+                    }
+                }
             }
         }
     }
-	
-    roman_admiral_pannonian_hat = {
+
+    ere_late_military_headgear = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = headgear
-                template = roman_pannonian_hat
-                range = { 0.5 0.75 } # For the randomness to work correctly
-           
-            } 
+                template = rome_late_military_hats
+                accessory = male_headgear_vfm_field_cap_purple
+            }
         }
         weight = {
             base = 0
             modifier = {
-                add = 200
-				OR = {
-					AND = {
-						politician_clothes_trigger = yes
-						scope:character ?= {
-							is_interest_group_type = ig_armed_forces
-							culture = {
-								has_discrimination_trait = romance_speaker
-							}
-						}
-					}
-					scope:character ?= {
-						has_role = admiral
-						culture = {
-							OR = {
-								cu:roman = this
-								cu:gallic = this
-								cu:hispanian = this
-								cu:illyrian = this
-							}
-						}
-					}
-				}
+                add = 10000
+                
+                scope:character ?= {
+                    has_role = general
+                    owner ?= {
+                        c:ERE ?= this
+                        has_technology_researched = bolt_action_rifles
+                    }
+                }
             }
         }
     }
@@ -627,7 +701,7 @@
                 mode = add
                 gene = headgear
                 template = chinese_imperial_headgear
-                range = { 0 1 } # For the randomness to work correctly
+                accessory = male_headgear_yishanguan
             }
         }
         weight = {
@@ -635,6 +709,53 @@
             modifier = {
                add = 100
                chinese_imperial_clothes_trigger = yes
+            }
+        }
+    }
+
+    chinese_official_headgear = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = chinese_imperial_headgear
+                accessory = male_headgear_wushamao
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                scope:pop ?= {
+                    culture = {
+                        has_discrimination_trait = sinosphere
+                    }
+                    is_pop_type = bureaucrats
+                    owner ?= {
+                        any_primary_culture = {
+                            has_discrimination_trait = han_chinese
+                        }
+                    }
+                }
+            }
+            modifier = {
+                add = 1000
+                scope:character ?= {
+                    has_role = politician
+                    is_ruler = no
+                    NOR = {
+                        is_interest_group_type = ig_devout
+                        is_interest_group_type = ig_armed_forces
+                    }
+                    culture = {
+                        has_discrimination_trait = sinosphere
+                    }
+                    owner ?= {
+                        any_primary_culture = {
+                            has_discrimination_trait = han_chinese
+                        }
+                    }
+                }
             }
         }
     }
@@ -652,7 +773,11 @@
             base = 0
             modifier = {
                 add = 100
-                chinese_manchu_queue_hairstyle_pops_trigger = yes
+                scope:pop ?= {
+					culture = {
+						has_discrimination_trait = han_chinese
+					}
+                }
                 poor_clothes_pop_trigger = yes
             }
         }

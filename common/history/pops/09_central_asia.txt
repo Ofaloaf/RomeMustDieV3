@@ -20,7 +20,7 @@
 				size = 92000
 			}
 			create_pop = {
-				culture = azerbaijani
+				culture = azeri
 				size = 25500
 			}
 		}
@@ -59,7 +59,7 @@
 				size = 180996
 			}
 			create_pop = {
-				culture = azerbaijani
+				culture = azeri
 				size = 36000
 			}
 			create_pop = {
@@ -75,11 +75,11 @@
 	s:STATE_AZERBAIJAN = {
 		region_state:AZB = {
 			create_pop = {
-				culture = azerbaijani
+				culture = azeri
 				size = 172100
 			}
 			create_pop = {
-				culture = azerbaijani
+				culture = azeri
 				religion = shiite
 				size = 79604
 			}
