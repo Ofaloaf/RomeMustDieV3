@@ -89,9 +89,67 @@ bagaudic_unrest = {
 suppressing_the_bagaudae = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
 	state_radicals_from_sol_change_mult = -0.1
+	state_mortality_mult = 0.1
 }
 
-refused_to_do_what_was_expected = {
+refused_to_do_what_was_expected_1 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
-	character_popularity_add = -15
+	character_popularity_add = -10
+}
+
+refused_to_do_what_was_expected_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_popularity_add = -20
+}
+
+refused_to_do_what_was_expected_3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_popularity_add = -30
+}
+
+refused_to_do_what_was_expected_4 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_popularity_add = -40
+}
+
+refused_to_do_what_was_expected_5 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_popularity_add = -50
+}
+
+collegia_fighting = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	building_group_bg_manufacturing_throughput_add = -0.5
+	building_group_bg_mining_throughput_add = -0.5
+	state_mortality_mult = 0.5
+}
+
+suppressing_the_collegia = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	state_radicals_from_sol_change_mult = -0.1
+	state_mortality_mult = 0.1
+}
+
+labor_collegia_victorious = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	state_welfare_payments_add = 0.5
+	state_poor_standard_of_living_add = 1
+}
+
+plutocrat_societates_victorious = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	state_radicals_from_sol_change_mult = -0.5
+	state_rich_standard_of_living_add = 1
+}
+
+supported_by_imperial_action = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	interest_group_approval_add = 2
+	interest_group_pol_str_mult = 0.1
+}
+
+targeted_by_imperial_action = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	interest_group_approval_add = -2
+	interest_group_pol_str_mult = -0.1
 }

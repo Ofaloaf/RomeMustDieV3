@@ -897,8 +897,35 @@ fall_of_rome_events.3 = { # Bagaudae Disturbances
 	}
 
 	option = {
-		name = fall_of_rome_events.3.a
+		name = fall_of_rome_events.3.a # stay at court
 		default_option = yes
+		
+		ai_chance = {
+			base = 1
+			modifier = {
+				scope:main_character = {
+					OR = {
+						has_trait = master_bureaucrat
+						has_trait = basic_political_operator
+						has_trait = experienced_political_operator
+						has_trait = expert_political_operator
+					}
+				}
+				add = 10
+			}
+			modifier = {
+				scope:main_character = {
+					OR = {
+						has_role = general
+						has_trait = brave
+						has_trait = traditionalist_commander
+						has_trait = popular_commander
+						has_trait = celebrity_commander
+					}
+				}
+				add = -1
+			}
+		}
 		
 		scope:main_character_ig = {
 			add_modifier = {
@@ -953,7 +980,34 @@ fall_of_rome_events.3 = { # Bagaudae Disturbances
 	}
 	
 	option = {
-		name = fall_of_rome_events.3.b
+		name = fall_of_rome_events.3.b # go to the troublesome province
+		
+		ai_chance = {
+			base = 1
+			modifier = {
+				scope:main_character = {
+					OR = {
+						has_role = general
+						has_trait = brave
+						has_trait = traditionalist_commander
+						has_trait = popular_commander
+						has_trait = celebrity_commander
+					}
+				}
+				add = 10
+			}
+			modifier = {
+				scope:main_character = {
+					OR = {
+						has_trait = master_bureaucrat
+						has_trait = basic_political_operator
+						has_trait = experienced_political_operator
+						has_trait = expert_political_operator
+					}
+				}
+				add = -1
+			}
+		}
 		
 		if = {
 			limit = {
@@ -1003,6 +1057,474 @@ fall_of_rome_events.3 = { # Bagaudae Disturbances
 					name = refused_to_do_what_was_expected
 					months = short_modifier_time
 				}
+			}
+		}
+	}
+}
+
+
+fall_of_rome_events.4 = { # Conflict of the Urban Orders in State
+	type = country_event
+	placement = scope:collegia_urban_state
+	duration = 3
+	
+	cooldown = { months = short_modifier_time }
+
+	title = fall_of_rome_events.4.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = fall_of_rome_events.4.d1
+				trigger = {
+					NOR = {
+						exists = scope:labor_interest_group
+						exists = scope:plutocrat_interest_group
+					}
+				}
+			}
+			triggered_desc = {
+				desc = fall_of_rome_events.4.d2
+				trigger = {
+					exists = scope:labor_interest_group
+					NOT = { exists = scope:plutocrat_interest_group }
+				}
+			}
+			triggered_desc = {
+				desc = fall_of_rome_events.4.d3
+				trigger = {
+					NOT = { exists = scope:labor_interest_group }
+					exists = scope:plutocrat_interest_group
+				}
+			}
+			triggered_desc = {
+				desc = fall_of_rome_events.4.d4
+				trigger = {
+					exists = scope:labor_interest_group
+					exists = scope:plutocrat_interest_group
+				}
+			}
+		}
+	}
+	flavor = fall_of_rome_events.4.f
+
+	event_image = {
+		video = "unspecific_vandalized_storefront"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+
+	trigger = {
+		ruler.interest_group = {
+			NOR = { 
+				has_modifier = ruler_prioritizes_imperial_politics 
+				has_modifier = ruler_disinterest_in_imperial_politics
+			}
+		}
+		capital.region = {
+			save_temporary_scope_as = temp_capital_region
+		}
+		any_scope_state = {	# the event must occur in the provinces, away from the metropole
+			is_capital = no
+			NOT = {
+				region = scope:temp_capital_region
+				OR = {
+					has_modifier = collegia_fighting
+					has_modifier = suppressing_the_collegia
+					has_modifier = labor_collegia_victorious
+					has_modifier = plutocrat_societates_victorious
+				}
+			}
+			total_urbanization > 8
+		}
+	}
+	
+	immediate = {
+		ruler = {
+			save_scope_as = main_character
+			interest_group = {
+				save_scope_as = main_character_ig
+			}
+		}
+		capital.region = {
+			save_scope_as = capital_region
+		}
+		random_scope_state = {
+			limit = {
+				is_capital = no
+				NOT = {
+					region = scope:capital_region
+					OR = {
+						has_modifier = collegia_fighting
+						has_modifier = suppressing_the_collegia
+						has_modifier = labor_collegia_victorious
+						has_modifier = plutocrat_societates_victorious
+					}
+				}
+				total_urbanization > 8
+			}
+			save_scope_as = collegia_urban_state
+		}
+		
+		if = {
+			limit = {
+				any_interest_group = {
+					OR = {
+						is_interest_group_type = ig_trade_unions
+						leader = {
+							has_socialist_ideology = yes
+						}
+					}
+					is_powerful = yes
+					NOR = {
+						is_insurrectionary = yes
+						is_revolutionary = yes
+					}
+				}
+			}
+			random_interest_group = {
+				limit = {
+					OR = {
+						is_interest_group_type = ig_trade_unions
+						leader = {
+							has_socialist_ideology = yes
+						}
+					}
+					is_powerful = yes
+					NOR = {
+						is_insurrectionary = yes
+						is_revolutionary = yes
+					}
+				}
+				save_scope_as = labor_interest_group
+			}
+		}
+				
+		if = {
+			limit = {
+				any_interest_group = {
+					OR = {
+						is_interest_group_type = ig_industrialists
+						leader = {
+							has_reactionary_ideology = yes
+						}
+					}
+					is_powerful = yes
+					NOR = {
+						is_insurrectionary = yes
+						is_revolutionary = yes
+					}
+				}
+			}
+			random_interest_group = {
+				limit = {
+					OR = {
+						is_interest_group_type = ig_industrialists
+						leader = {
+							has_reactionary_ideology = yes
+						}
+					}
+					is_powerful = yes
+					NOR = {
+						is_insurrectionary = yes
+						is_revolutionary = yes
+					}
+				}
+				save_scope_as = plutocrat_interest_group
+			}
+		}
+	}
+	
+	cancellation_trigger = {
+		NOT = {
+			exists = scope:collegia_urban_state
+		}
+	}
+	
+	option = {
+		name = fall_of_rome_events.4.a
+		default_option = yes
+		
+		scope:main_character_ig = {
+			add_modifier = {
+				name = ruler_prioritizes_imperial_politics
+				months = normal_modifier_time
+			}
+		}
+		
+		if = {
+			limit = {
+				country_has_voting_franchise = yes
+			}
+			custom_tooltip = fall_of_rome_events_4_let_local_reps_handle_it
+			scope:collegia_urban_state = {
+				add_modifier = {
+					name = collegia_fighting
+					months = normal_modifier_time
+					multiplier = 0.5
+				}
+			}
+		}
+		else = {
+			scope:collegia_urban_state = {
+				add_modifier = {
+					name = collegia_fighting
+					months = normal_modifier_time
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				scope:main_character = {
+					OR = {
+						has_role = general
+						has_trait = brave
+						has_trait = traditionalist_commander
+						has_trait = popular_commander
+						has_trait = celebrity_commander
+					}
+				}
+			}
+			custom_tooltip = did_not_meet_expectations_FoRE3_stayed_at_home
+			scope:main_character = {
+				refused_to_do_what_was_expected_effect = yes
+			}
+		}
+	}
+	
+	option = {
+		name = fall_of_rome_events.4.b
+		
+		if = {
+			limit = {
+				country_has_voting_franchise = yes
+			}
+			custom_tooltip = fall_of_rome_events_3_fellow_partisans_mitigate_neglect
+			scope:main_character_ig = {
+				add_modifier = {
+					name = ruler_disinterest_in_imperial_politics
+					months = normal_modifier_time
+					multiplier = 0.5
+				}
+			}
+		}
+		else = {
+			scope:main_character_ig = {
+				add_modifier = {
+					name = ruler_disinterest_in_imperial_politics
+					months = normal_modifier_time
+					multiplier = 0.5
+				}
+			}
+		}
+		
+		scope:collegia_urban_state = {
+			add_modifier = {
+				name = suppressing_the_collegia
+				months = normal_modifier_time
+			}
+		}
+		
+		if = {
+			limit = {
+				scope:main_character = {
+					OR = {
+						has_trait = master_bureaucrat
+						has_trait = basic_political_operator
+						has_trait = experienced_political_operator
+						has_trait = expert_political_operator
+					}
+				}
+			}
+			custom_tooltip = did_not_meet_expectations_FoRE3_went_away
+			scope:main_character = {
+				refused_to_do_what_was_expected_effect = yes
+			}
+		}
+	}
+	
+	option = {
+		name = {
+			first_valid = {
+				triggered_desc = {
+					desc = fall_of_rome_events.4.c1
+					trigger = {
+						exists = scope:labor_interest_group
+					}
+				}
+				triggered_desc = {
+					desc = fall_of_rome_events.4.c2
+					trigger = {
+						NOT = { exists = scope:labor_interest_group }
+					}
+				}
+			}
+		}
+		highlighted_option = yes
+		trigger = {
+			OR = {
+				scope:main_character = { 
+					OR = {
+						is_interest_group_type = ig_trade_unions 
+						has_socialist_ideology = yes
+					}
+				}
+				ROOT = { has_law = law_type:law_council_republic }		# rulers can side with the workers specifically if they're also labor-friend, or just in a council republic
+			}
+		}
+		
+		scope:collegia_urban_state = {
+			add_modifier = {
+				name = labor_collegia_victorious
+				months = normal_modifier_time
+			}
+		}
+		
+		if = {
+			limit = {
+				exists = scope:labor_interest_group
+			}
+			scope:labor_interest_group = {
+				if = {
+					limit = {
+						has_modifier = supported_by_imperial_action
+					}
+					hidden_effect = {
+						remove_modifier = supported_by_imperial_action
+					}
+				}
+				add_modifier = {
+					name = supported_by_imperial_action
+					months = normal_modifier_time
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				exists = scope:plutocrat_interest_group
+			}
+			scope:plutocrat_interest_group = {
+				if = {
+					limit = {
+						has_modifier = targeted_by_imperial_action
+					}
+					hidden_effect = {
+						remove_modifier = targeted_by_imperial_action
+					}
+				}
+				add_modifier = {
+					name = targeted_by_imperial_action
+					months = normal_modifier_time
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				scope:main_character = {
+					OR = {
+						is_interest_group_type = ig_trade_unions 
+						has_socialist_ideology = yes
+					}
+				}
+			}
+			custom_tooltip = did_not_meet_expectations_FoRE4_not_pro_worker
+			scope:main_character = {
+				refused_to_do_what_was_expected_effect = yes
+			}
+		}
+	}
+	
+	option = {
+		name = {
+			first_valid = {
+				triggered_desc = {
+					desc = fall_of_rome_events.4.dd1
+					trigger = {
+						exists = scope:plutocrat_interest_group
+					}
+				}
+				triggered_desc = {
+					desc = fall_of_rome_events.4.dd2
+					trigger = {
+						NOT = { exists = scope:plutocrat_interest_group }
+					}
+				}
+			}
+		}
+		highlighted_option = yes
+		trigger = {
+			scope:main_character = { 
+				OR = {
+					is_interest_group_type = ig_industrialists 
+					has_reactionary_ideology = yes
+				}
+			}
+			ROOT = { NOT = { has_law = law_type:law_council_republic } } # an industrialist cannot be partisan against the workers if they're working within a council republic
+		}
+		
+		scope:collegia_urban_state = {
+			add_modifier = {
+				name = plutocrat_societates_victorious
+				months = normal_modifier_time
+			}
+		}
+		
+		if = {
+			limit = {
+				exists = scope:plutocrat_interest_group
+			}
+			scope:plutocrat_interest_group = {
+				if = {
+					limit = {
+						has_modifier = supported_by_imperial_action
+					}
+					hidden_effect = {
+						remove_modifier = supported_by_imperial_action
+					}
+				}
+				add_modifier = {
+					name = supported_by_imperial_action
+					months = normal_modifier_time
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				exists = scope:labor_interest_group
+			}
+			scope:labor_interest_group = {
+				if = {
+					limit = {
+						has_modifier = targeted_by_imperial_action
+					}
+					hidden_effect = {
+						remove_modifier = targeted_by_imperial_action
+					}
+				}
+				add_modifier = {
+					name = targeted_by_imperial_action
+					months = normal_modifier_time
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				scope:main_character = {
+					OR = {
+						is_interest_group_type = ig_industrialists 
+						has_reactionary_ideology = yes
+					}
+				}
+			}
+			custom_tooltip = did_not_meet_expectations_FoRE4_not_pro_plutocrat
+			scope:main_character = {
+				refused_to_do_what_was_expected_effect = yes
 			}
 		}
 	}

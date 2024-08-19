@@ -1,0 +1,73 @@
+﻿#	Example:
+# 
+#	example_effect = {
+#		x = 100
+#		y = 50
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+refused_to_do_what_was_expected_effect = {
+	if = {
+		limit = {
+			NOR = {
+				has_modifier = refused_to_do_what_was_expected_1
+				has_modifier = refused_to_do_what_was_expected_2
+				has_modifier = refused_to_do_what_was_expected_3
+				has_modifier = refused_to_do_what_was_expected_4
+				has_modifier = refused_to_do_what_was_expected_5
+			}
+		}
+		add_modifier = {
+			name = refused_to_do_what_was_expected_1
+			months = short_modifier_time
+		}
+	}
+	else_if = {
+		limit = { has_modifier = refused_to_do_what_was_expected_1 }
+		hidden_effect = { remove_modifier = refused_to_do_what_was_expected_1 }
+		add_modifier = {
+			name = refused_to_do_what_was_expected_2
+			months = short_modifier_time
+		}
+	}
+	else_if = {
+		limit = { has_modifier = refused_to_do_what_was_expected_2 }
+		hidden_effect = { remove_modifier = refused_to_do_what_was_expected_2 }
+		add_modifier = {
+			name = refused_to_do_what_was_expected_3
+			months = short_modifier_time
+		}
+	}
+	else_if = {
+		limit = { has_modifier = refused_to_do_what_was_expected_3 }
+		hidden_effect = { remove_modifier = refused_to_do_what_was_expected_3 }
+		add_modifier = {
+			name = refused_to_do_what_was_expected_4
+			months = short_modifier_time
+		}
+	}
+	else_if = {
+		limit = { has_modifier = refused_to_do_what_was_expected_4 }
+		hidden_effect = { remove_modifier = refused_to_do_what_was_expected_4 }
+		add_modifier = {
+			name = refused_to_do_what_was_expected_5
+			months = short_modifier_time
+		}
+	}
+	else_if = {
+		limit = { has_modifier = refused_to_do_what_was_expected_5 }
+		hidden_effect = { remove_modifier = refused_to_do_what_was_expected_5 }
+		custom_tooltip = ruler_extremely_unpopular
+		add_modifier = {
+			name = refused_to_do_what_was_expected_5
+			months = short_modifier_time
+		}
+	}
+}
