@@ -31,6 +31,14 @@ idle = {
 			portrait_modifier = { animations_props = smoking_attachment }
 		}
 		
+		char_happy_idle = {
+			animation = { head = "idle_head_emotions_happy" torso = "idle_body_emotions_happy" }
+
+			weight = {
+				base = 0
+			}
+		}
+		
 		char_bandit_idle = {
 			animation = { head = "idle_head_emotions_boastful" torso = "idle_body_struggle_rifle" }
 
@@ -1142,6 +1150,14 @@ idle = {
 		####general_emotions_proud_idle = {
 	########					animation = { head = "idle_head_emotions_proud" torso = "idle_body_emotions_proud" }
 	########	}
+	
+		char_happy_idle = {
+			animation = { head = "idle_head_emotions_happy" torso = "idle_body_emotions_happy" }
+
+			weight = {
+				base = 0
+			}
+		}
 	
 		char_bandit_idle = {
 			animation = { head = "idle_body_emotions_boastful" torso = "idle_body_struggle_rifle" }
