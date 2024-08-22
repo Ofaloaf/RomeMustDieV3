@@ -36,6 +36,18 @@ idle = {
 
 			weight = {
 				base = 0
+				
+				modifier = {
+					add = 5000
+					scope:character ?= {
+						has_role = politician
+						is_ruler = no
+						is_heir = no
+						interest_group = {
+							ig_approval >= loyal
+						}
+					}
+				}
 			}
 		}
 		
@@ -95,6 +107,17 @@ idle = {
 					add = 5000
 					scope:character ?= {
 						has_template = wre_ruler
+					}
+				}
+				modifier = {
+					add = 5000
+					scope:character ?= {
+						has_role = politician
+						is_ruler = no
+						is_heir = no
+						interest_group = {
+							ig_approval <= angry
+						}
 					}
 				}
 			}

@@ -165,6 +165,17 @@ male_outfit_repurposed_lampiao_plain_misc = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_repurposed_lampiao_plain_misc_entity" }
 }
 
+male_clothes_common_03_peasant = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_common_03_peasant_entity" }
+}
+
+male_clothes_common_03_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_common_03_common_entity" }
+}
+
+
 # FEE-MALES ###
 
 
@@ -236,6 +247,16 @@ female_clothes_priest_low_01 = {
 female_clothes_northern_pagan_priest_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_northern_pagan_priest_01_entity" }	
+}
+
+female_clothes_common_03_peasant = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_common_03_peasant_entity" }
+}
+
+female_clothes_common_03_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_common_03_common_entity" }
 }
 
 ### LEGWEAR ###

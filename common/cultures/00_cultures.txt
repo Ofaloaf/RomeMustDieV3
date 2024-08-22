@@ -4707,7 +4707,7 @@ greek={
 		Militiadis Menelaos Markos Merkourios Makarios Matthaios Markellos Menas Maximos
 		Nikos Nikolaos Nikephoros Niketas Niphon
 		Odysseas Olympiodoros Ourbikios Olybrios
-		Panos Periklis Petros Pantelis Pantaleon Pavlos Panoutsos Philippikos Porphyrios Probus Pompeios Patrikios Proklos Philoxenos Ploutarchos Philostratos Peregrinos Ptolemaios Poublios
+		Panos Periklis Petros Pantelis Pantaleon Pavlos Panoutsos Philippikos Porphyrios Probus Pompeios Patrikios Proklos Philoxenos Ploutarchos Philostratos Peregrinos Ptolemaios Poublios Photios
 		Romanos
 		Spyridon Sokratis Stamatios Sotiros Stephanos Stelios Stylianos Skarlatos Sofoklis Staurakios Sisinnios Simplikios Sophronios Sextos
 		Theodoros Tilemachos Thomas Trifon Theophilos Thrasyvoulos Themistoklis Theophylaktos Tarasios Theodotos Theodosios Theon
@@ -18752,161 +18752,73 @@ tuvan={
 	graphics = east_asian
 }
 
-corsican = {
+corsican = { # Tried to pull a bunch of Greco-Roman names from Corsican Wikipedia
 	color= hsv{ 0.49 0.51 0.84 }
 	religion = nicene
 	traits = { european_heritage romance_speaker latin_culture_group }
 	male_common_first_names={
-		Joseph
-		Louis
-		Napoleon
-		Angelo
-		Baptiste
-		Carlo
-		Louis
-		Lucien
-		Michel
-		Pascal
-		Alessandro
-		Alfonso
-		Ambrogio
-		Amedeo
-		Andrea
-		Angelo
-		Antonio
-		Benito
-		Camillo
-		Carlo
-		Cesare
-		Costanzo
-		Davide
-		Enrico
-		Enzo
-		Ettore
-		Fabrizio
-		Faustino
-		Federico
-		Felice
-		Ferdinando
-		Fiorenzo
-		Francesco
-		Gaetano
-		Gennaro
-		Girolamo
-		Giulio
-		Giuseppe
-		Guglielmo
-		Innocenzo
-		Leopoldo
-		Luigi
-		Marco
-		Massimo
-		Matteo
-		Nicola
-		Oreste
-		Paolo
-		Pasquale
-		Pietro
-		Prospero
-		Raffaele
-		Roberto
-		Ruggiero
-		Scipione
-		Silvio
-		Simone
-		Tancredi
-		Ugo
-		Umberto
-		Vincenzo
-		Vittorio
-
+		Anghjulu Augustu Apollu Aureliu Antoninu Andria Austinu Antulinu
+		Bunifaziu Bartulumeu
+		Cesare Cirillu Corneliu Costantinu Costanzu
+		Dumenicu Dionisiu Damianu
+		Erculu Evaristu Evandru
+		Fabiu Fiurenzu
+		Ghjuvan Ghjacintu Ghjorghju Ghjacumu Gaiu Ghjuliu Ghjoviu Ghjulianu Ghjaseppu Ghjaseppu_Maria Ghjacumu_Petru Ghjirolmu
+		Ippolitu
+		Lucianu Luciu Luca Lurenzu
+		Matteu Marcu Mercuriu Martinu Micheli Marianu Marcellu
+		Niculaiu
+		Pasquali Petru Ponziu Publiu Paulu
+		Quintu
+		Romolu
+		Seneca Sambucucciu Scipioni Sinucellu Samperu
+		Tiudosiu Tiadoru Tomasu Trajanu
+		Uttavianu
+		Vincinteddu Virghjliu
 	}
 	female_common_first_names = {
-		Elisa
-		Laetitia
-		Caroline
-		Beatrice
-		Camilla
-		Cassandra
-		Cristina
-		Giovannella
-		Livia
-		Lucrezia
-		Luisa
-		Maddalena
-		Maria
-		Melania
-		Metilde
-		Sofia
-		Teresa
-
+		Aucissa Aurelia
+		Catissena Cornelia
+		Diana Devota
+		Ghjulia Ghjuvannina Ghjasippina
+		Lucia Letizia Laurina
+		Melanippa Maria Marta
+		Paulina
+		Riparata
+		Silvia
 	}	
-	noble_last_names = {
-			Borghese
-		Capodilista
-		Carniani
-		Colli_di_Felizzano
-		Colonna
-		d_Azeglio
-		De_Ferrari
-		de_Launay
-		di_Boglio
-		di_Calabiana
-		Massimo
-		Odescalchi
-		Orsini
-		Pallavicino
-		Sacchetti
-		Toesca
-		Torelli
-		di_Robilant
-		di_Savoia
-		di_Savoia-Aosta
-		Thaon_di_Revel
-	}
 	common_last_names={
-		Acton
-		Albricci
-		Badoglio
-		Baldissera
-		Baratieri
-		Bava-Beccaris
-		Cadorna
-		Cagni
-		Canevaro
-		Capello
-		Caviglia
-		Ceccherini
-		Cialdini
-		Cusani
-		Dezza
-		Emo
-		Fanti
-		Fara
-		Filomarino
-		Garibaldi
-		Giardino
-		Govone
-		La_Marmora
-		Mambretti
-		Menabrea
-		Orengo
-		Pacoret_de_Saint_Bon
-		Pecori-Giraldi
-		Pellion_di_Persano
-		Pelloux
-		Perruchetti
-		Pianelli
-		Porro
-		Presbitero
-		Ramorino
-		Ricotti-Magnani
-		Sacchi
-		Saletta
-		Sanna
-		Solari
-		Vaccari
-		Zupelli
+		Abbatucci Aprosiu Affatatu
+		Belatonu Bussi
+		Carniani Cervinu Cilibensu Cumansenu Cassiu Ciattoni Casanova Contardu Curlu
+		Enniu Emilianu Ettori
+		Ghjinuvesi Gaffori Galletti Ghjustiniani
+		Imeriu
+		Lestrigonu Licininu Longonesu Leca
+		Marrinu Mariu Marcangelli Marchetti Mascardi Massei Matra
+		Nonnu
+		Opinus
+		Paoli Pittore Percevalli Penani
+		Rusconi Roanu Riccobonu
+		Salluviu Subasanu Sumbru Serviu Settimiu Stagnara Surracha Scribanu Saporiti Superchiu Salvagu Simeoni
+		Tibulatiu Tarabenu Titianu Terenziu
+		Vocontiu Venacinu
+		#
+		di_Sant_Antonu di_Sant_Andrea
+		di_San_Ghjuvanni
+		di_Santa_Lucia
+		di_Santa_Maria di_San_Micheli
+		di_Santu_Sediu
+		#
+		d_Alandu di_Aleria
+		di_Bastelica da_Bozzi da_BisE_ di_Biguglia di_Bastia
+		Della_Grossa
+		di_Micalona di_Massa di_Mariana
+		di_Ponte_Novu
+		di_la_Rocca
+		di_Saone
+		di_Torres
+		d_Urnanu
 	}
 	graphics = european
 	ethnicities = {

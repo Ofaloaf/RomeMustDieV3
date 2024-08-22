@@ -8,7 +8,7 @@
 	dna = dna_king_william_04
 	culture = cu:greek
 	interest_group = ig_petty_bourgeoisie
-	ideology = ideology_royalist
+	ideology = ideology_dominate
 	traits = {
 		romantic
 	}

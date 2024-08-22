@@ -6,15 +6,6 @@
   ig_burgenses: "Burgenses"
   ig_devotos: "Devotos"
   #
-  ideology_foederati: "Foederati"
-  ideology_foederati_desc: "Through a combination of politics, convenience, and manpower issues, the Western Roman Empire has come to rely so much on foreign auxiliaries that they form a formidable power bloc in their own right."
-  ideology_praetorian: "Praetorian"
-  ideology_praetorian_desc: "Enjoying the fruits of empire, the military hates any attempt to undercut their own consolidated powerbase."
-  ideology_yakoyaner: "Yakoyaner"
-  ideology_yakoyaner_desc: "Women play a key, direct role in government, and oversee the political, economic, and social stability of the nation."
-  ideology_attila_partisan: "Attilanist"
-  ideology_attila_partisan_desc: "This leader would see a new Attila lead the Huns into a new era of unquestioned might."
-  #
   gov_roman_empire: "Imperium"
   gov_roman_empire_desc: "Imperial rule has lasted for more than a millenium and a half, and has thus this [concept_government_type] has developed a complex system of powers, rights, and obligations that many find impenetrable.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
   RULER_TITLE_IMPERATOR: "Emperor"

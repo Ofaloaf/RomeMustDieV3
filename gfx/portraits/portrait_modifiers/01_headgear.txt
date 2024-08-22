@@ -67,13 +67,11 @@
                 slavic_clothes_trigger = no
                 agitator_character_trigger = yes
                 scope:character ?= {
-					NOT = {
-						greco_roman_european_culture = yes
-						OR = {
-							is_interest_group_type = ig_landowners
-							has_ideology = ideology:ideology_royalist
-							has_ideology = ideology:ideology_humanitarian_royalist
-						}
+					greco_roman_european_culture = yes
+					NOR= {
+						is_interest_group_type = ig_landowners
+						has_ideology = ideology:ideology_royalist
+						has_ideology = ideology:ideology_humanitarian_royalist
 					}
 				}
             }
@@ -257,6 +255,34 @@
 					}
 				}
                 agitator_character_trigger = yes
+            }
+        }
+    }
+	
+    romano_british_soldier_officer_hat = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = gb_01
+                range = { 0 1.0 }
+           
+            } 
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                
+                scope:pop ?= {
+					OR = {
+						is_pop_type = soldiers
+						is_pop_type = officers
+					}
+                    culture = {
+						cu:brithenig = this
+					}
+                }
             }
         }
     }

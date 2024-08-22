@@ -454,6 +454,34 @@
 		}
 	}
 	
+	roman_peasantry = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = roman_peasant
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		} 
+
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				
+				scope:pop ?= {
+					greco_roman_european_culture = yes
+					OR = {
+						is_pop_type = farmers
+						is_pop_type = peasants
+						is_pop_type = laborers
+						is_pop_type = machinists
+					}
+				}
+			}
+		}
+	}
+	
 	roman_proletariat = {
 		dna_modifiers = {
 			accessory = {
@@ -462,23 +490,15 @@
 				template = roman_low
 				range = { 0 1 } # For the randomness to work correctly
 			}
-			
-			#accessory = {
-			#	mode = add
-			#	gene = legwear
-			#	template = peasants_legwear
-			#	range = { 0 0.5 }
-			#}
-		} 
-
+		}
 		weight = {
 			base = 0
 			modifier = {
 				add = 1000
 				
-				poor_clothes_pop_trigger = yes
 				scope:pop ?= {
 					greco_roman_european_culture = yes
+					is_pop_type = machinists
 				}
 			}
 		}
@@ -516,12 +536,7 @@
 				politician_clothes_trigger = yes
 				scope:character ?= {
 					is_interest_group_type = ig_trade_unions
-					culture = {
-						OR = {
-							has_discrimination_trait = romance_speaker
-							has_discrimination_trait = greek_culture
-						}
-					}
+					greco_roman_european_culture = yes
 				}
 			}
 		}
@@ -553,12 +568,7 @@
 					AND = {
 						middle_clothes_pop_trigger = yes
 						scope:pop ?= {
-							culture = {
-								OR = {
-									has_discrimination_trait = romance_speaker
-									has_discrimination_trait = greek_culture
-								}
-							}
+							greco_roman_european_culture = yes
 						}
 					}
 					AND = {
@@ -569,12 +579,7 @@
 								is_interest_group_type = ig_intelligentsia
 								is_interest_group_type = ig_rural_folk
 							}
-							culture = {
-								OR = {
-									has_discrimination_trait = romance_speaker
-									has_discrimination_trait = greek_culture
-								}
-							}
+							greco_roman_european_culture = yes
 						}
 					}
 				}
@@ -663,12 +668,7 @@
 						is_pop_type = capitalists
 						is_pop_type = academics
 					}
-					culture = {
-						OR = {
-							has_discrimination_trait = romance_speaker
-							has_discrimination_trait = greek_culture
-						}
-					}
+					greco_roman_european_culture = yes
 				}
 			}
 		}

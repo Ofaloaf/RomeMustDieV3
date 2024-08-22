@@ -966,15 +966,11 @@ fall_of_rome_events.3 = { # Bagaudae Disturbances
 						has_trait = popular_commander
 						has_trait = celebrity_commander
 					}
-					NOT = { has_modifier = refused_to_do_what_was_expected }
 				}
 			}
 			custom_tooltip = did_not_meet_expectations_FoRE3_stayed_at_home
 			scope:main_character = {
-				add_modifier = {
-					name = refused_to_do_what_was_expected
-					months = short_modifier_time
-				}
+				refused_to_do_what_was_expected_effect = yes
 			}
 		}
 	}
@@ -1048,15 +1044,11 @@ fall_of_rome_events.3 = { # Bagaudae Disturbances
 						has_trait = experienced_political_operator
 						has_trait = expert_political_operator
 					}
-					NOT = { has_modifier = refused_to_do_what_was_expected }
 				}
 			}
 			custom_tooltip = did_not_meet_expectations_FoRE3_went_away
 			scope:main_character = {
-				add_modifier = {
-					name = refused_to_do_what_was_expected
-					months = short_modifier_time
-				}
+				refused_to_do_what_was_expected_effect = yes
 			}
 		}
 	}
@@ -1346,22 +1338,7 @@ fall_of_rome_events.4 = { # Conflict of the Urban Orders in State
 	}
 	
 	option = {
-		name = {
-			first_valid = {
-				triggered_desc = {
-					desc = fall_of_rome_events.4.c1
-					trigger = {
-						exists = scope:labor_interest_group
-					}
-				}
-				triggered_desc = {
-					desc = fall_of_rome_events.4.c2
-					trigger = {
-						NOT = { exists = scope:labor_interest_group }
-					}
-				}
-			}
-		}
+		name = fall_of_rome_events.4.c
 		highlighted_option = yes
 		trigger = {
 			OR = {
@@ -1426,12 +1403,12 @@ fall_of_rome_events.4 = { # Conflict of the Urban Orders in State
 			limit = {
 				scope:main_character = {
 					OR = {
-						is_interest_group_type = ig_trade_unions 
-						has_socialist_ideology = yes
+						is_interest_group_type = ig_industrialists 
+						has_reactionary_ideology = yes
 					}
 				}
 			}
-			custom_tooltip = did_not_meet_expectations_FoRE4_not_pro_worker
+			custom_tooltip = did_not_meet_expectations_FoRE4_not_pro_plutocrat
 			scope:main_character = {
 				refused_to_do_what_was_expected_effect = yes
 			}
@@ -1439,27 +1416,14 @@ fall_of_rome_events.4 = { # Conflict of the Urban Orders in State
 	}
 	
 	option = {
-		name = {
-			first_valid = {
-				triggered_desc = {
-					desc = fall_of_rome_events.4.dd1
-					trigger = {
-						exists = scope:plutocrat_interest_group
-					}
-				}
-				triggered_desc = {
-					desc = fall_of_rome_events.4.dd2
-					trigger = {
-						NOT = { exists = scope:plutocrat_interest_group }
-					}
-				}
-			}
-		}
+		name = fall_of_rome_events.4.dd
 		highlighted_option = yes
 		trigger = {
 			scope:main_character = { 
 				OR = {
-					is_interest_group_type = ig_industrialists 
+					interest_group = {
+						is_interest_group_type = ig_industrialists 
+					}
 					has_reactionary_ideology = yes
 				}
 			}
@@ -1517,12 +1481,12 @@ fall_of_rome_events.4 = { # Conflict of the Urban Orders in State
 			limit = {
 				scope:main_character = {
 					OR = {
-						is_interest_group_type = ig_industrialists 
-						has_reactionary_ideology = yes
+						is_interest_group_type = ig_trade_unions 
+						has_socialist_ideology = yes
 					}
 				}
 			}
-			custom_tooltip = did_not_meet_expectations_FoRE4_not_pro_plutocrat
+			custom_tooltip = did_not_meet_expectations_FoRE4_not_pro_worker
 			scope:main_character = {
 				refused_to_do_what_was_expected_effect = yes
 			}

@@ -1,0 +1,16 @@
+﻿l_english:
+  ideology_foederati: "Foederati"
+  ideology_foederati_desc: "Through a combination of politics, convenience, and manpower issues, the Western Roman Empire has come to rely so much on foreign auxiliaries that they form a formidable power bloc in their own right."
+  ideology_praetorian: "Praetorian"
+  ideology_praetorian_desc: "Enjoying the fruits of empire, the military hates any attempt to undercut their own consolidated powerbase."
+  ideology_yakoyaner: "Yakoyaner"
+  ideology_yakoyaner_desc: "Women play a key, direct role in government, and oversee the political, economic, and social stability of the nation."
+  #
+  ## LEADER IDEOLOGIES ##
+  #
+  ideology_attila_partisan: "Attilanist"
+  ideology_attila_partisan_desc: "#lore This character would see a new Attila lead the Huns into a new era of unquestioned might.#!"
+  ideology_principate: "Principate"
+  ideology_principate_desc: "#lore This character believes in a strong leader who is nevertheless simply first among equals, and respects the principle of consensus.#!"
+  ideology_dominate: "Dominate"
+  ideology_dominate_desc: "#lore This character believes that society needs to be highly deferential to authority, and that authority needs to be absolute.#!"

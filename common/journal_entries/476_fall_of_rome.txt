@@ -130,6 +130,7 @@
 			70 = 0
 			30 = fall_of_rome_events.1 # Language Reform?
 			30 = fall_of_rome_events.3 # Bagaudae Disturb State
+			30 = fall_of_rome_events.4 # Clash of the Urban Orders
 		}
 	}
 

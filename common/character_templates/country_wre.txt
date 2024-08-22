@@ -6,6 +6,7 @@
     ruler = yes
     age = 58
     interest_group = ig_landowners
+	ideology = ideology_dominate
     traits = {
         arrogant
 		ambitious
@@ -23,6 +24,7 @@ wre_heir = {
     interest_group = ig_petty_bourgeoisie
     traits = {
         reckless
+		honorable
 		bad_diplomat
     }
 }
@@ -31,6 +33,7 @@ wre_odoacer_expy = {
     first_name = Onulphus
     last_name = Otacheringi
     historical = yes
+	dna = WRE_odoacer
     age = 37
     ig_leader = yes
     culture = cu:thuringian
@@ -68,11 +71,12 @@ wre_landowners_leader = {
     age = 38
     ig_leader = yes
     interest_group = ig_landowners
-    ideology = ideology_moderate
+    ideology = ideology_principate
     traits = {
         honorable
         direct
         literary
+		personal_wealth
     }
 }
 
