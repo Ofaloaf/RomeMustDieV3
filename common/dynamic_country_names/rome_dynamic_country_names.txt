@@ -754,6 +754,33 @@ RE1 = { # Roman Domain
 			scope:actor ?= {
 				capital = {
 					region = sr:REGION_IBERIA
+					#NOR = {
+					#	state_region = s:STATE_ESTREMADURA
+					#	state_region = s:STATE_BEIRA
+					#	state_region = s:STATE_BADAJOZ
+					#	state_region = s:STATE_ALENTEJO
+					#}
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { # Domain of Lusitania
+		name = dyn_c_domain_of_lusitania
+		adjective = dyn_c_domain_of_lusitania_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			scope:actor ?= {
+				capital = {
+					OR = {
+						state_region = s:STATE_ESTREMADURA
+						state_region = s:STATE_BEIRA
+						state_region = s:STATE_BADAJOZ
+						state_region = s:STATE_ALENTEJO
+					}
 				}
 			}
 		}
