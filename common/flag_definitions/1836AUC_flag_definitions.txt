@@ -836,10 +836,50 @@ PWT = { # Powhatan/Poguatania
 	}
 }
 
-CTW = { # Catawba
+HSP = { # Hispania
 	flag_definition = {
-		coa = CTW
-		subject_canton = CTW
+		coa = HSP
+		subject_canton = HSP
 		priority = 1
 	}
+}
+
+ILY = { # Illyria
+	flag_definition = {
+		coa = ILY
+		subject_canton = ILY
+		priority = 1
+	}	
+}
+
+SPT = { # Septimania
+	flag_definition = {
+		coa = SPT
+		subject_canton = SPT
+		priority = 1
+	}	
+}
+
+AFR = { # Africa
+	flag_definition = {
+		coa = AFR
+		subject_canton = AFR
+		priority = 1
+	}	
+}
+
+RE1 = {
+	flag_definition = {
+		coa = RE1
+		subject_canton = RE1
+		priority = 1
+	}	
+}
+
+RE2 = { 
+	flag_definition = {
+		coa = RE2
+		subject_canton = RE2
+		priority = 1
+	}	
 }

@@ -453,13 +453,13 @@
         }
     }
 	
-    french_military_headgear = {
+    frankish_military_headgear_officers_early = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = headgear
-                template = french_military_headgear
-                range = { 0 1 } # For the randomness to work correctly
+                template = frankish_military_headgear
+                range = { 0 0.25 } # Helmets for male pops, no headgear for female pops
             }
         }
         weight = {
@@ -467,34 +467,104 @@
             modifier = {
                 add = 100
 
-				OR = {
-					AND = {
-						politician_clothes_trigger = yes
-						scope:character ?= {
-							is_interest_group_type = ig_armed_forces
-							owner = {
-								c:FRK ?= this
-							}
-						}
-					}
-					AND = {
-						scope:character ?= {
-							has_role = general
-							owner = {
-								c:FRK ?= this
-							}
-						}
-					}
-					scope:pop ?={
-						is_pop_type = officers
-						owner = {
-							c:FRK ?= this
-						}
+				scope:pop ?={
+					is_pop_type = officers
+					owner = {
+						c:FRK ?= this
+						NOT = { has_technology_researched = automatic_machine_guns }
 					}
 				}
             }
         }
     }
+
+    frankish_military_headgear_generals_af_leaders_early = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = frankish_military_headgear
+                range = { 0.25 0.5 } # Helmets for male and female characters
+            }
+        }	
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+				scope:character ?= {
+					OR = {
+						has_role = general
+						AND = {
+							has_role = politician
+							is_ruler = no
+							is_heir = no
+						}
+					}
+					owner = {
+						c:FRK ?= this
+						NOT = { has_technology_researched = automatic_machine_guns }
+					}
+				}	
+			}
+		}
+	}
+	
+    frankish_military_headgear_officers_late = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = frankish_military_headgear
+                range = { 0.50 0.75 } # Helmets for male pops, no headgear for female pops
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+
+				scope:pop ?={
+					is_pop_type = officers
+					owner = {
+						c:FRK ?= this
+						has_technology_researched = automatic_machine_guns
+					}
+				}
+            }
+        }
+    }
+
+    frankish_military_headgear_generals_af_leaders_late = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = frankish_military_headgear
+                range = { 0.75 1.0 } # Helmets for male characters, no adrian helmet mesh from VFM for female characters though :(
+            }
+        }	
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+				
+				scope:character ?= {
+					OR = {
+						has_role = general
+						AND = {
+							has_role = politician
+							is_ruler = no
+							is_heir = no
+						}
+					}
+					owner = {
+						c:FRK ?= this
+						has_technology_researched = automatic_machine_guns
+					}
+				}	
+			}
+		}
+	}
 	
 	andean_character_headgear = {
 		dna_modifiers = {

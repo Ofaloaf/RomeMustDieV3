@@ -71,3 +71,4 @@
   targeted_by_imperial_action: "Targeted by Imperial Action"
   did_not_meet_expectations_FoRE4_not_pro_worker: "[SCOPE.sCharacter('main_character').GetFullName] did not support the cause of the workers in [SCOPE.sState('collegia_urban_state').GetNameNoFormatting], contrary to [SCOPE.sCharacter('main_character').GetHerHis|l] ideology and the expectations of [SCOPE.sCharacter('main_character').GetHerHis|l] supporters."
   did_not_meet_expectations_FoRE4_not_pro_plutocrat: "[SCOPE.sCharacter('main_character').GetFullName] did not support the cause of the owners in [SCOPE.sState('collegia_urban_state').GetNameNoFormatting], contrary to [SCOPE.sCharacter('main_character').GetHerHis|l] ideology and the expectations of [SCOPE.sCharacter('main_character').GetHerHis|l] supporters."
+  fall_of_rome_events.5.d: "[SCOPE.sCharacter('main_character').GetFullName]\n\n[SCOPE.sCharacter('usurper_ig_leader').GetFullName]"

@@ -1488,3 +1488,113 @@ PWT = { # Powhatan/Poguatania
 		instance = { scale = { 0.1 0.1 } position = { 0.5 0.5 } }
 	}
 }
+
+HSP = { # Hispania
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_border_compony.dds"
+		color1 = "yellow"
+		color2 = "red"
+	}
+
+	colored_emblem = {
+		texture = "ce_persian_bull.dds"
+		color1 = "black"
+		color2 = "black"
+		color3 = "red"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
+}
+
+ILY = { # Illyria
+	pattern = "pattern_solid.tga"
+	color1 = "usa_monarchy_blue"
+
+	colored_emblem = {
+		texture = "ce_border_compony.dds"
+		color1 = "white"
+		color2 = "usa_monarchy_blue"
+	}
+
+	colored_emblem = {
+		texture = "ce_crescent_star_06_pale.dds"
+		color1 = "yellow_light"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}
+}
+
+SPT = { # Septimania
+	pattern = "pattern_solid.tga"
+	color1 = "roman_red"
+
+	colored_emblem = {
+		texture = "ce_border_compony.dds"
+		color1 = "white"
+		color2 = "roman_red"
+	}
+
+	colored_emblem = {
+		texture = "ce_persian_lion.dds"
+		color1 = "yellow_light"
+		color2 = "yellow_light"
+		color3 = "red"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}
+}
+
+AFR = { # Africa
+	pattern = "pattern_solid.tga"
+	color1 = "brown"
+
+	colored_emblem = {
+		texture = "ce_border_compony.dds"
+		color1 = "white"
+		color2 = "brown"
+	}
+
+	colored_emblem = {
+		texture = "ce_fish_oudh.dds"
+		color1 = "blue_light"
+		color2 = "blue"
+		color3 = "white"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+RE1 = { # Roman Usurper State 01
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+
+	colored_emblem = {
+		texture = "ce_border_compony.dds"
+		color1 = "white"
+		color2 = "green"
+	}
+
+	colored_emblem = {
+		texture = "ce_laurel_circled.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }
+	}
+}
+
+RE2 = { # Roman Usurper State 02
+	pattern = "pattern_solid.tga"
+	color1 = "revolutionary_blue"
+
+	colored_emblem = {
+		texture = "ce_border_compony.dds"
+		color1 = "white"
+		color2 = "revolutionary_blue"
+	}
+
+	colored_emblem = {
+		texture = "ce_european_taijitu.dds"
+		color1 = "orange"
+		color2 = "usa_monarchy_blue"
+		color3 = "white"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
+}

@@ -1493,3 +1493,235 @@ fall_of_rome_events.4 = { # Conflict of the Urban Orders in State
 		}
 	}
 }
+
+fall_of_rome_events.5 = { # Aut Caesar Aut Nihil
+	type = country_event
+	placement = root
+	duration = 3
+	
+	cooldown = { months = short_modifier_time }
+
+	title = fall_of_rome_events.5.t
+	desc = fall_of_rome_events.5.d
+	flavor = fall_of_rome_events.5.f
+
+	event_image = {
+		video = "unspecific_vandalized_storefront"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+	
+	immediate = {
+		save_scope_as = main_character_country
+		ruler = {
+			save_scope_as = main_character
+			interest_group = {
+				save_scope_as = main_character_ig
+			}
+		}
+		if = {
+			limit = {
+				any_scope_character = {
+					has_role = heir
+				}
+			}
+			random_scope_character = {
+				limit = {
+					has_role = heir
+				}
+				save_scope_as = main_character_heir
+			}
+		}
+		capital.region = {
+			save_scope_as = capital_region
+		}
+		random_scope_state = {
+			limit = {
+				is_capital = no
+				is_incorporated = yes
+				NOT = {
+					region = scope:capital_region
+				}
+			}
+			save_scope_as = potential_usurper_state
+		}
+		ordered_interest_group = {
+			limit = {
+				is_marginal = no
+				#ig_approval <= unhappy
+				#leader = {
+				#	OR = {
+				#		has_trait = ambitious
+				#		has_trait = reckless
+				#	}
+				#}
+				NOT = {
+					any_scope_character = {
+						is_ruler = yes
+					}
+				}
+			}
+			order_by = ig_clout
+			save_scope_as = usurper_ig
+			leader = {
+				save_scope_as = usurper_ig_leader
+			}
+		}
+	}
+
+	trigger = {
+		any_interest_group = {
+			is_marginal = no
+			#ig_approval <= unhappy
+			#leader = {
+			#	OR = {
+			#		has_trait = ambitious
+			#		has_trait = reckless
+			#	}
+			#}
+			NOT = {
+				any_scope_character = {
+					is_ruler = yes
+				}
+			}
+		}
+		capital.region = {
+			save_temporary_scope_as = capital_region_temp
+		}
+		any_scope_state = {
+			is_capital = no
+			is_incorporated = yes
+			NOT = {
+				region = scope:capital_region_temp
+			}
+		}
+	}
+	
+	option = {
+		name = fall_of_rome_events.5.a
+		default_option = yes
+
+		if = {
+			limit = {
+				NOT = { exists = c:RE1 }
+			}
+			create_country = {
+				tag = RE1
+				origin = this
+				state = scope:potential_usurper_state
+				on_created = {
+					set_variable = unclaimed_claimant_state
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = c:RE1
+				NOT = { exists = c:RE2 }
+			}
+			create_country = {
+				tag = RE2
+				origin = this
+				state = scope:potential_usurper_state
+				on_created = {
+					set_variable = unclaimed_claimant_state
+				}
+			}
+		}
+
+		scope:main_character = {
+			add_character_role = agitator
+			exile_character = yes
+			set_variable = roman_claimant_exile
+		}
+		scope:usurper_ig_leader = {
+			set_character_as_ruler = yes
+		}
+		if = {
+			limit = {
+				scope:usurper_ig ?= {
+					has_party = no
+				}
+			}
+			set_ruling_interest_groups = { scope:usurper_ig }
+		}
+		else_if = {
+			limit = {
+				scope:usurper_ig ?= {
+					has_party = yes
+				}
+			}
+			set_ruling_party = scope:usurper_ig.party
+		}
+		random_country = {
+			limit = { has_variable = unclaimed_claimant_state }
+			save_temporary_scope_as = usurper_country
+			capital = {
+				random_neighbouring_state = {
+					limit = {
+						owner = { scope:main_character_country = this }
+						is_incorporated = yes
+					}
+					set_state_owner = scope:usurper_country
+				}
+				random_neighbouring_state = {
+					limit = {
+						owner = { scope:main_character_country = this }
+						is_incorporated = yes
+					}
+					set_state_owner = scope:usurper_country
+				}
+			}
+			remove_variable = unclaimed_claimant_state
+			trigger_event = { id = fall_of_rome_events.6 }
+		}
+	}
+	
+	option = {
+		name = fall_of_rome_events.5.b
+		
+		trigger = {
+			scope:main_character.popularity > scope:usurper_ig_leader.popularity
+		}
+		
+		scope:usurper_ig = {
+			add_modifier = {
+				name = foiled_by_the_mob
+				months = normal_modifier_time
+				is_decaying = yes
+			}
+		}
+	}
+}
+
+fall_of_rome_events.6 = {
+	type = country_event
+	hidden = yes
+
+	immediate = {
+		random_character_in_exile_pool = {
+			limit = { has_variable = roman_claimant_exile }
+			transfer_character = ROOT
+			set_character_as_ruler = yes
+			remove_character_role = agitator
+			interest_group = {
+				add_ruling_interest_group = yes
+			}
+			remove_variable = roman_claimant_exile
+			set_variable = roman_claimant_established
+		}
+		every_interest_group = {
+			limit = {
+				is_in_government = yes
+				NOT = {
+					any_scope_character = {
+						is_ruler = yes
+					}
+				}
+			}
+			remove_ruling_interest_group = yes
+		}
+	}
+}

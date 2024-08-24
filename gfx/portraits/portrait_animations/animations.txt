@@ -43,7 +43,7 @@ idle = {
 						has_role = politician
 						is_ruler = no
 						is_heir = no
-						interest_group = {
+						interest_group ?= {
 							ig_approval >= loyal
 						}
 					}
@@ -76,7 +76,15 @@ idle = {
 				modifier = {
 					add = 5000
 					scope:character ?= {
-						has_trait = imposing
+						is_ruler = no
+						is_heir = no
+						NOT = { has_role = general }
+						NOT = { has_role = admiral }
+						OR = {
+							has_trait = firebrand
+							has_trait = demagogue
+							has_trait = inspirational_orator
+						}
 					}
 				}
 			}
@@ -115,7 +123,7 @@ idle = {
 						has_role = politician
 						is_ruler = no
 						is_heir = no
-						interest_group = {
+						interest_group ?= {
 							ig_approval <= angry
 						}
 					}
@@ -1183,7 +1191,7 @@ idle = {
 		}
 	
 		char_bandit_idle = {
-			animation = { head = "idle_body_emotions_boastful" torso = "idle_body_struggle_rifle" }
+			animation = { head = "idle_head_emotions_boastful" torso = "idle_body_struggle_rifle" }
 
 			weight = {
 				base = 0
@@ -1207,7 +1215,15 @@ idle = {
 				modifier = {
 					add = 5000
 					scope:character ?= {
-						has_trait = imposing
+						is_ruler = no
+						is_heir = no
+						NOT = { has_role = general }
+						NOT = { has_role = admiral }
+						OR = {
+							has_trait = firebrand
+							has_trait = demagogue
+							has_trait = inspirational_orator
+						}
 					}
 				}
 			}

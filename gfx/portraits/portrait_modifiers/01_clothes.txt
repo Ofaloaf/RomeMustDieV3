@@ -1833,12 +1833,10 @@
 							}
 						}
 					}
-					AND = {
-						scope:character ?= {
-							has_role = general
-							owner = {
-								c:FRK ?= this
-							}
+					scope:character ?= {
+						has_role = general
+						owner = {
+							c:FRK ?= this
 						}
 					}
 				}

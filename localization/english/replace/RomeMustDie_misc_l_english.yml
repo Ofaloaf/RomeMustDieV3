@@ -31,7 +31,13 @@
   RULER_TRIBUNE: "Tribune"
   #
   gov_wre_plebeian_council: "Concilium Plebis"
-  gov_wre_plebeian_council_adj: "This is a [concept_government_type] where the [concept_country|l] is guided by a plebeian assembly [Concept('concept_election','$concept_elected$')|l] directly by the people.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  gov_wre_plebeian_council_desc: "This is a [concept_government_type] where the [concept_country|l] is guided by a plebeian assembly [Concept('concept_election','$concept_elected$')|l] directly by the people.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_roman_claimant: "Roman Claimant"
+  gov_roman_claimant_desc: "This [concept_government_type] styles itself as the true government of Rome, and is run by a former Roman ruler who has fled or been driven out of court.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_roman_fragment: "Roman Fragment"
+  gov_roman_fragment_desc: "This [concept_government_type] was founded by a former ruler of Rome out to reclaim their former power, but since their passing this country has lost any pretence of being the true empire.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
   #
   gov_roman_kingdom: "Regnum"
   gov_roman_kingdom_desc: "This [concept_government_type]'s laws and customs owe much to Roman traditions, although indigenous and foreign influences can likely be found.\n\n$TRANSFER_OF_POWER_NAME_DESC$"

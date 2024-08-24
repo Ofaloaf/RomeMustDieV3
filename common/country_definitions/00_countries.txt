@@ -202,9 +202,9 @@ ITA = {
 	
 	country_type = recognized
 
-	tier = empire
+	tier = kingdom
 	
-	cultures = { north_italian south_italian }
+	cultures = { roman }
 	capital = STATE_LAZIO
 }
 

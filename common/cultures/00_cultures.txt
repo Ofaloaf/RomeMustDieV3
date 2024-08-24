@@ -18757,17 +18757,18 @@ corsican = { # Tried to pull a bunch of Greco-Roman names from Corsican Wikipedi
 	religion = nicene
 	traits = { european_heritage romance_speaker latin_culture_group }
 	male_common_first_names={
-		Anghjulu Augustu Apollu Aureliu Antoninu Andria Austinu Antulinu
-		Bunifaziu Bartulumeu
-		Cesare Cirillu Corneliu Costantinu Costanzu
-		Dumenicu Dionisiu Damianu
-		Erculu Evaristu Evandru
+		Anghjulu Augustu Apollu Aureliu Antoninu Andria Austinu Antulinu Aristotele Apollodoru
+		Bunifaziu Bartulumeu Boeziu
+		Cesare Cirillu Corneliu Costantinu Costanzu Cicerone
+		Dumenicu Dionigi Damianu Diogene
+		Erculu Evaristu Evandru Ermogene
 		Fabiu Fiurenzu
 		Ghjuvan Ghjacintu Ghjorghju Ghjacumu Gaiu Ghjuliu Ghjoviu Ghjulianu Ghjaseppu Ghjaseppu_Maria Ghjacumu_Petru Ghjirolmu
 		Ippolitu
 		Lucianu Luciu Luca Lurenzu
 		Matteu Marcu Mercuriu Martinu Micheli Marianu Marcellu
 		Niculaiu
+		Olimpiodoru
 		Pasquali Petru Ponziu Publiu Paulu
 		Quintu
 		Romolu
@@ -18788,13 +18789,13 @@ corsican = { # Tried to pull a bunch of Greco-Roman names from Corsican Wikipedi
 		Silvia
 	}	
 	common_last_names={
-		Abbatucci Aprosiu Affatatu
+		Abbatucci Aprosiu Affatatu Apuleiu Ampeliu
 		Belatonu Bussi
-		Carniani Cervinu Cilibensu Cumansenu Cassiu Ciattoni Casanova Contardu Curlu
-		Enniu Emilianu Ettori
+		Carniani Cervinu Cilibensu Cumansenu Cassiu Ciattoni Casanova Contardu Curlu Cicala
+		Enniu Emilianu Ettori Erenniu
 		Ghjinuvesi Gaffori Galletti Ghjustiniani
 		Imeriu
-		Lestrigonu Licininu Longonesu Leca
+		Lestrigonu Licininu Longonesu Leca Laerziu
 		Marrinu Mariu Marcangelli Marchetti Mascardi Massei Matra
 		Nonnu
 		Opinus
@@ -18819,6 +18820,8 @@ corsican = { # Tried to pull a bunch of Greco-Roman names from Corsican Wikipedi
 		di_Saone
 		di_Torres
 		d_Urnanu
+		#
+		Tigelliu # Tigellius, a Sardinian poet
 	}
 	graphics = european
 	ethnicities = {
