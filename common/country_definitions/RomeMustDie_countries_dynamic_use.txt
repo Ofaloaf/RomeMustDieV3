@@ -1,0 +1,47 @@
+﻿RE1 = { # Roman Claimant State 01, Roman Dominion
+	color = { 181 146 178 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { roman }
+	
+	capital = STATE_PROVENCE
+}
+
+RE2 = { # Roman Claimant State 02, State of Romans
+	color = { 159 62 51 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { roman }
+	
+	capital = STATE_LOMBARDY
+}
+
+RE3 = { # Roman Claimant State 03, Imperial Fragment
+	color = { 204 85 108 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { roman }
+	
+	capital = STATE_CAMPANIA
+}
+
+RE4 = { # Roman Claimant State 04, Roman Realm
+	color = { 159 4 16 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { roman }
+	
+	capital = STATE_LAZIO
+}

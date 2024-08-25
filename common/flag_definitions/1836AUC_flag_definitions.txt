@@ -883,3 +883,19 @@ RE2 = {
 		priority = 1
 	}	
 }
+
+RE3 = {
+	flag_definition = {
+		coa = RE3
+		subject_canton = RE3
+		priority = 1
+	}	
+}
+
+RE4 = {
+	flag_definition = {
+		coa = RE4
+		subject_canton = RE4
+		priority = 1
+	}	
+}

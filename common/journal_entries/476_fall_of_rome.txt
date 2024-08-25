@@ -134,27 +134,6 @@
 		}
 	}
 	
-	on_diplo_play_back_down = {
-		events = {
-			fall_of_rome_events.5 # Aut Caesar Aut Nihil
-		}
-	}
-	
-	# Root = Country
-	# scope:target = the country the wargoal was enforced against
-	# scope:diplomatic_play = the relevant diplomatic play
-	# scope:wargoal_impact = the impact of the wargoal enforced
-	on_wargoal_enforced = {
-		events = {
-			if = {
-				limit = {
-					scope:target ?= ROOT
-				}
-				fall_of_rome_events.5 # Aut Caesar Aut Nihil
-			}
-		}
-	}
-
 	weight = 10000
 	should_be_pinned_by_default = yes
 }

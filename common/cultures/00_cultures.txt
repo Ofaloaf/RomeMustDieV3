@@ -5568,7 +5568,7 @@ misri={
 	graphics = arabic
 }
 
-mashriqi={
+mashriqi={ # Still Islamicized, but with slightly more pre-Islamic influences remaining
 	color= hsv{ 0.34 0.48 0.71 }
 	religion = shiite
 	traits = { arab_speaking middle_eastern_heritage }
@@ -5581,58 +5581,45 @@ mashriqi={
 		Abd_al-Malik
 		Abd_al-Qadir
 		Abd_al-Rahman
-		Ahmad
-		Ali
-		Fawzi
-		Fuad
-		Halil
-		Hasan
-		Hisham
-		Ibrahim
-		Ishaq
-		Iskandar
-		Jamal
-		Kamil
-		Khalid
-		Muhammad
-		Mustafa
-		Nur_al-Din
-		Sa_d_al-Din
-		Salim
-		Shukri
-		Tawfiq
-		Umar
-		Uthman
-		Yahya
-		Yusuf
-		Zafir
+		Ahmad Ali
+		Dawud
+		Fawzi Fuad
+		Halil Hasan Hisham Harith
+		Ibrahim Ishaq Iskandar
+		Jamal Jadhima Jafnah Jabala
+		Kamil Khalid
+		Muhammad Mustafa
+		Nur_al-Din al-Nu_man
+		Sa_d_al-Din Salim Shukri Shurahbil
+		Tawfiq Tha_laba
+		Umar Uthman
+		Yahya Yusuf
+		Zafir Zuhayr
 	}
 	female_common_first_names = {
 		Bahira
 		Fayza
 		Ghalia
-		Nadia
-		Noura
-		Samira
-		Sulafa
-		Zeina
-		Zuhur
+		Mawiyya
+		Nadia Noura
+		Rabia
+		Samira Sulafa
+		Zeina Zuhur
 	}	
 	noble_last_names = {
-		al-Ali
-		al-Atassi
-		al-Atrash
-		al-Azma
+		al-Ali al-Atassi al-Atrash al-Azma
 		Al_Faiz
 		al-Ghani_al-Nabulsi
 		al-Hiraki
+		al-Lakhmi
 		Al-Rahman_Al-Gillani
+		al-Salihi
+		al-Tanukhi
 		al-Zaydani
 		Nuseibeh
 	}
 	common_last_names={
 		al-Askari
-		al-Baghdadi
 		al-Basri
 		al-Ghazzawi
 		al-Halabi
@@ -5643,23 +5630,15 @@ mashriqi={
 		al-Qudsi
 		al-Shami
 		ibm_Kamil
-		ibn_Abd_Allah
-		ibn_Abd_al-Qadir
-		ibn_Abu_Bakr
-		ibn_Ahmad
-		ibn_Ali
-		ibn_Fuad
-		ibn_Halil
-		ibn_Hasan
-		ibn_Hisham
+		ibn_Abd_Allah ibn_Abd_al-Qadir ibn_Abu_Bakr ibn_Ahmad ibn_Ali
+		ibn_Fuad ibn_Fahm
+		ibn_Halil ibn_Hasan ibn_Hisham ibn_Hujayr
 		ibn_Ishaq
 		ibn_Ja_far
 		ibn_Khalid
-		ibn_Muhammad
-		ibn_Mustafa
+		ibn_Muhammad ibn_Mustafa
 		ibn_Salim
-		ibn_Umar
-		ibn_Uthman
+		ibn_Umar ibn_Uthman
 		ibn_Yusuf
 		Asmar
 		Mokarzel

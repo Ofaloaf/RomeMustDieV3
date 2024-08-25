@@ -1524,12 +1524,12 @@ fall_of_rome_events.5 = { # Aut Caesar Aut Nihil
 		if = {
 			limit = {
 				any_scope_character = {
-					has_role = heir
+					is_heir = yes
 				}
 			}
 			random_scope_character = {
 				limit = {
-					has_role = heir
+					is_heir = yes
 				}
 				save_scope_as = main_character_heir
 			}
@@ -1550,13 +1550,13 @@ fall_of_rome_events.5 = { # Aut Caesar Aut Nihil
 		ordered_interest_group = {
 			limit = {
 				is_marginal = no
-				#ig_approval <= unhappy
-				#leader = {
-				#	OR = {
-				#		has_trait = ambitious
-				#		has_trait = reckless
-				#	}
-				#}
+				ig_approval <= unhappy
+				leader = {
+					OR = {
+						has_trait = ambitious
+						has_trait = reckless
+					}
+				}
 				NOT = {
 					any_scope_character = {
 						is_ruler = yes
@@ -1572,15 +1572,29 @@ fall_of_rome_events.5 = { # Aut Caesar Aut Nihil
 	}
 
 	trigger = {
+		has_journal_entry = je_fall_of_rome
+		OR = {
+			AND = {
+				exists = scope:target 			# so that it only triggers on the on_diplo_play_back_down bit if it's ROOT that backs down
+				scope:target = ROOT
+			}
+			NOT = { exists = scope:target }
+		}
+		OR = {
+			NOT = { exists = c:RE1 }
+			NOT = { exists = c:RE2 }
+			NOT = { exists = c:RE3 }
+			NOT = { exists = c:RE4 }
+		}
 		any_interest_group = {
 			is_marginal = no
-			#ig_approval <= unhappy
-			#leader = {
-			#	OR = {
-			#		has_trait = ambitious
-			#		has_trait = reckless
-			#	}
-			#}
+			ig_approval <= unhappy
+			leader = {
+				OR = {
+					has_trait = ambitious
+					has_trait = reckless
+				}
+			}
 			NOT = {
 				any_scope_character = {
 					is_ruler = yes
@@ -1618,11 +1632,36 @@ fall_of_rome_events.5 = { # Aut Caesar Aut Nihil
 		}
 		else_if = {
 			limit = {
-				exists = c:RE1
 				NOT = { exists = c:RE2 }
 			}
 			create_country = {
 				tag = RE2
+				origin = this
+				state = scope:potential_usurper_state
+				on_created = {
+					set_variable = unclaimed_claimant_state
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = { exists = c:RE3 }
+			}
+			create_country = {
+				tag = RE3
+				origin = this
+				state = scope:potential_usurper_state
+				on_created = {
+					set_variable = unclaimed_claimant_state
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = { exists = c:RE4 }
+			}
+			create_country = {
+				tag = RE4
 				origin = this
 				state = scope:potential_usurper_state
 				on_created = {
@@ -1639,32 +1678,31 @@ fall_of_rome_events.5 = { # Aut Caesar Aut Nihil
 		scope:usurper_ig_leader = {
 			set_character_as_ruler = yes
 		}
+# commented-out section doesn't work
+#		if = {
+#			limit = {
+#				scope:usurper_ig ?= {
+#					has_party = no
+#				}
+#			}
+#			set_ruling_interest_groups = { scope:usurper_ig }
+#		}
 		if = {
-			limit = {
-				scope:usurper_ig ?= {
-					has_party = no
-				}
-			}
-			set_ruling_interest_groups = { scope:usurper_ig }
-		}
-		else_if = {
 			limit = {
 				scope:usurper_ig ?= {
 					has_party = yes
 				}
 			}
-			set_ruling_party = scope:usurper_ig.party
+			scope:usurper_ig.party = {
+				set_ruling_party = yes
+			}
 		}
 		random_country = {
 			limit = { has_variable = unclaimed_claimant_state }
 			save_temporary_scope_as = usurper_country
 			capital = {
-				random_neighbouring_state = {
-					limit = {
-						owner = { scope:main_character_country = this }
-						is_incorporated = yes
-					}
-					set_state_owner = scope:usurper_country
+				state_region = {
+					add_claim = scope:main_character_country
 				}
 				random_neighbouring_state = {
 					limit = {
@@ -1672,6 +1710,19 @@ fall_of_rome_events.5 = { # Aut Caesar Aut Nihil
 						is_incorporated = yes
 					}
 					set_state_owner = scope:usurper_country
+					state_region = {
+						add_claim = scope:main_character_country
+					}
+				}
+				random_neighbouring_state = {
+					limit = {
+						owner = { scope:main_character_country = this }
+						is_incorporated = yes
+					}
+					set_state_owner = scope:usurper_country
+					state_region = {
+						add_claim = scope:main_character_country
+					}
 				}
 			}
 			remove_variable = unclaimed_claimant_state
@@ -1722,6 +1773,62 @@ fall_of_rome_events.6 = {
 				}
 			}
 			remove_ruling_interest_group = yes
+		}
+
+		# changing the primary culture in some circumstances. not trying to make it local, just indicative of which side of the East/Wide divide this Roman state is on.
+		if = {
+			limit = {
+				capital = {
+					NOR = {
+						region = sr:region_england
+						region = sr:region_north_sea_coast
+						region = sr:region_iberia
+						region = sr:region_france
+						region = sr:region_occitania
+						region = sr:region_rhine
+						region = sr:region_italy
+						region = sr:region_balkans
+						region = sr:region_north_germany
+						region = sr:region_south_germany
+						region = sr:region_baltic
+						region = sr:region_poland
+						region = sr:region_north_africa
+					}
+				}
+				NOT = { country_has_primary_culture = cu:greek }
+			}
+			add_primary_culture = cu:greek
+			if = {
+				limit = { country_has_primary_culture = cu:roman }
+				remove_primary_culture = cu:roman
+			}
+		}
+		else_if = {
+			limit = {
+				capital = {
+					OR = {
+						region = sr:region_england
+						region = sr:region_north_sea_coast
+						region = sr:region_iberia
+						region = sr:region_france
+						region = sr:region_occitania
+						region = sr:region_rhine
+						region = sr:region_italy
+						region = sr:region_balkans
+						region = sr:region_north_germany
+						region = sr:region_south_germany
+						region = sr:region_baltic
+						region = sr:region_poland
+						region = sr:region_north_africa
+					}
+				}
+				NOT = { country_has_primary_culture = cu:roman }
+			}
+			add_primary_culture = cu:roman
+			if = {
+				limit = { country_has_primary_culture = cu:greek }
+				remove_primary_culture = cu:greek
+			}
 		}
 	}
 }

@@ -496,6 +496,7 @@
 						has_role = general
 						AND = {
 							has_role = politician
+                            is_interest_group_type = ig_armed_forces
 							is_ruler = no
 							is_heir = no
 						}
@@ -553,6 +554,7 @@
 						has_role = general
 						AND = {
 							has_role = politician
+                            is_interest_group_type = ig_armed_forces
 							is_ruler = no
 							is_heir = no
 						}
