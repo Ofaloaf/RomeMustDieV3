@@ -834,7 +834,7 @@ fall_of_rome_events.3 = { # Bagaudae Disturbances
 	flavor = fall_of_rome_events.3.f
 
 	event_image = {
-		video = "unspecific_vandalized_storefront"
+		video = "unspecific_devastation"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -1506,7 +1506,7 @@ fall_of_rome_events.5 = { # Aut Caesar Aut Nihil
 	flavor = fall_of_rome_events.5.f
 
 	event_image = {
-		video = "unspecific_vandalized_storefront"
+		video = "unspecific_politicians_arguing"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -1576,7 +1576,7 @@ fall_of_rome_events.5 = { # Aut Caesar Aut Nihil
 		OR = {
 			AND = {
 				exists = scope:target 			# so that it only triggers on the on_diplo_play_back_down bit if it's ROOT that backs down
-				scope:target = ROOT
+				scope:target ?= ROOT
 			}
 			NOT = { exists = scope:target }
 		}
