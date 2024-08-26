@@ -33,6 +33,51 @@
 	}
 }
 
+gov_roman_claimant = {
+	transfer_of_power = hereditary
+	
+	male_ruler = "RULER_TITLE_IMPERATOR"
+	female_ruler = "RULER_TITLE_IMPERATRIX" 
+
+	male_heir = "RULER_TITLE_CAESAR"
+	female_heir = "RULER_TITLE_CAESARINA"
+	
+	possible = {
+		OR = {
+			c:RE1 ?= this
+			c:RE2 ?= this
+		}
+		ruler = {
+			has_variable = roman_claimant_established
+		}
+	}
+
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+}
+
+gov_roman_fragment = {
+	transfer_of_power = hereditary
+	
+	male_ruler = "RULER_TITLE_REX"
+	female_ruler = "RULER_TITLE_REGINA" 
+
+	male_heir = "RULER_TITLE_PRINCE"
+	female_heir = "RULER_TITLE_PRINCESS"
+	
+	possible = {
+		OR = {
+			c:RE1 ?= this
+			c:RE2 ?= this
+		}
+	}
+
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+}
+
 gov_roman_kingdom = {
 	transfer_of_power = hereditary
 	
@@ -673,29 +718,6 @@ gov_government_of_the_palace = {
 	possible = {
 		has_law = law_type:law_monarchy
 		c:FRK ?= this
-	}
-
-	on_government_type_change = {
-		change_to_hereditary = yes
-	}
-}
-
-gov_royal_patrimony = {
-	transfer_of_power = hereditary
-	
-	male_ruler = "RULER_TITLE_KING"
-	female_ruler = "RULER_TITLE_QUEEN" 
-
-	male_heir = "RULER_TITLE_PRINCE"
-	female_heir = "RULER_TITLE_PRINCESS"
-	
-	possible = {
-		country_tier = kingdom
-		has_law = law_type:law_monarchy
-		OR = {
-			has_law = law_type:law_traditionalism
-			has_law = law_type:law_command_economy
-		}
 	}
 
 	on_government_type_change = {

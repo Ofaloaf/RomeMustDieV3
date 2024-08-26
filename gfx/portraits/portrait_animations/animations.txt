@@ -30,6 +30,106 @@ idle = {
 
 			portrait_modifier = { animations_props = smoking_attachment }
 		}
+		
+		char_happy_idle = {
+			animation = { head = "idle_head_emotions_happy" torso = "idle_body_emotions_happy" }
+
+			weight = {
+				base = 0
+				
+				modifier = {
+					add = 5000
+					scope:character ?= {
+						has_role = politician
+						is_ruler = no
+						is_heir = no
+						interest_group ?= {
+							ig_approval >= loyal
+						}
+					}
+				}
+			}
+		}
+		
+		char_bandit_idle = {
+			animation = { head = "idle_head_emotions_boastful" torso = "idle_body_struggle_rifle" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 5000
+					scope:character ?= {
+						has_trait = bandit
+					}
+				}
+			}
+			portrait_modifier = { animations_props = rifle_attachment }
+		}
+		
+		char_boastful_idle = {
+			animation = { head = "idle_head_emotions_boastful" torso = "idle_body_emotions_boastful" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 5000
+					scope:character ?= {
+						is_ruler = no
+						is_heir = no
+						NOT = { has_role = general }
+						NOT = { has_role = admiral }
+						OR = {
+							has_trait = firebrand
+							has_trait = demagogue
+							has_trait = inspirational_orator
+						}
+					}
+				}
+			}
+		}
+		
+		char_proud_idle = {
+			animation = { head = "idle_head_emotions_proud" torso = "idle_body_emotions_proud" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 5000
+					scope:character ?= {
+						has_trait = honorable
+					}
+				}
+			}
+		}
+		
+		char_scheming_idle = {
+			animation = { head = "idle_head_emotions_scheming" torso = "idle_body_emotions_scheming" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 5000
+					scope:character ?= {
+						has_template = wre_ruler
+					}
+				}
+				modifier = {
+					add = 5000
+					scope:character ?= {
+						has_role = politician
+						is_ruler = no
+						is_heir = no
+						interest_group ?= {
+							ig_approval <= angry
+						}
+					}
+				}
+			}
+		}
 
 		###################################
 		# POP Animations  #
@@ -747,6 +847,7 @@ idle = {
 		}
 
 		###############  For content design:   Not hooked up they are for game events.  was told events currently not supported by code  date 2022 feb
+		###############  For past comment: My brother in Christ, when did you think we would read this if you didn't tell anymore?		date 2024 aug
 		#### Event Animations ####
 		#### General Emotions Animations ####
 
@@ -765,7 +866,6 @@ idle = {
 		########general_emotions_proud_idle = {
 		########			animation = { head = "idle_head_emotions_proud" torso = "idle_body_emotions_proud" }
 		########}
-
 	}
 
 	boy = {
@@ -1081,8 +1181,68 @@ idle = {
 		####general_emotions_proud_idle = {
 	########					animation = { head = "idle_head_emotions_proud" torso = "idle_body_emotions_proud" }
 	########	}
-		
+	
+		char_happy_idle = {
+			animation = { head = "idle_head_emotions_happy" torso = "idle_body_emotions_happy" }
 
+			weight = {
+				base = 0
+			}
+		}
+	
+		char_bandit_idle = {
+			animation = { head = "idle_head_emotions_boastful" torso = "idle_body_struggle_rifle" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 5000
+					scope:character ?= {
+						has_trait = bandit
+					}
+				}
+			}
+			portrait_modifier = { animations_props = rifle_attachment }
+		}
+		
+		char_boastful_idle = {
+			animation = { head = "idle_head_emotions_boastful" torso = "idle_body_emotions_boastful" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 5000
+					scope:character ?= {
+						is_ruler = no
+						is_heir = no
+						NOT = { has_role = general }
+						NOT = { has_role = admiral }
+						OR = {
+							has_trait = firebrand
+							has_trait = demagogue
+							has_trait = inspirational_orator
+						}
+					}
+				}
+			}
+		}
+		
+		char_proud_idle = {
+			animation = { head = "idle_head_emotions_proud" torso = "idle_body_emotions_proud" }
+
+			weight = {
+				base = 0
+
+				modifier = {
+					add = 5000
+					scope:character ?= {
+						has_trait = honorable
+					}
+				}
+			}
+		}
 	}
 	
 	girl = boy

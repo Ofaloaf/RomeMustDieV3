@@ -120,6 +120,11 @@ male_outfit_mesoamerica_tilmatli = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_mesoamerica_tilmatli_entity" }
 }
 
+male_outfit_plain_white_tunic = {
+	set_tags = "shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_plain_white_tunic_entity" }
+}
+
 male_clothes_common_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_common_01_entity" }
@@ -159,6 +164,17 @@ male_outfit_repurposed_lampiao_plain_misc = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_repurposed_lampiao_plain_misc_entity" }
 }
+
+male_clothes_common_03_peasant = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_common_03_peasant_entity" }
+}
+
+male_clothes_common_03_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_clothes_common_03_common_entity" }
+}
+
 
 # FEE-MALES ###
 
@@ -231,6 +247,16 @@ female_clothes_priest_low_01 = {
 female_clothes_northern_pagan_priest_01 = {
 	set_tags = "shrink_arms,shrink_chest,shrink_belly"
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_northern_pagan_priest_01_entity" }	
+}
+
+female_clothes_common_03_peasant = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_common_03_peasant_entity" }
+}
+
+female_clothes_common_03_common = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_common_03_common_entity" }
 }
 
 ### LEGWEAR ###
@@ -337,6 +363,11 @@ male_headgear_vfm_european_adrian_01 = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_vfm_european_adrian_01_entity" }
 }
 
+male_headgear_frankish_helmet = {
+	set_tags ="no_hair"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_frankish_helmet_entity" }
+}
+
 female_headgear_ate_native_nobility_01 = {
 	set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "female_headgear_ate_native_nobility_01_entity" }	
@@ -345,6 +376,11 @@ female_headgear_ate_native_nobility_01 = {
 female_headwrap_01 = {
 	set_tags ="cap1"
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "female_headwrap_01_entity" }	
+}
+
+female_headgear_frankish_helmet = {
+	set_tags ="no_hair"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "female_headgear_frankish_helmet_entity" }
 }
 
 ### TOP LAYERS

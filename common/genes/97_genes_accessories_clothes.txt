@@ -688,13 +688,15 @@
 
 		}
 
-		late_american_soldier_outfit = {
+		roman_peasant = {
 			index = 41
 			male = {
-				1 = male_outfit_south_american_01_late_american
+				1 = male_clothes_common_03_peasant
+				1 = male_clothes_common_03_common
 			}
 			female = {
-				1 = female_outfit_european_common_01
+				1 = female_clothes_common_03_peasant
+				1 = female_clothes_common_03_common
 			}
 
 			boy = male
@@ -706,6 +708,7 @@
 			index = 42
 			male = {
 				1 = male_clothes_secular_roman_senate_01
+				1 = male_outfit_plain_white_tunic
 			}
 			female = {
 				1 = female_clothes_secular_byzantine_nobility_02_high
@@ -1002,7 +1005,8 @@
 				1 = male_clothes_common_01_purple
 			}
 			female = {
-				1 = female_clothes_secular_byzantine_nobility_02_common
+				1 = female_clothes_common_03_peasant
+				3 = female_clothes_common_03_common
 			}
 
 			boy = male

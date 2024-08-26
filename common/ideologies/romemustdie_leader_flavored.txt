@@ -58,13 +58,6 @@
 					has_ideology = ideology:ideology_republican_paternalistic
 				}
 				has_variable = monarchy_stamped_out_var
-				AND = {
-					OR = {
-						has_variable = orleanist_restoration_var
-						has_variable = legitimist_restoration_var
-					}
-					has_variable = one_true_french_dynasty
-				}
 			}
 		}
 		scope:interest_group = { 
@@ -118,6 +111,348 @@
 						is_interest_group_type = ig_petty_bourgeoisie
 						is_interest_group_type = ig_armed_forces
 					}
+				}
+			}
+			add = 50
+		}
+	}
+}
+
+ideology_principate = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_principate.dds"
+
+	character_ideology = yes
+
+	lawgroup_governance_principles = {
+		law_monarchy = strongly_approve
+		law_presidential_republic = neutral
+		law_parliamentary_republic = disapprove
+		law_theocracy = disapprove
+		law_council_republic = strongly_disapprove
+	}
+
+	lawgroup_distribution_of_power = {
+		law_autocracy = disapprove
+		law_oligarchy = neutral
+		law_landed_voting = approve	
+		law_wealth_voting = approve	
+		law_census_voting = neutral		
+		law_universal_suffrage = disapprove
+		law_anarchy = strongly_disapprove
+		law_single_party_state = disapprove
+		law_technocracy = strongly_disapprove
+	}
+
+	lawgroup_economic_system = {	
+		law_laissez_faire = strongly_approve
+		law_interventionism = neutral
+		law_agrarianism = disapprove
+		law_traditionalism = disapprove		
+		law_cooperative_ownership = strongly_disapprove		
+		law_command_economy = strongly_disapprove
+	}
+
+	lawgroup_trade_policy = {
+		law_free_trade = strongly_approve
+		law_mercantilism = disapprove
+		law_protectionism = disapprove		
+		law_isolationism = strongly_disapprove
+	}
+
+	possible = {
+		NOT = { has_role = agitator }
+		# no monarchists in countries with strong republican tradition
+		
+		# for the major Roman Empires
+		owner = {
+			OR = {
+				# Western Roman Empire
+				AND = {
+					exists = c:WRE
+					OR = {
+						c:WRE = this
+						civil_war_origin_country = c:WRE
+					}
+				}
+				# Eastern Roman Empire
+				AND = {
+					exists = c:ERE
+					OR = {
+						c:ERE = this
+						civil_war_origin_country = c:ERE
+					}
+				}
+				# Gallic Empire
+				AND = {
+					exists = c:GLL
+					OR = {
+						c:GLL = this
+						civil_war_origin_country = c:GLL
+					}
+				}
+				# Britannia
+				AND = {
+					exists = c:GBI
+					OR = {
+						c:GBI = this
+						civil_war_origin_country = c:GBI
+					}
+				}
+			}
+			NOR = {
+				any_interest_group = {
+					has_ideology = ideology:ideology_republican_paternalistic
+				}
+				has_variable = monarchy_stamped_out_var
+			}
+		}
+		scope:interest_group = { 
+			OR = {
+				is_interest_group_type = ig_industrialists
+				is_interest_group_type = ig_petty_bourgeoisie
+				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_landowners
+			}
+		}
+		scope:interest_group = {
+			NOR = {
+				has_variable = communist_ig_var
+				has_variable = chose_vanguardism
+				has_variable = chose_fascism
+				has_variable = chose_conservatism
+				has_variable = chose_ethno_nationalism
+			}
+		}
+	}
+
+	leader_weight = {
+		value = 200
+		# less likely in a theocracy
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_theocracy
+				}
+			}
+			add = -75
+		}
+		# less likely if IG is happy in a republic
+		if = {
+			limit = {
+				owner = {
+					NOT = { has_law = law_type:law_monarchy }
+				}
+				scope:interest_group = {
+					ig_approval > 0
+				}
+			}
+			add = -100
+		}
+
+		# more likely for intelligentsia, industrialists, and PB with traditional economic laws
+		if = {
+			limit = {
+				scope:interest_group = {
+					OR = {
+						is_interest_group_type = ig_petty_bourgeoisie
+						is_interest_group_type = ig_intelligentsia
+						is_interest_group_type = ig_industrialists
+					}
+				}
+				owner = {
+					OR = {
+						has_law = law_type:law_agrarianism
+						has_law = law_type:law_traditionalism
+						has_law = law_type:law_isolationism
+						has_law = law_type:law_mercantilism
+					}
+				}
+			}
+			add = 75
+		}
+		# more likely if the IG is unhappy with the monarchy, and that monarchy is not the Principate
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_monarchy
+					any_scope_character = { 
+						is_ruler = yes
+						NOT = { has_ideology = ideology:ideology_principate } 
+					}
+				}
+				scope:interest_group = {
+					ig_approval < 0
+				}
+			}
+			add = 75
+		}
+
+		# reduced unhappy modifier if it's not a monarchy
+		if = {
+			limit = {
+				owner = {
+					NOT = { has_law = law_type:law_monarchy }
+				}
+				scope:interest_group = {
+					ig_approval < 0
+				}
+			}
+			add = 25
+		}
+	}
+}
+
+ideology_dominate = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_dominate.dds"
+	character_ideology = yes
+	
+	lawgroup_governance_principles = {
+		law_monarchy = strongly_approve
+		law_presidential_republic = neutral
+		law_parliamentary_republic = disapprove
+		law_theocracy = disapprove
+		law_council_republic = strongly_disapprove
+	}
+
+	lawgroup_distribution_of_power = {
+		law_anarchy = strongly_disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_census_voting = strongly_disapprove
+		law_wealth_voting = disapprove
+		law_landed_voting = disapprove
+		law_technocracy = neutral
+		law_oligarchy = approve
+		law_autocracy = strongly_approve
+		law_single_party_state = approve
+	}
+
+	lawgroup_free_speech = {
+		law_protected_speech = strongly_disapprove
+		law_right_of_assembly = disapprove
+		law_censorship = approve
+		law_outlawed_dissent = strongly_approve
+	}
+	
+	lawgroup_internal_security = {
+		law_guaranteed_liberties = strongly_disapprove
+		law_no_home_affairs = neutral
+		law_national_guard = approve
+		law_secret_police = strongly_approve
+	}
+
+	possible = {
+		NOT = { has_role = agitator }
+		# no monarchists in countries with strong republican tradition
+		
+		# for the major Roman Empires
+		owner = {
+			OR = {
+				# Western Roman Empire
+				AND = {
+					exists = c:WRE
+					OR = {
+						c:WRE = this
+						civil_war_origin_country = c:WRE
+					}
+				}
+				# Eastern Roman Empire
+				AND = {
+					exists = c:ERE
+					OR = {
+						c:ERE = this
+						civil_war_origin_country = c:ERE
+					}
+				}
+				# Gallic Empire
+				AND = {
+					exists = c:GLL
+					OR = {
+						c:GLL = this
+						civil_war_origin_country = c:GLL
+					}
+				}
+				# Britannia
+				AND = {
+					exists = c:GBI
+					OR = {
+						c:GBI = this
+						civil_war_origin_country = c:GBI
+					}
+				}
+			}
+			NOR = {
+				any_interest_group = {
+					has_ideology = ideology:ideology_republican_paternalistic
+				}
+				has_variable = monarchy_stamped_out_var
+			}
+		}
+		scope:interest_group = { 
+			OR = {
+				is_interest_group_type = ig_devout
+				is_interest_group_type = ig_rural_folk
+				is_interest_group_type = ig_petty_bourgeoisie
+				is_interest_group_type = ig_landowners
+			}
+		}
+		scope:interest_group = {
+			NOR = {
+				has_variable = communist_ig_var
+				has_variable = chose_vanguardism
+				has_variable = chose_fascism
+				has_variable = chose_conservatism
+				has_variable = chose_ethno_nationalism
+			}
+		}
+	}
+
+	leader_weight = {
+		value = 200
+		# less likely in a theocracy
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_theocracy
+				}
+			}
+			add = -75
+		}
+		# less likely if IG is happy in a republic
+		if = {
+			limit = {
+				owner = {
+					NOT = { has_law = law_type:law_monarchy }
+				}
+				scope:interest_group = {
+					ig_approval > 0
+				}
+			}
+			add = -100
+		}
+		# more likely if the IG is unhappy with the monarchy, and that monarchy is not the Dominate
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_monarchy
+					any_scope_character = { 
+						is_ruler = yes
+						NOT = { has_ideology = ideology:ideology_dominate } 
+					}
+				}
+				scope:interest_group = {
+					ig_approval < 0
+				}
+			}
+			add = 75
+		}
+
+		# more likely for LO and Devout
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_interest_group_type = ig_landowners
+					is_interest_group_type = ig_devout
 				}
 			}
 			add = 50

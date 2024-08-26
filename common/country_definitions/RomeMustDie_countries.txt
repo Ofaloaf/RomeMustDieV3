@@ -141,6 +141,40 @@ BDL = { # Bardulia
 	capital = STATE_CASTILE
 }
 
+HSP = { # Hispania
+	color = { 255 186 23 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { hispanian }	
+	capital = STATE_ANDALUSIA
+}
+
+ILY = { # Illyria
+	color = { 204 234 233 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { illyrian }	
+	capital = STATE_DALMATIA
+}
+
+SPT = { # Septimania
+	color = { 239 195 182 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { septimanian }
+	
+	capital = STATE_LANGUEDOC
+}
+
 ### BRITANNIA ###
 #################
 
@@ -2051,4 +2085,16 @@ HLV = { # Helvetia, babeyyy
 	
 	capital = STATE_WEST_SWITZERLAND
 	cultures = { rhaetic }
+}
+
+AFR = { # Africa
+	color = { 181 146 78 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { africanu }
+	
+	capital = STATE_TUNISIA
 }

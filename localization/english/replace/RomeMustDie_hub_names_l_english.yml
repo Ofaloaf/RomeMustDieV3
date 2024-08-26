@@ -310,6 +310,27 @@
  HUB_NAME_STATE_GRANADA_farm: "Malaca" # Malaga
  HUB_NAME_STATE_GRANADA_wood: "Gaiena" # Jaen
  #
+ STATE_ALENTEJO: "Pacensis"
+ HUB_NAME_STATE_ALENTEJO_city: "Ebora" # Évora
+ HUB_NAME_STATE_ALENTEJO_port: "Lacobriga" # Lagos
+ HUB_NAME_STATE_ALENTEJO_mine: "Paca" # Beja, ld Pax Julia
+ HUB_NAME_STATE_ALENTEJO_farm: "Ossonoba" # Faro
+ HUB_NAME_STATE_ALENTEJO_wood: "Ad Atrum Flumen"
+ #
+ STATE_ESTREMADURA: "Olisiponensis"
+ HUB_NAME_STATE_ESTREMADURA_city: "Olisipo" # Lisbon
+ HUB_NAME_STATE_ESTREMADURA_port: "Mondæcus" # Mondego River
+ HUB_NAME_STATE_ESTREMADURA_mine: "Conimbriga" # Coimbra
+ HUB_NAME_STATE_ESTREMADURA_farm: "Averius" # Aveiro
+ HUB_NAME_STATE_ESTREMADURA_wood: "Collippo" # Leiria
+ #
+ STATE_BEIRA: "Bracarensis"
+ HUB_NAME_STATE_BEIRA_city: "Bracara" # Braga
+ HUB_NAME_STATE_BEIRA_port: "Cale" # Porto
+ HUB_NAME_STATE_BEIRA_mine: "Egitania" # not actually Guarda, I guess?
+ HUB_NAME_STATE_BEIRA_farm: "Vissaium" # Viseu
+ HUB_NAME_STATE_BEIRA_wood: "Castra Leuca" # Castelo Branco
+ #
  ### GERMANIA
  #
  STATE_NORTH_RHINE: "Ripuaria"

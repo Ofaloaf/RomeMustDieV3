@@ -4707,7 +4707,7 @@ greek={
 		Militiadis Menelaos Markos Merkourios Makarios Matthaios Markellos Menas Maximos
 		Nikos Nikolaos Nikephoros Niketas Niphon
 		Odysseas Olympiodoros Ourbikios Olybrios
-		Panos Periklis Petros Pantelis Pantaleon Pavlos Panoutsos Philippikos Porphyrios Probus Pompeios Patrikios Proklos Philoxenos Ploutarchos Philostratos Peregrinos Ptolemaios Poublios
+		Panos Periklis Petros Pantelis Pantaleon Pavlos Panoutsos Philippikos Porphyrios Probus Pompeios Patrikios Proklos Philoxenos Ploutarchos Philostratos Peregrinos Ptolemaios Poublios Photios
 		Romanos
 		Spyridon Sokratis Stamatios Sotiros Stephanos Stelios Stylianos Skarlatos Sofoklis Staurakios Sisinnios Simplikios Sophronios Sextos
 		Theodoros Tilemachos Thomas Trifon Theophilos Thrasyvoulos Themistoklis Theophylaktos Tarasios Theodotos Theodosios Theon
@@ -4791,7 +4791,7 @@ greek={
 		Iunios Ioulios
 		Komnenos Keroularios Katakalon Kamytzes Kallergis Kabasilas Kontostephanos Kalbenos Kornelios Kassios Klaudios Kourkouas
 		Lekapenos Likinianos Likinios Limenios Lollios
-		Makrembolites Maleinos Maliasenos Mavrogenis Melissenos Metochites Mourouzis Mouzalon Messios Memmios Mekilios Manlios Metilios Monomachus
+		Makrembolites Maleinos Maliasenos Mavrogenis Melissenos Metochites Mourouzis Mouzalon Messios Memmios Mekilios Manlios Metilios Monomachos
 		Nicomachos Nepotianos Nonios
 		Orosios
 		Parsakoutenos Petraliphas Philanthropenos Philes Pegonites Prokopios Pomponios Petronios Polemios Platorios Phokas
@@ -5568,7 +5568,7 @@ misri={
 	graphics = arabic
 }
 
-mashriqi={
+mashriqi={ # Still Islamicized, but with slightly more pre-Islamic influences remaining
 	color= hsv{ 0.34 0.48 0.71 }
 	religion = shiite
 	traits = { arab_speaking middle_eastern_heritage }
@@ -5581,58 +5581,45 @@ mashriqi={
 		Abd_al-Malik
 		Abd_al-Qadir
 		Abd_al-Rahman
-		Ahmad
-		Ali
-		Fawzi
-		Fuad
-		Halil
-		Hasan
-		Hisham
-		Ibrahim
-		Ishaq
-		Iskandar
-		Jamal
-		Kamil
-		Khalid
-		Muhammad
-		Mustafa
-		Nur_al-Din
-		Sa_d_al-Din
-		Salim
-		Shukri
-		Tawfiq
-		Umar
-		Uthman
-		Yahya
-		Yusuf
-		Zafir
+		Ahmad Ali
+		Dawud
+		Fawzi Fuad
+		Halil Hasan Hisham Harith
+		Ibrahim Ishaq Iskandar
+		Jamal Jadhima Jafnah Jabala
+		Kamil Khalid
+		Muhammad Mustafa
+		Nur_al-Din al-Nu_man
+		Sa_d_al-Din Salim Shukri Shurahbil
+		Tawfiq Tha_laba
+		Umar Uthman
+		Yahya Yusuf
+		Zafir Zuhayr
 	}
 	female_common_first_names = {
 		Bahira
 		Fayza
 		Ghalia
-		Nadia
-		Noura
-		Samira
-		Sulafa
-		Zeina
-		Zuhur
+		Mawiyya
+		Nadia Noura
+		Rabia
+		Samira Sulafa
+		Zeina Zuhur
 	}	
 	noble_last_names = {
-		al-Ali
-		al-Atassi
-		al-Atrash
-		al-Azma
+		al-Ali al-Atassi al-Atrash al-Azma
 		Al_Faiz
 		al-Ghani_al-Nabulsi
 		al-Hiraki
+		al-Lakhmi
 		Al-Rahman_Al-Gillani
+		al-Salihi
+		al-Tanukhi
 		al-Zaydani
 		Nuseibeh
 	}
 	common_last_names={
 		al-Askari
-		al-Baghdadi
 		al-Basri
 		al-Ghazzawi
 		al-Halabi
@@ -5643,23 +5630,15 @@ mashriqi={
 		al-Qudsi
 		al-Shami
 		ibm_Kamil
-		ibn_Abd_Allah
-		ibn_Abd_al-Qadir
-		ibn_Abu_Bakr
-		ibn_Ahmad
-		ibn_Ali
-		ibn_Fuad
-		ibn_Halil
-		ibn_Hasan
-		ibn_Hisham
+		ibn_Abd_Allah ibn_Abd_al-Qadir ibn_Abu_Bakr ibn_Ahmad ibn_Ali
+		ibn_Fuad ibn_Fahm
+		ibn_Halil ibn_Hasan ibn_Hisham ibn_Hujayr
 		ibn_Ishaq
 		ibn_Ja_far
 		ibn_Khalid
-		ibn_Muhammad
-		ibn_Mustafa
+		ibn_Muhammad ibn_Mustafa
 		ibn_Salim
-		ibn_Umar
-		ibn_Uthman
+		ibn_Umar ibn_Uthman
 		ibn_Yusuf
 		Asmar
 		Mokarzel
@@ -18752,161 +18731,76 @@ tuvan={
 	graphics = east_asian
 }
 
-corsican = {
+corsican = { # Tried to pull a bunch of Greco-Roman names from Corsican Wikipedia
 	color= hsv{ 0.49 0.51 0.84 }
 	religion = nicene
 	traits = { european_heritage romance_speaker latin_culture_group }
 	male_common_first_names={
-		Joseph
-		Louis
-		Napoleon
-		Angelo
-		Baptiste
-		Carlo
-		Louis
-		Lucien
-		Michel
-		Pascal
-		Alessandro
-		Alfonso
-		Ambrogio
-		Amedeo
-		Andrea
-		Angelo
-		Antonio
-		Benito
-		Camillo
-		Carlo
-		Cesare
-		Costanzo
-		Davide
-		Enrico
-		Enzo
-		Ettore
-		Fabrizio
-		Faustino
-		Federico
-		Felice
-		Ferdinando
-		Fiorenzo
-		Francesco
-		Gaetano
-		Gennaro
-		Girolamo
-		Giulio
-		Giuseppe
-		Guglielmo
-		Innocenzo
-		Leopoldo
-		Luigi
-		Marco
-		Massimo
-		Matteo
-		Nicola
-		Oreste
-		Paolo
-		Pasquale
-		Pietro
-		Prospero
-		Raffaele
-		Roberto
-		Ruggiero
-		Scipione
-		Silvio
-		Simone
-		Tancredi
-		Ugo
-		Umberto
-		Vincenzo
-		Vittorio
-
+		Anghjulu Augustu Apollu Aureliu Antoninu Andria Austinu Antulinu Aristotele Apollodoru
+		Bunifaziu Bartulumeu Boeziu
+		Cesare Cirillu Corneliu Costantinu Costanzu Cicerone
+		Dumenicu Dionigi Damianu Diogene
+		Erculu Evaristu Evandru Ermogene
+		Fabiu Fiurenzu
+		Ghjuvan Ghjacintu Ghjorghju Ghjacumu Gaiu Ghjuliu Ghjoviu Ghjulianu Ghjaseppu Ghjaseppu_Maria Ghjacumu_Petru Ghjirolmu
+		Ippolitu
+		Lucianu Luciu Luca Lurenzu
+		Matteu Marcu Mercuriu Martinu Micheli Marianu Marcellu
+		Niculaiu
+		Olimpiodoru
+		Pasquali Petru Ponziu Publiu Paulu
+		Quintu
+		Romolu
+		Seneca Sambucucciu Scipioni Sinucellu Samperu
+		Tiudosiu Tiadoru Tomasu Trajanu
+		Uttavianu
+		Vincinteddu Virghjliu
 	}
 	female_common_first_names = {
-		Elisa
-		Laetitia
-		Caroline
-		Beatrice
-		Camilla
-		Cassandra
-		Cristina
-		Giovannella
-		Livia
-		Lucrezia
-		Luisa
-		Maddalena
-		Maria
-		Melania
-		Metilde
-		Sofia
-		Teresa
-
+		Aucissa Aurelia
+		Catissena Cornelia
+		Diana Devota
+		Ghjulia Ghjuvannina Ghjasippina
+		Lucia Letizia Laurina
+		Melanippa Maria Marta
+		Paulina
+		Riparata
+		Silvia
 	}	
-	noble_last_names = {
-			Borghese
-		Capodilista
-		Carniani
-		Colli_di_Felizzano
-		Colonna
-		d_Azeglio
-		De_Ferrari
-		de_Launay
-		di_Boglio
-		di_Calabiana
-		Massimo
-		Odescalchi
-		Orsini
-		Pallavicino
-		Sacchetti
-		Toesca
-		Torelli
-		di_Robilant
-		di_Savoia
-		di_Savoia-Aosta
-		Thaon_di_Revel
-	}
 	common_last_names={
-		Acton
-		Albricci
-		Badoglio
-		Baldissera
-		Baratieri
-		Bava-Beccaris
-		Cadorna
-		Cagni
-		Canevaro
-		Capello
-		Caviglia
-		Ceccherini
-		Cialdini
-		Cusani
-		Dezza
-		Emo
-		Fanti
-		Fara
-		Filomarino
-		Garibaldi
-		Giardino
-		Govone
-		La_Marmora
-		Mambretti
-		Menabrea
-		Orengo
-		Pacoret_de_Saint_Bon
-		Pecori-Giraldi
-		Pellion_di_Persano
-		Pelloux
-		Perruchetti
-		Pianelli
-		Porro
-		Presbitero
-		Ramorino
-		Ricotti-Magnani
-		Sacchi
-		Saletta
-		Sanna
-		Solari
-		Vaccari
-		Zupelli
+		Abbatucci Aprosiu Affatatu Apuleiu Ampeliu
+		Belatonu Bussi
+		Carniani Cervinu Cilibensu Cumansenu Cassiu Ciattoni Casanova Contardu Curlu Cicala
+		Enniu Emilianu Ettori Erenniu
+		Ghjinuvesi Gaffori Galletti Ghjustiniani
+		Imeriu
+		Lestrigonu Licininu Longonesu Leca Laerziu
+		Marrinu Mariu Marcangelli Marchetti Mascardi Massei Matra
+		Nonnu
+		Opinus
+		Paoli Pittore Percevalli Penani
+		Rusconi Roanu Riccobonu
+		Salluviu Subasanu Sumbru Serviu Settimiu Stagnara Surracha Scribanu Saporiti Superchiu Salvagu Simeoni
+		Tibulatiu Tarabenu Titianu Terenziu
+		Vocontiu Venacinu
+		#
+		di_Sant_Antonu di_Sant_Andrea
+		di_San_Ghjuvanni
+		di_Santa_Lucia
+		di_Santa_Maria di_San_Micheli
+		di_Santu_Sediu
+		#
+		d_Alandu di_Aleria
+		di_Bastelica da_Bozzi da_BisE_ di_Biguglia di_Bastia
+		Della_Grossa
+		di_Micalona di_Massa di_Mariana
+		di_Ponte_Novu
+		di_la_Rocca
+		di_Saone
+		di_Torres
+		d_Urnanu
+		#
+		Tigelliu # Tigellius, a Sardinian poet
 	}
 	graphics = european
 	ethnicities = {

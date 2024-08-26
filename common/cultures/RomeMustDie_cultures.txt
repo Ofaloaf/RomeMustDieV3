@@ -47,22 +47,22 @@
 		Zenobia
 	}
 	common_last_names={
-		Aurelio Antiense Alsiense Arretiense Arminiense Ariolicense Arensnsis Ahala Asellio Acciaioli Atriense Ambrogi
+		Aurelio Antiense Alsiense Arretiense Arminiense Ariolicense Arensnsis Ahala Asellio Acciaioli Atriense Ambrogi Annibaliano
 		Boloniense Bergomense Bedriacense Bodetiense Brundisiense Beletiense Buteo Buti Bucca Bueri Borri Bonfigliuoli Bartolomeo Bonsi Boniamici
 		Caepio Capuense Castrense Clusiense Canusiense Castoriano Cremonense Cortonense Callipolitano Cereali Cornaro Corsi Crivelli Cosa Cilo Cinna Cannini Cambi Ciai
 		Dento Diriense Donati Damiani Dionisi Diodati Dietisalvi Davizzi Dirittafede
 		Eporediense Egnatiense
 		Fullo Faltonio Florencio Florentiense Falconieri Frusinense Florentini
-		Grumentense Genusiense Grumense Gallerani Gorini Grizi
-		Iguviense Igneo Istoniense Iacopi Iohanni
+		Grumentense Genusiense Grumense Gallerani Gorini Grizi Gesio Germia
+		Iguviense Igneo Istoniense Iacopi Iohanni Iohanello
 		Laviniense Luceriense Larinense Luti Lapi Lupicini Lorentiano
 		Mediolanense Minerviense Marini Marsili Micheli Martini
 		Nepolitano Novariense Nequinense Natiolense Nuceriense Narniense Nerini Neroni
 		Ostiense Ortense
 		Pisano Populoniense Potentiense Placentiense Pisaurense Pinnense Prifernense Plestiense Paganelli Petri Ponci Pratesi Prosperi Postumiano
-		Ravennense Ruffo Rocchi Rustichelli Rustichi
+		Ravennense Ruffo Rocchi Rustichelli Rustichi Romiti
 		Sutriense Sepinense Sarsinense Spoletiense Silviense Scala Salicetense Salomoni Sorense Salvaterra Siminetti Stefani Salvucci
-		Telesiense Turense Trebense Taddei Toscanelli
+		Telesiense Turense Trebense Taddei Toscanelli Tanchasia Tantuci Tornaquinci Tovaglia
 		Uzentense
 		Visentiense Venetiense Venusiense Valvatense Veretense Varano Vettonense Venturi Viviani Vettori Villani
 		Zorzi Zuanello
@@ -167,6 +167,7 @@
 	regal_last_names = {
 		Anicius
 		Crescentius
+		Flavius
 		Iunius
 		Licinius Lateranus
 		Oresteianus
@@ -1158,6 +1159,7 @@ africanu = { # African Romance, with some Vandals
 		Emilianu Epenetianu
 		Fulgenciu Frumentianu Fara
 		Gildoni Ghessa
+		Hannibalianu
 		Lucianu Lussu
 		Macarianu Melis Murgia Machliu Masguinu
 		Nemesianu

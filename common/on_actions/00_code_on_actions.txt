@@ -1441,6 +1441,9 @@ on_diplo_play_start_third_party = {
 
 # Root = Diplomatic Play
 on_diplo_play_back_down = {
+	events = {
+		fall_of_rome_events.5 # Aut Caesar Aut Nihil
+	}
 	effect = {
 		post_notification = diplo_play_back_down_notification
 		if = {

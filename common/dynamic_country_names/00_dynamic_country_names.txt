@@ -7,7 +7,8 @@
 # Uncomment when need a dynamic_country_name for any country
 DEFAULT = {
 	# Important ideologies
-	dynamic_country_name = {
+	# Roman claimant dynamic names at bottom
+	dynamic_country_name = {	
 		name = generic_revolt_communist
 		adjective = generic_revolt_communist_adj
 		
@@ -183,18 +184,6 @@ DEFAULT = {
 					is_strongest_ig_in_government = yes
 				}
 			}
-			NOT = {
-				AND = {
-					exists = c:CSA
-					exists = c:USA
-					scope:actor ?= {
-						this = c:CSA
-					}
-					c:USA = {
-						has_journal_entry = je_acw_war
-					}
-				}
-			}
 		}
 	}
 	dynamic_country_name = {
@@ -352,6 +341,196 @@ DEFAULT = {
 			exists = scope:actor
 			scope:actor ?= {
 				is_secessionist = no
+			}
+		}
+	}
+	
+	dynamic_country_name = { # Domain of Illyricum
+		name = dyn_c_domain_of_illyricum
+		adjective = dyn_c_domain_of_illyricum_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = { region = sr:region_balkans }
+			}
+		}
+	}
+	dynamic_country_name = { # Domain of Gaul
+		name = dyn_c_domain_of_gaul
+		adjective = dyn_c_domain_of_gaul_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = { 
+					OR = {
+						region = sr:region_france
+						region = sr:region_occitania
+					}
+				}
+			}
+		}
+	}
+	dynamic_country_name = { # Domain of Noricum
+		name = dyn_c_domain_of_noricum
+		adjective = dyn_c_domain_of_noricum_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = { 
+					OR = {
+						state_region = s:STATE_AUSTRIA
+						state_region = s:STATE_STYRIA
+						state_region = s:STATE_TYROL
+						state_region = s:STATE_BAVARIA
+					}
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { # Italic Domain
+		name = dyn_c_italic_domain
+		adjective = dyn_c_italic_domain_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = {
+					region = sr:region_italy
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { # Domain of Africa
+		name = dyn_c_domain_of_africa
+		adjective = dyn_c_domain_of_africa_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = {
+					region = sr:region_north_africa
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { # Domain of the Hispanias
+		name = dyn_c_domain_of_the_hispanias
+		adjective = dyn_c_domain_of_the_hispanias_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = {
+					region = sr:region_iberia
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { # Domain of Lusitania
+		name = dyn_c_domain_of_lusitania
+		adjective = dyn_c_domain_of_lusitania_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = {
+					OR = {
+						state_region = s:STATE_ESTREMADURA
+						state_region = s:STATE_BEIRA
+						state_region = s:STATE_BADAJOZ
+						state_region = s:STATE_ALENTEJO
+					}
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { # Domain of Egypt
+		name = dyn_c_domain_of_egypt
+		adjective = dyn_c_domain_of_egypt_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = {
+					region = sr:region_nile_basin
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { # Domain of the East
+		name = dyn_c_domain_of_the_east
+		adjective = dyn_c_domain_of_the_east_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = {
+					OR = {
+						region = sr:region_arabic
+						state_region = s:STATE_ADANA
+						state_region = s:STATE_CYPRUS
+					}
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { # Domain of the East
+		name = dyn_c_domain_of_pannonia
+		adjective = dyn_c_domain_of_pannonia_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = {
+					OR = {
+						state_region = s:STATE_TRANSDANUBIA
+						state_region = s:STATE_CENTRAL_HUNGARY
+						state_region = s:STATE_WEST_SLOVAKIA
+						state_region = s:STATE_EAST_SLOVAKIA
+						state_region = s:STATE_DELVIDEK
+						state_region = s:STATE_BEKES
+					}
+				}
 			}
 		}
 	}

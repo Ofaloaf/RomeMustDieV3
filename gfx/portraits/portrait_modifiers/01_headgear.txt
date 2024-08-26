@@ -66,6 +66,14 @@
                 european_clothes_trigger = yes
                 slavic_clothes_trigger = no
                 agitator_character_trigger = yes
+                scope:character ?= {
+					greco_roman_european_culture = yes
+					NOR= {
+						is_interest_group_type = ig_landowners
+						has_ideology = ideology:ideology_royalist
+						has_ideology = ideology:ideology_humanitarian_royalist
+					}
+				}
             }
         }
     }
@@ -183,6 +191,20 @@
 					}
 				}
             }
+            modifier = {
+                add = 5000
+                scope:character ?= {
+					greco_roman_european_culture = yes
+					OR = {
+						is_interest_group_type = ig_armed_forces
+						has_ideology = ideology:ideology_jingoist
+					}
+					home_country ?= {
+						c:WRE ?= this
+					}
+				}
+                agitator_character_trigger = yes
+            }
         }
     }
 
@@ -219,6 +241,48 @@
 						c:ERE ?= this
 					}
 				}
+            }
+            modifier = {
+                add = 5000
+                scope:character ?= {
+					greco_roman_european_culture = yes
+					OR = {
+						is_interest_group_type = ig_armed_forces
+						has_ideology = ideology:ideology_jingoist
+					}
+					home_country ?= {
+						c:ERE ?= this
+					}
+				}
+                agitator_character_trigger = yes
+            }
+        }
+    }
+	
+    romano_british_soldier_officer_hat = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = gb_01
+                range = { 0 1.0 }
+           
+            } 
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                
+                scope:pop ?= {
+					OR = {
+						is_pop_type = soldiers
+						is_pop_type = officers
+					}
+                    culture = {
+						cu:brithenig = this
+					}
+                }
             }
         }
     }
@@ -328,6 +392,23 @@
                 }
             }
         }
+        weight = {
+            base = 0
+            modifier = {
+                add = 10000
+                
+                scope:pop ?= {
+                    OR = {
+						is_pop_type = soldiers
+						is_pop_type = officers
+					}
+                    owner ?= {
+                        c:WRE ?= this
+                        has_technology_researched = bolt_action_rifles
+                    }
+                }
+            }
+        }
     }
 
     ere_late_military_headgear = {
@@ -353,15 +434,32 @@
                 }
             }
         }
+        weight = {
+            base = 0
+            modifier = {
+                add = 10000
+                
+                scope:pop ?= {
+                    OR = {
+						is_pop_type = soldiers
+						is_pop_type = officers
+					}
+                    owner ?= {
+                        c:ERE ?= this
+                        has_technology_researched = bolt_action_rifles
+                    }
+                }
+            }
+        }
     }
 	
-    french_military_headgear = {
+    frankish_military_headgear_officers_early = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = headgear
-                template = french_military_headgear
-                range = { 0 1 } # For the randomness to work correctly
+                template = frankish_military_headgear
+                range = { 0 0.25 } # Helmets for male pops, no headgear for female pops
             }
         }
         weight = {
@@ -369,34 +467,106 @@
             modifier = {
                 add = 100
 
-				OR = {
-					AND = {
-						politician_clothes_trigger = yes
-						scope:character ?= {
-							is_interest_group_type = ig_armed_forces
-							owner = {
-								c:FRK ?= this
-							}
-						}
-					}
-					AND = {
-						scope:character ?= {
-							has_role = general
-							owner = {
-								c:FRK ?= this
-							}
-						}
-					}
-					scope:pop ?={
-						is_pop_type = officers
-						owner = {
-							c:FRK ?= this
-						}
+				scope:pop ?={
+					is_pop_type = officers
+					owner = {
+						c:FRK ?= this
+						NOT = { has_technology_researched = automatic_machine_guns }
 					}
 				}
             }
         }
     }
+
+    frankish_military_headgear_generals_af_leaders_early = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = frankish_military_headgear
+                range = { 0.25 0.5 } # Helmets for male and female characters
+            }
+        }	
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+				scope:character ?= {
+					OR = {
+						has_role = general
+						AND = {
+							has_role = politician
+                            is_interest_group_type = ig_armed_forces
+							is_ruler = no
+							is_heir = no
+						}
+					}
+					owner = {
+						c:FRK ?= this
+						NOT = { has_technology_researched = automatic_machine_guns }
+					}
+				}	
+			}
+		}
+	}
+	
+    frankish_military_headgear_officers_late = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = frankish_military_headgear
+                range = { 0.50 0.75 } # Helmets for male pops, no headgear for female pops
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+
+				scope:pop ?={
+					is_pop_type = officers
+					owner = {
+						c:FRK ?= this
+						has_technology_researched = automatic_machine_guns
+					}
+				}
+            }
+        }
+    }
+
+    frankish_military_headgear_generals_af_leaders_late = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = frankish_military_headgear
+                range = { 0.75 1.0 } # Helmets for male characters, no adrian helmet mesh from VFM for female characters though :(
+            }
+        }	
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+				
+				scope:character ?= {
+					OR = {
+						has_role = general
+						AND = {
+							has_role = politician
+                            is_interest_group_type = ig_armed_forces
+							is_ruler = no
+							is_heir = no
+						}
+					}
+					owner = {
+						c:FRK ?= this
+						has_technology_researched = automatic_machine_guns
+					}
+				}	
+			}
+		}
+	}
 	
 	andean_character_headgear = {
 		dna_modifiers = {

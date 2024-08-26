@@ -1,0 +1,8 @@
+﻿is_dynamic_roman_tag = {
+	OR = {
+		c:RE1 ?= this
+		c:RE2 ?= this
+		c:RE3 ?= this
+		c:RE4 ?= this
+	}
+}
