@@ -2877,7 +2877,10 @@
                             this = cu:japanese
                             this = cu:ainu
                         }
-                        has_discrimination_trait = east_asian_heritage
+                        OR = {
+	                        has_discrimination_trait = east_asian_heritage
+	                        has_discrimination_trait = sinosphere
+	                    }
                     }
                 }
                 agitator_character_trigger = yes 

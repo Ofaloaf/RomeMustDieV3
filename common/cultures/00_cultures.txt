@@ -18768,21 +18768,23 @@ corsican = { # Tried to pull a bunch of Greco-Roman names from Corsican Wikipedi
 		Silvia
 	}	
 	common_last_names={
-		Abbatucci Aprosiu Affatatu Apuleiu Ampeliu
-		Belatonu Bussi
+		Abbatucci Aprosiu Affatatu Apuleiu Ampeliu Azima Ambrosi
+		Belatonu Bussi artoli Bonavita Brandizi Bianchi Bergassoli Bonaccorsi
 		Carniani Cervinu Cilibensu Cumansenu Cassiu Ciattoni Casanova Contardu Curlu Cicala
 		Enniu Emilianu Ettori Erenniu
-		Ghjinuvesi Gaffori Galletti Ghjustiniani
+		Fiori Faggianelli Farinole Fieschi Franzoni Filippi Ferracci Folcarelli Fontana Fabiani Flori Flacchi Filufi Figliu Ferrione Fanciullina Frazatu
+		Ghjinuvesi Gaffori Galletti Ghjustiniani Ghjisippinellu Ghjisippacciu Ghjuvanola Ghjallone Gallo_ Graziani
 		Imeriu
 		Lestrigonu Licininu Longonesu Leca Laerziu
 		Marrinu Mariu Marcangelli Marchetti Mascardi Massei Matra
 		Nonnu
-		Opinus
+		Opinus Ortoli Omessa Ottaviani Ochjone Omu
 		Paoli Pittore Percevalli Penani
-		Rusconi Roanu Riccobonu
+		Rusconi Roanu Riccobonu Ranchjinu
 		Salluviu Subasanu Sumbru Serviu Settimiu Stagnara Surracha Scribanu Saporiti Superchiu Salvagu Simeoni
-		Tibulatiu Tarabenu Titianu Terenziu
-		Vocontiu Venacinu
+		Tibulatiu Tarabenu Titianu Terenziu Tortulu Trafescolu Truittolu Truppinu Turriglione Tuttunellu
+		Vocontiu Venacinu Vincensini Vannucci Vechjettu
+		Zuccarelli Zacchina Zirighinu Zurinu Zugliatu
 		#
 		di_Sant_Antonu di_Sant_Andrea
 		di_San_Ghjuvanni
