@@ -749,6 +749,7 @@ overweight_trigger = {
 	exists = scope:character
 	scope:character = {
      	has_trait = expensive_tastes
+     	is_historical = no
      }
 }
 

@@ -707,11 +707,11 @@
 		roman_senator = {
 			index = 42
 			male = {
-				1 = male_clothes_secular_roman_senate_01
+				#1 = male_clothes_secular_roman_senate_01
 				1 = male_outfit_plain_white_tunic
 			}
 			female = {
-				1 = female_clothes_secular_byzantine_nobility_02_high
+				1 = female_outfit_plain_white_tunic
 			}
 
 			boy = male

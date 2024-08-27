@@ -18769,7 +18769,7 @@ corsican = { # Tried to pull a bunch of Greco-Roman names from Corsican Wikipedi
 	}	
 	common_last_names={
 		Abbatucci Aprosiu Affatatu Apuleiu Ampeliu Azima Ambrosi
-		Belatonu Bussi artoli Bonavita Brandizi Bianchi Bergassoli Bonaccorsi
+		Belatonu Bussi Bartoli Bonavita Brandizi Bianchi Bergassoli Bonaccorsi
 		Carniani Cervinu Cilibensu Cumansenu Cassiu Ciattoni Casanova Contardu Curlu Cicala
 		Enniu Emilianu Ettori Erenniu
 		Fiori Faggianelli Farinole Fieschi Franzoni Filippi Ferracci Folcarelli Fontana Fabiani Flori Flacchi Filufi Figliu Ferrione Fanciullina Frazatu

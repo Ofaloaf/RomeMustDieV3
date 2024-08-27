@@ -259,6 +259,11 @@ female_clothes_common_03_common = {
 	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_clothes_common_03_common_entity" }
 }
 
+female_outfit_plain_white_tunic = {
+	set_tags = "shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_outfit_plain_white_tunic_entity" }	
+}
+
 ### LEGWEAR ###
 
 male_legwear_secular_fp1_common_01 = {
