@@ -1,0 +1,32 @@
+﻿l_english:
+  state_trait_malaria: "Mosquito-Borne Fever"
+  state_trait_severe_malaria: "Severe Mosquito-Borne Fever"
+  state_trait_ohio_river:0 "Ohio River"
+  state_trait_rhine_river: "Rhenus Fluvius" # Rhine River
+  state_trait_danube_river: "Danubius Fluvius"
+  state_trait_drava_river: "Dravus Fluvius"
+  state_trait_elbe_river: "Albis Fluvius"
+  state_trait_oder_river: "Oddara Fluvius"
+  state_trait_dnieper_river: "Danapris Fluvius"
+  state_trait_rhone_river: "Rhodanus Fluvius"
+  state_trait_loire_river: "Ligeris Fluvius"
+  state_trait_seine_river: "Sequana Fluvius"
+  state_trait_nile_river:0 "Nile River"
+  state_trait_congo_river:0 "Congo River"
+  state_trait_niger_river:0 "Niger River"
+  state_trait_po_river: "Padus Fluvius"
+  state_trait_columbia_river: "Wimahl River" Columbia River, Upper Chinook name
+  state_trait_christianiafjorden: "Fold" # old norse name for Christianiafjorden/Oslofjorden
+  state_trait_kongsberg_silver_mine: "Modumsberg" # Kongsberg is the King's Mountain. Kongsberg proper is in Buskerud flyke, which is named after a Bishop's Farm. That farm was in a place called Modum. Modumsberg.
+  state_trait_lancashire_coalfield: "Minerae Setantiarum" # Mines of the Sentantii.
+  state_trait_south_yorkshire_coalfield: "Minerae Brigantum" # Mines of the Brigantes
+  state_trait_south_wales_valleys: "Minerae Ordovicum" # Mines of the Ordovices
+  state_trait_central_belt_coalfield: "Minerae Pictarum" # Mines of the Picts
+  state_trait_black_country: "Minerae Trisantonarum" # Mines of the Trisantona, a.k.a River Trent
+  state_trait_terra_rossa: "Terra Russa"
+  state_trait_bremerhaven: "Visurgis Estuary"
+  state_trait_terra_roxa: "Terra Laterita" # Terra Roxa is a type of latosol, and latosol derives its name from Laterite, which is a scientific neo-Latin derivative for something brick-like
+  state_trait_new_england_whaling: "Norumbega Whaling"
+  state_trait_sierra_madre_occidental: "Tarahumara" # Sierra Tarahumara, Sierra Madre Occidental
+  state_trait_sierra_madre_oriental:0 "Sierra Madre Oriental"
+  state_trait_central_american_cordilleras:0 "Central American Cordilleras"

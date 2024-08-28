@@ -29,11 +29,11 @@
 		Beatrice Benedicta
 		Clementina Cornelia Clara Costantina Costanza Crescenza Clarice Camilla Caterina Columba
 		Demetrias Donata Delfinia Desiderata Dominica Desideria Divicia
-		Eudocia Eugenia Eligia Elladia Elia Emilia Emiliana Elena Eustochia Egidiola
+		Eudocia Eugenia Eligia Elladia Elia Emilia Emiliana Elena Eustochia Egidiola Eunomia
 		Fausta Faustina Falicia Florentina Florina Fortunata
 		Galla Gregoria
 		Iusta Iulia Ignatia Ioanna Ippolita
-		Liberata Leonza Laura Lucia Leticia Leocadia Liberia Lucrezia
+		Liberata Leonza Laura Lucia Leticia Leocadia Liberia Lucrezia Lampadia
 		Massenza Marcella Martina Maria Margarita Modesta Monica Maddalena Mattia Mercuriade
 		Narcissa Natalia
 		Onoria Onorata Onorina Osanna
@@ -48,21 +48,21 @@
 	}
 	common_last_names={
 		Aurelio Antiense Alsiense Arretiense Arminiense Ariolicense Arensnsis Ahala Asellio Acciaioli Atriense Ambrogi Annibaliano
-		Boloniense Bergomense Bedriacense Bodetiense Brundisiense Beletiense Buteo Buti Bucca Bueri Borri Bonfigliuoli Bartolomeo Bonsi Boniamici
-		Caepio Capuense Castrense Clusiense Canusiense Castoriano Cremonense Cortonense Callipolitano Cereali Cornaro Corsi Crivelli Cosa Cilo Cinna Cannini Cambi Ciai
-		Dento Diriense Donati Damiani Dionisi Diodati Dietisalvi Davizzi Dirittafede
+		Boloniense Bergomense Bedriacense Bodetiense Brundisiense Beletiense Buteo Buti Bucca Bueri Borri Bonfigliuoli Bartolomeo Bonsi Boniamici Buzeto
+		Caepio Capuense Castrense Clusiense Canusiense Castoriano Cremonense Cortonense Callipolitano Cereali Cornaro Corsi Crivelli Cosa Cilo Cinna Cannini Cambi Ciai Cimabue
+		Dento Diriense Donati Damiani Dionisi Diodati Deotisalvi Davizzi Dirittafede
 		Eporediense Egnatiense
-		Fullo Faltonio Florencio Florentiense Falconieri Frusinense Florentini
+		Fullo Faltonio Florencio Florentiense Falconieri Frusinense Florentini Faritio Flaive
 		Grumentense Genusiense Grumense Gallerani Gorini Grizi Gesio Germia
 		Iguviense Igneo Istoniense Iacopi Iohanni Iohanello
 		Laviniense Luceriense Larinense Luti Lapi Lupicini Lorentiano
 		Mediolanense Minerviense Marini Marsili Micheli Martini
 		Nepolitano Novariense Nequinense Natiolense Nuceriense Narniense Nerini Neroni
 		Ostiense Ortense
-		Pisano Populoniense Potentiense Placentiense Pisaurense Pinnense Prifernense Plestiense Paganelli Petri Ponci Pratesi Prosperi Postumiano
+		Pisano Populoniense Potentiense Placentiense Pisaurense Pinnense Prifernense Plestiense Paganelli Petri Ponci Pratesi Prosperi Postumiano Paterio
 		Ravennense Ruffo Rocchi Rustichelli Rustichi Romiti
-		Sutriense Sepinense Sarsinense Spoletiense Silviense Scala Salicetense Salomoni Sorense Salvaterra Siminetti Stefani Salvucci
-		Telesiense Turense Trebense Taddei Toscanelli Tanchasia Tantuci Tornaquinci Tovaglia
+		Sutriense Sepinense Sarsinense Spoletiense Silviense Scala Salicetense Salomoni Sorense Salvaterra Siminetti Stefani Salvucci Sottio
+		Telesiense Turense Trebense Taddei Toscanelli Tanchasia Tantuci Tornaquinci Tovaglia Tesauro
 		Uzentense
 		Visentiense Venetiense Venusiense Valvatense Veretense Varano Vettonense Venturi Viviani Vettori Villani
 		Zorzi Zuanello
@@ -137,10 +137,10 @@
 		Petronio Presidio Pomonio Pupieno Pollieno
 		Quinctilio
 		Rufio Rusticio Roscio Ragonio Romanense
-		Sallustio Scholastico Strabo
+		Sallustio Scholastico Strabo Sertorio
 		Turcio Tineio Tullio
 		Umbrio
-		Vettio Virio
+		Vettio Virio Valerio
 	}
 	
 	male_regal_first_names = {

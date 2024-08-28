@@ -153,9 +153,6 @@
   WRE_BLOC: "Imperium Orientiale"
   ERE_BLOC: "Imperium Occidentale"
   #
-  state_trait_malaria: "Mosquito-Borne Fever"
-  state_trait_severe_malaria: "Severe Mosquito-Borne Fever"
-  #
   building_vatican_city: "Vatican Palace"
   pm_default_building_vatican_city: "Vatican Palace"
   #
@@ -184,5 +181,5 @@
   bad_diplomat_desc: "This character is particularly bad at diplomacy and negotiation."
   personal_wealth: "Personal Fortune"
   personal_wealth_desc: "This person is independently wealthy, allow them to pay for things that others would have to rely on the largesse of governments and associations to cover."
-  personal_debt: "Personal Debt"
+  personal_debt: "Personal Debts"
   personal_debt_desc: "This character suffers from an acute deficit of funds, through either cruel twists of fate or sheer money-handling incompetence."

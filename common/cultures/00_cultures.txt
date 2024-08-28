@@ -1653,7 +1653,7 @@ norwegian={
 		Dahl
 		Egge
 		Falsen Fleicher Frisvold
-		Gjeranger Gundersen Gulbranson
+		Gjeranger Gundersen Gulbranson Grosvold
 		Hansen Henriksen Hjermann Hund Huvestad
 		Jaatun Jacobsen Jensen Johansen Johannessen J_Orgensen
 		Kaldager Karlsen
@@ -1666,7 +1666,7 @@ norwegian={
 		Schmidt Sissener S_Orensen
 		Thorsen
 		Ueland
-		Vika
+		Vika VAE_rp
 		Weidemann Wiborg With
 	}
 	male_regal_first_names = {
@@ -4697,17 +4697,17 @@ greek={
 		Beniamin Basiliskos Boethios
 		Charilaos Christos Christoforos Christodoulos
 		Dimitrios Dionysios David Diomidis Domnentiolos Domnikos Dioskoros Damaskios Domninos Dorotheos
-		Evangelos Eleftherios Efstathios Epameinontas Euthymios Eulalios Evagrios Eusebios
+		Evangelos Eleftherios Efstathios Epameinontas Euthymios Eulalios Evagrios Eusebios Eutychios
 		Filippos Faustos
 		Georgios Gerasimos Gregorios Germanos Gennadios Gaios
 		Herakleidas Herakleios Hilarion Hermogenes Heliodoros Hierios Hierokles Helion
 		Ilias Ioannis Iakovos Iason Ioustinos Iosef Ioannikios Isidoros
-		Konstantinos Kyriakos Kostas Kontoleon Konstantiolos Klaudianos Kosmas Konstas Komentiolos
+		Konstantinos Kyriakos Kostas Kontoleon Konstantiolos Klaudianos Kosmas Konstas Komentiolos Klearchos
 		Leonidas Leon Lambros Lazaros Lykourgos Lazaros Leontios Longinos Loukios
 		Militiadis Menelaos Markos Merkourios Makarios Matthaios Markellos Menas Maximos
 		Nikos Nikolaos Nikephoros Niketas Niphon
 		Odysseas Olympiodoros Ourbikios Olybrios
-		Panos Periklis Petros Pantelis Pantaleon Pavlos Panoutsos Philippikos Porphyrios Probus Pompeios Patrikios Proklos Philoxenos Ploutarchos Philostratos Peregrinos Ptolemaios Poublios Photios
+		Panos Periklis Petros Pantelis Pantaleon Pavlos Panoutsos Philippikos Porphyrios Probus Pompeios Patrikios Proklos Philoxenos Ploutarchos Philostratos Peregrinos Ptolemaios Poublios Photios Philotheos
 		Romanos
 		Spyridon Sokratis Stamatios Sotiros Stephanos Stelios Stylianos Skarlatos Sofoklis Staurakios Sisinnios Simplikios Sophronios Sextos
 		Theodoros Tilemachos Thomas Trifon Theophilos Thrasyvoulos Themistoklis Theophylaktos Tarasios Theodotos Theodosios Theon
@@ -4782,7 +4782,7 @@ greek={
 		### ROMAN AND BYZANTINE GREEK FAMILIES
 		Argyros Apokaukos Apokapes Apion Aaronios Anikios Aetios Anemas Akakios Ailios Autoreianos Aurelios Aginantios Akilios Annios Annianos Amnios Appios
 		Bryennios Basilakes Bourtzes Botaneiates
-		Chalkokondyles Choumnos
+		Chalkokondyles Choumnos Chamaretos
 		Diogenes Dalassenos Doukas Dekios Daimonoioannes Doxapatres Domitios Dekentios
 		Euphorbenos Elpidios
 		Fabianos
@@ -4791,7 +4791,7 @@ greek={
 		Iunios Ioulios
 		Komnenos Keroularios Katakalon Kamytzes Kallergis Kabasilas Kontostephanos Kalbenos Kornelios Kassios Klaudios Kourkouas
 		Lekapenos Likinianos Likinios Limenios Lollios
-		Makrembolites Maleinos Maliasenos Mavrogenis Melissenos Metochites Mourouzis Mouzalon Messios Memmios Mekilios Manlios Metilios Monomachos
+		Makrembolites Maleinos Maliasenos Mavrogenis Melissenos Metochites Mourouzis Mouzalon Messios Memmios Mekilios Manlios Metilios Monomachos Maurozomes
 		Nicomachos Nepotianos Nonios
 		Orosios
 		Parsakoutenos Petraliphas Philanthropenos Philes Pegonites Prokopios Pomponios Petronios Polemios Platorios Phokas
@@ -4802,25 +4802,25 @@ greek={
 		Xiphilinos Xiphias
 	}
 	common_last_names = {
-		Aspiotis Andriakopoulos Athanasopoulos Anninos Akratopoulos Antonpoulos Asimakopoulos Axiotis Atouemes Alakaseus Aaronios Arianites Asidenos Aspietes Autoreianos Allatios Aemilianos Ablabios Amantios Apouleios Auxentios Aginantios Akilios
+		Aspiotis Andriakopoulos Athanasopoulos Anninos Akratopoulos Antonpoulos Asimakopoulos Axiotis Atouemes Alakaseus Aaronios Arianites Asidenos Aspietes Autoreianos Allatios Aemilianos Ablabios Amantios Apouleios Auxentios Aginantios Akilios Andragathios Astrapas Apsevdis
 		Belokas Benardis Baltatzis Brachamios Bourtzes Barasbakourios Boioannes Boilas Bekkos Barymes Bonosianos
-		Chalkokondylis Chrysafis Chorafas Chrysafos Chazapis Charalambis Choirosphaktes Chalkoutzes Chabaron Chloros Choiroboskos Chrysaphios
+		Chalkokondylis Chrysafis Chorafas Chrysafos Chazapis Charalambis Choirosphaktes Chalkoutzes Chabaron Chloros Choiroboskos Chrysaphios Chadenos Chamaretos
 		Deligiannis Damaskos Diamantis Diamantopoulos Dontis Drivas Dalezios Douros Daphnomales Dexippos
 		Eftaxias Euphorbenos Eulamios Eunapios
 		Fetsis Fetsios Frangoudis Frangopoulos Foustanos Farmakidis Freris Farmakidis Fotilas
 		Gennimatas Golemis Gerakeris Grigoriou Gouskos Georgiadis Gaitanos Grigoriadis Gneftos Gazis Galesiotes Gregoras
-		Hatzidakis Hikanatos Holobolos Himerios Hilarianos
+		Hatzidakis Hikanatos Holobolos Himerios Hilarianos Hyrtakenos
 		Iatrou Iatridis Italos Iberitzes
-		Karousou Karakatsanis Kafetzis Koletis Kostantinidis Konstantinou Karakalos Karvelas Karagiannopoulos Karasevdas Karagiannis Katravas Khatzis Kontos Koukoudakis Kourkoulas Kasdaglis Kallisperi Kanaris Konstantas Krenites Kamateros Katakalon Kalothetos Karantenos Kourkouas Kalaphates Koutzes Kedrenos Kananites
+		Karousou Karakatsanis Kafetzis Koletis Kostantinidis Konstantinou Karakalos Karvelas Karagiannopoulos Karasevdas Karagiannis Katravas Khatzis Kontos Koukoudakis Kourkoulas Kasdaglis Kallisperi Kanaris Konstantas Krenites Kamateros Katakalon Kalothetos Karantenos Kourkouas Kalaphates Koutzes Kedrenos Kananites Kapnogenes
 		Lagoudakis Lavrentis Loverdos Loundras Langakis Levidis Lamprakis Laskaridis Lerias Liapis Logothetis Lykaon Lydos Lachanodrakon Laertios Laurentianos Limenios
-		Merkatis Mouratis Masouris Mitropoulos Mikhailidis Moustakopoulos Morakis Mangourakis Markou Marnezos Mazoukas Mikhalopoulos Malokinis Mavrommatis Mavrogenes Mansolas Maurex Maleinos Mangaphas Metochites Mesardonites Maroullos Marinos Markianos Mokios Maxentios Mallotes
+		Merkatis Mouratis Masouris Mitropoulos Mikhailidis Moustakopoulos Morakis Mangourakis Markou Marnezos Mazoukas Mikhalopoulos Malokinis Mavrommatis Mavrogenes Mansolas Maurex Maleinos Mangaphas Metochites Mesardonites Maroullos Marinos Markianos Mokios Maxentios Mallotes Myares Mousonianos Maurozomes
 		Nikolopoulos Nastos Neroutsos Negris Nestongos Nauridis Noumenios
-		Orphanidis Ouranos Onomagoulos Oinomaos
-		Paraskevopoulos Papasymeon Papadiamantopoulos Persakis Papasideris Poulos Pyrgos Petmezas Papaioannou Pavlidis Platis Petrou Pantazidis Patsouris Pothitos Pepanos Paspatis Petrokokkinos Papafingos Peppas Psychas Printezis Papailiopoulos Proteuon Platypodes PachymE_ris Psellos Philokales Perenos Pakourianos Petzeas Petraliphas Philanthropenos Priskianos Pamprepios Podopagouros Postoumianos Probianos Polemios
+		Orphanidis Ouranos Onomagoulos Oinomaos Ooryphas
+		Paraskevopoulos Papasymeon Papadiamantopoulos Persakis Papasideris Poulos Pyrgos Petmezas Papaioannou Pavlidis Platis Petrou Pantazidis Patsouris Pothitos Pepanos Paspatis Petrokokkinos Papafingos Peppas Psychas Printezis Papailiopoulos Proteuon Platypodes PachymE_ris Psellos Philokales Perenos Pakourianos Petzeas Petraliphas Philanthropenos Priskianos Pamprepios Podopagouros Postoumianos Probianos Polemios Pantechnes Panselinos Pagomenos
 		Romantzas Rallis Roussos Rhabdouchos 
 		Skaltsogiannis Stais Sanidis Salouros Santanis Stournaras Siganous Skandalidis Spanes Skoulatos Stryphnos Spondyles Sgouros Spyridonakes Styppeiotes Sabinianos Severianos Severos
 		Theodoropoulos Tryfiatis-Tripiaris Tsiklitiras Theofilakis Trikoupis Triantafyllakos Tombazis Tessarakontapechys Tarchaneiotes Tagaris Tornikios Triphyllios Toubakes Thalassios
-		Versis Vasilakos Vrettos Vouros Vourakis Vavis Valetsiotis Vlachos Vikhos Vrasivanopoulos Vlassis Vourvoulis Voustinos Vakondios Varthalitis
+		Versis Vasilakos Vrettos Vouros Vourakis Vavis Valetsiotis Vlachos Vikhos Vrasivanopoulos Vlassis Vourvoulis Voustinos Vakondios Varthalitis Varzos
 		Xydras Xenakis Xenopoulos Xylinakos
 		Zoumis Zanos Zacharopoulos Zervinis Zafyropoulos Zarifi Zographos Zonaras Zemarchos Zenobios
 	}
@@ -6410,6 +6410,7 @@ tatar={
 		Musa
 		Rizaeddin
 		Rustam
+		Sytzigan
 		Xosayen
 		Yadegar
 		Yusuf
