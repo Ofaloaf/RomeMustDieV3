@@ -1773,9 +1773,9 @@ has_conservative_ideology = {
 has_monarchist_ideology = {
 	OR = {
 		has_ideology = ideology:ideology_royalist
-		has_ideology = ideology:ideology_orleanist
-		has_ideology = ideology:ideology_bonapartist
-		has_ideology = ideology:ideology_legitimist	
+		has_ideology = ideology:ideology_attila_partisan
+		has_ideology = ideology:ideology_principate
+		has_ideology = ideology:ideology_dominate	
 	}
 }
 
@@ -1797,12 +1797,8 @@ can_have_radical_leader = { # interest_group scope
 is_major_unifier = {
 	OR = {
 		AND = {
-			exists = c:GER # Germany
-			this = c:GER
-		}
-		AND = {
-			exists = c:ITA # Italy
-			this = c:ITA
+			exists = c:GBI # Britannia
+			this = c:GBI
 		}
 		AND = {
 			exists = c:ETH # Ethiopia
@@ -1817,8 +1813,8 @@ is_major_unifier = {
 			this = c:ARA
 		}
 		AND = {
-			exists = c:YUG # Yugoslavia
-			this = c:YUG
+			exists = c:MSL # Megalosklavinia
+			this = c:MSL
 		}
 		AND = {
 			exists = c:TRH # Turkestan
@@ -1831,10 +1827,6 @@ is_major_unifier = {
 		AND = {
 			exists = c:BHT # India
 			this = c:BHT
-		}
-		AND = {
-			exists = c:FND # Federation
-			this = c:FND
 		}
 	}
 }

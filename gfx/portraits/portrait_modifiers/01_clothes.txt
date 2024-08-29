@@ -329,7 +329,7 @@
         }
     }
 	
-    roman_agitator_clothes = {
+    roman_default_agitator = {
         dna_modifiers = {
 			accessory = {
 				mode = add
@@ -359,6 +359,43 @@
                 add = 100
                 scope:character ?= {
 					greco_roman_european_culture = yes
+				}
+                agitator_character_trigger = yes
+            }
+        }
+    }
+
+    roman_classical_agitator = {
+        dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = roman_classical
+				range = { 0 1 } # For the randomness to work correctly
+			}
+
+            accessory = {
+                mode = add
+                gene = sashes
+                template = slavic_sashes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                scope:character ?= {
+					greco_roman_european_culture = yes
+					OR = {
+						has_conservative_ideology = yes
+						has_monarchist_ideology = yes
+					}
+					OR = {
+						has_trait = literary
+						has_trait = erudite
+					}
 				}
                 agitator_character_trigger = yes
             }

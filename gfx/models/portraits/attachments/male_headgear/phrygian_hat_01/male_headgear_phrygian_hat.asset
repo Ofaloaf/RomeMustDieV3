@@ -14,7 +14,7 @@ pdxmesh = {
 }
 
 entity = {
-	name = "male_headgear_phrygian_hat_entity"
+	name = "male_headgear_phrygian_hat_agitator_entity"
 	pdxmesh = "male_headgear_phrygian_hat_mesh"
 
 
@@ -23,6 +23,21 @@ entity = {
 			portrait_accessory = {
 				pattern_mask = "gfx/models/portraits/attachments/male_headgear/phrygian_hat_01/male_headgear_phrygian_hat_masks.dds"	
 				variation = "male_legwear_red"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+entity = {
+	name = "male_headgear_phrygian_hat_common_entity"
+	pdxmesh = "male_headgear_phrygian_hat_mesh"
+
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_headgear/phrygian_hat_01/male_headgear_phrygian_hat_masks.dds"	
+				variation = "male_outfit_peasant_common_01"	#A "variation" object in gfx/portraits/accessory_variations/
 			}
         }
 	}

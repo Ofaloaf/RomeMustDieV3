@@ -453,6 +453,9 @@
   SPT_ADJ: "Septimanian"
   AFR: "Africa"
   AFR_ADJ: "African"
+  MSL: "Megalosklavinia"
+  MSL_ADJ: "Megalosklavinian"
+  #
   RE1: "Roman Dominion"
   RE1_ADJ: "Roman"
   RE2: "State of Romans"

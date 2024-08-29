@@ -303,9 +303,14 @@ com_male_headgear_european_military_02_ERE_purple_fancy = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "com_male_headgear_european_military_02_ERE_purple_fancy_entity" }	
 }
 
-male_headgear_phrygian_hat = {
+male_headgear_phrygian_hat_agitator = {
 	set_tags ="cap1"
-	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_phrygian_hat_entity" }	
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_phrygian_hat_agitator_entity" }	
+}
+
+male_headgear_phrygian_hat_common = {
+	set_tags ="cap1"
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "male_headgear_phrygian_hat_common_entity" }	
 }
 
 male_headgear_felt_hat_black = {

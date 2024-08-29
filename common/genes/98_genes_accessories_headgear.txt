@@ -1249,7 +1249,8 @@
 				index = 75
 
 				male = {
-					1 = male_headgear_phrygian_hat
+					1 = male_headgear_phrygian_hat_agitator
+					1 = male_headgear_phrygian_hat_common
 				}
 
 				female = {
@@ -1259,13 +1260,14 @@
 				girl = female
 			}
 			
-			brimmed_hat_variants = {
+			peasant_hat_variants = {
 				index = 76
 				male = {
 					1 = empty
 					1 = male_prop_straw_hat
 					1 = male_headgear_felt_hat_black
 					1 = male_headgear_felt_hat_brown
+					1 = male_headgear_phrygian_hat_common
 				}
 
 				female = {

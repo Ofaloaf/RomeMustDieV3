@@ -173,7 +173,7 @@
 		Oresteianus
 		Procopius Pompeius
 		Symmachus Septimius
-		Valerius
+		Valerius Virius
 	}	
 	
 	ethnicities = {

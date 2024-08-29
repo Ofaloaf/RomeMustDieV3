@@ -50,13 +50,13 @@
         }
     }
 	
-    european_agitator_headgear = {
+    phrygian_agitator_headgear = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = headgear
                 template = roman_phrygian_hat
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0 0.5 } # For only the red phrygian caps
             }
         }
         weight = {
@@ -72,6 +72,16 @@
 						is_interest_group_type = ig_landowners
 						has_ideology = ideology:ideology_royalist
 						has_ideology = ideology:ideology_humanitarian_royalist
+                        AND = {
+                            OR = {
+                                has_conservative_ideology = yes
+                                has_monarchist_ideology = yes
+                            }
+                            OR = {
+                                has_trait = literary
+                                has_trait = erudite
+                            }
+                        }
 					}
 				}
             }
@@ -83,7 +93,7 @@
             accessory = {
                 mode = add
                 gene = headgear
-                template = brimmed_hat_variants
+                template = peasant_hat_variants
                 range = { 0 1 } # For the randomness to work correctly
            
             } 
@@ -714,8 +724,8 @@
             accessory = {
                 mode = add
                 gene = headgear
-                template = brimmed_hat_variants
-                range = { 0 1 } # For the randomness to work correctly
+                template = peasant_hat_variants
+                range = { 0 0.8 } # omitting the phrygian cap
            
             } 
         }
