@@ -15,7 +15,7 @@
   state_trait_congo_river:0 "Congo River"
   state_trait_niger_river:0 "Niger River"
   state_trait_po_river: "Padus Fluvius"
-  state_trait_columbia_river: "Wimahl River" Columbia River, Upper Chinook name
+  state_trait_columbia_river: "Wimahl River" # Columbia River, Upper Chinook name
   state_trait_christianiafjorden: "Fold" # old norse name for Christianiafjorden/Oslofjorden
   state_trait_kongsberg_silver_mine: "Modumsberg" # Kongsberg is the King's Mountain. Kongsberg proper is in Buskerud flyke, which is named after a Bishop's Farm. That farm was in a place called Modum. Modumsberg.
   state_trait_lancashire_coalfield: "Minerae Setantiarum" # Mines of the Sentantii.

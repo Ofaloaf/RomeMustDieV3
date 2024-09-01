@@ -3933,17 +3933,39 @@ BUK_subject_GBR = {
 	}	
 }
 
-BUL = { # Bulgaria
-	# 1878
-	
+#BUL = { # Bulgaria
+#	# 1878
+#	
+#	pattern = "pattern_solid.tga"
+#	color1 = "white"
+#	
+#	colored_emblem = {
+#		texture = "ce_tricolor_horizontal.dds"
+#		color1 = "green"
+#		color2 = "red"
+#	}		
+#}
+
+BUL = { # Heptadic Union. Seven stripes for the Seven Slavic Tribes, in the order of Bulgaria's tricolor
 	pattern = "pattern_solid.tga"
 	color1 = "white"
-	
+	color2 = "green"
+	color3 = "red"
+
 	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
+		texture = "ce_solid.dds"
 		color1 = "green"
+		color2 = "green"
+		instance = { position = { 0.5 @[1/7*1.5] } scale = { 1.0 @[1/7] } }
+		instance = { position = { 0.5 @[1/7*4.5] } scale = { 1.0 @[1/7] } }
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "red"
 		color2 = "red"
-	}		
+		instance = { position = { 0.5 @[1/7*2.5] } scale = { 1.0 @[1/7] } }
+		instance = { position = { 0.5 @[1/7*5.5] } scale = { 1.0 @[1/7] } }
+	}
 }
 BUL_subject = {
 	pattern = "pattern_solid.tga"

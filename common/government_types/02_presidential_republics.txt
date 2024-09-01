@@ -54,6 +54,47 @@ gov_roman_dictatorship = {
 	}
 }
 
+gov_colonial_societas_presidential_dictatorial = {
+	transfer_of_power = dictatorial
+
+	male_ruler = "RULER_TITLE_SENIOR_PUBLICAN"
+	female_ruler = "RULER_TITLE_SENIOR_PUBLICAN"
+	
+	possible = {
+		OR = {
+			has_law = law_type:law_presidential_republic
+			has_law = law_type:law_parliamentary_republic
+		}
+		country_has_voting_franchise = no
+		c:CUB ?= this
+		is_subject = yes
+	}
+
+
+	on_government_type_change = {
+		change_to_dictatorial = yes
+	}
+}
+
+gov_colonial_societas_presidential_democratic = {
+	transfer_of_power = presidential_elective
+	new_leader_on_reform_government = yes
+
+	male_ruler = "RULER_TITLE_SENIOR_PUBLICAN"
+	female_ruler = "RULER_TITLE_SENIOR_PUBLICAN"
+	
+	possible = {
+		has_law = law_type:law_presidential_republic
+		country_has_voting_franchise = yes
+		c:CUB ?= this
+		is_subject = yes
+	}
+
+	on_government_type_change = {
+		change_to_presidential_elective = yes
+	}
+}
+
 gov_civitas = {
 	transfer_of_power = presidential_elective
 	new_leader_on_reform_government = yes

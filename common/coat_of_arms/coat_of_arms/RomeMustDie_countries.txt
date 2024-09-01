@@ -125,9 +125,10 @@ ERE = { # Eastern Roman Empire
 	}
 
 	colored_emblem = {
-		texture = "ce_chi_rho.dds"
+		texture = "ce_staurogram_tau_rho.dds"
 		color1 = "yellow"
 		color2 = "yellow"
+		instance = { scale = { 0.72 0.72 } position = { 0.5 0.5 } }
 	}
 }
 
@@ -1630,4 +1631,154 @@ RE4 = { # Roman Usurper State 04
 		color2 = "white"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
 	}
+}
+
+MZV = { # Masovia/Mazovia
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_eagle.dds"
+		color1 = "white"
+		color2 = "yellow"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}
+}
+
+ADB = { # Adiabene
+	pattern = "pattern_solid.tga"
+	color1 = "roman_red"
+
+	colored_emblem = {
+		texture = "ce_star_shamash.dds"
+		color1 = "white"
+		color2 = "white"
+	}
+}
+
+OSR = { # Osroene
+	pattern = "pattern_border_of_4.dds"
+	color1 = "white"
+	color2 = "purple"
+
+	colored_emblem = {
+		texture = "ce_star_04.dds"
+		color1 = "revolutionary_blue"
+		color2 = "revolutionary_blue"
+		instance = { scale = { 0.75 0.75 } position = { 0.5 0.5 } }
+	}
+}
+
+EGY_horus = { # Egypt
+	
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	color2 = "white"
+	
+	colored_emblem = {
+		texture = "ce_falcon_horus.dds"
+		color1 = "white"
+		color2 = "white"
+	}	
+}
+
+EGY_coptic = { # Egypt
+	pattern = "pattern_solid.tga"
+	color1 = "revolutionary_blue"
+	color2 = "white"
+	
+	colored_emblem = {
+		texture = "ce_border_compony.dds"
+		color1 = "revolutionary_blue"
+		color2 = "white"
+	}
+	
+	colored_emblem = {
+		texture = "ce_cross_coptic.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.85 0.85 } position = { 0.5 0.5 } }
+	}	
+}
+
+CUB_orientalium = { # Collegium Orientalium/Societas Orientalium Cubae
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "red"
+	color2 = "purple"
+	
+	colored_emblem = {
+		texture = "ce_border_compony_alpha.dds"
+		color1 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_letter_ck3_s.dds"
+		color1 = "white"
+		instance = { position = { 0.3 0.50 } scale = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_letter_ck3_o.dds"
+		color1 = "white"
+		instance = { position = { 0.50 0.50 } scale = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_letter_ck3_c.dds"
+		color1 = "white"
+		instance = { position = { 0.7 0.50 } scale = { 0.5 0.5 } }
+}
+
+CUB_orientalium_canton = { # Collegium Orientalium/Societas Orientalium Cubae
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "red"
+	color2 = "purple"
+	
+	colored_emblem = {
+		texture = "ce_letter_ck3_s.dds"
+		color1 = "white"
+		instance = { position = { 0.3 0.50 } scale = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_letter_ck3_o.dds"
+		color1 = "white"
+		instance = { position = { 0.50 0.50 } scale = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_letter_ck3_c.dds"
+		color1 = "white"
+		instance = { position = { 0.7 0.50 } scale = { 0.5 0.5 } }
+	}
+}
+
+CUB_orientalium_independent = {
+	# derived from the Bolivarist flag
+	
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.05 } }	
+		instance = { scale = { 1.0 0.1 } position = { 0.5 0.95 } }		
+		instance = { scale = { 0.066 1.0 } position = { 0.033 0.5 } }	
+		instance = { scale = { 0.066 1.0 } position = { 0.967 0.5 } }			
+	}
+	colored_emblem = {
+		texture = "ce_torch.dds"
+		color1 = "white"
+		color2 = "yellow"
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }
+	}	
+}
+
+CUB_orientalium_independent_canton = {	
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_torch.dds"
+		color1 = "white"
+		color2 = "yellow"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }
+	}	
 }

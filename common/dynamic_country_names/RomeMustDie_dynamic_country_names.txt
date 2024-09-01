@@ -456,14 +456,16 @@ HNN = { # huns
 
 CUB = {
 	dynamic_country_name = {
-		name = dyn_c_collegium_orientalium
-		adjective = dyn_c_collegium_orientalium_adj
-		use_overlord_prefix = yes
+		name = dyn_c_societas_orientalium_cubae
+		adjective = dyn_c_societas_orientalium_cubae_adj
+		use_overlord_prefix = no
 
 		is_main_tag_only = yes
 		priority = 0
 		
 		trigger = {
+			coa_def_republic_flag_trigger = yes
+			coa_def_communist_flag_trigger = no
 			coa_def_subject_trigger = yes
 		}
 	}
