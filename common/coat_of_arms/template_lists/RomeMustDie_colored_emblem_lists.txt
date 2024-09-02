@@ -1,0 +1,28 @@
+colored_emblem_texture_lists = {
+	roman_charges = {		
+		50 = "ce_chi_rho.dds"
+		50 = "ce_staurogram_tau_rho.dds"
+
+		50 = "ce_persian_bull.dds"
+		50 = "ce_persian_lion.dds"
+		50 = "ce_boar_passant.dds"
+		50 = "ce_bear_passant.dds"
+		50 = "ce_lion_head.dds"
+		50 = "ce_dove_passant.dds"		
+		25 = "ce_capricorn_02.dds"
+		50 = "ce_aurochs_head.dds"
+		50 = "ce_bull_head.dds"
+		50 = "ce_christogram_01.dds"
+		50 = "ce_christogram_02.dds"
+		50 = "ce_christogram_03.dds"
+		50 = "ce_cross_fourchee.dds"
+		50 = "ce_cross_pommee.dds"
+		50 = "ce_eagle_napoleonian.dds"
+		50 = "ce_eagle_head.dds"
+		50 = "ce_falcon.dds"
+		50 = "ce_golden_fishes.dds"
+		50 = "ce_horse.dds"
+		25 = "ce_labrys.dds"
+		50 = "ce_lightning_bolt.dds"
+	}
+}

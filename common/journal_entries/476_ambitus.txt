@@ -1,7 +1,9 @@
 ﻿je_crisis_of_illegitimacy = {
-	icon = "gfx/interface/icons/ideology_icons/jingoist_leader.dds"
+	icon = "gfx/interface/icons/ideology_icons/unused/jingoist_leader.dds"
+
+	group = je_group_internal_affairs
 	
-	scripted_button = caudillo_decree_button
+	#scripted_button = caudillo_decree_button
 
 	immediate = {
 		save_scope_as = caudillo_country_scope
@@ -19,7 +21,7 @@
 						has_trait = reckless
 					}
 				}
-				leader.popularity > ruler.popularity
+				leader.popularity > owner.ruler.popularity
 			}
 		}
 		custom_tooltip = {
@@ -29,7 +31,7 @@
 	}
 
 	on_complete = {
-		trigger_event = { id = roman_illegitimacy.2 popup = yes }
+		trigger_event = { id = fall_of_rome_events.2 popup = yes }
 		show_as_tooltip = {
 			ig:ig_armed_forces = {
 				remove_ideology = ideology_caudillismo
@@ -51,7 +53,7 @@
 	}
 
 	on_fail = {
-		trigger_event = { id = roman_illegitimacy.3 popup = yes } # No More Games
+		trigger_event = { id = fall_of_rome_events.3 popup = yes } # No More Games
 		custom_tooltip = crisis_of_illegitimacy_rome_dies
 	}
 
@@ -70,6 +72,15 @@
 			120 = 0 
 			10 = roman_illegitimacy.4
 			25 = roman_illegitimacy.6
+		}
+	}
+
+	on_yearly_pulse = {
+		random_events = {
+			70 = 0
+			30 = fall_of_rome_events.4 # Conflict of the Urban Orders
+			30 = fall_of_rome_events.7 # Language Reform?
+			30 = fall_of_rome_events.9 # Bagaudae Disturb State
 		}
 	}
 

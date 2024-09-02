@@ -61,6 +61,24 @@ DEFAULT = {
 			coa_def_communist_flag_trigger = yes
 		}
 	}
+	flag_definition = {
+		coa = list "roman_dynamic"
+		priority = 1
+		trigger = {
+			scope:actor ?= {
+				OR = {
+					has_variable = dynamic_roman_breakaway # probably covered by primary culture check but being sure
+					any_primary_culture = {
+						has_discrimination_trait = european_heritage
+						OR = {
+							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = greek_culture
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 ABS = { # Absaroka

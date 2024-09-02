@@ -4,6 +4,7 @@
 		c:RE2 ?= this
 		c:RE3 ?= this
 		c:RE4 ?= this
+		has_variable = dynamic_roman_breakaway
 	}
 }
 

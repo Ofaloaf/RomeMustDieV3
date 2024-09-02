@@ -1,0 +1,20 @@
+coat_of_arms_template_lists = {
+	roman_dynamic = {
+		50 = template_roman_1
+		25 = template_roman_2
+		25 = template_roman_3
+		25 = template_roman_4
+			
+		#special_selection = {
+		#	trigger = { 
+		#		any_primary_culture = {
+		#			OR = {				
+		#				has_discrimination_trait = european_heritage
+		#				has_discrimination_trait = central_asian_heritage
+		#			}
+		#		}
+		#	}
+		#	300 = template_communist_centered_stripe
+		#}		
+	}
+}

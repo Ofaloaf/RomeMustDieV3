@@ -505,555 +505,981 @@ fall_of_rome_events.100 = { #Split china up into warlord states
 	}
 }
 
-fall_of_rome_events.1 = { # Language Reform?
+# Crisis of Illegitimacy startup event
+fall_of_rome_events.1 = {
 	type = country_event
-	placement = root
-	duration = 3
-
+	placement = ROOT
+	
 	title = fall_of_rome_events.1.t
 	desc = fall_of_rome_events.1.d
 	flavor = fall_of_rome_events.1.f
-
+	
 	event_image = {
-		video = "southamerica_aristocrats"
+		video = "unspecific_politicians_arguing"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	icon = "gfx/interface/icons/event_icons/event_fire.dds"
-
+	icon = "gfx/interface/icons/ig_icons/armed_forces.dds"
+	
+	duration = 3
+	
 	trigger = {
-		NOT = { has_variable = roman_language_debate }
-		is_at_war = no
-		ig:ig_intelligentsia = { 
-			ig_clout >= 0.15 # The Intelligentsia does not need to be in government, there just have to be enough loud nerds around
-			leader = { NOT = { has_ideology = ideology:ideology_traditionalist } }
+		# triggered by generic monthly pulse
+
+		# can trigger for any Roman(tic) Empire. None of you are free of this curse.
+		country_tier = empire
+
+		any_primary_culture = {
+			# essentially the same as scripted trigger greco_roman_european_culture
+			has_discrimination_trait = european_heritage
+			OR = {
+				has_discrimination_trait = romance_speaker
+				has_discrimination_trait = greek_culture
+			}
+		}
+
+		#
+		NOT = { has_variable = caudillo_var }
+		legitimacy < 75
+		any_interest_group = {
+			is_powerful = yes
+			leader = {
+				is_ruler = no
+				has_role = general
+				OR = {
+					has_trait = ambitious
+					has_trait = reckless
+				}
+			}
+			leader.popularity > owner.ruler.popularity
 		}
 	}
 
 	immediate = {
-		set_variable = roman_language_debate
-	}
+		set_variable = {
+			name = caudillo_var
+			value = 0
+		}
+		set_variable = { 
+			name = caudillo_next 
+			value = 0 
+		}
+		save_scope_as = rome_on_the_edge
+		capital = {
+			save_scope_as = capital_scope
+		}
+		set_global_variable = { # ensures military presidents aren't replaced super early
+			name = continuismo_start_var
+			months = long_modifier_time
+		}
 
-	option = {
-		default_option = yes
-		name = fall_of_rome_events.1.a
-
-		every_interest_group = {
+		#ig:ig_armed_forces = {
+		#	save_scope_as = army_scope
+		#}
+		#random_scope_character = {
+		#	limit = {
+		#		has_role = general
+		#	}
+		#	save_scope_as = general_scope
+		#}
+		ordered_interest_group = {
 			limit = {
-				OR = {
-					is_interest_group_type = ig_intelligentsia
-
-					AND = {	# Book-smart leaders who aren't reactionary also have an opinion on language reform
-						NOT = { is_interest_group_type = ig_landowners }
-						leader = {
-							AND = {
-								NOT = { has_ideology = ideology:ideology_traditionalist }
-								OR = {
-									has_trait = erudite
-									has_ideology = ideology:ideology_reformer
-								}
-							}
-						}
-					}
-				}
-			}
-			add_modifier = {
-				name = rejecting_the_new
-				months = long_modifier_time
-			}
-		}
-		every_interest_group = {
-			limit = {
-				OR = {
-					is_interest_group_type = ig_landowners
-
-					AND = {	# Reactionaries have an opinion on language reform
-						NOT = { is_interest_group_type = ig_intelligentsia }
-						leader = {
-							has_ideology = ideology:ideology_traditionalist
-						}
-					}
-				}
-			}
-			add_modifier = {
-				name = embracing_the_old
-				months = long_modifier_time
-			}		
-		}
-		add_modifier = {
-			name = promoting_classical_latin
-			months = very_long_modifier_time
-		}
-	}
-
-	option = {
-		name = fall_of_rome_events.1.b
-
-		every_interest_group = {
-			limit = {
-				OR = {
-					is_interest_group_type = ig_intelligentsia
-
-					AND = {	# Book-smart leaders who aren't reactionary also have an opinion on language reform
-						NOT = { is_interest_group_type = ig_landowners }
-						leader = {
-							AND = {
-								NOT = { has_ideology = ideology:ideology_traditionalist }
-								OR = {
-									has_trait = erudite
-									has_ideology = ideology:ideology_reformer
-								}
-							}
-						}
-					}
-				}
-			}
-			add_modifier = {
-				name = embracing_the_new
-				months = long_modifier_time
-			}
-		}
-		every_interest_group = {
-			limit = {
-				OR = {
-					is_interest_group_type = ig_landowners
-
-					AND = {	# Reactionaries have an opinion on language reform
-						NOT = { is_interest_group_type = ig_intelligentsia }
-						leader = {
-							has_ideology = ideology:ideology_traditionalist
-						}
-					}
-				}
-			}
-			add_modifier = {
-				name = rejecting_the_old
-				months = long_modifier_time
-			}		
-		}
-		add_modifier = {
-			name = promoting_the_vulgar_tongue
-			months = very_long_modifier_time
-		}
-	}
-
-	option = {
-		name = fall_of_rome_events.1.c
-		highlighted_option = yes
-
-		trigger = {
-			institution_investment_level = {
-				institution = institution_schools
-				value > 1
-			}
-		}
-
-		every_interest_group = {
-			limit = {
+				is_powerful = yes
 				leader = {
-					NOT = { has_ideology = ideology:ideology_positivist }
+					is_ruler = no
 					OR = {
-						has_ideology = ideology:ideology_traditionalist
-						has_trait = erudite
+						has_trait = ambitious
+						has_trait = reckless
 					}
 				}
+				leader.popularity > ruler.popularity
 			}
-			add_modifier = {
-				name = classicist_enthusiasm
-				months = long_modifier_time
-			}
-		}
-
-		every_interest_group = {	# STEMlords angry about liberal arts funding
-			limit = {
-				leader = {
-					has_ideology = ideology:ideology_positivist
-				}
-			}
-			add_modifier = {
-				name = overemphasis_on_liberal_arts
-				months = long_modifier_time
+			order_by = ig_clout
+			save_scope_as = ambitus_ig
+			leader = {
+				save_scope_as = ambitus_ig_leader
+				set_variable = ambitus_ig_leader_tracked
 			}
 		}
-
-		add_modifier = {
-			name = classical_coursework
-			months = very_long_modifier_time
+	}
+	option = { 
+		name = fall_of_rome_events.1.a
+		default_option = yes
+		add_journal_entry = { type = je_crisis_of_illegitimacy }
+		if = { 
+			limit = {	# democratic states will have an easier start
+				country_has_voting_franchise = yes
+			}
+			custom_tooltip = roman_illegitimacy_democratic_institutions_good
+			change_variable = {
+				name = caudillo_var
+				add = 400
+			}
+		}
+		else = {
+			change_variable = {
+				name = caudillo_var
+				add = 600
+			}
 		}
 	}
 }
 
-fall_of_rome_events.2 = { # The Great Apostasy
+# Return of Legitimacy
+fall_of_rome_events.2 = {
 	type = country_event
-	placement = root
-	duration = 3
-
+	placement = ROOT
+	
 	title = fall_of_rome_events.2.t
 	desc = fall_of_rome_events.2.d
 	flavor = fall_of_rome_events.2.f
-
+	
 	event_image = {
-		video = "votp_hostile_court"
+		video = "unspecific_military_parade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/ig_icons/armed_forces.dds"
+	
+	duration = 3
+	
+	trigger = {
+		# triggered by je_caudillo
+	}
+
+	immediate = {
+		ordered_interest_group = {
+			limit = {
+				is_powerful = yes
+			}
+			order_by = ig_clout
+			save_scope_as = most_powerful_ig
+			leader = {
+				save_scope_as = most_powerful_ig_leader
+			}
+		}
+	}
+	option = { 
+		name = fall_of_rome_events.2.a
+		default_option = yes
+
+		remove_modifier = age_of_caudillos_modifier
+	}
+}
+
+# No More Games - based off caudillo.3, the Fist Clenches
+fall_of_rome_events.3 = {
+	type = country_event
+	placement = ROOT
+	
+	title = fall_of_rome_events.3.t
+	desc = fall_of_rome_events.3.d
+	flavor = fall_of_rome_events.3.f
+	
+	event_image = {
+		texture = "fall_of_rome"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
 	icon = "gfx/interface/icons/event_icons/event_fire.dds"
-
-	# triggered by decision
+	
+	duration = 3
+	
+	trigger = {
+		# triggered by je_crisis_of_illegitimacy
+	}
 
 	immediate = {
+		capital = {
+			save_scope_as = capital_scope
+		}
 		ruler = {
-			save_scope_as = insane_ruler
+			save_scope_as = main_character
 		}
-		ig:ig_devout.leader = {
-			save_scope_as = devout_leader
+		ordered_interest_group = {
+			limit = {
+				is_powerful = yes
+				#leader = {
+				#	is_ruler = no
+				#	OR = {
+				#		has_trait = ambitious
+				#		has_trait = reckless
+				#	}
+				#}
+				#leader.popularity > ruler.popularity
+			}
+			order_by = ig_clout
+			save_scope_as = ambitus_ig
+			leader = {
+				save_scope_as = ambitus_ig_leader
+			}
 		}
 	}
-	
-	cancellation_trigger = {
-		NOT = {
-			exists = scope:insane_ruler
-		}
-	}
-
-	option = {
+	option = { 
+		name = fall_of_rome_events.3.a
 		default_option = yes
-		name = fall_of_rome_events.2.a
-		
-		scope:insane_ruler = {
-			kill_character = yes
+		hidden_effect = {
+			remove_modifier = age_of_caudillos_modifier
 		}
-	}
-	
-	option = {
-		name = fall_of_rome_events.2.b
-		
-		scope:insane_ruler = {
+
+
+		every_subject_or_below = {
+			limit = {
+				NOT = { any_overlord_or_above = { NOT = { ROOT = this } } }
+				NOT = { is_subject_type = subject_type_personal_union }
+			}
+			make_independent = yes
+		}
+
+		# empire becomes a kingdom. couple of specific tag changes, then going for dynamics
+		if = {
+			limit = {
+				capital = {
+					region = sr:region_italy
+				}
+				NOT = { exists = c:ITA }
+			}
+			change_tag = ITA
+		}
+		else_if = {
+			limit = {
+				capital = {
+					region = sr:region_balkans
+				}
+				NOT = { exists = c:ILY }
+			}
+			change_tag = ILY
+		}
+		else_if = {
+			limit = {
+				capital = {
+					region = sr:region_north_africa
+				}
+				NOT = { exists = c:AFR }
+			}
+			change_tag = AFR
+		}
+		else_if = {
+			limit = {
+				capital = {
+					region = sr:region_occitania
+				}
+				NOT = { exists = c:SPT }
+			}
+			change_tag = SPT
+		}
+		else_if = {
+			limit = {
+				capital = {
+					state_region = s:STATE_PICARDY
+				}
+				NOT = { exists = c:SOI }
+			}
+			change_tag = SOI
+		}
+		else_if = {
+			limit = {
+				capital = {
+					region = sr:region_thracia
+				}
+				NOT = { exists = c:GRE }
+			}
+			change_tag = GRE
+		}
+		# dynamics
+		else_if = {
+			limit = {
+				NOT = { exists = c:RE1 }
+			}
+			change_tag = RE1
+		}
+		else_if = {
+			limit = {
+				NOT = { exists = c:RE2 }
+			}
+			change_tag = RE2
+		}
+		else_if = {
+			limit = {
+				NOT = { exists = c:RE3 }
+			}
+			change_tag = RE3
+		}
+		else_if = {
+			limit = {
+				NOT = { exists = c:RE4 }
+			}
+			change_tag = E4
+		}
+
+		hidden_effect = {
+			scope:main_character = {
+				kill_character = yes
+			}
+		}
+		scope:ambitus_ig_leader = {
+			set_character_as_ruler = yes
+		}
+
+		### Implosion outside the Imperial Core for whatever's left
+		hidden_effect = {
+
+			# Italy implodes if capital not in Italy #
 			if = {
 				limit = {
-					scope:insane_ruler.interest_group = {
-						is_interest_group_type = ig_devout
+					capital = {
+						NOT = { region = sr:region_italy }
 					}
-				}
-				add_modifier = {
-					name = the_apostate_but_worse
-					months = -1
-				}
-			}
-			else = {
-				add_modifier = {
-					name = the_apostate
-					months = -1
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = fall_of_rome_events.2.c
-		
-		random_list = {
-			50 = {
-				scope:insane_ruler = {
-					kill_character = yes
-				}
-			}
-			50 = {
-				scope:insane_ruler = {
-					remove_trait = psychological_affliction
 				}
 				if = {
-					limit = {
-						scope:insane_ruler = { has_trait = pious }
+					limit = { 
+						NOT = { exists = c:SIC }
+						any_scope_state = { state_region = s:STATE_SICILY }
 					}
-					custom_tooltip = {
-						text = fall_of_rome_events.2.c.tt # The ruler's faith has been shattered by this ordeal.
-						scope:insane_ruler = {
-							remove_trait = pious 
+					random_scope_state = { 
+						limit = { state_region = s:STATE_SICILY } 
+						save_temporary_scope_as = sicilian_state
+					}
+					create_country = {
+						tag = SIC
+						origin = this
+						state = scope:sicilian_state
+						on_created = {
+							warlord_setup_effect = yes
+						}
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:MDL }
+						any_scope_state = { state_region = s:STATE_LOMBARDY }
+					}
+					random_scope_state = { 
+						limit = { state_region = s:STATE_LOMBARDY } 
+						save_temporary_scope_as = lombardy_state
+					}
+					create_country = {
+						tag = MDL
+						origin = this
+						state = scope:lombardy_state
+						on_created = {
+							warlord_setup_effect = yes
+						}
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:ITA }
+						any_scope_state = { region = sr:region_italy }
+					}
+					random_scope_state = { 
+						limit = { region = sr:region_italy } 
+						save_temporary_scope_as = italian_state
+					}
+					create_country = {
+						tag = ITA
+						origin = this
+						state = scope:italian_state
+						on_created = {
+						}
+					}
+					if = {
+						limit = { exists = c:ITA}
+						every_scope_state = {
+							limit = {
+								region = sr:region_italy
+							}
+							set_state_owner = c:ITA
+						}
+					}
+				}
+			}
+			# Illyricum implodes if capital not in Balkans #
+			if = {
+				limit = {
+					capital = {
+						NOT = { region = sr:region_balkans }
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:ALB }
+						any_scope_state = { state_region = s:STATE_ALBANIA }
+					}
+					random_scope_state = { 
+						limit = { state_region = s:STATE_ALBANIA } 
+						save_temporary_scope_as = albania_state
+					}
+					create_country = {
+						tag = ALB
+						origin = this
+						state = scope:albania_state
+						on_created = {
+						}
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:ILY }
+						any_scope_state = { region = sr:region_balkans }
+					}
+					random_scope_state = { 
+						limit = { region = sr:region_balkans } 
+						save_temporary_scope_as = balkan_state
+					}
+					create_country = {
+						tag = ILY
+						origin = this
+						state = scope:balkan_state
+						on_created = {
+						}
+					}
+					if = {
+						limit = { exists = c:ILY }
+						every_scope_state = {
+							limit = {
+								region = sr:region_balkans
+							}
+							set_state_owner = c:ILY
+						}
+					}
+				}
+			}
+			# Gaul implodes if capital not in Gallia #
+			if = {
+				limit = {
+					capital = {
+						NOR = { 
+							region = sr:region_france
+							region = sr:region_occitania
+						}
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:GTH }
+						any_scope_state = { state_region = s:STATE_LANGUEDOC }
+					}
+					random_scope_state = { 
+						limit = { state_region = s:STATE_LANGUEDOC } 
+						save_temporary_scope_as = languedoc_state
+					}
+					create_country = {
+						tag = GTH
+						origin = this
+						state = scope:languedoc_state
+						on_created = {
+						}
+					}
+					if = {
+						limit = { exists = c:GTH }
+						every_scope_state = {
+							limit = { state_region = { is_homeland = cu:gothic } }
+							set_state_owner = c:GTH
+						}
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:BGN }
+						any_scope_state = { state_region = s:STATE_WEST_SWITZERLAND }
+					}
+					random_scope_state = { 
+						limit = { state_region = s:STATE_WEST_SWITZERLAND } 
+						save_temporary_scope_as = west_switzerland_state
+					}
+					create_country = {
+						tag = BGN
+						origin = this
+						state = scope:west_switzerland_state
+						on_created = {
+						}
+					}
+					if = {
+						limit = { exists = c:BGN }
+						every_scope_state = {
+							limit = { 
+								state_region = { 
+									OR = { 
+										is_homeland = cu:burgundian 
+										s:STATE_SAVOY = this # i just want pretty borders
+									} 
+								}
+							}
+							set_state_owner = c:BGN
+						}
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:BRI }
+						any_scope_state = { state_region = s:STATE_BRITTANY }
+					}
+					random_scope_state = { 
+						limit = { state_region = s:STATE_BRITTANY } 
+						save_temporary_scope_as = britanny_state
+					}
+					create_country = {
+						tag = BRI
+						origin = this
+						state = scope:britanny_state
+						on_created = {
+						}
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:SOI }
+						any_scope_state = { state_region = s:STATE_PICARDY }
+					}
+					random_scope_state = { 
+						limit = { state_region = s:STATE_PICARDY } 
+						save_temporary_scope_as = soissons_state
+					}
+					create_country = {
+						tag = SOI
+						origin = this
+						state = scope:soissons_state
+						on_created = {
+						}
+					}
+					if = {
+						limit = { exists = c:SOI }
+						every_scope_state = {
+							limit = {
+								OR = {
+									region = sr:region_france
+									region = sr:region_rhine
+								}
+							}
+							set_state_owner = c:SOI
+						}
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:SPT }
+						any_scope_state = { region = sr:region_occitania }
+					}
+					random_scope_state = { 
+						limit = { region = sr:region_occitania } 
+						save_temporary_scope_as = septimania_state
+					}
+					create_country = {
+						tag = SPT
+						origin = this
+						state = scope:septimania_state
+						on_created = {
+						}
+					}
+					if = {
+						limit = { exists = c:SPT }
+						every_scope_state = {
+							limit = {
+								region = sr:region_occitania
+							}
+							set_state_owner = c:SPT
+						}
+					}
+				}
+				if = {
+					limit = { 
+						any_scope_state = { 
+							OR = {
+								region = sr:region_france
+								region = sr:region_occitania
+								region = sr:region_rhine
+							}
+							is_capital = no
+						}
+					}
+					random_scope_state = { 
+						limit = { 
+							OR = {
+								region = sr:region_france
+								region = sr:region_occitania
+								region = sr:region_rhine
+							}
+							is_capital = no
+						} 
+						save_temporary_scope_as = gallic_state
+					}
+					create_dynamic_country = {
+						origin = this
+						tier = kingdom
+						culture = cu:gallic
+						capital = scope:gallic_state
+						cede_state_trigger = {
+							owner = ROOT 
+							OR = {
+								region = sr:region_france
+								region = sr:region_occitania
+								region = sr:region_rhine
+							}
+						}
+						on_created = {
+							set_variable = dynamic_roman_breakaway
+							if = {
+								limit = {
+									capital = {
+										state_region = { is_homeland = cu:septimanian }
+									}
+								}
+								add_primary_culture = cu:septimanian
+							}
+						}
+					}
+				}
+			}
+			# Hispania implodes if capital not in Hispania #
+			if = {
+				limit = {
+					capital = {
+						NOT = { region = sr:region_iberia }
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:LST }
+						any_scope_state = { 
+							OR = {
+								state_region = s:STATE_BADAJOZ
+								state_region = s:STATE_BEIRA
+								state_region = s:STATE_ESTREMADURA
+								state_region = s:STATE_ALENTEJO
+								state_region = s:STATE_MADEIRA
+							}
+							is_capital = no # covering bases in case somehow the capital is in madeira
+						}
+					}
+					random_scope_state = { 
+						limit = {
+							OR = {
+								state_region = s:STATE_BADAJOZ
+								state_region = s:STATE_BEIRA
+								state_region = s:STATE_ESTREMADURA
+								state_region = s:STATE_ALENTEJO
+								state_region = s:STATE_MADEIRA
+							}
+							is_capital = no
+						} 
+						save_temporary_scope_as = lusitania_state
+					}
+					create_country = {
+						tag = LST
+						origin = this
+						state = scope:lusitania_state
+						on_created = {
+						}
+					}
+					if = {
+						limit = { exists = c:LST }
+						every_scope_state = {
+							limit = {
+								OR = {
+									state_region = s:STATE_BADAJOZ
+									state_region = s:STATE_BEIRA
+									state_region = s:STATE_ESTREMADURA
+									state_region = s:STATE_ALENTEJO
+									state_region = s:STATE_MADEIRA
+								}
+							}
+							set_state_owner = c:LST
+						}
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:NAV }
+						any_scope_state = { state_region = s:STATE_NAVARRA }
+					}
+					random_scope_state = { 
+						limit = { state_region = s:STATE_NAVARRA } 
+						save_temporary_scope_as = navarra_state
+					}
+					create_country = {
+						tag = NAV
+						origin = this
+						state = scope:navarra_state
+						on_created = {
+						}
+					}
+				}
+				if = {
+					limit = { 
+						any_scope_state = { 
+							region = sr:region_iberia
+							is_capital = no
+						}
+					}
+					random_scope_state = { 
+						limit = { 
+							region = sr:region_iberia
+							is_capital = no
+						} 
+						save_temporary_scope_as = hispania_state
+					}
+					create_dynamic_country = {
+						origin = this
+						tier = kingdom
+						culture = cu:hispanian
+						capital = scope:hispania_state
+						cede_state_trigger = {
+							region = sr:region_iberia
+						}
+						color = { 166 123 191 }
+						on_created = {
+							set_variable = dynamic_roman_breakaway
+							save_temporary_scope_as = dynamic_hispania
+						}
+					}
+				}
+			}
+
+			# North Africa implodes if capital not in North Africa #
+			if = {
+				limit = {
+					capital = {
+						NOT = { region = sr:region_north_africa }
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:AFR }
+						any_scope_state = { region = sr:region_north_africa }
+					}
+					random_scope_state = { 
+						limit = { region = sr:region_north_africa } 
+						save_temporary_scope_as = african_state
+					}
+					create_country = {
+						tag = AFR
+						origin = this
+						state = scope:african_state
+						on_created = {
+						}
+					}
+					if = {
+						limit = { exists = c:AFR }
+						every_scope_state = {
+							limit = {
+								region = sr:region_north_africa
+								is_capital = no
+							}
+							set_state_owner = c:AFR
+						}
+					}
+				}
+				else = {
+					random_scope_state = { 
+						limit = { region = sr:region_north_africa } 
+						save_temporary_scope_as = african_state
+					}
+					create_dynamic_country = {
+						origin = this
+						tier = kingdom
+						culture = cu:africanu
+						capital = scope:african_state
+						cede_state_trigger = {
+							owner = ROOT
+							region = sr:region_north_africa
+						}
+						on_created = {
+							set_variable = dynamic_roman_breakaway
+						}
+					}
+				}
+			}
+
+			# THE EASTERN EMPIRE #
+			if = {
+				limit = {
+					capital = {
+						NOT = { region = sr:region_thracia }
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:MSL }
+						any_scope_state = { 
+							region = sr:region_thracia 
+							state_region = {
+								OR = {
+									is_homeland = cu:serb
+									is_homeland = cu:sclaveni
+								}
+							}
+						}
+					}
+					random_scope_state = { 
+						limit = { 
+							region = sr:region_thracia 
+							state_region = {
+								OR = {
+									is_homeland = cu:serb
+									is_homeland = cu:sclaveni
+								}
+							}
+						} 
+						save_temporary_scope_as = sklavinia_state
+					}
+					create_country = {
+						tag = MSL
+						origin = this
+						state = scope:sklavinia_state
+						on_created = {
+						}
+					}
+					if = {
+						limit = { exists = c:MSL }
+						every_scope_state = {
+							limit = {
+								region = sr:region_thracia
+								state_region = {
+									OR = {
+										is_homeland = cu:serb
+										is_homeland = cu:sclaveni
+									}
+								}
+								is_capital = no
+							}
+							set_state_owner = c:MSL
+						}
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:GRE }
+						any_scope_state = { region = sr:region_thracia }
+					}
+					random_scope_state = { 
+						limit = { region = sr:region_thracia } 
+						save_temporary_scope_as = greek_state
+					}
+					create_country = {
+						tag = GRE
+						origin = this
+						state = scope:greek_state
+						on_created = {
+							if = {
+								limit = {
+									NOT = { country_has_primary_culture = cu:greek }
+								}
+								add_primary_culture = cu:greek
+							}
+						}
+					}
+					if = {
+						limit = { exists = c:GRE }
+						every_scope_state = {
+							limit = {
+								region = sr:region_thracia
+								is_capital = no
+							}
+							set_state_owner = c:GRE
+						}
+					}
+				}
+			}
+
+			# Cyprus is just doing its thing, man #
+			if = {
+				limit = { 
+					NOT = { exists = c:CYP }
+					any_scope_state = { state_region = s:STATE_CYPRUS }
+				}
+				random_scope_state = { 
+					limit = { state_region = s:STATE_CYPRUS } 
+					save_temporary_scope_as = cyprus_state
+				}
+				create_country = {
+					tag = CYP
+					origin = this
+					state = scope:cyprus_state
+					on_created = {
+					}
+				}
+			}
+
+			# Syria breaks free if capital not in the East #
+			if = {
+				limit = {
+					capital = {
+						NOT = { region = sr:region_arabic }
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:SYR }
+						any_scope_state = { region = sr:region_arabic }
+					}
+					random_scope_state = { 
+						limit = { region = sr:region_arabic } 
+						save_temporary_scope_as = oriens_state
+					}
+					create_country = {
+						tag = SYR
+						origin = this
+						state = scope:oriens_state
+						on_created = {
+							set_variable = syria_oriens
+							add_primary_culture = cu:greek
+							add_primary_culture = cu:assyrian
+						}
+					}
+					if = {
+						limit = { exists = c:SYR }
+						every_scope_state = {
+							limit = {
+								region = sr:region_arabic
+								is_capital = no
+							}
+							set_state_owner = c:SYR
+						}
+					}
+				}
+			}
+			# Egypt breaks free if capital not in Egypt #
+			if = {
+				limit = {
+					capital = {
+						NOT = { region = sr:region_nile_basin }
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:EGY }
+						any_scope_state = { region = sr:region_nile_basin }
+					}
+					random_scope_state = { 
+						limit = { region = sr:region_nile_basin } 
+						save_temporary_scope_as = egyptian_state
+					}
+					create_country = {
+						tag = EGY
+						origin = this
+						state = scope:egyptian_state
+						on_created = {
+						}
+					}
+					if = {
+						limit = { exists = c:EGY }
+						every_scope_state = {
+							limit = {
+								region = sr:region_nile_basin
+								is_capital = no
+							}
+							set_state_owner = c:EGY
 						}
 					}
 				}
 			}
 		}
 	}
-		
-	option = {
-		name = fall_of_rome_events.2.dd
-		highlighted_option = yes
-		trigger = {
-			ig:ig_devout = {
-				leader = {
-					OR = {
-						has_trait = charismatic
-						has_trait = experienced_diplomat
-						has_trait = masterful_diplomat
-						has_trait = inspirational_orator
-						has_trait = demagogue
-						has_trait = firebrand
-					}
-					is_ruler = no
-				}
-			}
-			hidden_trigger = {
-				scope:insane_ruler.interest_group = {
-					NOR = { 
-						is_interest_group_type = ig_industrialists 
-						is_interest_group_type = ig_intelligentsia
-					}
-				}
-			}
-		}
-		
-		scope:insane_ruler = {
-			if = {
-				limit = { NOT = { has_ideology = ideology:ideology_theocrat } }
-				set_ideology = ideology:ideology_theocrat
-			}
-			remove_trait = psychological_affliction
-			if = {
-				limit = {
-					scope:insane_ruler = { NOT = { has_trait = pious } }
-				}
-				add_trait = pious
-			}
-		}
-	}
 }
-
-fall_of_rome_events.3 = { # Bagaudae Disturbances
-	type = country_event
-	placement = scope:bagaudae_state
-	duration = 3
-	
-	cooldown = { months = short_modifier_time }
-
-	title = fall_of_rome_events.3.t
-	desc = fall_of_rome_events.3.d
-	flavor = fall_of_rome_events.3.f
-
-	event_image = {
-		video = "unspecific_devastation"
-	}
-
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-
-	icon = "gfx/interface/icons/event_icons/event_fire.dds"
-
-	trigger = {
-		ruler.interest_group = {
-			NOR = { 
-				has_modifier = ruler_prioritizes_imperial_politics 
-				has_modifier = ruler_disinterest_in_imperial_politics
-			}
-		}
-		capital.region = {
-			save_temporary_scope_as = temp_capital_region
-		}
-		any_scope_state = {	# the event must occur in the provinces, away from the metropole
-			is_capital = no
-			NOT = {
-				region = scope:temp_capital_region
-				OR = {
-					has_modifier = bagaudic_unrest
-					has_modifier = suppressing_the_bagaudae
-				}
-			}
-			total_urbanization < 6
-		}
-	}
-
-	immediate = {
-		ruler = {
-			save_scope_as = main_character
-			interest_group = {
-				save_scope_as = main_character_ig
-			}
-		}
-		capital.region = {
-			save_scope_as = capital_region
-		}
-		random_scope_state = {
-			limit = {
-				is_capital = no
-				NOT = {
-					region = scope:capital_region
-					OR = {
-						has_modifier = bagaudic_unrest
-						has_modifier = suppressing_the_bagaudae
-					}
-				}
-				total_urbanization < 6
-			}
-			save_scope_as = bagaudae_state
-		}
-	}
-	
-	cancellation_trigger = {
-		NOT = {
-			exists = scope:bagaudae_state
-		}
-	}
-
-	option = {
-		name = fall_of_rome_events.3.a # stay at court
-		default_option = yes
-		
-		ai_chance = {
-			base = 1
-			modifier = {
-				scope:main_character = {
-					OR = {
-						has_trait = master_bureaucrat
-						has_trait = basic_political_operator
-						has_trait = experienced_political_operator
-						has_trait = expert_political_operator
-					}
-				}
-				add = 10
-			}
-			modifier = {
-				scope:main_character = {
-					OR = {
-						has_role = general
-						has_trait = brave
-						has_trait = traditionalist_commander
-						has_trait = popular_commander
-						has_trait = celebrity_commander
-					}
-				}
-				add = -1
-			}
-		}
-		
-		scope:main_character_ig = {
-			add_modifier = {
-				name = ruler_prioritizes_imperial_politics
-				months = normal_modifier_time
-			}
-		}
-		
-		if = {
-			limit = {
-				country_has_voting_franchise = yes
-			}
-			custom_tooltip = fall_of_rome_events_3_let_local_reps_handle_it
-			scope:bagaudae_state = {
-				add_modifier = {
-					name = bagaudic_unrest
-					months = normal_modifier_time
-					multiplier = 0.5
-				}
-			}
-		}
-		else = {
-			scope:bagaudae_state = {
-				add_modifier = {
-					name = bagaudic_unrest
-					months = normal_modifier_time
-				}
-			}
-		}
-		
-		if = {
-			limit = {
-				scope:main_character = {
-					OR = {
-						has_role = general
-						has_trait = brave
-						has_trait = traditionalist_commander
-						has_trait = popular_commander
-						has_trait = celebrity_commander
-					}
-				}
-			}
-			custom_tooltip = did_not_meet_expectations_FoRE3_stayed_at_home
-			scope:main_character = {
-				refused_to_do_what_was_expected_effect = yes
-			}
-		}
-	}
-	
-	option = {
-		name = fall_of_rome_events.3.b # go to the troublesome province
-		
-		ai_chance = {
-			base = 1
-			modifier = {
-				scope:main_character = {
-					OR = {
-						has_role = general
-						has_trait = brave
-						has_trait = traditionalist_commander
-						has_trait = popular_commander
-						has_trait = celebrity_commander
-					}
-				}
-				add = 10
-			}
-			modifier = {
-				scope:main_character = {
-					OR = {
-						has_trait = master_bureaucrat
-						has_trait = basic_political_operator
-						has_trait = experienced_political_operator
-						has_trait = expert_political_operator
-					}
-				}
-				add = -1
-			}
-		}
-		
-		if = {
-			limit = {
-				country_has_voting_franchise = yes
-			}
-			custom_tooltip = fall_of_rome_events_3_fellow_partisans_mitigate_neglect
-			scope:main_character_ig = {
-				add_modifier = {
-					name = ruler_disinterest_in_imperial_politics
-					months = normal_modifier_time
-					multiplier = 0.5
-				}
-			}
-		}
-		else = {
-			scope:main_character_ig = {
-				add_modifier = {
-					name = ruler_disinterest_in_imperial_politics
-					months = normal_modifier_time
-					multiplier = 0.5
-				}
-			}
-		}
-		
-		scope:bagaudae_state = {
-			add_modifier = {
-				name = suppressing_the_bagaudae
-				months = normal_modifier_time
-			}
-		}
-		
-		if = {
-			limit = {
-				scope:main_character = {
-					OR = {
-						has_trait = master_bureaucrat
-						has_trait = basic_political_operator
-						has_trait = experienced_political_operator
-						has_trait = expert_political_operator
-					}
-				}
-			}
-			custom_tooltip = did_not_meet_expectations_FoRE3_went_away
-			scope:main_character = {
-				refused_to_do_what_was_expected_effect = yes
-			}
-		}
-	}
-}
-
 
 fall_of_rome_events.4 = { # Conflict of the Urban Orders in State
 	type = country_event
@@ -1832,3 +2258,553 @@ fall_of_rome_events.6 = {
 		}
 	}
 }
+
+fall_of_rome_events.7 = { # Language Reform?
+	type = country_event
+	placement = root
+	duration = 3
+
+	title = fall_of_rome_events.7.t
+	desc = fall_of_rome_events.7.d
+	flavor = fall_of_rome_events.7.f
+
+	event_image = {
+		video = "southamerica_aristocrats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+
+	trigger = {
+		NOT = { has_variable = roman_language_debate }
+		is_at_war = no
+		ig:ig_intelligentsia = { 
+			ig_clout >= 0.15 # The Intelligentsia does not need to be in government, there just have to be enough loud nerds around
+			leader = { NOT = { has_ideology = ideology:ideology_traditionalist } }
+		}
+	}
+
+	immediate = {
+		set_variable = roman_language_debate
+	}
+
+	option = {
+		default_option = yes
+		name = fall_of_rome_events.7.a
+
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_intelligentsia
+
+					AND = {	# Book-smart leaders who aren't reactionary also have an opinion on language reform
+						NOT = { is_interest_group_type = ig_landowners }
+						leader = {
+							AND = {
+								NOT = { has_ideology = ideology:ideology_traditionalist }
+								OR = {
+									has_trait = erudite
+									has_ideology = ideology:ideology_reformer
+								}
+							}
+						}
+					}
+				}
+			}
+			add_modifier = {
+				name = rejecting_the_new
+				months = long_modifier_time
+			}
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_landowners
+
+					AND = {	# Reactionaries have an opinion on language reform
+						NOT = { is_interest_group_type = ig_intelligentsia }
+						leader = {
+							has_ideology = ideology:ideology_traditionalist
+						}
+					}
+				}
+			}
+			add_modifier = {
+				name = embracing_the_old
+				months = long_modifier_time
+			}		
+		}
+		add_modifier = {
+			name = promoting_classical_latin
+			months = very_long_modifier_time
+		}
+	}
+
+	option = {
+		name = fall_of_rome_events.7.b
+
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_intelligentsia
+
+					AND = {	# Book-smart leaders who aren't reactionary also have an opinion on language reform
+						NOT = { is_interest_group_type = ig_landowners }
+						leader = {
+							AND = {
+								NOT = { has_ideology = ideology:ideology_traditionalist }
+								OR = {
+									has_trait = erudite
+									has_ideology = ideology:ideology_reformer
+								}
+							}
+						}
+					}
+				}
+			}
+			add_modifier = {
+				name = embracing_the_new
+				months = long_modifier_time
+			}
+		}
+		every_interest_group = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_landowners
+
+					AND = {	# Reactionaries have an opinion on language reform
+						NOT = { is_interest_group_type = ig_intelligentsia }
+						leader = {
+							has_ideology = ideology:ideology_traditionalist
+						}
+					}
+				}
+			}
+			add_modifier = {
+				name = rejecting_the_old
+				months = long_modifier_time
+			}		
+		}
+		add_modifier = {
+			name = promoting_the_vulgar_tongue
+			months = very_long_modifier_time
+		}
+	}
+
+	option = {
+		name = fall_of_rome_events.7.c
+		highlighted_option = yes
+
+		trigger = {
+			institution_investment_level = {
+				institution = institution_schools
+				value > 1
+			}
+		}
+
+		every_interest_group = {
+			limit = {
+				leader = {
+					NOT = { has_ideology = ideology:ideology_positivist }
+					OR = {
+						has_ideology = ideology:ideology_traditionalist
+						has_trait = erudite
+					}
+				}
+			}
+			add_modifier = {
+				name = classicist_enthusiasm
+				months = long_modifier_time
+			}
+		}
+
+		every_interest_group = {	# STEMlords angry about liberal arts funding
+			limit = {
+				leader = {
+					has_ideology = ideology:ideology_positivist
+				}
+			}
+			add_modifier = {
+				name = overemphasis_on_liberal_arts
+				months = long_modifier_time
+			}
+		}
+
+		add_modifier = {
+			name = classical_coursework
+			months = very_long_modifier_time
+		}
+	}
+}
+
+fall_of_rome_events.8 = { # The Great Apostasy
+	type = country_event
+	placement = root
+	duration = 3
+
+	title = fall_of_rome_events.8.t
+	desc = fall_of_rome_events.8.d
+	flavor = fall_of_rome_events.8.f
+
+	event_image = {
+		video = "votp_hostile_court"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+
+	# triggered by decision
+
+	immediate = {
+		ruler = {
+			save_scope_as = insane_ruler
+		}
+		ig:ig_devout.leader = {
+			save_scope_as = devout_leader
+		}
+	}
+	
+	cancellation_trigger = {
+		NOT = {
+			exists = scope:insane_ruler
+		}
+	}
+
+	option = {
+		default_option = yes
+		name = fall_of_rome_events.8.a
+		
+		scope:insane_ruler = {
+			kill_character = yes
+		}
+	}
+	
+	option = {
+		name = fall_of_rome_events.8.b
+		
+		scope:insane_ruler = {
+			if = {
+				limit = {
+					scope:insane_ruler.interest_group = {
+						is_interest_group_type = ig_devout
+					}
+				}
+				add_modifier = {
+					name = the_apostate_but_worse
+					months = -1
+				}
+			}
+			else = {
+				add_modifier = {
+					name = the_apostate
+					months = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = fall_of_rome_events.8.c
+		
+		random_list = {
+			50 = {
+				scope:insane_ruler = {
+					kill_character = yes
+				}
+			}
+			50 = {
+				scope:insane_ruler = {
+					remove_trait = psychological_affliction
+				}
+				if = {
+					limit = {
+						scope:insane_ruler = { has_trait = pious }
+					}
+					custom_tooltip = {
+						text = fall_of_rome_events.2.c.tt # The ruler's faith has been shattered by this ordeal.
+						scope:insane_ruler = {
+							remove_trait = pious 
+						}
+					}
+				}
+			}
+		}
+	}
+		
+	option = {
+		name = fall_of_rome_events.8.dd
+		highlighted_option = yes
+		trigger = {
+			ig:ig_devout = {
+				leader = {
+					OR = {
+						has_trait = charismatic
+						has_trait = experienced_diplomat
+						has_trait = masterful_diplomat
+						has_trait = inspirational_orator
+						has_trait = demagogue
+						has_trait = firebrand
+					}
+					is_ruler = no
+				}
+			}
+			hidden_trigger = {
+				scope:insane_ruler.interest_group = {
+					NOR = { 
+						is_interest_group_type = ig_industrialists 
+						is_interest_group_type = ig_intelligentsia
+					}
+				}
+			}
+		}
+		
+		scope:insane_ruler = {
+			if = {
+				limit = { NOT = { has_ideology = ideology:ideology_theocrat } }
+				set_ideology = ideology:ideology_theocrat
+			}
+			remove_trait = psychological_affliction
+			if = {
+				limit = {
+					scope:insane_ruler = { NOT = { has_trait = pious } }
+				}
+				add_trait = pious
+			}
+		}
+	}
+}
+
+fall_of_rome_events.9 = { # Bagaudae Disturbances
+	type = country_event
+	placement = scope:bagaudae_state
+	duration = 3
+	
+	cooldown = { months = short_modifier_time }
+
+	title = fall_of_rome_events.9.t
+	desc = fall_of_rome_events.9.d
+	flavor = fall_of_rome_events.9.f
+
+	event_image = {
+		video = "unspecific_devastation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+
+	trigger = {
+		ruler.interest_group = {
+			NOR = { 
+				has_modifier = ruler_prioritizes_imperial_politics 
+				has_modifier = ruler_disinterest_in_imperial_politics
+			}
+		}
+		capital.region = {
+			save_temporary_scope_as = temp_capital_region
+		}
+		any_scope_state = {	# the event must occur in the provinces, away from the metropole
+			is_capital = no
+			NOT = {
+				region = scope:temp_capital_region
+				OR = {
+					has_modifier = bagaudic_unrest
+					has_modifier = suppressing_the_bagaudae
+				}
+			}
+			total_urbanization < 6
+		}
+	}
+
+	immediate = {
+		ruler = {
+			save_scope_as = main_character
+			interest_group = {
+				save_scope_as = main_character_ig
+			}
+		}
+		capital.region = {
+			save_scope_as = capital_region
+		}
+		random_scope_state = {
+			limit = {
+				is_capital = no
+				NOT = {
+					region = scope:capital_region
+					OR = {
+						has_modifier = bagaudic_unrest
+						has_modifier = suppressing_the_bagaudae
+					}
+				}
+				total_urbanization < 6
+			}
+			save_scope_as = bagaudae_state
+		}
+	}
+	
+	cancellation_trigger = {
+		NOT = {
+			exists = scope:bagaudae_state
+		}
+	}
+
+	option = {
+		name = fall_of_rome_events.9.a # stay at court
+		default_option = yes
+		
+		ai_chance = {
+			base = 1
+			modifier = {
+				scope:main_character = {
+					OR = {
+						has_trait = master_bureaucrat
+						has_trait = basic_political_operator
+						has_trait = experienced_political_operator
+						has_trait = expert_political_operator
+					}
+				}
+				add = 10
+			}
+			modifier = {
+				scope:main_character = {
+					OR = {
+						has_role = general
+						has_trait = brave
+						has_trait = traditionalist_commander
+						has_trait = popular_commander
+						has_trait = celebrity_commander
+					}
+				}
+				add = -1
+			}
+		}
+		
+		scope:main_character_ig = {
+			add_modifier = {
+				name = ruler_prioritizes_imperial_politics
+				months = normal_modifier_time
+			}
+		}
+		
+		if = {
+			limit = {
+				country_has_voting_franchise = yes
+			}
+			custom_tooltip = fall_of_rome_events_3_let_local_reps_handle_it
+			scope:bagaudae_state = {
+				add_modifier = {
+					name = bagaudic_unrest
+					months = normal_modifier_time
+					multiplier = 0.5
+				}
+			}
+		}
+		else = {
+			scope:bagaudae_state = {
+				add_modifier = {
+					name = bagaudic_unrest
+					months = normal_modifier_time
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				scope:main_character = {
+					OR = {
+						has_role = general
+						has_trait = brave
+						has_trait = traditionalist_commander
+						has_trait = popular_commander
+						has_trait = celebrity_commander
+					}
+				}
+			}
+			custom_tooltip = did_not_meet_expectations_FoRE3_stayed_at_home
+			scope:main_character = {
+				refused_to_do_what_was_expected_effect = yes
+			}
+		}
+	}
+	
+	option = {
+		name = fall_of_rome_events.9.b # go to the troublesome province
+		
+		ai_chance = {
+			base = 1
+			modifier = {
+				scope:main_character = {
+					OR = {
+						has_role = general
+						has_trait = brave
+						has_trait = traditionalist_commander
+						has_trait = popular_commander
+						has_trait = celebrity_commander
+					}
+				}
+				add = 10
+			}
+			modifier = {
+				scope:main_character = {
+					OR = {
+						has_trait = master_bureaucrat
+						has_trait = basic_political_operator
+						has_trait = experienced_political_operator
+						has_trait = expert_political_operator
+					}
+				}
+				add = -1
+			}
+		}
+		
+		if = {
+			limit = {
+				country_has_voting_franchise = yes
+			}
+			custom_tooltip = fall_of_rome_events_3_fellow_partisans_mitigate_neglect
+			scope:main_character_ig = {
+				add_modifier = {
+					name = ruler_disinterest_in_imperial_politics
+					months = normal_modifier_time
+					multiplier = 0.5
+				}
+			}
+		}
+		else = {
+			scope:main_character_ig = {
+				add_modifier = {
+					name = ruler_disinterest_in_imperial_politics
+					months = normal_modifier_time
+					multiplier = 0.5
+				}
+			}
+		}
+		
+		scope:bagaudae_state = {
+			add_modifier = {
+				name = suppressing_the_bagaudae
+				months = normal_modifier_time
+			}
+		}
+		
+		if = {
+			limit = {
+				scope:main_character = {
+					OR = {
+						has_trait = master_bureaucrat
+						has_trait = basic_political_operator
+						has_trait = experienced_political_operator
+						has_trait = expert_political_operator
+					}
+				}
+			}
+			custom_tooltip = did_not_meet_expectations_FoRE3_went_away
+			scope:main_character = {
+				refused_to_do_what_was_expected_effect = yes
+			}
+		}
+	}
+}
+

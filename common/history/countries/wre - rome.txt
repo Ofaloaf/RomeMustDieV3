@@ -53,10 +53,7 @@
 			set_interest_group_name = ig_rustici
 		}
 		
-		set_variable = {
-			name = fall_of_rome
-			value = 0
-		}
-		add_journal_entry = { type = je_fall_of_rome }
+		#add_journal_entry = { type = je_fall_of_rome }
+		trigger_event = { id = fall_of_rome_events.1 popup = yes }
 	}
 }
