@@ -666,6 +666,31 @@ on_character_death = {
 			}
 			remove_global_variable = garibaldi_is_alive_global_var
 		}
+		### maintaining the Ambitus
+		if = {
+			limit = {
+				has_variable = ambitus_ig_leader_tracked
+				has_role = politician
+				owner = {
+					has_journal_entry = je_crisis_of_illegitimacy
+				}
+			}
+			owner = {
+				ordered_interest_group = {
+					limit = {
+						leader = {
+							is_ruler = no
+						}
+					}
+					order_by = ig_clout
+					save_scope_as = ambitus_ig
+					leader = {
+						save_scope_as = ambitus_ig_leader
+						set_variable = ambitus_ig_leader_tracked
+					}
+				}
+			}
+		}
 	}
 }
 

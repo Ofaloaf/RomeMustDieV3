@@ -3447,10 +3447,10 @@ DON = {
 
 SYR = {
 	color = { 241 245 240 }
-	country_type = unrecognized
-	tier = principality
+	country_type = recognized
+	tier = kingdom
 	cultures = { mashriqi }
-	religion = sunni
+	religion = oriental_orthodox
 	capital = STATE_SYRIA
 }
 

@@ -1,0 +1,91 @@
+﻿je_crisis_of_illegitimacy = {
+	icon = "gfx/interface/icons/ideology_icons/jingoist_leader.dds"
+	
+	scripted_button = caudillo_decree_button
+
+	immediate = {
+		save_scope_as = caudillo_country_scope
+	}
+
+	complete = {
+		NOT = {
+			any_interest_group = {
+				is_powerful = yes
+				leader = {
+					is_ruler = no
+					has_role = general
+					OR = {
+						has_trait = ambitious
+						has_trait = reckless
+					}
+				}
+				leader.popularity > ruler.popularity
+			}
+		}
+		custom_tooltip = {
+			text = caudillo_complete
+			root.var:caudillo_var <= 0
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = roman_illegitimacy.2 popup = yes }
+		show_as_tooltip = {
+			ig:ig_armed_forces = {
+				remove_ideology = ideology_caudillismo
+			}
+			remove_modifier = age_of_caudillos_modifier
+		}
+	}
+
+	fail = {
+		ig:ig_armed_forces = {
+			is_in_government = yes
+		}
+		custom_tooltip = {
+			text = je_caudillo_goal_tt
+			scope:journal_entry = {
+				is_goal_complete = yes
+			}
+		}
+	}
+
+	on_fail = {
+		trigger_event = { id = roman_illegitimacy.3 popup = yes } # No More Games
+		custom_tooltip = crisis_of_illegitimacy_rome_dies
+	}
+
+	on_weekly_pulse = {
+		effect = {
+            calculate_caudillo_progress = yes
+        }
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			change_variable = { name = caudillo_var add = var:caudillo_next }
+		}
+		random_events = {
+			# Pulse events affect the progress bar
+			120 = 0 
+			10 = roman_illegitimacy.4
+			25 = roman_illegitimacy.6
+		}
+	}
+
+	current_value = {
+		value = root.var:caudillo_var
+	}
+
+	goal_add_value = {
+		add = 1200
+	}
+
+	progressbar = yes
+
+	weight = 100
+
+	can_revolution_inherit = yes
+	transferable = yes
+	should_be_pinned_by_default = yes
+}

@@ -1114,24 +1114,24 @@ africanu = { # African Romance, with some Vandals
 	traits = { romance_speaker latin_culture_group european_heritage }
 	
 	male_common_first_names={
-		AlI_ssiu Andria A_nghelu Aristeu AtI_liu Abbmelcar Aderbalu Antzioghu Apuleju Aureliu Arzoghu Antala Alaricu Agustinu
+		AlI_ssiu Andria A_nghelu Aristeu AtI_liu Abbmelcar Aderbalu Antzioghu Apuleju Aureliu Arzoghu Antala Alaricu Agustinu Ascali
 		Bachis Baleri Batista Basili Beneitu BonA_riu Bonaentura Binmelcar Blumaritu Beremutu
 		Crabiele Cristianu Cristolu Comita Costantzi Cutzina
-		Dai Demitri Diunisi Diegu DumI_nigu Diodoru Dativu
+		Dai Demitri Diunisi Diegu DumI_nigu Diodoru Dativu Dius
 		Elias Emili Efis Egidiu
 		Felle Fidele Firmadu Floru Fridamalu Fridu Fredbalu
 		Gerone Giorghi Gisepu Garmelu Galazi Gaetanu Gildon Gratzianu Gundericu Gensericu Godigiselu Gelimeru Gentu
 		Hospiton Hieronimu Habetdeus Hildericu Hunericu Heldicu Hildiricu
-		Ilianu Iloches Iroxi IstE_voni Iscala Ignatzi
+		Ilianu Iloches Iroxi IstE_voni Iscala Ignatzi Iefta
 		Jagu Juanne Josefu Juba
 		Larentzu LibO_riu Lisandru LussU_rgiu Laurentzi Luciu Luca
-		Manuelli Marcu Marinelo Mateu Matia MaurI_tziu Melchiorre Murru Magrinu Magrovi Massuna Mauru Maxsimu Micheli Mazighu Majoricu
+		Manuelli Marcu Marinelo Mateu Matia MaurI_tziu Melchiorre Murru Magrinu Magrovi Massuna Mauru Maxsimu Micheli Mazighu Majoricu Mazuca Mascezel
 		Nanghelu Nigola Nubelu Nartzalu
 		Onoratu Optatu
 		Pantaleu Pascali PA_ulu PedrupA_ulu Popollu Posporu Pedru Pesutzu Pirillu Pompeju Possidzi
 		Quintianu
 		Revocatu Rafiele Radagaisu
-		Segostianu Serafinu Serju Servestru Sustianu Salomon Samueli Saturnu Stefanu Scarili Stotza
+		Segostianu Serafinu Serju Servestru Sustianu Salomon Samueli Saturnu Stefanu Scarili Stotza Sammac
 		Tadeu Tiadoru Terentzi Tobias Tulemeju Tomas TibE_riu Tzazu
 		UrsA_riu
 		Virgiliu Vitaritu Vilimutu
@@ -1140,7 +1140,10 @@ africanu = { # African Romance, with some Vandals
 	female_common_first_names={
 		AlE_ssia 
 		Beneita
-		Didon DumI_niga Damira Dativa Diunisia
+		Cyria
+		Didon DumI_niga Damira Dativa Diunisia Drusilla
+		EunoE_
+		Felissita
 		Gunta Gutifrida
 		Imashtarte
 		Julia
@@ -1149,21 +1152,24 @@ africanu = { # African Romance, with some Vandals
 		Olivia
 		Perpetua
 		Restituta
+		Sofonisba
 		Vituria
 		Zacobba
 	}
 	common_last_names={
-		Anatolianu Arelianu Armugastianu Anisianu Asturianu Anedda Atzeni Aru Awras
-		Bizaceneni Bixiu Balistreri Bandinu Broccu Brachodanu
-		Cluveriu Culusiensi Cerbonianu Cressoni Corippianu Cappai Cubeddu Cabras
-		Emilianu Epenetianu
-		Fulgenciu Frumentianu Fara
-		Gildoni Ghessa
+		Anatolianu Arelianu Armugastianu Anisianu Asturianu Anedda Atzeni Aru Awras Auziensi Ambiensi Amauranu
+		Bizaceneni Bixiu Balistreri Bandinu Broccu Brachodanu Bacanariensi Balianensi Bidensi Baparanu Benepotanu
+		Cluveriu Culusiensi Cerbonianu Cressoni Corippianu Cappai Cubeddu Cabras Castellanu Caltadriensi Capranu Cillanu Catulanu Cissiensi Corniculanu Catabanu
+		Emilianu Epenetianu Elefantariensi
+		Fulgenciu Frumentianu Fara Fallabensi Fidolomanu Flenucletanu Florianu Flumenzeranu Frontensi
+		Gildoni Ghessa Girensi Gratianopolitanu Gunuganu Gipsariensi
 		Hannibalianu
-		Lucianu Lussu
-		Macarianu Melis Murgia Machliu Masguinu
-		Nemesianu
-		Pierianu Possidianu Pes Pinna Poddighe Pisciu
+		Iubalenu Idanu Itanu Iomniensi Iuncanu
+		Lucianu Lussu Lamdiensi Larensi
+		Macarianu Melis Murgia Machliu Masguinu Mastanesosu Maiucanu Mallianensi Manaccenseranu Masuccabanu Maturbensi Mauranu Maurianensi Massitanu Mediensi Minanu Mutecensi
+		Nemesianu Nabalanu Nasbincensi Nobanu Novicanu Numidanu
+		Obbensi Oborensi
+		Pierianu Possidianu Pes Pinna Poddighe Pisciu Pacatianensi Panatoriensi Pomarianu
 		Saturu Sinesianu Satta Siagulanu Siccanu Secche Schoviah
 		Troglita Tafuranu
 		Viridiu
