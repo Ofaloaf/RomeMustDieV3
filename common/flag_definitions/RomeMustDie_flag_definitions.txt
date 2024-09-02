@@ -963,3 +963,11 @@ CUB = { # Cuba/Collegium Orientalium. just overwriting basegame entries with hig
 		}	
 	}
 }
+
+MSL = { # Megalosklavinia
+	flag_definition = {
+		coa = MSL
+		subject_canton = MSL
+		priority = 1
+	}	
+}
