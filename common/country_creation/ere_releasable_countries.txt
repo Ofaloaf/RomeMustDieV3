@@ -1,0 +1,22 @@
+﻿PNT = { # Pontus
+	states = {
+		STATE_TRABZON
+		STATE_KASTAMONU
+	}
+
+	possible = {
+		NOT = {
+			c:ERE ?= this
+			any_scope_state = {
+			 	state_region = {
+			 		OR = {
+			 			s:STATE_TRABZON = this
+						s:STATE_KASTAMONU = this
+			 		}
+			 	}
+			}
+		}
+	}
+	
+	ai_will_do = { always = no }
+}

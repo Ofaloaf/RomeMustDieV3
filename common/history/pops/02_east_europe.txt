@@ -192,27 +192,19 @@
 		region_state:CMN = {
 			create_pop = {
 				culture = tatar
-				size = 158400
+				size = 158404
 			}
 			create_pop = {
-				culture = south_german
-				size = 8000
-			}
-			create_pop = {
-				culture = russian
-				size = 28004
+				culture = hunnic
+				size = 20000
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 11996
+				size = 19996
 			}
 			create_pop = {
 				culture = greek
-				size = 8996
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 9000
+				size = 25996
 			}
 		}
 	}

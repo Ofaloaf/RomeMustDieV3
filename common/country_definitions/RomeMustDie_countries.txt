@@ -2109,3 +2109,14 @@ MSL = { # Megalosklavinia
 	capital = STATE_NORTHERN_SERBIA 
 	cultures = { serb sclaveni }
 }
+
+PNT = { # Pontus
+	color = { 82 67 152 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	capital = STATE_KASTAMONU 
+	cultures = { greek }
+}

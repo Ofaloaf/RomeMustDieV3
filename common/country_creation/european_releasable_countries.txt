@@ -5,6 +5,15 @@ SIC = {
 		STATE_SICILY
 		STATE_MALTA
 	}
+
+	possible = {
+		NOT = {
+			c:WRE ?= this
+			any_scope_state = {
+			 	state_region = s:STATE_SICILY
+			}
+		}
+	}
 	
 	ai_will_do = { always = no }
 }

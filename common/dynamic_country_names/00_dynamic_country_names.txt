@@ -473,9 +473,9 @@ DEFAULT = {
 		}
 	}
 	
-	dynamic_country_name = { # Domain of Egypt
-		name = dyn_c_domain_of_egypt
-		adjective = dyn_c_domain_of_egypt_adj
+	dynamic_country_name = { # Domain of Nile
+		name = dyn_c_domain_of_the_nile
+		adjective = dyn_c_domain_of_the_nile_adj
 		
 		is_main_tag_only = yes
 		priority = 1
@@ -529,6 +529,65 @@ DEFAULT = {
 						state_region = s:STATE_EAST_SLOVAKIA
 						state_region = s:STATE_DELVIDEK
 						state_region = s:STATE_BEKES
+					}
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { # Pontic Domain
+		name = dyn_c_pontic_domain
+		adjective = dyn_c_pontic_domain_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = {
+					OR = {
+						state_region = s:STATE_KASTAMONU
+						state_region = s:STATE_TRABZON
+					}
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { # Domain of Iconium
+		name = dyn_c_domain_of_iconium
+		adjective = dyn_c_domain_of_iconium_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = {
+					state_region = s:STATE_KONYA
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { # Anatolia
+		name = dyn_c_anatolia
+		adjective = dyn_c_anatolia_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = {
+					region = sr:region_anatolia
+					NOR = {
+						state_region = s:STATE_KONYA
+						state_region = s:STATE_KASTAMONU
+						state_region = s:STATE_TRABZON
 					}
 				}
 			}

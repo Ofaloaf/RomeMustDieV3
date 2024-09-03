@@ -812,7 +812,7 @@ fall_of_rome_events.3 = {
 			limit = {
 				NOT = { exists = c:RE4 }
 			}
-			change_tag = E4
+			change_tag = RE4
 		}
 
 		hidden_effect = {
@@ -824,7 +824,7 @@ fall_of_rome_events.3 = {
 			set_character_as_ruler = yes
 		}
 
-		### Implosion outside the Imperial Core for whatever's left
+		### Implosion outside the Imperial Core for whatever's left. If it's outside traditional boundaries of the old Roman Empire, the central remnant inherits them as unincorporated states. I presume they're colonies.
 		hidden_effect = {
 
 			# Italy implodes if capital not in Italy #
@@ -1287,6 +1287,7 @@ fall_of_rome_events.3 = {
 							owner = ROOT
 							region = sr:region_north_africa
 						}
+						color = { 184 72 35 }
 						on_created = {
 							set_variable = dynamic_roman_breakaway
 						}
@@ -1303,50 +1304,87 @@ fall_of_rome_events.3 = {
 				}
 				if = {
 					limit = { 
-						NOT = { exists = c:MSL }
+						NOT = { exists = c:SER }
 						any_scope_state = { 
-							region = sr:region_thracia 
-							state_region = {
-								OR = {
-									is_homeland = cu:serb
-									is_homeland = cu:sclaveni
-								}
+							OR = {
+								state_region = s:STATE_NORTHERN_SERBIA 
+								state_region = s:STATE_SOUTHERN_SERBIA
 							}
 						}
 					}
 					random_scope_state = { 
 						limit = { 
-							region = sr:region_thracia 
-							state_region = {
-								OR = {
-									is_homeland = cu:serb
-									is_homeland = cu:sclaveni
-								}
+							OR = {
+								state_region = s:STATE_NORTHERN_SERBIA 
+								state_region = s:STATE_SOUTHERN_SERBIA
 							}
 						} 
-						save_temporary_scope_as = sklavinia_state
+						save_temporary_scope_as = serbia_state
 					}
 					create_country = {
-						tag = MSL
+						tag = SER
 						origin = this
-						state = scope:sklavinia_state
+						state = scope:serbia_state
 						on_created = {
 						}
 					}
 					if = {
-						limit = { exists = c:MSL }
+						limit = { exists = c:SER }
 						every_scope_state = {
 							limit = {
-								region = sr:region_thracia
-								state_region = {
-									OR = {
-										is_homeland = cu:serb
-										is_homeland = cu:sclaveni
-									}
+								state_region = { is_homeland = cu:serb }
+								is_capital = no
+							}
+							set_state_owner = c:SER
+						}
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { exists = c:BUL }
+						any_scope_state = { 
+							OR = {
+								state_region = s:STATE_BULGARIA 
+								state_region = s:STATE_NORTHERN_THRACE
+								state_region = s:STATE_DOBRUDJA
+								state_region = s:STATE_WALLACHIA
+								state_region = s:STATE_SOUTHERN_SERBIA
+							}
+						}
+					}
+					random_scope_state = { 
+						limit = { 
+							OR = {
+								state_region = s:STATE_BULGARIA 
+								state_region = s:STATE_NORTHERN_THRACE
+								state_region = s:STATE_DOBRUDJA
+								state_region = s:STATE_WALLACHIA
+								state_region = s:STATE_SOUTHERN_SERBIA
+							}
+						} 
+						save_temporary_scope_as = heptadic_state
+					}
+					create_country = {
+						tag = BUL
+						origin = this
+						state = scope:heptadic_state
+						on_created = {
+						}
+					}
+					if = {
+						limit = { exists = c:BUL }
+						every_scope_state = {
+							limit = {
+								OR = {
+									state_region = s:STATE_BULGARIA 
+									state_region = s:STATE_NORTHERN_THRACE
+									state_region = s:STATE_DOBRUDJA
+									state_region = s:STATE_WALLACHIA
+									state_region = s:STATE_SOUTHERN_SERBIA
 								}
 								is_capital = no
 							}
-							set_state_owner = c:MSL
+							set_state_owner = c:BUL
 						}
 					}
 				}
@@ -1389,7 +1427,7 @@ fall_of_rome_events.3 = {
 			if = {
 				limit = { 
 					NOT = { exists = c:CYP }
-					any_scope_state = { state_region = s:STATE_CYPRUS }
+					any_scope_state = { state_region = s:STATE_CYPRUS is_capital = no }
 				}
 				random_scope_state = { 
 					limit = { state_region = s:STATE_CYPRUS } 
@@ -1400,6 +1438,63 @@ fall_of_rome_events.3 = {
 					origin = this
 					state = scope:cyprus_state
 					on_created = {
+					}
+				}
+			}
+
+			# Asia/Anatolia
+			if = {
+				limit = {
+					capital = {
+						NOT = { region = sr:region_anatolia }
+					}
+				}
+				if = {
+					limit = { 
+						any_scope_state = { 
+							state_region = s:STATE_ADANA
+						}
+					}
+					random_scope_state = { 
+						limit = { 
+							state_region = s:STATE_ADANA
+						} 
+						save_temporary_scope_as = cilicia_state
+					}
+					create_dynamic_country = {
+						origin = this
+						tier = kingdom
+						culture = cu:greek
+						capital = scope:cilicia_state
+						cede_state_trigger = {
+							state_region = s:STATE_ADANA
+						}
+						color = { 150 162 203 }
+						on_created = {
+							set_variable = dynamic_roman_breakaway
+						}
+					}
+				}
+				if = {
+					limit = { 
+						any_scope_state = { region = sr:region_anatolia }
+					}
+					random_scope_state = { 
+						limit = { region = sr:region_anatolia } 
+						save_temporary_scope_as = anatolia_state
+					}
+					create_dynamic_country = {
+						origin = this
+						tier = kingdom
+						culture = cu:greek
+						capital = scope:anatolia_state
+						cede_state_trigger = {
+							region = sr:region_anatolia
+						}
+						color = { 91 51 92 }
+						on_created = {
+							set_variable = dynamic_roman_breakaway
+						}
 					}
 				}
 			}
@@ -1475,6 +1570,57 @@ fall_of_rome_events.3 = {
 							set_state_owner = c:EGY
 						}
 					}
+				}
+			}
+
+			# unincorporating any states outside the old Roman sphere
+			if = {
+				limit = {
+					any_scope_state = {
+						NOR = {
+							region = sr:region_south_germany
+							region = sr:region_england
+							region = sr:region_iberia
+							region = sr:region_france
+							region = sr:region_occitania
+							region = sr:region_rhine
+							region = sr:region_italy	
+							region = sr:region_danubia
+							region = sr:region_balkans
+							region = sr:region_thracia
+							region = sr:region_nile_basin
+							region = sr:region_north_africa
+							region = sr:region_anatolia
+							region = sr:region_arabic
+							region = sr:region_caucasus
+						}
+						is_capital = no
+						is_incorporated = yes
+					}
+				}
+				every_scope_state = {
+					limit = {
+						NOR = {
+							region = sr:region_south_germany
+							region = sr:region_england
+							region = sr:region_iberia
+							region = sr:region_france
+							region = sr:region_occitania
+							region = sr:region_rhine
+							region = sr:region_italy	
+							region = sr:region_danubia
+							region = sr:region_balkans
+							region = sr:region_thracia
+							region = sr:region_nile_basin
+							region = sr:region_north_africa
+							region = sr:region_anatolia
+							region = sr:region_arabic
+							region = sr:region_caucasus
+						}
+						is_capital = no
+						is_incorporated = yes
+					}
+					set_state_type = unincorporated
 				}
 			}
 		}
@@ -1998,7 +2144,7 @@ fall_of_rome_events.5 = { # Aut Caesar Aut Nihil
 	}
 
 	trigger = {
-		has_journal_entry = je_fall_of_rome
+		has_journal_entry = je_crisis_of_illegitimacy
 		OR = {
 			AND = {
 				exists = scope:target 			# so that it only triggers on the on_diplo_play_back_down bit if it's ROOT that backs down
