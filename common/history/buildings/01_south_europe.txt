@@ -1,4 +1,5 @@
 ﻿BUILDINGS={
+	# Insubria
 	s:STATE_LOMBARDY={
 		region_state:WRE={
 			create_building={
@@ -37,14 +38,9 @@
 				reserves=1
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts" }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=6
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 		}
 	}
+	# Liguria
 	s:STATE_PIEDMONT={
 		region_state:WRE={
 			create_building={
@@ -107,12 +103,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=5
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_shipyards"
 				level=1
@@ -127,7 +117,7 @@
 			}			
 			create_building={
 				building="building_military_shipyards"
-				level=5
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_military_shipbuilding_wooden_2"  }
 			}
@@ -165,12 +155,6 @@
 				reserves=1
 				activate_production_methods={  "pm_unrefrigerated" "pm_fishing_trawlers" }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=4
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_iron_mine"
 				level=1
@@ -243,12 +227,6 @@
 				reserves=1
 				activate_production_methods={  "pm_unrefrigerated" "pm_simple_fishing" }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=3
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_port"
 				level=1
@@ -331,12 +309,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			}			
-#			create_building={
-#				building="building_barracks"
-#				level=8
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_military_shipyards"
 				level=5
@@ -357,6 +329,7 @@
 			}
 		}
 	}
+	# Bruttium
 	s:STATE_CALABRIA={
 		region_state:WRE={
 			create_building={
@@ -395,12 +368,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=7
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_port"
 				level=1
@@ -409,6 +376,7 @@
 			}			
 		}
 	}
+	# Calabria
 	s:STATE_APULIA={
 		region_state:WRE={
 			create_building={
@@ -435,14 +403,9 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=6
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 		}
 	}
+	# Abruttium
 	s:STATE_ABRUZZO={
 		region_state:WRE={
 			create_building={
@@ -475,14 +438,9 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=5
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 		}
 	}
+	# Sapaudia
 	s:STATE_SAVOY={
 		region_state:WRE={
 			create_building={
@@ -509,14 +467,9 @@
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=3
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 		}
 	}
+	# Aemilia
 	s:STATE_EMILIA={
 		region_state:WRE={
 			create_building={
@@ -537,12 +490,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=5
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -557,6 +504,7 @@
 			}	
 		}
 	}
+	# Tuscia
 	s:STATE_TUSCANY={
 		region_state:WRE={
 			create_building={
@@ -625,12 +573,6 @@
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=5
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_port"
 				level=2
@@ -639,6 +581,7 @@
 			}
 		}
 	}
+	# Romandiola
 	s:STATE_ROMAGNA={
 		region_state:WRE={
 			create_building={
@@ -667,6 +610,7 @@
 			}
 		}
 	}
+	# Latinum
 	s:STATE_LAZIO={
 		region_state:WRE={
 			create_building={
@@ -705,12 +649,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=5
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_port"
 				level=1
@@ -749,12 +687,6 @@
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes"  "pm_traditional_looms" "pm_craftsman_sewing" }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=4
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_fishing_wharf"
 				level=4
@@ -787,6 +719,7 @@
 			}
 		}
 	}
+	# Sicilia
 	s:STATE_SICILY={
 		region_state:WRE={
 			create_building={
@@ -807,12 +740,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=8
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -833,6 +760,7 @@
 			}
 		}
 	}
+	# Carpetania
 	s:STATE_TOLEDO={
 		region_state:WRE={
 			create_building={
@@ -843,7 +771,7 @@
 			}
 			create_building={
 				building="building_construction_sector"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
 			}			
@@ -855,21 +783,21 @@
 			}
 			create_building={
 				building="building_paper_mills"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
 			}				
 			create_building={
 				building="building_furniture_manufacturies"
-				level=5
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
 			}
 			create_building={
-				building="building_arms_industry"
-				level=3
+				building="building_logging_camp"
+				level=2
 				reserves=1
-				activate_production_methods={ "pm_muskets" }
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -883,22 +811,10 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=4
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 		}
 	}
 	s:STATE_GALICIA={
 		region_state:WRE={
-			create_building={
-				building="building_military_shipyards"
-				level=10
-				reserves=1
-				activate_production_methods={ "pm_military_shipbuilding_wooden_2"  }
-			}
 			create_building={
 				building="building_glassworks"
 				level=1
@@ -933,12 +849,6 @@
 	}
 	s:STATE_ASTURIAS={
 		region_state:WRE={
-			create_building={
-				building="building_military_shipyards"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_military_shipbuilding_wooden_2"  }
-			}
 			create_building={
 				building="building_gold_mine"
 				level=4
@@ -981,7 +891,7 @@
 			}
 			create_building={
 				building="building_textile_mills"
-				level=3
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes"  "pm_traditional_looms" "pm_craftsman_sewing" }
 			}
@@ -993,7 +903,7 @@
 			}			
 			create_building={
 				building="building_iron_mine"
-				level=3
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
@@ -1003,12 +913,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=3
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 		}
 	}
 	s:STATE_NAVARRA={
@@ -1021,13 +925,13 @@
 			}		
 			create_building={
 				building="building_tooling_workshops"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled"  }
 			}
 			create_building={
 				building="building_iron_mine"
-				level=3
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
@@ -1045,16 +949,10 @@
 			}
 			create_building={
 				building="building_logging_camp"
-				level=5
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=7
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_port"
 				level=1
@@ -1063,6 +961,7 @@
 			}
 		}
 	}
+	# Caesaraugustanus
 	s:STATE_ARAGON={
 		region_state:WRE={
 			create_building={
@@ -1079,7 +978,7 @@
 			}
 			create_building={
 				building="building_food_industry"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing" "pm_pot_stills" }
 			}
@@ -1095,14 +994,9 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=2
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 		}
 	}
+	# Tarraconensis
 	s:STATE_CATALONIA={
 		region_state:WRE={
 			create_building={
@@ -1137,19 +1031,13 @@
 			}
 			create_building={
 				building="building_textile_mills"
-				level=6
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes"  "pm_traditional_looms" "pm_no_luxury_clothes" }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=5
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_port"
-				level=3
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
@@ -1177,6 +1065,7 @@
 			}
 		}
 	}
+	#Baetica
 	s:STATE_ANDALUSIA={
 		region_state:WRE={
 			create_building={
@@ -1193,7 +1082,7 @@
 			}			
 			create_building={
 				building="building_shipyards"
-				level=4
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_basic_shipbuilding"  }
 			}
@@ -1223,7 +1112,7 @@
 			}
 			create_building={
 				building="building_military_shipyards"
-				level=5
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_military_shipbuilding_wooden_2"  }
 			}
@@ -1235,6 +1124,7 @@
 			}
 		}
 	}
+	#Basitania
 	s:STATE_GRANADA={
 		region_state:WRE={
 			create_building={
@@ -1261,12 +1151,6 @@
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=3
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_military_shipyards"
 				level=3
@@ -1289,14 +1173,9 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=2
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 		}
 	}
+	# Carthaginiensis
 	s:STATE_VALENCIA={
 		region_state:WRE={
 			create_building={
@@ -1306,14 +1185,20 @@
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={
+				building="building_arms_industry"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_muskets" }
+			}
+			create_building={
 				building="building_paper_mills"
-				level=5
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
 			}			
 			create_building={
 				building="building_textile_mills"
-				level=3
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms"  }
 			}
@@ -1341,12 +1226,6 @@
 				reserves=1
 				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=5
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_port"
 				level=2
@@ -1355,6 +1234,7 @@
 			}
 		}
 	}
+	# Bracarensis
 	s:STATE_BEIRA={
 		region_state:WRE={
 			create_building={
@@ -1364,14 +1244,8 @@
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}		
 			create_building={
-				building="building_military_shipyards"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_military_shipbuilding_wooden_2"  }
-			}
-			create_building={
 				building="building_textile_mills"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms"  }
 			}
@@ -1405,12 +1279,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=2
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_port"
 				level=1
@@ -1419,6 +1287,7 @@
 			}
 		}
 	}
+	# Olisiponensis
 	s:STATE_ESTREMADURA={
 		region_state:WRE={
 			create_building={
@@ -1463,15 +1332,9 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_shipbuilding"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				level=2
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 			create_building={
 				building="building_military_shipyards"
-				level=5
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_military_shipbuilding_wooden_2"  }
 			}
@@ -1483,6 +1346,7 @@
 			}
 		}
 	}
+	# Pacensis
 	s:STATE_ALENTEJO={
 		region_state:WRE={
 			create_building={
@@ -1490,15 +1354,10 @@
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
-			}
-#			create_building={
-#				building="building_barracks"
-#				level=2
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}			
+			}			
 		}
 	}
+	
 	s:STATE_CAPE_VERDE={
 		region_state:MAL={
 			create_building={
