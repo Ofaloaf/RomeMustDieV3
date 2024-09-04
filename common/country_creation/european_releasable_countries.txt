@@ -148,7 +148,7 @@ TRR = { # Tarraconensis
 		STATE_VALENCIA
 		STATE_TOLEDO
 	}
-	
+	# use_culture_states = yes    This line is used when testing Iberia as a separate region.
 	ai_will_do = { always = no }
 }
 
