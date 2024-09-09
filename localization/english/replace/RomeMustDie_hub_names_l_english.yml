@@ -3,7 +3,7 @@
  HUB_NAME_STATE_ALBANIA_city: "Tirkan" # Tirana
  HUB_NAME_STATE_ALBANIA_port: "Dyrrhachion" # Durres
  HUB_NAME_STATE_ALBANIA_mine: "Skodra" # Shkoder
- HUB_NAME_STATE_ALBANIA_farm:0 "Fier"
+ HUB_NAME_STATE_ALBANIA_farm: "Avlónas" # Vlorë
  HUB_NAME_STATE_ALBANIA_wood: "Pulcheriopolis" # Berat
  #
  STATE_WEST_SWITZERLAND: "Helvetia"
@@ -88,7 +88,7 @@
  #
  HUB_NAME_STATE_VENETIA_city:0 "Verona"
  HUB_NAME_STATE_VENETIA_port: "Venetia"
- HUB_NAME_STATE_VENETIA_mine: "Rhodigium "
+ HUB_NAME_STATE_VENETIA_mine: "Rhodigium"
  HUB_NAME_STATE_VENETIA_farm: "Patavium"
  HUB_NAME_STATE_VENETIA_wood: "Tarvisium"
  #

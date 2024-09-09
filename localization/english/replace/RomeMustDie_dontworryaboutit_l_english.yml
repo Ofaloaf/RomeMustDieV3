@@ -1,0 +1,38 @@
+﻿l_english:
+  ### Venetia
+  # Greek
+  STATE_VENETIA_greek: "Venetia"
+  HUB_NAME_STATE_VENETIA_city_greek: "Verona"
+  HUB_NAME_STATE_VENETIA_port_greek: "Venetia"
+  HUB_NAME_STATE_VENETIA_mine_greek: "Rhodigion"
+  HUB_NAME_STATE_VENETIA_farm_greek: "Patavion"
+  HUB_NAME_STATE_VENETIA_wood_greek: "Tarvision"
+  
+  ### Dalmatia
+  # Greek
+  STATE_DALMATIA_greek: "Dalmatia"
+  HUB_NAME_STATE_DALMATIA_city_greek: "Spálathos" # Split
+  HUB_NAME_STATE_DALMATIA_port_greek: "Iadera" # Zadar
+  HUB_NAME_STATE_DALMATIA_mine_greek: "Rhaousin" # Ragusa
+  HUB_NAME_STATE_DALMATIA_farm_greek: "Tinon" # Knin
+  HUB_NAME_STATE_DALMATIA_wood_greek: "Skardon" # Skradin
+
+  ### Albania/Epirus
+  # Greek. Mostly the same as defaults
+  STATE_ALBANIA_greek: "Epeiros"
+  HUB_NAME_STATE_ALBANIA_city_greek: "Tirkan" # Tirana
+  HUB_NAME_STATE_ALBANIA_port_greek: "Dyrrhachion" # Durres
+  HUB_NAME_STATE_ALBANIA_mine_greek: "Skodra" # Shkoder
+  HUB_NAME_STATE_ALBANIA_farm_greek: "Avlónas" # Vlorë
+  HUB_NAME_STATE_ALBANIA_wood_greek: "Pulcheriopolis" # Berat
+  # Latin
+  STATE_ALBANIA_latin: "Epirus"
+  HUB_NAME_STATE_ALBANIA_city_latin: "Tyrana" # Tirana
+  HUB_NAME_STATE_ALBANIA_port_latin: "Dyrrhachium" # Durres
+  HUB_NAME_STATE_ALBANIA_mine_latin: "Scodra" # Shkoder
+  HUB_NAME_STATE_ALBANIA_farm_latin: "Aulona" # Vlorë
+  HUB_NAME_STATE_ALBANIA_wood_latin: "Pulcheriopolis" # Berat
+  #
+  HUB_NAME_STATE_ALBANIA_city_vulgar_latin: "Tirana" # Tirana
+  HUB_NAME_STATE_ALBANIA_port_vulgar_latin: "Dyrratio"
+  HUB_NAME_STATE_ALBANIA_farm_vulgar_latin: "Valona" # Vlorë

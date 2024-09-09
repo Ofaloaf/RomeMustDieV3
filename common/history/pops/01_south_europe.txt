@@ -84,7 +84,11 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 987881
+				size = 563092
+			}
+			create_pop = {
+				culture = greek
+				size = 424789
 			}
 		}
 	}
@@ -104,11 +108,11 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 517369
+				size = 577369
 			}
 			create_pop = {
 				culture = greek
-				size = 145925
+				size = 85925
 			}
 		}
 	}
