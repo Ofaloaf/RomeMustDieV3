@@ -527,7 +527,7 @@ fall_of_rome_events.1 = {
 	trigger = {
 		# triggered by generic monthly pulse
 
-		# can trigger for any Roman(tic) Empire. None of you are free of this curse.
+		# can trigger for any Greco-Roman empire-tier country. None of you are free of this curse.
 		country_tier = empire
 
 		any_primary_culture = {
@@ -699,6 +699,7 @@ fall_of_rome_events.3 = {
 		ruler = {
 			save_scope_as = main_character
 		}
+		save_scope_as = main_character_country
 		ordered_interest_group = {
 			limit = {
 				is_powerful = yes
@@ -1113,15 +1114,10 @@ fall_of_rome_events.3 = {
 						culture = cu:gallic
 						capital = scope:gallic_state
 						cede_state_trigger = {
-							owner = ROOT 
-							OR = {
-								region = sr:region_france
-								region = sr:region_occitania
-								region = sr:region_rhine
-							}
 						}
 						on_created = {
 							set_variable = dynamic_roman_breakaway
+							set_variable = dynamic_gallia
 							if = {
 								limit = {
 									capital = {
@@ -1131,6 +1127,30 @@ fall_of_rome_events.3 = {
 								add_primary_culture = cu:septimanian
 							}
 						}
+					}
+					if = {
+						limit = { 
+							any_country = {
+								has_variable = dynamic_gallia
+							}
+						}
+						random_country = {
+							limit = {
+								has_variable = dynamic_gallia
+							}
+							save_temporary_scope_as = dynamic_gallia_country
+						}
+						every_scope_state = {
+							limit = {
+								OR = {
+									region = sr:region_france
+									region = sr:region_occitania
+									region = sr:region_rhine
+								}
+							}
+							set_state_owner = scope:dynamic_gallia_country
+						}
+						scope:dynamic_gallia_country = { remove_variable = dynamic_gallia }
 					}
 				}
 			}
@@ -1228,13 +1248,36 @@ fall_of_rome_events.3 = {
 						culture = cu:hispanian
 						capital = scope:hispania_state
 						cede_state_trigger = {
-							region = sr:region_iberia
 						}
 						color = { 166 123 191 }
 						on_created = {
 							set_variable = dynamic_roman_breakaway
-							save_temporary_scope_as = dynamic_hispania
+							set_variable = dynamic_hispania
 						}
+					}
+					if = {
+						limit = { 
+							sr:region_iberia = {
+								any_scope_country = {
+									has_variable = dynamic_hispania
+								}
+							}
+						}
+						sr:region_iberia = {
+							random_country = {
+								limit = {
+									has_variable = dynamic_hispania
+								}
+								save_temporary_scope_as = dynamic_hispania_country
+							}
+						}
+						every_scope_state = {
+							limit = {
+								region = sr:region_iberia
+							}
+							set_state_owner = scope:dynamic_hispania_country
+						}
+						scope:dynamic_hispania_country = { remove_variable = dynamic_hispania }
 					}
 				}
 			}
@@ -1244,6 +1287,9 @@ fall_of_rome_events.3 = {
 				limit = {
 					capital = {
 						NOT = { region = sr:region_north_africa }
+					}
+					any_scope_state = {
+						region = sr:region_north_africa
 					}
 				}
 				if = {
@@ -1284,13 +1330,36 @@ fall_of_rome_events.3 = {
 						culture = cu:africanu
 						capital = scope:african_state
 						cede_state_trigger = {
-							owner = ROOT
-							region = sr:region_north_africa
 						}
 						color = { 184 72 35 }
 						on_created = {
 							set_variable = dynamic_roman_breakaway
+							set_variable = dynamic_africa
 						}
+					}
+					if = {
+						limit = { 
+							sr:region_north_africa = {
+								any_scope_country = {
+									has_variable = dynamic_africa
+								}
+							}
+						}
+						sr:region_north_africa = {
+							random_country = {
+								limit = {
+									has_variable = dynamic_africa
+								}
+								save_temporary_scope_as = dynamic_africa_country
+							}
+						}
+						every_scope_state = {
+							limit = {
+								region = sr:region_north_africa
+							}
+							set_state_owner = scope:dynamic_africa_country
+						}
+						scope:dynamic_africa_country = { remove_variable = dynamic_africa }
 					}
 				}
 			}
@@ -1472,6 +1541,7 @@ fall_of_rome_events.3 = {
 						color = { 150 162 203 }
 						on_created = {
 							set_variable = dynamic_roman_breakaway
+							set_variable = dynamic_cilicia
 						}
 					}
 				}
@@ -1489,12 +1559,36 @@ fall_of_rome_events.3 = {
 						culture = cu:greek
 						capital = scope:anatolia_state
 						cede_state_trigger = {
-							region = sr:region_anatolia
 						}
 						color = { 91 51 92 }
 						on_created = {
 							set_variable = dynamic_roman_breakaway
+							set_variable = dynamic_anatolia
 						}
+					}
+					if = {
+						limit = { 
+							sr:region_anatolia = {
+								any_scope_country = {
+									has_variable = dynamic_anatolia
+								}
+							}
+						}
+						sr:region_anatolia = {
+							random_scope_country = {
+								limit = {
+									has_variable = dynamic_anatolia
+								}
+								save_temporary_scope_as = dynamic_anatolia_country
+							}
+						}
+						every_scope_state = {
+							limit = {
+								region = sr:region_anatolia
+							}
+							set_state_owner = scope:dynamic_anatolia_country
+						}
+						scope:dynamic_anatolia_country = { remove_variable = dynamic_anatolia }
 					}
 				}
 			}
@@ -1569,6 +1663,267 @@ fall_of_rome_events.3 = {
 							}
 							set_state_owner = c:EGY
 						}
+					}
+				}
+			}
+			# Caucasus
+			# and Dnieper
+			if = {
+				limit = {
+					capital = {
+						NOR = { 
+							region = sr:region_caucasus 
+							region = sr:region_dnieper
+						}
+					}
+				}
+				# taking car of ERE's Chorzene/STATE_KARS ownership first
+				if = {
+					limit = { 
+						exists = c:ARM
+						c:ARM = {
+							is_at_war = no
+							any_scope_state = {
+								OR = {
+									state_region = s:STATE_KARS
+									state_region = s:STATE_ERZURUM
+									state_region = s:STATE_ARMENIA
+									state_region = s:STATE_GREATER_CAUCASUS
+								}
+							}
+						}
+						any_scope_state = { 
+							state_region = s:STATE_KARS
+						}
+					}
+					random_scope_state = {
+						limit = {
+							state_region = s:STATE_KARS
+						}
+						set_state_owner = c:ARM
+					}
+				}
+				else_if = {
+					limit = { 
+						exists = c:GEO
+						c:GEO = {
+							is_at_war = no
+							any_scope_state = {
+								OR = {
+									state_region = s:STATE_KARS
+									state_region = s:STATE_ERZURUM
+									state_region = s:STATE_ARMENIA
+									state_region = s:STATE_GREATER_CAUCASUS
+								}
+							}
+						}
+						any_scope_state = { 
+							state_region = s:STATE_KARS
+						}
+					}
+					random_scope_state = {
+						limit = {
+							state_region = s:STATE_KARS
+						}
+						set_state_owner = c:ARM
+					}
+				}
+				else_if = {
+					limit = { 
+						any_scope_state = { state_region = s:STATE_KARS }
+						NOT = { 
+							any_scope_state = { # only spin off Chorzene as its own state if Dynamic Iberia can't form
+								OR = {
+									state_region = s:STATE_GREATER_CAUCASUS
+									state_region = s:STATE_ARMENIA
+									state_region = s:STATE_AZERBAIJAN
+								}
+							}
+						}
+					}
+					random_scope_state = { 
+						limit = { state_region = s:STATE_KARS } 
+						save_temporary_scope_as = chorzene_state
+					}
+					create_dynamic_country = {
+						origin = this
+						tier = kingdom
+						culture = cu:greek
+						capital = scope:chorzene_state
+						cede_state_trigger = {
+							owner = scope:main_character_country
+							state_region = s:STATE_KARS
+						}
+						color = { 174 174 217 }
+						on_created = {
+							set_variable = dynamic_roman_breakaway
+							set_variable = dynamic_chorzene
+						}
+					}
+					if = {
+						limit = { 
+							sr:region_caucasus = {
+								any_scope_country = {
+									has_variable = dynamic_chorzene
+								}
+							}
+						}
+						sr:region_caucasus = {
+							random_scope_country = {
+								limit = {
+									has_variable = dynamic_chorzene
+								}
+								save_temporary_scope_as = dynamic_chorzene_country
+							}
+						}
+						every_scope_state = {
+							limit = {
+								state_region = s:STATE_KARS
+							}
+							set_state_owner = scope:dynamic_chorzene_country
+						}
+						scope:dynamic_chorzene_country = { remove_variable = dynamic_chorzene }
+					}
+				}
+
+				if = {
+					limit = { 
+						any_scope_state = { 
+							OR = {
+								state_region = s:STATE_KARS
+								state_region = s:STATE_GREATER_CAUCASUS
+								state_region = s:STATE_ARMENIA
+								state_region = s:STATE_AZERBAIJAN
+							}
+						}
+					}
+					random_scope_state = { 
+						limit = {
+							OR = {
+								state_region = s:STATE_KARS
+								state_region = s:STATE_GREATER_CAUCASUS
+								state_region = s:STATE_ARMENIA
+								state_region = s:STATE_AZERBAIJAN
+							}
+						} 
+						save_temporary_scope_as = iberia_state
+					}
+					create_dynamic_country = {
+						origin = this
+						tier = kingdom
+						culture = cu:greek
+						capital = scope:iberia_state
+						cede_state_trigger = {
+						}
+						color = { 174 174 217 }
+						on_created = {
+							set_variable = dynamic_roman_breakaway
+							set_variable = dynamic_iberia
+							if = {
+								limit = {
+									capital = {
+										state_region = { is_homeland = cu:georgian }
+									}
+								}
+								add_primary_culture = cu:georgian
+							}
+							if = {
+								limit = {
+									capital = {
+										state_region = { is_homeland = cu:armenian }
+									}
+								}
+								add_primary_culture = cu:armenian
+							}
+						}
+					}
+					if = {
+						limit = { 
+							sr:region_caucasus = {
+								any_scope_country = {
+									has_variable = dynamic_iberia
+								}
+							}
+						}
+						sr:region_caucasus = {
+							random_scope_country = {
+								limit = {
+									has_variable = dynamic_iberia
+								}
+								save_temporary_scope_as = dynamic_iberia_country
+							}
+						}
+						every_scope_state = {
+							limit = {
+								OR = {
+									state_region = s:STATE_KARS
+									state_region = s:STATE_GREATER_CAUCASUS
+									state_region = s:STATE_ARMENIA
+									state_region = s:STATE_AZERBAIJAN
+								}
+							}
+							set_state_owner = scope:dynamic_iberia_country
+						}
+					}
+				}
+
+				if = { # Cimmeria/Bosporan Kingdom/Bosporan Domain. technically not originating in the Caucausus Region but look it works with the effect okay
+					limit = { 
+						any_scope_state = { 
+							state_region = s:STATE_CRIMEA
+							is_capital = no
+						}
+					}
+					random_scope_state = { 
+						limit = {
+							state_region = s:STATE_CRIMEA
+						} 
+						save_temporary_scope_as = bosporan_kingdom_state
+					}
+					create_dynamic_country = {
+						origin = this
+						tier = kingdom
+						culture = cu:greek
+						capital = scope:bosporan_kingdom_state
+						cede_state_trigger = {
+						}
+						color = { 213 106 133 }
+						on_created = {
+							set_variable = dynamic_roman_breakaway
+							set_variable = dynamic_bosporan
+						}
+					}
+					if = {
+						limit = { 
+							sr:region_dnieper = {
+								any_scope_country = {
+									has_variable = dynamic_bosporan
+								}
+							}
+						}
+						sr:region_dnieper = {
+							random_scope_country = {
+								limit = {
+									has_variable = dynamic_bosporan
+								}
+								save_temporary_scope_as = dynamic_bosporan_country
+							}
+						}
+						every_scope_state = {
+							limit = {
+								OR = {
+									region = sr:region_dnieper
+									state_region = s:STATE_CRIMEA
+									state_region = s:STATE_KUBAN
+									state_region = s:STATE_LUHANSK
+									state_region = s:STATE_ROSTOV
+									state_region = s:STATE_ASTRAKHAN
+									state_region = s:STATE_DAGESTAN
+								}
+							}
+							set_state_owner = scope:dynamic_bosporan_country
+						}
+						scope:dynamic_bosporan_country = { remove_variable = dynamic_bosporan }
 					}
 				}
 			}
@@ -2152,12 +2507,6 @@ fall_of_rome_events.5 = { # Aut Caesar Aut Nihil
 			}
 			NOT = { exists = scope:target }
 		}
-		OR = {
-			NOT = { exists = c:RE1 }
-			NOT = { exists = c:RE2 }
-			NOT = { exists = c:RE3 }
-			NOT = { exists = c:RE4 }
-		}
 		any_interest_group = {
 			is_marginal = no
 			ig_approval <= unhappy
@@ -2237,6 +2586,21 @@ fall_of_rome_events.5 = { # Aut Caesar Aut Nihil
 				origin = this
 				state = scope:potential_usurper_state
 				on_created = {
+					set_variable = unclaimed_claimant_state
+				}
+			}
+		}
+		else = {
+			create_dynamic_country = {
+				origin = this
+				tier = kingdom
+				culture = cu:roman
+				capital = scope:potential_usurper_state
+				color = { 172 49 99 } # average of WRE and ERE colors
+				cede_state_trigger = {
+				}
+				on_created = {
+					set_variable = dynamic_roman_breakaway
 					set_variable = unclaimed_claimant_state
 				}
 			}
@@ -2402,6 +2766,7 @@ fall_of_rome_events.6 = {
 				remove_primary_culture = cu:greek
 			}
 		}
+		# if it's outside either of these zones, I dunno man, let's just see what they do
 	}
 }
 
@@ -2954,3 +3319,59 @@ fall_of_rome_events.9 = { # Bagaudae Disturbances
 	}
 }
 
+# false version of Crisis of Illegitimacy startup event for WRE
+fall_of_rome_events.10 = {
+	type = country_event
+	placement = ROOT
+	
+	title = fall_of_rome_events.1.t
+	desc = fall_of_rome_events.1.d
+	flavor = fall_of_rome_events.1.f
+	
+	event_image = {
+		video = "unspecific_politicians_arguing"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/ig_icons/armed_forces.dds"
+	
+	duration = 3
+	
+	trigger = {
+	}
+
+	immediate = {
+		save_scope_as = rome_on_the_edge
+		capital = {
+			save_scope_as = capital_scope
+		}
+
+		ordered_interest_group = {
+			limit = {
+				is_powerful = yes
+				leader = {
+					is_ruler = no
+					OR = {
+						has_trait = ambitious
+						has_trait = reckless
+					}
+				}
+				#leader.popularity > ruler.popularity
+			}
+			order_by = ig_clout
+			save_scope_as = ambitus_ig
+			leader = {
+				save_scope_as = ambitus_ig_leader
+				set_variable = ambitus_ig_leader_tracked
+			}
+		}
+	}
+	option = { 
+		name = fall_of_rome_events.1.a
+		default_option = yes
+		show_as_tooltip = {
+			add_journal_entry = { type = je_crisis_of_illegitimacy }
+		}
+	}
+}

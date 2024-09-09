@@ -694,10 +694,17 @@
  HUB_NAME_STATE_BEKES_farm: "Ziridava"
  HUB_NAME_STATE_BEKES_wood: "Castrum Zotmar"
  #
+
+ HUB_NAME_STATE_CHERSON_city:2 "Kherson"
+ HUB_NAME_STATE_CHERSON_port:1 "Odessa"
+ HUB_NAME_STATE_CHERSON_mine:3 "Kryvyi Rih"
+ HUB_NAME_STATE_CHERSON_farm:3 "Mykolaiv"
+ HUB_NAME_STATE_CHERSON_wood:2 "Yekaterinoslav"
+ #
  STATE_LUHANSK: "Danapris"
  HUB_NAME_STATE_LUHANSK_city: "Chariton" # Kharkiv
  HUB_NAME_STATE_LUHANSK_port: "Domakha" # Mariupol
- HUB_NAME_STATE_LUHANSK_mine: "Tanais" # Donetsk River
+ HUB_NAME_STATE_LUHANSK_mine: "Luhan" # Luhan River, which is the namesake of Luhansk
  HUB_NAME_STATE_LUHANSK_farm: "Kodak" # Ekaterinoslav
  HUB_NAME_STATE_LUHANSK_wood: "Khortytsia" # in Zaporizhia
  #
@@ -718,6 +725,14 @@
  HUB_NAME_STATE_TARTARIA_mine:0 "Penza"
  HUB_NAME_STATE_TARTARIA_farm: "Tombale" # Tambov
  HUB_NAME_STATE_TARTARIA_wood: "Saran Osh" # Saransk
+ #
+ #Crimea
+ STATE_CRIMEA: "Taurida"
+ HUB_NAME_STATE_CRIMEA_city: "Aqmescit" # Crimean Tatar name for Simferopol
+ HUB_NAME_STATE_CRIMEA_port: "Cherson" # Byzantine Greek name of Chersonesus, where modern Sebastopol is
+ HUB_NAME_STATE_CRIMEA_mine: "Karcha" # Medieval Turkic name for Kerch.
+ HUB_NAME_STATE_CRIMEA_farm: "Kezlev" # Crimean Tatar name for Yevpatoria
+ HUB_NAME_STATE_CRIMEA_wood: "Theodosia" # Feodosia
  #
  STATE_BULGARIA: "Moesia"
  HUB_NAME_STATE_BULGARIA_city: "Sredets" # Sofia
@@ -759,13 +774,50 @@
  HUB_NAME_STATE_WALLACHIA_city: "Argedava"
  #
  STATE_ROSTOV: "Tanais"
- HUB_NAME_STATE_ROSTOV_city: "Temernik" # Rostov-on-Don
- HUB_NAME_STATE_ROSTOV_port: "Tanais" # Azov
+ HUB_NAME_STATE_ROSTOV_city: "Tanais" # Rostov-on-Don
+ HUB_NAME_STATE_ROSTOV_port: "Azaq" # Azov
  HUB_NAME_STATE_ROSTOV_mine: "Tuz" # Turkish namesake of the Tuzlov River, which the Grushevka River flows into, which is where Alexandro-Grushevskaya is from
  HUB_NAME_STATE_ROSTOV_farm: "Biryuchiy Kut" # Novocherkassk
  HUB_NAME_STATE_ROSTOV_wood: "Tsimla"
  #
  ### SHIT WHERE DO I PUT ANATOLIA AND THE CAUCASUS ###
+ #Caucasus
+ HUB_NAME_STATE_DAGESTAN_city: "Tarki" # Petrovsk-Port
+ HUB_NAME_STATE_DAGESTAN_mine: "Derbent" #14-11-2023
+ HUB_NAME_STATE_DAGESTAN_farm:1 "Temir-Khan-Shura" #14-11-2023
+ HUB_NAME_STATE_DAGESTAN_wood:0 "Kizlyar" #14-11-2023
+ #
+ STATE_KUBAN: "Hypanis" # Classical name for the Kuban River
+ HUB_NAME_STATE_KUBAN_port: "Bata" # Ancient town on the site of Novorossiysk
+ HUB_NAME_STATE_KUBAN_city: "Maghas" # Old name of the capital of medieval Alania. Location is disputed; current location is at Krasnodar which is probably too far west for the true Alanic Maghas, but ehhh
+ HUB_NAME_STATE_KUBAN_mine: "Myekuape" # Maykop, but trying to transcribe the actual Circassian rather than use the Russified form
+ HUB_NAME_STATE_KUBAN_wood: "Uerpyps" # Trying to transcribe Уэрпыпс, the Circassiam nameform of the River Urup
+ HUB_NAME_STATE_KUBAN_farm: "Şaçə"  # Sochi
+ #
+ STATE_AZERBAIJAN: "Arran"
+ HUB_NAME_STATE_AZERBAIJAN_city:1 "Baku"
+ HUB_NAME_STATE_AZERBAIJAN_mine: "Langarkunān" # Lankaran
+ HUB_NAME_STATE_AZERBAIJAN_farm: "Saingilo" # Zaqatala
+ HUB_NAME_STATE_AZERBAIJAN_wood: "Ganja" # Yelizavetpol in Tsarist Russia
+ #
+ STATE_GREATER_CAUCASUS: "Iberia"
+ HUB_NAME_STATE_GREATER_CAUCASUS_city: "Tbilisi"
+ HUB_NAME_STATE_GREATER_CAUCASUS_mine: "Dmanisi" #a little SW of Bolnisi
+ HUB_NAME_STATE_GREATER_CAUCASUS_farm: "Tskhumi" # Medieval name of Sukhum
+ HUB_NAME_STATE_GREATER_CAUCASUS_wood:1 "Telavi" #14-11-2023
+ HUB_NAME_STATE_GREATER_CAUCASUS_port:2 "Poti" #14-11-2023
+ #
+ STATE_ARMENIA: "Armenia"
+ HUB_NAME_STATE_ARMENIA_city: "Dvin" # a little south of Yerevan
+ HUB_NAME_STATE_ARMENIA_mine: "Gavar" # Nor Bayezet in V3. Gavar is the modern name of this settlement and also the old name of another settlement that was in the area.
+ HUB_NAME_STATE_ARMENIA_farm: "Gyumri" # Alexandropol in V3, historically that between 1837 and I think 1924
+ HUB_NAME_STATE_ARMENIA_wood: "Naxuana" # Ptolemy's Greek name for Nakhchivan
+ #
+ HUB_NAME_STATE_NORTH_CAUCASUS_city: "Zurzuka" # Not Grozny, but in modern Chechnya so in the same area. Potentially shares an etymology with the Durdzeks.
+ HUB_NAME_STATE_NORTH_CAUCASUS_mine: "Zaur" # Ingush village that previously stood where Vladikavkaz now is.
+ HUB_NAME_STATE_NORTH_CAUCASUS_farm: "Nalchik"
+ HUB_NAME_STATE_NORTH_CAUCASUS_wood: "Batalpashinskaya" #14-11-2023
+ #
  STATE_ERZURUM: "Karin"
  HUB_NAME_STATE_ERZURUM_city: "Karin"
   #HUB_NAME_STATE_ERZURUM_port:0 "NAME"
@@ -801,9 +853,9 @@
  HUB_NAME_STATE_KASTAMONU_wood: "Herakleia"
  #
  STATE_HUDAVENDIGAR: "Bithynia"
- HUB_NAME_STATE_HUDAVENDIGAR_city: "Prousa" # Bursa
+ HUB_NAME_STATE_HUDAVENDIGAR_city: "Nikaea" # not Bilecik
  HUB_NAME_STATE_HUDAVENDIGAR_port: "Nikomedeia" # Izmit
- HUB_NAME_STATE_HUDAVENDIGAR_mine: "Nikaea" # not Bilecik
+ HUB_NAME_STATE_HUDAVENDIGAR_mine: "Prousa" # Bursa
  HUB_NAME_STATE_HUDAVENDIGAR_farm: "Pegai" # Biga
  HUB_NAME_STATE_HUDAVENDIGAR_wood: "Palaiokastron" # Balikesir
  #
@@ -1034,9 +1086,18 @@
  HUB_NAME_STATE_VIRGINIA_wood: "Inaliyi"
  #
  STATE_ALABAMA: "Albaamo"
+ HUB_NAME_STATE_ALABAMA_city: "Apotaka Hacha" # name of the Black Warrior River, which runs through Birmingham, when it denoted a border between the Choctaw, Chickasaw, and Creek
+ HUB_NAME_STATE_ALABAMA_port:0 "Mobile"
+ HUB_NAME_STATE_ALABAMA_mine: "Ococoposa" # Tuscumbia, AL
+ HUB_NAME_STATE_ALABAMA_farm: "Ikanatchati" # Montgomery, AL
+ HUB_NAME_STATE_ALABAMA_wood: "Conecuh" # Conecuh County is where Evergreen AL is located
  #
  STATE_MISSISSIPPI: "Occochappo"
  HUB_NAME_STATE_MISSISSIPPI_city: "Talcatcha"
+ #HUB_NAME_STATE_MISSISSIPPI_port:0 "Biloxi"
+ #HUB_NAME_STATE_MISSISSIPPI_mine:0 "Tupelo"
+ HUB_NAME_STATE_MISSISSIPPI_farm: "Koroa" # native people who lived alongside the Yazoo people, near Vicksburg
+ HUB_NAME_STATE_MISSISSIPPI_wood: "Sowashee" # Meridian
  #
  STATE_TEXAS: "Táyshaʼ"
  HUB_NAME_STATE_TEXAS_city: "Flevum" # Austin
@@ -1406,12 +1467,6 @@
  HUB_NAME_STATE_LIBERIA_farm:0 "Gbarnga"
  HUB_NAME_STATE_LIBERIA_wood: "Sapo"
  ############ ASIA #############
- #
- STATE_AZERBAIJAN: "Shirvan"
- HUB_NAME_STATE_AZERBAIJAN_city:1 "Baku"
- HUB_NAME_STATE_AZERBAIJAN_mine: "Langarkunān" # Lankaran
- HUB_NAME_STATE_AZERBAIJAN_farm: "Saingilo" # Zaqatala
- HUB_NAME_STATE_AZERBAIJAN_wood: "Ganja" # Yelizavetpol in Tsarist Russia
  #
  STATE_BEIJING: "Yan"
  HUB_NAME_STATE_BEIJING_city: "Yanjing"

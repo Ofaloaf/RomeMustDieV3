@@ -53,7 +53,18 @@
 			set_interest_group_name = ig_rustici
 		}
 		
-		#add_journal_entry = { type = je_fall_of_rome }
-		trigger_event = { id = fall_of_rome_events.1 popup = yes }
+		add_journal_entry = { type = je_crisis_of_illegitimacy }
+		set_variable = {
+			name = caudillo_var
+			value = 600
+		}
+		set_variable = { 
+			name = caudillo_next 
+			value = 0 
+		}
+		trigger_event = { 
+			id = fall_of_rome_events.10
+			#popup = yes 
+		}
 	}
 }

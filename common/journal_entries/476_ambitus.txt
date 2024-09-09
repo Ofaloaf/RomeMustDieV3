@@ -7,6 +7,26 @@
 
 	immediate = {
 		save_scope_as = caudillo_country_scope
+
+		ordered_interest_group = {
+			limit = {
+				is_powerful = yes
+				leader = {
+					is_ruler = no
+					OR = {
+						has_trait = ambitious
+						has_trait = reckless
+					}
+				}
+				#leader.popularity > ruler.popularity
+			}
+			order_by = ig_clout
+			save_scope_as = ambitus_ig
+			leader = {
+				save_scope_as = ambitus_ig_leader
+				set_variable = ambitus_ig_leader_tracked
+			}
+		}
 	}
 
 	complete = {
@@ -67,12 +87,10 @@
 		effect = {
 			change_variable = { name = caudillo_var add = var:caudillo_next }
 		}
-		random_events = {
-			# Pulse events affect the progress bar
-			120 = 0 
-			10 = roman_illegitimacy.4
-			25 = roman_illegitimacy.6
-		}
+		#random_events = {
+		#	# Pulse events affect the progress bar
+		#	120 = 0 
+		#}
 	}
 
 	on_yearly_pulse = {

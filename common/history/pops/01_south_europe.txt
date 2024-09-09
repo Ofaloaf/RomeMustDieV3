@@ -92,7 +92,11 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 582848
+				size = 472107
+			}
+			create_pop = {
+				culture = greek
+				size = 110741
 			}
 		}
 	}
@@ -100,7 +104,11 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 663294
+				size = 517369
+			}
+			create_pop = {
+				culture = greek
+				size = 145925
 			}
 		}
 	}
@@ -172,7 +180,7 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 1054754
+				size = 929404
 			}
 			create_pop = {
 				culture = roman
@@ -183,6 +191,15 @@
 				culture = roman
 				religion = jewish
 				size = 6001
+			}
+			create_pop = {
+				culture = assyrian
+				religion = jewish
+				size = 10050
+			}
+			create_pop = {
+				culture = greek
+				size = 115300
 			}
 			create_pop = {
 				culture = rromani
@@ -212,7 +229,11 @@
 		region_state:WRE = {
 			create_pop = {
 				culture = roman
-				size = 787413
+				size = 496070
+			}
+			create_pop = {
+				culture = greek
+				size = 291343
 			}
 		}
 	}

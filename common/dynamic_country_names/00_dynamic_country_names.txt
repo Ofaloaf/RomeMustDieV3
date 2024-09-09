@@ -511,7 +511,7 @@ DEFAULT = {
 		}
 	}
 	
-	dynamic_country_name = { # Domain of the East
+	dynamic_country_name = { # Domain of Pannonia
 		name = dyn_c_domain_of_pannonia
 		adjective = dyn_c_domain_of_pannonia_adj
 		
@@ -535,12 +535,32 @@ DEFAULT = {
 		}
 	}
 
+	dynamic_country_name = { # Domain of the Aegean
+		name = dyn_c_domain_of_the_aegean
+		adjective = dyn_c_domain_of_the_aegean_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = {
+					OR = {
+						state_region = s:STATE_EAST_AEGEAN_ISLANDS
+						state_region = s:STATE_WEST_AEGEAN_ISLANDS
+					}
+				}
+			}
+		}
+	}
+
 	dynamic_country_name = { # Pontic Domain
 		name = dyn_c_pontic_domain
 		adjective = dyn_c_pontic_domain_adj
 		
 		is_main_tag_only = yes
-		priority = 1
+		priority = 10
 		
 		trigger = {
 			scope:actor ?= {
@@ -560,7 +580,7 @@ DEFAULT = {
 		adjective = dyn_c_domain_of_iconium_adj
 		
 		is_main_tag_only = yes
-		priority = 1
+		priority = 10
 		
 		trigger = {
 			scope:actor ?= {
@@ -589,6 +609,57 @@ DEFAULT = {
 						state_region = s:STATE_KASTAMONU
 						state_region = s:STATE_TRABZON
 					}
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { # Chorzene
+		name = dyn_c_chorzene
+		adjective = dyn_c_chorzene_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = {
+					state_region = s:STATE_KARS
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { # Domain of Numidia
+		name = dyn_c_domain_of_numidia
+		adjective = dyn_c_domain_of_numidia_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = {
+					state_region = s:STATE_CONSTANTINE
+				}
+			}
+		}
+	}
+
+	dynamic_country_name = { # Domain of Nicaea
+		name = dyn_c_domain_of_nicaea
+		adjective = dyn_c_domain_of_nicaea_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			scope:actor ?= {
+				is_dynamic_roman_tag = yes
+				capital = {
+					state_region = s:STATE_HUDAVENDIGAR
 				}
 			}
 		}
