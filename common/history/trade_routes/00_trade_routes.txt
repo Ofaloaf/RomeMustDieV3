@@ -1227,6 +1227,35 @@ TRADE_ROUTES = {
 		
     }
 
+	# Armorica
+	c:BRI ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:MMU.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 3
+			direction = import
+			target = c:CGL.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:DMN.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = export
+			target = c:GLL.market
+		}
+		
+    }
+
 
 
 
