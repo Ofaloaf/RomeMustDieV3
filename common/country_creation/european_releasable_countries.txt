@@ -29,6 +29,12 @@ HLV = {
 ################
 
 ### ILLYRICUM ET PANNONIA ###
+# Illyria This Country is used when testing Iberia as a separate region.
+ILY = {
+	use_culture_states = yes    
+	
+	ai_will_do = { always = no }
+}
 
 DLM = {
 	states = {
