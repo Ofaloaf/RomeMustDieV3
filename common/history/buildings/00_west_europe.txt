@@ -4480,7 +4480,7 @@
 						type="building_manor_house"
 						country="c:BRI"
 						levels=1
-						region="STATE_AUVERGNE_BRITTANY"
+						region="STATE_BRITTANY"
 					}
 				}
 				reserves=1
