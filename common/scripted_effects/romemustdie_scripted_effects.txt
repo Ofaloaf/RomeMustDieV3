@@ -72,7 +72,7 @@ refused_to_do_what_was_expected_effect = {
 	}
 }
 
-ambitus_caudillo_progress = {
+calculate_ambitus_progress = {
 	set_variable = { name = caudillo_next value = 0 }
 	if = {
 		limit = {
@@ -113,7 +113,13 @@ ambitus_caudillo_progress = {
 	if = {
 		limit = {
 			any_interest_group = {
-				is_powerful = yes
+				OR = {
+					is_powerful = yes
+					is_in_government = yes
+				}
+				leader = {
+					is_ruler = no
+				}
 				leader.popularity > owner.ruler.popularity
 			}
 		}
@@ -182,11 +188,10 @@ ambitus_caudillo_progress = {
 	}
 	if = {
 		limit = {
-			any_scope_character = {
+			any_scope_politician = {
 				is_ruler = no
 				is_heir = no
-				is_agitator = no
-				is_politician = yes
+				NOT = { has_role = agitator }
 				has_ideology = ideology:ideology_dominate
 			}
 		}

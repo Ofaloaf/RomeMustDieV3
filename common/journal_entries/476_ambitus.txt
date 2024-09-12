@@ -1,22 +1,33 @@
 ﻿je_crisis_of_illegitimacy = {
 	icon = "gfx/interface/icons/ideology_icons/unused/jingoist_leader.dds"
 
-	group = je_group_internal_affairs
+	group = je_group_historical_content
 	
 	#scripted_button = caudillo_decree_button
 
 	immediate = {
 		save_scope_as = caudillo_country_scope
 
+		#ordered_scope_politician = {
+		#	limit = {
+		#		is_ruler = no
+		#		is_heir = no
+		#		interest_group = {
+		#			OR = {
+		#				is_powerful = yes
+		#				is_in_government = yes
+		#			}
+		#		}
+		#	}
+		#	order_by = popularity
+		#	save_scope_as = ambitus_ig_leader
+		#}
 		ordered_interest_group = {
 			limit = {
 				is_powerful = yes
 				leader = {
 					is_ruler = no
-					OR = {
-						has_trait = ambitious
-						has_trait = reckless
-					}
+					is_heir = no
 				}
 				#leader.popularity > ruler.popularity
 			}
@@ -24,7 +35,45 @@
 			save_scope_as = ambitus_ig
 			leader = {
 				save_scope_as = ambitus_ig_leader
-				set_variable = ambitus_ig_leader_tracked
+			}
+		}
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = crisis_of_illegitimacy_no_candidate
+				trigger = {
+					NOT = { exists = scope:ambitus_ig_leader }
+				}
+			}
+#			triggered_desc = {
+#				desc = crisis_of_illegitimacy_top_candidate_more_powerful_than_emp
+#				trigger = {
+#					exists = scope:ambitus_ig_leader
+#					OR = {
+#						AND = {
+#							scope:ambitus_ig = {
+#								any_scope_character = { is_ruler = yes }
+#							}
+#							scope:ambitus_ig_leader.popularity > ruler.popularity
+#						}
+#						AND = {
+#							scope:ambitus_ig = {
+#								NOT = {
+#									any_scope_character = { is_ruler = yes }
+#								}
+#							}
+#							scope:ambitus_ig.ig_clout > ruler.interest_group.ig_clout
+#						}
+#					}
+#				}
+#			}
+			triggered_desc = {
+				desc = crisis_of_illegitimacy_top_candidate_less_powerful_than_emp
+				trigger = {
+					exists = scope:ambitus_ig_leader
+				}
 			}
 		}
 	}
@@ -79,14 +128,175 @@
 
 	on_weekly_pulse = {
 		effect = {
-            calculate_caudillo_progress = yes
+            calculate_ambitus_progress = yes
         }
 	}
 
 	on_monthly_pulse = {
 		effect = {
 			change_variable = { name = caudillo_var add = var:caudillo_next }
+			if = {
+				limit = {
+					NOT = { exists = scope:ambitus_ig_leader }
+				}
+				ordered_interest_group = {
+					limit = {
+						is_powerful = yes
+						leader = {
+							is_ruler = no
+						}
+						leader.popularity > owner.ruler.popularity
+					}
+					order_by = ig_clout
+					save_scope_as = ambitus_ig
+					leader = {
+						save_scope_as = ambitus_ig_leader
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { exists = scope:ambitus_ig_leader }
+				}
+				ordered_interest_group = {
+					limit = {
+						is_powerful = yes
+						leader = {
+							is_ruler = no
+						}
+					}
+					order_by = ig_clout
+					save_scope_as = ambitus_ig
+					leader = {
+						save_scope_as = ambitus_ig_leader
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { exists = scope:ambitus_ig_leader }
+				}
+				ordered_interest_group = {
+					limit = {
+						leader.popularity > owner.ruler.popularity
+						leader = {
+							is_ruler = no
+						}
+					}
+					order_by = ig_clout
+					save_scope_as = ambitus_ig
+					leader = {
+						save_scope_as = ambitus_ig_leader
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { exists = scope:ambitus_ig_leader }
+				}
+				ordered_interest_group = {
+					limit = {
+						leader = {
+							is_ruler = no
+						}
+					}
+					order_by = ig_clout
+					save_scope_as = ambitus_ig
+					leader = {
+						save_scope_as = ambitus_ig_leader
+					}
+				}
+			}
+
+			### set new Most Amitious Character if current one isn't valid
+			else_if = {
+				limit = {
+					exists = scope:ambitus_ig_leader
+					scope:ambitus_ig_leader = {
+						OR = {
+							is_ruler = yes
+							is_heir = yes
+							NOT = { has_role = politician }
+							is_in_exile_pool = yes
+							is_character_alive = no
+						}
+					}
+				}
+				clear_saved_scope = ambitus_ig
+				clear_saved_scope = ambitus_ig_leader
+				ordered_interest_group = {
+					limit = {
+						is_powerful = yes
+						leader = {
+							is_ruler = no
+						}
+					}
+					order_by = ig_clout
+					save_scope_as = ambitus_ig
+					leader = {
+						save_scope_as = ambitus_ig_leader
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					exists = scope:ambitus_ig_leader
+					scope:ambitus_ig_leader = {
+						OR = {
+							is_ruler = yes
+							is_heir = yes
+							NOT = { has_role = politician }
+							is_in_exile_pool = yes
+							is_character_alive = no
+						}
+					}
+				}
+				clear_saved_scope = ambitus_ig
+				clear_saved_scope = ambitus_ig_leader
+				ordered_interest_group = {
+					limit = {
+						leader.popularity > owner.ruler.popularity
+						leader = {
+							is_ruler = no
+						}
+					}
+					order_by = ig_clout
+					save_scope_as = ambitus_ig
+					leader = {
+						save_scope_as = ambitus_ig_leader
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					exists = scope:ambitus_ig_leader
+					scope:ambitus_ig_leader = {
+						OR = {
+							is_ruler = yes
+							is_heir = yes
+							NOT = { has_role = politician }
+							is_in_exile_pool = yes
+							is_character_alive = no
+						}
+					}
+				}
+				clear_saved_scope = ambitus_ig
+				clear_saved_scope = ambitus_ig_leader
+				ordered_interest_group = {
+					limit = {
+						leader = {
+							is_ruler = no
+						}
+					}
+					order_by = ig_clout
+					save_scope_as = ambitus_ig
+					leader = {
+						save_scope_as = ambitus_ig_leader
+					}
+				}
+			}
 		}
+
 		#random_events = {
 		#	# Pulse events affect the progress bar
 		#	120 = 0 

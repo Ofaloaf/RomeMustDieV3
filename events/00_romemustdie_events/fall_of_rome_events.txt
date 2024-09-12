@@ -599,7 +599,6 @@ fall_of_rome_events.1 = {
 			save_scope_as = ambitus_ig
 			leader = {
 				save_scope_as = ambitus_ig_leader
-				set_variable = ambitus_ig_leader_tracked
 			}
 		}
 	}
@@ -3352,18 +3351,12 @@ fall_of_rome_events.10 = {
 				is_powerful = yes
 				leader = {
 					is_ruler = no
-					OR = {
-						has_trait = ambitious
-						has_trait = reckless
-					}
 				}
-				#leader.popularity > ruler.popularity
 			}
 			order_by = ig_clout
 			save_scope_as = ambitus_ig
 			leader = {
 				save_scope_as = ambitus_ig_leader
-				set_variable = ambitus_ig_leader_tracked
 			}
 		}
 	}

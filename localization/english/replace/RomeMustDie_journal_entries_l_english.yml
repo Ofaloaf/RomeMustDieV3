@@ -5,6 +5,16 @@
   fall_of_rome_criteria: "Each of the following will contribute #red 20%#! to the collapse of [SCOPE.GetRootScope.GetCountry.GetName]:\n- Losing control of the #BOLD Prefecture of the West#!\n- Letting government legitimacy fall to #BOLD Illegitimate #!\n- Warring against the #BOLD Eastern Roman Empire#!\n- Going into debt and taking any [concept_loans]\n- Having a [concept_civil_war]\n- Allowing an interest group led by a #BOLD [concept_barbarian]#! into government\n\nEach of the following will detract #green -20%#! from the fracturing of [SCOPE.GetRootScope.GetCountry.GetName]:\n- Removing the #BOLD Foederati#! from the Armed Forces\n- Recovering #BOLD North Africa#!\n- Annexing the #BOLD Gallic Empire#!\n- Regaining #BOLD any#! territory in #BOLD Britannia#!"
   concept_barbarian: "Barbarian"
   concept_barbarian_desc: "A #BOLD Barbarian#! is any character with a culture that neither has the #BOLD Latin#! trait nor is Greek, such as the Thuringian culture."
+
+  je_crisis_of_illegitimacy: "Crisis of Illegitimacy"
+  je_crisis_of_illegitimacy_reason: "The status of the #bold Progress Bar#! will be determined by various #tooltippable;tooltip:[Country.GetTooltipTag],je_caudillo_special_tooltip_advance positive#! or #tooltippable;tooltip:[Country.GetTooltipTag],je_caudillo_special_tooltip_deplete negative#! conditions. The #bold Progress Bar#! reaching #bold 100#! will cement the power of military strongmen in [SCOPE.sCountry('caudillo_country_scope').GetName]. Next month, the #bold Progress Bar#! will change by #variable [Country.MakeScope.Var('caudillo_next').GetValue|+=]#!.\n\nDepleting the progress bar and keeping the [SCOPE.gsInterestGroup('ambitus_ig').GetName] weak will smother destabilizing forces in the country and end the threat of generalissimos and persistent upstarts.\n\n#italic A weak figure at the center of Roman politics creates a void quickly filled by charismatic aspirants and usurpers. Left unchecked, these men of naked ambition will tear apart the realm to claim even a tattered rag as their own.#!"
+  roman_illegitimacy_democratic_institutions_good: "#G Existing [Concept('concept_election','democratic')] institutions reduce the initial strength of this strongman movement.#!"
+  crisis_of_illegitimacy_rome_dies: "#N #B The Empire will perish in chaos and ignominy.#!"
+
+  crisis_of_illegitimacy_no_candidate: "#B No one#! can currently challenge the authority of the [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]. [ROOT.GetCountry.GetRuler.GetSheHe|U] has a popularity of [ROOT.GetCountry.GetRuler.GetPopularity]"
+  crisis_of_illegitimacy_top_candidate_more_powerful_than_emp: "[SCOPE.sCharacter('ambitus_ig_leader').GetFullName] of the [SCOPE.gsInterestGroup('ambitus_ig').GetName] is more powerful than the [ROOT.Ruler.GetPrimaryRoleTitle] [ROOT.Ruler.GetHerselfHimself|l]. [SCOPE.sCharacter('ambitus_ig_leader').GetSheHe|U] has a popularity of [SCOPE.sCharacter('ambitus_ig_leader').GetPopularity]"
+  crisis_of_illegitimacy_top_candidate_less_powerful_than_emp: "[SCOPE.sCharacter('ambitus_ig_leader').GetFullName] of the [SCOPE.gsInterestGroup('ambitus_ig').GetName] is second only to the [ROOT.Ruler.GetPrimaryRoleTitle] in power and ambition."
+
   #
   je_attila_returns: "Attila's Return"
   je_attila_returns_reason: "Attila, the descendant of the Great Nimrod, nutured in Engaddi, the Dread of the World himself, has fled his prison and is clearly intending to return to [ROOT.GetCountry.GetName] and resume his rule. The earth quakes!"
@@ -26,7 +36,7 @@
   is_italy_tt: "Has formed the nation of #bold Britannia#!"
   italy_will_get_couped_custom: " and the instatement of a #bold democratic republic#!"
   italy_will_get_annexed_custom: " and #red annexation#! into the leading British state"
-  owns_italian_homelands_tt: "Owns [GetCulture('north_italian').GetName] or [GetCulture('south_italian').GetName] [concept_homeland] states"
+  owns_italian_homelands_tt: "Owns [GetCulture('brithenig').GetName] or [GetCulture('welsh').GetName] [concept_homeland] states"
   #
   je_risorgimento_austrian_radicals_button: "Encourage British Nationalism"
   je_risorgimento_austrian_radicals_button_desc: "To the shame of true patriots across this blessed isle, British territories are now held by foreign powers. Our journey to unify the island may inspire them to raise arms against their own oppressors."
