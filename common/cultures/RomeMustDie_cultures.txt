@@ -541,7 +541,7 @@ septimanian={
 		Adrian Andreus Antoni
 		Boecis Blaze Beat
 		Costantin Cristian Caprasis Cesar Cernil
-		Dioclician Daunis Dulcidis Davis Daniel Dalmatz
+		Dioclician Daunis Dulcidis Davis Daniel Dalmatz Domenge
 		Exuperi Estefe
 		Felitz Filisteu Felip
 		Geneis Geli

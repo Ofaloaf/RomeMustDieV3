@@ -2776,7 +2776,43 @@ fall_of_rome_events.7 = { # Language Reform?
 
 	title = fall_of_rome_events.7.t
 	desc = fall_of_rome_events.7.d
-	flavor = fall_of_rome_events.7.f
+	flavor = {
+		first_valid = {
+			triggered_desc = {
+				desc = fall_of_rome_events.7.f_brithenig
+				trigger = {
+					country_has_primary_culture = cu:brithenig
+				}
+			}
+			triggered_desc = {
+				desc = fall_of_rome_events.7.f_gallic
+				trigger = {
+					country_has_primary_culture = cu:gallic
+				}
+			}
+			triggered_desc = {
+				desc = fall_of_rome_events.7.f_old_occitan
+				trigger = {
+					OR = {
+						country_has_primary_culture = cu:septimanian
+						country_has_primary_culture = cu:gothic
+					}
+				}
+			}
+			triggered_desc = {
+				desc = fall_of_rome_events.7.f_hispanian
+				trigger = {
+					country_has_primary_culture = cu:hispanian
+				}
+			}
+			triggered_desc = {
+				desc = fall_of_rome_events.7.f_roman
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}
 
 	event_image = {
 		video = "southamerica_aristocrats"
@@ -2788,6 +2824,9 @@ fall_of_rome_events.7 = { # Language Reform?
 
 	trigger = {
 		NOT = { has_variable = roman_language_debate }
+		any_primary_culture = {
+			has_discrimination_trait = romance_speaker # doesn't make sense for Greek speakers
+		}
 		is_at_war = no
 		ig:ig_intelligentsia = { 
 			ig_clout >= 0.15 # The Intelligentsia does not need to be in government, there just have to be enough loud nerds around
