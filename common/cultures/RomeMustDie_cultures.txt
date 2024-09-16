@@ -56,11 +56,11 @@
 		Grumentense Genusiense Grumense Gallerani Gorini Grizi Gesio Germia
 		Iguviense Igneo Istoniense Iacopi Iohanni Iohanello
 		Laviniense Luceriense Larinense Luti Lapi Lupicini Lorentiano
-		Mediolanense Minerviense Marini Marsili Micheli Martini
+		Mediolanense Minerviense Marini Marsili Micheli Martini Messala
 		Nepolitano Novariense Nequinense Natiolense Nuceriense Narniense Nerini Neroni
 		Ostiense Ortense
 		Pisano Populoniense Potentiense Placentiense Pisaurense Pinnense Prifernense Plestiense Paganelli Petri Ponci Pratesi Prosperi Postumiano Paterio
-		Ravennense Ruffo Rocchi Rustichelli Rustichi Romiti
+		Ravennense Ruffo Rocchi Rustichelli Rustichi Romiti Rusticio
 		Sutriense Sepinense Sarsinense Spoletiense Silviense Scala Salicetense Salomoni Sorense Salvaterra Siminetti Stefani Salvucci Sottio
 		Telesiense Turense Trebense Taddei Toscanelli Tanchasia Tantuci Tornaquinci Tovaglia Tesauro
 		Uzentense
@@ -124,23 +124,24 @@
 #	}
 
 	noble_last_names = {
-		Acilio Achilio Asterio Aurelio Agorio Ablabio Aufidio Annio Afranio
+		Acilio Achilio Asterio Aurelio Agorio Ablabio Aufidio Annio Afranio Anneo
 		Bruttio Bononiensis Balventio Bebio Blossio Burbuleio Barbatio
 		Calpurnio Catio Clodio Cervonio Cecina Ceionio Carfuleno Cesonio Critonio Cuspio
-		Decius
-		Ennodius
+		Decio
+		Ennodio
 		Fulvio Fabio
+		Gallio
 		Liciniano Lelio
-		Manlio Memmio Mavoritio Mecilio Munatio Messio Mecio Magrio Mediolanense
-		Nonio Nummio
+		Manlio Memmio Mavoritio Mecilio Munatio Messio Mecio Magrio Mediolanense Macrobio Messala
+		Nonio Nummio Nicomacho
 		Oclantinio Ovinio Orfito
-		Petronio Presidio Pomonio Pupieno Pollieno
+		Petronio Presidio Pomonio Pupieno Pollieno Picingli Plotino Pamfronio
 		Quinctilio
 		Rufio Rusticio Roscio Ragonio Romanense
-		Sallustio Scholastico Strabo Sertorio
+		Sallustio Scholastico Strabo Sertorio Senatore
 		Turcio Tineio Tullio
 		Umbrio
-		Vettio Virio Valerio
+		Vettio Virio Valerio Venantio Volusiano
 	}
 	
 	male_regal_first_names = {
@@ -165,13 +166,15 @@
 		Zoe
 	}
 	regal_last_names = {
-		Anicius
+		Anicius Acilius
 		Crescentius
+		Decius
 		Flavius
 		Iunius
 		Licinius Lateranus
 		Oresteianus
-		Procopius Pompeius
+		Procopius Pompeius Petronius
+		Rufius
 		Symmachus Septimius
 		Valerius Virius
 	}	
@@ -256,8 +259,27 @@ frankish={
 		Wachtere Waldacker Weuere Wortman
 		Zwertvegher
 	}
+	noble_last_names = {
+		fan_Amblava fan_Andhunerbo fan_Aquisgrani
+		fan_Bilisia fan_Bonna
+		fan_Collen
+		fan_Dispargum fan_Duria fan_Duristat
+		fan_Fura
+		fan_Ganda
+		fan_Hellewik
+		fan_Jupila
+		fan_Leodico
+		fan_Masatreiekt
+		fan_Nuiss
+		fan_Orolaun
+		Pippinius fan_Prumia
+		fan_Rumanzeis
+		fan_Solmania fan_Sentiacus
+		fan_Tongerea fan_Turnaco fan_Tectis fan_Thusila
+		fan_Wiltaburg
+	}
 	male_regal_first_names = {
-		Audacer
+		Audacer # tihihi
 		Clodowech Childirik Chilperik Chariberht Childeberht Chlothar
 		Karolus
 		Lothowic
@@ -271,9 +293,10 @@ frankish={
 		Bertha Burgundofara Begga Balthildis Basina
 		Clothildis Chunsina Clothsinda
 		Genovefa Galswintha
-		Sophia Susanna Sadalberga
+		Sophia Susanna Sadalberga Suaneildis
 	}
 	regal_last_names = {
+		Ansegiseling
 		Faramunding
 		Gennobalding
 		Mallobalding Marchomiring
@@ -458,7 +481,7 @@ saxon = { # Mix of Plattdüütsch/Neddersassisch and Old Saxon
 	graphics = european
 }
 
-gallic = {
+gallic = { # Old French, plus some Old Occitan influences
 	color= hsv{ 0.93 0.14 0.80 }
 	religion = nicene
 	traits = { romance_speaker latin_culture_group european_heritage }
@@ -505,7 +528,7 @@ gallic = {
 		Verena Valeria
 	}
 	common_last_names = {
-		Apollinaris Ausoniaus Avenneis Amieneis Agicis Arelateis Agesilles Ainicices Aircus Amio Angis Aucella Acin Artiaus
+		Apollinaris Ausoniaus Avenneis Amieneis Agicis Arelateis Agesilles Ainicices Aircus Amio Angis Aucella Acin Artiaus Atuatuceis
 		Bromonz Braiecueleis Belmonteis Boveis Bagines Blandin Bolges 
 		Carteineis Couvelaneis Calendes Cammis Canlogenz Cassignet Caupirra Cauterra Cenna Cerdz Ciputa Conedz Coudz Cratmes Crina
 		Dagges Deocarz Disetz Dometz Druses
@@ -517,11 +540,11 @@ gallic = {
 		Loceis Lalles Langis Lastuca Levis Libon Luppon Lutais
 		Maqueriaus Monmorenceis Monferrateis Maillieis Marseilleis Malvoisins Mezeis Maccis Magines Manertz Mastriz Meddigenes Mauces Madiatz Mevis Mincis Murran
 		Neeleis Noioneis Neafleis Nemausan Noieratz Nicundis
-		Ouatz Ollognatz
+		Ouatz Ollognatz Orunculeius
 		Panta Pantiliaus Paturitz Perimitis Pervinc Pilistris Poppill Primigenis Procanul
 		Reburres Reditz Ripanes Rulvis Rusces
 		Siagriaus Sabinules Samogenes Sceus Scotis Serulles Sionis Solan Solitz Stiligon 
-		Tolosan Tagites Taramates Tarves Tetlonis Titusiaus Tornis Trimitiaus Tusson
+		Tolosan Tagites Taramates Tarves Tetlonis Titusiaus Tornis Trimitiaus Tusson Tituris
 		Ucates Ulatugnes
 		Vaulceis Valleis Vacriaus Verecundes Vasiaus Venermides Vitles Vogenes
 	}

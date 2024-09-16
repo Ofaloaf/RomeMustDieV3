@@ -74,25 +74,50 @@ refused_to_do_what_was_expected_effect = {
 
 calculate_ambitus_progress = {
 	set_variable = { name = caudillo_next value = 0 }
+	ordered_interest_group = {
+		limit = {
+			leader = {
+				is_ruler = no
+			}
+		}
+		order_by = ig_clout
+		save_temporary_scope_as = ambitus_ig
+		leader = {
+			save_temporary_scope_as = ambitus_ig_leader
+		}
+	}
 	if = {
 		limit = {
-			any_interest_group = {
-				leader = {
-					is_ruler = no
-				}
-				#leader.popularity > owner.ruler.popularity
+			scope:ambitus_ig = {
 				is_strongest_ig_in_government = yes
 			}
-			NOT = {
-				any_interest_group = {
-					NOT = { prev = this }
-					ig_clout > prev.ig_clout
+		}
+		change_variable = {
+			name = caudillo_next
+			add = 1
+		}
+	}
+	if = {
+		limit = {
+			scope:ambitus_ig_leader = {
+				OR = {
+					is_general = yes
+					is_admiral = yes
 				}
 			}
 		}
 		change_variable = {
 			name = caudillo_next
 			add = 1
+		}
+	}
+	if = {
+		limit = {
+			scope:ambitus_ig_leader.popularity < ruler.popularity
+		}
+		change_variable = {
+			name = caudillo_next
+			add = -1
 		}
 	}
 #	if = {

@@ -1,0 +1,52 @@
+﻿CHARACTERS = {
+	c:FRK = {
+
+		### RULER & HEIR ###
+		create_character = {
+			template = FRK_frankish_king # Childebraht fan Heristali
+		}
+
+		create_character = {
+			template = FRK_heir # li'l Prince Lothowic
+		}
+		
+
+		### INTEREST GROUP LEADERS ###
+		
+		# Rural Folks
+		# Costantino Atrianense
+		create_character = {
+			template = wre_rural_folk_leader
+		}
+
+		# Landowners
+		# Chrysogonus Petrus Leonis
+		create_character = {
+			template = wre_landowners_leader 
+		}
+		
+		### GENERALS
+		
+		#create_character = {
+		#	template = wre_general_01	# Gercorio Segontiense
+		#}
+		
+		#create_character = { # created and assigned to an army in common\history\military_formations\WRE_military_formations.txt
+		#	template = wre_general_02	# Bonifacio Ruffo
+		#}
+
+		#create_character = {
+		#	template = wre_general_03	# Glaucias Scirtar
+		#}
+
+		#create_character = { # created and assigned to an army in common\history\military_formations\WRE_military_formations.txt
+		#	template = wre_general_04	# Eneas Cincio
+		#}
+		
+		### ADMIRALS
+		
+		create_character = {
+			template = wre_admiral_1	# Ottavio Essuperanzio
+		}
+	}
+}

@@ -6,7 +6,7 @@
   concept_barbarian: "Barbarian"
   concept_barbarian_desc: "A #BOLD Barbarian#! is any character with a culture that neither has the #BOLD Latin#! trait nor is Greek, such as the Thuringian culture."
 
-  je_crisis_of_illegitimacy: "Crisis of Illegitimacy"
+  je_crisis_of_illegitimacy: "Crisis of Supremacy"
   je_crisis_of_illegitimacy_reason: "The status of the #bold Progress Bar#! will be determined by various #tooltippable;tooltip:[Country.GetTooltipTag],je_crisis_of_illegitimacy_special_tooltip_advance positive#! or #tooltippable;tooltip:[Country.GetTooltipTag],je_crisis_of_illegitimacy_special_tooltip_deplete negative#! conditions. The #bold Progress Bar#! reaching #bold 100#! #n will destroy the last vestiges of [SCOPE.sCountry('caudillo_country_scope').GetAdjective] authority.#! Next month, the #bold Progress Bar#! will change by #variable [Country.MakeScope.Var('caudillo_next').GetValue|+=]#!.\n\nDepleting the progress bar and preventing any one [concept_interest_group] from being too strong will smother destabilizing forces in the country and end the threat of generalissimos and persistent upstarts.\n\n#italic A weak figure at the center of Roman politics creates a void quickly filled by charismatic aspirants and usurpers. Left unchecked, these men of naked ambition will tear apart the realm to claim even a tattered rag as their own.#!"
   roman_illegitimacy_democratic_institutions_good: "#G Existing [Concept('concept_election','democratic')] institutions reduce the initial strength of this strongman movement.#!"
   crisis_of_illegitimacy_rome_dies: "#N #B The Empire will perish in chaos and ignominy.#!"

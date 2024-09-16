@@ -1,0 +1,71 @@
+﻿# Frankia, Francia, Francië, ..."Franklant"? "Frankolant"?
+
+FRK_frankish_king = {
+	first_name = Childebraht
+	last_name = fan_Heristali # van Herstal, as in Peppin of Herstal
+	historical = yes
+	culture = cu:frankish
+	religion = rel:arian
+	ruler = yes
+	female = no
+	age = 32
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_moderate
+	traits = {
+		cautious
+		persistent
+		honorable
+		literary
+	}
+}
+
+FRK_heir = {
+	first_name = Lothowic
+	last_name = fan_Heristali
+	historical = yes
+	heir = yes
+	culture = cu:frankish
+	religion = rel:arian
+	age = 5
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_moderate
+	traits = {
+		direct
+		ambitious
+		firebrand
+	}
+}
+
+
+### post-start scripted IG leaders ###
+
+FRK_putschius = {
+	first_name = Herleo
+	last_name = Putschius
+	historical = yes
+	culture = cu:frankish
+	religion = rel:arian
+	female = no
+	ig_leader = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_reformer
+	birth_date = 1745.11.6
+	traits = {
+		direct
+		persistent
+		literary
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:FRK
+            this = c:FRK
+        }
+        interest_group_trigger = {
+            is_marginal = no
+			is_interest_group_type = ig_intelligentsia
+        }   
+        earliest_usage_date = 1763.1.1
+        latest_usage_date = 1795.1.1
+        chance = 50
+    }   
+}

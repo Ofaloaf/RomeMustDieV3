@@ -4697,20 +4697,20 @@ greek={
 		Beniamin Basiliskos Boethios
 		Charilaos Christos Christoforos Christodoulos
 		Dimitrios Dionysios David Diomidis Domnentiolos Domnikos Dioskoros Damaskios Domninos Dorotheos
-		Evangelos Eleftherios Efstathios Epameinontas Euthymios Eulalios Evagrios Eusebios Eutychios
+		Evangelos Eleftherios Efstathios Epameinontas Euthymios Eulalios Evagrios Eusebios Eutychios Euphratas
 		Filippos Faustos
 		Georgios Gerasimos Gregorios Germanos Gennadios Gaios
 		Herakleidas Herakleios Hilarion Hermogenes Heliodoros Hierios Hierokles Helion
 		Ilias Ioannis Iakovos Iason Ioustinos Iosef Ioannikios Isidoros
 		Konstantinos Kyriakos Kostas Kontoleon Konstantiolos Klaudianos Kosmas Konstas Komentiolos Klearchos
 		Leonidas Leon Lambros Lazaros Lykourgos Lazaros Leontios Longinos Loukios
-		Militiadis Menelaos Markos Merkourios Makarios Matthaios Markellos Menas Maximos
+		Militiadis Menelaos Markos Merkourios Makarios Matthaios Markellos Menas Maximos Menandros
 		Nikos Nikolaos Nikephoros Niketas Niphon
 		Odysseas Olympiodoros Ourbikios Olybrios
 		Panos Periklis Petros Pantelis Pantaleon Pavlos Panoutsos Philippikos Porphyrios Probus Pompeios Patrikios Proklos Philoxenos Ploutarchos Philostratos Peregrinos Ptolemaios Poublios Photios Philotheos
 		Romanos
-		Spyridon Sokratis Stamatios Sotiros Stephanos Stelios Stylianos Skarlatos Sofoklis Staurakios Sisinnios Simplikios Sophronios Sextos
-		Theodoros Tilemachos Thomas Trifon Theophilos Thrasyvoulos Themistoklis Theophylaktos Tarasios Theodotos Theodosios Theon
+		Spyridon Sokratis Stamatios Sotiros Stephanos Stelios Stylianos Skarlatos Sofoklis Staurakios Sisinnios Simplikios Sophronios Sextos Silas
+		Theodoros Tilemachos Thomas Trifon Theophilos Thrasyboulos Themistoklis Theophylaktos Tarasios Theodotos Theodosios Theon
 		Viktor
 		Xenon Xenarchos
 		Zacharias Zenodotos Zosimas
@@ -4808,11 +4808,11 @@ greek={
 		Deligiannis Damaskos Diamantis Diamantopoulos Dontis Drivas Dalezios Douros Daphnomales Dexippos
 		Eftaxias Euphorbenos Eulamios Eunapios
 		Fetsis Fetsios Frangoudis Frangopoulos Foustanos Farmakidis Freris Farmakidis Fotilas
-		Gennimatas Golemis Gerakeris Grigoriou Gouskos Georgiadis Gaitanos Grigoriadis Gneftos Gazis Galesiotes Gregoras
+		Gennimatas Golemis Gerakeris Grigoriou Gouskos Georgiadis Gaitanos Grigoriadis Gneftos Gazis Galesiotes Gregoras Gabrielopoulos
 		Hatzidakis Hikanatos Holobolos Himerios Hilarianos Hyrtakenos
 		Iatrou Iatridis Italos Iberitzes
-		Karousou Karakatsanis Kafetzis Koletis Kostantinidis Konstantinou Karakalos Karvelas Karagiannopoulos Karasevdas Karagiannis Katravas Khatzis Kontos Koukoudakis Kourkoulas Kasdaglis Kallisperi Kanaris Konstantas Krenites Kamateros Katakalon Kalothetos Karantenos Kourkouas Kalaphates Koutzes Kedrenos Kananites Kapnogenes
-		Lagoudakis Lavrentis Loverdos Loundras Langakis Levidis Lamprakis Laskaridis Lerias Liapis Logothetis Lykaon Lydos Lachanodrakon Laertios Laurentianos Limenios
+		Karousou Karakatsanis Kafetzis Koletis Kostantinidis Konstantinou Karakalos Karvelas Karagiannopoulos Karasevdas Karagiannis Katravas Khatzis Kontos Koukoudakis Kourkoulas Kasdaglis Kallisperi Konstantas Krenites Kamateros Katakalon Kalothetos Karantenos Kourkouas Kalaphates Koutzes Kedrenos Kananites Kapnogenes
+		Lagoudakis Lavrentis Loverdos Loundras Langakis Levidis Lamprakis Laskaridis Lerias Liapis Logothetis Lykaon Lydos Lachanodrakon Laertios Laurentianos Limenios Lazanes
 		Merkatis Mouratis Masouris Mitropoulos Mikhailidis Moustakopoulos Morakis Mangourakis Markou Marnezos Mazoukas Mikhalopoulos Malokinis Mavrommatis Mavrogenes Mansolas Maurex Maleinos Mangaphas Metochites Mesardonites Maroullos Marinos Markianos Mokios Maxentios Mallotes Myares Mousonianos Maurozomes
 		Nikolopoulos Nastos Neroutsos Negris Nestongos Nauridis Noumenios
 		Orphanidis Ouranos Onomagoulos Oinomaos Ooryphas

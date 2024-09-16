@@ -218,3 +218,70 @@ ere_admiral_2 = {
 }
 
 # "Posdeidonios" ??
+
+### AGITATORS ###
+
+ere_agitator_lycurgus_pandionis = {
+	first_name = Lykourgos
+	last_name = Pandionis
+	historical = yes
+	culture = cu:greek
+	religion = rel:nicene
+	female = no
+	interest_group = ig_rural_folk
+	ideology = ideology_traditionalist
+	birth_date = 1729.5.12
+	traits = {
+		persistent
+		pious
+		firebrand
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+
+			any_scope_state = {
+				state_region = s:STATE_ATTICA
+			}
+		}
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }   
+		earliest_usage_date = 1759.1.1
+		latest_usage_date = 1790.1.1
+		chance = 50
+	}
+}
+
+ere_agitator_onomacles_thessalonicensis = {
+	first_name = Onomakles
+	last_name = Thessalonikeus
+	historical = yes
+	culture = cu:greek
+	religion = rel:nicene
+	female = no
+	interest_group = ig_intelligentsia
+	ideology = ideology_radical
+	birth_date = 1733.4.5
+	traits = {
+		tactful
+		meticulous
+		sickly
+		master_bureaucrat
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+
+			any_scope_state = {
+				state_region = s:STATE_MACEDONIA
+			}
+		}
+        interest_group_trigger = {
+            is_interest_group_type = ig_intelligentsia
+        }   
+		earliest_usage_date = 1758.1.1
+		latest_usage_date = 1790.1.1
+		chance = 50
+	}
+}

@@ -3387,7 +3387,6 @@ fall_of_rome_events.10 = {
 
 		ordered_interest_group = {
 			limit = {
-				is_powerful = yes
 				leader = {
 					is_ruler = no
 				}
