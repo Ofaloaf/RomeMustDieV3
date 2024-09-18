@@ -3103,149 +3103,92 @@ slovene={
 	graphics = european
 }
 
-romanian={ # Vlach
+romanian={ # called Vlach in-game now. More Roman, Greek, and old Dacian influences, less straight-up German stuff.
 	color= hsv{ 0.12 0.41 0.54 }
 	religion = nicene
 	traits = { romanian_culture_group european_heritage }
 	male_common_first_names={
-		Adrian
-		Alexandru
-		Andrei
-		Anton
-		Artur
-		Bogdan
-		Carol
-		Cezar
-		Constantin
-		Constin
-		Cosmin
-		Daniel
-		Dumitru
-		Emanuel
-		Eremia
-		Eugen
-		Ferdinand
-		Flaviu
-		Florea
-		Gheorghe
-		Grigore
-		Henric
-		Horatiu
-		Iacob
-		Ilie
-		Ioan
-		Ion
-		Ion_Emanuel
-		Iosif
-		Iulian
-		Iuliu
-		Laurentiu
-		Leontin
-		Luca
-		Lucian
-		Mihai
-		Mircea
-		Nicolae
-		Ovidiu
-		Petru
-		Radu
-		Sergiu
-		Silviu
-		Simion
-		Stefan
-		Valeriu
-		Vasile
-		Victor
-		Vintila
-		Vlad
+		Adrian Alexandru Andrei Anton Artur Anatol Anastasiu Alexie Aureliu Ahile Avraam Andronic Alban Antim Aristide Atanasie Arcadiu Augustin
+		Bogdan Belizarie Bardas Blasiu Bonifaciu
+		Cezar Constantin Constin Cosmin Calochir Cristofor Claudiu Caius Cosma ConstanT_iu Constant
+		Daniel Dumitru Doxachi DomiT_ian Donat Diodor Dionisiu Diogen
+		Emanuel Eremia Eugen Eudoxiu EustaT_iu Emil
+		Flaviu Florea Filip Focas Flavian Fabian Felix Fotie
+		Gheorghe Grigore GraT_ian Gordian Ghelasie Gavril
+		Horatiu Hannibal Heracle Honoriu
+		Iacob Ilie Ioan Ion Ion_Emanuel Iosif Iulian Iuliu Isidor Iordache Iustinian Iustin Isaac Ilarion Ilarie Ipolit Iacob Ignatie Irineu Ierotei Ioanichie
+		Laurentiu Leontin Luca Lucian Leon Liviu Longin LazA_r Ladislau
+		Mihai Mircea Maximian Mauriciu Marcel Marcu Marius Matia Marin Mitrofan Metodie Maxim
+		Nicolae Neagoe Nicefor Nectarie Nestorie
+		Ovidiu Octav
+		Petru Perdicas Ptolemeu Pitagora PancraT_iu Policarp Pascal Proclu
+		Radu Roman
+		Sergiu Silviu Simion Stefan Solomon Socrate Saturnin Stanislau Silvestru Simpliciu Simachus Sever
+		Tudor Traian Tacit Tiberiu Teodosiu Toma Teofil Teodot
+		Valeriu Vasile Victor Vintila Vlad Valentin VicenT_iu Vigiliu Valerian Valeriu Virgil
+		Zaharia
 	}
 	female_common_first_names = {
-		Adela
-		Ana
-		Constanta
-		Daria
-		Dora
-		Ecaterina
-		Elena
-		Elisa
-		Elisabeta
-		Eugenia
-		Iulia
-		Iuliana
+		Adela Ana Atena Alexandra Andreea Agata
+		Barbara
+		Constanta Casandra
+		Daria Dora
+		Ecaterina Elena Elisa Elisabeta Eugenia Eufrosina Emilia
+		Filofteia
+		Glicheria
+		Iulia Iuliana Irina Ioana
 		Lucretia
-		Maria
-		Maritica
+		Maria Maritica Monica
+		Nastasia
+		Olimpia
+		Pulcheria Pelaghia
+		Raluca
+		Teodora Tecla
+		Ursula
+		Vigilantia Valeria
+		Zoe
 	}	
 	noble_last_names = {
-		Cantemir
-		Caradja
-		Conachi
-		de_Reuss-Mirza
-		de_Hohenzollern
-		Dinotto-Gusti
-		Dragos
+		Anniu Ardeleanu
+		BA_rlA_deanul Barcianu BA_LA_nel BA_lan
+		Cantemir Caradja Conachi Caradja Caucoensu Crobizu Cipariu Calotescu CA_ianu
+		Diurpaneu Dragos Ducas Deceneu Decebalea
+		Flondor Fabiu Fuficiu FrenT_iu
 		Ghica
-		Hasdeu
-		Hurmuzachi
-		Kogalniceanu
-		Mocioni
-		Moruzi
-		Murgulet
-		Racovita
-		Sturdza
+		Hasdeu Hurmuzachi HaT_ieganu
+		Ialliu
+		Kogalniceanu Kretzulescu
+		LA_cA_tuS_u LA_zureanu
+		Mocioni Moruzi Murgulet MagnenT_ius Magheru
+		NepoT_ianu NeamT_u
+		Patelarie Pomponiu PuS_cariu PA_cliS_anu
+		Racovita Rebreanu RaT_iu
+		Sturdza Stauraciu Scriboniu Statiliu Suciu
+		TyrageT_iu TiT_iu Turdeanu
+		Ummidiu
 		Vacarescu
 		Ionita
 	}
 	common_last_names={
-		Angelescu
-		Antonescu
-		Argetoianu
-		Averescu
-		Baldescu
-		Barozzi
-		Berindei
-		Cernat
-		Christecu
-		Cihoski
-		Ciuperca
-		Coanda
-		Crainiceanu
-		Critescu
-		Culcer
-		Cuza
-		Dona
-		Dragalina
-		Dumitrescu
-		Falcoianu
-		Flechtenmacher
-		Florescu
-		Froza
-		Gardescu
-		Grigorescu
-		Harjeu
-		Holban
-		Iancovescu
-		Iliasevici
-		Iliescu
-		Ionascu
-		Ionescu
-		Ionitiu
-		Koslinski
-		Lahovary
+		Angelescu Antonescu Argetoianu Averescu Anniu
+		Baldescu Barozzi Berindei
+		Cernat Christecu Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Corneliu CreT_ulescu Caucoensu Crobizu
+		Dona Dragalina Dumitrescu
+		Falcoianu Florescu Froza Fabiu Fuficiu
+		Gardescu Grigorescu
+		Harjeu Holban
+		Iancovescu Iliasevici Iliescu Ionascu Ionescu Ionitiu Ialliu
+		Joldea
 		Lupescu
-		Mardarescu
-		Murgescu
-		Poenaru
-		Prezan
-		Salajan
-		Samsonovici
-		Schitiu
-		Scodrea
-		Slaniceanu
-		Steflea
-		Tatarascu
-		Tenescu
-		Vaitoianu
+		Mardarescu Murgulet Murgescu
+		NeamT_u
+		Opos
+		Poenaru Prezan Paisius Pomponiu
+		Raphael
+		Samsonovici Schitiu Scodrea Slaniceanu Steflea SlA_tineanu Scriboniu Statiliu
+		Tatarascu Tenescu TyrageT_iu TiT_iu
+		Ummidiu
+		Vaitoianu Vladimirescu
 		Zottu
 	}
 	ethnicities = {

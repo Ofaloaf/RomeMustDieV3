@@ -208,7 +208,7 @@ frankish={
 		Osgrim Oslef Osmund Oswalo Otger Odgaudus Odbald Odmer Obbone Odilbald Odalrich Onulf
 		Paldolf Pilegrim Poplin Poppo Paulus Petrus Philippus
 		Rambert Ramolt Refnulf Rohingus Rucho Remaclus Ruodpret Rudgis Rothard Rozilo Rodo Rodulf Ratbold Radbert Radbod Radger Redulf Rambold Reimbert Reginhard Ricbald Richart Remigius Rollant
-		Saxbald Saxo Sibold Sigibert Sibrant Sigitac Sigard Sigrannus Sikko Sigeric Snello Snelbrath Salomon Simon Stefan
+		Saxbald Saxo Sibold Sigibert Sibrant Sigitac Sigard Sigrannus Sikko Sigeric Snello Snelbrath Salomon Simon Stefan Saffatijn
 		Trubold Trudo Tettolfus Tetta Thetbald Tammo Tancrad Thegenland Tibbe Thietbold Thietfrid Thietgar Thiedard Thiadmar Tiezelin Thome Tetilo
 		Udulo Unno Unroch
 		Vulfbald
@@ -260,22 +260,26 @@ frankish={
 		Zwertvegher
 	}
 	noble_last_names = {
-		fan_Amblava fan_Andhunerbo fan_Aquisgrani
+		Ansegiseling fan_Amblava fan_Andhunerbo fan_Aquisgrani fan_Amanaburch Aleramicus fan_Albaniana
 		fan_Bilisia fan_Bonna
-		fan_Collen
-		fan_Dispargum fan_Duria fan_Duristat
-		fan_Fura
-		fan_Ganda
+		Cuonrading fan_Collen fan_Confluens fan_Cosla fan_Ceucla fan_Calo
+		fan_Dispargum fan_Duria fan_Duristat fan_Duziacus fan_Driel
+		Eberigisiling fan_Epternacus fan_Egmonda
+		fan_Fura fan_Friedeslar
+		fan_Ganda fan_Gleni
 		fan_Hellewik
+		fan_Irminlo
 		fan_Jupila
-		fan_Leodico
-		fan_Masatreiekt
-		fan_Nuiss
+		Liutbalding fan_Leodico fan_Loven
+		fan_Masatreiekt fan_Masomagus fan_Mettis fan_Maldericke
+		Niveloning fan_Nuiss fan_Nivenwilare
 		fan_Orolaun
 		Pippinius fan_Prumia
-		fan_Rumanzeis
-		fan_Solmania fan_Sentiacus
-		fan_Tongerea fan_Turnaco fan_Tectis fan_Thusila
+		Rimagiling fan_Rumanzeis
+		fan_Solmania fan_Sentiacus fan_Stablo
+		fan_Tongerea fan_Turnaco fan_Tectis fan_Thusila fan_Tullum
+		Udalriching Unruoching
+		fan_Vechten
 		fan_Wiltaburg
 	}
 	male_regal_first_names = {
@@ -297,12 +301,16 @@ frankish={
 	}
 	regal_last_names = {
 		Ansegiseling
-		Faramunding
+		Cuonrading fan_Cameragus
+		Faramunding fan_Flevum
 		Gennobalding
+		fan_Heristali
+		fan_Irminlo
+		Liutbalding
 		Mallobalding Marchomiring
 		Nebelung
 		Samoning
-		Thakulfing
+		Thakulfing fan_Tongerea
 	}
 	
 	ethnicities = {
@@ -528,25 +536,25 @@ gallic = { # Old French, plus some Old Occitan influences
 		Verena Valeria
 	}
 	common_last_names = {
-		Apollinaris Ausoniaus Avenneis Amieneis Agicis Arelateis Agesilles Ainicices Aircus Amio Angis Aucella Acin Artiaus Atuatuceis
-		Bromonz Braiecueleis Belmonteis Boveis Bagines Blandin Bolges 
-		Carteineis Couvelaneis Calendes Cammis Canlogenz Cassignet Caupirra Cauterra Cenna Cerdz Ciputa Conedz Coudz Cratmes Crina
-		Dagges Deocarz Disetz Dometz Druses
-		Euchariaus Eparciaus Epes Egumin Elvillez
+		Apollinaris Ausoniaus Avenneis Amieneis Agicis Arelateis Agesilles Ainicices Aircus Amio Angis Aucella Acin Artiaus Atuatuceis Apiaus Aviola Aproniaus
+		Bromonz Braiecueleis Belmonteis Boveis Bagines Blandin Bolges Bleses Badiaus
+		Carteineis Couvelaneis Calendes Cammis Canlogenz Cassignet Caupirra Cauterra Cenna Cerdz Ciputa Conedz Coudz Cratmes Crina Camares Calpurniaus Comiien Cesenniaus
+		Dagges Deocarz Disetz Dometz Druses Duviaus Dentiliien
+		Euchariaus Eparciaus Epes Egumin Elvillez Etheriaus Ediniaus Egriliaus
 		Foisnons Florencis Fronatz
-		Glaneis Ginatz Gippes
+		Glaneis Ginatz Gippes Glitiaus
 		Iarustis Iasses Ieris Issatz Ippes 
 		Julles
-		Loceis Lalles Langis Lastuca Levis Libon Luppon Lutais
-		Maqueriaus Monmorenceis Monferrateis Maillieis Marseilleis Malvoisins Mezeis Maccis Magines Manertz Mastriz Meddigenes Mauces Madiatz Mevis Mincis Murran
+		Loceis Lalles Langis Lastuca Levis Libon Luppon Lutais Larcis
+		Maqueriaus Monmorenceis Monferrateis Maillieis Marseilleis Malvoisins Mezeis Maccis Magines Manertz Mastriz Meddigenes Mauces Madiatz Mevis Mincis Murran Matisconeis Marcis Minicis Meniaus
 		Neeleis Noioneis Neafleis Nemausan Noieratz Nicundis
 		Ouatz Ollognatz Orunculeius
-		Panta Pantiliaus Paturitz Perimitis Pervinc Pilistris Poppill Primigenis Procanul
-		Reburres Reditz Ripanes Rulvis Rusces
-		Siagriaus Sabinules Samogenes Sceus Scotis Serulles Sionis Solan Solitz Stiligon 
-		Tolosan Tagites Taramates Tarves Tetlonis Titusiaus Tornis Trimitiaus Tusson Tituris
+		Panta Pantiliaus Paturitz Perimitis Pervinc Pilistris Poppill Primigenis Procanul Palliiaus Plariien Popiliaus Priferniaus Pomponiien Pansa Propinqes
+		Reburres Reditz Ripanes Rulvis Rusces Roricis Remediaus Rosiien
+		Siagriaus Sabinules Samogenes Sceus Scotis Serulles Sionis Solan Solitz Stiligon Suffronis Sulpitiaus Servatiaus Sosiaus Sabucis Salamalliien
+		Tolosan Tagites Taramates Tarves Tetlonis Titusiaus Tornis Trimitiaus Tusson Tituriaus Tettiien
 		Ucates Ulatugnes
-		Vaulceis Valleis Vacriaus Verecundes Vasiaus Venermides Vitles Vogenes
+		Vaulceis Valleis Vacriaus Verecundes Vasiaus Venermides Vitles Vogenes Vestineis Vippiaus Vitrasiaus
 	}
 	
 	ethnicities = {

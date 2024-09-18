@@ -101,8 +101,8 @@ calculate_ambitus_progress = {
 		limit = {
 			scope:ambitus_ig_leader = {
 				OR = {
-					is_general = yes
-					is_admiral = yes
+					has_role = general
+					has_role = admiral
 				}
 			}
 		}
