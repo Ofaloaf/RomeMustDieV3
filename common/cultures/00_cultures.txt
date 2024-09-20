@@ -3103,16 +3103,16 @@ slovene={
 	graphics = european
 }
 
-romanian={ # called Vlach in-game now. More Roman, Greek, and old Dacian influences, less straight-up German stuff.
+romanian={ # called Vlach in-game now. More Roman, Greek, and old Dacian influences, less straight-up German stuff. Also added in Aromanian names.
 	color= hsv{ 0.12 0.41 0.54 }
 	religion = nicene
-	traits = { romanian_culture_group european_heritage }
+	traits = { romanian_culture_group romance_speaker european_heritage }
 	male_common_first_names={
-		Adrian Alexandru Andrei Anton Artur Anatol Anastasiu Alexie Aureliu Ahile Avraam Andronic Alban Antim Aristide Atanasie Arcadiu Augustin
+		Adrian Alexandru Andrei Anton Artur Anatol Anastasiu Alexie Aureliu Ahile Avraam Andronic Alban Antim Aristide Atanasie Arcadiu Augustin Alchibiad
 		Bogdan Belizarie Bardas Blasiu Bonifaciu
 		Cezar Constantin Constin Cosmin Calochir Cristofor Claudiu Caius Cosma ConstanT_iu Constant
 		Daniel Dumitru Doxachi DomiT_ian Donat Diodor Dionisiu Diogen
-		Emanuel Eremia Eugen Eudoxiu EustaT_iu Emil
+		Emanuel Eremia Eugen Eudoxiu EustaT_iu Emil Evanghelie
 		Flaviu Florea Filip Focas Flavian Fabian Felix Fotie
 		Gheorghe Grigore GraT_ian Gordian Ghelasie Gavril
 		Horatiu Hannibal Heracle Honoriu
@@ -3120,8 +3120,8 @@ romanian={ # called Vlach in-game now. More Roman, Greek, and old Dacian influen
 		Laurentiu Leontin Luca Lucian Leon Liviu Longin LazA_r Ladislau
 		Mihai Mircea Maximian Mauriciu Marcel Marcu Marius Matia Marin Mitrofan Metodie Maxim
 		Nicolae Neagoe Nicefor Nectarie Nestorie
-		Ovidiu Octav
-		Petru Perdicas Ptolemeu Pitagora PancraT_iu Policarp Pascal Proclu
+		Ovidiu Octav Ovid
+		Petru Perdicas Ptolemeu Pitagora PancraT_iu Policarp Pascal Proclu Pericle
 		Radu Roman
 		Sergiu Silviu Simion Stefan Solomon Socrate Saturnin Stanislau Silvestru Simpliciu Simachus Sever
 		Tudor Traian Tacit Tiberiu Teodosiu Toma Teofil Teodot
@@ -3135,7 +3135,7 @@ romanian={ # called Vlach in-game now. More Roman, Greek, and old Dacian influen
 		Daria Dora
 		Ecaterina Elena Elisa Elisabeta Eugenia Eufrosina Emilia
 		Filofteia
-		Glicheria
+		Glicheria Gheorgana
 		Iulia Iuliana Irina Ioana
 		Lucretia
 		Maria Maritica Monica
@@ -3151,7 +3151,7 @@ romanian={ # called Vlach in-game now. More Roman, Greek, and old Dacian influen
 	noble_last_names = {
 		Anniu Ardeleanu
 		BA_rlA_deanul Barcianu BA_LA_nel BA_lan
-		Cantemir Caradja Conachi Caradja Caucoensu Crobizu Cipariu Calotescu CA_ianu
+		Cantemir Caradja Conachi Caradja Caucoensu Crobizu Cipariu Calotescu CA_ianu Cantacuzino
 		Diurpaneu Dragos Ducas Deceneu Decebalea
 		Flondor Fabiu Fuficiu FrenT_iu
 		Ghica
@@ -3159,8 +3159,9 @@ romanian={ # called Vlach in-game now. More Roman, Greek, and old Dacian influen
 		Ialliu
 		Kogalniceanu Kretzulescu
 		LA_cA_tuS_u LA_zureanu
-		Mocioni Moruzi Murgulet MagnenT_ius Magheru
+		Mocioni Moruzi Murgulet MagnenT_ius Magheru Mocioni
 		NepoT_ianu NeamT_u
+		Olimpiotul
 		Patelarie Pomponiu PuS_cariu PA_cliS_anu
 		Racovita Rebreanu RaT_iu
 		Sturdza Stauraciu Scriboniu Statiliu Suciu
@@ -3170,26 +3171,27 @@ romanian={ # called Vlach in-game now. More Roman, Greek, and old Dacian influen
 		Ionita
 	}
 	common_last_names={
-		Angelescu Antonescu Argetoianu Averescu Anniu
-		Baldescu Barozzi Berindei
-		Cernat Christecu Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Corneliu CreT_ulescu Caucoensu Crobizu
-		Dona Dragalina Dumitrescu
-		Falcoianu Florescu Froza Fabiu Fuficiu
-		Gardescu Grigorescu
+		Angelescu Antonescu Argetoianu Averescu Anniu ArmA_S_el Anastasiade Araia Arsache Atanasescu
+		Baldescu Barozzi Berindei BenT_ia Belimace Batzaria
+		Cernat Christecu Ciuperca Coanda Crainiceanu Critescu Culcer Cuza Corneliu CreT_ulescu Caucoensu Crobizu Cristescu Caranfil Cratunescu Cavalioti Capidan
+		Dona Dragalina Dumitrescu Diamandi Dimonie Densusianu
+		Falcoianu Florescu Froza Fabiu Fuficiu Fereu Fundo
+		Gardescu Grigorescu Gheorghiu GhiT_ulescu GI_rleS_teanu
 		Harjeu Holban
 		Iancovescu Iliasevici Iliescu Ionascu Ionescu Ionitiu Ialliu
 		Joldea
-		Lupescu
-		Mardarescu Murgulet Murgescu
-		NeamT_u
+		Kokonesi
+		Lupescu Luchide
+		Mardarescu Murgulet Murgescu Marian MA_rA_scu Moscopoleanu Manachia Matthaiou Matussi MiS_ea Marcu_Puiu
+		NeamT_u Nedelcovici NemeS_ Nicea Nicolidi
 		Opos
-		Poenaru Prezan Paisius Pomponiu
-		Raphael
-		Samsonovici Schitiu Scodrea Slaniceanu Steflea SlA_tineanu Scriboniu Statiliu
-		Tatarascu Tenescu TyrageT_iu TiT_iu
-		Ummidiu
-		Vaitoianu Vladimirescu
-		Zottu
+		Poenaru Prezan Paisius Pomponiu Penescu Philippide Plasari Prosi Pangiaru Pichion Papahagi
+		Raphael Rusu Raicu Rudeanu
+		Samsonovici Schitiu Scodrea Slaniceanu Steflea SlA_tineanu Scriboniu Statiliu Savu Sfetescu Sterian Sarafis
+		Tatarascu Tenescu TyrageT_iu TiT_iu TA_nA_sescu Tzimas Tzechani Tutulani TA_rpo
+		Ummidiu Ucuta
+		Vaitoianu Vladimirescu Volvoreanu Vardala Velo
+		Zottu Zappa
 	}
 	ethnicities = {
 		1 = slavic
