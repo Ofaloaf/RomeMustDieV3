@@ -56,13 +56,13 @@
 		Grumentense Genusiense Grumense Gallerani Gorini Grizi Gesio Germia
 		Iguviense Igneo Istoniense Iacopi Iohanni Iohanello
 		Laviniense Luceriense Larinense Luti Lapi Lupicini Lorentiano
-		Mediolanense Minerviense Marini Marsili Micheli Martini Messala
+		Mediolanense Minerviense Marini Marsili Micheli Martini Messala Mosca
 		Nepolitano Novariense Nequinense Natiolense Nuceriense Narniense Nerini Neroni
 		Ostiense Ortense
 		Pisano Populoniense Potentiense Placentiense Pisaurense Pinnense Prifernense Plestiense Paganelli Petri Ponci Pratesi Prosperi Postumiano Paterio
-		Ravennense Ruffo Rocchi Rustichelli Rustichi Romiti Rusticio
+		Ravennense Ruffo Rocchi Rustichelli Rustichi Romiti Rusticio Ragano
 		Sutriense Sepinense Sarsinense Spoletiense Silviense Scala Salicetense Salomoni Sorense Salvaterra Siminetti Stefani Salvucci Sottio
-		Telesiense Turense Trebense Taddei Toscanelli Tanchasia Tantuci Tornaquinci Tovaglia Tesauro
+		Telesiense Turense Trebense Taddei Toscanelli Tanchasia Tantuci Tornaquinci Tovaglia Tesauro Todaro
 		Uzentense
 		Visentiense Venetiense Venusiense Valvatense Veretense Varano Vettonense Venturi Viviani Vettori Villani
 		Zorzi Zuanello

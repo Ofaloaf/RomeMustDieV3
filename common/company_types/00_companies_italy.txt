@@ -1,0 +1,51 @@
+﻿# Janiculum, Societas Publicanorum Janiculensis
+company_janiculum = {
+	icon = "gfx/interface/icons/company_icons/scripted/ilva.dds"janiculum
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+		building_wheat_farm
+		building_rye_farm	
+	}
+	
+	potential = {
+		has_interest_marker_in_region = region_italy
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_LAZIO
+			}
+		}
+	}	
+	
+	possible = { 
+		any_scope_state = {
+			state_region = s:STATE_LAZIO
+			is_incorporated = yes
+		}
+
+		any_scope_state = {
+			region = sr:region_italy
+			any_scope_building = {
+				OR = {
+					is_building_type = building_wheat_farm
+					is_building_type = building_rye_farm
+				}
+				level >= 3
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		building_livestock_ranch_throughput_add = 0.1
+		state_loyalists_from_sol_change_mult = 0.05		# Bread and circuses, baybeee
+	}
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
