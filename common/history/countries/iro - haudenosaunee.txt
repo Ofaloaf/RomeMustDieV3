@@ -19,14 +19,5 @@
 		ig:ig_rural_folk = {
 			add_ruling_interest_group = yes
 		}
-		ig:ig_landowners = {
-			remove_ideology = ideology_patriarchal
-			add_ideology = ideology_yakoyaner
-		}
-		
-		ig:ig_devout = {
-			remove_ideology = ideology_patriarchal
-			add_ideology = ideology_yakoyaner
-		}
 	}
 }

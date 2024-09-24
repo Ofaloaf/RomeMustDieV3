@@ -935,6 +935,13 @@
  #
  ### NORTH AMERICA ###
  #
+ STATE_GREENLAND: "Grǿnland"
+ HUB_NAME_STATE_GREENLAND_city: "Vestribygð" # the Western Settlement, close to modern Nuuk/Godthab
+ HUB_NAME_STATE_GREENLAND_port: "Norðrsetur" # Northern Hunting Grounds, close to modern Qeqertarsuaq/Godhavn
+ HUB_NAME_STATE_GREENLAND_mine: "Garðar" # Frederiksdal/Narsarmijit is slightly to the southeast, but I can't be fussed
+ HUB_NAME_STATE_GREENLAND_farm: "Sundra Straumfjörð" # Søndre Strømfjord, but in Old Norse
+ HUB_NAME_STATE_GREENLAND_wood: "Fiskarnes" # Fiskernæs
+ #
  STATE_MICHIGAN: "Ojibwewaki" # Ojibwe Homeland
  HUB_NAME_STATE_MICHIGAN_city: "Mishimikinaak" # Mackinac Island
  HUB_NAME_STATE_MICHIGAN_mine: "Waawiiyaataanong" # Detroit
