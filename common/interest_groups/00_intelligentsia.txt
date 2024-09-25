@@ -266,21 +266,6 @@
 			}
 		}
 		
-		add = {
-			desc = "POP_MILITARY_BUREAUCRACY"
-			if = {
-				limit = {
-					is_pop_type = bureaucrats
-					owner = {
-						c:ALK ?= this
-						is_subject = yes
-						has_government_type = gov_chartered_company
-					}
-				}
-				multiply = 0.25
-			}
-		}
-		
 		if = {
 			limit = {
 				literacy_rate >= 0.50

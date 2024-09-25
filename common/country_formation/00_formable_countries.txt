@@ -22,6 +22,14 @@ ETH = { # Ethiopia
 	ai_will_do = { always = yes }
 }
 
+GLL = { # Gallia
+	use_culture_states = yes
+
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+}
+
 AOT = {
 	use_culture_states = yes
 

@@ -9629,80 +9629,35 @@ zapotec={
 	religion = mesoamerican_pagan
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Agustin
-		Alberto
-		Alfonso
-		Alfredo
-		Andres
-		Benito
-		Carlos
-		Cesar
-		Eduardo
-		Eugenio_2
-		Felipe
-		Fernando
-		Gabriel
-		Gilberto
-		Gregorio
-		Jacinto
-		Jesus
-		Jose
-		Juan
-		Julio
-		Macario
-		Manuel
-		Miguel
-		Nazario
-		Nicolas_2
-		Oliverio
-		Pablo
-		Porfirio
-		Rodolfo
-		Rufino
+		Cosijoeza Cosijopii
+		Huijatoo
+		Ozomatli
+		Tela
+		Zaachila
 	}
 	female_common_first_names = {
-		Amaranta
-		Blanca
-		Delfina
-		Eufrosina
-		Lina
-		Sofia
-		Violeta
+		Donaji
+		Pinopiaa
+		Tonaxiaba 
+		Xilabela
+		Zhyac
 	}	
-	noble_last_names = {
-		Charis
-		Cortes
-		Henestrosa
-		Juarez
-		Tamayo
-	}
+	#noble_last_names = {
+	#}
 	common_last_names={
-		Alonso
-		Antunez
-		Cabrera
-		Cajigas
-		Chacon
-		Chinas
-		Fernandez
-		Gamboa
-		Garcia
-		Gonzalez
-		Gutierrez
-		Guzman
-		Isael
-		Jimenez
-		Lopez
-		Matus
-		Morales
-		Merida
-		Nayeli
-		Orozco
-		Ortiz
-		Pineda
-		Rojas
-		Ruiz_2
-		Suarez
-		Vichido
+		Bicudxe
+		Choapan
+		Guiengola Guelatao GuelavI_a
+		IxhuatA_n
+		Lirika Lyobaa
+		OcotlA_n
+		Puche
+		Quiatoni Quialana
+		SicasibI_
+		Tilcajete
+		Xaquija Xaguixe
+		Yubda
+		ZoquitlA_n Zegache
 	}
 	ethnicities = {
 		1 = native_american
@@ -11501,90 +11456,26 @@ mixtec={
 	religion = mesoamerican_pagan
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Agustin
-		Akbal
-		Alejandro
-		Andres
-		Antonio
-		Anibal
-		Armando
-		Bernardo
-		Carlos
-		Crescencio
-		Cristobal_2
-		Cuautehmoc
-		Diego
-		Felipe
-		Gaspar
-		Hernando
-		Hilario
-		Humberto
-		Ignacio
-		Jacinto
-		Jesus
-		Luis
-		Marcial
-		Martin_2
-		Miguel
-		Ramiro
-		Rodolfo
-		Rolando
-		Santiago
-		Yumil
+		Dzawindanda
+		Iya_Nacuaa_Teyusi_N_aN_a # Eight Deer
 	}
 	female_common_first_names = {
-		Ana
-		Catarina
-		Concepcion
-		Cristina
-		Elvia
-		Felipa
-		Maria
-		Paula
-		Ramona
-		Rigoberta
-		Rosalina
-		Thelma
+		Ca_aj
+		Dzico-Coo-Yodzo
 	}	
-	noble_last_names = {
-		Ay
-		Ceel
-		Chan
-		Chi
-		Pat
-		Pec
-		Poot
-	}
+	#noble_last_names = {
+	#}
 	common_last_names={
-		Ak_ab_al
-		Cal
-		Canek
-		Canul
-		Carrillo
-		Ceh
-		Chee
-		Choc
-		Coc
-		Curruchic
-		Ixquiac
-		Kan
-		Lopez
-		Manzanero
-		Mas
-		Menchu
-		Mes
-		Merida
-		Osorio
-		Pek
-		Pop
-		Puk
-		Shal
-		Sho
-		Tecu
-		Teul
-		Tuyuc
-		Xicara
-		Xiloj
+		ChigmecatitlA_n Coatzospan Copala Chicahuaxtla
+		Huahi_Andehui
+		Itunyoso
+		Jaltepec
+		N_umI_ Nunduchi Nicananduta
+		Ocotepec
+		Teutila Tepeuxila
+		Xipe
+		YucuaN_e
+		ZimatlA_n
 	}
 	ethnicities = {
 		1 = native_american

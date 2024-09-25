@@ -1,6 +1,6 @@
 ﻿# Janiculum, Societas Publicanorum Janiculensis
 company_janiculum = {
-	icon = "gfx/interface/icons/company_icons/scripted/ilva.dds"janiculum
+	icon = "gfx/interface/icons/company_icons/scripted/janiculum.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	
 	flavored_company = yes

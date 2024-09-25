@@ -244,21 +244,6 @@
 				}
 			}
 		}
-		
-		add = {
-			desc = "POP_MILITARY_BUREAUCRACY"
-			if = {
-				limit = {
-					is_pop_type = bureaucrats
-					owner = {
-						c:ALK ?= this
-						is_subject = yes
-						has_government_type = gov_chartered_company
-					}
-				}
-				value = 100
-			}
-		}
 
 		multiply = {
 			desc = "LEADER_POPULARITY"
