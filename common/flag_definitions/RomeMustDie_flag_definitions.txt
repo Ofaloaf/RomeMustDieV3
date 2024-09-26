@@ -971,3 +971,11 @@ MSL = { # Megalosklavinia
 		priority = 1
 	}	
 }
+
+QTO = { # Quito / Kitu
+	flag_definition = {
+		coa = QTO
+		subject_canton = QTO
+		priority = 1
+	}	
+}

@@ -2449,11 +2449,11 @@ STATES = {
 	}
 	s:STATE_LIMA = {
 		create_state = {
-			country = c:LMC
+			country = c:QTO
 			owned_provinces = { "x03B9CB" "x0B1EE1" "x131D6D" "x187234" "x20C0B0" "x26F77F" "x2AFF79" "x2B7493" "x3060D7" "x32FF31" "x3528D6" "x4411B8" "x539023" "x59E553" "x5E4494" "x60C030" "x631487" "x690D59" "x6BEF27" "x786D2C" "x7C29E5" "x7C6BF6" "x88CDF0" "x91B0BF" "x928ED8" "x96560E" "xA0C0B0" "xA101CC" "xA146DE" "xA3F17B" "xC0A53C" "xC2FE32" "xC64601" "xCBB91A" "xCD4EF2" "xD7B13A" "xF19D07" "xF333CF" "xF3F25C" "xF405A2" }
 		}
 		
-		add_homeland = cu:antian
+		#add_homeland = cu:antian
 		add_homeland = cu:quechua		
 	}
 	s:STATE_ICA = {

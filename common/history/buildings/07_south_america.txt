@@ -1001,12 +1001,12 @@
 		}
 	}
 	s:STATE_LIMA={
-		region_state:LMC={
+		region_state:QTO={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:LMC"
+						country="c:QTO"
 						levels=2
 					}
 				}
@@ -1018,7 +1018,7 @@
 				add_ownership={
 					building={
 						type="building_furniture_manufacturies"
-						country="c:LMC"
+						country="c:QTO"
 						levels=1
 						region="STATE_LIMA"
 					}
@@ -1031,7 +1031,7 @@
 				add_ownership={
 					building={
 						type="building_tooling_workshops"
-						country="c:LMC"
+						country="c:QTO"
 						levels=1
 						region="STATE_LIMA"
 					}
@@ -1044,7 +1044,7 @@
 				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:LMC"
+						country="c:QTO"
 						levels=1
 					}
 				}
@@ -1056,7 +1056,7 @@
 				add_ownership={
 					building={
 						type="building_gold_mine"
-						country="c:LMC"
+						country="c:QTO"
 						levels=4
 						region="STATE_LIMA"
 					}
@@ -1070,7 +1070,7 @@
 				add_ownership={
 					building={
 						type="building_iron_mine"
-						country="c:LMC"
+						country="c:QTO"
 						levels=1
 						region="STATE_LIMA"
 					}
@@ -1083,7 +1083,7 @@
 				add_ownership={
 					building={
 						type="building_maize_farm"
-						country="c:LMC"
+						country="c:QTO"
 						levels=3
 						region="STATE_LIMA"
 					}
@@ -1096,7 +1096,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:LMC"
+						country="c:QTO"
 						levels=1
 						region="STATE_LIMA"
 					}
@@ -1109,7 +1109,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:LMC"
+						country="c:QTO"
 						levels=2
 						region="STATE_LIMA"
 					}
@@ -1122,7 +1122,7 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:LMC"
+						country="c:QTO"
 						levels=1
 						region="STATE_LIMA"
 					}
@@ -1134,7 +1134,7 @@
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:LMC"
+						country="c:QTO"
 						levels=5
 					}
 				}
@@ -1145,7 +1145,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:LMC"
+						country="c:QTO"
 						levels=1
 					}
 				}

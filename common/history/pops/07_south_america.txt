@@ -304,8 +304,8 @@ POPS = {
 	s:STATE_CAJAMARCA = {
 		region_state:QTO = {
 			create_pop = {
-				pop_type = slaves
 				culture = amazonian
+				pop_type = slaves
 				size = 4000
 			}
 			create_pop = {
@@ -319,22 +319,18 @@ POPS = {
 		}
 	}
 	s:STATE_LIMA = {
-		region_state:LMC = {
-			create_pop = {
-				culture = antian
-				size = 248000
-			}
+		region_state:QTO = {
 			create_pop = {
 				culture = quechua
-				size = 212000
+				size = 460000
 			}
 			create_pop = {
 				culture = aimara
 				size = 21900
 			}
 			create_pop = {
-				pop_type = amazonian
-				culture = afro_caribeno
+				culture = amazonian
+				pop_type = slaves
 				size = 6200
 			}
 			create_pop = {
