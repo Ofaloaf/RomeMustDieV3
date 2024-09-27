@@ -51,17 +51,6 @@
 				set_interest_group_name = ig_samurai
 			}
 		}
-		# Sikh Empire
-		else_if = {
-			limit = {
-				c:PAN ?= this
-			}
-			ig:ig_armed_forces = {
-				set_interest_group_name = ig_khalsaji
-				remove_ideology = ideology_jingoist
-				add_ideology = ideology_sikh_militancy
-			}
-		}
 		else_if = {
 			limit = {
 				OR = {

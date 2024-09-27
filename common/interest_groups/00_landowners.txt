@@ -80,8 +80,6 @@
 			}
 			ig:ig_landowners = {
 				set_interest_group_name = ig_zamindars
-				set_ig_trait = ig_trait:ig_trait_famine_reserves
-				set_ig_trait = ig_trait:ig_trait_profitable_estates
 			}
 		}
 	}

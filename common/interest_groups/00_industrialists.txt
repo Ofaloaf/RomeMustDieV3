@@ -39,43 +39,6 @@
 				set_ig_trait = ig_trait:ig_trait_engines_of_progress
 				set_ig_trait = ig_trait:ig_trait_kommerskollegium
 			}
-			else_if = {
-				limit = {
-					has_dlc_feature = voice_of_the_people_content
-					owner = { c:FRA ?= this }
-				}
-				set_ig_trait = ig_trait:ig_trait_tax_avoidance
-				set_ig_trait = ig_trait:ig_trait_engines_of_progress
-				set_ig_trait = ig_trait:ig_trait_ventilate_unify_beautify
-			}
-			else_if = {
-				limit = {
-					has_dlc_feature = rp1_content
-					owner = { c:BRZ ?= this }
-				}
-				set_ig_trait = ig_trait:ig_trait_tax_avoidance
-				set_ig_trait = ig_trait:ig_trait_the_goods_must_flow
-				set_ig_trait = ig_trait:ig_trait_job_creators
-			}
-			# India
-			else_if = {
-				limit = {
-					owner = {
-						c:BIC ?= this
-					}
-				}
-				set_interest_group_name = ig_east_india_company
-				remove_ideology = ideology_laissez_faire
-				add_ideology = ideology_colonialist
-				remove_ideology = ideology_plutocratic
-				add_ideology = ideology_enclavist
-				remove_ideology = ideology_individualist
-				add_ideology = ideology_malthusian
-
-				set_ig_trait = ig_trait:ig_trait_wounded_honor
-				set_ig_trait = ig_trait:ig_trait_stamped_and_signed
-				set_ig_trait = ig_trait:ig_trait_responsible_government
-			}
 			else = {
 				set_ig_trait = ig_trait:ig_trait_tax_avoidance
 				set_ig_trait = ig_trait:ig_trait_engines_of_progress
