@@ -3406,3 +3406,99 @@ fall_of_rome_events.10 = {
 		}
 	}
 }
+
+fall_of_rome_events.11 = { # The Sword of Ambition
+	type = country_event
+	placement = ROOT
+	duration = 3
+	
+	cooldown = { months = normal_modifier_time }
+
+	title = fall_of_rome_events.11.t
+	desc = fall_of_rome_events.11.d
+	flavor = fall_of_rome_events.11.f
+
+	event_image = {
+		video = "europenorthamerica_before_the_battle"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	trigger = {
+		any_interest_group = {
+			is_powerful = yes
+			is_revolutionary = no
+			leader = {
+				NOR = {
+					has_role = general
+					has_role = admiral
+				}
+			}
+		}
+	}
+
+	immediate = {
+		ordered_interest_group = {
+			limit = {
+				is_powerful = yes
+				is_revolutionary = no
+				leader = {
+					is_ruler = no
+					NOR = {
+						has_role = general
+						has_role = admiral
+					}
+				}
+			}
+			order_by = ig_clout
+			save_scope_as = sword_of_ambition_ig
+			leader = {
+				save_scope_as = sword_of_ambition_ig_leader
+			}
+		}
+	}
+
+	option = { 
+		name = fall_of_rome_events.11.a
+		default_option = yes
+
+		scope:sword_of_ambition_ig_leader = {
+			add_character_role = general
+		}
+	}
+
+	option = { 
+		name = fall_of_rome_events.11.b
+		
+		scope:sword_of_ambition_ig = {
+			add_modifier = {
+				name = spurned_our_leader
+				months = normal_modifier_time
+			}
+		}
+	}
+
+
+	option = {
+		name = fall_of_rome_events.11.c
+		highlighted_option = yes
+		trigger = {
+			ruler = {
+				OR = {
+					has_role = general
+					is_interest_group_type = ig_armed_forces
+				}
+			}
+		}
+
+		scope:sword_of_ambition_ig = {
+			add_modifier = {
+				name = spurned_our_leader
+				months = normal_modifier_time
+				multiplier = 0.2
+			}
+		}
+	}
+}

@@ -224,10 +224,10 @@
 			change_variable = { name = caudillo_var add = var:caudillo_next }
 		}
 
-		#random_events = {
-		#	# Pulse events affect the progress bar
-		#	120 = 0 
-		#}
+		random_events = {
+			100 = 0 
+			20 = fall_of_rome_events.11 # The Sword of Ambition
+		}
 	}
 
 	on_yearly_pulse = {

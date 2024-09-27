@@ -30,19 +30,19 @@
 			}
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_LANGUEDOC
 				count = 2
 			}
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CROATIA
 				count = 2
 			}
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SAVOY
 				count = 2
 			}
@@ -97,7 +97,7 @@
 
 			#
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_PIEDMONT
 				count = 2
 			}
@@ -133,13 +133,13 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SARDINIA
 				count = 2
 			}
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SICILY
 				count = 2
 			}
@@ -194,7 +194,7 @@
 
 			#
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_TUNISIA
 				count = 6
 			}
@@ -278,19 +278,19 @@
 			}
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BOSNIA
 				count = 1
 			}
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_DALMATIA
 				count = 1
 			}
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_STYRIA
 				count = 3
 			}
@@ -326,7 +326,7 @@
 			name = Legio_VI
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_VENETIA
 				count = 9
 			}
@@ -380,31 +380,31 @@
 			}
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_TOLEDO
 				count = 2
 			}
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BADAJOZ
 				count = 1
 			}
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_NAVARRA
 				count = 1
 			}
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_ARAGON
 				count = 1
 			}
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CATALONIA
 				count = 2
 			}

@@ -6,57 +6,57 @@
 			name = Royal_Hunnic_Army
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CENTRAL_HUNGARY
 				count = 6
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_DELVIDEK
 				count = 3
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BANAT
 				count = 3
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BEKES
 				count = 6
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_NORTHERN_TRANSYLVANIA
 				count = 4
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_TRANSDANUBIA
 				count = 5
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_CENTRAL_HUNGARY
 				count = 2
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_TRANSDANUBIA
 				count = 2
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_BEKES
 				count = 2
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_SOUTHERN_TRANSYLVANIA
 				count = 2
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
+				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_SOUTHERN_TRANSYLVANIA
 				count = 2
 			}
