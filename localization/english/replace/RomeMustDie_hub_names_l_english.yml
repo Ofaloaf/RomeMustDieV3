@@ -1200,6 +1200,20 @@
  HUB_NAME_STATE_MEXICO_farm: "Cuetlaxcoapan" # Puebla
  HUB_NAME_STATE_MEXICO_wood:1 "Chilpacingo"
  #
+ STATE_VERACRUZ: "Totonacapan"
+ HUB_NAME_STATE_VERACRUZ_city: "Cempoalatl" # Compoala, a little north of Veracruz
+ HUB_NAME_STATE_VERACRUZ_port:0 "Coatzacoalcos"
+ HUB_NAME_STATE_VERACRUZ_mine: "Cuauhtochco" # Huatusco, a little north of Cordoba
+ HUB_NAME_STATE_VERACRUZ_farm:0 "Acayucan"
+ HUB_NAME_STATE_VERACRUZ_wood: "Xalapan" # Xalapa
+ #
+ STATE_YUCATAN: "Mayab"
+ HUB_NAME_STATE_YUCATAN_city: "Mayapan"
+ HUB_NAME_STATE_YUCATAN_port: "Tixchel" # Ciudad del Carmen
+ HUB_NAME_STATE_YUCATAN_mine: "Chactemal" # Payo Obispo
+ HUB_NAME_STATE_YUCATAN_farm: "Ekab"
+ HUB_NAME_STATE_YUCATAN_wood: "Can Pech" # Campeche
+ #
  STATE_DURANGO: "Korian"
  #
  STATE_NICARAGUA: "Nicatlnahuac"

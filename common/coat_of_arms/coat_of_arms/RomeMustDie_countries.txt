@@ -1812,79 +1812,79 @@ QTO = { # Quito/Kitu. Using Chinchay Suyu wiphala as default.
 		texture = "ce_solid.dds"
 		color1 = "purple"
 		color2 = "purple"
-		instance = { position = { @[seventh*0.5] @[thirteenth*0.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*0.5] @[seventh*6.5] } scale = { @seventh @seventh } }
 
-		instance = { position = { @[seventh*6.5] @[thirteenth*1.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*5.5] @[thirteenth*2.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*4.5] @[thirteenth*3.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*3.5] @[thirteenth*4.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*2.5] @[thirteenth*5.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*1.5] @[thirteenth*6.5] } scale = { @seventh @seventh } }
-	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "blue"
-		color2 = "blue"
+		instance = { position = { @[seventh*6.5] @[seventh*5.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*5.5] @[seventh*4.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*4.5] @[seventh*3.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*3.5] @[seventh*2.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*2.5] @[seventh*1.5] } scale = { @seventh @seventh } }
 		instance = { position = { @[seventh*1.5] @[seventh*0.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*0.5] @[seventh*1.5] } scale = { @seventh @seventh } }
-
-		instance = { position = { @[seventh*6.5] @[seventh*2.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*5.5] @[seventh*3.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*4.5] @[seventh*4.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*3.5] @[seventh*5.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*2.5] @[seventh*6.5] } scale = { @seventh @seventh } }
 	}
 	colored_emblem = {
 		texture = "ce_solid.dds"
-		color1 = "green"
-		color2 = "green"
+		color1 = "joseon_blue"
+		color2 = "joseon_blue"
+		instance = { position = { @[seventh*1.5] @[seventh*6.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*0.5] @[seventh*5.5] } scale = { @seventh @seventh } }
+
+		instance = { position = { @[seventh*6.5] @[seventh*4.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*5.5] @[seventh*3.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*4.5] @[seventh*2.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*3.5] @[seventh*1.5] } scale = { @seventh @seventh } }
 		instance = { position = { @[seventh*2.5] @[seventh*0.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*1.5] @[seventh*1.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*0.5] @[seventh*2.5] } scale = { @seventh @seventh } }
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "green_light"
+		color2 = "green_light"
+		instance = { position = { @[seventh*2.5] @[seventh*6.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*1.5] @[seventh*5.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*0.5] @[seventh*4.5] } scale = { @seventh @seventh } }
 
 
 		instance = { position = { @[seventh*6.5] @[seventh*3.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*5.5] @[seventh*4.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*4.5] @[seventh*5.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*3.5] @[seventh*6.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*5.5] @[seventh*2.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*4.5] @[seventh*1.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*3.5] @[seventh*0.5] } scale = { @seventh @seventh } }
 	}
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = "white"
 		color2 = "white"
-		instance = { position = { @[seventh*3.5] @[seventh*0.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*2.5] @[seventh*1.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*1.5] @[seventh*2.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*3.5] @[seventh*6.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*2.5] @[seventh*5.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*1.5] @[seventh*4.5] } scale = { @seventh @seventh } }
 		instance = { position = { @[seventh*0.5] @[seventh*3.5] } scale = { @seventh @seventh } }
 
-		instance = { position = { @[seventh*6.5] @[seventh*4.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*5.5] @[seventh*5.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*4.5] @[seventh*6.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*6.5] @[seventh*2.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*5.5] @[seventh*1.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*4.5] @[seventh*0.5] } scale = { @seventh @seventh } }
 	}
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = "yellow"
 		color2 = "yellow"
-		instance = { position = { @[seventh*4.5] @[seventh*0.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*3.5] @[seventh*1.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*2.5] @[seventh*2.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*4.5] @[seventh*6.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*3.5] @[seventh*5.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*2.5] @[seventh*4.5] } scale = { @seventh @seventh } }
 		instance = { position = { @[seventh*1.5] @[seventh*3.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*0.5] @[seventh*4.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*0.5] @[seventh*2.5] } scale = { @seventh @seventh } }
 
-		instance = { position = { @[seventh*5.5] @[seventh*6.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*6.5] @[seventh*5.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*5.5] @[seventh*0.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*6.5] @[seventh*1.5] } scale = { @seventh @seventh } }
 	}
 	colored_emblem = {
 		texture = "ce_solid.dds"
 		color1 = "orange"
 		color2 = "orange"
-		instance = { position = { @[seventh*5.5] @[seventh*0.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*4.5] @[seventh*1.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*3.5] @[seventh*2.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*5.5] @[seventh*6.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*4.5] @[seventh*5.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*3.5] @[seventh*4.5] } scale = { @seventh @seventh } }
 		instance = { position = { @[seventh*2.5] @[seventh*3.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*1.5] @[seventh*4.5] } scale = { @seventh @seventh } }
-		instance = { position = { @[seventh*0.5] @[seventh*5.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*1.5] @[seventh*2.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*0.5] @[seventh*1.5] } scale = { @seventh @seventh } }
 
-		instance = { position = { @[seventh*6.5] @[seventh*6.5] } scale = { @seventh @seventh } }
+		instance = { position = { @[seventh*6.5] @[seventh*0.5] } scale = { @seventh @seventh } }
 	}
 }
