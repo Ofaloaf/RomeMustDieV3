@@ -6,17 +6,17 @@
 			name = exercitus_galliae
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_RHONE
 				count = 4
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_RHONE
 				count = 8
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_GUYENNE
 				count = 8
 			}
@@ -67,18 +67,18 @@
 			name = exercitus_suessionorum
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_ILE_DE_FRANCE
 				count = 6
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_PICARDY
 				count = 5
 			}
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_NORMANDY
 				count = 9
 			}
@@ -119,12 +119,12 @@
 			name = exercitus_arvernorum
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_AUVERGNE_LIMOUSIN
 				count = 5
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_AUVERGNE_LIMOUSIN
 				count = 3
 			}

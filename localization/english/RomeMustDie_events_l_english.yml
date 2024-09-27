@@ -96,3 +96,11 @@
   refused_to_do_what_was_expected_4: "Uncharacteristic Actions"
   refused_to_do_what_was_expected_5: "Uncharacteristic Actions"
   ruler_extremely_unpopular: "#red #bold This character has repeatedly made uncharacteristic and unpopular decisions.#!#!"
+
+  fall_of_rome_events.11.t: "The Sword of Ambition"
+  fall_of_rome_events.11.d: "[SCOPE.sCharacter('sword_of_ambition_ig_leader').GetFullName] has requested a field command and "rank appropriate to [SCOPE.sCharacter('sword_of_ambition_ig_leader').GetHerHis|l] station." Granting [SCOPE.sCharacter('sword_of_ambition_ig_leader').GetHerHim|l] command is dangerous, but denying the request would lose the favor of [SCOPE.gsInterestGroup('sword_of_ambition_ig').GetName]."
+  fall_of_rome_events.11.f: ""[SCOPE.sCharacter('sword_of_ambition_ig_leader').GetLastNameNoFormatting] is ashamed of cowardice. [SCOPE.sCharacter('sword_of_ambition_ig_leader').GetLastNameNoFormatting] would be a beast without a heart if [SCOPE.sCharacter('sword_of_ambition_ig_leader').GetSheHe|l] stayed home today from fear. No, [SCOPE.sCharacter('sword_of_ambition_ig_leader').GetLastNameNoFormatting] will not do that. Danger knows very well that [SCOPE.sCharacter('sword_of_ambition_ig_leader').GetLastNameNoFormatting] is more dangerous than danger itself. Danger and I are like two lions born in the same litter, and #italic I#! am the older and more fearsome one. And so, [SCOPE.sCharacter('sword_of_ambition_ig_leader').GetLastNameNoFormatting] must become a leader of men!""
+  fall_of_rome_events.11.a: "Grand [SCOPE.sCharacter('sword_of_ambition_ig_leader').GetLastName] a command."
+  fall_of_rome_events.11.b: "[SCOPE.sCharacter('sword_of_ambition_ig_leader').GetLastName] #italic cannot#! be given an army."
+  fall_of_rome_events.11.c: "#bold I#! am the army, not you!"
+  spurned_our_leader: "Spurned Our Leader"

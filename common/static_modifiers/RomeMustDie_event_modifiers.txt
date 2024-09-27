@@ -158,3 +158,8 @@ foiled_by_the_mob = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
 	interest_group_pol_str_mult = -0.25
 }
+
+spurned_our_leader = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	interest_group_approval_add = -5
+}

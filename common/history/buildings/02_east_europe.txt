@@ -2591,6 +2591,7 @@
 			}
 		}
 	}
+	# Pannoria
 	s:STATE_CENTRAL_HUNGARY={
 		region_state:HNN={
 			create_building={
@@ -2609,11 +2610,57 @@
 				add_ownership={
 					country={
 						country="c:HNN"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_iron_frame_buildings" }
+			}
+			create_building={
+				building="building_university"
+				add_ownership={
+					country={
+						country="c:HNN"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_philosophy_department" }
+			}
+			create_building={
+				building="building_arms_industry"
+				add_ownership={
+					country={
+						country="c:HNN"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_muskets" }
+			}
+			create_building={
+				building="building_artillery_foundries"
+				add_ownership={
+					country={
+						country="c:HNN"
 						levels=1
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
+				activate_production_methods={ "pm_cannons" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:HNN"
+						levels=3
+						region="STATE_CENTRAL_HUNGARY"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -2621,26 +2668,13 @@
 					building={
 						type="building_iron_mine"
 						country="c:HNN"
-						levels=2
+						levels=5
 						region="STATE_CENTRAL_HUNGARY"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}			
-			create_building={
-				building="building_food_industry"
-				add_ownership={
-					building={
-						type="building_food_industry"
-						country="c:HNN"
-						levels=2
-						region="STATE_CENTRAL_HUNGARY"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing" }
-			}
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
@@ -2660,7 +2694,7 @@
 					building={
 						type="building_manor_house"
 						country="c:HNN"
-						levels=2
+						levels=1
 						region="STATE_CENTRAL_HUNGARY"
 					}
 				}
@@ -2680,28 +2714,44 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				add_ownership={
-#					country={
-#						country="c:HNN"
-#						levels=15
-#					}
-#				}
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 		}
 	}
+	# Marsius
 	s:STATE_BEKES={
 		region_state:HNN={
+			create_building={
+				building="building_paper_mills"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:HNN"
+						levels=2
+						region="STATE_BEKES"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:HNN"
+						levels=1
+						region="STATE_BEKES"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
 			create_building={
 				building="building_vineyard_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
 						country="c:HNN"
-						levels=3
+						levels=1
 						region="STATE_BEKES"
 					}
 				}
@@ -2721,19 +2771,9 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				add_ownership={
-#					country={
-#						country="c:HNN"
-#						levels=10
-#					}
-#				}
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 		}
 	}
+	#Pelso
 	s:STATE_TRANSDANUBIA={
 		region_state:HNN={
 			create_building={
@@ -2742,12 +2782,25 @@
 					building={
 						type="building_food_industry"
 						country="c:HNN"
-						levels=2
+						levels=1
 						region="STATE_TRANSDANUBIA"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing" }
+				activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing" }
+			}
+			create_building={
+				building="building_textile_mills"
+				add_ownership={
+					building={
+						type="building_textile_mills"
+						country="c:HNN"
+						levels=3
+						region="STATE_TRANSDANUBIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms"  }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -2755,12 +2808,12 @@
 					building={
 						type="building_wheat_farm"
 						country="c:HNN"
-						levels=2
+						levels=7
 						region="STATE_TRANSDANUBIA"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled"  }
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_citrus_orchards" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -2788,17 +2841,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				add_ownership={
-#					country={
-#						country="c:HNN"
-#						levels=15
-#					}
-#				}
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 		}
 	}
 	# Iazygia
@@ -2843,21 +2885,37 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				add_ownership={
-#					country={
-#						country="c:HNN"
-#						levels=5
-#					}
-#				}
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 		}
 	}
-	s:STATE_BANAT={ # Tibiscus
+	# Tibiscus
+	s:STATE_BANAT={ 
 		region_state:HNN={
+			create_building={
+				building="building_paper_mills"
+				add_ownership={
+					building={
+						type="building_paper_mills"
+						country="c:HNN"
+						levels=1
+						region="STATE_BANAT"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:HNN"
+						levels=1
+						region="STATE_BANAT"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
@@ -2890,24 +2948,13 @@
 					building={
 						type="building_livestock_ranch"
 						country="c:HNN"
-						levels=4
+						levels=2
 						region="STATE_BANAT"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-#			create_building={
-#				building="building_barracks"
-#				add_ownership={
-#					country={
-#						country="c:HNN"
-#						levels=5
-#					}
-#				}
-#				reserves=1
-#				activate_production_methods={ "pm_no_organization" }
-#			}
 		}
 	}
 	# Nitravia
@@ -3106,8 +3153,22 @@
 			}
 		}
 	}
+	# Apulensis
 	s:STATE_SOUTHERN_TRANSYLVANIA={
 		region_state:HNN={
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_tooling_workshops"
+						country="c:HNN"
+						levels=2
+						region="STATE_SOUTHERN_TRANSYLVANIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" }
+			}
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
@@ -3140,12 +3201,12 @@
 					building={
 						type="building_logging_camp"
 						country="c:HNN"
-						levels=5
+						levels=3
 						region="STATE_SOUTHERN_TRANSYLVANIA"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_simple_forestry" }
+				activate_production_methods={ "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_saw_mills" }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -3159,20 +3220,10 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
-			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:HNN"
-						levels=10
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
 			}			
 		}
 	}
+	# Samosius
 	s:STATE_NORTHERN_TRANSYLVANIA={
 		region_state:HNN={
 			create_building={
@@ -3197,7 +3248,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_handcrafted_furniture" "pm_automation_disabled" "pm_no_luxuries" }
+				activate_production_methods={ "pm_lathe" "pm_automation_disabled" "pm_no_luxuries" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -3210,7 +3261,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -3239,15 +3290,17 @@
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 			create_building={
-				building="building_barracks"
+				building="building_iron_mine"
 				add_ownership={
-					country={
+					building={
+						type="building_iron_mine"
 						country="c:HNN"
-						levels=5
+						levels=2
+						region="STATE_SOUTHERN_TRANSYLVANIA"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_no_organization" }
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 		}
 	}
