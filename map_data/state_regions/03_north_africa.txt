@@ -67,6 +67,7 @@ STATE_EGYPTIAN_DESERT = {
 
 
 
+
     traits = { "state_trait_sahara_desert" }
     city = "xBD5993"
     farm = "x9D6B88"
