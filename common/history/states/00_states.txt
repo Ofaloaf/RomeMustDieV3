@@ -3375,7 +3375,6 @@ STATES = {
 		create_state = {
 			country = c:WBL
 			owned_provinces = { x4E1F70 x0C9F79 x60F62D x026A9C x0EEAD6 x8A5F5F xE156BB xD13AD2 xC9BCA7 x39A19A xA4187E x2392F9 x55A52C xC400D3 xEF2B27 }
-			state_type = unincorporated
 		}
 		create_state = {
 			country = c:CHO

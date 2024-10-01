@@ -49,14 +49,14 @@
 	common_last_names={
 		Aurelio Antiense Alsiense Arretiense Arminiense Ariolicense Arensnsis Ahala Asellio Acciaioli Atriense Ambrogi Annibaliano
 		Boloniense Bergomense Bedriacense Bodetiense Brundisiense Beletiense Buteo Buti Bucca Bueri Borri Bonfigliuoli Bartolomeo Bonsi Boniamici Buzeto
-		Caepio Capuense Castrense Clusiense Canusiense Castoriano Cremonense Cortonense Callipolitano Cereali Cornaro Corsi Crivelli Cosa Cilo Cinna Cannini Cambi Ciai Cimabue
+		Caepio Capuense Castrense Clusiense Canusiense Castoriano Cremonense Cortonense Callipolitano Cereali Cornaro Corsi Crivelli Cosa Cilo Cinna Cannini Cambi Ciai Cimabue Carboni
 		Dento Diriense Donati Damiani Dionisi Diodati Deotisalvi Davizzi Dirittafede
 		Eporediense Egnatiense
 		Fullo Faltonio Florencio Florentiense Falconieri Frusinense Florentini Faritio Flaive
 		Grumentense Genusiense Grumense Gallerani Gorini Grizi Gesio Germia
 		Iguviense Igneo Istoniense Iacopi Iohanni Iohanello
-		Laviniense Luceriense Larinense Luti Lapi Lupicini Lorentiano
-		Mediolanense Minerviense Marini Marsili Micheli Martini Messala Mosca
+		Laviniense Luceriense Larinense Luti Lapi Lupicini Lorentiano Lepori
+		Mediolanense Minerviense Marini Marsili Micheli Martini Messala Mosca Morisi
 		Nepolitano Novariense Nequinense Natiolense Nuceriense Narniense Nerini Neroni
 		Ostiense Ortense
 		Pisano Populoniense Potentiense Placentiense Pisaurense Pinnense Prifernense Plestiense Paganelli Petri Ponci Pratesi Prosperi Postumiano Paterio
