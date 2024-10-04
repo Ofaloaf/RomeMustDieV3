@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:ZAN = {
+		create_character = {
+			template = ZAN_ruler			# Zuberi al-Mazlum
+		}
+	}
+}

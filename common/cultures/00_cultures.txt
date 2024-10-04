@@ -16359,6 +16359,7 @@ oromo={
 	}
 	ethnicities = {
 		1 = african
+		2 = east_african
 	}
 	graphics = african
 }
@@ -16524,6 +16525,7 @@ sidama={
 	}
 	ethnicities = {
 		1 = african
+		2 = east_african
 	}
 	graphics = african
 }
@@ -16581,6 +16583,7 @@ somali={
 	}
 	ethnicities = {
 		1 = african
+		2 = east_african
 	}
 	graphics = african
 }
@@ -16708,99 +16711,139 @@ swahili={
 	religion = sunni
 	traits = { east_african_culture_group bantu african_heritage }
 	male_common_first_names={
-		Ahmed
-		Amiri
-		Asani
-		Babu
-		Balozi
-		Darweshi
-		Erevu
-		Faraji
-		Fupi
-		Heri
-		Hishima
-		Huru
-		Husani
-		Ibada
-		Imara
-		Issa
-		Jabari
-		Jahidi
-		Jalali
-		Juma
-		Jumaane
-		Kafeel
-		Kamari
-		Khamisi
-		Kifimbo
-		Kivuli
-		Kondo
-		Lumbwi
-		Machupa
-		Mbwana
-		Mosi
-		Safi
-		Salehe
-		Salim
-		Zuberi
+		Abdullah Ahmed Ali Amani Abedi Athman Abdul Abdulrazak Abushiri Abdulmuhsin Ahmed Abu_Bakar Alwy Aziz
+		Bakari Bakathir
+		Chamosi
+		Fumomadi Famao
+		Gosilatembo
+		Hamad Hasan Hussein Harun Hamisi
+		Idris Ibrahim
+		Jiburili Juma
+		Khalifa Khatib Kassim Kombo Kaogota
+		Mohamed Mwalimu Muyaka Majid Matumula Mataka Mwengo Mgeni Muyaka Masoud Mbaruk Mshangamwe Mbogo Mwinyihija Mbarak
+		Ngara Nasoro
+		Omari
+		Ruwei Rashid
+		Salih Said Saadi Suleiman Salim Simba Shallo
+		Thuwain
+		Ufunguo
+		Wakurus
+		Yusuf
+		Zagar Zuberi
 	}
 	female_common_first_names = {
-		Adla
-		Fatuma
-		Jilfidan
-		Khadija
-		Matuka
-		Salama
-		Samia
-		Shariffa
-		Siti
-		Sughiya
+		Asha
+		Bitumu Bihija
+		Dunia
+		Fatuma Fungulia Fari
+		Heshima Hadija Halima
+		Iki
+		Jiburi Johari
+		Kupona Kidogo Kero Kibunzi Kadide Karama
+		Latife
+		Matuka Mariamu Mebora Mefundi Mwajabu Mbura Marishedi Mlisho Mkaa Memtwana Mwatime Mtajiuthi
+		Nuru Nyanya
+		Sawadu Somoe Salima Sada
+		Turkiya
+		Uba
+		Zuleika Zaynab Zuhura
 	}	
 	noble_last_names = {
 		al-Barwani
 		Al_Said
 		Al-Qassmy
-		Diria
-		Jumbes
+
+		al-Batawi
+		al-Farsy
+		al-Ghassaniy
+		al-Jaufi
+		al-Kilwi al-Kindi
+		al-Mlomry al-Mazrui
+		al-Nabhani
+		al-Shirazi al-Shagani
+
+		# Mombasa mataifas
+		wa_Changamwe
+		wa_Muli
+
+		# misc
+		al-Akilimali
+		al-Hassani
+
+		Mirza
+
+		bin_Athumani
+		ibn_Juma
+		bin_Kitubwi
+		bin_Mataka bin_Mwinyi bin_Mwinyizagu
+		ibn_Tayari
+		bin_Sheikh bin_Sultani
+
+		wa_Bwana_Amee
 	}
 	common_last_names={
-		Ahmed
-		Amiri
-		Asani
-		Babu
-		Balozi
-		Darweshi
-		Erevu
-		Faraji
-		Fupi
-		Heri
-		Hishima
-		Huru
-		Husani
-		Ibada
-		Imara
-		Issa
-		Jabari
-		Jahidi
-		Jalali
-		Juma
-		Jumaane
-		Kafeel
-		Kamari
-		Khamisi
-		Kifimbo
-		Kivuli
-		Kondo
-		Lumbwi
-		Machupa
-		Mbwana
-		Mosi
-		Safi
-		Salehe
-		Zuberi
+		Baruti
+		Chaurembo
+		Jamali_Layl
+
+		bin_Ambar bin_Abdulla bin_Agili bin_Ali bin_Abedi bin_Awath bin_Anzwani bin_Ali_Mona bin_Abdirahman
+		bin_Bushiri bin_Bukheit bin_Boke bin_Barafundi
+		bin_Chatundu
+		bin_Hamadi bin_Hassan bin_Hasil
+		bin_Issa bin_Idi bin_Ismail bin_Isumu
+		bin_Juma
+		bin_Kitubwi bin_Khamis bin_Kombo bin_Khalfan bin_Kamal
+		bin_Lamwa bin_Lagu
+		bin_Mataka bin_Mohamed bin_Maalim bin_Mgendo bin_Mwinzagu bin_Mbwana bin_Mwijabu bin_Mhathara bin_Mwekande bin_Mwi_Faki bin_Mwikiongwe bin_Musa
+		bin_Ngao bin_Ndala bin_Ndau
+		bin_Omari
+		bin_Rajab bin_Rashid bin_Rithiwani
+		bin_Said bin_Salim bin_Shambe bin_Songoro bin_Seleman bin_Siyawezi bin_Shawal
+		bin_Tayari bin_Talsam bin_Tahir
+		bin_Usi
+		bin_Zaharan bin_Zaidi bin_Zuberi
+
+		wa_Athman
+		wa_Euesi
+		wa_Hatibu
+		wa_Kigulu wa_Kaogota wa_Kandi
+		wa_Mansuri wa_Mwizagu wa_Meambari wa_Mwishahame wa_Mpemba wa_Msakara wa_Mwejaa wa_Mwenyengame wa_Mwanamsa
+		wa_Namuwesi wa_Ngozi wa_Nzoka wa_Nyaga
+		wa_Ruwei
+		wa_Safene wa_Siwajibu
+
+		Atiki Aseme
+		Bunu Badara Bhaiji Brahim
+		Chaburre
+		Dachi
+		Elgothmi
+		Issaji
+		Juka
+		Karimji Kanji
+		Madhani Musa Mwajuma Mnyana Mwatenda Mdengereko Mabruki Msuku Mnyamwezi Mkamba
+		Nasibu
+		Ombwe
+		Sengoro
+		Washibu
+
+		# toponymic
+		wa_Dembeni
+		wa_Faza
+		wa_Gezira
+		wa_Hoja wa_Hidabu
+		wa_Ishakani
+		wa_Kiangwe
+		wa_Lamu
+		wa_Manda wa_Mbachile
+		wa_Pate
+		wa_Sofala wa_Shanga wa_Sima
+		wa_Takwa wa_Tundwa
+		wa_Uwani
+		wa_Wange wa_Witu
 	}
 	ethnicities = {
 		1 = african
+		1 = east_african
 	}
 	graphics = african
 }
@@ -16848,6 +16891,7 @@ tigray={
 	}
 	ethnicities = {
 		1 = african
+		2 = east_african
 	}
 	graphics = african
 }

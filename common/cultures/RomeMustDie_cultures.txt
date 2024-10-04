@@ -47,7 +47,7 @@
 		Zenobia
 	}
 	common_last_names={
-		Aurelio Antiense Alsiense Arretiense Arminiense Ariolicense Arensnsis Ahala Asellio Acciaioli Atriense Ambrogi Annibaliano
+		Aurelio Antiense Alsiense Arretiense Arminiense Ariolicense Arensnsis Ahala Asellio Acciaioli Atriense Ambrogi Annibaliano Anneiano
 		Boloniense Bergomense Bedriacense Bodetiense Brundisiense Beletiense Buteo Buti Bucca Bueri Borri Bonfigliuoli Bartolomeo Bonsi Boniamici Buzeto
 		Caepio Capuense Castrense Clusiense Canusiense Castoriano Cremonense Cortonense Callipolitano Cereali Cornaro Corsi Crivelli Cosa Cilo Cinna Cannini Cambi Ciai Cimabue Carboni
 		Dento Diriense Donati Damiani Dionisi Diodati Deotisalvi Davizzi Dirittafede
@@ -57,7 +57,7 @@
 		Iguviense Igneo Istoniense Iacopi Iohanni Iohanello
 		Laviniense Luceriense Larinense Luti Lapi Lupicini Lorentiano Lepori
 		Mediolanense Minerviense Marini Marsili Micheli Martini Messala Mosca Morisi
-		Nepolitano Novariense Nequinense Natiolense Nuceriense Narniense Nerini Neroni
+		Nepolitano Novariense Nequinense Natiolense Nuceriense Narniense Nerini Neroni Niceforiano Nicostrato
 		Ostiense Ortense
 		Pisano Populoniense Potentiense Placentiense Pisaurense Pinnense Prifernense Plestiense Paganelli Petri Ponci Pratesi Prosperi Postumiano Paterio
 		Ravennense Ruffo Rocchi Rustichelli Rustichi Romiti Rusticio Ragano

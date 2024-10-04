@@ -816,7 +816,7 @@
 		region_state:ZAN = {
 			create_pop = {
 				culture = swahili
-				size = 390800
+				size = 550800
 			}
 			create_pop = {
 				culture = sukuma
@@ -825,7 +825,7 @@
 			}
 			create_pop = {
 				culture = lacustrine_bantu
-				size = 466396
+				size = 306396
 			}
 			create_pop = {
 				culture = lacustrine_bantu

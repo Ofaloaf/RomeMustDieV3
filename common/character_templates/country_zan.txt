@@ -1,0 +1,17 @@
+﻿ZAN_ruler = { # Zuberi al-Mazlum
+	first_name = Zuberi
+	last_name = al-Mazlum
+	historical = yes
+	culture = cu:swahili
+	religion = rel:sunni
+	ruler = yes
+	female = no
+	age = 50
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	traits = {
+		imposing
+		tactful
+		master_bureaucrat
+	}
+}
