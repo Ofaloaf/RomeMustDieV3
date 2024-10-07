@@ -105,6 +105,12 @@
 		add_declared_interest = region_england
 	}
 
+  # Frisia
+  c:FRY ?= {
+		add_declared_interest = region_england
+    add_declared_interest = region_north_germany
+	}
+
 
 
 

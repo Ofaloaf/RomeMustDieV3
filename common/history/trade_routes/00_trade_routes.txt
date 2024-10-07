@@ -1256,6 +1256,71 @@ TRADE_ROUTES = {
 		
     }
 
+	# Frisia
+	c:FRY ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:MMU.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:FRK.market
+		}
+		create_trade_route = {
+			goods = iron
+			level = 2
+			direction = import
+			target = c:FRK.market
+		}
+		create_trade_route = {
+			goods = iron
+			level = 2
+			direction = import
+			target = c:SXN.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 2
+			direction = import
+			target = c:CGL.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 2
+			direction = import
+			target = c:FRK.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 2
+			direction = import
+			target = c:SXN.market
+		}
+		create_trade_route = {
+			goods = meat
+			level = 1
+			direction = export
+			target = c:CGL.market
+		}
+		create_trade_route = {
+			goods = groceries
+			level = 1
+			direction = export
+			target = c:FRK.market
+		}
+		create_trade_route = {
+			goods = porcelain
+			level = 1
+			direction = export
+			target = c:FRK.market
+		}
+		
+    }
+
 
 
 
