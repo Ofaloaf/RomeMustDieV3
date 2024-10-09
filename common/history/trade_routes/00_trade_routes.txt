@@ -1321,6 +1321,38 @@ TRADE_ROUTES = {
 		
     }
 
+	# Anglia
+	c:SCH ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:FRY.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = import
+			target = c:LTC.market
+		}		
+    }
+
+	# Obotritia
+	c:OBT ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:FIN.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:FRY.market
+		}		
+    }
+
 
 
 

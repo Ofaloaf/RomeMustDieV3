@@ -4124,6 +4124,7 @@
 			}	
 		}
 	}
+	#Alsatia
 	s:STATE_ALSACE_LORRAINE={
 		region_state:ALM={
 			create_building={
@@ -5109,6 +5110,7 @@
 			
 		}
 	}
+	#Frisia
 	s:STATE_FRIESLAND={
 		region_state:FRY={
 			create_building={
@@ -6294,47 +6296,93 @@
 			}
 		}
 	}
+	# Albia
 	s:STATE_ELBE={
 		region_state:SXN={
 			create_building={
 				building="building_furniture_manufacturies"
-				level=2
+				add_ownership={
+					building={
+						type="building_furniture_manufacturies"
+						country="c:SXN"
+						levels=1
+						region="STATE_ELBE"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_handcrafted_furniture" "pm_automation_disabled" "pm_no_luxuries" }
 			}		
 			create_building={
 				building="building_paper_mills"
-				level=1
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:SXN"
+						levels=1
+						region="STATE_ELBE"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
 			}
 			create_building={
 				building="building_rye_farm"
-				level=2
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:SXN"
+						levels=2
+						region="STATE_ELBE"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_potatoes" }
 			}
 			create_building={
 				building="building_livestock_ranch"
-				level=1
+				add_ownership={
+					building={
+						type="building_livestock_ranch"
+						country="c:SXN"
+						levels=1
+						region="STATE_ELBE"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 			create_building={
 				building="building_logging_camp"
-				level=2
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:SXN"
+						levels=2
+						region="STATE_ELBE"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			}	
 			create_building={
 				building="building_port"
-				level=2
+				add_ownership={
+					country={
+						country="c:SXN"
+						levels=2
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
 			create_building={
 				building="building_barracks"
-				level=8
+				add_ownership={
+					country={
+						country="c:SXN"
+						levels=8
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}			
@@ -7033,35 +7081,69 @@
 			}
 		}
 	}
+	# Anglia
 	s:STATE_SCHLESWIG_HOLSTEIN={
 		region_state:SXN={
 			create_building={
 				building="building_rye_farm"
-				level=1
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:SXN"
+						levels=1
+						region="STATE_SCHLESWIG_HOLSTEIN"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_potatoes" }
 			}
 			create_building={
 				building="building_livestock_ranch"
-				level=3
+				add_ownership={
+					building={
+						type="building_livestock_ranch"
+						country="c:SXN"
+						levels=3
+						region="STATE_SCHLESWIG_HOLSTEIN"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 			create_building={
 				building="building_fishing_wharf"
-				level=1
+				add_ownership={
+					building={
+						type="building_fishing_wharf"
+						country="c:SXN"
+						levels=1
+						region="STATE_SCHLESWIG_HOLSTEIN"
+					}
+				}
 				reserves=1
 				activate_production_methods={  "pm_unrefrigerated" "pm_fishing_trawlers" }
 			}
 			create_building={
 				building="building_logging_camp"
-				level=1
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:SXN"
+						levels=1
+						region="STATE_SCHLESWIG_HOLSTEIN"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_barracks"
-				level=5
+				add_ownership={
+					country={
+						country="c:SXN"
+						levels=5
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
@@ -7069,13 +7151,23 @@
 		region_state:OBT={
 			create_building={
 				building="building_port"
-				level=1
+				add_ownership={
+					country={
+						country="c:OBT"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
 			create_building={
 				building="building_barracks"
-				level=1
+				add_ownership={
+					country={
+						country="c:OBT"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}			
@@ -7083,21 +7175,51 @@
 		region_state:SCH={
 			create_building={
 				building="building_government_administration"
-				level=1
+				add_ownership={
+					country={
+						country="c:SCH"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}		
 			create_building={
 				building="building_rye_farm"
-				level=1
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:SCH"
+						levels=1
+						region="STATE_SCHLESWIG_HOLSTEIN"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled"  }
 			}
 			create_building={
 				building="building_livestock_ranch"
-				level=3
+				add_ownership={
+					building={
+						type="building_livestock_ranch"
+						country="c:SCH"
+						levels=3
+						region="STATE_SCHLESWIG_HOLSTEIN"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:SCH"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -7687,29 +7809,54 @@
 			}
 		}
 	}
+	# Obotritia
 	s:STATE_MECKLENBURG={
 		region_state:OBT={
 			create_building={
 				building="building_rye_farm"
-				level=2
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:SCH"
+						levels=2
+						region="STATE_MECKLENBURG"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_potatoes" }
 			}
 			create_building={
 				building="building_livestock_ranch"
-				level=1
+				add_ownership={
+					building={
+						type="building_livestock_ranch"
+						country="c:SCH"
+						levels=1
+						region="STATE_MECKLENBURG"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 			create_building={
 				building="building_barracks"
-				level=5
+				add_ownership={
+					country={
+						country="c:OBT"
+						levels=5
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
 			create_building={
 				building="building_port"
-				level=1
+				add_ownership={
+					country={
+						country="c:OBT"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
