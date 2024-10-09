@@ -1346,11 +1346,51 @@ TRADE_ROUTES = {
 			target = c:FIN.market
 		}
 		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:SXN.market
+		}
+		create_trade_route = {
 			goods = small_arms
 			level = 1
 			direction = import
 			target = c:FRY.market
 		}		
+    }
+
+	# Obotritia
+	c:SXN ?= {	
+		create_trade_route = {
+			goods = clothes
+			level = 3
+			direction = import
+			target = c:FRK.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 1
+			direction = import
+			target = c:JUT.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 1
+			direction = import
+			target = c:NOR.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = export
+			target = c:NOR.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 2
+			direction = export
+			target = c:GTL.market
+		}			
     }
 
 

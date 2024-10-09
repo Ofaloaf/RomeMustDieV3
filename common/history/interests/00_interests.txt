@@ -117,6 +117,12 @@
     add_declared_interest = region_baltic
 	}
 
+  # Saxony
+  c:SXN ?= {
+		add_declared_interest = region_poland
+    add_declared_interest = region_baltic
+	}
+
 
 
 
