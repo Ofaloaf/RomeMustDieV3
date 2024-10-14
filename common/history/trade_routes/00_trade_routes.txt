@@ -1439,6 +1439,29 @@ TRADE_ROUTES = {
 		}		
     }
 
+	# Thuringia
+	c:THR ?= {	
+		create_trade_route = {
+			goods = clothes
+			level = 1
+			direction = import
+			target = c:BOH.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = import
+			target = c:LTC.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = export
+			target = c:LTC.market
+		}
+
+    }
+
 
 
 
