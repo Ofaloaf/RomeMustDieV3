@@ -4781,132 +4781,78 @@ armenian={
 	religion = oriental_orthodox
 	traits = { caucasus_group european_heritage }
 	male_common_first_names={
-		Alexander
-		Arakel
-		Aram
-		Aramais
-		Arsen
-		Artashes
-		Artavazd
-		Artem
-		Ashot
-		Assadour
-		Atom
-		Barsegh
-		Benyamin
+		Alexander Arakel Aram Aramais Arsen Artashes Artavazd Artem Ashot Atom Anania Artashes Arshavir Anapat Asdvadzadur Abraham Avag Atrnerseh 
+		Barsegh Benyamin Boghos Babken
 		Deran
-		Eduard
-		Gevorg
-		Gor
-		Gurgen
-		Hamazasp
-		Hayk
-		Hovhannes
-		Hovsep
-		Hrant
+		Eznik Eliazar
+		Gevorg Gor Gurgen Garikhpet Ghazar Gagik Grigor Ghukas
+		Hamazasp Hayk Hovhannes Hovsep Hrant Harutyun Hethum Hakob
 		Isahak
-		Karapet
-		Kevork
+		Karapet Kevork Khosrov Khachatur Kostandin Kirakos Khachik Karapet
 		Levon
-		Mkrtich
-		Murad
-		Nubad
-		Papken
-		Rouben
-		Sarkis
-		Sergei
-		Sevan
-		Smbat
-		Soghomon
-		Souren
-		Spiru
-		Tadevos
-		Taniel
-		Vahan
-		Vahe
-		Vahram
-		Vano
-		Vartan
-		Vazrik
-		Vilen
-		Yegishe
-		Yervand
+		Mkrtich Movses Mushegh Mesrop Manuel Malachia Minas Matteos Mihran Mleh
+		Nubad Nerses Nahabed
+		Oshin
+		Papken Petros Poghos Pilartos Prosh
+		Rouben Raphael 
+		Sarkis Sergei Sevan Smbat Soghomon Sahak Souren Spiru Stepanos
+		Tadevos Taniel Tachat Toros Terter Trdat Tovma
+		Ukhtanes 
+		Vahan Vahe Vahram Vano Vartan Vazrik Varaztirots Vasil 
+		Yegishe Yervand Yovanisik 
 		Zaven
 	}
 	female_common_first_names = {
-		Anna
-		Arshaluys
+		Anna Arshaluys
 		Diana
+		Gohar
 		Hripsime 
-		Mari
+		Kumash Katranide Ketevan
+		Mariam
 		Perchuhi
-		Satenik
-		Shushanik
-		Sophia
+		Satenik Shushanik Sofya Shushan Susambar
+		Tamar Tangiatun
 		Virginia
-		Zabel
-		Zardar
+		Zabel Zardar
 	}	
 	noble_last_names = {
-		Abamelik
-		Agadzhanian
-		Atabekian
-		Melik-Aghamalian
-		Melikyan
+		Abamelik Abelian Agadzhanian Atabekian Artsruni Amatuni Antzevatsi Anetsi Arghutian Arsharuni
+		Bznuni
+		Dziunakan Daronitsi
+		Goghtnatsi Gnuni Getadardz 
+		Havenni
+		Kamsarakan Khorkhoruni Kiurikian Khaghbakian
+		Melik-Aghamalian Melikyan Mirakian Mamikonian
+		Orbelian
+		Pahlavuni Parpetsi Proshyan
+		Rshtuni
+		Siunetsi Saharuni
+		Taronatsi Teruni
+		Urhayetsi
+		Vaspurakantsi Varazhnuni
+		Yerevantsi
+		Zakarian
 	}
 	common_last_names={
-		Afeyan
-		Arakelian
-		Asdvadzadrian
-		Asriyan
-		Avakian
-		Aydinian
-		Azatian
-		Babadzhanian
-		Bogosian
-		Bounyatian
-		Chakheltian
-		Dombalagian
-		Egoyan
-		Erznvian
-		Ghakarian
-		Ghehanian
-		Ghorghanian
-		Guediguian
-		Hannessoghlian
-		Hasratian
-		Hovsepian
-		Kaloian
-		Kamalian
-		Khachaturian
-		Khakhanyan
-		Khatchaturiants
-		Konstandyan
-		Konstanian
-		Mamikonian
-		Mardvian
-		Matinian
-		Mirakian
-		Mkhitarian
-		Mussiniants
-		Pahlevanian
-		Peleshyan
-		Safrazpekian
-		Sahakiam
-		Sarksyan
-		Sekoyan
-		Shadunts
-		Shahsuvarian
-		Tavakyalian
-		Tchartichian
-		Tcholakhian
-		Ter-Sarkayan
-		Terzian
-		Tigraniants
-		Tigranov
-		Toshian
-		Varapetian
-		Vartanian
+		Afeyan Arakelian Asdvadzadrian Asriyan Avakian Aydinian Azatian Alamdaryan Anetsi Aygektsi Arqayeghbayr Arghutian Ashtarakets_i Amasiatsi 
+		Babadzhanian Bogosian Bounyatian Bardzraberdtsi Balients
+		Chakheltian Chobanian Caretsi
+		Dombalagian Draskhanakerttsi
+		Egoyan Erznvian
+		Ghakarian Ghehanian Ghorghanian Guediguian Gitnavor Getadardz Gosh
+		Hannessoghlian Hasratian Hovsepian Hnazandents Heratsi
+		Jughayetsi
+		Kaloian Kamalian Khachaturian Khakhanyan Khatchaturian Konstandyan Konstanian Karnetsi Khoshabetzi Khrimian Kaghankatvatsi
+		Lambronatsi
+		Mamikonian Mardvian Matinian Mirakian Mkhitarian Mussiniants Malkhasyants Meghrik Maratatsi Marashetsi Metsopetsi
+		Nalbandian Nazarian Narekatsi Naroyan Naghash
+		Ormanian Oolnetzi
+		Pahlevanian Peleshyan Patkanian Petrosian Parpetsi Pitsak
+		Safrazpekian Sahakian Sarksyan Sekoyan Shadunts Shahsuvarian Shirakatsi Simonian Salmastetsi Shamakhetsi Shahazizyan Sebastatsi
+		Tavakyalian Tchartichian Tcholakhian Ter-Sarkayan Terzian Tigraniants Toshian Tourian Tlkurantsi
+		Varapetian Vartanian Vanetsi Varzhapetian Vehabedian 
+		Yerazhisht Yerevantsi
+		Zohrab
 	}
 	ethnicities = {
 		1 = slavic
@@ -5765,56 +5711,105 @@ persian={
 	religion = sunni
 	traits = { iranian_turanian_culture_group middle_eastern_heritage }
 	male_common_first_names={
-		Abbas Abdolazim Abdolhossein Abdolsamad Abolghasem Ahmad Ali 
-		Bahram 
-		Ebrahim Esmail 
-		Fath_Ali Fazlollah
-		Hamzeh Hasan Hossein
-		Kamran Karim
-		Lotf_Ali
-		Mahmoud Massoud Mohammad Moin_ed-Din Mozzafer_ed-Din Muhsin Murad
-		Naser_ed-Din Nosret
-		Reza
-		Sadegh
+		Abu__Ali Asfar Abu_Ja_far Abu_Hafs Abu_l-Husayn Abbas Ardeshir Ali-Morad Ali Afridun Abu_Bakr Abu_Khalijar
+		Bawi
+		Farrukhzad Farrukh_Hormizd Fuladh Farrukhan
+		Golon Girdbazu
+		Hormizd Harusindan Hanzalah Hazarasp
+		Isfandyadh Ibrahim Isma_il Ilyas Iskandar
+		Jalal Juvansher
+		Kayus Khalaf Khurshid Kayumarth
+		Mansur Mardavij Mohammad_Qavam Mohammad-Ali
+		Nuh Namawar
+		Qabus Quhyar Qarin
+		Rustam Al-Raghib
+		Shapur Surkhab Saadi Shirdil
+		Tirdadh Tahmasp 
+		Vinduyih
+		Yahya Yazdegerd Ya_qub
+		Zabihollah
 	}
 	female_common_first_names = {
+		Apranik Adur-Anahid
+		Babu
+		Denag
+		Fatemeh
+		Gowhar Gordiya
+		Razia
+		Zubaida
+		#
 		Asieh
 		Bibi_Khatoom
 		Ghazaleh
 		Marjane Marsha Maryam
 		Sedigheh
 	}	
-	noble_last_names = {
-		al-Saltaneh Alamir Astarabadi Ashtiani
-		Bakhtiari
-		Farmanfarma
-		Hakimi Hedayat
-		Khalatbari 
-		Pirnia
-		Qajar
-	}
 	common_last_names={
-		Airom Ansari Ayrum
-		Buzarjomehri
-		Davallu
-		Esfahani
-		Farhani
-		Jahanbani Jamshidian
-		Kashani Khan Khuzai
-		Meshhedi
-		Nakhchevani
-		Pesyan
-		Rokni
-		Sadegh Shafaei Shahbakhti Shirazi
-		Tabrizi Tahmasebi
-		Zahedi
+		Chobin Chagani
+		Fardoust
+		Ismail
+		Jayhani
+		Mamari
+		Sarakhsi
+
+		# Patronymic
+		_Aufi
+		al-Husayni
+		ibn_Ahmad ibn_Amr ibn_Abdallah ibn_Ali ibn_Asad ibn_Abbad
+		ibn_Bukayr ibn_Buya
+		ibn_Fasanjas
+		ibn_Gurdzad
+		ibn_al-Hasan
+		ibn_Ilyas
+		ibn_Kaki ibn_Kubad ibn_Karan
+		ibn_Muhammad ibn_Marzuban ibn_Makan ibn_Mafinna
+		ibn_al_Nu_man
+		ibn_Qasim
+		ibn_Shahriyar ibn_as-Sikkit
+		ibn_Tahir
+		ibn_Vandad ibn_Valash ibn_Vayhan
+		ibn_Wushmagir
+
+		# Locative/Toponymic
+		al-Isfahani
+		al-Khurasani
+		al-Marwazi
+		al-Nasafi
+		al-Ramhormuzi
+		al-Shirazi
+		Badghisi Bukhari
+		Dinawari
+		Golpayegani
+		Isfarayini
+		Tusi
 	}
 	male_regal_first_names = {
-		Ahmad
-		Fath_Ali Fereydoun
-		Mahmoud Mohammad Mohammad_Ali Mohammad_Hassan Mozzafer_ed-Din
-		Naser_ed-Din
-		Sultan_Hamid
+		Ardeshir
+		Bahram
+		Dabuyi
+		Hormizd
+		Isfandyadh
+		Khusraw Kaykhusraw Keikavus
+		Mardanshah
+		Quhyar
+		Shahram Shapur Shahriyar 
+		Tiruyih Tahmasp 
+		Vinduyih
+		Yazdegerd
+	}
+	noble_last_names = {
+		Afriduni
+		Bavand al-Bal_ami Bagrevandi Baduspani
+		Chobin
+		Fairuzani
+		Ispahbudan
+		Justani Jayhani
+		Karin
+		Mihran
+		Qarinvand
+		Samani Saffari al-Shirazi Shaykhi
+		Varudavand
+		Ziyari
 	}
 	ethnicities = {
 		1 = arab
