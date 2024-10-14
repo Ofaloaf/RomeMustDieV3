@@ -6254,43 +6254,101 @@
 		region_state:LTC={
 			create_building={
 				building="building_government_administration"
-				level=2
+				add_ownership={
+					country={
+						country="c:LTC"
+						levels=3
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 			create_building={
+				building="building_paper_mills"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:LTC"
+						levels=1
+						region="STATE_POMERANIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" }
+			}
+			create_building={
+				building="building_paper_mills"
+				add_ownership={
+					building={
+						type="building_paper_mills"
+						country="c:LTC"
+						levels=1
+						region="STATE_POMERANIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" }
+			}
+			create_building={
 				building="building_fishing_wharf"
-				level=3
+				add_ownership={
+					building={
+						type="building_fishing_wharf"
+						country="c:LTC"
+						levels=3
+						region="STATE_POMERANIA"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
 			}
 			create_building={
 				building="building_rye_farm"
-				level=1
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:LTC"
+						levels=1
+						region="STATE_POMERANIA"
+					}
+				}
 				reserves=1
 				activate_production_methods={  "pm_soil_enriching_farming" "pm_tools" "pm_potatoes" }
 			}
 			create_building={
 				building="building_livestock_ranch"
-				level=3
+				add_ownership={
+					building={
+						type="building_livestock_ranch"
+						country="c:LTC"
+						levels=3
+						region="STATE_POMERANIA"
+					}
+				}
 				reserves=1
 				activate_production_methods={  "pm_intensive_grazing_ranch" "pm_standard_fences" "pm_unrefrigerated" "pm_slaughterhouses" }
 			}
 			create_building={
 				building="building_logging_camp"
-				level=2
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:LTC"
+						levels=2
+						region="STATE_POMERANIA"
+					}
+				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
-			}		
-			create_building={
-				building="building_military_shipyards"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_military_shipbuilding_wooden_2"  }
-			}
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
+			}	
 			create_building={
 				building="building_port"
-				level=1
+				add_ownership={
+					country={
+						country="c:LTC"
+						levels=2
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
@@ -7142,43 +7200,73 @@
 		region_state:LTC={
 			create_building={
 				building="building_government_administration"
-				level=1
+				add_ownership={
+					country={
+						country="c:LTC"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 			create_building={
 				building="building_construction_sector"
-				level=1
+				add_ownership={
+					country={
+						country="c:LTC"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_iron_frame_buildings" }
 			}	
 			create_building={
 				building="building_furniture_manufacturies"
-				level=1
+				add_ownership={
+					building={
+						type="building_furniture_manufacturies"
+						country="c:LTC"
+						levels=1
+						region="STATE_BRANDENBURG"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_lathe"  "pm_automation_disabled" "pm_luxury_furniture" }
 			}
 			create_building={
-				building="building_glassworks"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_leaded_glass" "pm_manual_glassblowing" "pm_ceramics" }
-			}
-			create_building={
 				building="building_rye_farm"
-				level=5
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:LTC"
+						levels=5
+						region="STATE_BRANDENBURG"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_potatoes" }
 			}
 			create_building={
-				building="building_paper_mills"
-				level=4
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:LTC"
+						levels=2
+						region="STATE_BRANDENBURG"
+					}
+				}
 				reserves=1
-				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" }
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			}
 			create_building={
 				building="building_barracks"
-				level=5
+				add_ownership={
+					country={
+						country="c:LTC"
+						levels=5
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
@@ -8053,19 +8141,38 @@
 		region_state:LTC={
 			create_building={
 				building="building_rye_farm"
-				level=1
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:LTC"
+						levels=1
+						region="STATE_MECKLENBURG"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_no_secondary" }
 			}		
 			create_building={
 				building="building_livestock_ranch"
-				level=1
+				add_ownership={
+					building={
+						type="building_livestock_ranch"
+						country="c:LTC"
+						levels=1
+						region="STATE_MECKLENBURG"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 			create_building={
 				building="building_barracks"
-				level=1
+				add_ownership={
+					country={
+						country="c:LTC"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}			

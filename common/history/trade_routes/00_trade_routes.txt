@@ -1359,7 +1359,7 @@ TRADE_ROUTES = {
 		}		
     }
 
-	# Obotritia
+	# Saxonia
 	c:SXN ?= {	
 		create_trade_route = {
 			goods = clothes
@@ -1391,6 +1391,52 @@ TRADE_ROUTES = {
 			direction = export
 			target = c:GTL.market
 		}			
+    }
+
+	# Luticia
+	c:LTC ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:FIN.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:SXN.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:THR.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 3
+			direction = import
+			target = c:BOH.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 3
+			direction = export
+			target = c:LIT.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = export
+			target = c:LIT.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = export
+			target = c:BOH.market
+		}		
     }
 
 
