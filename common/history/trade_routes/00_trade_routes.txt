@@ -1462,6 +1462,16 @@ TRADE_ROUTES = {
 
     }
 
+	# Langobardia
+	c:RGL ?= {	
+		create_trade_route = {
+			goods = clothes
+			level = 3
+			direction = import
+			target = c:BOH.market
+		}
+    }
+
 
 
 
