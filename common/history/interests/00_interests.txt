@@ -129,6 +129,11 @@
     add_declared_interest = region_baltic
 	}
 
+  # Alamannia
+  c:ALM ?= {
+		add_declared_interest = region_france
+	}
+
 
 
 
