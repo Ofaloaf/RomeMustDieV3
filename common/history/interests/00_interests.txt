@@ -134,6 +134,11 @@
 		add_declared_interest = region_france
 	}
 
+  # Axum
+  c:TGY ?= {
+		add_declared_interest = region_arabia
+	}
+
 
 
 
