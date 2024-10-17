@@ -1472,6 +1472,38 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Mauretania
+	c:MOR ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 3
+			direction = import
+			target = c:WRE.market
+		}
+		create_trade_route = {
+			goods = clothes
+			level = 5
+			direction = export
+			target = c:WRE.market
+		}
+    }
+
+	# Altava
+	c:LTV ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 3
+			direction = import
+			target = c:WRE.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 2
+			direction = export
+			target = c:WRE.market
+		}
+    }
+
 
 
 
