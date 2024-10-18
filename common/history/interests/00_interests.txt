@@ -136,7 +136,14 @@
 
   # Axum
   c:TGY ?= {
-		add_declared_interest = region_arabia
+		add_declared_interest = region_arabic
+	}
+
+  # Egypt
+  c:EGY ?= {
+		add_declared_interest = region_arabic
+    add_declared_interest = region_thracia
+    add_declared_interest = region_anatolia
 	}
 
 

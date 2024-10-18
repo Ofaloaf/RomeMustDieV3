@@ -3,97 +3,210 @@
 		region_state:EGY={
 			create_building={
 				building="building_government_administration"
-				level=7
+				add_ownership={
+					country={
+						country="c:EGY"
+						levels=3
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={
 				building="building_construction_sector"
-				level=3
+				add_ownership={
+					country={
+						country="c:EGY"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
 			}			
 			create_building={
 				building="building_paper_mills"
-				level=3
+				add_ownership={
+					building={
+						type="building_paper_mills"
+						country="c:EGY"
+						levels=1
+						region="STATE_LOWER_EGYPT"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
 			}
 			create_building={
 				building="building_textile_mills"
-				level=3
+				add_ownership={
+					building={
+						type="building_textile_mills"
+						country="c:EGY"
+						levels=6
+						region="STATE_LOWER_EGYPT"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms"  }
 			}
 			create_building={
 				building="building_arms_industry"
-				level=7
+				add_ownership={
+					country={
+						country="c:EGY"
+						levels=2
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_muskets" }
 			}
 			create_building={
 				building="building_shipyards"
-				level=3
+				add_ownership={
+					building={
+						type="building_shipyards"
+						country="c:EGY"
+						levels=1
+						region="STATE_LOWER_EGYPT"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_basic_shipbuilding" }
 			}
 			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:EGY"
+						levels=2
+						region="STATE_LOWER_EGYPT"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+			}
+			create_building={
 				building="building_wheat_farm"
-				level=7
+				add_ownership={
+					building={
+						type="building_wheat_farm"
+						country="c:EGY"
+						levels=7
+						region="STATE_LOWER_EGYPT"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 			}
 			create_building={
 				building="building_livestock_ranch"
-				level=1
+				add_ownership={
+					building={
+						type="building_livestock_ranch"
+						country="c:EGY"
+						levels=1
+						region="STATE_LOWER_EGYPT"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}	
 			create_building={
 				building="building_opium_plantation"
-				level=3
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EGY"
+						levels=3
+						region="STATE_LOWER_EGYPT"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_sugar_plantation"
-				level=4
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EGY"
+						levels=4
+						region="STATE_LOWER_EGYPT"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
-				level=8
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EGY"
+						levels=4
+						region="STATE_LOWER_EGYPT"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" }
 			}			
 			create_building={
 				building="building_cotton_plantation"
-				level=8
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EGY"
+						levels=8
+						region="STATE_LOWER_EGYPT"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_fishing_wharf"
-				level=3
+				add_ownership={
+					building={
+						type="building_fishing_wharf"
+						country="c:EGY"
+						levels=3
+						region="STATE_LOWER_EGYPT"
+					}
+				}
 				reserves=1
 				activate_production_methods={  "pm_unrefrigerated" "pm_fishing_trawlers" }
 			}
 			create_building={
 				building="building_military_shipyards"
-				level=25
+				add_ownership={
+					country={
+						country="c:EGY"
+						levels=1
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_military_shipbuilding_wooden_2"  }
 			}
 			create_building={
 				building="building_barracks"
-				level=40
+				add_ownership={
+					country={
+						country="c:EGY"
+						levels=40
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
 			create_building={
 				building="building_port"
-				level=1
+				add_ownership={
+					country={
+						country="c:EGY"
+						levels=3
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
@@ -114,7 +227,7 @@
 				building="building_wheat_farm"
 				add_ownership={
 					building={
-						type="building_millet_farm"
+						type="building_wheat_farm"
 						country="c:EGY"
 						levels=1
 						region="STATE_UPPER_EGYPT"
@@ -127,7 +240,7 @@
 				building="building_fishing_wharf"
 				add_ownership={
 					building={
-						type="building_millet_farm"
+						type="building_fishing_wharf"
 						country="c:EGY"
 						levels=1
 						region="STATE_UPPER_EGYPT"
@@ -164,41 +277,106 @@
 			}
 		}
 	}
+	# Arcadia
 	s:STATE_MIDDLE_EGYPT={
 		region_state:EGY={
 			create_building={
 				building="building_government_administration"
-				level=2
+				add_ownership={
+					country={
+						country="c:EGY"
+						levels=4
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				add_ownership={
+					building={
+						type="building_tooling_workshops"
+						country="c:EGY"
+						levels=1
+						region="STATE_MIDDLE_EGYPT"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:EGY"
+						levels=2
+						region="STATE_MIDDLE_EGYPT"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
 			}		
 			create_building={
 				building="building_wheat_farm"
-				level=3
+				add_ownership={
+					building={
+						type="building_wheat_farm"
+						country="c:EGY"
+						levels=3
+						region="STATE_MIDDLE_EGYPT"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 			}
 			create_building={
 				building="building_cotton_plantation"
-				level=2
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EGY"
+						levels=3
+						region="STATE_MIDDLE_EGYPT"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_sugar_plantation"
-				level=3
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EGY"
+						levels=3
+						region="STATE_MIDDLE_EGYPT"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
-				level=3
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:EGY"
+						levels=3
+						region="STATE_MIDDLE_EGYPT"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_barracks"
-				level=20
+				add_ownership={
+					country={
+						country="c:EGY"
+						levels=20
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
@@ -227,7 +405,20 @@
 		}
 	}
 	s:STATE_SINAI={
-		region_state:EGY={		
+		region_state:EGY={
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_iron_mine"
+						country="c:EGY"
+						levels=2
+						region="STATE_SINAI"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}		
 		}
 	}
 	s:STATE_ERITREA={
@@ -249,7 +440,7 @@
 				building="building_fishing_wharf"
 				add_ownership={
 					building={
-						type="building_livestock_ranch"
+						type="building_fishing_wharf"
 						country="c:TGR"
 						levels=2
 						region="STATE_ERITREA"
@@ -1146,19 +1337,38 @@
 		region_state:EGY={
 			create_building={
 				building="building_fishing_wharf"
-				level=1
+				add_ownership={
+					building={
+						type="building_fishing_wharf"
+						country="c:EGY"
+						levels=1
+						region="STATE_LIBYA"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=2
+				add_ownership={
+					building={
+						type="building_wheat_farm"
+						country="c:EGY"
+						levels=2
+						region="STATE_LIBYA"
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_citrus_orchards" }
 			}
 			create_building={
 				building="building_barracks"
-				level=6
+				add_ownership={
+					country={
+						country="c:EGY"
+						levels=6
+					}
+				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
