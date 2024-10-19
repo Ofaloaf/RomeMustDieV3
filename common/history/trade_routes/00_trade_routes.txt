@@ -1472,6 +1472,90 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Mauretania
+	c:MOR ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 3
+			direction = import
+			target = c:WRE.market
+		}
+		create_trade_route = {
+			goods = clothes
+			level = 5
+			direction = export
+			target = c:WRE.market
+		}
+    }
+
+	# Altava
+	c:LTV ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 3
+			direction = import
+			target = c:WRE.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 2
+			direction = export
+			target = c:WRE.market
+		}
+    }
+
+	# EGYPT
+	c:EGY ?= {	
+		create_trade_route = {
+			goods = iron
+			level = 2
+			direction = import
+			target = c:WRE.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 3
+			direction = import
+			target = c:ERE.market
+		}
+		create_trade_route = {
+			goods = tobacco
+			level = 3
+			direction = export
+			target = c:WRE.market
+		}
+		create_trade_route = {
+			goods = clothes
+			level = 6
+			direction = export
+			target = c:WRE.market
+		}
+		create_trade_route = {
+			goods = clothes
+			level = 2
+			direction = export
+			target = c:ERE.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 4
+			direction = export
+			target = c:ERE.market
+		}
+		create_trade_route = {
+			goods = furniture
+			level = 4
+			direction = import
+			target = c:BUL.market
+		}
+		create_trade_route = {
+			goods = wood
+			level = 3
+			direction = import
+			target = c:BUL.market
+		}
+    }
+
 
 
 
