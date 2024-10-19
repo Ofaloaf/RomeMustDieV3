@@ -1556,6 +1556,44 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Serbia
+	c:SER ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:BUL.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 3
+			direction = export
+			target = c:BUL.market
+		}
+    }
+
+	# Bulgaria
+	c:BUL ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:UKR.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 5
+			direction = export
+			target = c:WRE.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 2
+			direction = export
+			target = c:HNN.market
+		}
+    }
+
 
 
 

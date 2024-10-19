@@ -146,6 +146,12 @@
     add_declared_interest = region_anatolia
 	}
 
+  # Serbia
+  c:SER ?= {
+    add_declared_interest = region_thracia
+    add_declared_interest = region_danubia
+	}
+
 
 
 
