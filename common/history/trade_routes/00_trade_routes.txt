@@ -1594,6 +1594,35 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Eastern Roman Empire
+	c:ERE ?= {	
+		create_trade_route = {
+			goods = grain
+			level = 8
+			direction = import
+			target = c:CMN.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 3
+			direction = import
+			target = c:LIT.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 4
+			direction = import
+			target = c:WRE.market
+		}
+		create_trade_route = {
+			goods = dye
+			level = 1
+			direction = import
+			target = c:MEX.market
+		}
+
+    }
+
 
 
 
