@@ -1667,7 +1667,15 @@ TRADE_ROUTES = {
 		}
     }
 
-
+	# Osroene
+	c:OSR ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:ERE.market
+		}
+    }
 
 
 
