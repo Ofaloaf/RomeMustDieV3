@@ -4332,7 +4332,7 @@
 				add_ownership={
 					country={
 						country="c:ERE"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1

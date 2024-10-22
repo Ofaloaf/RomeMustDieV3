@@ -1623,6 +1623,50 @@ TRADE_ROUTES = {
 
     }
 
+	# Georgia
+	c:GEO ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:ERE.market
+		}
+		create_trade_route = {
+			goods = clothes
+			level = 2
+			direction = export
+			target = c:ERE.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = import
+			target = c:AZB.market
+		}
+    }
+
+	# Armenia
+	c:ARM ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:ERE.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 3
+			direction = export
+			target = c:ERE.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = import
+			target = c:AZB.market
+		}
+    }
+
 
 
 
