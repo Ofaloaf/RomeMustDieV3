@@ -1677,6 +1677,16 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Oman
+	c:OMA ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:EGY.market
+		}
+    }
+
 
 
 }
