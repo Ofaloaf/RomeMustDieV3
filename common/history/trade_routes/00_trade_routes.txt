@@ -1687,6 +1687,34 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Persia
+	c:PER ?= {	
+		create_trade_route = {
+			goods = tobacco
+			level = 2
+			direction = export
+			target = c:JAV.market
+		}
+		create_trade_route = {
+			goods = tobacco
+			level = 1
+			direction = export
+			target = c:CHO.market
+		}
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 2
+			direction = export
+			target = c:EGY.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = export
+			target = c:JAV.market
+		}
+    }
+
 
 
 }
