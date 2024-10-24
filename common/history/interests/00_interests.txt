@@ -146,6 +146,19 @@
     add_declared_interest = region_anatolia
 	}
 
+  # Serbia
+  c:SER ?= {
+    add_declared_interest = region_thracia
+    add_declared_interest = region_danubia
+	}
+
+  # Eastern Roman Empire
+  c:ERE ?= {
+    add_declared_interest = region_persia
+    add_declared_interest = region_nile_basin
+    add_declared_interest = region_danubia
+	}
+
 
 
 
