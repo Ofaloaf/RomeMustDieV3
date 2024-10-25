@@ -1556,7 +1556,164 @@ TRADE_ROUTES = {
 		}
     }
 
+	# Serbia
+	c:SER ?= {	
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			target = c:BUL.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 3
+			direction = export
+			target = c:BUL.market
+		}
+    }
 
+	# Bulgaria
+	c:BUL ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			target = c:UKR.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 5
+			direction = export
+			target = c:WRE.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 2
+			direction = export
+			target = c:HNN.market
+		}
+    }
+
+	# Eastern Roman Empire
+	c:ERE ?= {	
+		create_trade_route = {
+			goods = grain
+			level = 8
+			direction = import
+			target = c:CMN.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 3
+			direction = import
+			target = c:LIT.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 4
+			direction = import
+			target = c:WRE.market
+		}
+		create_trade_route = {
+			goods = dye
+			level = 1
+			direction = import
+			target = c:MEX.market
+		}
+
+    }
+
+	# Georgia
+	c:GEO ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:ERE.market
+		}
+		create_trade_route = {
+			goods = clothes
+			level = 2
+			direction = export
+			target = c:ERE.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = import
+			target = c:AZB.market
+		}
+    }
+
+	# Armenia
+	c:ARM ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:ERE.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 3
+			direction = export
+			target = c:ERE.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = import
+			target = c:AZB.market
+		}
+    }
+
+	# Osroene
+	c:OSR ?= {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			target = c:ERE.market
+		}
+    }
+
+	# Oman
+	c:OMA ?= {	
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:EGY.market
+		}
+    }
+
+	# Persia
+	c:PER ?= {	
+		create_trade_route = {
+			goods = tobacco
+			level = 2
+			direction = export
+			target = c:JAV.market
+		}
+		create_trade_route = {
+			goods = tobacco
+			level = 1
+			direction = export
+			target = c:CHO.market
+		}
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 2
+			direction = export
+			target = c:EGY.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = export
+			target = c:JAV.market
+		}
+    }
 
 
 
