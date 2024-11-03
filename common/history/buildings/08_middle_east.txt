@@ -645,7 +645,7 @@
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
-						type="building_wheat_farm"
+						type="building_livestock_ranch"
 						country="c:OSR"
 						levels=1
 						region="STATE_DEIR_EZ_ZOR"
