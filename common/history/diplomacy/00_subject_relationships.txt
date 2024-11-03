@@ -60,7 +60,7 @@
 
 		create_diplomatic_pact = {
 			country = c:KAI # kaigai
-			type = dominion
+			type = tributary
 		}
 	}
 	c:MTS = {
@@ -84,7 +84,7 @@
 		create_diplomatic_pact = {
 			# Kutoo Manden
 			country = c:KTM
-			type = dominion
+			type = vassal
 		}
 	}
 	c:KAI = {
@@ -94,23 +94,23 @@
 	c:KNM = {
 		create_diplomatic_pact = {
 			country = c:BEN # Benin
-			type = protectorate
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:ZZZ # Zazzu
-			type = protectorate
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:SOK # Sokoto
-			type = protectorate
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:HAU # Gobir
-			type = protectorate
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:ILR # Ilorin
-			type = protectorate
+			type = tributary
 		}
 	}
 	c:BEN = {
@@ -132,23 +132,23 @@
 	c:IGS = {
 		create_diplomatic_pact = {
 			country = c:JAS # Jaisalmer
-			type = protectorate
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:BIK # Bikaner
-			type = protectorate
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:JAI # Jaipur
-			type = protectorate
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:GWA # Gwalior
-			type = protectorate
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:BUN # Bundelkhand
-			type = protectorate
+			type = tributary
 		}
 	}
 

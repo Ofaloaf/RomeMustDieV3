@@ -45,12 +45,6 @@ TRADE_ROUTES = {
 			target = c:JAV.market
 		}
 		create_trade_route = {
-			goods = luxury_furniture
-			level = 2
-			direction = export
-			target = c:MAL.market
-		}
-		create_trade_route = {
 			goods = porcelain
 			level = 2
 			direction = export
@@ -440,7 +434,7 @@ TRADE_ROUTES = {
 			goods = small_arms
 			level = 1
 			direction = import
-			target = c:SWN.market
+			target = c:FRK.market
 		}
     }
 
@@ -606,7 +600,7 @@ TRADE_ROUTES = {
 			goods = small_arms
 			level = 1
 			direction = import
-			target = c:BUL.market
+			target = c:ERE.market
 		}
 		create_trade_route = {
 			goods = paper

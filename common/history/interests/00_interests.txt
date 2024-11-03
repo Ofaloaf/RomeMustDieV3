@@ -34,11 +34,6 @@
 		add_declared_interest = region_south_china
 	}
 
-  # Johore
-  c:JOH ?= {
-		add_declared_interest = region_indonesia
-	}
-
   # Bolghar
   c:BGR ?= {
 		add_declared_interest = region_west_siberia
@@ -83,6 +78,7 @@
   # Ailech
   c:AIL ?= {
 		add_declared_interest = region_england
+    add_declared_interest = region_france
 	}
   
   # Dumonia
@@ -159,7 +155,10 @@
     add_declared_interest = region_danubia
 	}
 
-
+  # Sunda
+  c:JAV ?= {
+		add_declared_interest = region_indochina
+	}
 
 
 
