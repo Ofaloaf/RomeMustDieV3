@@ -105,6 +105,60 @@
 		add_declared_interest = region_england
 	}
 
+  # Frisia
+  c:FRY ?= {
+		add_declared_interest = region_england
+    add_declared_interest = region_north_germany
+	}
+
+  # Obotritia
+  c:OBT ?= {
+		add_declared_interest = region_poland
+    add_declared_interest = region_baltic
+	}
+
+  # Saxony
+  c:SXN ?= {
+		add_declared_interest = region_poland
+    add_declared_interest = region_baltic
+	}
+
+  # Luticia
+  c:LTC ?= {
+		add_declared_interest = region_poland
+    add_declared_interest = region_baltic
+	}
+
+  # Alamannia
+  c:ALM ?= {
+		add_declared_interest = region_france
+	}
+
+  # Axum
+  c:TGY ?= {
+		add_declared_interest = region_arabic
+	}
+
+  # Egypt
+  c:EGY ?= {
+		add_declared_interest = region_arabic
+    add_declared_interest = region_thracia
+    add_declared_interest = region_anatolia
+	}
+
+  # Serbia
+  c:SER ?= {
+    add_declared_interest = region_thracia
+    add_declared_interest = region_danubia
+	}
+
+  # Eastern Roman Empire
+  c:ERE ?= {
+    add_declared_interest = region_persia
+    add_declared_interest = region_nile_basin
+    add_declared_interest = region_danubia
+	}
+
 
 
 

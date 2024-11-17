@@ -1,6 +1,9 @@
 ﻿COUNTRIES = {
 	c:THR = {
 		effect_starting_technology_tier_3_tech = yes
+
+		add_technology_researched = lathe
+		add_technology_researched = mechanical_tools
 		
 		effect_starting_politics_conservative = yes
 		
