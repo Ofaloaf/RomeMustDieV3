@@ -979,3 +979,11 @@ QTO = { # Quito / Kitu
 		priority = 1
 	}	
 }
+
+KTM = { # Kutoo Manden
+	flag_definition = {
+		coa = KTM
+		subject_canton = KTM
+		priority = 1
+	}	
+}
