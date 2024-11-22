@@ -2,7 +2,7 @@
 	first_name = Tsunanori
 	last_name = Matsudaira
 	historical = yes
-	culture = cu:nikkei_tobujin
+	culture = cu:nikkeijin
 	female = no
 	ig_leader = yes
 	age = 36

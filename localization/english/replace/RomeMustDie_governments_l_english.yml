@@ -1,0 +1,119 @@
+﻿l_english:
+  gov_roman_empire: "Imperium"
+  gov_roman_empire_desc: "Imperial rule has lasted for more than a millenium and a half, and has thus this [concept_government_type] has developed a complex system of powers, rights, and obligations that many find impenetrable.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_IMPERATOR: "Emperor"
+  RULER_TITLE_IMPERATRIX: "Imperatrix"
+  RULER_TITLE_CAESAR: "Caesar"
+  RULER_TITLE_CAESARINA: "Caesarina"
+  #
+  gov_roman_presidential_republic: "Res Publica"
+  gov_roman_presidential_republic_desc: "Harkening back to the republican traditions of antiquity, the Res Publica is a [concept_government_type] attempting to breathe new life into ancient democratic insistutions.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_CONSUL: "Consul"
+  RULER_TITLE_CONSULA: "Consula"
+  #
+  gov_roman_dictatorship: "Dictatorship"
+  gov_roman_dictatorship_desc: "All the complexities of government all eliminated with the simple concept of 'One Man, One Vote'—here is the man, and this is his vote.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_DICTATOR: "Dictator"
+  RULER_TITLE_DICTATRIX: "Dictatrix"
+  #
+  gov_wre_plebeian_dictatorship: "Plebeian Dictatorship"
+  gov_wre_plebeian_dictatorship_desc: "This is a [concept_government_type] where the [concept_country|l] is ruled by plebeian [Concept('concept_ruler','$RULER_DICTATOR$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_wre_plebeian_tribunal: "Plebeian Tribunal"
+  gov_wre_plebeian_tribunal_desc: "This is a [concept_government_type] where the [concept_country|l] is governed by a plebeian council which is [Concept('concept_election','$concept_elected$')|l] by the people through the mechanisms of a dedicated plebeian party.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TRIBUNE: "Tribune"
+  #
+  gov_wre_plebeian_council: "Concilium Plebis"
+  gov_wre_plebeian_council_desc: "This is a [concept_government_type] where the [concept_country|l] is guided by a plebeian assembly [Concept('concept_election','$concept_elected$')|l] directly by the people.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_roman_claimant: "Roman Claimant"
+  gov_roman_claimant_desc: "This [concept_government_type] styles itself as the true government of Rome, and is run by a former Roman ruler who has fled or been driven out of court.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_roman_fragment: "Roman Fragment"
+  gov_roman_fragment_desc: "This [concept_government_type] was founded by a former ruler of Rome out to reclaim their former power, but since their passing this country has lost any pretence of being the true empire.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_roman_kingdom: "Regnum"
+  gov_roman_kingdom_desc: "This [concept_government_type]'s laws and customs owe much to Roman traditions, although indigenous and foreign influences can likely be found.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_REX: "Rex"
+  RULER_TITLE_REGINA: "Regina"
+  #
+  gov_roman_senate: "Senate"
+  gov_roman_senate_desc: "This is a [concept_government_type] where the [concept_country|l] is governed by the venerable Roman institution of the Senate, where [Concept('concept_election','$concept_elected$')|l] senators legislate and direct executive actions to subordinate magistrates.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_SENATOR: "Senator"
+  RULER_TITLE_SENATRIX: "Senatrix"
+  #
+  gov_roman_senate_dictatorship: "Senatorial Dictatorship"
+  gov_roman_senate_dictatorship_desc: "This is a [concept_government_type] where the [concept_country|l] is ruled the venerable Roman institution of the Senate, which has granted immense powers to a [Concept('concept_ruler','Dictator')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_civitas: "Civitas"
+  gov_civitas_desc: "Originating as a fragment of Roman provincial administration, rural or urban, this [concept_government_type] is notionally democratic. The founding territory of this country is generally given primacy in political issues, however.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_MAGISTRATE: "Magistrate"
+  #
+  gov_praetorian_prefecture: "Praetorian Prefecture"
+  gov_praetorian_prefecture_desc: "The largest and highest-ranking division of the Roman Empire, the [Concept('concept_government_type','#italic Praefectura Praetorio#!')] could enjoy significant amounts of autonomy during periods of weak central rule or if special priviliges were granted by Rome.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_PREFECT: "Prefect"
+  #
+  gov_haudenosaunee_confederacy: "Great League of Peace"
+  gov_haudenosaunee_confederacy_desc: "This is a [concept_government_type] where the [concept_country|l] is governed by a democratically-[Concept('concept_election','$concept_elected$')|l] council.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_SACHEM: "Sachem"
+  #
+  gov_haudenosaunee_confederacy_dictatorship: "Great League of Peace"
+  gov_haudenosaunee_confederacy_dictatorship_desc: "This is a [concept_government_type] where the [concept_country|l] is ruled by a council, led by a [Concept('concept_ruler','dictator')] known as the #italic Tadodaho#!.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_TADODAHO: "Tadodaho"
+  #
+  gov_daijo-kan: "Daijo-kan"
+  gov_daijo-kan_desc: "The #italic Daijo-kan#!, or Council of State, is a [concept_government_type] run by an assembly of ministers, entrusted with all facets of administration and governance of the realm.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_DAIJO-DAIJIN: "Daijo-Daijin"
+  #
+  gov_reformed_mayapan: "Reformed League"
+  gov_reformed_mayapann_desc: "The Reformed League of Mayapan attempts to improve on the old confederal system of the original League of Mayapan, with allowances for democratic demands and limitations on the government's powers.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_HALACH_UINIK: "Halach Uinik"
+  RULER_TITLE_IX: "Ix"
+  #
+  gov_reformed_mayapan_dictatorship: "Reformed League"
+  gov_reformed_mayapan_dictatorship_desc: "The Reformed League of Mayapan attempts to improve on the old confederal system of the original League of Mayapan, formally abolishing pretensions of monarchism while still granting immense power to the government.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_restored_mayapan: "Restored League"
+  gov_restored_mayapan_desc: "The Restored League of Mayapan is a confederal [concept_government_type], led by the hereditary rulers of Tutul-Xiu.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_restored_mayapan_absolutist: "Restored League"
+  gov_restored_mayapan_absolutist_desc: "The Restored League of Mayapan is a centralized (Concept('concept_government_type','government')], led by the hereditary rulers of Tutul-Xiu.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_AJAW: "Ajaw"
+  #
+  gov_saxon_confederation: "Saxon Confederation"
+  gov_saxon_confederation_desc: "The Saxon Confederation is a [concept_government_type] that convenes at regular intervals to discuss executive, legislative, and judicial matters, all in one deliberative body.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_HERITOGO: "Heritogo"
+  #
+  gov_government_of_the_palace: "Palace Government"
+  gov_government_of_the_palace_desc: "The Palace Government is a Frankish [concept_government_type] that is centered on the royal household. Affairs of the crown are decided in royal courts and state rooms; even other organs of the state find it necessary to work within the gilded halls of Frankish nobility.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_mayoralty_of_the_palace_presidential: "Palace Mayoralty"
+  gov_mayoralty_of_the_palace_presidential_desc: "This [concept_government_type] has ceded all effective power to the [Concept('concept_ruler','Mayor of the Palace')], a position traditionally of immense prestige.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_MAYOR: "Mayor"
+  #
+  gov_germanic_council: "Germanic Assembly"
+  gov_germanic_council_desc: "The Germanic tradition of holding assemblies where all free people can deliberate and discuss lives on in the modern council, assembly, or #italic Thing#!. Presided over by a speaker entrusted with memorizing and understanding, this [concept_government_type] can be powerful counter to the autocratic tendencies of powerhungry individuals.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_SPEAKER: "Speaker"
+  #
+  gov_sichuanese_court: "Sichuanese Court"
+  gov_sichuanese_court_desc: "The Da Shu dynasty is run by a clique of Sichuanese ministers and bureaucrats who serve the Supreme Emperor.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_royal_patrimony: "Royal Patrimony"
+  gov_royal_patrimony_desc: "The Royal Patrimony is a [concept_government_type] where no distinction is drawn between the personal property of the [concept_ruler] and the property of the [concept_country] and national government.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_colonial_societas_presidential_dictatorial: "Colonial Societas"
+  gov_colonial_societas_presidential_dictatorial_desc: "The Colonial Societas is a colonial [concept_government_type] where a territory is run under the auspices of a trading company, rather than a direct governmental authority.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_SENIOR_PUBLICAN: "Senior Publican"
+  #
+  gov_colonial_societas_presidential_democratic: "Colonial Societas"
+  gov_colonial_societas_presidential_democratic_desc: "The Colonial Societas is a colonial [concept_government_type] where a territory is run under the auspices of a trading company, rather than a direct governmental authority.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_colonial_societas_parliamentary_dictatorial: "Colonial Societas"
+  gov_colonial_societas_parliamentary_dictatorial_desc: "The Colonial Societas is a colonial [concept_government_type] where a territory is run under the auspices of a trading company, rather than a direct governmental authority.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_colonial_societas_parliamentary_democratic: "Colonial Societas"
+  gov_colonial_societas_parliamentary_democratic_desc: "The Colonial Societas is a colonial [concept_government_type] where a territory is run under the auspices of a trading company, rather than a direct governmental authority.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  #
+  gov_jkn_wako_republic: "Wako Republic"
+  gov_jkn_wako_republic_desc: "Founded by bandits, freebooters, and chancers, this government is helmed by a #italic Senchō#!, or Captain, who directs the ship of state and guides it through turbulent times.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  RULER_TITLE_SENCHO: "Senchō"

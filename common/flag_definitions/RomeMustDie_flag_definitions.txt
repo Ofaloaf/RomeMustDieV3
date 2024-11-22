@@ -987,3 +987,43 @@ KTM = { # Kutoo Manden
 		priority = 1
 	}	
 }
+
+HCH = { # Hochelaga
+	flag_definition = {
+		coa = HCH
+		subject_canton = HCH
+		priority = 1
+	}	
+}
+
+SKN = { # Saki-Nip/Saguenay
+	flag_definition = {
+		coa = SKN
+		subject_canton = SKN
+		priority = 1
+	}	
+}
+
+INU = { # Innu Assi
+	flag_definition = {
+		coa = INU
+		subject_canton = INU
+		priority = 1
+	}	
+}
+
+TTN = { # Tirtanel
+	flag_definition = {
+		coa = TTN
+		subject_canton = TTN
+		priority = 1
+	}	
+}
+
+JKN = { # Jiyukuni
+	flag_definition = {
+		coa = JKN
+		subject_canton = JKN
+		priority = 1
+	}	
+}

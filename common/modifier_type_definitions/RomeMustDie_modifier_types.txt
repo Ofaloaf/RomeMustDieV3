@@ -230,7 +230,7 @@ state_ludovician_standard_of_living_add={
 	}
 }
 
-state_nikkei_tobujin_standard_of_living_add={
+state_nikkeijin_standard_of_living_add={
 	decimals=1
 	color=good
 	game_data={

@@ -111,7 +111,7 @@
 				size = 12780
 			}
 			create_pop = {
-				culture = nikkei_tobujin
+				culture = nikkeijin
 				size = 192
 			}
 			create_pop = {
@@ -133,7 +133,7 @@
 	s:STATE_WASHINGTON = {
 		region_state:KAI = {
 			create_pop = {
-				culture = nikkei_tobujin
+				culture = nikkeijin
 				size = 976555
 			}	
 			create_pop = {
@@ -155,7 +155,7 @@
 	s:STATE_OREGON = {
 		region_state:KAI = {
 			create_pop = {
-				culture = nikkei_tobujin
+				culture = nikkeijin
 				size = 104848
 			}			
 			create_pop = {
@@ -1110,7 +1110,7 @@
 	s:STATE_BRITISH_COLUMBIA = {
 		region_state:KAI = {
 			create_pop = {
-				culture = nikkei_tobujin
+				culture = nikkeijin
 				size = 8000
 			}		
 			create_pop = {
@@ -1312,7 +1312,7 @@
 				size = 4000
 			}
 			create_pop = {
-				culture = nikkei_tobujin
+				culture = nikkeijin
 				size = 1004
 			}
 			create_pop = {
@@ -1378,7 +1378,7 @@
 				size = 52000
 			}
 			create_pop = {
-				culture = nikkei_tobujin
+				culture = nikkeijin
 				size = 51996
 			}
 		}
@@ -1400,7 +1400,7 @@
 	s:STATE_SONORA = {
 		region_state:JKN = {
 			create_pop = {
-				culture = nikkei_tobujin
+				culture = nikkeijin
 				size = 49087
 			}
 			create_pop = {
@@ -1472,7 +1472,7 @@
 	s:STATE_SINALOA = {
 		region_state:JKN = {
 			create_pop = {
-				culture = nikkei_tobujin
+				culture = nikkeijin
 				size = 33841
 			}
 			create_pop = {
@@ -1630,7 +1630,7 @@
 	s:STATE_BAJA_CALIFORNIA = {
 		region_state:JKN = {
 			create_pop = {
-				culture = nikkei_tobujin
+				culture = nikkeijin
 				size = 58264
 			}
 			create_pop = {

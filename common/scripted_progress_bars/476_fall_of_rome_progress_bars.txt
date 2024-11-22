@@ -1,0 +1,121 @@
+﻿ fall_of_rome_towards_collapse = {
+	name = "divided_monarchists_bonapartist_progress_bar"
+	desc = "divided_monarchists_bonapartist_progress_bar_desc"
+
+	default = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				taking_loans = yes
+			}
+			add = {
+				desc = "bonapartist_progress_from_characters"
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				any_civil_war = {
+					is_civil_war_type = revolution
+				}
+			}
+			add = {
+				desc = "bonapartist_progress_from_characters"
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				exists = c:WRE
+				exists = c:ERE
+				OR = {
+					AND = {
+						c:WRE = this
+						c:ERE = { has_war_with = root }
+					}
+					AND = {
+						c:ERE = this
+						c:WRE = { has_war_with = root }
+					}
+				}
+			}
+			add = {
+				desc = "bonapartist_progress_from_characters"
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				any_interest_group = {
+					is_in_government = yes
+					leader = {
+						culture = {
+							NOR = {
+								has_discrimination_trait = latin_culture_group
+								cu:greek = this
+							}
+						}
+					}
+				}
+			}
+			add = {
+				desc = "bonapartist_progress_from_characters"
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				any_scope_character = {
+					is_ruler = yes
+					culture = {
+						NOR = {
+							has_discrimination_trait = latin_culture_group
+							cu:greek = this
+						}
+					}
+				}
+			}
+			add = {
+				desc = "bonapartist_progress_from_characters"
+				value = 1
+			}
+		}
+	}
+
+	start_value = 10
+	min_value = 0
+	max_value = 360
+
+}
+
+ fall_of_rome_towards_reform = {
+	name = "divided_monarchists_bonapartist_progress_bar"
+	desc = "divided_monarchists_bonapartist_progress_bar_desc"
+
+	default = yes
+
+	monthly_progress = {
+		if = {
+			limit = {
+				any_scope_character = {
+					is_ruler = yes
+					culture = {
+						NOR = {
+							has_discrimination_trait = latin_culture_group
+							cu:greek = this
+						}
+					}
+				}
+			}
+			add = {
+				desc = "bonapartist_progress_from_characters"
+				value = 1
+			}
+		}
+	}
+
+	start_value = 10
+	min_value = 0
+	max_value = 360
+}

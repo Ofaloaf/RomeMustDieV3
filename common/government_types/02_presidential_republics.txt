@@ -1,4 +1,22 @@
-﻿gov_roman_presidential_republic = {
+﻿gov_jkn_wako_republic = {
+	transfer_of_power = presidential_elective
+	new_leader_on_reform_government = yes
+
+	male_ruler = "RULER_TITLE_SENCHO"
+	female_ruler = "RULER_TITLE_SENCHO"
+	
+	possible = {
+		has_law = law_type:law_presidential_republic
+		country_has_voting_franchise = yes
+		c:JKN ?= this
+	}
+
+	on_government_type_change = {
+		change_to_presidential_elective = yes
+	}
+}
+
+gov_roman_presidential_republic = {
 	transfer_of_power = presidential_elective
 	new_leader_on_reform_government = yes
 

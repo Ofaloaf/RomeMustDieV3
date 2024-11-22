@@ -3001,8 +3001,8 @@ do_risorgimento_math = {
 		limit = {
 			state_region = {
 				OR = {
-					is_homeland = cu:north_italian
-					is_homeland = cu:south_italian
+					is_homeland = cu:brithenig
+					is_homeland = cu:welsh
 				}
 			}
 		}

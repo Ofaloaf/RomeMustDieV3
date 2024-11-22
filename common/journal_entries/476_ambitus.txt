@@ -197,9 +197,6 @@
 	}
 
 	fail = {
-		ig:ig_armed_forces = {
-			is_in_government = yes
-		}
 		custom_tooltip = {
 			text = je_caudillo_goal_tt
 			scope:journal_entry = {

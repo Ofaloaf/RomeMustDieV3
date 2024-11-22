@@ -497,23 +497,8 @@ arabic_clothes_trigger = {
 					has_discrimination_trait = central_asian_heritage #Currently no point having a different check
 				}
 			}
+			culture = cu:swahili
 			culture = cu:circassian
-			AND = { # Albanian characters serving either the Ottomans or Egyptians should wear that country's clothing.
-				culture = cu:albanian
-				exists = home_country
-				OR = {
-					home_country = {
-						exists = c:TUR
-						c:TUR = this
-						c:TUR = { has_law = law_type:law_monarchy }
-					}
-					home_country = {
-						exists = c:EGY
-						c:EGY = this
-						c:EGY = { has_law = law_type:law_monarchy }
-					}
-				}
-			}
 		}
 	}        
 }

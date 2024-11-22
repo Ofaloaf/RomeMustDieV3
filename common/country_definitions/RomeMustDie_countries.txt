@@ -817,7 +817,7 @@ KAI = { # Kaigai
 
 	tier = kingdom	
 	
-	cultures = { nikkei_tobujin }
+	cultures = { nikkeijin }
 	capital = STATE_OREGON
 }
 
@@ -828,7 +828,7 @@ JKN = { # Jiyu kuni, literally just "Free State". it's wokou pirates
 
 	tier = principality	
 	
-	cultures = { nikkei_tobujin }
+	cultures = { nikkeijin }
 	capital = STATE_BAJA_CALIFORNIA
 }
 

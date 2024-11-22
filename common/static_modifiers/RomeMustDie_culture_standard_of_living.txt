@@ -288,14 +288,14 @@ ludovician_standard_of_living_modifier_negative = {
 	state_ludovician_standard_of_living_add = 1
 }
 
-nikkei_tobujin_standard_of_living_modifier_positive = {
+nikkeijin_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_nikkei_tobujin_standard_of_living_add = 1
+	state_nikkeijin_standard_of_living_add = 1
 }
 
-nikkei_tobujin_standard_of_living_modifier_negative = {
+nikkeijin_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_nikkei_tobujin_standard_of_living_add = 1
+	state_nikkeijin_standard_of_living_add = 1
 }
 
 bulgar_standard_of_living_modifier_positive = {

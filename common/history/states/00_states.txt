@@ -259,7 +259,7 @@ STATES = {
 			}
 		}
 		
-		add_homeland = cu:nikkei_tobujin
+		add_homeland = cu:nikkeijin
 		add_homeland = cu:nez_perce
 		add_homeland = cu:salish
 		add_claim = c:KAI
@@ -280,7 +280,7 @@ STATES = {
 		
 		add_homeland = cu:salish
 		add_homeland = cu:nez_perce
-		add_homeland = cu:nikkei_tobujin
+		add_homeland = cu:nikkeijin
 		add_claim = c:KAI
 	}
 	s:STATE_IDAHO = {
@@ -2186,7 +2186,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:hokan
-		add_homeland = cu:nikkei_tobujin
+		add_homeland = cu:nikkeijin
 		add_claim = c:KAI
 	}
 	s:STATE_SONORA = {
@@ -2197,7 +2197,7 @@ STATES = {
 			}
 		}
 		
-		add_homeland = cu:nikkei_tobujin
+		add_homeland = cu:nikkeijin
 		add_homeland = cu:oodham
 	}
 	s:STATE_CHIHUAHUA = {
@@ -2253,7 +2253,7 @@ STATES = {
 			}
 		}
 		
-		add_homeland = cu:nikkei_tobujin
+		add_homeland = cu:nikkeijin
 	}
 	s:STATE_BAJIO = {
 		create_state = {
@@ -7659,7 +7659,7 @@ STATES = {
 			}
 		}
 		
-		add_homeland = cu:nikkei_tobujin
+		add_homeland = cu:nikkeijin
 		add_homeland = cu:oodham
 	}
 	s:STATE_CONNAUGHT = {
