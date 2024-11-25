@@ -56,11 +56,11 @@
 		Grumentense Genusiense Grumense Gallerani Gorini Grizi Gesio Germia
 		Iguviense Igneo Istoniense Iacopi Iohanni Iohanello
 		Laviniense Luceriense Larinense Luti Lapi Lupicini Lorentiano Lepori
-		Mediolanense Minerviense Marini Marsili Micheli Martini Messala Mosca Morisi
+		Mediolanense Minerviense Marini Marsili Micheli Martini Messala Mosca Morisi Martinoli
 		Nepolitano Novariense Nequinense Natiolense Nuceriense Narniense Nerini Neroni Niceforiano Nicostrato
 		Ostiense Ortense
 		Pisano Populoniense Potentiense Placentiense Pisaurense Pinnense Prifernense Plestiense Paganelli Petri Ponci Pratesi Prosperi Postumiano Paterio
-		Ravennense Ruffo Rocchi Rustichelli Rustichi Romiti Rusticio Ragano
+		Ravennense Ruffo Rocchi Rustichelli Rustichi Romiti Rusticio Ragano Rho
 		Sutriense Sepinense Sarsinense Spoletiense Silviense Scala Salicetense Salomoni Sorense Salvaterra Siminetti Stefani Salvucci Sottio
 		Telesiense Turense Trebense Taddei Toscanelli Tanchasia Tantuci Tornaquinci Tovaglia Tesauro Todaro
 		Uzentense
@@ -2948,6 +2948,131 @@ rromani = {
 	ethnicities = {
 		1 = arab
 		2 = south_american
+		2 = caucasian
+		1 = slavic
+	}
+	graphics = european
+}
+
+romankim={ 
+	# 'Roman Jews' — playing off 'Italkim,' which took medieval 'Italicus', turned it into Hebrew 'Italki', and then produced 'Italkim' as the plural form. 'Romanicus' -> 'Romanki' -> 'Romankim' (pl.)
+	# As Romans here are vulgarized and halfway Italian, Romankim is halfway between Latin and Italian influences and so contains both
+	
+	color= hsv{ 0.13 0.80 0.99 }
+	religion = jewish
+	traits = { jewish_group european_heritage } 
+
+	male_common_first_names={
+		Amos Abramo Amittai Ahimaaz Aronne Amadeo Aemilius Achille Azriel Asher Avigdor Azaria Andreas Ariston Akabia Abtalion Ananus Alexander
+		Beniamin Bongiulo Babeli
+		Caius Crescas Caiaphas
+		David Donatus
+		Eliseo Esdra Efraim Eliyahuenyi Epes
+		Faustus
+		Gabriel Geremia Gamaliel
+		Hillel Hadrianus Hyrcanus
+		Immanuel Isaiah Isaac Iason Irenaeus Isodorus Ionathan Ioses Iacobus
+		Jehudah Jequtiel
+		Kalonymus
+		Lucas Lucianus Lupillo Laurentius Leontius
+		Mordecai Moses Mattathiah Marcianus Marius Marcellus Mazliah
+		Nicandro Natronai
+		Obadja Orestes
+		Paltiel Paulus Petrus Paregorio Ptolemaeus Phannias
+		Rufus
+		Sabbatai Samuel Simcha Salomone Shefatiah Sabatino Serafino Samson Sadoq Saul Symmachus
+		Todros Tobiah
+		Uriel 
+		Vinellas
+		Yonah Yiriam
+		Zedekiah Zerachiah Zenon
+	}
+	female_common_first_names = {
+		Afdera Aemilia Aurelia Amelia Antonia Anna Alexandra Ammias
+		Barbara Bonossea Bensivenuta Babatha Besula Berenice
+		Caterina Clementina Clelia
+		Diamente Daria Dina Donnola Dulcitia Daphne
+		Eugenia Ester Eufraxia
+		Florella Flaminia Felicissima Flavia
+		Gabriella Gemellina
+		Hermione
+		Iulia Iusta
+		Leona Laura Lucia Luciana Livola Lucina
+		Miriam Marcia Martina Maria
+		Octavia
+		Philomenia Petronia Prima
+		Margherita
+		Quintiana
+		Rachele Rossana Rosina Rufina Rebecca
+		Sara Sofia Secunda Sophronia
+		Ursula
+		Virtudosa
+		Zenodora
+	}	
+	noble_last_names = {
+		Adolescenti Anaw Aurelius
+		Curiel Claudius Callinicus
+		Eugenius
+		Flavius Fabius Florentius Ferragius
+		Gaon
+		Honoratus
+		Israel Iulius Iosephus Iulianus Iahudanus
+		Jacchia
+		Luzzatto Levi Lupo Lukuas
+		Mungus Maximus
+		Nissim Naphtali
+		Petrus_Leonis Pontremoli Patricius Pappus Pompeius
+		Sforno Severus
+		Tourossius
+		Vernaclus
+		ben_Ananus
+		ben_Boethus
+		ben_Camithus ben_Caiaphas ben_Camydus
+		ben_Fabus
+		ben_Gamla
+		ben_Nedebeus
+		ben_Seth ben_Simon ben_Samuel
+		ben_Theophilus
+	}
+	common_last_names={
+		Abulafia Aelianus  Accoen Azulai Attias Assaban Aboab Acharon Azariah Aiello Abundantius Azriello Amno Accimatore Anuba Abbottego Abdon Anconanus Adamantius Armentarius Abtolemus Antigonus Abubus Aper Athenion Anastasius Astruguetus Anzelinus
+		Bedersi Bassani Bedarida Bolaffio Bigiavi Benvenuto Borodo Bonomo Babalul Babbo Benziano Bises Balbo Barianus Beianus Bondia
+		Caslari Cantarini Curiel Castello Cassuto Corcos Calimani Colombo Cassuto Calvus Carucci Cipriani Caepio Cerusi Calamani Censci Cammeo Copia Callinicus Constantinus Cantatheras Caelius Catricius Clodius Calandio
+		Davi Diena Donati Donnolo Ducci Damneus Dativus Daphnus Deuterus Diophatas
+		Ergas Efrati Egri Errera Eugenio Eucardio Eurydemus Euphrenon Eulogus Eugraphius Euphrasius Eutychianus
+		Fiametta Finzi Faldini Fanno Fano Ferrarius Fiano Fini Finzi Florentini Flavius Fortis Fubini Fabius Fresca Fallone Falpano Ferragius Faustinus Felicianus Fofotis
+		Ghirondi Graziado Gerondi Gallico Gangi Gattegna Genero Gentili Gerbi Ghiron Gratianus Garti Goioso Genuanus Genialis Galasius
+		Hagiz Hasda Havli Haabadiq Ha-Haver Hadassi Helles Hermogenes Himerus
+		Infosso Iocathinus
+		Jacchia Jesi Jori Jona Janni
+		Kalfo Kimhi Ketushyon
+		Levi Laras Lampronti Lelio Lanternari Limentani Loria Leridi Lattonero Lazarus Longus Lavarinzi
+		Mossoni Modigliani Montefiore Morais Morpurgo Montefoscoli Mortara Martinoli Malvano Marcheria Mieli Minerbi Mitridate Modiano Montalto Miscian Mashajjeri Menahem Marichan Muggia Maevius Mannacius Macedonius Meander Mniaseas Maleti Maymonus
+		Nieto Nepi Nissim Nahmias Natronai Naphtali Notus Nicetas Numenius
+		Olivetti Oppidano Orefice Omron Ostianus Onkelos Oclatius Orstorius Olympius
+		Panzieri Pacifici Pagani Paramithiotti Pascarolo Pincherle Passapaire Piccio Piattelli Pisanus Petronius Plotius Priscianus Probus Proclus Pancharius Pancratius Paregorius Procopius
+		Quintianus Quirinus
+		Romano Reggio Recanati Rovigo Ricchi Ravenna RavA_ Romoli Romanin Reginus Rhodion
+		Sarfati Saraval Sasportas Sanguineti Sacerdote Soria Supino Sulpicio Saadya Sciachi Sciunnach Spizzichino Sperandio Sidis Sullam Salvius Sicilius Sossianus Simplicius Sinicerius Salpingius Stephanus Straton Salamis
+		Terni Treves Turano Trigo Tseda Telesinus Tychius Tyllius Tullianus Touroci
+		Uzielli Uziel Ursacius
+		Vita Volterra Viterbi Vighi Vernaclus Verecundus Vitalio
+		Zifroni Zacuto Zolli Zadich Zappone Zarfati Zamat Zortasius Zabuttas Zarchus
+		ben_Abraham ben_Anan ben_Abatoli
+		ben_Cushiel
+		ben_David
+		ben_Eliakim ben_Elhanan
+		ben_Hananel ben_Hushiel ben_Hurcanus
+		ben_Jehiel ben_Judah ben_Jeroham
+		ben_Menasseh
+		bar_Natan
+		ben_Paltiel
+		ben_Shefatiah ben_Samuel ben_Seth
+		ben_Todros
+		ben_Zakkai ben_Zadok
+	}
+	ethnicities = {
+		1 = south_american
 		2 = caucasian
 		1 = slavic
 	}
