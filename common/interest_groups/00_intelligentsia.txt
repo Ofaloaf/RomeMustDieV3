@@ -10,6 +10,16 @@
 		ideology_republican
 		ideology_anti_slavery
 	}
+	
+	character_ideologies = {
+		ideology_moderate
+		ideology_republican_leader
+		ideology_radical
+		ideology_reformer
+		ideology_sovereignist_leader
+		ideology_despotic_utopian
+		ideology_humanitarian
+	}
 
 	enable = {
 		always = yes
@@ -36,27 +46,18 @@
 				limit = {
 					owner = { 
 						OR = { 
-							c:TUR ?= this
-							c:RUS ?= this
+							c:WRE ?= this
+							c:ERE ?= this
 						}
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_crisis_of_identity
-				set_ig_trait = ig_trait:ig_trait_avant_garde
+				set_ig_trait = ig_trait:ig_trait_civil_service
 				set_ig_trait = ig_trait:ig_trait_propagandists
 			}
 			else_if = {
 				limit = {
-					has_dlc_feature = voice_of_the_people_content
-					owner = { c:FRA ?= this }
-				}
-				set_ig_trait = ig_trait:ig_trait_social_criticism
-				set_ig_trait = ig_trait:ig_trait_avant_garde
-				set_ig_trait = ig_trait:ig_trait_les_beaux_arts
-			}
-			else_if = {
-				limit = {
-					#has_dlc_feature = ip2_content
+					has_dlc_feature = ip2_content
 					owner = { c:BIC ?= this }
 				}
 				set_ig_trait = ig_trait:ig_trait_swaraj
@@ -70,13 +71,19 @@
 			}
 		}
 		
-		# Papal Intellegentsia
+		# Roman Intellegentsia
 		if = {
 			limit = {
-				c:PAP ?= this
+				OR = {
+					c:ERE ?= this
+					c:POW ?= this
+					any_primary_culture = {
+						has_discrimination_trait = romance_speaker
+					}
+				}
 			}
 			ig:ig_intelligentsia = {
-				remove_ideology = ideology_anti_clerical
+				set_interest_group_name = ig_intellegentiae
 			}
 		}
 		# Hawaiian Democrats
@@ -158,6 +165,19 @@
 		}
 	}
 	on_disable = {}
+	priority_cultures = { #Country scope
+		rule = {
+			trigger = {
+				c:BIC ?= this
+				any_primary_culture = { 
+					cu:british = this
+				}
+			}
+			cultures = {
+				assamese avadhi baluchi bengali bihari gujarati kannada malayalam marathi oriya panjabi pathan rajput sindi tamil telegu hindustani bundeli pahari gondi bageli chhattisgarhi deccani
+			}
+		}
+	}
 	on_character_ig_membership = {}
 
 	pop_potential = {
@@ -250,19 +270,41 @@
 				owner = {
 					c:BIC ?= this
 				}
-				NOT = {
-					culture = {
-						has_discrimination_trait = european_heritage
-					}
-				}
 				OR = {
 					is_pop_type = bureaucrats
 					is_pop_type = clerks
 				}
 			}
-			multiply = {
-				desc = "POP_INDIA_CIVIL_SERVICE"
-				value = 1.5
+			if = {
+				limit = {
+					culture = {
+						has_discrimination_trait = european_heritage
+					}
+				}
+				multiply = {
+					desc = "POP_INDIA_COLONIAL_RULE"
+					value = 0.25
+				}
+			}
+			else = {
+				multiply = {
+					desc = "POP_INDIA_CIVIL_SERVICE"
+					value = 1.5
+				}
+			}
+		}
+		
+		add = {
+			desc = "POP_MILITARY_BUREAUCRACY"
+			if = {
+				limit = {
+					is_pop_type = bureaucrats
+					owner = {
+						c:ALK ?= this
+						has_government_type = gov_chartered_company
+					}
+				}
+				multiply = 0.25
 			}
 		}
 		
@@ -488,15 +530,6 @@
 	# scope:character is the most popular commander in the IG
 	commander_leader_chance = {
 		value = 0.25
-		if = {
-			limit = {
-				exists = scope:character
-			}
-			multiply = {
-				value = 1
-				add = scope:character.popularity
-				min = 0
-			}
-		}
+		multiply = ig_commander_leader_chance_mult
 	}
 }

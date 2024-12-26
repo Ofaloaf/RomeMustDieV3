@@ -1,0 +1,39 @@
+﻿# All dynamic names should be applied on a strategic region level for ease of use and to avoid overlapping script
+assign_state_hub_dynamic_names = {
+
+	### Europe ###
+	if = {
+        limit = {
+        	region = sr:region_italy
+        }
+        assign_state_name_region_italy = yes
+    }
+	if = {
+        limit = {
+        	region = sr:region_thracia
+        }
+        assign_state_name_region_thracia = yes
+    }
+	if = {
+        limit = {
+        	region = sr:region_balkans
+        }
+        assign_state_name_region_balkans = yes
+    }
+
+    ### Africa ###
+	if = {
+        limit = {
+        	region = sr:region_north_africa
+        }
+        assign_state_name_region_north_africa = yes
+    }
+
+    ### Americas ###
+	if = {
+        limit = {
+        	region = sr:region_new_england
+        }
+        assign_state_name_region_new_england = yes
+    }
+}

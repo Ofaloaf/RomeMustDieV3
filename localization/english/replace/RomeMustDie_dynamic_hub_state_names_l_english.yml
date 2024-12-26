@@ -36,3 +36,25 @@
   HUB_NAME_STATE_ALBANIA_city_vulgar_latin: "Tirana" # Tirana
   HUB_NAME_STATE_ALBANIA_port_vulgar_latin: "Dyrratio"
   HUB_NAME_STATE_ALBANIA_farm_vulgar_latin: "Valona" # Vlorë
+  HUB_NAME_STATE_ALBANIA_wood_vulgar_latin: "Pulcheriopoli" # Berat
+
+  ### Eastern Thrace/Europa
+  STATE_EASTERN_THRACE_sclaveni: "Evropa"
+  HUB_NAME_STATE_EASTERN_THRACE_city_sclaveni: "Tsarigrad"
+  HUB_NAME_STATE_EASTERN_THRACE_port_sclaveni: "Kalipol" # Gelibolu, Callipoli
+  HUB_NAME_STATE_EASTERN_THRACE_mine_sclaveni: "Lòzengrad" # Kırklareli
+  HUB_NAME_STATE_EASTERN_THRACE_farm_sclaveni: "Odrin"     # Adrianople, Edirne
+  HUB_NAME_STATE_EASTERN_THRACE_wood_sclaveni: "Midiya" # Midye
+
+  ### Tunisia/Africa
+  STATE_TUNISIA_africanu: "Àfrica"
+  HUB_NAME_STATE_TUNISIA_city_africanu: "Cartàgine"
+  HUB_NAME_STATE_TUNISIA_farm_africanu: "Tacapis"
+
+  ### STATE_NEW_JERSEY/Lënapehòkink
+  STATE_NEW_JERSEY_latin: "Lenappia" # Lenape Land.
+  HUB_NAME_STATE_NEW_JERSEY_city_latin: "Shacamacum" # Philadelphia
+  HUB_NAME_STATE_NEW_JERSEY_farm_latin: "Cohansincum" # Bridgeton
+  HUB_NAME_STATE_NEW_JERSEY_port_latin: "Hupocum" # Hoboken
+  HUB_NAME_STATE_NEW_JERSEY_mine_latin: "Ramaponum" # Ramapough
+  HUB_NAME_STATE_NEW_JERSEY_wood_latin: "Mantoloci" # Mantoloking

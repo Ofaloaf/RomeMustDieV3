@@ -9,6 +9,10 @@
 		ideology_loyalist
 		ideology_patriotic
 	}
+	
+	character_ideologies = {
+		ideology_moderate
+	}
 
 	enable = {
 		always = yes
@@ -33,13 +37,36 @@
 				set_ig_trait = ig_trait:ig_trait_self_strengthening
 				set_ig_trait = ig_trait:ig_trait_parochial_leadership
 			}
+			else_if = {
+				limit = {
+					owner = {
+						c:PAN ?= this
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_materiel_waste
+				set_ig_trait = ig_trait:ig_trait_khalsa
+				set_ig_trait = ig_trait:ig_trait_patriotic_fervor
+			}
+			else_if = {
+				limit = {
+					owner = {
+						OR = {
+							c:WRE ?= this
+							c:ERE ?= this
+						}
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_materiel_waste
+				set_ig_trait = ig_trait:ig_trait_imperial_service
+				set_ig_trait = ig_trait:ig_trait_patriotic_fervor
+			}
 			else = {
 				set_ig_trait = ig_trait:ig_trait_materiel_waste
 				set_ig_trait = ig_trait:ig_trait_veteran_consultation
 				set_ig_trait = ig_trait:ig_trait_patriotic_fervor
 			}
 		}
-
+		
 		# Samurai
 		if = {
 			limit = {
@@ -51,38 +78,99 @@
 				set_interest_group_name = ig_samurai
 			}
 		}
+		
+		# Sikh Empire
 		else_if = {
 			limit = {
-				OR = {
-					c:WRE ?= this
-					c:ERE ?= this
-				}
+				c:PAN ?= this
 			}
-			ig:ig_armed_forces = {				
+			ig:ig_armed_forces = {
+				set_interest_group_name = ig_khalsaji
+				remove_ideology = ideology_jingoist
+				add_ideology = ideology_sikh_militancy
+			}
+		}
+		
+		else_if = {
+			limit = {
+				c:WRE ?= this
+			}
+			ig:ig_armed_forces = {
+				set_interest_group_name = ig_milites
+				
+				remove_ideology = ideology_jingoist
+				add_ideology = ideology_foederati
 				remove_ideology = ideology_patriotic
 				add_ideology = ideology_praetorian
 			}
-		}
-		if = {
+		}		
+		
+		else_if = {
 			limit = {
-				any_primary_culture = {
-					has_discrimination_trait = latin_culture_group
+				OR = {
+					c:ERE ?= this
+					AND = {
+						any_primary_culture = {
+							has_discrimination_trait = romance_speaker
+						}
+						OR = {
+							country_tier = empire
+							country_tier = hegemon
+						}
+					}
 				}
 			}
-			ig:ig_armed_forces = {	
+			ig:ig_armed_forces = {
+				set_interest_group_name = ig_milites
+				
+				remove_ideology = ideology_patriotic
+				add_ideology = ideology_praetorian
+			}
+		}		
+		else_if = {
+			limit = {
+				any_primary_culture = {
+					has_discrimination_trait = romance_speaker
+				}
+				NOR = {
+					country_tier = empire
+					country_tier = hegemon
+				}
+			}
+			ig:ig_armed_forces = {
 				set_interest_group_name = ig_milites
 			}
 		}
 	}
 	on_disable = {}
-	on_character_ig_membership = {}
 
+	priority_cultures = { #Country scope
+		rule = {
+			trigger = {
+				c:WRE ?= this
+			}
+			cultures = {
+				suebian frankish thuringian burgundian alemannic
+			}
+		}
+		rule = {
+			trigger = {
+				c:ERE ?= this
+			}
+			cultures = {
+				armenian assyrian sclaveni greek
+			}
+		}
+	}
+
+	on_character_ig_membership = {}
+	
 	pop_potential = {
 		OR = {
 			is_pop_type = soldiers
 			is_pop_type = officers
 			is_pop_type = aristocrats
-			pop_is_discriminated = no
+			pop_acceptance >= acceptance_status_4
 		}
 	}
 
@@ -93,7 +181,7 @@
 			desc = "POP_NOT_DISCRIMINATED"
 			if = {
 				limit = {
-					pop_is_discriminated = no
+					pop_acceptance >= acceptance_status_4
 				}
 				value = 25
 				if = { # Militarisation of colonial settlers
@@ -186,7 +274,15 @@
 				limit = {
 					is_pop_type = aristocrats
 				}
-				value = 50
+				value = 10
+				if = {
+					limit = {
+						owner = {
+							has_modifier = age_of_caudillos_modifier
+						}
+					}
+					add = 25
+				}
 				if = {
 					limit = {
 						owner = {
@@ -195,6 +291,17 @@
 					}
 					add = 50
 				}
+			}
+		}
+		
+		add = {
+			desc = "SIKH_MILITANCY"
+			if = {
+				limit = {
+					is_pop_type = aristocrats
+					religion = rel:sikh
+				}
+				add = 100
 			}
 		}
 
@@ -227,10 +334,24 @@
 				}
 				if = {
 					limit = {
-						strata = rich
+						strata = upper
 					}
 					value = 150
 				}
+			}
+		}
+		
+		add = {
+			desc = "POP_MILITARY_BUREAUCRACY"
+			if = {
+				limit = {
+					is_pop_type = bureaucrats
+					owner = {
+						c:ALK ?= this
+						has_government_type = gov_chartered_company
+					}
+				}
+				value = 100
 			}
 		}
 
@@ -428,15 +549,6 @@
 	# scope:character is the most popular commander in the IG
 	commander_leader_chance = {
 		value = 0.75
-		if = {
-			limit = {
-				exists = scope:character
-			}
-			multiply = {
-				value = 1
-				add = scope:character.popularity
-				min = 0
-			}
-		}
+		multiply = ig_commander_leader_chance_mult
 	}
 }

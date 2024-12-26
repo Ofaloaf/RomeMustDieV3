@@ -1461,27 +1461,22 @@ government_ig_supports_enaction = {
 }
 
 movement_supports_enaction = {
+	exists = currently_enacting_law
 	any_political_movement = {
-		OR = {	
-			is_political_movement_type = movement_to_enact
-			is_political_movement_type = movement_to_restore	
-		}
-		desired_law = root.currently_enacting_law.type
+		law_enactment_stance = {
+			law = owner.currently_enacting_law.type
+			value > neutral
+		}	
 	}
 }
 
 agitator_supports_enaction = {
+	exists = currently_enacting_law
 	any_scope_character = {
 		has_role = agitator
-		law_stance = {
+		law_enactment_stance = {
 			law = owner.currently_enacting_law.type
 			value > neutral
-		}
-		NOT = {
-			law_stance = {
-				law = owner.currently_enacting_law.type
-				value > strongly_approve # Equals 'count'
-			}
 		}
 	}
 }
@@ -1490,7 +1485,7 @@ government_ig_opposes_enaction = {
 	any_interest_group = {
 		is_marginal = no
 		is_in_government = yes
-		law_stance = {
+		law_enactment_stance = {
 			law = owner.currently_enacting_law.type
 			value < neutral
 		}
@@ -1498,23 +1493,21 @@ government_ig_opposes_enaction = {
 }
 
 movement_opposes_enaction = {
+	exists = currently_enacting_law
 	any_political_movement = {
-		is_political_movement_type = movement_to_preserve
+		law_enactment_stance = {
+			law = owner.currently_enacting_law.type
+			value < neutral
+		}	
 	}
 }
 
 agitator_opposes_enaction = {
 	any_scope_character = {
 		has_role = agitator
-		law_stance = {
+		law_enactment_stance = {
 			law = owner.currently_enacting_law.type
 			value < neutral
-		}
-		NOT = {
-			law_stance = {
-				law = owner.currently_enacting_law.type
-				value > strongly_approve # Equals 'count'
-			}
 		}
 	}
 }
@@ -1523,12 +1516,13 @@ government_ig_ambivalent_enaction = {
 	any_interest_group = {
 		is_marginal = no
 		is_in_government = yes
-		law_stance = {
+		law_enactment_stance = {
 			law = owner.currently_enacting_law.type
 			value = neutral
 		}
 	}
 }
+
 ig_is_dreyfusard = {
 	OR = {
 		is_interest_group_type = ig_intelligentsia

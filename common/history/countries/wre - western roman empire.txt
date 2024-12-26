@@ -28,29 +28,9 @@
 		
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
-			set_interest_group_name = ig_senatores
 		}
 		ig:ig_devout = {
 			add_ruling_interest_group = yes
-			set_interest_group_name = ig_devotos
-		}
-		
-		ig:ig_armed_forces = {
-			set_interest_group_name = ig_milites
-			
-			remove_ideology = ideology_jingoist
-			add_ideology = ideology_foederati
-			remove_ideology = ideology_patriotic
-			add_ideology = ideology_praetorian
-		}
-		ig:ig_intelligentsia = {
-			set_interest_group_name = ig_intellegentiae
-		}
-		ig:ig_petty_bourgeoisie = {
-			set_interest_group_name = ig_burgenses
-		}
-		ig:ig_rural_folk = {
-			set_interest_group_name = ig_rustici
 		}
 		
 		add_journal_entry = { type = je_crisis_of_illegitimacy }

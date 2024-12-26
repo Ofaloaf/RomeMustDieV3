@@ -9,6 +9,11 @@
 		ideology_stratocratic
 		ideology_patriarchal
 	}
+	
+	character_ideologies = {
+		ideology_moderate
+		ideology_traditionalist
+	}
 
 	enable = {
 		always = yes
@@ -25,15 +30,49 @@
 		ig:ig_landowners = {
 			if = {
 				limit = {
-					owner = { country_has_primary_culture = cu:iroquoian }
+					owner = { 
+						any_primary_culture = {
+							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = european_heritage
+						}
+					}
 				}
-				remove_ideology = ideology_patriarchal
-				add_ideology = ideology_yakoyaner
+				set_ig_trait = ig_trait:ig_trait_profitable_estates
+				set_ig_trait = ig_trait:ig_trait_family_ties
+				set_ig_trait = ig_trait:ig_trait_noblesse_oblige
+			}
+			else = {
+				set_ig_trait = ig_trait:ig_trait_noble_privileges
+				set_ig_trait = ig_trait:ig_trait_family_ties
+				set_ig_trait = ig_trait:ig_trait_noblesse_oblige
 			}
 		}
 		
-		# Ali'i
+		# Roman Senators
 		if = {
+			limit = {
+				any_primary_culture = {
+					has_discrimination_trait = romance_speaker
+					has_discrimination_trait = european_heritage
+				}
+			}
+			ig:ig_landowners = {
+				set_interest_group_name = ig_senatores
+			}
+		}
+		# Junkers
+		else_if = {
+			limit = {
+				c:PRU ?= this
+			}
+			ig:ig_landowners = {
+				set_interest_group_name = ig_junkers
+				remove_ideology = ideology_paternalistic
+				add_ideology = ideology_junker_paternalistic
+			}
+		}
+		# Ali'i
+		else_if = {
 			limit = {
 				country_has_primary_culture = cu:hawaiian
 			}
@@ -62,28 +101,20 @@
 				add_ideology = ideology_scholar_paternalistic
 			}
 		}
-		# Aristocracy of Officials
-		else_if = {
-			limit = {
-				country_has_primary_culture = cu:norwegian
+	}
+	on_disable = {}
+	
+	priority_cultures = { #Country scope
+		rule = {
+			trigger = {
+				c:WRE ?= this
 			}
-			ig:ig_landowners = {
-				set_interest_group_name = ig_aristocracy_of_officials
-			}
-		}
-		# India
-		else_if = {
-			limit = {
-				any_primary_culture = {
-					has_discrimination_trait = south_asian_heritage
-				}
-			}
-			ig:ig_landowners = {
-				set_interest_group_name = ig_zamindars
+			cultures = {
+				roman hispanian illyrian rhaetic africanu septimanian
 			}
 		}
 	}
-	on_disable = {}
+	
 	on_character_ig_membership = {}
 
 	pop_potential = {
@@ -124,7 +155,7 @@
 				limit = {
 					is_pop_type = officers
 				}
-				value = 50
+				value = 25
 			}
 		}
 
@@ -150,20 +181,6 @@
 					}
 					multiply = 4
 				}
-			}
-		}
-
-		
-		if = {
-			limit = {
-				c:BIC ?= owner
-				culture = {
-					has_discrimination_trait = european_heritage
-				}
-			}
-			multiply = {
-				desc = "POP_INDIA_COLONIAL_RULE"
-				value = 0.1
 			}
 		}
 
@@ -361,15 +378,6 @@
 	# scope:character is the most popular commander in the IG
 	commander_leader_chance = {
 		value = 0.5
-		if = {
-			limit = {
-				exists = scope:character
-			}
-			multiply = {
-				value = 1
-				add = scope:character.popularity
-				min = 0
-			}
-		}
+		multiply = ig_commander_leader_chance_mult
 	}
 }

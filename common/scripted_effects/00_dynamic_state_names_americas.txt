@@ -1,0 +1,38 @@
+﻿# Culture name assignments
+### REGION TRIGGERS ###
+
+assign_state_name_region_new_england = { # Norumbega
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_NEW_JERSEY ?= this
+            }
+        }
+        STATE_NEW_JERSEY_state_name_assign = yes
+    }
+}
+
+
+#######################################
+### Specific state name assignments ###
+#######################################
+
+STATE_NEW_JERSEY_state_name_assign = { # Lënapehòkink/Lenapehokink/Lenappia
+    if = {
+        limit = {
+            owner = {
+                any_primary_culture = {
+                    has_discrimination_trait = romance_speaker
+                }
+            }
+        }
+        
+        set_state_name = STATE_NEW_JERSEY_latin
+        
+        set_hub_names = latin
+    }
+    else = { # switch back to defaults
+        reset_state_name = yes
+        reset_hub_names = yes
+    }
+}

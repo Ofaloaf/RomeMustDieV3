@@ -1,0 +1,102 @@
+﻿je_uneasy_raj = {
+	icon = "gfx/interface/icons/event_icons/event_protest.dds"
+
+	group = je_group_historical_content
+
+	immediate = {
+		
+		set_variable = {
+			name = sepoy_mutiny_timer_var
+			value = 0
+		}
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_avert_sepoy_mutiny_tt_1
+			has_variable = consolidated_colonial_rule
+		}
+		root.average_sol >= 10
+		radical_fraction = {
+			value <= 0.10
+		}
+	}
+
+	fail = {
+		custom_tooltip = {
+			text = je_uneasy_raj_tt_2
+			var:sepoy_mutiny_timer_var >= 100
+		}		
+	}
+
+	invalid = {
+	}
+
+	on_complete = {
+	}
+
+	on_fail = {
+	}
+
+	on_weekly_pulse = {
+		events = {
+		}
+		effect = {
+		}
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+
+je_sepoy_mutiny = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+	complete = {
+	}
+
+	on_complete = {
+	}
+
+	fail = {
+	}
+
+	on_fail = {
+		trigger_event = { id = sepoy_mutiny_events.2 days = 0 popup = yes }
+	}
+
+	weight = 100
+	should_be_pinned_by_default = yes
+}#
+
+je_uneasy_raj_tracker = {
+	icon = "gfx/interface/icons/event_icons/event_protest.dds"
+
+	group = je_group_historical_content
+
+	is_shown_when_inactive = {
+		always = no
+	}
+
+	possible = {
+		always = no
+	}
+
+	immediate = {
+	}
+
+	complete = {
+		c:BIC ?= {
+			NOT = {
+				has_journal_entry = je_uneasy_raj
+			}
+		}
+	}
+
+	invalid = {
+	}
+
+	weight = 100
+	should_be_pinned_by_default = yes
+}

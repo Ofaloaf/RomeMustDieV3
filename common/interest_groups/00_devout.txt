@@ -9,6 +9,12 @@
 		ideology_moralist
 		ideology_patriarchal
 	}
+	
+	character_ideologies = {
+		ideology_moderate
+		ideology_traditionalist
+		ideology_legitimist
+	}
 
 	enable = {
 		always = yes
@@ -156,91 +162,30 @@
 				add_ideology = ideology_shinto_moralist
 			}
 		}
-		# Christian Missionaries (Hawaii)
+		# Christian Missionaries (Prefecture of the West)
 		else_if = {
 			limit = {
-				country_has_state_religion = rel:protestant
-				country_has_primary_culture = cu:hawaiian
+				c:POW ?= this
 			}
 			ig:ig_devout = {
 				set_interest_group_name = ig_christian_missionaries
-				add_ideology = ideology_laissez_faire
 			}
 		}
-		# Anglicans
+		
 		else_if = {
 			limit = {
-				country_has_state_religion = rel:protestant
 				OR = {
-					country_has_primary_culture = cu:maori
-					country_has_primary_culture = cu:australian
-					country_has_primary_culture = cu:anglo_canadian
-					country_has_primary_culture = cu:british
-					country_has_primary_culture = cu:irish
-					c:NRU ?= this
-				}
-				NOT = {
-					c:BIC ?= this
+					c:ERE ?= this
+					c:POW ?= this
+					any_primary_culture = {
+						has_discrimination_trait = romance_speaker
+					}
 				}
 			}
 			ig:ig_devout = {
-				set_interest_group_name = ig_anglican_church
-			}
-		}
-		# Russian Orthodox Church
-		else_if = {
-			limit = {
-				country_has_state_religion = rel:orthodox
-				OR = {
-					country_has_primary_culture = cu:russian
-					country_has_primary_culture = cu:byelorussian
-					country_has_primary_culture = cu:ukrainian
-				}
-			}
-			ig:ig_devout = {
-				set_interest_group_name = ig_orthodox_church
+				set_interest_group_name = ig_devotos
 				remove_ideology = ideology_patriarchal
 				add_ideology = ideology_russian_patriarch
-			}
-		}
-		# Church of Denmark
-		else_if = {
-			limit = {
-				country_has_state_religion = rel:protestant
-				country_has_primary_culture = cu:danish
-			}
-			ig:ig_devout = {
-				set_interest_group_name = ig_church_of_denmark
-			}
-		}
-		# Church of Norway
-		else_if = {
-			limit = {
-				country_has_state_religion = rel:protestant
-				country_has_primary_culture = cu:norwegian
-			}
-			ig:ig_devout = {
-				set_interest_group_name = ig_church_of_norway
-			}
-		}
-		# Church of Finland
-		else_if = {
-			limit = {
-				country_has_state_religion = rel:protestant
-				country_has_primary_culture = cu:finnish
-			}
-			ig:ig_devout = {
-				set_interest_group_name = ig_church_of_finland
-			}
-		}
-		# Church of Sweden
-		else_if = {
-			limit = {
-				country_has_state_religion = rel:protestant
-				country_has_primary_culture = cu:swedish
-			}
-			ig:ig_devout = {
-				set_interest_group_name = ig_church_of_sweden
 			}
 		}
 		# Confucian Scholars
@@ -253,32 +198,6 @@
 				remove_ideology = ideology_pious
 				remove_ideology = ideology_moralist
 				add_ideology = ideology_confucian
-			}
-		}
-		# Evangelicals
-		else_if = {
-			limit = {
-				country_has_state_religion = rel:protestant
-				OR = {
-					country_has_primary_culture = cu:yankee
-					country_has_primary_culture = cu:dixie
-					country_has_primary_culture = cu:afro_american
-					country_has_primary_culture = cu:cherokee
-				}
-			}
-			ig:ig_devout = {
-				set_interest_group_name = ig_evangelicals
-			}
-		}
-		# Roman Curia
-		else_if = {
-			limit = {
-				c:PAP ?= this
-			}
-			ig:ig_devout = {
-				set_interest_group_name = ig_roman_curia
-				remove_ideology = ideology_moralist
-				add_ideology = ideology_papal_moralist
 			}
 		}
 
@@ -346,10 +265,7 @@
 		# Hindu Priesthood
 		else_if = {
 			limit = { 
-				OR = {
-					country_has_state_religion = rel:hindu 
-					c:BIC ?= this
-				}
+				country_has_state_religion = rel:hindu
 			}
 			ig:ig_devout = {
 				set_interest_group_name = ig_hindu_priesthood
@@ -406,8 +322,31 @@
 		}
 	}
 	on_disable = {}
+
+	priority_cultures = { #Country scope
+		rule = {
+			trigger = {
+				c:POW ?= this
+				any_primary_culture = { 
+					cu:british = this
+				}
+			}
+			cultures = {
+				roman greek hispanian africanu
+			}
+		}
+	}
+
 	on_character_ig_membership = {
 		if = {
+			limit = {
+				owner = {
+					c:POW ?= this
+				}
+			}
+			change_character_religion = rel:nicene
+		}
+		else_if = {
 			limit = {
 				NOT = {
 					owner = {
@@ -427,8 +366,9 @@
 		OR = {
 			has_state_religion = yes
 			AND = {
-				c:BIC ?= owner
-				religion = rel:hindu
+				exists = c:BIC
+				owner ?= c:BIC
+				has_pop_religion = hindu
 			}
 		}
 		NOT = {
@@ -437,7 +377,10 @@
 	}
 
 	pop_weight = {
-		value = 25
+		add = {
+			desc = "POP_BASE_ATTRACTION"
+			value = 25
+		}
 
 		add = {
 			desc = "POP_CLERGYMEN"
@@ -742,15 +685,6 @@
 	# scope:character is the most popular commander in the IG
 	commander_leader_chance = {
 		value = 0.25
-		if = {
-			limit = {
-				exists = scope:character
-			}
-			multiply = {
-				value = 1
-				add = scope:character.popularity
-				min = 0
-			}
-		}
+		multiply = ig_commander_leader_chance_mult
 	}
 }

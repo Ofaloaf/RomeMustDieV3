@@ -9,6 +9,11 @@
 		ideology_particularist
 		ideology_isolationist
 	}
+	
+	character_ideologies = {
+		ideology_moderate
+		ideology_pacifist
+	}
 
 	enable = {
 		always = yes
@@ -23,23 +28,43 @@
 
 	on_enable = {
 		ig:ig_rural_folk = {
-			set_ig_trait = ig_trait:ig_trait_old_ways
-			set_ig_trait = ig_trait:ig_trait_honest_work
-			set_ig_trait = ig_trait:ig_trait_farmers_markets
+			if = {
+				limit = {
+					owner = { any_primary_culture = { has_discrimination_trait = middle_eastern_heritage } }
+				}
+				set_interest_group_name = ig_fellahin
+				set_ig_trait = ig_trait:ig_trait_old_ways
+				set_ig_trait = ig_trait:ig_trait_fellahin
+				set_ig_trait = ig_trait:ig_trait_farmers_markets
+			}
+			else_if = {
+				limit = {
+					owner = { c:PAN ?= this }
+				}
+				set_interest_group_name = ig_jats
+				set_ig_trait = ig_trait:ig_trait_old_ways
+				set_ig_trait = ig_trait:ig_trait_honest_work
+				set_ig_trait = ig_trait:ig_trait_khalsa_panth
+			}
+			else = {
+				set_ig_trait = ig_trait:ig_trait_old_ways
+				set_ig_trait = ig_trait:ig_trait_honest_work
+				set_ig_trait = ig_trait:ig_trait_farmers_markets
+			}
 		}
 	
-		# Jeffersonian Ideology
+		# Roman Rustici
 		if = {
 			limit = {
 				OR = {
-					country_has_primary_culture = cu:yankee
-					country_has_primary_culture = cu:dixie
+					c:ERE ?= this
+					any_primary_culture = {
+						has_discrimination_trait = romance_speaker
+					}
 				}
 			}
 			ig:ig_rural_folk = {
-				remove_ideology = ideology_agrarian
-				add_ideology = ideology_agrarian_jeffersonian
-				set_interest_group_name = ig_yeoman_farmers
+				set_interest_group_name = ig_rustici
 			}
 		}
 
@@ -73,13 +98,10 @@
 		# India
 		else_if = {
 			limit = {
-				OR = {
-					c:BIC ?= this
-					any_primary_culture = {
-						has_discrimination_trait = south_asian_heritage
-						NOT = {
-							has_discrimination_trait = himalayan
-						}
+				any_primary_culture = {
+					has_discrimination_trait = south_asian_heritage
+					NOT = {
+						has_discrimination_trait = himalayan
 					}
 				}
 			}
@@ -101,6 +123,16 @@
 		}
 	}
 	on_disable = {}
+	priority_cultures = { #
+		rule = {
+			trigger = {
+				c:WRE ?= this
+			}
+			cultures = {
+				roman illyrian rhaetic septimanian gallic hispanian galician africanu
+			}
+		}
+	}
 	on_character_ig_membership = {}
 
 	pop_potential = {
@@ -136,7 +168,15 @@
 						pop_employment_building_group = bg_manor_houses
 					}
 				}
-				value = 100
+				if = {
+					limit = {
+						is_pop_type = clergymen
+					}
+					value = 25
+				}
+				else = {
+					value = 100
+				}
 			}
 		}
 
@@ -166,20 +206,7 @@
 				limit = {
 					is_pop_type = clergymen
 				}
-				value = 100
-			}
-		}
-		
-		if = {
-			limit = {
-				c:BIC ?= owner
-				culture = {
-					has_discrimination_trait = european_heritage
-				}
-			}
-			multiply = {
-				desc = "POP_INDIA_COLONIAL_RULE"
-				value = 0.1
+				value = 75
 			}
 		}
 	
@@ -369,15 +396,6 @@
 	# scope:character is the most popular commander in the IG
 	commander_leader_chance = {
 		value = 0.5
-		if = {
-			limit = {
-				exists = scope:character
-			}
-			multiply = {
-				value = 1
-				add = scope:character.popularity
-				min = 0
-			}
-		}
+		multiply = ig_commander_leader_chance_mult
 	}
 }

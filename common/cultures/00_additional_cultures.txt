@@ -538,107 +538,73 @@ assyrian={
 	religion = oriental_orthodox
 	traits = { middle_eastern_heritage }
 	male_common_first_names = {
-		Aho
-		Aram
-		Ayoub
-		Bartel
-		Butrus
-		Daniyel
-		Dawid
-		Elios
-		Emmanuel
-		Fadi
-		Farid
-		Farouk
-		Freydun
-		Gewargis
-		Hanna
-		Hormuzd
-		Ibrahim
-		Iskhaq
-		Istefane
-		Luqa
-		Malik
-		Mikal
-		Moshe
-		Moushe
-		Munir 
-		Murad
-		Mustafa
-		Narsai 
-		Naum
-		Ninos
-		Nukh
-		Paulos
-		Petros
-		Saadi 
-		Sanharib
-		Shalimoon 
-		Sharbel
-		Sharro
-		Shimun 
-		Shlemon 
-		Sohdo
-		Sorishu
-		Tolmai
-		Toma 
-		Yaghoub
-		Yomadan
-		Younan
-		Yusef
-		Zakay
+		Addai Ayoub Aphrem Ammanu_el Agustos Aliksandros Abram Absalom
+		Behnam Benyamin Bartulme
+		Dawid Denha Daniyel
+		Eliya Elkud
+		Fraydon
+		Grigorios Gewargis Gabriyel
+		Hananyo Hazqi_el
+		Ishaq Issa Ignatios Iwannis Ishaia
+		Kalab
+		Luqa Lazar
+		Mattai Marutha Mikho_el Marqos Moushe
+		Nuh Narsai Nashrihab Natal
+		Philoxenus Pitros Pawlos Pithyou
+		Qamisho_
+		Sinharib Sargis Shallita Shem_on Sabba Spanya Sila Shmuel
+		Taoma Teodoros
+		Wa_el Walagash
+		Yohanan Ya_qub Yulyos Younan Yosep
 	}
 	female_common_first_names = {
-		Aisha
-		Amira
-		Anoush
-		Arram
-		Aaliyah
-		Bagiyeh
-		Bethani
-		Brula
-		Diyana
-		Dunya
+		Anohamia
+		Barbara Bathishwa 
 		Dwura
-		Emmita
-		Fatima
-		Hawah
-		Huda
-		Iman
-		Insoph
-		Istir
-		Jamila
-		Khannah
-		Layla
-		Marbita
-		Mariam
-		Marta
-		Nada
-		Nahrin
-		Nour 
-		Nura
+		Elishva
+		Hagar
+		Imama Istir
+		Margarita Maleka Maryam
+		Nami
+		Pelagia
 		Rebqah
-		Shafira
-		Shafri
-		Shamura
-		Shlama
-		Sussan
-		Tabitha
-		Talitha
-		Walita
-		Wardiya
-		Zarah
+		Sara Sapira Shooshan
+		Yuliya
 	}	
 	noble_last_names = {
-		Malik
+		Akijan bar_Abgar Arbilaya Ahastnaya Alakko
+		Burd_oyo Barclaius Barsemias
+		Eshaya
+		Jilu
+		Lazarus
+		Monobazus Meharaspes
+		Nehemias Nbudayyan Nochiya
+		Parthamaspates 
+		Qindasi bar_Qardagh
+		Rutassor
+		Sarugoyo Sanatruq Sobaya
+		Tyari
+		Urhaya # from Edessa
 	}
 	common_last_names = {
-		Abraham
-		Bet_Abram
-		Mikhail
-		Butrus
-		Rowil
-		Yohannan
+		Alkhas bar_Aggai Arsanis bar_Atilu Abdalahad Azar bar__Abdun Akkara Asya Apaya
+		Bedjan Burd_oyo bar_Bakus bar_Barisho_ Baltaji Bawab
+		Daher bar_Denha
+		Garsa
+		Haddad bar_Hindi Hadloyo Hasola Hnaniso
+		Ismail
+		Jarweh bar_Jubair
+		Kaldani bar_Khamoro Kristyana
+		Marqia bar_Manu bar_Masih bar_Ma_dani bar_Mawdyono Ma_dnoyo
+		Nehemias Nemrud Naggara
+		Puniqoyo bar_Pkidha Pilatus Pawlo
+		Qindasi bar_Qatra Qaynaya Qassaba
+		bar_Rabula
+		Shahab bar_Souma bar_Sabba_e bar_Shuwayk Samheri Sarigta Salhoyo bar_Shushan bar_Sabuni bar_Salibi Sammasa Sullaqa Sawuah
+		Takhana Tagara
+		bar_Wahbun
+		Yeshu bar_Ya_qub Yahyo Yaqou
+		Zamar
 	}
 	ethnicities = {
 		1 = arab

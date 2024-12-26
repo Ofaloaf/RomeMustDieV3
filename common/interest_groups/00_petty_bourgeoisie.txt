@@ -9,6 +9,14 @@
 		ideology_meritocratic
 		ideology_patriotic
 	}
+	
+	character_ideologies = {
+		ideology_moderate
+		ideology_traditionalist
+		ideology_jingoist_leader
+		ideology_protectionist
+		ideology_sovereignist_leader
+	}
 
 	enable = {
 		always = yes
@@ -25,15 +33,23 @@
 		ig:ig_petty_bourgeoisie = {
 			if = {
 				limit = {
-					owner = { c:SWE ?= this}
+					owner = { 
+						OR = {
+							c:ERE ?= this
+							any_primary_culture = {
+								has_discrimination_trait = romance_speaker
+								has_discrimination_trait = european_heritage
+							}
+						}
+					}
 				}
 				set_ig_trait = ig_trait:ig_trait_xenophobia
-				set_ig_trait = ig_trait:ig_trait_bergsbrukens_valdistrikten
+				set_ig_trait = ig_trait:ig_trait_civil_service
 				set_ig_trait = ig_trait:ig_trait_treasury_bonds
 			}
 			else_if = {
 				limit = {
-					owner = { c:EGY ?= this }
+					owner = { any_primary_culture = { has_discimination_trait = middle_eastern_heritage } }
 				}
 				set_ig_trait = ig_trait:ig_trait_xenophobia
 				set_ig_trait = ig_trait:ig_trait_effendi
@@ -45,9 +61,21 @@
 				set_ig_trait = ig_trait:ig_trait_treasury_bonds
 			}
 		}
+
+		if = {
+			limit = {
+				any_primary_culture = {
+					has_discrimination_trait = romance_speaker
+				}
+			}
+			ig:ig_petty_bourgeoisie = {
+				set_interest_group_name = ig_burgenses
+			}
+		}
 	}
 
 	on_disable = {}
+	priority_cultures = {}
 	on_character_ig_membership = {}
 
 	pop_potential = {
@@ -108,7 +136,24 @@
 	}
 
 	pop_weight = {
-		value = 50
+		if = {
+			limit = {
+				strata = lower
+			}
+			add = {
+				desc = "POP_BASE_ATTRACTION"
+				value = 25
+			}
+		}
+		else_if = {
+			limit = {
+				strata = middle
+			}
+			add = {
+				desc = "POP_BASE_ATTRACTION"
+				value = 50
+			}
+		}
 
 		add = {
 			desc = "POP_SHOPKEEPERS"
@@ -204,23 +249,6 @@
 			multiply = {
 				desc = "POP_INDIA_COLONIAL_RULE"
 				value = 0.1
-			}
-		}
-		
-		if = {
-			limit = {
-				c:BIC ?= owner
-				culture = {
-					has_discrimination_trait = south_asian_heritage
-				}
-				OR = {
-					is_pop_type = capitalists
-					is_pop_type = shopkeepers
-				}
-			}
-			add = {
-				desc = "POP_INDIA_MONEYED_ELITES"
-				value = 75
 			}
 		}
 
@@ -424,15 +452,6 @@
 	# scope:character is the most popular commander in the IG
 	commander_leader_chance = {
 		value = 0.25
-		if = {
-			limit = {
-				exists = scope:character
-			}
-			multiply = {
-				value = 1
-				add = scope:character.popularity
-				min = 0
-			}
-		}
+		multiply = ig_commander_leader_chance_mult
 	}
 }

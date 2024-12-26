@@ -124,8 +124,8 @@
 #	}
 
 	noble_last_names = {
-		Acilio Achilio Asterio Aurelio Agorio Ablabio Aufidio Annio Afranio Anneo
-		Bruttio Bononiensis Balventio Bebio Blossio Burbuleio Barbatio
+		Acilio Achilio Asterio Aurelio Agorio Ablabio Aufidio Annio Afranio Anneo Albicionis
+		Bruttio Bononiensis Balventio Bebio Blossio Burbuleio Barbatio Ballero
 		Calpurnio Catio Clodio Cervonio Cecina Ceionio Carfuleno Cesonio Critonio Cuspio
 		Decio
 		Ennodio
@@ -610,7 +610,7 @@ septimanian={
 		Domergue Daigon Danuha Dasches Dauhan Daurenx Davida Dax Denbas Denlas Deuganas Dornat Delluc Dolinier Dalmas David Dalbrat Delolme Desparo Dobla Dobax Domeira Dolso Donnat Ducel
 		Estreguilh Esclavi Escudeyr Esperta Espinassa Estival
 		Fabri Fora Furlan Favela Formoy Fort Fabressa Feljairat Ferabocha Ferant Forner Frescho
-		Guizo Galoers Garcias Gasci Gast Gourris Gorda Guarestet Goyo Garel Grango Germana Ginhos Guales Grosso Granolha Guaya
+		Guizo Galoers Garcias Gasci Gast Gourris Gorda Guarestet Goyo Garel Grango Germana Ginhos Guales Grosso Granolha Guaya Genesius
 		Hector
 		Jalot Jaca Jenre Jausserant Jeremias Jeria Jovenros Jueri Juniat
 		Leonis Lana Lerescat Lonsat Labrossa Lacrotz Lanier Larua Lagreliera Lafauria Laboyschiera Lobaressas Lors
@@ -631,7 +631,7 @@ septimanian={
 		Capellanus de_Caortz de_Clarmon de_Carcassona de_Crio de_Crissil de_calhaco de_Castra de_Coysseto de_la_Cortya de_las_Cortias del_Caperdolh Cerellis
 		de_Danzera del_Deffes
 		de_Fores de_Fogeria de_Flasucra de_Fenta_Loc de_Fora_Bortboc Famul
-		de_Gagz de_Galaido de_Gencias de_Git de_Grava de_Grele de_Gacami
+		Genesius de_Gagz de_Galaido de_Gencias de_Git de_Grava de_Grele de_Gacami
 		de_Hulhac
 		de_la_Iscla
 		de_Jumato del_Jaric
@@ -1192,12 +1192,12 @@ africanu = { # African Romance, with some Vandals
 		Bizaceneni Bixiu Balistreri Bandinu Broccu Brachodanu Bacanariensi Balianensi Bidensi Baparanu Benepotanu
 		Cluveriu Culusiensi Cerbonianu Cressoni Corippianu Cappai Cubeddu Cabras Castellanu Caltadriensi Capranu Cillanu Catulanu Cissiensi Corniculanu Catabanu
 		Emilianu Epenetianu Elefantariensi
-		Fulgenciu Frumentianu Fara Fallabensi Fidolomanu Flenucletanu Florianu Flumenzeranu Frontensi
+		Fulgenciu Frumentianu Fara Fallabensi Fidolomanu Flenucletanu Florianu Flumenzeranu Frontensi Fulgentziu
 		Gildoni Ghessa Girensi Gratianopolitanu Gunuganu Gipsariensi
 		Hannibalianu
 		Iubalenu Idanu Itanu Iomniensi Iuncanu
-		Lucianu Lussu Lamdiensi Larensi
-		Macarianu Melis Murgia Machliu Masguinu Mastanesosu Maiucanu Mallianensi Manaccenseranu Masuccabanu Maturbensi Mauranu Maurianensi Massitanu Mediensi Minanu Mutecensi
+		Lucianu Lussu Lamdiensi Larensi Lussurgiu
+		Macarianu Melis Murgia Machliu Masguinu Mastanesosu Maiucanu Mallianensi Manaccenseranu Masuccabanu Maturbensi Mauranu Maurianensi Massitanu Mediensi Minanu Mutecensi Musaitus
 		Nemesianu Nabalanu Nasbincensi Nobanu Novicanu Numidanu
 		Obbensi Oborensi
 		Pierianu Possidianu Pes Pinna Poddighe Pisciu Pacatianensi Panatoriensi Pomarianu
@@ -1442,62 +1442,94 @@ sardinian={
 	traits = { european_heritage romance_speaker latin_culture_group }
 	
 	male_common_first_names={
-		Andria Antoni Anghelu Antoninu Antiogu
-		Bachis Bobore Boele Bonaventura Bustianu
+		Andria Antoni Anghelu Antoninu Antiogu Ambrosu Austinu
+		Bachis Bobore Boele Bonaventura Bustianu Bonifatziu
 		BaI_nzu # Baínzu 
 		ChI_rigu # Chìrigu 
-		Diegu Diadoru
+		ClA_udiu Camillu
+		Diadoru Damasu
 		Efis
 		EmI_liu # Emìliu 
-		Frantziscu
-		Gonare Giuliu Giuanni Gavinu
+		Fulgentziu
+		Gregoriu GiU_liu Giuanni GO_samu
 		Hieronimu
-		Iroxi
+		Iroxi Iscipione
 		InniA_tziu # Inniàtziu 
 		JuA_nne # Juànne 
-		Mialinu Melchiorre Michele
+		Lisandru Leone Larentu
+		Mialinu Melchiorre Michele Marcu Massimilianu Matteu
 		Nigola
-		Pedru Peppinu
+		Otaviu
+		Pedru Peppinu PU_bliu Pelagiu Policarpu Patritziu
 		PA_ulu # Pàulu
-		Sidore Simon Sarvadore
-		Tiadoru
+		RO_mulu
+		Sidore Simon Sarvadore Severu
+		Tiadoru TeodO_siu Torbini
 		TzE_sare # Tzèsare 
 		Vissente
+		Zefirinu Zennaru
 	}
 	female_common_first_names={
-		Agnese Alessandra Albina Anna Antonella
+		Agnese Alessandra Albina Anna Antonella Agata
 		AdelA_sia # Adelàsia 
+		Barbara
 		Claudia Cristina Cosima Caterina
 		Damiana
-		Elianora Emanuela Elena
+		Elianora Emanuela Elena EufE_mia Experientia
+		Giorgia 
 		GrA_tzia # Gràtzia 
 		Itria
 		Justa
-		Maria Margherita Michela Madalena
-		Perdita
-		Tiadora
+		Lughia
+		Maria Margherita Michela Madalena Matrona
+		Perdita Pomponiana
+		Rosalia
+		Tiadora Theodosia
+		Vera
+	}
+	noble_last_names = {
+		Arsenius de_Aristanis de_Aldara de_Athen d_Arduale
+		Baris de_Baniu Benzivenni de_Bonaccatu Brumasius de_Bisarcium de_Besora
+		CornE_liu de_CA_ralis Callistu Cyriacus Citonatus Corsu Contu de_Carvia
+		Desiderius Dorgotorius Delogu
+		Epiphanius Eutalius
+		de_Fordongianus
+		Gonare Gimignanu GaudE_ntziu Gavinu de_Gallura Gambella de_Garteddi
+		Ietoccor Iginu
+		Kerssa
+		Lussulzu de_Lacon
+		Monioritinus Marianus Marki Maiu de_Magistris
+		Nepote
+		Omodeus de_OrrU_
+		de_Putzolu de_Piras de_PaU_lle
+		Quinisextus
+		de_Rossi
+		SetI_miu Saltaru Saveriu Symmachus de_Salanis Salusius de_Scanu de_Sueddi de_Serra
+		Tzitzerone de_TA_tari Torbenius Thapensi de_Turris Theophilus Torchitorius de_Thori de_Tergu de_Trullas Tedisius
+		de_Ugunale
+		Zabarda
 	}
 	common_last_names={
-		Anedda Argiolas Aru Atzori Angius
-		Brau Bandinu
+		Anedda Argiolas Aru Atzori Angius Artizzu
+		Brau Bandinu Brotzu
 		Carta Cossu Cocco Cabboi Cadeddu Carrogu Chergi Chessa Cogotti Corongiu Corrias Calvia Cambosu
-		Deiana Defraia Deledda Deplano Desogus Doneddu
+		Deiana Defraia Deledda Deplano Desogus Doneddu Damiani
 		Ecca Enardu Espa
-		Floris Fadda Farris Fogu Fois
+		Floris Fadda Farris Fogu Fois Forteleoni
 		Garau Gessa Gioi Gianicchedda
 		Ibba
 		Lai Loi Laconi Littarru Lodde Lusu Lilliu
-		Melis Manca Meloni Mura Murgia Marras Madau Madeddu Marongiu Massidda Matzeu Maxia Migaleddu Miliddi Montixi Miali
+		Melis Manca Mura Murgia Marras Madau Madeddu Marongiu Meloni Massidda Matzeu Maxia Migaleddu Miliddi Montixi Miali Mameli
 		Naitana Nieddu Nurra
 		Onida Onnis 
 		OrrU_ # Orrù
-		Piras Pinna Porcu Perseu Piredda Pittau Podda Pigliaru
+		Piras Pinna Porcu Perseu Piredda Pittau Podda Pigliaru Pompedda Porqueddu
 		Rubiu
 		Sanna Serra Saddi Saragat Sechi Silesu Sirigu Solinas Sollai
 		Taris Todde Tola Tortu Trudu Tuveri
 		Usai Uccheddu Urgu
 		Vargiu
-		Zanda Zedda Zurru
+		Zanda Zedda Zurru Zirano Zirominu Zichi
 	}
 	
 	ethnicities = {
@@ -3035,7 +3067,7 @@ romankim={
 		ben_Theophilus
 	}
 	common_last_names={
-		Abulafia Aelianus  Accoen Azulai Attias Assaban Aboab Acharon Azariah Aiello Abundantius Azriello Amno Accimatore Anuba Abbottego Abdon Anconanus Adamantius Armentarius Abtolemus Antigonus Abubus Aper Athenion Anastasius Astruguetus Anzelinus
+		Abulafia Aelianus Accoen Azulai Attias Assaban Aboab Acharon Azariah Aiello Abundantius Azriello Amno Accimatore Anuba Abbottego Abdon Anconanus Adamantius Armentarius Abtolemus Antigonus Abubus Aper Athenion Anastasius Astruguetus Anzelinus
 		Bedersi Bassani Bedarida Bolaffio Bigiavi Benvenuto Borodo Bonomo Babalul Babbo Benziano Bises Balbo Barianus Beianus Bondia
 		Caslari Cantarini Curiel Castello Cassuto Corcos Calimani Colombo Cassuto Calvus Carucci Cipriani Caepio Cerusi Calamani Censci Cammeo Copia Callinicus Constantinus Cantatheras Caelius Catricius Clodius Calandio
 		Davi Diena Donati Donnolo Ducci Damneus Dativus Daphnus Deuterus Diophatas

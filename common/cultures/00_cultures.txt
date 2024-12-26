@@ -4645,7 +4645,7 @@ greek={
 		Evangelos Eleftherios Efstathios Epameinontas Euthymios Eulalios Evagrios Eusebios Eutychios Euphratas
 		Filippos Faustos
 		Georgios Gerasimos Gregorios Germanos Gennadios Gaios
-		Herakleidas Herakleios Hilarion Hermogenes Heliodoros Hierios Hierokles Helion
+		Herakleidas Herakleios Hilarion Hermogenes Heliodoros Hierios Hierokles Helion Hospiton
 		Ilias Ioannis Iakovos Iason Ioustinos Iosef Ioannikios Isidoros
 		Konstantinos Kyriakos Kostas Kontoleon Konstantiolos Klaudianos Kosmas Konstas Komentiolos Klearchos
 		Leonidas Leon Lambros Lazaros Lykourgos Lazaros Leontios Longinos Loukios

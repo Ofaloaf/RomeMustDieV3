@@ -33,23 +33,9 @@
 		
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
-			set_interest_group_name = ig_senatores
 		}
 		ig:ig_rural_folk = {
 			add_ruling_interest_group = yes
-			set_interest_group_name = ig_rustici
-		}
-		ig:ig_armed_forces = {
-			set_interest_group_name = ig_milites
-		}
-		ig:ig_intelligentsia = {
-			set_interest_group_name = ig_intellegentiae
-		}
-		ig:ig_petty_bourgeoisie = {
-			set_interest_group_name = ig_burgenses
-		}
-		ig:ig_devout = { 
-			set_interest_group_name = ig_devotos
 		}
 	}
 }

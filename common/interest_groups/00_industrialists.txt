@@ -9,6 +9,12 @@
 		ideology_laissez_faire
 		ideology_individualist
 	}
+	
+	character_ideologies = {
+		ideology_moderate
+		ideology_market_liberal
+		ideology_protectionist
+	}
 
 	enable = {
 		always = yes
@@ -39,6 +45,41 @@
 				set_ig_trait = ig_trait:ig_trait_engines_of_progress
 				set_ig_trait = ig_trait:ig_trait_kommerskollegium
 			}
+			# India
+			else_if = {
+				limit = {
+					owner = {
+						c:BIC ?= this
+					}
+				}
+				set_interest_group_name = ig_east_india_company
+				remove_ideology = ideology_laissez_faire
+				add_ideology = ideology_colonialist
+				remove_ideology = ideology_plutocratic
+				add_ideology = ideology_enclavist
+				remove_ideology = ideology_individualist
+				add_ideology = ideology_malthusian
+
+				set_ig_trait = ig_trait:ig_trait_wounded_honor
+				set_ig_trait = ig_trait:ig_trait_stamped_and_signed
+				set_ig_trait = ig_trait:ig_trait_responsible_government
+			}
+			else_if = {
+				limit = {
+					owner = {
+						OR = {
+							c:DEI ?= this
+							c:ALK ?= this
+						}
+					}
+				}
+				remove_ideology = ideology_laissez_faire
+				add_ideology = ideology_colonialist
+
+				set_ig_trait = ig_trait:ig_trait_tax_avoidance
+				set_ig_trait = ig_trait:ig_trait_engines_of_progress
+				set_ig_trait = ig_trait:ig_trait_job_creators				
+			}
 			else = {
 				set_ig_trait = ig_trait:ig_trait_tax_avoidance
 				set_ig_trait = ig_trait:ig_trait_engines_of_progress
@@ -48,6 +89,18 @@
 	}
 
 	on_disable = {}
+
+	priority_cultures = { #Country scope
+		rule = {
+			trigger = {
+				c:POW ?= this
+			}
+			cultures = {
+				roman new_anatolic antillian greek hispanian
+			}
+		}
+	}
+
 	on_character_ig_membership = {}
 
 	pop_potential = {
@@ -56,9 +109,10 @@
 			is_pop_type = engineers
 			is_pop_type = shopkeepers
 			AND = {
-				c:BIC ?= owner
+				exists = c:POW
+				owner ?= c:POW
 				OR = {
-					culture = {
+					culture ?= {
 						has_discrimination_trait = european_heritage
 					}
 					is_pop_type = bureaucrats
@@ -112,7 +166,7 @@
 					has_discrimination_trait = european_heritage
 				}
 				OR = {
-					strata = rich
+					strata = upper
 					strata = middle
 				}
 				NOT = {
@@ -128,38 +182,42 @@
 		if = {
 			limit = {
 				owner = {
-					c:BIC ?= this
+					c:POW ?= this
 				}
-				NOT = {
-					culture = {
-						has_discrimination_trait = european_heritage
+			}
+			if = {
+				limit = {
+					NOT = {
+						culture = {
+							has_discrimination_trait = european_heritage
+						}
+					}
+					OR = {
+						is_pop_type = bureaucrats
+						is_pop_type = clerks
 					}
 				}
-				OR = {
-					is_pop_type = bureaucrats
-					is_pop_type = clerks
+				add = {
+					desc = "POP_INDIA_NATIVE_ADMINISTRATORS"
+					value = 25
 				}
 			}
-			add = {
-				desc = "POP_INDIA_NATIVE_ADMINISTRATORS"
-				value = 25
-			}
-		}
-		else_if = {
-			limit = {
-				NOT = {
-					culture = {
-						has_discrimination_trait = european_heritage
+			else_if = {
+				limit = {
+					NOT = {
+						culture = {
+							has_discrimination_trait = european_heritage
+						}
+					}
+					NOR = {
+						is_pop_type = bureaucrats
+						is_pop_type = clerks
 					}
 				}
-				NOR = {
-					is_pop_type = bureaucrats
-					is_pop_type = clerks
+				multiply = {
+					desc = "POP_INDIA_ADMINISTRATION_PRIVILEGES"
+					value = 0.05
 				}
-			}
-			multiply = {
-				desc = "POP_INDIA_ADMINISTRATION_PRIVILEGES"
-				value = 0.05
 			}
 		}
 
@@ -388,15 +446,6 @@
 	# scope:character is the most popular commander in the IG
 	commander_leader_chance = {
 		value = 0.25
-		if = {
-			limit = {
-				exists = scope:character
-			}
-			multiply = {
-				value = 1
-				add = scope:character.popularity
-				min = 0
-			}
-		}
+		multiply = ig_commander_leader_chance_mult
 	}
 }
