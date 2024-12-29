@@ -88,11 +88,11 @@
   gov_government_of_the_palace_desc: "The Palace Government is a Frankish [concept_government_type] that is centered on the royal household. Affairs of the crown are decided in royal courts and state rooms; even other organs of the state find it necessary to work within the gilded halls of Frankish nobility.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
   #
   gov_mayoralty_of_the_palace_presidential: "Palace Mayoralty"
-  gov_mayoralty_of_the_palace_presidential_desc: "This [concept_government_type] has ceded all effective power to the [Concept('concept_ruler','Mayor of the Palace')], a position traditionally of immense prestige.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  gov_mayoralty_of_the_palace_presidential_desc: "This [concept_government_type] has ceded all effective power to the [Concept('concept_ruler','Mayor of the Palace')], previously a subservient but prestigious court role under the monarchy.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
   RULER_TITLE_MAYOR: "Mayor"
   #
   gov_germanic_council: "Germanic Assembly"
-  gov_germanic_council_desc: "The Germanic tradition of holding assemblies where all free people can deliberate and discuss lives on in the modern council, assembly, or #italic Thing#!. Presided over by a speaker entrusted with memorizing and understanding, this [concept_government_type] can be powerful counter to the autocratic tendencies of powerhungry individuals.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+  gov_germanic_council_desc: "The Germanic tradition of holding assemblies where all free people can deliberate and discuss lives on in the modern council, assembly, or #italic Thing#!. Presided over by a speaker entrusted with memorizing and understanding the law, this [concept_government_type] can be powerful counter to the autocratic tendencies of powerhungry individuals.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
   RULER_SPEAKER: "Speaker"
   #
   gov_sichuanese_court: "Sichuanese Court"
@@ -117,3 +117,6 @@
   gov_jkn_wako_republic: "Wako Republic"
   gov_jkn_wako_republic_desc: "Founded by bandits, freebooters, and chancers, this government is helmed by a #italic Senchō#!, or Captain, who directs the ship of state and guides it through turbulent times.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
   RULER_TITLE_SENCHO: "Senchō"
+  #
+  gov_thjod_petty_kingdom: "Þjóð"
+  gov_thjod_petty_kingdom_desc: "The #italic þjóð#! is a petty Norse realm ruled by a self-styled [Concept('concept_ruler','$RULER_TITLE_KING$')] or [Concept('concept_ruler','$RULER_TITLE_QUEEN$')], but lacking the status to be considered a true kingdom.\n\n$TRANSFER_OF_POWER_NAME_DESC$"

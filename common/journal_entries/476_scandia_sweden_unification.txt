@@ -1,0 +1,34 @@
+﻿je_skanza_rike = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	
+	group = je_group_historical_content
+
+	is_shown_when_inactive = {
+		can_form_nation = SKD
+	}
+
+	possible = {
+		hidden_trigger = { always = yes }
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = formed_skandia_tt
+			c:SKD ?= THIS
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = scandinavia.2 popup = yes }
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			11 = 0
+			1 = scandinavia.1 # Beowulf - I mean Bodulf
+		}
+	}
+
+	weight = 100
+	should_be_pinned_by_default = yes
+}

@@ -112,6 +112,15 @@ AFG = {
 	ai_will_do = { always = yes }
 }
 
+SKD = { # Skandia/Skandza
+	use_culture_states = yes
+
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+}
+
+
 ### THE BELOW ARE NEUTERED ###
 BHT = {
 	use_culture_states = yes

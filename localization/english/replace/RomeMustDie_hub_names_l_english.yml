@@ -780,6 +780,19 @@
  HUB_NAME_STATE_ROSTOV_farm: "Biryuchiy Kut" # Novocherkassk
  HUB_NAME_STATE_ROSTOV_wood: "Tsimla"
  #
+ ### SCANDINAVIA
+ HUB_NAME_STATE_GOTALAND_city: "Skara"
+ HUB_NAME_STATE_GOTALAND_port: "Lödöse"
+ #HUB_NAME_STATE_GOTALAND_mine:0 "Kalmar"
+ HUB_NAME_STATE_GOTALAND_farm: "Jönköping"
+ HUB_NAME_STATE_GOTALAND_wood: "Lagan"
+ #
+ HUB_NAME_STATE_SCANIA_city: "Köpinge" # close to Helsingborg
+ HUB_NAME_STATE_SCANIA_port: "Malmhaug" #Malmö
+ HUB_NAME_STATE_SCANIA_mine: "Væ" # Vä, 5 km away from Kristianstad
+ #HUB_NAME_STATE_SCANIA_farm:0 "Halmstad"
+ #HUB_NAME_STATE_SCANIA_wood:1 "Hör"
+ #
  ### SHIT WHERE DO I PUT ANATOLIA AND THE CAUCASUS ###
  #Caucasus
  HUB_NAME_STATE_DAGESTAN_city: "Tarki" # Petrovsk-Port

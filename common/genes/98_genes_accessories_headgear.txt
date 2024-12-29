@@ -1215,14 +1215,12 @@
 				index = 73
 
 				male = {
-					#
-					#
-					#
-					#
+					1 = male_pannonian_cap_01
 				}
 
 				female = {
-					#
+					1 = empty
+					1 = female_headwrap_02
 				}
 				boy = male
 				girl = female
@@ -1316,6 +1314,58 @@
 
 				female = {
 					1 = empty
+				}
+				boy = male
+				girl = female
+			}
+
+			indian_dot = {
+				index = 80
+				male = {
+					1 = male_headgear_tatya_tope
+				}
+				female = {
+					1 = female_headdot_01
+				}
+				boy = male
+				girl = female
+			}	
+
+
+			headgear_indian_high_02 = {
+				index = 81
+				male = {
+					1 = male_headgear_tatya_tope
+				}
+				female = {
+					1 = female_headgear_indian_high_02
+				}
+				boy = male
+				girl = female
+			}
+
+
+			indian_royalty_02 = {
+				index = 82
+				male = {
+					1 = male_headgear_indian_royalty_02
+				}
+				female = {
+					1 = female_headgear_indian_high_02
+				}
+				boy = male
+				girl = female
+			}
+
+
+			indian_royalty_03 = {
+				index = 83
+				male = {
+					1 = male_headgear_indian_royalty_03
+					}
+
+				female = {
+					1 = female_headgear_indian_high_02
 				}
 				boy = male
 				girl = female

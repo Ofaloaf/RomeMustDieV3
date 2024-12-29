@@ -257,7 +257,7 @@ SWE = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { swedish }
 	capital = STATE_SVEALAND

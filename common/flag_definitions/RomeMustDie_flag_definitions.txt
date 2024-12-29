@@ -1027,3 +1027,29 @@ JKN = { # Jiyukuni
 		priority = 1
 	}	
 }
+
+SKD = { # Skandia
+	flag_definition = {
+		coa = SKD
+		subject_canton = SKD
+		priority = 1
+	}	
+}
+
+SCA = { # Scandinavia
+	flag_definition = {
+		coa = SCA_pagan
+		subject_canton = SCA_pagan
+		priority = 1
+	}	
+
+
+	flag_definition = {
+		coa = SCA_pagan_tricolor
+		subject_canton = SCA_pagan_tricolor
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+}

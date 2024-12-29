@@ -17,6 +17,19 @@
   attila_evts.2.f: "He looked out over the throngs pouring into Aquincum's central square. They were here for #italic him#!. They would always be there for him.\n\nThey were #N his#!, now and forevermore."
   attila_evts.2.a: "Long live Attila, by the grace of God, Lord of the Huns!"
 
+  scandinavia.1.t: "The Wielder of Wonder"
+  scandinavia.1.d: "A nobleman-turned-adventurer from a minor Geatish family has risen rapidly in power and popularity. An extraordinary commander and folk hero, he has defeated every army sent against him and now seeks to take the throne of [ROOT.GetCountry.GetName] by force."
+  scandinavia.1.f: "#italic Famed is this Bodulf: far flies the boast of him, lauded by deeds and honored in every clan!#!\n\n#italic Beloved leader, in fame with all folk, #b here#! be a man who can unite the nations!#!"
+  scandinavia.1.a: "Bodulf will lead us to glory. Enthrone him!"
+  scandinavia.1.b: "We have no need for a 'hero' in an age of guns and steam."
+
+  scandinavia.2.t: "Scandia United"
+  scandinavia.2.d: "The victory of [SCOPE.sCharacter('ruler_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('ruler_scope').GetFullName] brings the rule of petty lords to an end, finally realizing the dream of a single #italic Skandza Rike#!."
+  scandinavia.2.f: "#italic The days of wayward princes were over. [ROOT.GetCountry.GetNameNoFormatting] now steps onto the world's stage, ready to champion the cause of the nation against all comers. We march forward, ready to seize our destiny!#!\n\nThe old man smiled for a moment before casting the pamphlet aside. He had to admit, for once the words were written with enough conviction they almost sounded #italic true#!."
+  scandinavia.2.a: "[ROOT.GetCountry.GetNameNoFormatting] is the first step to uniting all of Scandinavia!"
+  scandinavia_2_can_form_scandinavia_early: "[ROOT.GetCountry.GetNameNoFormatting] can form Scandinavia without researching #b Pan-Nationalism#!."
+  scandinavia.2.b: "Our future depends on a secure Baltic!"
+
   fall_of_rome_events.1.t: "A Significant Shift of Command"
   fall_of_rome_events.1.d: "The weakness of the central government has ushered in an unparalleled period of self-serving ambition and blatant warlordism. The government #B must regain the people's faith#!, else #N #B the [ROOT.GetCountry.GetAdjectiveNoFormatting] realm will perish.#!"
   fall_of_rome_events.1.f: ""Empires, like dreams, are made of an intangible material, so fragile they can end at any given time with no previous warning. They hold, however, the same insane appeal. Even if the thread that holds together their seams is invisible, every suture hides a wound.""

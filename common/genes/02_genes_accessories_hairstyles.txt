@@ -162,6 +162,7 @@
 				1 = female_hair_european_02
 				1 = female_hair_european_03
 				1 = female_hair_european_04
+				1 = female_hair_indian_03
 			}
 			boy = {
 				1 = male_hair_european_01

@@ -303,7 +303,7 @@
                 mode = add
                 gene = headgear
                 template = roman_pannonian_hat
-                range = { 0 0.25 }
+                range = { 0 1 }
            
             } 
         }
@@ -311,43 +311,40 @@
             base = 0
             modifier = {
                 add = 100
-				OR = {
-					AND = {
-						scope:pop ?= {
-							OR = {
-								is_pop_type = engineers
-								is_pop_type = bureaucrats
-								is_pop_type = machinists
-							}
-							culture = {
-								has_discrimination_trait = romance_speaker
-							}
-						}
+
+				scope:pop ?= {
+					OR = {
+						is_pop_type = engineers
+						is_pop_type = bureaucrats
+						is_pop_type = machinists
 					}
-					scope:pop ?= {
-						is_pop_type = soldiers
-						OR = {
-							culture = {
-								has_discrimination_trait = romance_speaker
-							}
-							AND = {
-								exists = c:WRE
-								owner = {
-									c:WRE = this
-								}
-							}
-						}
-					}
-					AND = {
-						politician_clothes_trigger = yes
-						scope:character ?= {
-							is_interest_group_type = ig_petty_bourgeoisie
-							culture = {
-								has_discrimination_trait = romance_speaker
-							}
-						}
+					culture = {
+                        OR = {
+    						has_discrimination_trait = romance_speaker
+                            cu:greek = this
+                            cu:albanian = this
+                            cu:serb = this
+                            cu:sclaveni = this
+                        }
 					}
 				}
+            }
+            modifier = {
+                add = 100
+
+                politician_clothes_trigger = yes
+                scope:character ?= {
+                    is_interest_group_type = ig_petty_bourgeoisie
+                    culture = {
+                        OR = {
+                            has_discrimination_trait = romance_speaker
+                            cu:greek = this
+                            cu:albanian = this
+                            cu:serb = this
+                            cu:sclaveni = this
+                        }
+                    }
+                }
             }
         }
     }

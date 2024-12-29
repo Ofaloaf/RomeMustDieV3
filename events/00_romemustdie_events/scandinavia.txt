@@ -1,0 +1,167 @@
+﻿namespace = scandinavia
+
+# Beowulf. If this is ever expanded on, please don't insane with trying to shoehorn all of the actual epic into some chain of Scandinavian content, I just wanted a Tewdoros proxy for Sweden.
+scandinavia.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = scandinavia.1.t
+	desc = scandinavia.1.d
+	flavor = scandinavia.1.f
+
+	event_image = {
+		video = "europenorthamerica_before_the_battle"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+		NOT = { has_global_variable = beowulf_var }
+		country_has_primary_culture = cu:swedish
+		has_law = law_type:law_monarchy
+		OR = {
+			is_player = yes
+			NOT = {
+				any_country = {
+					country_has_primary_culture = cu:swedish
+					is_player = yes
+				}
+			}
+		}
+	}
+
+	immediate = {
+		set_global_variable = beowulf_var
+	}
+
+	option = {
+		name = scandinavia.1.a
+		default_option = yes
+		create_character = {
+			first_name = Bodulf
+			last_name = Eggtersson
+			historical = yes
+			ruler = yes
+			noble = yes
+			age = 45
+			interest_group = ig_landowners
+			culture = cu:swedish
+			religion = rel:germanic_pagan
+			ideology = ideology_royalist
+			traits = {
+				romantic
+				brave
+				social_bandit
+			}
+			on_created = {
+				add_modifier = {
+					name = tewodros_modifier
+				}
+			}
+		}
+	}
+	option = {
+		name = scandinavia.1.b
+		remove_global_variable = beowulf_var
+		add_radicals = {
+			value = small_radicals
+		}
+	}
+}
+
+scandinavia.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = scandinavia.2.t
+	desc = scandinavia.2.d
+	flavor = scandinavia.2.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	trigger = {
+		# triggered by je_age_of_princes
+	}
+
+	immediate = {
+		save_scope_as = formation_country
+		ruler = {
+			save_scope_as = ruler_scope
+		}
+		cu:swedish = {
+			save_scope_as = unification_culture
+		}
+		every_country = {
+			limit = {
+				has_diplomatic_relevance = ROOT
+			}
+			post_notification = unification_notification_one_culture
+		}
+	}
+
+	option = {
+		name = scandinavia.2.a
+		default_option = yes
+		add_modifier = {
+			name = unification_prestige
+			months = very_long_modifier_time
+		}
+		unification_claims_effect = yes
+
+		custom_tooltip = {
+			text = scandinavia_2_can_form_scandinavia_early
+			set_variable = early_scandinavia_possible
+		}
+
+		ai_chance = {
+			factor = 1
+
+			# AI shouldn't take this option if it can form Scandinavia already or is on the cusp of being able
+			modifier = {
+				trigger = {
+					OR = {
+						has_technology_researched = pan-nationalism
+						is_researching_technology = pan-nationalism
+					}
+				}
+				add = -1
+			}
+		}
+	}
+
+	option = {
+		name = scandinavia.2.a
+		default_option = yes
+		add_modifier = {
+			name = unification_prestige
+			months = very_long_modifier_time
+		}
+		unification_claims_effect = yes
+
+		s:STATE_SOUTHERN_FINLAND = {
+			add_claim = ROOT
+		}
+		s:STATE_ALAND = {
+			add_claim = ROOT
+		}
+		s:STATE_OSTROBOTHNIA = {
+			add_claim = ROOT
+		}
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

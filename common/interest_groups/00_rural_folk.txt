@@ -13,6 +13,8 @@
 	character_ideologies = {
 		ideology_moderate
 		ideology_pacifist
+		ideology_dominate
+		ideology_attila_partisan
 	}
 
 	enable = {

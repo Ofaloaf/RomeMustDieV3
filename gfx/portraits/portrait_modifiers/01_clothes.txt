@@ -2306,7 +2306,10 @@
                 scope:character ?= {
                     culture = {
 						has_discrimination_trait = indigenous_american_heritage
-						has_discrimination_trait = eastern_woodlands
+						OR = {
+							has_discrimination_trait = eastern_woodlands
+							has_discrimination_trait = romance_speaker
+						}
                     }
 					OR = {
 						is_interest_group_type = ig_intelligentsia
@@ -2322,7 +2325,10 @@
                 scope:character ?= {
                     culture = {
 						has_discrimination_trait = indigenous_american_heritage
-						has_discrimination_trait = eastern_woodlands
+						OR = {
+							has_discrimination_trait = eastern_woodlands
+							has_discrimination_trait = romance_speaker
+						}
                     }
 					OR = {
 						has_role = general
@@ -2359,7 +2365,10 @@
 				scope:pop ?= {
 					culture = {
 						has_discrimination_trait = indigenous_american_heritage
-						has_discrimination_trait = eastern_woodlands
+						OR = {
+							has_discrimination_trait = eastern_woodlands
+							has_discrimination_trait = romance_speaker
+						}
 					}
 				}
 			}
@@ -2392,7 +2401,10 @@
 				scope:pop ?= {
 					culture = {
 						has_discrimination_trait = indigenous_american_heritage
-						has_discrimination_trait = eastern_woodlands
+						OR = {
+							has_discrimination_trait = eastern_woodlands
+							has_discrimination_trait = romance_speaker
+						}
 					}
 				}
 			}
@@ -2401,7 +2413,10 @@
                 scope:character ?= {
                     culture = {
 						has_discrimination_trait = indigenous_american_heritage
-						has_discrimination_trait = eastern_woodlands
+						OR = {
+							has_discrimination_trait = eastern_woodlands
+							has_discrimination_trait = romance_speaker
+						}
                     }
 					NOR = {
 						is_interest_group_type = ig_landowners
@@ -2459,7 +2474,10 @@
 					}
 					culture = {
 						has_discrimination_trait = indigenous_american_heritage
-						has_discrimination_trait = eastern_woodlands
+						OR = {
+							has_discrimination_trait = eastern_woodlands
+							has_discrimination_trait = romance_speaker
+						}
 					}
 				}
 			}
@@ -2468,7 +2486,10 @@
                 scope:character ?= {
                     culture = {
 						has_discrimination_trait = indigenous_american_heritage
-						has_discrimination_trait = eastern_woodlands
+						OR = {
+							has_discrimination_trait = eastern_woodlands
+							has_discrimination_trait = romance_speaker
+						}
                     }
 					OR = {
 						is_interest_group_type = ig_landowners

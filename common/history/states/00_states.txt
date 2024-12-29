@@ -6534,8 +6534,6 @@ STATES = {
 		}
 		
 		add_homeland = cu:finnish
-		add_homeland = cu:swedish
-		add_claim = c:SWE
 	}
 	s:STATE_ALAND = {
 		create_state = {
@@ -6544,8 +6542,7 @@ STATES = {
 				xE04161 x459052
 			}
 		}
-		add_homeland = cu:swedish
-		add_claim = c:SWE
+		add_homeland = cu:finnish
 	}
 	s:STATE_WEST_KARELIA = {
 		create_state = {

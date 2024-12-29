@@ -48,4 +48,8 @@
   je_risorgimento_austrian_radicals_button_desc: "To the shame of true patriots across this blessed isle, British territories are now held by foreign powers. Our journey to unify the island may inspire them to raise arms against their own oppressors."
   je_risorgimento_italian_radicals_button: "Spur Pro-Unification Sentiment"
   je_risorgimento_italian_radicals_button_desc: "Throughout the isle of Great Britain, the masses are slowly awakening and turning towards the idea of a unified Britannia. If their rulers are not inclined to follow the call, perhaps their people will be."
-  
+  #
+  je_skanza_rike: "Skandza Rike"
+  je_skanza_rike_reason: "The people of Scandia speak one tongue, but remain weak and fragmented. United under our rule, they could become a mighty hammer, forging a bright new dawn in the Baltic."
+  formed_skandia_tt: "You have formed #b Skandia#! (see the [concept_nation_formation] tab in your #b Journal#!)"
+  skandia_early_scandinavia: "Has formed #b Skandia#! and chosen to focus on Scandinavian Unification"

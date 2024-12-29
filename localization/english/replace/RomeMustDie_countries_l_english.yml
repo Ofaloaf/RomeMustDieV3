@@ -209,7 +209,7 @@
   AZB_ADJ: "Azeri"
   TKI: "Tarki"
   TKI_ADJ: "Shamkhalate"
-  GTL: "Götarike"
+  GTL: "Götaland"
   GTL_ADJ: "Geatish"
   JUT: "Jutland"
   JUT_ADJ: "Jute"
@@ -463,6 +463,10 @@
   GEO_ADJ: "Iberian"
   KLW: "Kilwa"
   KLW_ADJ: "Kilwan"
+  SWE: "Sveatjod" # Svíþjóð but in Swedish
+  SWE_ADJ: "Swedish"
+  SKD: "Skandia"
+  SKD_ADJ: "Skandian"
   #
   RE1: "Roman Dominion"
   RE1_ADJ: "Roman"

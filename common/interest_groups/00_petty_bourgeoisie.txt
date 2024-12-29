@@ -16,6 +16,9 @@
 		ideology_jingoist_leader
 		ideology_protectionist
 		ideology_sovereignist_leader
+		ideology_principate
+		ideology_dominate
+		ideology_attila_partisan
 	}
 
 	enable = {

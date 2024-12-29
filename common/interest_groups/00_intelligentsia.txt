@@ -19,6 +19,7 @@
 		ideology_sovereignist_leader
 		ideology_despotic_utopian
 		ideology_humanitarian
+		ideology_principate
 	}
 
 	enable = {

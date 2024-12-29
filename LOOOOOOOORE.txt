@@ -2,7 +2,7 @@
 #
 - Roman society continued to evolve a bit, but I'm taking a lot from Turtledove's depiction of a surviving Rome in "Gunpowder Empire"—this Roman Empire is not innovative, it's overburdened, it's formidable only because it's already large.
 - 18th century Latin is not the same as Classical Latin, and has continued to totter towards being a Romance language. It has a lot of characteristics of Italian but isn't quite the same—I tried to uniformly apply some phonological shifts found in Proto Romance but probably fucked that up.
-- Latin has also split regionally: 
+- Latin has also split regionally, flavored thusly: 
 	- "Gallic" is derived from Old French
 	- "Septimanian" is a mix of Old Occitan and Old Catalan
 	- "Hispanian" is Old Castilian, and classical names written in modern Spanish
@@ -22,7 +22,7 @@
 	- "Pannonia" remains the name of the region according to classicists and intelligentsia types, in the same way the French Revolution kept clumsily trying to resuscitate toponyms from antiquity. The realm is more often the Kingdom of the Huns, Land of the Huns, or Hunnia, the latter of which I've avoided using just because it sits weird with me.
 - Continued Roman policies regarding the frontier mean that efforts at unification and centralization among bordering peoples (Germans, Slavs, Berbers, etc.) have been shot down throughout the years by whatever means were available.
 	- "Germania" as a region exists as an idea, but the Thuringians, Franks, Lombards, etc. don't think of themselves as a single German people.
-- Franks are like Mega-Dutch
+- Franks didn't successfully encroach deep into Roman Gaul and therefore are primarily Germanic still. They're like... Mega-Dutch
 	- I tried using Old Dutch nameforms for them
 - Slavic migrations happened
 	- Slavic migration along the lower Danube led to the unification of the Seven Slavic Tribes that formed the basis of Slavic Bulgaria, but Bulgars didn't rock up so they were just the Seven Tribes without a Bulgar namesake.

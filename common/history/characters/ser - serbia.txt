@@ -1,0 +1,8 @@
+﻿CHARACTERS = {
+	c:SER = {
+		create_character = {
+			# Petar of Rascia
+			template = ser_serbia_ruler
+		}
+	}
+}

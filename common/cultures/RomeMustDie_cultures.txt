@@ -1188,7 +1188,7 @@ africanu = { # African Romance, with some Vandals
 		Zacobba
 	}
 	common_last_names={
-		Anatolianu Arelianu Armugastianu Anisianu Asturianu Anedda Atzeni Aru Awras Auziensi Ambiensi Amauranu
+		Anatolianu Arelianu Armugastianu Anisianu Asturianu Anedda Atzeni Aru Awras Auziensi Ambiensi Amauranu Agileus
 		Bizaceneni Bixiu Balistreri Bandinu Broccu Brachodanu Bacanariensi Balianensi Bidensi Baparanu Benepotanu
 		Cluveriu Culusiensi Cerbonianu Cressoni Corippianu Cappai Cubeddu Cabras Castellanu Caltadriensi Capranu Cillanu Catulanu Cissiensi Corniculanu Catabanu
 		Emilianu Epenetianu Elefantariensi
@@ -1450,7 +1450,7 @@ sardinian={
 		Diadoru Damasu
 		Efis
 		EmI_liu # Emìliu 
-		Fulgentziu
+		Fulgentziu Furatu
 		Gregoriu GiU_liu Giuanni GO_samu
 		Hieronimu
 		Iroxi Iscipione
@@ -1494,7 +1494,7 @@ sardinian={
 		Desiderius Dorgotorius Delogu
 		Epiphanius Eutalius
 		de_Fordongianus
-		Gonare Gimignanu GaudE_ntziu Gavinu de_Gallura Gambella de_Garteddi
+		Gonare Gimignanu GaudE_ntziu Gavinu de_Gallura Gambella de_Garteddi de_Gitil
 		Ietoccor Iginu
 		Kerssa
 		Lussulzu de_Lacon
@@ -1502,10 +1502,10 @@ sardinian={
 		Nepote
 		Omodeus de_OrrU_
 		de_Putzolu de_Piras de_PaU_lle
-		Quinisextus
+		Quinisextus Quintasius
 		de_Rossi
-		SetI_miu Saltaru Saveriu Symmachus de_Salanis Salusius de_Scanu de_Sueddi de_Serra
-		Tzitzerone de_TA_tari Torbenius Thapensi de_Turris Theophilus Torchitorius de_Thori de_Tergu de_Trullas Tedisius
+		SetI_miu Saltaru Saveriu Symmachus de_Salanis Salusius de_Scanu de_Sueddi de_Serra Saturninus Simplicius
+		Tzitzerone de_TA_tari Torbenius Thapensi de_Turris Theophilus Torchitorius de_Thori de_Tergu de_Trullas Tedisius Tigellius
 		de_Ugunale
 		Zabarda
 	}
@@ -1761,7 +1761,7 @@ sclaveni={
 		Pencho Petar Petko Petur_2 Pravoslav
 		Racho Radko Radogost
 		Sava Simeon Sotir Stanislav Stanko Stefan Stiliyan Stoyu
-		Teodosi Todor Trifon
+		Teodosi Todor Trifon Tichomir
 		Valko Vasil Velizar Vulko
 	}
 	female_common_first_names = {
@@ -1773,10 +1773,20 @@ sclaveni={
 		Todorka
 	}	
 	noble_last_names = {
-		Brsjak Bogoridi
+		Alousianos
+		Brsjak Bogoridi Borilos Berzitski Brodniski
 		Draguvitski
-		Shishmanov Struma
+		Ezerski
+		Goulinos
+		Iziaslavov
+		Karamas Kataleim Kegen
+		Marvaski Miltsovski Milengski
+		Prousianos
+		Ros Rinkhinski
+		Shishmanov Struma Soultzous Smolyanski Strimonski Severyanski Sagudatski
+		Tatranes
 		Voyteh Vajunitski
+		Zagorcenski
 	}
 	common_last_names={
 		Agura Angelov Ankov Antonov

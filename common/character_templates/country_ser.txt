@@ -1,0 +1,17 @@
+﻿### Serbia character template file ###
+
+ser_serbia_ruler = {
+    first_name = "Petar"
+    last_name = "RaS_ka"
+    culture = cu:serb
+    historical = yes
+    ruler = yes
+    age = 53
+    interest_group = ig_landowners
+    ideology = ideology_moderate
+    traits = {
+        pious
+        compliant
+        expensive_tastes
+    }
+}
