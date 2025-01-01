@@ -1,0 +1,19 @@
+﻿### Yan character template file ###
+
+yan_ruler = {
+    first_name = "Du"
+    last_name = "Chu"
+    culture = cu:han
+    religion = cu:confucian
+    historical = yes
+    ruler = yes
+    age = 48
+    interest_group = ig_armed_forces
+    ideology = ideology_moderate
+    traits = {
+        imperious
+        cruel
+        honorable
+        traditionalist_commander
+    }
+}

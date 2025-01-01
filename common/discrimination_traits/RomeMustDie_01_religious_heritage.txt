@@ -1,3 +1,7 @@
 ﻿new_world = {
 	heritage = yes
 }
+
+african_pagan = {
+	heritage = yes
+}

@@ -467,6 +467,10 @@
   SWE_ADJ: "Swedish"
   SKD: "Skandia"
   SKD_ADJ: "Skandian"
+  FRS: "Taiwan"
+  FRS_ADJ: "Taiwan"
+  YAN: "Yan"
+  YAN_ADJ: "Yan"
   #
   RE1: "Roman Dominion"
   RE1_ADJ: "Roman"
@@ -499,12 +503,10 @@
   dyn_c_venedotia_adj: "Venedotian"
   dyn_c_momonia: "Momonia"
   dyn_c_momonia_adj: "Momonian"
-  
   dyn_c_icenia: "Icenia"
   dyn_c_icenia_adj: "Icenian"
   dyn_c_eboracum: "Eboracum"
   dyn_c_eboracum_adj: "Eboracum"
-
   dyn_c_carnatic_republic: "Carnatic Republic"
   dyn_c_carnatic_republic_adj: "Carnatic"
   dyn_c_aigyptos: "Aigyptos"
@@ -543,6 +545,11 @@
   dyn_c_indo_gangetic_union_adj: "Indo-Gangetic"
   dyn_c_indo_gangetic_free_territory: "Indo-Gangetic Free Territory"
   dyn_c_indo_gangetic_free_territory_adj: "Indo-Gangetic"
+  dyn_c_tungtu: "Kingdom of Tungtu"
+  dyn_c_tungtu_adj: "Tungtu"
+  dyn_c_tungning: "Kingdom of Tungning"
+  dyn_c_tungning_adj: "Tungning"
+  #
   dyn_c_domain_of_illyricum: "Domain of Illyricum"
   dyn_c_domain_of_illyricum_adj: "Illyric"
   dyn_c_domain_of_gaul: "Domain of Gaul"

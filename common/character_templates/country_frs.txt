@@ -1,0 +1,67 @@
+﻿frs_ruler = {
+    #
+    first_name = "Qiangwei" # 强伟, 'strong & magnificent'
+    last_name = "Dong" # family of Koxinga's wife
+    historical = yes
+    ruler = yes
+    age = 37
+    culture = cu:min
+    religion = cu:confucian
+    interest_group = ig_landowners
+    ideology = ideology_traditionalist
+    traits = {
+        meticulous
+        syphilis
+        terrible_speaker
+        personal_wealth
+    }
+}
+
+frs_heir = {
+    first_name = "Junhuan" # 'lord supremacy' i think?
+    last_name = "Dong"
+    historical = yes
+    heir = yes
+    age = 14
+    culture = cu:min
+    religion = cu:confucian
+    interest_group = ig_landowners
+    ideology = ideology_moderate
+    traits = {
+        ambitious
+        reckless
+    }
+}
+
+frs_landowners = {
+    first_name = Shouyong
+    last_name = Li
+    culture = cu:han
+    religion = cu:confucian
+    historical = yes
+    age = 60
+    ig_leader = yes
+    interest_group = ig_landowners
+    ideology = ideology_moderate
+    traits = {
+        cautious
+        compliant
+        master_bureaucrat
+    }
+}
+
+frs_devout = {
+    first_name = Hongju
+    last_name = Chen
+    culture = cu:han
+    religion = cu:confucian
+    historical = yes
+    age = 54
+    ig_leader = yes
+    interest_group = ig_devout
+    ideology = ideology_moderate
+    traits = {
+        arrogant
+        political_appointee
+    }
+}

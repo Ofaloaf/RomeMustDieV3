@@ -62,6 +62,13 @@
   mesoamerican_pagan: "Mesoamerican"
   great_spirit: "Great Spirit"
   atua: "Atua"
+  african_pagan: "African Pagan"
+  west_african_pagan: "West African"
+  north_african_pagan: "North African"
+  east_bantu_pagan: "Mulungu"
+  oromo_pagan: "Waaqist"
+  congo_pagan: "Bukongo"
+  south_bantu_pagan: "Umvelinqangi"
   #
   dummy_heritage: "#red #b DUMMY - REPORT IF YOU SEE THIS#!#!"
   dummy_language: "#red #b DUMMY - REPORT IF YOU SEE THIS#!#!"

@@ -659,3 +659,44 @@ IGS = { # Indus-Ganges/Indo-Gangetic Everything
 		}
 	}
 }
+
+FRS = { # Taiwan
+	dynamic_country_name = {
+		name = dyn_c_tungtu
+		adjective = dyn_c_tungtu_adj
+
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+			scope:actor ?= {
+				OR = {
+					has_claim = s:STATE_FUJIAN
+					any_scope_state = {
+						state_region = s:STATE_FUJIAN
+					}
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_tungning
+		adjective = dyn_c_tungning_adj
+
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+			scope:actor ?= {
+				NOR = {
+					has_claim = s:STATE_FUJIAN
+					any_scope_state = {
+						state_region = s:STATE_FUJIAN
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+﻿CHARACTERS = {
+	c:FRS ?= {
+		create_character = {
+			template = frs_ruler
+		}
+		create_character = {
+			template = frs_heir
+		}
+		# IG leaders
+		create_character = {
+			template = frs_landowners
+		}
+		create_character = {
+			template = frs_devout
+		}
+	}
+}

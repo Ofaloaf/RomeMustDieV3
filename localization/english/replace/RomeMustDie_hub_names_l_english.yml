@@ -1528,6 +1528,13 @@
  HUB_NAME_STATE_ULIASTAI_farm:0 "Khorgo"
  HUB_NAME_STATE_ULIASTAI_wood:1 "Ölgii"
  #
+ STATE_FORMOSA: "Taiwan"
+ HUB_NAME_STATE_FORMOSA_city: "Anping" # Modern-day Tainan. TODO: should be located where Tainan is
+ HUB_NAME_STATE_FORMOSA_port:1 "Takow"
+ HUB_NAME_STATE_FORMOSA_mine:1 "Kelung"
+ HUB_NAME_STATE_FORMOSA_farm:0 "Taichung"
+ HUB_NAME_STATE_FORMOSA_wood: "Chengnei" # This is an old prefectural name for Taipei. TODO: should be located where Taipei is
+ #
  STATE_WESTERN_AFGHANISTAN: "Western Afghanistan"
  HUB_NAME_STATE_WESTERN_AFGHANISTAN_city:0 "Herat"
  HUB_NAME_STATE_WESTERN_AFGHANISTAN_mine:0 "Shindand"

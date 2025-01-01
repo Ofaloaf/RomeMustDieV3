@@ -450,7 +450,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:dakota	
-		add_claim = c:USA
+		add_claim = c:LOU
 	}
 	s:STATE_KANSAS = {
 		create_state = {
@@ -957,7 +957,6 @@ STATES = {
 		add_homeland = cu:cree
 		add_homeland = cu:metis
 		add_homeland = cu:athabaskan
-		add_claim = c:HBC
 	}
 	s:STATE_MANITOBA = {
 		create_state = {
@@ -4297,8 +4296,7 @@ STATES = {
 			owned_provinces = { x7A4DF4 x0C7820 x8080F0 xC04B6D }
 		}
 		
-		add_homeland = cu:moluccan
-		add_claim = c:DEI
+		add_homeland = cu:moluccan=
 	}
 	s:STATE_WEST_BORNEO = {
 		create_state = {
@@ -6305,7 +6303,7 @@ STATES = {
 	}
 	s:STATE_BEIJING = {
 		create_state = {
-			country = c:CHI
+			country = c:YAN
 			owned_provinces = { 
 				"x038690" "x0DC804" "x0E8D56" "x0F5604" "x0F88C8" "x132B15" "x15C9C0" "x166F01" "x1DE6DF" "x1E1B11" "x20642C" "x2167D8" "x231686" "x248784" "x2AD313" "x2BA1CE" "x2C0AC4" "x2F7E73" "x3A340B" "x3C6EFC" "x3CFF20" "x3E9C33" "x3F46FB" "x49C04A" "x4BECCA" "x4ED08B" "x58AFAC" "x5D4C2D" "x5F795B" "x61E0DD" "x6376AC" "x6583A6" "x6A5736" "x6AB0FB" "x74A475" "x74DF28" "x762B45" "x777A4F" "x84B446" "x88FF71" "x89DBF2" "x8D47D0" "x9BB46B" "xA0662C" "xA8C9D2" "xAA031A" "xAF5387" "xB00D9D" "xB17E6B" "xB6039C" "xB9FF8C" "xBCF72D" "xBDC299" "xC7BB4D" "xC905ED" "xCC917E" "xCDCDEE" "xD13996" "xD1BFAF" "xD4E0E8" "xE60560" "xED840A" "xF151F1" "xF1EF03" "xF4B72A" "xFBDEDF"
 			}
@@ -6426,6 +6424,7 @@ STATES = {
 		add_homeland = cu:han
 		add_homeland = cu:min
 		add_homeland = cu:hakka
+		add_claim = c:FRS
 	}
 	s:STATE_ZHEJIANG = {
 		create_state = {
@@ -6520,7 +6519,7 @@ STATES = {
 	}
 	s:STATE_FORMOSA = {
 		create_state = {
-			country = c:YUZ
+			country = c:FRS
 			owned_provinces = { x44797F x9A5066 xE73B31 x6645CF xBB27F6 x6DAB21 xAEA2D8 x7070E0 }
 		}
 		
@@ -6552,7 +6551,6 @@ STATES = {
 			}
 		}
 		add_homeland = cu:finnish
-		add_claim = c:SWE
 	}
 	s:STATE_OSTROBOTHNIA = {
 		create_state = {

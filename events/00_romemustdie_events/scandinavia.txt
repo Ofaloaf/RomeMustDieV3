@@ -63,12 +63,20 @@ scandinavia.1 = {
 				}
 			}
 		}
+
+		ai_chance = {
+			factor = 1
+		}
 	}
 	option = {
 		name = scandinavia.1.b
 		remove_global_variable = beowulf_var
 		add_radicals = {
 			value = small_radicals
+		}
+
+		ai_chance = {
+			factor = 0
 		}
 	}
 }

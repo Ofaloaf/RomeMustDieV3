@@ -1,0 +1,23 @@
+﻿je_mughal_hindustan = {
+    icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_historical_content
+
+    complete = {
+    }
+
+    on_complete = {
+    }
+
+    invalid = {
+    }
+
+    fail = {
+    }
+
+    on_monthly_pulse = {
+    }
+
+    weight = 1000
+    should_be_pinned_by_default = yes
+}

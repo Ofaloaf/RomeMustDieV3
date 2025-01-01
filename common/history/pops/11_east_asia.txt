@@ -260,7 +260,7 @@
 		}
 	}
 	s:STATE_BEIJING = {
-		region_state:CHI = {
+		region_state:YAN = {
 			create_pop = {
 				culture = han
 				size = 9573700
@@ -768,7 +768,7 @@
 		}
 	}
 	s:STATE_FORMOSA = {
-		region_state:YUZ = {
+		region_state:FRS = {
 			create_pop = {
 				culture = min
 				size = 1480000

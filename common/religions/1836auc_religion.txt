@@ -89,3 +89,51 @@ atua = { # Polynesian faiths
 	}
 	color = { 0.3 0.3 0.5 }
 }
+
+west_african_pagan = { # Dogon, Serer, Hausa
+	texture = "gfx/interface/icons/religion_icons/west_african.dds"
+	traits = {
+		african_pagan
+	}
+	color = { 0.8 0.35 0.0 }
+}
+
+north_african_pagan = { # 
+	texture = "gfx/interface/icons/religion_icons/north_african.dds"
+	traits = {
+		african_pagan
+	}
+	color = { 0.75 0.75 0.50 }
+}
+
+east_bantu_pagan = { # 
+	texture = "gfx/interface/icons/religion_icons/east_bantu.dds"
+	traits = {
+		african_pagan
+	}
+	color = { 0.66 0.25 0.55 }
+}
+
+oromo_pagan = { # 
+	texture = "gfx/interface/icons/religion_icons/waaqism.dds"
+	traits = {
+		african_pagan
+	}
+	color = { 0.84 0.36 0.12 }
+}
+
+congo_pagan = { # 
+	texture = "gfx/interface/icons/religion_icons/congo_pagan.dds"
+	traits = {
+		african_pagan
+	}
+	color = { 0.55 0.66 0.66 }
+}
+
+south_bantu_pagan = { # 
+	texture = "gfx/interface/icons/religion_icons/south_bantu_pagan.dds"
+	traits = {
+		african_pagan
+	}
+	color = { 0.25 0.22 0.66 }
+}

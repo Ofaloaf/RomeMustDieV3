@@ -1289,7 +1289,7 @@ PER = {
 	
 	tier = empire
 	
-	cultures = { persian azeri}
+	cultures = { persian }
 	capital = STATE_IRAKAJEMI
 }
 
@@ -2979,7 +2979,7 @@ QIA = { # Qian
 	capital = STATE_GUANGDONG
 }
 
-FRS = { # Formosa
+FRS = { # Taiwan
 	color = { 218 234 15 }
 	
 	country_type = unrecognized

@@ -135,7 +135,7 @@
 	}
 
   # Axum
-  c:TGY ?= {
+  c:TGR ?= {
 		add_declared_interest = region_arabic
 	}
 

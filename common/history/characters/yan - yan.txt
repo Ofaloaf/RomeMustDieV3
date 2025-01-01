@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:YAN = {
+		create_character = {
+			template = yan_ruler			# Du Chu, in Chinese form Chu Du, 褚度
+		}
+	}
+}

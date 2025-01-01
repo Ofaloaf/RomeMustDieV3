@@ -1043,7 +1043,6 @@ SCA = { # Scandinavia
 		priority = 1
 	}	
 
-
 	flag_definition = {
 		coa = SCA_pagan_tricolor
 		subject_canton = SCA_pagan_tricolor
@@ -1051,5 +1050,30 @@ SCA = { # Scandinavia
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
 		}
+	}
+}
+
+FRS = { # Taiwan
+	flag_definition = {
+		coa = FRS
+		subject_canton = FRS
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = FRS_republic
+		subject_canton = FRS_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+}
+
+YAN = { # Yan
+	flag_definition = {
+		coa = YAN
+		subject_canton = YaN
+		priority = 1
 	}
 }
