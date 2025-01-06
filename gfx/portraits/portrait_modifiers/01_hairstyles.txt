@@ -178,7 +178,7 @@
 					scope:pop ?= {
 						is_pop_type = soldiers
 						culture = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 						}
 					}
 					AND = {

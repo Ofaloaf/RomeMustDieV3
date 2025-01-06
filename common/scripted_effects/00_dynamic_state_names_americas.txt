@@ -22,7 +22,7 @@ STATE_NEW_JERSEY_state_name_assign = { # Lënapehòkink/Lenapehokink/Lenappia
         limit = {
             owner = {
                 any_primary_culture = {
-                    has_discrimination_trait = romance_speaker
+                    has_discrimination_trait = latin_speaker
                 }
             }
         }

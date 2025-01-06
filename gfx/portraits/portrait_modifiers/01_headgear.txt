@@ -37,7 +37,7 @@
                 }
 				scope:pop ?= {
 					culture = {
-						NOT = { has_discrimination_trait = romance_speaker }
+						NOT = { has_discrimination_trait = latin_speaker }
 					}
 				}
             }
@@ -107,7 +107,7 @@
                 european_clothes_pop_trigger = yes
 				scope:pop ?= {
 					culture = {
-						has_discrimination_trait = romance_speaker
+						has_discrimination_trait = latin_speaker
 					}
 				}
             }
@@ -320,7 +320,7 @@
 					}
 					culture = {
                         OR = {
-    						has_discrimination_trait = romance_speaker
+    						has_discrimination_trait = latin_speaker
                             cu:greek = this
                             cu:albanian = this
                             cu:serb = this
@@ -337,7 +337,7 @@
                     is_interest_group_type = ig_petty_bourgeoisie
                     culture = {
                         OR = {
-                            has_discrimination_trait = romance_speaker
+                            has_discrimination_trait = latin_speaker
                             cu:greek = this
                             cu:albanian = this
                             cu:serb = this
@@ -369,7 +369,7 @@
 					is_ruler = no
 					is_interest_group_type = ig_intelligentsia
 					culture = {
-						has_discrimination_trait = romance_speaker
+						has_discrimination_trait = latin_speaker
 					}
 				}
             }
@@ -676,7 +676,7 @@
                     is_ruler = yes
                     culture = {
 						has_discrimination_trait = eastern_woodlands
-						NOT = { has_discrimination_trait = romance_speaker }
+						NOT = { has_discrimination_trait = latin_speaker }
 					}
                 }
             }
@@ -700,7 +700,7 @@
                     is_ruler = no
                     culture = {
 						has_discrimination_trait = eastern_woodlands
-						NOT = { has_discrimination_trait = romance_speaker }
+						NOT = { has_discrimination_trait = latin_speaker }
 					}
                 }
             }
@@ -709,7 +709,7 @@
                 scope:pop ?= {
                     culture = {
 						has_discrimination_trait = eastern_woodlands
-						NOT = { has_discrimination_trait = romance_speaker }
+						NOT = { has_discrimination_trait = latin_speaker }
 					}
                 }
             }

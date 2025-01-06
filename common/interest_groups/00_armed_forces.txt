@@ -113,7 +113,7 @@
 					c:ERE ?= this
 					AND = {
 						any_primary_culture = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 						}
 						OR = {
 							country_tier = empire
@@ -132,7 +132,7 @@
 		else_if = {
 			limit = {
 				any_primary_culture = {
-					has_discrimination_trait = romance_speaker
+					has_discrimination_trait = latin_speaker
 				}
 				NOR = {
 					country_tier = empire

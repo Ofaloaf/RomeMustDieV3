@@ -34,7 +34,7 @@
 				limit = {
 					owner = { 
 						any_primary_culture = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 							has_discrimination_trait = european_heritage
 						}
 					}
@@ -54,7 +54,7 @@
 		if = {
 			limit = {
 				any_primary_culture = {
-					has_discrimination_trait = romance_speaker
+					has_discrimination_trait = latin_speaker
 					has_discrimination_trait = european_heritage
 				}
 			}

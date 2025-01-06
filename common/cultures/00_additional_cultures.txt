@@ -88,7 +88,7 @@
 	graphics = european
 }
 
-scottish={
+scottish={ # Scotti in-game. Now focused on Scottish Gaelic rather than Lowland Scots.
 	color={ 72 79 127 }
 	religion = nicene
 	traits = { celtic_people european_heritage }
@@ -159,7 +159,7 @@ scottish={
 galician={
 	color= hsv{ 0.52 0.51 0.75 }
 	religion = nicene
-	traits = { latin_culture_group romance_speaker european_heritage }
+	traits = { iberian_heritage european_heritage hispanice latin_speaker }
 	male_common_first_names={
 		Abel Adriano Alberto Absalon Andre Antonio_2 Aquilino Augusto Adiuvando Aidio ApariC_io
 		Bartolomeu Bennatus Blandino

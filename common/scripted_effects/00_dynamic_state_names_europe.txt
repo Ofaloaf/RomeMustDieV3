@@ -110,7 +110,7 @@ STATE_ALBANIA_state_name_assign = {
         limit = {
             owner = {
                 any_primary_culture = {
-                    has_discrimination_trait = romance_speaker
+                    has_discrimination_trait = latin_speaker
                 }
                 NOT = {
                     owner = {

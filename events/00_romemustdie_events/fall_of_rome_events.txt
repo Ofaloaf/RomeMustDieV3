@@ -534,7 +534,7 @@ fall_of_rome_events.1 = {
 			# essentially the same as scripted trigger greco_roman_european_culture
 			has_discrimination_trait = european_heritage
 			OR = {
-				has_discrimination_trait = romance_speaker
+				has_discrimination_trait = latin_speaker
 				has_discrimination_trait = greek_culture
 			}
 		}
@@ -2825,7 +2825,7 @@ fall_of_rome_events.7 = { # Language Reform?
 	trigger = {
 		NOT = { has_variable = roman_language_debate }
 		any_primary_culture = {
-			has_discrimination_trait = romance_speaker # doesn't make sense for Greek speakers
+			has_discrimination_trait = latin_speaker # doesn't make sense for Greek speakers
 		}
 		is_at_war = no
 		ig:ig_intelligentsia = { 

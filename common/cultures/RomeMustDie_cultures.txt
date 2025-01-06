@@ -1,7 +1,7 @@
 ﻿roman={
 	color= hsv{ 0.14 0.93 0.80 }
 	religion = nicene
-	traits = { romance_speaker latin_culture_group european_heritage }
+	traits = { italic_heritage european_heritage romanice latin_speaker }
 	
 	male_common_first_names={
 		Anastasio Andreas Arcadio Ambrosio Aussentio Anthemio Amadeo Agustino Antonio
@@ -492,7 +492,7 @@ saxon = { # Mix of Plattdüütsch/Neddersassisch and Old Saxon
 gallic = { # Old French, plus some Old Occitan influences
 	color= hsv{ 0.93 0.14 0.80 }
 	religion = nicene
-	traits = { romance_speaker latin_culture_group european_heritage }
+	traits = { european_heritage gallice latin_speaker }
 	
 	male_common_first_names = {
 		Alexis Ansiaus Avides Alixandres Agricola Aureliien Andres
@@ -566,7 +566,7 @@ gallic = { # Old French, plus some Old Occitan influences
 septimanian={
 	color= rgb{ 255 150 185 }
 	religion = nicene
-	traits = { romance_speaker latin_culture_group european_heritage }
+	traits = { european_heritage gallice latin_speaker }
 	
 	male_common_first_names={
 		Adrian Andreus Antoni
@@ -654,7 +654,7 @@ septimanian={
 brithenig = {
 	color= hsv{ 0.14 0.41 0.80 }
 	religion = pelagian
-	traits = { romance_speaker celtic_people european_heritage }
+	traits = { celtic_people european_heritage britannic latin_speaker }
 	
 	male_common_first_names = {
 		Artorius Aleisandr Arthamil Adda Arthwr Antoin Awstin Alan Arthen Argad Andreas
@@ -746,7 +746,7 @@ brithenig = {
 hispanian = {
 	color={ 110 80 55 }
 	religion = nicene
-	traits = { romance_speaker latin_culture_group european_heritage }
+	traits = { iberian_heritage european_heritage hispanice latin_speaker }
 	male_common_first_names = {
 		Abbelino Abellonio Abdias Abraham Abrentius Acerrimus Adam Adamantius Adiuvando 
 		Atrianus Advocatus Aecius Afriganus Agrestius Augustinu Albanus Almacius 
@@ -844,7 +844,7 @@ hispanian = {
 chesepian = {
 	color={ 110 80 55 }
 	religion = nicene
-	traits = { romance_speaker indigenous_american_heritage }
+	traits = { indigenous_american_heritage romanice latin_speaker }
 	male_common_first_names = {
 		Achilles Alexander
 		Cincinnatus Cornelius Constantinus
@@ -911,7 +911,7 @@ chesepian = {
 ulpianic = {
 	color={ 80 180 155 }
 	religion = nicene
-	traits = { romance_speaker european_heritage }
+	traits = { latin_settler european_heritage hispanice latin_speaker }
 	
 	male_common_first_names = {
 		Antonio_3 Augusto Aurelio_2 Azulano Antonino
@@ -991,7 +991,7 @@ ulpianic = {
 antillian = {
 	color= hsv{ 0.55 0.24 0.80 }
 	religion = nicene
-	traits = { romance_speaker european_heritage }
+	traits = { latin_settler european_heritage romanice latin_speaker }
 	
     male_common_first_names = {
         Alessio Andreas Amadeo Agustino Antonio Agricola Aquilo Auster Austeronoto Africo
@@ -1058,7 +1058,7 @@ antillian = {
 gothic = { # Occitan, basically
 	color= hsv{ 0.55 0.24 0.80 }
 	religion = arian
-	traits = { romance_speaker germanic_culture_group european_heritage }
+	traits = { european_heritage gallice latin_speaker }
 	
 	male_common_first_names = {
 		Adam Ademar AenrI_s AnfO_s Atalaric Alaric Atanaric Atanagild Agila Amalric Ardo
@@ -1142,7 +1142,7 @@ gothic = { # Occitan, basically
 africanu = { # African Romance, with some Vandals
 	color= hsv{ 0.24 0.80 0.55 }
 	religion = arian
-	traits = { romance_speaker latin_culture_group european_heritage }
+	traits = { mauretanian north_african_heritage meridionalis latin_speaker }
 	
 	male_common_first_names={
 		AlI_ssiu Andria A_nghelu Aristeu AtI_liu Abbmelcar Aderbalu Antzioghu Apuleju Aureliu Arzoghu Antala Alaricu Agustinu Ascali
@@ -1270,7 +1270,7 @@ ojibwe={
 antian = { # Andean
 	color= hsv{ 0.24 0.24 0.55 }
 	religion = nicene
-	traits = { romance_speaker european_heritage }
+	traits = { latin_speaker european_heritage }
 	
     male_common_first_names = {
 		Alexander
@@ -1439,7 +1439,7 @@ catawba = {
 sardinian={
 	color= rgb{ 97 209 251 }
 	religion = nicene
-	traits = { european_heritage romance_speaker latin_culture_group }
+	traits = { italic_heritage european_heritage meridionalis latin_speaker }
 	
 	male_common_first_names={
 		Andria Antoni Anghelu Antoninu Antiogu Ambrosu Austinu
@@ -1541,7 +1541,7 @@ sardinian={
 burgundian = { # Arpetan with some Swiss Latin thrown in
 	color= hsv{ 0.88 0.56 0.84 }
 	religion = arian
-	traits = { germanic_culture_group european_heritage romance_speaker }
+	traits = { germanic_culture_group european_heritage gallice latin_speaker }
 
 	male_common_first_names = {
 		AmE_dE_ Aguilmar
@@ -1614,7 +1614,7 @@ burgundian = { # Arpetan with some Swiss Latin thrown in
 illyrian={ # Dalmatian, with some Illyrian names droppped in either in purestrain Latin form or slightly garbled
 	color= rgb{ 165 188 222 }
 	religion = nicene
-	traits = { european_heritage latin_culture_group romance_speaker }
+	traits = { illyric_heritage european_heritage romanice latin_speaker }
 	
 	male_common_first_names = {
 		Adam Aguastin Alecuandur Aliau Andre Antuone 
@@ -1968,7 +1968,7 @@ copt={
 	obsessions = {
 		coffee
 	}
-	traits = { greek_culture middle_eastern_heritage }
+	traits = { egyptian_heritage north_african_heritage coptic kemetic }
 	male_common_first_names={
 		Ahmod Aiai Aha Akhom Amon Amakhte An Apanoub Apahour Apamon Aretee Apas Aaron Abianos Ablarion Abraam Agathonikos Androus Anthinos Arsenios Athanasios
 		Beet Bertouet Biktor Binyamin Boutros
@@ -2409,7 +2409,7 @@ nubian = {
 new_anatolic={
 	color= hsv{ 0.94 0.45 0.48 }
 	religion = nicene
-	traits = { greek_culture latin_culture_group european_heritage }
+	traits = { latin_settler european_heritage greek_language hellenic_group }
 
 	male_common_first_names = {
 		Antonios Anastasios Artabasdos Adeodatos Andreas Aetios
@@ -2570,7 +2570,7 @@ daju = {
 neoanahuacan = {
 	color=hsv{ 0.99 0.50 0.65 }
 	religion = nicene
-	traits = { romance_speaker european_heritage }
+	traits = { latin_speaker european_heritage }
 	
 	male_common_first_names = {
 		Antonio_3 Augusto Aurelio_2 Azulano Antonino
@@ -2650,7 +2650,7 @@ neoanahuacan = {
 afro_novomundan={
 	color= hsv{ 0.10 0.10 0.24 }
 	religion = nicene
-	traits = { romance_speaker african_heritage }
+	traits = { african_diaspora african_heritage romanice latin_speaker }
 	male_common_first_names={
 		Agricola Andreas Atticus Alexander Antonius Alcibiades Aristophanes Aristarchus
 		Barca Balthasar Brutus
@@ -2854,7 +2854,7 @@ tagalog={
 rhaetic={ # Rhaeto-Romance group. Mostly leaning on Romansh with some Ladin and Friulian mixed in, along with Latin to keep things thematic
 	color = rgb{148 41 63 }
 	religion = arian
-	traits = { romance_speaker latin_culture_group european_heritage }
+	traits = { italic_heritage european_heritage romanice latin_speaker }
 	
 	male_common_first_names={
 		Antoni Abraam Andri Adam Augustinus Amadeus AgapI_t Alesch Ambros Andreia Antimus
@@ -3002,7 +3002,7 @@ romankim={
 	
 	color= hsv{ 0.13 0.80 0.99 }
 	religion = jewish
-	traits = { jewish_group european_heritage } 
+	traits = { jewish_group european_heritage iodiesco_language latin_speaker } 
 
 	male_common_first_names={
 		Amos Abramo Amittai Ahimaaz Aronne Amadeo Aemilius Achille Azriel Asher Avigdor Azaria Andreas Ariston Akabia Abtalion Ananus Alexander
@@ -3082,7 +3082,7 @@ romankim={
 		Caslari Cantarini Curiel Castello Cassuto Corcos Calimani Colombo Cassuto Calvus Carucci Cipriani Caepio Cerusi Calamani Censci Cammeo Copia Callinicus Constantinus Cantatheras Caelius Catricius Clodius Calandio
 		Davi Diena Donati Donnolo Ducci Damneus Dativus Daphnus Deuterus Diophatas
 		Ergas Efrati Egri Errera Eugenio Eucardio Eurydemus Euphrenon Eulogus Eugraphius Euphrasius Eutychianus
-		Fiametta Finzi Faldini Fanno Fano Ferrarius Fiano Fini Finzi Florentini Flavius Fortis Fubini Fabius Fresca Fallone Falpano Ferragius Faustinus Felicianus Fofotis
+		Fiametta Finzi Faldini Fanno Fano Ferrarius Fiano Fini Florentini Flavius Fortis Fubini Fabius Fresca Fallone Falpano Ferragius Faustinus Felicianus Fofotis
 		Ghirondi Graziado Gerondi Gallico Gangi Gattegna Genero Gentili Gerbi Ghiron Gratianus Garti Goioso Genuanus Genialis Galasius
 		Hagiz Hasda Havli Haabadiq Ha-Haver Hadassi Helles Hermogenes Himerus
 		Infosso Iocathinus

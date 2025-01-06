@@ -79,7 +79,7 @@
 					c:ERE ?= this
 					c:POW ?= this
 					any_primary_culture = {
-						has_discrimination_trait = romance_speaker
+						has_discrimination_trait = latin_speaker
 					}
 				}
 			}

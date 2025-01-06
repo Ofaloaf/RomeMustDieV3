@@ -13,7 +13,7 @@ greco_roman_european_culture = {
 	culture ?= {
 		has_discrimination_trait = european_heritage
 		OR = {
-			has_discrimination_trait = romance_speaker
+			has_discrimination_trait = latin_speaker
 			has_discrimination_trait = greek_culture
 		}
 	}

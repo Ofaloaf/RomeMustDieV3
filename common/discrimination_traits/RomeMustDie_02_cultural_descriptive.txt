@@ -1,8 +1,31 @@
-﻿romance_speaker = {
-}
+﻿
 
 dummy_language = {
 }
 
 eastern_woodlands = {
 }
+
+# languages - parent + child, indented
+latin_speaker = { }
+	romanice = { }
+	iodiesco_language = { }
+	meridionalis = { }
+	gallice = { }
+	hispanice = { }
+	britannic = { }
+
+tamazight = { }
+	amazigh = { }
+
+kemetic = { }
+	coptic = { }
+
+vasconian = { }
+	basque_language = { }
+
+hindustani = {
+}
+
+hellenic_group = { }
+	greek_language = { }

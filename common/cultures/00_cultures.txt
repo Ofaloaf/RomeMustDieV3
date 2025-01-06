@@ -2284,113 +2284,89 @@ maltese={
 basque={
 	color= hsv{ 0.12 0.56 0.86 }
 	religion = nicene
-	traits = { iberian_culture_group european_heritage }
+	traits = { iberian_heritage european_heritage basque_language vasconian }
 	male_common_first_names={
-		Agustin
-		Aitor
-		Alberto
-		Ander
-		Andoni
-		Andres
-		Antonio
-		Arturo
-		Carlos
-		Ceferino
-		Cosme
-		Cristobal
-		Damian
-		Endika
-		Francisco_Javier
-		Ignacio
-		Imanol
-		Inaki
-		Jesus
-		Jon_2
-		Joseba
-		Josu
-		Jose_Antonio
-		Jose_Maria
-		Juan
-		Julen
-		Koldobika
-		Luis
-		Manuel
-		Marino
-		Miguel
-		Paulino
-		Pedro
-		Rafael_2
-		Ramiro
-		Ramon
-		Sabino
-		Tomas
-		Vicente
-		Angel
+		Aingeru Aita Aizo Amusko Anaia Andolin Andres Apalo Aper Ariz Armentari Arri Alexo
+		Bazkoare Baltz Bertolomeo Biquendi Bono Basilio
+		Didako Dolkiti Domicu
+		Endika Emiri Eneko Eztebe Erasmo
+		Fortun
+		Gartzia Gailo Garbixo Gizon Gogor
+		Hartz
+		Imanol Inaki Ilurdo Itsusko 
+		Jakob Joan Jurdan Jurgi
+		Koldobika Kintiliano Kardellu Konstantino
+		Lander Lope Leon Leontzio
+		Mantzio Mantxo Marko Martin Mikel Meteri Milian Munio
+		Neketi Nikolas Nizeforo
+		Oriol Obeko Otsoa Orti 
+		Paule Petri
+		Romeo
+		Sabat Samurko Santxo Sebastian Semeno
+		Tellu Thomas Txaran
+		Xemen
+		Zigor
 	}
 	female_common_first_names = {
-		Ana
-		Bizenta
-		Elbira
-		Ernestina
-		Luisa
-		Maria
-		Martina
-		Mikaela 
-		Oneka
+		Anderazo Aiora Aines Aiza Allauato Amabilia Andere Asona Auria Azeari
+		Belascuza Bertolota Betissa Bita
+		Domeca Doltza
+		Elisabet Eneka Erlea Estebenia 
+		Gisela Grazia Gutia
+		Iuxta Isabel 
+		Jakoba Johana 
+		Kostantzia Katelina
+		Loba Lucadie LuC_ia
+		Maria Maiora Markesa Martina Mikela
+		Numabela
+		Oneca Otsanda 
+		Petra
+		Santxa Semena
+		Teresa Tota
+		Urrana
 	}	
 	noble_last_names = {
-		Arana
-		Arellano
-		Imatz
-		Irujo
-		Iturmendi
-		de_Lardizabal
-		Leizaola
-		de_Olazabal
-		Pradera
+		Arana Arellano Auscus Arenosius Abisunso Acenarius
+		Benearnus Beltesonis Beltzuntze Bilboko
+		Caristius Corocotta
+		Datius Dusanhar
+		Ennecus Eximinus Elkano
+		Garssianus Goikoleakoa
+		Imatz Irujo Iturmendi Iacetanus IruN_ko
+		Jeonti
+		Lapurdiko Lazarraga Lazkanoko Loiolakoa
+		Mancius
+		Narhunges
+		Onesius Obecus Ortinus Osorius Onnatinus
+		Ptianius Petrici
+		Tarbellus
+		Umbranus
+		Vardulius Verinianus
+		Zorraquinus Zarauz
 	}
 	common_last_names={
-		Aguirre
-		Ajuriaguerra
-		Aldecoa
-		Arana
-		Aranzadi
-		Arizmendiarrieta
-		Armendariz
-		Aznar
-		Balenciaga
-		Berasategui
-		Bilbao
-		Campion
-		Churruca
-		Echague
-		Echave
-		Echegaray
-		Echevarria
-		Elordi
-		Elorza
-		Gaztaneta
-		Ibarrola
-		Ibarruri
-		Irujo
-		Lazcano
-		Mendizabal
-		Moneo
-		Nardiz
-		Olano
-		Olave
-		Oyarzabal
-		Rotaeche
-		Uzcudun
-		Zamarraga
-		Zavala
-		Zumalacarregui
-		Zarate
-		de_Amesquita
-		de_Azpilicueta
-		de_Erauso
-		de_Renteria
-		de_Ubisztongo
+		AldaC_a Arazuri Arauidio Argaiz Arantza Agin Ardit ArtaC_o Aldaico Accenarz ArC_aya
+		Beila Belatz BuC_uco Bazterra Baratz BaraC_uri Bicuondoco Bilboko
+		C_alquea Cecondi
+		Erroco Ezquiarachuria Exabita Ennechoz Ecibay Exteberri
+		Fruyto
+		Gartzea Garbixo Gutia Goldaraz Gapela Garbisen Garseanis Galinz Gardelaynngo Gentuliz
+		Herana
+		IruN_ko Iohanniz Izturitzeko Ibarguen
+		Hortis
+		Jeonti
+		Lana LupiC_ Lazarraga
+		Mitxelena Mendotz Mancius Marcoz Monioni Muxika
+		NunniC_
+		Oxarra Oteyza Oveconi OssandoC_ Ochoa OyerC_a Oker Olio OssauriC_ Ocharra Oihartzabal
+		Petrici Peritz
+		Suberria Sendoa Sagarra Sagardico Sarria Solla Sugabarra Sorrocha Sanz Santsol Sanciz Semeroz Semeniz
+		Txaran Txipi TelluC_
+		Uzcudun Usoa Urdin Urcegui Unzuquo Uassoco Ulaquidiz
+		Vazterreco VeynC_a Velasquit
+		Xoanexco
+		Yturreco
+		Zamarraga Zumalacarregui Zuria Zalduetaco
 	}
 	graphics = european
 	ethnicities = {
@@ -2847,7 +2823,7 @@ serb={
 albanian={
 	color= hsv{ 0.10 0.60 0.44 }
 	religion = nicene
-	traits = { albanian_language european_heritage }
+	traits = { illyric_heritage european_heritage albanian_language }
 	male_common_first_names={
 		Aleksander Aleksi Anastasi Augusti Aureliani Agatone Andrea Aranit Apostol
 		Bardhyli Bato
@@ -3065,7 +3041,7 @@ slovene={
 romanian={ # called Vlach in-game now. More Roman, Greek, and old Dacian influences, less straight-up German stuff. Also added in Aromanian names.
 	color= hsv{ 0.12 0.41 0.54 }
 	religion = nicene
-	traits = { romanian_culture_group romance_speaker european_heritage }
+	traits = { romanian_culture_group latin_speaker european_heritage }
 	male_common_first_names={
 		Adrian Alexandru Andrei Anton Artur Anatol Anastasiu Alexie Aureliu Ahile Avraam Andronic Alban Antim Aristide Atanasie Arcadiu Augustin Alchibiad
 		Bogdan Belizarie Bardas Blasiu Bonifaciu
@@ -4590,7 +4566,7 @@ greek={
 	# removed more modern Greek names and slipped in some more Hellenized Roman names, to emphasize the early-ERE theming a bit more strongly
 	color= hsv{ 0.94 0.45 0.48 }
 	religion = nicene
-	traits = { greek_culture latin_culture_group european_heritage }
+	traits = { greek_culture european_heritage greek_language hellenic_group }
 	
 	obsessions = {
 		wine
@@ -5598,7 +5574,7 @@ bedouin={
 berber={ # Amazigh
 	color= hsv{ 0.20 0.55 0.45 }
 	religion = nicene
-	traits = { middle_eastern_heritage } # no longer arab speaking. Slightly Romanized, if anything.
+	traits = { mauretanian north_african_heritage amazigh tamazight } 
 	male_common_first_names={
 		Ameqran Abellinut Abhau Agellid Aghilas Ahuskay Akersim Aksil Amanar Amastan Amayas Amnay Azenkwed Azenzar
 		Baragsen 
@@ -6687,7 +6663,7 @@ bengali={
 bihari={
 	color= hsv{ 0.91 0.28 0.70 }
 	religion = sunni
-	traits = { south_asian_heritage hindustani }
+	traits = { gangetic_heritage south_asian_heritage hindustani indo_aryan_language }
 	male_common_first_names={
 		Ashoka
 		Ashtravakra
@@ -6833,7 +6809,7 @@ nepali={
 oriya={
 	color= hsv{ 0.96 0.36 0.74 }
 	religion = sunni
-	traits = { south_asian_heritage hindustani }
+	traits = { gangetic_heritage south_asian_heritage hindustani indo_aryan_language }
 	male_common_first_names={
 		Birakishoredeva
 		Dibvyasimhadeva
@@ -6912,7 +6888,7 @@ sinhala={
 avadhi={
 	color= hsv{ 0.10 0.44 0.35 }
 	religion = sunni
-	traits = { south_asian_heritage hindustani }
+	traits = { gangetic_heritage south_asian_heritage hindustani indo_aryan_language }
 	male_common_first_names={
 		Ishvari
 		Jugal
@@ -6952,7 +6928,7 @@ avadhi={
 kanauji={
 	color= hsv{ 0.27 0.48 0.74 }
 	religion = sunni
-	traits = { south_asian_heritage hindustani }
+	traits = { gangetic_heritage south_asian_heritage hindustani indo_aryan_language }
 	male_common_first_names={
 		Ishvari
 		Jugal
@@ -14954,7 +14930,7 @@ tiv={
 tuareg={
 	color= hsv{ 0.60 0.62 0.84 }
 	religion = north_african_pagan
-	traits = { west_african_culture_group african_heritage }
+	traits = { mauretanian north_african_heritage amazigh tamazight }
 	male_common_first_names={
 		Abareybon
 		Ag_Mama
@@ -18498,7 +18474,7 @@ tuvan={
 corsican = { # Tried to pull a bunch of Greco-Roman names from Corsican Wikipedia
 	color= hsv{ 0.49 0.51 0.84 }
 	religion = nicene
-	traits = { european_heritage romance_speaker latin_culture_group }
+	traits = { italic_heritage european_heritage meridionalis latin_speaker latin_culture_group }
 	male_common_first_names={
 		Anghjulu Augustu Apollu Aureliu Antoninu Andria Austinu Antulinu Aristotele Apollodoru
 		Bunifaziu Bartulumeu Boeziu
@@ -18818,7 +18794,7 @@ szekely = {
 hindustani = { 
 	color = { 123 123 233 }
 	religion = hindu
-	traits = { south_asian_heritage indo_aryan_language }
+	traits = { gangetic_heritage south_asian_heritage hindustani indo_aryan_language }
 	male_common_first_names = {
 		Aakash
 		Bhanwari
@@ -18902,7 +18878,7 @@ lushai = {
 bundeli = {
 	color = { 123 222 123 }
 	religion = hindu
-	traits = { south_asian_heritage indo_aryan_language }
+	traits = { south_asian_heritage hindustani indo_aryan_language }
 	male_common_first_names = {
 		Adithya
 		Chhatrasal
@@ -19071,7 +19047,7 @@ bageli = {
 chhattisgarhi = {
 	color = { 122 22 232 }
 	religion = hindu
-	traits = { south_asian_heritage indo_aryan_language }
+	traits = { south_asian_heritage hindustani indo_aryan_language }
 	male_common_first_names = {
 		Bhupesh
 		Habib
@@ -19159,7 +19135,7 @@ naga = {
 deccani = {
 	color = { 233 222 129 }
 	religion = sunni
-	traits = { south_asian_heritage indo_aryan_language }
+	traits = { south_asian_heritage hindustani indo_aryan_language }
 	male_common_first_names = {
 		Amjad Ahmed Abdullah Aziz Awaz
 		Farhatullah
@@ -19312,7 +19288,7 @@ tamil={
 bengali={
 	color= hsv{ 0.79 0.37 0.36 }
 	religion = sunni
-	traits = { south_asian_heritage indo_aryan_language }
+	traits = { gangetic_heritage south_asian_heritage indo_aryan_language }
 	male_common_first_names={
 		Ahmad
 		Alauddin
@@ -19475,7 +19451,7 @@ marathi= {
 pathan = {
 	color= hsv{ 0.76 0.34 0.60 }
 	religion = sunni
-	traits = { central_asian_heritage indo_aryan_language }
+	traits = { central_asian_heritage hindustani indo_aryan_language }
 	male_common_first_names = {
 		Alif Abd_al-Quddus Abd_al-Rahman Abdallah Afzal Ahmad Akbar Akram Ayyub
 		Daud

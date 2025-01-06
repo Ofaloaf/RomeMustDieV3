@@ -2,7 +2,7 @@
 	is_shown = {
 		any_primary_culture = {
 			OR = {
-				has_discrimination_trait = romance_speaker
+				has_discrimination_trait = latin_speaker
 				cu:greek = this
 			}
 		}

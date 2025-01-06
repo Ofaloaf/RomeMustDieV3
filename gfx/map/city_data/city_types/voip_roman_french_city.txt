@@ -10,7 +10,7 @@
 		any_scope_state = {
 			owner = {
 				any_primary_culture = {
-					has_discrimination_trait = romance_speaker
+					has_discrimination_trait = latin_speaker
 				}
 			}
 			state_is_in_europe = yes

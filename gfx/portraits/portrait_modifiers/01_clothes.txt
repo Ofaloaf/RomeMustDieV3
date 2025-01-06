@@ -669,7 +669,7 @@
 					}
 					culture = {
 						OR = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 							has_discrimination_trait = greek_culture
 						}
 					}
@@ -746,7 +746,7 @@
 					}
 					culture = {
 						OR = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 							has_discrimination_trait = greek_culture
 						}
 					}
@@ -790,7 +790,7 @@
 					}
 					culture = {
 						OR = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 							has_discrimination_trait = greek_culture
 						}
 					}
@@ -837,7 +837,7 @@
 					}
 					culture = {
 						OR = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 							has_discrimination_trait = greek_culture
 						}
 					}
@@ -890,7 +890,7 @@
 					is_interest_group_type = ig_armed_forces
 					culture = {
 						NOR = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 							has_discrimination_trait = greek_culture
 						}
 					}
@@ -988,7 +988,7 @@
 					culture = {
 						has_discrimination_trait = european_heritage
 						OR = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 							has_discrimination_trait = greek_culture
 						}
 					}
@@ -1087,7 +1087,7 @@
 					is_pop_type = soldiers
 					culture = {
 						OR = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 							has_discrimination_trait = greek_culture
 						}
 					}
@@ -1201,7 +1201,7 @@
 					is_pop_type = officers
 					culture = {
 						OR = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 							has_discrimination_trait = greek_culture
 						}
 					}
@@ -1245,7 +1245,7 @@
 					OR = {
 						culture = {
 							OR = {
-								has_discrimination_trait = romance_speaker
+								has_discrimination_trait = latin_speaker
 								has_discrimination_trait = greek_culture
 							}
 						}
@@ -1300,7 +1300,7 @@
 				scope:pop ?= {
 					culture = {
 						NOR = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 							has_discrimination_trait = greek_culture
 						}
 					}
@@ -1345,7 +1345,7 @@
 					is_interest_group_type = ig_trade_unions
 					culture = {
 						NOR = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 							has_discrimination_trait = greek_culture
 						}
 					}
@@ -1388,7 +1388,7 @@
 						scope:pop ?= {
 							culture = {
 								NOR = {
-									has_discrimination_trait = romance_speaker
+									has_discrimination_trait = latin_speaker
 									has_discrimination_trait = greek_culture
 								}
 							}
@@ -1410,7 +1410,7 @@
 							}
 							culture = {
 								NOR = {
-									has_discrimination_trait = romance_speaker
+									has_discrimination_trait = latin_speaker
 									has_discrimination_trait = greek_culture
 								}
 							}
@@ -1461,7 +1461,7 @@
 					is_interest_group_type = ig_industrialists
 					culture = {
 						NOR = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 							has_discrimination_trait = greek_culture
 						}
 					}
@@ -1797,7 +1797,7 @@
 						}
 						culture = {
 							NOR = {
-								has_discrimination_trait = romance_speaker
+								has_discrimination_trait = latin_speaker
 								has_discrimination_trait = greek_culture
 							}
 						}
@@ -1818,7 +1818,7 @@
 				scope:character ?= {
 					culture = {
 						NOR = {
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 							has_discrimination_trait = greek_culture
 						}
 					}
@@ -2308,7 +2308,7 @@
 						has_discrimination_trait = indigenous_american_heritage
 						OR = {
 							has_discrimination_trait = eastern_woodlands
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 						}
                     }
 					OR = {
@@ -2327,7 +2327,7 @@
 						has_discrimination_trait = indigenous_american_heritage
 						OR = {
 							has_discrimination_trait = eastern_woodlands
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 						}
                     }
 					OR = {
@@ -2367,7 +2367,7 @@
 						has_discrimination_trait = indigenous_american_heritage
 						OR = {
 							has_discrimination_trait = eastern_woodlands
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 						}
 					}
 				}
@@ -2403,7 +2403,7 @@
 						has_discrimination_trait = indigenous_american_heritage
 						OR = {
 							has_discrimination_trait = eastern_woodlands
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 						}
 					}
 				}
@@ -2415,7 +2415,7 @@
 						has_discrimination_trait = indigenous_american_heritage
 						OR = {
 							has_discrimination_trait = eastern_woodlands
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 						}
                     }
 					NOR = {
@@ -2476,7 +2476,7 @@
 						has_discrimination_trait = indigenous_american_heritage
 						OR = {
 							has_discrimination_trait = eastern_woodlands
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 						}
 					}
 				}
@@ -2488,7 +2488,7 @@
 						has_discrimination_trait = indigenous_american_heritage
 						OR = {
 							has_discrimination_trait = eastern_woodlands
-							has_discrimination_trait = romance_speaker
+							has_discrimination_trait = latin_speaker
 						}
                     }
 					OR = {
