@@ -1,9 +1,4 @@
-﻿
-
-dummy_language = {
-}
-
-eastern_woodlands = {
+﻿dummy_language = {
 }
 
 # languages - parent + child, indented
@@ -29,3 +24,14 @@ hindustani = {
 
 hellenic_group = { }
 	greek_language = { }
+
+iroquoian_language = { }
+	northern_iroquoian_speaker = { }
+	tsalagi_speaker = { }
+
+siouan_languages = { }
+	catawban = { }
+	siouan_speaker = { }
+
+# indo-aryan language = { }
+	# rromani_language = { }

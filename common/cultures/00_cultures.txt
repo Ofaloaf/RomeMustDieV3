@@ -10370,7 +10370,7 @@ metis={
 dakota={
 	color= hsv{ 0.63 0.30 0.52 }
 	religion = great_spirit
-	traits = { indigenous_american_heritage north_american_group }
+	traits = { indigenous_american_heritage north_american_group siouan_speaker siouan_languages }
 	male_common_first_names={
 		Hehaka
 		Inkpaduta
@@ -10422,7 +10422,7 @@ dakota={
 cherokee={
 	color= rgb{ 105 145 40 }
 	religion = arian
-	traits = { indigenous_american_heritage eastern_woodlands }
+	traits = { eastern_woodlands indigenous_american_heritage tsalagi_speaker iroquoian_language }
 	male_common_first_names={
 		Attakullkulla Ahuludegi
 		Cheeseekau Chiksika
@@ -10472,7 +10472,7 @@ cherokee={
 muskogean={ # Creek and Seminole
 	color= hsv{ 0.27 0.2 0.67 }
 	religion = arian
-	traits = { indigenous_american_heritage eastern_woodlands }
+	traits = { eastern_woodlands indigenous_american_heritage }
 	male_common_first_names={
 		Ahaya Asi-yahola Arpiucki
 		Bolek
@@ -10910,7 +10910,7 @@ nez_perce={ # Nez Perce
 siouan={
 	color= hsv{ 0.14 0.35 0.99 }
 	religion = great_spirit
-	traits = { indigenous_american_heritage north_american_group }
+	traits = { indigenous_american_heritage north_american_group siouan_speaker siouan_languages }
 	male_common_first_names={
 		Hehaka
 		Inkpaduta
@@ -11007,7 +11007,7 @@ comanche={
 algonquian={
 	color= hsv{ 0.22 0.15 0.86 }
 	religion = great_spirit
-	traits = { indigenous_american_heritage eastern_woodlands }
+	traits = { eastern_woodlands indigenous_american_heritage }
 	male_common_first_names={
 		Catecahassa Cottawamago Cheeseekau
 		Gakiiwegwanebi 
@@ -11046,7 +11046,7 @@ algonquian={
 iroquoian={
 	color= rgb{ 233 116 10 }
 	religion = great_spirit
-	traits = { indigenous_american_heritage eastern_woodlands }
+	traits = { eastern_woodlands indigenous_american_heritage northern_iroquoian_speaker iroquoian_language }
 	male_common_first_names={
 		Akwiraron Akwirente
 		Domagaya Dewaselakeh

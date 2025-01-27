@@ -2952,7 +2952,7 @@
                 mode = add
                 gene = outfits
                 template = chinese_imperial_outfits
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0 0.5 } # targetting only male_outfit_chinese_imperial_01
             }
         }
         weight = {
@@ -3097,6 +3097,41 @@
                 east_asian_clothes_pop_trigger = yes
                 japanese_clothes_pop_trigger = no
                 upper_clothes_pop_trigger = yes                       
+            }
+        }
+    }
+
+    vietnamese_imperial_clothes = { # The emperors of Dai Viet Nam also wore yellow and the five-clawed dragon, just not in quite the same style as the Qing emperors did
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = chinese_imperial_outfits
+                range = { 0.5 1 } # targetting only male_outfit_chinese_imperial_02
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1100
+
+                scope:character ?= {
+                    OR = {
+                        is_ruler = yes
+                        is_heir = yes
+                    }
+                    owner ?= {
+                        has_law = law_type:law_monarchy
+                    }
+                    OR = {
+                        culture = {
+                            cu:vietnamese = this
+                        }
+                        owner ?= {
+                            c:DAI ?= this
+                        }
+                    }
+                }
             }
         }
     }
@@ -3962,6 +3997,33 @@
                         clergy_clothes_pop_trigger = yes
                     }
                 }
+            }
+        }
+    }
+
+    indian_buddhist_clergy_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = outfit_indian_buddhist
+                range = { 0 1 }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                OR = {
+                    indian_clothes_pop_trigger = yes
+                    scope:pop ?= {
+                        culture = {
+                            has_discrimination_trait = southeast_asian_heritage
+                        }
+                    }
+                }
+                buddhist_clothes_pop_trigger = yes
+                clergy_clothes_pop_trigger = yes
             }
         }
     }

@@ -140,6 +140,7 @@
 				index = 5
 				male = {
 					1 = male_outfit_chinese_imperial_01
+					1 = male_outfit_chinese_imperial_02
 				}
 				female = {
 					1 = female_outfit_chinese_01_high
@@ -1021,6 +1022,18 @@
 				#
 			}
 			
+			boy = male
+			girl = female
+		}
+
+		outfit_indian_buddhist = {
+			index = 63
+			male = {
+				1 = male_outfit_indian_buddhist_01
+			}
+			female = {
+				1 = female_outfit_indian_buddhist
+			}
 			boy = male
 			girl = female
 		}

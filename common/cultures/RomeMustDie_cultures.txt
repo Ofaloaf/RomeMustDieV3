@@ -68,6 +68,7 @@
 		Zorzi Zuanello
 	}
 	
+#	# nobles are more classical
 #	male_noble_first_names = {
 #		Alexander Amadeus Andromachus Antoninus Apollinaris Antonius
 #		Bassus Benignus
@@ -185,6 +186,7 @@
 	graphics = european
 }
 
+# Franks are Old Dutch
 frankish={
 	color= hsv{ 0.88 0.84 0.56 }
 	religion = arian
@@ -563,6 +565,7 @@ gallic = { # Old French, plus some Old Occitan influences
 	graphics = european
 }
 
+# Old Occitan
 septimanian={
 	color= rgb{ 255 150 185 }
 	religion = nicene
@@ -844,7 +847,7 @@ hispanian = {
 chesepian = {
 	color={ 110 80 55 }
 	religion = nicene
-	traits = { indigenous_american_heritage romanice latin_speaker }
+	traits = { eastern_woodlands indigenous_american_heritage romanice latin_speaker }
 	male_common_first_names = {
 		Achilles Alexander
 		Cincinnatus Cornelius Constantinus
@@ -1216,7 +1219,7 @@ africanu = { # African Romance, with some Vandals
 ojibwe={
     color= hsv{ 0.66 0.15 0.86 }
     religion = great_spirit
-    traits = { indigenous_american_heritage eastern_woodlands }
+    traits = { eastern_woodlands indigenous_american_heritage }
     male_common_first_names = {
         Aandegwiiyaas Asanagoo Ahmoo 
         Baazhi-giizhigweshkam Bagwunagijik
@@ -1328,7 +1331,7 @@ antian = { # Andean
 lenape={
     color= hsv{ 0.86 0.66 0.15 }
     religion = nicene
-    traits = { indigenous_american_heritage eastern_woodlands }
+    traits = { eastern_woodlands indigenous_american_heritage }
     male_common_first_names = {
 		Acchipoor Apperingues Ambehoes Amoneino
 		Buckongahelas Beoppo
@@ -1391,7 +1394,7 @@ lenape={
 catawba = {
 	color= rgb{ 10 116 233 }
 	religion = nicene
-	traits = { indigenous_american_heritage eastern_woodlands }
+	traits = { eastern_woodlands indigenous_american_heritage catawban siouan_languages }
 
 	male_common_first_names = {
 		Arataswa Astugah
@@ -2075,7 +2078,7 @@ hunnic={
 	# Latinized Hun names, some Hunnic successor tribes, Bashkirs, Latinized Magyar names
 	common_last_names = {
 		Akatzir Avnagur Avgar Almus Aba
-		Bozton Berichus
+		Bozton Berichus Bocatius
 		Cupan
 		Donatus
 		Emericus
@@ -2086,13 +2089,13 @@ hunnic={
 		Laudaricus LiU_ntika
 		Mundus Menumorut
 		Negmen
-		Onegesius
+		Onegesius Omodeus
 		Phalitzi Prokui
 		Scottas Saragurus Scirus
 		Torda Turcilingus Tarmaxy Taxis Tarkatzus Tebeles Tas
 		Vittoreus Vazul
 		Yulaman Yeney Yurmati
-		ZemE_ny Zaltas Zyrind
+		ZemE_ny Zaltas Zyrind Zarevutius
 	}
 	
 	graphics = european
@@ -3119,4 +3122,73 @@ romankim={
 		1 = slavic
 	}
 	graphics = european
+}
+
+cham={
+	color= rgb{ 255 174 201 }
+	religion = hindu
+	traits = { sinosphere southeast_asian_heritage }
+	male_common_first_names={
+		A_Nan Angsaraja
+		Chi
+		Dat
+		Harideva
+		Jatamah Jamlen
+		Ly
+		Mo Man
+		Nraup Nang
+		Rome Rasunandana
+		Sajan Saya Sajai
+	}
+	female_common_first_names = {
+		Bhaskaradevi
+		Gaurendraksmi
+		Mul
+		Paramecvari Paramaratnastri
+		Surendradevi SU_ryadevI_ SuryalaksM_I_
+		Tribhuvanadevi Tapasi
+	}	
+	common_last_names = {
+		Amath Amu
+		Bounthong
+		Che
+		Kosem
+		Le
+		On
+		Po Panduranga
+		Raden
+		Touneh
+		Yeu Yue
+	}
+	noble_last_names = {
+		Amath 
+		Bhrgu
+		Che
+		Gangaraja
+		Jaya
+		Maha
+		Oknha On
+		Pralayeshvara Po
+		Raden
+		Uroja 
+		Vicitrasagara Vrsu
+	}
+	male_regnal_first_names = {
+		Angsaraja
+		Bhadravarman
+		Ganuhpatih
+		Harivarman
+		Indravarman
+		Mahendravarman
+		Paramesvaravarman 
+		Rajadvara
+		Saktiraydapatih Saut Saktiraydapaghoh Simhavarman 
+		Vikrantavarman
+	}
+	common_last_names={
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
 }

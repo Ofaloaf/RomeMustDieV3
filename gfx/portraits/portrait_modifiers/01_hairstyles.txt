@@ -238,14 +238,37 @@
             base = 0
             modifier = {
                 add = 1100
-                AND = {
-                    exists = scope:pop
-                    scope:pop = {
-                        religion = {
-                            has_discrimination_trait = buddhist
+
+                scope:pop ?= {
+                    religion = {
+                        has_discrimination_trait = buddhist
+                    }
+                    owner = {
+                        ig:ig_devout = {
+                            NOT = {
+                                has_ideology = ideology:ideology_confucian
+                            }
                         }
                     }
-                    clergy_clothes_pop_trigger = yes
+                }
+                clergy_clothes_pop_trigger = yes
+            }
+            modifier = {
+                add = 1100
+                politician_clothes_trigger = yes
+                devout_clothes_trigger = yes
+
+                scope:character ?= {
+                    religion = {
+                        has_discrimination_trait = buddhist
+                    }
+                    owner = {
+                        ig:ig_devout = {
+                            NOT = {
+                                has_ideology = ideology:ideology_confucian
+                            }
+                        }
+                    }
                 }
             }
         }
